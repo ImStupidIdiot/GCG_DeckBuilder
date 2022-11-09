@@ -1,0 +1,37 @@
+.charCardDefault {
+    background-color: white;
+    border: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.charCardClicked {
+    background-color: white;
+    border-radius: 15px;
+    border-width: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.charLibraryBackground {
+    height: 600px;
+    width: 600px;
+    background-color: white;
+    border-radius: 25px;
+}
+
+.charLibraryColumn {
+    height: 200px;
+    width: 200px;
+}
+
+.charLibraryRow {
+    height: 200px;
+    width: 600px;
+}
+
+.purpleBackground {
+    background-color: white;
+    width: 900px;
+    height: 800px;
+}
