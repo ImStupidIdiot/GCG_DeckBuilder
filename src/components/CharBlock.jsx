@@ -6,17 +6,23 @@ class Char_Block extends Component {
         super(props);
         this.state = { counter: 1 }
     }
+
     render() {
-        if (this.state.counter > 0) {
-        return <button className='ActionBlock' onClick={() => {
-            this.setState({counter: this.state.counter - 1})
-            this.props.removeFromDeck(this.props.name)
-        }
-        }><img src={this.props.url} height="90" width="90"></img></button>
-        }
-        else {
-            return
-        }
+        // if (this.state.counter > 0) {
+        return <button 
+            className='CharBlock' 
+            onClick={() => 
+                {
+                    this.props.removeFromDeck(this.props.name)
+                }
+            }
+            hidden={this.state.counter == 0}
+        >
+            <img src={this.props.url} alt='hello' height="90" width="90"></img></button>
+        // }
+        // else {
+        //     return 
+        // }
     }
 }
 

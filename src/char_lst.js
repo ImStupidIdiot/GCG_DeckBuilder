@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from './components/card';
-import Deck from './components/deck';
+import Deck from './components/Deck';
 import Ganyu_Card from './images/Ganyu_Card.webp';
 import Kaeya_Card from './images/Kaeya_Card.webp';
 import Chongyun_Card from './images/Chongyun_Card.webp';

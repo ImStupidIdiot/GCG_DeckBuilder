@@ -8,35 +8,31 @@ import './scss/library.css';
 class Main extends Component {
     constructor(props) {
         super(props);
-        this.state = {current_chars: [], current_char_blocks: []};
+        this.state = {current_chars: []};
         this.addToDeck = this.addToDeck.bind(this);
         this.removeFromDeck = this.removeFromDeck.bind(this);
     }
 
     addToDeck(char) {
+        console.log(this.state.current_chars)
         var char_on = this.state.current_chars
-        if (char_on.length >= 3){
+        if (this.state.current_chars.length >= 3){
             return false;
         }
-        char_on.push(char)
-        var char_block_on = this.state.current_char_blocks
+        char_on.push(char);
         this.setState({current_chars: char_on});
-        this.setState({current_char_blocks: char_block_on})
         return true;
     }
 
     removeFromDeck(char) {
         var char_off = this.state.current_chars
-        var char_block_off = this.state.current_char_blocks
         if (char_off.length <= 0) {
             return false;
         }
         var return_list = []
-        var return_block_list = []
         for (var i = 0; i < char_off.length; i++) {
             if (char_off[i] != char) {
                 return_list.push(char_off[i])
-                return_block_list.push(char_block_off[i])
             }
         }
         this.setState({current_chars: return_list});
@@ -68,7 +64,7 @@ class Main extends Component {
             <Container>
                 <Row> 
                     <Col xs ={9}>
-                        < Library addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck}/>
+                        <Library current_chars={this.state.current_chars} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck}/>
                     </Col>
                     <Col xs={3}>
                         <Deck current_chars={this.state.current_chars} removeFromDeck={this.removeFromDeck}/>

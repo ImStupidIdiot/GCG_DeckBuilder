@@ -8,7 +8,7 @@ class Char extends Component {
     }
 
     render() {  
-        if (this.state.counter === 0) {
+        if (!this.props.isInDeck) {
             return (
                 <div> 
                     <p> </p>
@@ -16,9 +16,7 @@ class Char extends Component {
                         className="charCardDefault" 
                         onClick={
                             () => {
-                                if (this.props.addToDeck(this.props.name)) {
-                                this.setState({counter: 1})
-                                }
+                                this.props.addToDeck(this.props.name)
                             }
                         }
                     > 
@@ -30,9 +28,7 @@ class Char extends Component {
         else {      
             return (
                 <div> <p> </p><button className="charCardClicked" onClick={() => {
-                    if (this.props.removeFromDeck(this.props.name)) {
-                        this.setState({counter: 0})
-                    }
+                    this.props.removeFromDeck(this.props.name)
                 }
                 }> 
                     <img src={this.props.url2} width="135" height="230"></img> </button></div>
@@ -41,8 +37,5 @@ class Char extends Component {
     }
 }
 
-export function getCounter(instance) {
-    return instance.state.counter;
-}
 
 export default Char;
