@@ -35,3 +35,20 @@
     width: 900px;
     height: 800px;
 }
+
+.toggleElement {
+    border: 0px;
+    background-color: white;
+    padding: 0;
+}
+
+.toggleFaction {
+    border: 0px;
+    background-color: white;
+    padding: 0;
+}
+
+
+.toggleImg {
+    width: 50px;
+}

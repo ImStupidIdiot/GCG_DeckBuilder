@@ -8,6 +8,7 @@ class Char extends Component {
     }
 
     render() {  
+        if (this.props.isDisplayed) {
         if (!this.props.isInDeck) {
             return (
                 <div> 
@@ -34,6 +35,7 @@ class Char extends Component {
                     <img src={this.props.url2} width="135" height="230"></img> </button></div>
             );
         }
+    }
     }
 }
 

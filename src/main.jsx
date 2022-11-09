@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Library from './components/Library'
 import Deck from './components/Deck';
-
+import Toggle from './components/Toggle';
 import { Col, Row, Container } from 'react-bootstrap';
 import './scss/library.css';
 
@@ -14,7 +14,6 @@ class Main extends Component {
     }
 
     addToDeck(char) {
-        console.log(this.state.current_chars)
         var char_on = this.state.current_chars
         if (this.state.current_chars.length >= 3){
             return false;
