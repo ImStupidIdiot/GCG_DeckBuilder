@@ -9,7 +9,18 @@ import Ayaka_Icon from './images/Ayaka_Icon.png'
 import Xingqiu_Card from './images/Xingqiu_Card.webp'
 import Xingqiu_Icon from './images/Xingqiu_Icon.png'
 import Mona_Icon from './images/Mona_Icon.png'
+import Diluc_Icon from './images/Diluc_Icon.png'
+import Xiangling_Icon from './images/Xiangling_Icon.png'
+import Bennett_Icon from './images/Bennett_Icon.png'
+import Yoimiya_Icon from './images/Yoimiya_Icon.png'
+import Fischl_Icon from './images/Fischl_Icon.png'
+import Razor_Icon from './images/Razor_Icon.png'
+import Keqing_Icon from './images/Keqing_Icon.png'
+import Sucrose_Icon from './images/Sucrose_Icon.png'
+import Jean_Icon from './images/Jean_Icon.png'
+
 import Nullchar_Icon from './images/Nullchar_Icon.png'
+
 
 import Cryo_Sort from './images/Cryo_Sort.png'
 import Dendro_Sort from './images/Dendro_Sort.png'
@@ -77,47 +88,65 @@ const db = {
         "diluc": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330006.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
-            "icon": Xingqiu_Icon
+            "icon": Diluc_Icon,
+            "element": 'pyro',
+            "region": 'mond'
         },
         "xiangling": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330007.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334007.webp',
-            "icon": Xingqiu_Icon
+            "icon": Xiangling_Icon,
+            "element": 'pyro',
+            "region": 'liyue'
         },
         "bennett": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330008.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
-            "icon": Xingqiu_Icon
+            "icon": Bennett_Icon,
+            "element": 'pyro',
+            "region": 'mond'
         },
         "yoimiya": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330010.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334010.webp',
-            "icon": Xingqiu_Icon
+            "icon": Yoimiya_Icon,
+            "element": 'pyro',
+            "region": 'inazuma'
         },
         "fischl": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330011.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
-            "icon": Xingqiu_Icon
+            "icon": Fischl_Icon,
+            "element": 'electro',
+            "region": 'mond'
         },
         "razor": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330012.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
-            "icon": Xingqiu_Icon
+            "icon": Razor_Icon,
+            "element": 'electro',
+            "region": 'mond'
         },
         "keqing": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334013.webp',
-            "icon": Xingqiu_Icon
+            "icon": Keqing_Icon,
+            "element": 'electro',
+            "region": 'liyue'
         },
         "sucrose": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330014.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
-            "icon": Xingqiu_Icon
+            "icon": Sucrose_Icon,
+            "element": 'anemo',
+            "region": 'mond'
         },
         "jean": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330015.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334015.webp',
-            "icon": Xingqiu_Icon
+            "icon": Jean_Icon,
+            "element": 'anemo',
+            "region": 'mond'
         },
     },
 
