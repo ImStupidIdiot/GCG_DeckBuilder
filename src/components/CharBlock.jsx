@@ -4,7 +4,7 @@ import '../scss/deck.css';
 class Char_Block extends Component {
     constructor(props) {
         super(props);
-        this.state = { counter: 1 }
+        this.state = { counter: 1, height: '90', width: '90'}
     }
 
     render() {
@@ -18,7 +18,16 @@ class Char_Block extends Component {
             }
             hidden={this.state.counter == 0}
         >
-            <img src={this.props.url} alt='hello' height="90" width="90"></img></button>
+            <img src={this.props.url} alt='hello' height={this.state.height} width={this.state.width} onMouseEnter={ () => {
+                this.setState({height: '95'})
+                this.setState({width: '95'})
+            }
+            } onMouseLeave={ () => {
+                this.setState({height: '90'})
+                this.setState({width: '90'})
+            }
+            }
+            ></img></button>
         // }
         // else {
         //     return 

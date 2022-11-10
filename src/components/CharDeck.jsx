@@ -3,6 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 import CharBlock from './CharBlock';
 import XingqiuIcon from '../images/Xingqiu_Icon.png';
 import db from '../db'
+import '../scss/deck.css';
 
 class CharDeck extends Component {
     constructor(props) {
@@ -15,7 +16,7 @@ class CharDeck extends Component {
             chars[a] = <CharBlock name={chars[a]} url={db.chars[chars[a]].icon} removeFromDeck={this.props.removeFromDeck} />
         }
         for (var i = this.props.current_chars.length; i < 3; i++) {
-            chars.push(<img src={db.nullchar.icon} height="90" width="90"/>)
+            chars.push(<img src={db.nullchar.icon} className='nullCharBlock'/>)
         }
 
         return (

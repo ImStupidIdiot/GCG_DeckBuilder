@@ -1,16 +1,17 @@
 .charCardDefault {
     background-color: white;
     border: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 235px;
+    width: 138px;
+    padding: 0px;
 }
 
 .charCardClicked {
     background-color: white;
-    border-radius: 15px;
     border-width: 0px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    height: 235px;
+    width: 138px;
+    padding: 0px;
 }
 
 .charLibraryBackground {
@@ -50,5 +51,21 @@
 
 
 .toggleImg {
-    width: 50px;
+    width: 70px;
+    padding-bottom: 10px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.scrollbox {
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+    width:1000px;
+    height:700px;
+}
+
+.scrollbox::-webkit-scrollbar { 
+    width: 0;
+    height: 0;
 }

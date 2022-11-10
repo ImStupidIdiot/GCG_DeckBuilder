@@ -6,5 +6,13 @@
 .CharBlock {
     background-color: white;
     border-width: 0px;
-    padding: 0;
+    padding: 0px;
+    height: 95px;
+    width:95px;
+}
+
+.nullCharBlock {
+    height: 95px;
+    width:95px;
+    padding: 2.5px;
 }

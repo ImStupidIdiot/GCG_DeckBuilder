@@ -11,7 +11,14 @@ class Toggle extends Component {
         return (<div> 
             <button className='toggleElement' onClick={() => {
                 this.props.changeToggle('element', 'pyro')
-            }}><img src={db.elements.pyro} className='toggleImg'/></button>
+            }}><img src={db.elements.pyro} className='toggleImg' 
+            onMouseEnter={() =>
+                console.log('i hate it in here')
+            }
+            onMouseLeave={() =>
+                console.log('wtf')
+            }
+            /></button>
             <button className='toggleElement' onClick={() => {
                 this.props.changeToggle('element', 'hydro')
             }}><img src={db.elements.hydro} className='toggleImg'/></button>
@@ -30,18 +37,25 @@ class Toggle extends Component {
             <button className='toggleElement' onClick={() => {
                 this.props.changeToggle('element', 'geo')
             }}><img src={db.elements.geo} className='toggleImg'/></button>
-            <button className='toggleElement' onClick={() => {
-                this.props.changeToggle('element', 'all')
-            }}><img src={db.elements.noelement} className='toggleImg'/></button>
-            <button className='toggleFaction' onClick={() => {
-                this.props.changeToggle('region', 'liyue')
-            }}><img src={db.factions.liyue} className='toggleImg'/></button>
             <button className='toggleFaction' onClick={() => {
                 this.props.changeToggle('region', 'mond')
             }}><img src={db.factions.mondstadt} className='toggleImg'/></button>
             <button className='toggleFaction' onClick={() => {
-                this.props.changeToggle('region', 'all')
-            }}><img src={db.factions.hilichurl} className='toggleImg'/></button>
+                this.props.changeToggle('region', 'liyue')
+            }}><img src={db.factions.liyue} className='toggleImg'/></button>
+            <button className='toggleFaction' onClick={() => {
+                this.props.changeToggle('region', 'inazuma')
+            }}><img src={db.factions.inazuma} className='toggleImg'/></button>
+            <button className='toggleFaction' onClick={() => {
+                this.props.changeToggle('region', 'sumeru')
+            }}><img src={db.factions.sumeru} className='toggleImg'/></button>
+            <button className='toggleFaction' onClick={() => {
+                this.props.changeToggle('region', 'fatui')
+            }}><img src={db.factions.fatui} className='toggleImg'/></button>
+            <button className='toggleFaction' onClick={() => {
+                this.props.changeToggle('region', 'monster')
+            }}><img src={db.factions.monster} className='toggleImg'/></button>
+            
         </div>)
     }
 }
