@@ -31,99 +31,99 @@ import Sumeru_Sort from './images/Sumeru_Sort.png'
 
 
 const db = {
-    "ganyu": {
-        "card": Ganyu_Card,
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334000.webp',
-        "icon": Ganyu_Icon,
-        "element": 'cryo',
-        "region": 'liyue'
+    "chars": {
+        "ganyu": {
+            "card": Ganyu_Card,
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334000.webp',
+            "icon": Ganyu_Icon,
+            "element": 'cryo',
+            "region": 'liyue'
+        },
+        "kaeya": {
+            "card": Kaeya_Card,
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
+            "icon": Kaeya_Icon,
+            "element": 'cryo',
+            "region": 'mond'
+        },
+        "chongyun": {
+            "card": Chongyun_Card,
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334002.webp',
+            "icon": Chongyun_Icon,
+            "element": 'cryo',
+            "region": 'liyue'
+        },
+        "ayaka": {
+            "card": Ayaka_Card,
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334003.webp',
+            "icon": Ayaka_Icon,
+            "element": 'cryo',
+            "region": 'inazuma'
+        },
+        "xingqiu": {
+            "card": Xingqiu_Card,
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
+            "icon": Xingqiu_Icon,
+            "element": 'hydro',
+            "region": 'liyue'
+        },
+        "mona": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330005.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334005.webp',
+            "icon": Mona_Icon,
+            "element": 'hydro',
+            "region": 'mond'
+        },
+        "diluc": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330006.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
+            "icon": Xingqiu_Icon
+        },
+        "xiangling": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330007.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334007.webp',
+            "icon": Xingqiu_Icon
+        },
+        "bennett": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330008.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
+            "icon": Xingqiu_Icon
+        },
+        "yoimiya": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330010.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334010.webp',
+            "icon": Xingqiu_Icon
+        },
+        "fischl": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330011.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
+            "icon": Xingqiu_Icon
+        },
+        "razor": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330012.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
+            "icon": Xingqiu_Icon
+        },
+        "keqing": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334013.webp',
+            "icon": Xingqiu_Icon
+        },
+        "sucrose": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330014.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
+            "icon": Xingqiu_Icon
+        },
+        "jean": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330015.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334015.webp',
+            "icon": Xingqiu_Icon
+        },
     },
-    "kaeya": {
-        "card": Kaeya_Card,
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
-        "icon": Kaeya_Icon,
-        "element": 'cryo',
-        "region": 'mond'
-    },
-    "chongyun": {
-        "card": Chongyun_Card,
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334002.webp',
-        "icon": Chongyun_Icon,
-        "element": 'cryo',
-        "region": 'liyue'
-    },
-    "ayaka": {
-        "card": Ayaka_Card,
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334003.webp',
-        "icon": Ayaka_Icon,
-        "element": 'cryo',
-        "region": 'inazuma'
-    },
-    "xingqiu": {
-        "card": Xingqiu_Card,
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
-        "icon": Xingqiu_Icon,
-        "element": 'hydro',
-        "region": 'liyue'
-    },
-    "mona": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330005.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334005.webp',
-        "icon": Mona_Icon,
-        "element": 'hydro',
-        "region": 'mond'
-    },
-    "diluc": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330006.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
-        "icon": Xingqiu_Icon
-    },
-    "xiangling": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330007.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334007.webp',
-        "icon": Xingqiu_Icon
-    },
-    "bennett": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330008.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
-        "icon": Xingqiu_Icon
-    },
-    "yoimiya": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330009.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334009.webp',
-        "icon": Xingqiu_Icon
-    },
-    "fischl": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330010.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334010.webp',
-        "icon": Xingqiu_Icon
-    },
-    "razor": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330011.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
-        "icon": Xingqiu_Icon
-    },
-    "keqing": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330012.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
-        "icon": Xingqiu_Icon
-    },
-    "sucrose": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334013.webp',
-        "icon": Xingqiu_Icon
-    },
-    "jean": {
-        "card": 'https://genshin.honeyhunterworld.com/img/i_n330014.webp',
-        "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
-        "icon": Xingqiu_Icon
-    },
-
 
     "nullchar": {
         "icon": Nullchar_Icon
     },
-
 
     "elements": {
         'anemo': Anemo_Sort,

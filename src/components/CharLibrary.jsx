@@ -13,7 +13,7 @@ import Ayaka_Card from '../images/Ayaka_Card.webp';
 import Xingqiu_Card from '../images/Xingqiu_Card.webp';
 
 
-class CharLibrary extends Component {     
+class CharLibrary extends Component {  
     constructor(props) {
         super(props);
         this.isInDeck = this.isInDeck.bind(this);
@@ -23,21 +23,11 @@ class CharLibrary extends Component {
         return this.props.current_chars.includes(char)
     }
 
-    render() {    
+    render() {
+        const cl = this.props.displayChars.map((char) => <Col xs={2} key={char+"-column"}> <Char name={char} key={char} url={db.chars[char].card} url2={db.chars[char].card_selected} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck(char)} isDisplayed={this.props.displayChars.includes(char)} /> </Col>)
         return (
             <Row>
-                <Col xs={2}>
-                    <Char name='ganyu' url={db.ganyu.card} url2={db.ganyu.card_selected} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck('ganyu')} isDisplayed={this.props.displayChars.includes('ganyu')}/>
-                    <Char name='ayaka' url={Ayaka_Card} url2='https://genshin.honeyhunterworld.com/img/i_n334003.webp' addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck('ayaka')} isDisplayed={this.props.displayChars.includes('ayaka')}/>
-                </Col>
-                <Col xs={2}>
-                    <Char name='kaeya' url={Kaeya_Card} url2='https://genshin.honeyhunterworld.com/img/i_n334001.webp' addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck('kaeya')} isDisplayed={this.props.displayChars.includes('kaeya')}/>
-                    <Char name='xingqiu' url={Xingqiu_Card} url2='https://genshin.honeyhunterworld.com/img/i_n334004.webp' addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck('xingqiu')} isDisplayed={this.props.displayChars.includes('xingqiu')}/>
-                </Col>
-                <Col xs={2}>
-                    <Char name='chongyun' url={Chongyun_Card} url2='https://genshin.honeyhunterworld.com/img/i_n334002.webp' addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck('chongyun')} isDisplayed={this.props.displayChars.includes('chongyun')}/>
-                    <Char name='mona' url={db.mona.card} url2={db.mona.card_selected} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck('mona')} isDisplayed={this.props.displayChars.includes('mona')}/>
-                </Col>
+                {cl}
             </Row>
         )
     }

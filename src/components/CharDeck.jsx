@@ -12,7 +12,7 @@ class CharDeck extends Component {
     render() {
         var chars = [...this.props.current_chars];
         for (var a = 0; a < chars.length; a++) {
-            chars[a] = <CharBlock name={chars[a]} url={db[chars[a]].icon} removeFromDeck={this.props.removeFromDeck} />
+            chars[a] = <CharBlock name={chars[a]} url={db.chars[chars[a]].icon} removeFromDeck={this.props.removeFromDeck} />
         }
         for (var i = this.props.current_chars.length; i < 3; i++) {
             chars.push(<img src={db.nullchar.icon} height="90" width="90"/>)
