@@ -8,9 +8,11 @@ import './scss/library.css';
 class Main extends Component {
     constructor(props) {
         super(props);
-        this.state = {current_chars: []};
+        this.state = {current_chars: [], current_actions: []};
         this.addToDeck = this.addToDeck.bind(this);
         this.removeFromDeck = this.removeFromDeck.bind(this);
+        this.addToDeckAction = this.addToDeckAction.bind(this);
+        this.removeFromDeckAction = this.removeFromDeckAction.bind(this);
     }
 
     addToDeck(char) {
@@ -38,35 +40,41 @@ class Main extends Component {
         return true;
         }
 
+    addToDeckAction(action) {
+        var action_on = this.state.current_actions
+        if (this.state.current_actions.length >= 30){
+            return false;
+        }
+        action_on.push(action);
+        this.setState({current_actions: action_on});
+        return true;
+    }
+
+    removeFromDeckAction(action) {
+        var action_off = this.state.current_actions
+        if (action_off.length <= 0) {
+            return false;
+        }
+        var return_list = []
+        for (var i = 0; i < action_off.length; i++) {
+            if (action_off[i] != action) {
+                return_list.push(action_off[i])
+            }
+        }
+        this.setState({current_actions: return_list});
+        return true;
+        }
+
     render() { 
-        // this.printed = [];  // should be moved to char_block, so we can make each one an object
-        // for (var i = 0; i < this.state.current_chars.length; i++) {
-        //     console.log(this.printed)
-        //     this.printed.push(<Char_Block url={GanyuIcon} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck}/>) //change this to a char_block object, also change source to sometihng else like a key
-        // }
-        // if (this.state.current_chars.includes('ganyu')) {
-        //     this.printed.push(<img key="ganyu" src={GanyuIcon} height="90" width ="90"></img>);
-        // }
-        // if (this.state.current_chars.includes('kaeya')) {
-        //     this.printed.push(<img key="kaeya" src={KaeyaIcon} height="90" width ="90"></img>);
-        // }
-        // if (this.state.current_chars.includes('chongyun')) {
-        //     this.printed.push(<img key="chongyun" src={ChongyunIcon} height="90" width ="90"></img>)
-        // }
-        // if (this.state.current_chars.includes('ayaka')) {
-        //     this.printed.push(<img key="ayaka" src={AyakaIcon} height="90" width ="90"></img>)
-        // }
-        // if (this.state.current_chars.includes('xingqiu')) {
-        //     this.printed.push(<img key="xingqiu" src={XingqiuIcon} height="90" width ="90"></img>)
-        // }
+        console.log(this.state.current_actions)
         return (
             <Container>
                 <Row> 
                     <Col xs ={9}>
-                        <Library current_chars={this.state.current_chars} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck}/>
+                        <Library current_chars={this.state.current_chars} current_actions={this.state.current_actions} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction}/>
                     </Col>
                     <Col xs={3}>
-                        <Deck current_chars={this.state.current_chars} removeFromDeck={this.removeFromDeck}/>
+                        <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction}/>
                     </Col>
                 </Row>
             </Container>

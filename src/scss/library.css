@@ -65,7 +65,6 @@
     overflow-y: scroll;
     scrollbar-width: none; 
     -ms-overflow-style: none;  
-    width:1000px;
     height:700px;
 }
 

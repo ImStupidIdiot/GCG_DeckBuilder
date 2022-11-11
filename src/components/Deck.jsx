@@ -9,7 +9,7 @@ class Deck extends Component {
         return (
             <Container>
                 <CharDeck current_chars={this.props.current_chars} removeFromDeck={this.props.removeFromDeck}/>
-                <ActionDeck />
+                <ActionDeck current_actions={this.props.current_actions} removeFromDeck={this.props.removeFromDeckAction}/>
             </Container>
         )
     }

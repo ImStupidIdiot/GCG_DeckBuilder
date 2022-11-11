@@ -59,6 +59,11 @@ import Mond_Sort from './images/Mond_Sort.png'
 import Monster_Sort from './images/Monster_Sort.png'
 import Sumeru_Sort from './images/Sumeru_Sort.png'
 
+import Action_Toggle from './images/Action_Toggle.png'
+
+
+import Action_Block_Test from './images/Action_Block_Test.png'
+
 
 const db = {
     "chars": {
@@ -253,6 +258,72 @@ const db = {
         },
     },
 
+    "actions": {
+        "magicguide": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331000.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335000.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 2
+        },
+        "ravenbow": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331003.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335003.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 2
+        },
+        "whiteirongs": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331006.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335006.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 2
+        },
+        "sacfrags": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331001.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335001.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 3
+        },
+        "sacbow": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331004.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335004.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 3
+        },
+        "sacgs": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331007.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335007.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 3
+        },
+        "skywardatlas": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331002.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335002.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 3
+        },
+        "skywardharp": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331005.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335005.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 3
+        },
+        "wgs": {
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n331008.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335008.webp',
+            "icon": Action_Block_Test,
+            "type": 'weapon',
+            "cost": 3
+        },
+    },
+
     "nullchar": {
         "icon": Nullchar_Icon
     },
@@ -284,6 +355,11 @@ const db = {
         'mondstadt': Mond_Sort,
         'monster': Monster_Sort,
         'sumeru': Sumeru_Sort,
+    },
+
+    "misc": {
+        'char_toggle': Anemo_Sort,
+        "action_toggle": Anemo_Sort_Activated
     }
 }
 
