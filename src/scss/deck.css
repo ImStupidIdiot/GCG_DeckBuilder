@@ -1,10 +1,10 @@
 .ActionBlock {
-    background-color: white;
+    background: rgba(0,0,0,0);
     border-width: 0px;
 }
 
 .CharBlock {
-    background-color: white;
+    background: rgba(0,0,0,0);
     border-width: 0px;
     padding: 0px;
     height: 95px;
@@ -12,6 +12,7 @@
 }
 
 .nullCharBlock {
+    background: rgba(0,0,0,0);
     height: 95px;
     width:95px;
     padding: 2.5px;

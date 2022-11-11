@@ -1,5 +1,5 @@
 .charCardDefault {
-    background-color: white;
+    background: rgba(0,0,0,0);
     border: 0px;
     height: 235px;
     width: 138px;
@@ -7,7 +7,7 @@
 }
 
 .charCardClicked {
-    background-color: white;
+    background: rgba(0,0,0,0);
     border-width: 0px;
     height: 235px;
     width: 138px;
@@ -17,7 +17,7 @@
 .charLibraryBackground {
     height: 600px;
     width: 600px;
-    background-color: white;
+    background: rgba(0,0,0,0);
     border-radius: 25px;
 }
 
@@ -32,14 +32,14 @@
 }
 
 .purpleBackground {
-    background-color: white;
+    background: rgba(0,0,0,0);
     width: 900px;
     height: 800px;
 }
 
 .toggleElement {
     border: 0px;
-    background-color: white;
+    background: rgba(0,0,0,0);
     height:80px;
     width:80px;
     padding: 0;
@@ -47,12 +47,13 @@
 
 .toggleFaction {
     border: 0px;
-    background-color: white;
+    background: rgba(0,0,0,0);
     padding: 0;
 }
 
 
 .toggleImg {
+    background: rgba(0,0,0,0);
     width: 70px;
     padding-bottom: 10px;
     padding-left: 3px;
@@ -60,6 +61,7 @@
 }
 
 .scrollbox {
+    background: rgba(0,0,0,0);
     overflow-y: scroll;
     scrollbar-width: none; 
     -ms-overflow-style: none;  
@@ -68,6 +70,7 @@
 }
 
 .scrollbox::-webkit-scrollbar { 
+    background: rgba(0,0,0,0);
     width: 0;
     height: 0;
 }
