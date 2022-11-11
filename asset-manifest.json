@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GCG_DeckBuilder/static/css/main.435fa9bf.css",
-    "main.js": "/GCG_DeckBuilder/static/js/main.6500e2d8.js",
+    "main.css": "/GCG_DeckBuilder/static/css/main.049db178.css",
+    "main.js": "/GCG_DeckBuilder/static/js/main.f9f705d9.js",
     "static/media/Action_Block_Test.png": "/GCG_DeckBuilder/static/media/Action_Block_Test.81ce58fd8ed0dbe18b7e.png",
     "static/media/Stonehidelawachurl_Icon.png": "/GCG_DeckBuilder/static/media/Stonehidelawachurl_Icon.a22c24837f174679890f.png",
     "static/media/Mona_Icon.png": "/GCG_DeckBuilder/static/media/Mona_Icon.6cd67da6584a8b7d2060.png",
@@ -28,19 +28,26 @@
     "static/media/Keqing_Icon.png": "/GCG_DeckBuilder/static/media/Keqing_Icon.10775e6609eae15734ac.png",
     "static/media/Ningguang_Icon.png": "/GCG_DeckBuilder/static/media/Ningguang_Icon.1937cd1f158b7b500673.png",
     "static/media/Chongyun_Icon.png": "/GCG_DeckBuilder/static/media/Chongyun_Icon.3f65e64dacf5fe3955c9.png",
+    "static/media/Anemo_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Anemo_Sort_Activated.e83656a00c10f15585fb.png",
     "static/media/Bennett_Icon.png": "/GCG_DeckBuilder/static/media/Bennett_Icon.2430ba24854d9bddaabc.png",
+    "static/media/Cryo_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Cryo_Sort_Activated.8d09238b0f6970a830c5.png",
+    "static/media/Dendro_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Dendro_Sort_Activated.5e928b8dcb76cce317a4.png",
     "static/media/Yoimiya_Icon.png": "/GCG_DeckBuilder/static/media/Yoimiya_Icon.24a76604703024d6d649.png",
+    "static/media/Pyro_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Pyro_Sort_Activated.d4d4ac7b5ac33a73f40d.png",
+    "static/media/Geo_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Geo_Sort_Activated.30cb03f4b918e21259cc.png",
+    "static/media/Hydro_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Hydro_Sort_Activated.c0351e50523a010c5780.png",
+    "static/media/Electro_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Electro_Sort_Activated.dc8c30f497e6e95dd0ea.png",
     "static/media/Xingqiu_Card.webp": "/GCG_DeckBuilder/static/media/Xingqiu_Card.adbd2b532ba5ad29380a.webp",
     "static/media/Ganyu_Card.webp": "/GCG_DeckBuilder/static/media/Ganyu_Card.fd8974244e601f6a39a1.webp",
     "static/media/Ayaka_Card.webp": "/GCG_DeckBuilder/static/media/Ayaka_Card.68212eaa0c3ec8283591.webp",
     "static/media/Kaeya_Card.webp": "/GCG_DeckBuilder/static/media/Kaeya_Card.19ec6df316ed2d2b0165.webp",
     "static/media/Chongyun_Card.webp": "/GCG_DeckBuilder/static/media/Chongyun_Card.e68a18cc3a011b503135.webp",
     "index.html": "/GCG_DeckBuilder/index.html",
-    "main.435fa9bf.css.map": "/GCG_DeckBuilder/static/css/main.435fa9bf.css.map",
-    "main.6500e2d8.js.map": "/GCG_DeckBuilder/static/js/main.6500e2d8.js.map"
+    "main.049db178.css.map": "/GCG_DeckBuilder/static/css/main.049db178.css.map",
+    "main.f9f705d9.js.map": "/GCG_DeckBuilder/static/js/main.f9f705d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.435fa9bf.css",
-    "static/js/main.6500e2d8.js"
+    "static/css/main.049db178.css",
+    "static/js/main.f9f705d9.js"
   ]
 }
