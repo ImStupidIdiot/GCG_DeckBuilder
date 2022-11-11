@@ -32,7 +32,6 @@ class Library extends Component {
         
         const displayChars = chars.map((char) => char[0]);
         
-        console.log(this.state.CoA)
         this.setState({conditions: conditions, displayChars: displayChars});
     }
 

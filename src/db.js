@@ -262,63 +262,63 @@ const db = {
         "magicguide": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331000.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335000.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331000.webp',
             "type": 'weapon',
             "cost": 2
         },
         "ravenbow": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331003.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335003.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331003.webp',
             "type": 'weapon',
             "cost": 2
         },
         "whiteirongs": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331006.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335006.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331006.webp',
             "type": 'weapon',
             "cost": 2
         },
         "sacfrags": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331001.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335001.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331001.webp',
             "type": 'weapon',
             "cost": 3
         },
         "sacbow": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331004.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335004.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331004.webp',
             "type": 'weapon',
             "cost": 3
         },
         "sacgs": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331007.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335007.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331007.webp',
             "type": 'weapon',
             "cost": 3
         },
         "skywardatlas": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331002.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335002.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331002.webp',
             "type": 'weapon',
             "cost": 3
         },
         "skywardharp": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331005.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335005.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331005.webp',
             "type": 'weapon',
             "cost": 3
         },
         "wgs": {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n331008.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n335008.webp',
-            "icon": Action_Block_Test,
+            "icon": 'https://genshin.honeyhunterworld.com/img/i_n331008.webp',
             "type": 'weapon',
             "cost": 3
         },

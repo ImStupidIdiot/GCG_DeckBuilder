@@ -34,6 +34,8 @@ class Char extends Component {
                             }
                         }
                         ></img>
+                        <br></br>
+                        <p></p>
                     </button>
                 </div>
             );
@@ -64,6 +66,8 @@ class Char extends Component {
                             }
                         }
                         ></img>
+                        <br></br>
+                        <p>1/2</p>
                     </button>
                 </div>
             );
@@ -86,7 +90,10 @@ class Char extends Component {
                                 this.setState({height: '230'})
                             }
                         }
-                        ></img> </button></div>
+                        ></img>
+                        <br></br>
+                        <p>2/2</p>
+                         </button></div>
             );
         }
     }

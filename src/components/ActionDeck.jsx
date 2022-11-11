@@ -9,7 +9,8 @@ import Action_Block_Test from '../images/Action_Block_Test.png';
 class ActionDeck extends Component {
     render() {  
         var actions = Object.entries(this.props.current_actions).map((mapped) => mapped[0]);
-        const a1 = actions.map((action) => <ActionBlock name={action} url={Action_Block_Test} removeFromDeck={this.props.removeFromDeck}/>)
+        console.log(this.props.current_actions['magicguide'])
+        const a1 = actions.map((action) => <ActionBlock name={action} url={db.actions[action].icon} count={this.props.current_actions[action]} removeFromDeck={this.props.removeFromDeck}/>)
         return (
             <Row>
                 {a1}
