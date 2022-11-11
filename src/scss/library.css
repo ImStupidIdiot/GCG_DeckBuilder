@@ -40,6 +40,8 @@
 .toggleElement {
     border: 0px;
     background-color: white;
+    height:80px;
+    width:80px;
     padding: 0;
 }
 

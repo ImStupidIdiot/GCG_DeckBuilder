@@ -33,15 +33,22 @@ import Terrorshroom_Icon from './images/Terrorshroom_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
-
-import Cryo_Sort from './images/Cryo_Sort.png'
-import Dendro_Sort from './images/Dendro_Sort.png'
-import Electro_Sort from './images/Electro_Sort.png'
-import Geo_Sort from './images/Geo_Sort.png'
-import Hydro_Sort from './images/Hydro_Sort.png'
-import NoElement_Sort from './images/NoElement_Sort.png'
-import Pyro_Sort from './images/Pyro_Sort.png'
 import Anemo_Sort from './images/Anemo_Sort.png'
+import Anemo_Sort_Activated from './images/Anemo_Sort_Activated.png'
+import Cryo_Sort from './images/Cryo_Sort.png'
+import Cryo_Sort_Activated from './images/Cryo_Sort_Activated.png'
+import Dendro_Sort from './images/Dendro_Sort.png'
+import Dendro_Sort_Activated from './images/Dendro_Sort_Activated.png'
+import Electro_Sort from './images/Electro_Sort.png'
+import Electro_Sort_Activated from './images/Electro_Sort_Activated.png'
+import Geo_Sort from './images/Geo_Sort.png'
+import Geo_Sort_Activated from './images/Geo_Sort_Activated.png'
+import Hydro_Sort from './images/Hydro_Sort.png'
+import Hydro_Sort_Activated from './images/Hydro_Sort_Activated.png'
+import Pyro_Sort from './images/Pyro_Sort.png'
+import Pyro_Sort_Activated from './images/Pyro_Sort_Activated.png'
+
+import NoElement_Sort from './images/NoElement_Sort.png'
 
 import Fatui_Sort from './images/Fatui_Sort.png'
 import Hilichurl_Sort from './images/Hilichurl_Sort.png'
@@ -252,12 +259,19 @@ const db = {
 
     "elements": {
         'anemo': Anemo_Sort,
+        'anemo_activated': Anemo_Sort_Activated,
         'cryo': Cryo_Sort,
+        'cryo_activated': Cryo_Sort_Activated,
         'dendro':Dendro_Sort,
+        'dendro_activated': Dendro_Sort_Activated,
         'electro': Electro_Sort,
+        'electro_activated': Electro_Sort_Activated,
         'geo': Geo_Sort,
+        'geo_activated': Geo_Sort_Activated,
         'hydro': Hydro_Sort,
+        'hydro_activated': Hydro_Sort_Activated,
         'pyro': Pyro_Sort,
+        'pyro_activated': Pyro_Sort_Activated,
         'noelement': NoElement_Sort
     },
 
