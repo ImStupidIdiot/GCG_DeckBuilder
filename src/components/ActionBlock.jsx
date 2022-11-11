@@ -4,18 +4,29 @@ import '../scss/deck.css';
 class ActionBlock extends Component {
     constructor(props) {
         super(props);
-        this.state = { counter: 2 }
+        this.state = { counter: 1, height: '55', width: '300'}
     }
-    render() {  
-        if (this.state.counter > 0) {
-        return <button className='ActionBlock' onClick={() => {
-            this.setState({counter: this.state.counter - 1})
-        }
-        }><img src={this.props.url} height="55" width="300"></img></button>
-        }
-        else {
-            return
-        }
+
+    render() {
+        return <button 
+            className='ActionBlock' 
+            onClick={() => 
+                {
+                    this.props.removeFromDeck(this.props.name)
+                }
+            }
+            hidden={this.state.counter == 0}
+        >
+            <img src={this.props.url} alt='hello' height={this.state.height} width={this.state.width} onMouseEnter={ () => {
+                this.setState({height: '55'})
+                this.setState({width: '300'})
+            }
+            } onMouseLeave={ () => {
+                this.setState({height: '55'})
+                this.setState({width: '300'})
+            }
+            }
+            ></img></button>
     }
 }
 

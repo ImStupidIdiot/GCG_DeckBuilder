@@ -8,7 +8,7 @@ import './scss/library.css';
 class Main extends Component {
     constructor(props) {
         super(props);
-        this.state = {current_chars: [], current_actions: []};
+        this.state = {current_chars: [], current_actions: {}};
         this.addToDeck = this.addToDeck.bind(this);
         this.removeFromDeck = this.removeFromDeck.bind(this);
         this.addToDeckAction = this.addToDeckAction.bind(this);
@@ -41,27 +41,31 @@ class Main extends Component {
         }
 
     addToDeckAction(action) {
-        var action_on = this.state.current_actions
         if (this.state.current_actions.length >= 30){
             return false;
         }
-        action_on.push(action);
-        this.setState({current_actions: action_on});
+        if (this.state.current_actions[action]) {
+            this.state.current_actions[action] += 1;
+        }
+        else {
+            this.state.current_actions[action] = 1;
+        }
+        this.setState({current_actions: this.state.current_actions});
         return true;
     }
 
     removeFromDeckAction(action) {
-        var action_off = this.state.current_actions
-        if (action_off.length <= 0) {
+        if (this.state.current_actions.length <= 0) {
             return false;
         }
-        var return_list = []
-        for (var i = 0; i < action_off.length; i++) {
-            if (action_off[i] != action) {
-                return_list.push(action_off[i])
+
+        if (this.state.current_actions[action]) {
+            this.state.current_actions[action] -= 1;
+            if (this.state.current_actions[action] == 0) {
+            delete this.state.current_actions[action];
             }
         }
-        this.setState({current_actions: return_list});
+        this.setState({current_actions: this.state.current_actions});
         return true;
         }
 

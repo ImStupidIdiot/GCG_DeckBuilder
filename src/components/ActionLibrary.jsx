@@ -9,15 +9,18 @@ import Action from './Action';
 class ActionLibrary extends Component {  
     constructor(props) {
         super(props);
-        this.isInDeck = this.isInDeck.bind(this);
+        this.HowManyInDeck = this.HowManyInDeck.bind(this);
     }
 
-    isInDeck(action) {
-        return this.props.current_actions.includes(action)
+    HowManyInDeck(action) {
+        if (this.props.current_actions[action]) {
+            return this.props.current_actions[action];
+        }
+        return 0;
     }
 
     render() {
-        const cl = this.props.displayActions.map((action) => <Col xs={2} key={action+"-column"}> <Action name={action} key={action} url={db.actions[action].card} url2={db.actions[action].card_selected} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} isInDeck={this.isInDeck(action)} isDisplayed={this.props.displayActions.includes(action)} /> </Col>)
+        const cl = this.props.displayActions.map((action) => <Col xs={2} key={action+"-column"}> <Action name={action} key={action} url={db.actions[action].card} url2={db.actions[action].card_selected} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} HowManyInDeck={this.HowManyInDeck(action)} isDisplayed={this.props.displayActions.includes(action)} /> </Col>)
         return (
             <Container className='scrollbox'>
             <Row>

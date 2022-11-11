@@ -8,11 +8,8 @@ import Action_Block_Test from '../images/Action_Block_Test.png';
 
 class ActionDeck extends Component {
     render() {  
-        var actions = [...this.props.current_actions];
-        for (var a = 0; a < actions.length; a++) {
-            actions[a] = <ActionBlock name={actions[a]} url={db.actions[actions[a]].icon} removeFromDeck={this.props.removeFromDeck} />
-        }
-        const a1 = this.props.current_actions.map((action) => <ActionBlock name={action} url={Action_Block_Test} removeFromDeck={this.props.removeFromDeck}/>)
+        var actions = Object.entries(this.props.current_actions).map((mapped) => mapped[0]);
+        const a1 = actions.map((action) => <ActionBlock name={action} url={Action_Block_Test} removeFromDeck={this.props.removeFromDeck}/>)
         return (
             <Row>
                 {a1}
