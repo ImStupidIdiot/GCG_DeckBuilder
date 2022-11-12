@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GCG_DeckBuilder/static/css/main.884faf54.css",
+    "main.css": "/GCG_DeckBuilder/static/css/main.e00bcd02.css",
     "main.js": "/GCG_DeckBuilder/static/js/main.6555eb3d.js",
     "static/media/Action_Block_Test.png": "/GCG_DeckBuilder/static/media/Action_Block_Test.81ce58fd8ed0dbe18b7e.png",
     "static/media/Stonehidelawachurl_Icon.png": "/GCG_DeckBuilder/static/media/Stonehidelawachurl_Icon.a22c24837f174679890f.png",
@@ -43,11 +43,11 @@
     "static/media/Kaeya_Card.webp": "/GCG_DeckBuilder/static/media/Kaeya_Card.19ec6df316ed2d2b0165.webp",
     "static/media/Chongyun_Card.webp": "/GCG_DeckBuilder/static/media/Chongyun_Card.e68a18cc3a011b503135.webp",
     "index.html": "/GCG_DeckBuilder/index.html",
-    "main.884faf54.css.map": "/GCG_DeckBuilder/static/css/main.884faf54.css.map",
+    "main.e00bcd02.css.map": "/GCG_DeckBuilder/static/css/main.e00bcd02.css.map",
     "main.6555eb3d.js.map": "/GCG_DeckBuilder/static/js/main.6555eb3d.js.map"
   },
   "entrypoints": [
-    "static/css/main.884faf54.css",
+    "static/css/main.e00bcd02.css",
     "static/js/main.6555eb3d.js"
   ]
 }
