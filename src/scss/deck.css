@@ -1,10 +1,11 @@
 .ActionBlock {
-    background: rgb(222, 117, 117);
+    background: rgb(0, 0, 0);
     border-width: 0px;
     border-radius: 10px;
     height: 55px;
     width: 270px;
     padding: 0;
+    margin-left: 6px;
 }
 
 .CharBlock {
@@ -23,17 +24,22 @@
 }
 
 .ActionBlockImg {
+    z-index: 0;
     object-fit: cover;
-    mask-image: linear-gradient(to right, transparent 5%, black);
-    -webkit-mask-image: linear-gradient(to right, transparent 5%, black);
+    mask-image: linear-gradient(to right, transparent 0%, black);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
     object-position: 80% 30%;
     height: 55px; 
-    width: 230px;
+    width: 245px;
     padding: 0px;
 }
 
-.ActionBlockMisc {
+.ActionBlockName{
+    z-index: 10;
     position: relative;
+    white-space: nowrap;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -42,4 +48,20 @@
     color: white;
     font-family: 'Helvetica';
     padding: 0;
+}
+
+.ActionBlockMisc {
+    z-index: 10;
+    position: relative;
+    white-space: nowrap;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: left;
+    color: white;
+    font-family: 'Helvetica';
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
 }

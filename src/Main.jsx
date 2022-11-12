@@ -8,7 +8,7 @@ import './scss/library.css';
 class Main extends Component {
     constructor(props) {
         super(props);
-        this.state = {current_chars: [], current_actions: {}};
+        this.state = {current_chars: [], current_actions: {}, total_actions: 0};
         this.addToDeck = this.addToDeck.bind(this);
         this.removeFromDeck = this.removeFromDeck.bind(this);
         this.addToDeckAction = this.addToDeckAction.bind(this);
@@ -41,9 +41,10 @@ class Main extends Component {
         }
 
     addToDeckAction(action) {
-        if (this.state.current_actions.length >= 30){
+        if (this.state.total_actions >= 30){
             return false;
         }
+        this.setState({total_actions: this.state.total_actions + 1});
         if (this.state.current_actions[action]) {
             this.state.current_actions[action] += 1;
         }
@@ -55,10 +56,10 @@ class Main extends Component {
     }
 
     removeFromDeckAction(action) {
-        if (this.state.current_actions.length <= 0) {
+        if (this.state.total_actions <= 0) {
             return false;
         }
-
+        this.setState({total_actions: this.state.total_actions - 1});
         if (this.state.current_actions[action]) {
             this.state.current_actions[action] -= 1;
             if (this.state.current_actions[action] == 0) {

@@ -65,7 +65,7 @@
     overflow-y: scroll;
     scrollbar-width: none; 
     -ms-overflow-style: none;  
-    height:700px;
+    height:850px;
 }
 
 .scrollbox::-webkit-scrollbar { 

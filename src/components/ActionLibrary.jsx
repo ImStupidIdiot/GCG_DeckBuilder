@@ -20,7 +20,7 @@ class ActionLibrary extends Component {
     }
 
     render() {
-        const cl = this.props.displayActions.map((action) => <Col xs={2} key={action+"-column"}> <Action name={action} key={action} url={db.actions[action].card} url2={db.actions[action].card_selected} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} HowManyInDeck={this.HowManyInDeck(action)} isDisplayed={this.props.displayActions.includes(action)} /> </Col>)
+        const cl = this.props.displayActions.map((action) => <Col xs={2} key={action+"-column"}> <Action name={action} key={action} url={db.actions[action].image} url2={db.actions[action].golden_image} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} HowManyInDeck={this.HowManyInDeck(action)} isDisplayed={this.props.displayActions.includes(action)} /> </Col>)
         return (
             <Container className='scrollbox'>
             <Row>

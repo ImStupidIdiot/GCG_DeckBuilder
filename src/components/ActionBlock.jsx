@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import '../scss/deck.css';
 import { Col, Row, Container } from 'react-bootstrap';
+import db from '../db'
 
 
 class ActionBlock extends Component {
@@ -10,7 +11,7 @@ class ActionBlock extends Component {
     }
 
     render() {
-        return <button 
+        return <button
             className='ActionBlock' 
             onClick={() => 
                 {
@@ -21,8 +22,8 @@ class ActionBlock extends Component {
         >
             <Row>
                 <Col xs={1}><div className='ActionBlockMisc'>{this.props.cost}</div></Col>
-                <Col xs={1}><div className='ActionBlockMisc'>{this.props.name}</div></Col>
-                <Col xs={9}>
+                <Col xs={1}><div className='ActionBlockName'>{db.actions[this.props.name].name}</div></Col>
+                <Col xs={9} className="ActionBlockCol" background-image={this.props.url}>
                     <img src={this.props.url} className='ActionBlockImg' alt='test' onMouseEnter={ () => {
                         this.setState({height: '55'})
                         this.setState({width: '270'})
