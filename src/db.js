@@ -625,7 +625,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331018_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 1
         },
         "instructorscap": {
             "name": "Instructor’s Cap",
@@ -657,7 +657,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331022.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335022.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331022_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 3
         },
         "winestainedtricorne": {
             "name": "Wine-Stained Tricorne",
@@ -673,7 +673,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331024.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335024.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331024_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 3
         },
         "witchsscorchinghat": {
             "name": "Witch’s Scorching Hat",
@@ -689,7 +689,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331026_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 3
         },
         "thundersummonerscrown": {
             "name": "Thunder Summoner’s Crown",
@@ -705,7 +705,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331028.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331028_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 3
         },
         "viridescentvenerersdiadem": {
             "name": "Viridescent Venerer’s Diadem",
@@ -721,7 +721,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331030_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 3
         },
         "maskofsolitudebasalt": {
             "name": "Mask of Solitude Basalt",
@@ -737,7 +737,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331032.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331032_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 3
         },
         "laurelcoronet": {
             "name": "Laurel Coronet",
@@ -753,7 +753,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331034.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335034.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331034_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": 3
         },
         "liyueharborwharf": {
             "name": "Liyue Harbor Wharf",
