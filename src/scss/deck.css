@@ -1,5 +1,5 @@
 .ActionBlock {
-    background: rgb(177, 153, 153);
+    background: rgb(222, 117, 117);
     border-width: 0px;
     border-radius: 10px;
     height: 55px;
@@ -24,6 +24,8 @@
 
 .ActionBlockImg {
     object-fit: cover;
+    mask-image: linear-gradient(to right, transparent 5%, black);
+    -webkit-mask-image: linear-gradient(to right, transparent 5%, black);
     object-position: 80% 30%;
     height: 55px; 
     width: 230px;
