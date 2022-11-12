@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import '../scss/deck.css';
+import { Col, Row, Container } from 'react-bootstrap';
+
 
 class ActionBlock extends Component {
     constructor(props) {
@@ -8,7 +10,6 @@ class ActionBlock extends Component {
     }
 
     render() {
-        console.log(this.props.count)
         return <button 
             className='ActionBlock' 
             onClick={() => 
@@ -17,17 +18,26 @@ class ActionBlock extends Component {
                 }
             }
             hidden={this.state.counter == 0}
-        >
-            <img src={this.props.url} alt='test' height={this.state.height} width={this.state.width} onMouseEnter={ () => {
-                this.setState({height: '55'})
-                this.setState({width: '270'})
-            }
-            } onMouseLeave={ () => {
-                this.setState({height: '55'})
-                this.setState({width: '270'})
-            }
-            }
-            ></img>{this.props.count}</button>
+        > <Container>
+            <Row>
+                <Col xs={6}><div className='ActionBlockMisc'>{this.props.cost} {this.props.name}</div></Col>
+                <Col xs={4}>
+                    <img src={this.props.url} className='ActionBlockImg' alt='test' onMouseEnter={ () => {
+                        this.setState({height: '55'})
+                        this.setState({width: '270'})
+                    }
+                    } onMouseLeave={ () => {
+                        this.setState({height: '55'})
+                        this.setState({width: '270'})
+                    }
+                    }
+                    ></img>
+                </ Col>
+                <Col xs={2}>
+                <div className='ActionBlockMisc'>{this.props.count}</div>   
+                </Col>
+            </Row>
+            </ Container> </button>
     }
 }
 

@@ -1,6 +1,10 @@
 .ActionBlock {
     background: rgba(0,0,0,0);
-    border-width: 0px;
+    border-width: 1px;
+    border-radius: 10px;
+    height: 57px;
+    width: 270px;
+    padding: 0;
 }
 
 .CharBlock {
@@ -16,4 +20,19 @@
     height: 95px;
     width:95px;
     padding: 2.5px;
+}
+
+.ActionBlockImg {
+    object-fit: none;
+    object-position: 83% 30%;
+    height: 55px; 
+    width: 100px;
+    text-align: right;
+    padding: 0;
+}
+
+.ActionBlockMisc {
+    text-align: center;
+    font-family: 'Helvetica';
+    padding: 0;
 }
