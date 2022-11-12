@@ -18,14 +18,15 @@ class ActionBlock extends Component {
                 }
             }
             hidden={this.state.counter == 0}
-        > <Container>
+        >
             <Row>
-                <Col xs={6}><div className='ActionBlockMisc'>{this.props.cost} {this.props.name}</div></Col>
-                <Col xs={4}>
+                <Col xs={1}><div className='ActionBlockMisc'>{this.props.cost}</div></Col>
+                <Col xs={1}><div className='ActionBlockMisc'>{this.props.name}</div></Col>
+                <Col xs={9}>
                     <img src={this.props.url} className='ActionBlockImg' alt='test' onMouseEnter={ () => {
                         this.setState({height: '55'})
                         this.setState({width: '270'})
-                    }
+                    }   
                     } onMouseLeave={ () => {
                         this.setState({height: '55'})
                         this.setState({width: '270'})
@@ -33,11 +34,11 @@ class ActionBlock extends Component {
                     }
                     ></img>
                 </ Col>
-                <Col xs={2}>
-                <div className='ActionBlockMisc'>{this.props.count}</div>   
+                <Col xs={1}>
+                <div className='ActionBlockMisc'>{this.props.count}</div>
                 </Col>
             </Row>
-            </ Container> </button>
+            </button>
     }
 }
 

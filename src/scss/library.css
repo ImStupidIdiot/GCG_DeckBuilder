@@ -73,3 +73,8 @@
     width: 0;
     height: 0;
 }
+
+.blackcolor {
+    background-color: black;
+    margin-left: 0px;
+}

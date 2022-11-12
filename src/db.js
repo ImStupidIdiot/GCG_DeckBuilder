@@ -325,7 +325,7 @@ const db = {
     },
 
     "nullchar": {
-        "icon": Nullchar_Icon
+        "icon": Nullchar_Icon   
     },
 
     "elements": {
