@@ -9,7 +9,7 @@ class Library extends Component {
     constructor(props) {
         super(props);
         const displayChars = Object.entries(db.chars).map((char) => char[0]);
-        const displayActions = Object.entries(db.actions).map((action) => action[0]);
+        const displayActions = Object.entries(db.actions).map((action) => action[0]).sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
         this.state = {conditions: {}, displayChars: displayChars, displayActions: displayActions, CoA: 'C'};
         this.changeToggle = this.changeToggle.bind(this);
         this.toggleCA = this.toggleCA.bind(this);

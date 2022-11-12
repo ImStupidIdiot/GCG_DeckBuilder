@@ -265,7 +265,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330500.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '5'
         },
         "coldbloodedstrike": {
             "name": "Cold-Blooded Strike",
@@ -273,7 +273,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330501.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334501.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330501_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "steadybreathing": {
             "name": "Steady Breathing",
@@ -281,7 +281,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330502.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334502.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330502_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "kantensenmyoublessing": {
             "name": "Kanten Senmyou Blessing",
@@ -289,7 +289,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330503.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334503.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330503_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '2'
         },
         "thescentremained": {
             "name": "The Scent Remained",
@@ -297,7 +297,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330504.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334504.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330504_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "prophecyofsubmersion": {
             "name": "Prophecy of Submersion",
@@ -305,7 +305,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330505.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334505.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330505_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '3 + 3'
         },
         "flowingflame": {
             "name": "Flowing Flame",
@@ -313,7 +313,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330506.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334506.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330506_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '3'
         },
         "crossfire": {
             "name": "Crossfire",
@@ -321,7 +321,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330507.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334507.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330507_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "grandexpectation": {
             "name": "Grand Expectation",
@@ -329,7 +329,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330508.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334508.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330508_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4 + 2'
         },
         "naganoharameteorswarm": {
             "name": "Naganohara Meteor Swarm",
@@ -337,7 +337,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330510.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334510.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330510_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '2'
         },
         "stellarpredator": {
             "name": "Stellar Predator",
@@ -345,7 +345,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330511.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334511.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330511_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '3'
         },
         "awakening": {
             "name": "Awakening",
@@ -353,7 +353,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330512.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334512.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330512_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "thunderingpenance": {
             "name": "Thundering Penance",
@@ -361,7 +361,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330513.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334513.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330513_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '3'
         },
         "chaoticentropy": {
             "name": "Chaotic Entropy",
@@ -369,7 +369,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330514.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334514.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330514_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '3 + 2'
         },
         "landsofdandelion": {
             "name": "Lands of Dandelion",
@@ -377,7 +377,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330515.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334515.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330515_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '4 + 3'
         },
         "strategicreserve": {
             "name": "Strategic Reserve",
@@ -385,7 +385,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330516.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334516.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330516_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "igotyourback": {
             "name": "I Got Your Back",
@@ -393,7 +393,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330517.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334517.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330517_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '3'
         },
         "floralsidewinder": {
             "name": "Floral Sidewinder",
@@ -401,7 +401,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330518.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334518.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330518_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '3'
         },
         "streamingsurge": {
             "name": "Streaming Surge",
@@ -409,7 +409,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330519.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334519.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330519_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4 + 3'
         },
         "paidinfull": {
             "name": "Paid in Full",
@@ -417,7 +417,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330520.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334520.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330520_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '3'
         },
         "transcendentautomaton": {
             "name": "Transcendent Automaton",
@@ -425,7 +425,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330521.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334521.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330521_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": "4*"
         },
         "stonehidereforged": {
             "name": "Stonehide Reforged",
@@ -433,7 +433,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330522.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334522.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330522_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": "4*"
         },
         "shakennotpurred": {
             "name": "Shaken, Not Purred",
@@ -441,7 +441,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330523.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "featherfalljudgment": {
             "name": "Featherfall Judgment",
@@ -449,7 +449,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330524.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334524.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330524_gcg_high_resolution.webp",
-            "cost": 5
+            "cost": '5*'
         },
         "gloriousseason": {
             "name": "Glorious Season",
@@ -457,7 +457,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330525.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334525.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330525_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "mirrorcage": {
             "name": "Mirror Cage",
@@ -465,7 +465,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330526.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334526.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330526_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4*'
         },
         "proliferatingspores": {
             "name": "Proliferating Spores",
@@ -473,7 +473,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330527.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334527.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330527_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4*'
         },
         "magicguide": {
             "name": "Magic Guide",
@@ -481,7 +481,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331000.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335000.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331000_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "sacrificialfragments": {
             "name": "Sacrificial Fragments",
@@ -489,7 +489,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331001.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331001_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "skywardatlas": {
             "name": "Skyward Atlas",
@@ -497,7 +497,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331002.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335002.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331002_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "ravenbow": {
             "name": "Raven Bow",
@@ -505,7 +505,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331003.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331003_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "sacrificialbow": {
             "name": "Sacrificial Bow",
@@ -513,7 +513,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331004.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335004.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331004_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "skywardharp": {
             "name": "Skyward Harp",
@@ -521,7 +521,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331005.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331005_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "whiteirongreatsword": {
             "name": "White Iron Greatsword",
@@ -529,7 +529,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331006_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "sacrificialgreatsword": {
             "name": "Sacrificial Greatsword",
@@ -537,7 +537,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331007_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "wolfsgravestone": {
             "name": "Wolf’s Gravestone",
@@ -545,7 +545,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331008_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "whitetassel": {
             "name": "White Tassel",
@@ -553,7 +553,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331009_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "lithicspear": {
             "name": "Lithic Spear",
@@ -561,7 +561,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331010_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "skywardspine": {
             "name": "Skyward Spine",
@@ -569,7 +569,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331011_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "travelershandysword": {
             "name": "Traveler’s Handy Sword",
@@ -577,7 +577,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331012_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "sacrificialsword": {
             "name": "Sacrificial Sword",
@@ -585,7 +585,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331013_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "aquilafavonia": {
             "name": "Aquila Favonia",
@@ -593,7 +593,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331014_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "adventurersbandana": {
             "name": "Adventurer’s Bandana",
@@ -601,7 +601,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331015_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '1'
         },
         "luckydogssilvercirclet": {
             "name": "Lucky Dog’s Silver Circlet",
@@ -609,7 +609,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331016_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '2'
         },
         "travelingdoctorshandkerchief": {
             "name": "Traveling Doctor’s Handkerchief",
@@ -617,7 +617,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331017_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "gamblersearrings": {
             "name": "Gambler’s Earrings",
@@ -625,7 +625,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331018_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "instructorscap": {
             "name": "Instructor’s Cap",
@@ -633,7 +633,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331019.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331019_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "exilescirclet": {
             "name": "Exile’s Circlet",
@@ -641,7 +641,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331020.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335020.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331020_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "brokenrimesecho": {
             "name": "Broken Rime’s Echo",
@@ -649,7 +649,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331021.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331021_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "blizzardstrayer": {
             "name": "Blizzard Strayer",
@@ -657,7 +657,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331022.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335022.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331022_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "winestainedtricorne": {
             "name": "Wine-Stained Tricorne",
@@ -665,7 +665,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331023.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335023.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331023_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "heartofdepth": {
             "name": "Heart of Depth",
@@ -673,7 +673,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331024.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335024.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331024_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "witchsscorchinghat": {
             "name": "Witch’s Scorching Hat",
@@ -681,7 +681,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331025.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335025.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331025_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "crimsonwitchofflames": {
             "name": "Crimson Witch of Flames",
@@ -689,7 +689,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331026_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "thundersummonerscrown": {
             "name": "Thunder Summoner’s Crown",
@@ -697,7 +697,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331027.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335027.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331027_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "thunderingfury": {
             "name": "Thundering Fury",
@@ -705,7 +705,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331028.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331028_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "viridescentvenerersdiadem": {
             "name": "Viridescent Venerer’s Diadem",
@@ -713,7 +713,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331029.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335029.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331029_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "viridescentvenerer": {
             "name": "Viridescent Venerer",
@@ -721,7 +721,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331030_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "maskofsolitudebasalt": {
             "name": "Mask of Solitude Basalt",
@@ -729,7 +729,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331031.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335031.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331031_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "archaicpetra": {
             "name": "Archaic Petra",
@@ -737,7 +737,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331032.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331032_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "laurelcoronet": {
             "name": "Laurel Coronet",
@@ -745,7 +745,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331033.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335033.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331033_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "deepwoodmemories": {
             "name": "Deepwood Memories",
@@ -753,7 +753,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331034.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335034.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331034_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "liyueharborwharf": {
             "name": "Liyue Harbor Wharf",
@@ -761,7 +761,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332000.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336000.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332000_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '2'
         },
         "knightsoffavoniuslibrary": {
             "name": "Knights of Favonius Library",
@@ -769,7 +769,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332001.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332001_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "jadechamber": {
             "name": "Jade Chamber",
@@ -777,7 +777,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332002.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336002.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332002_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "dawnwinery": {
             "name": "Dawn Winery",
@@ -785,7 +785,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332003.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332003_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "wangshuinn": {
             "name": "Wangshu Inn",
@@ -793,7 +793,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332004.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336004.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332004_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "favoniuscathedral": {
             "name": "Favonius Cathedral",
@@ -801,7 +801,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332005.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332005_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "paimon": {
             "name": "Paimon",
@@ -809,7 +809,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332006_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '3'
         },
         "katheryne": {
             "name": "Katheryne",
@@ -817,7 +817,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332007_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '2'
         },
         "timaeus": {
             "name": "Timaeus",
@@ -825,7 +825,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332008_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "wagner": {
             "name": "Wagner",
@@ -833,7 +833,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332009_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "chefmao": {
             "name": "Chef Mao",
@@ -841,7 +841,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332010_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "tubby": {
             "name": "Tubby",
@@ -849,7 +849,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332011_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "timmie": {
             "name": "Timmie",
@@ -857,7 +857,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332012_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "liben": {
             "name": "Liben",
@@ -865,7 +865,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332013_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "changtheninth": {
             "name": "Chang the Ninth",
@@ -873,7 +873,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332014_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "ellin": {
             "name": "Ellin",
@@ -881,7 +881,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332015_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '2'
         },
         "irontonguetian": {
             "name": "Iron Tongue Tian",
@@ -889,7 +889,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '2'
         },
         "liusu": {
             "name": "Liu Su",
@@ -897,7 +897,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332017_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "parametrictransformer": {
             "name": "Parametric Transformer",
@@ -905,7 +905,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332018_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '2'
         },
         "nre": {
             "name": "NRE",
@@ -913,7 +913,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332019.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332019_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "elementalresonancewovenice": {
             "name": "Elemental Resonance: Woven Ice",
@@ -921,7 +921,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333000.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337000.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333000_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "elementalresonanceshatteringice": {
             "name": "Elemental Resonance: Shattering Ice",
@@ -929,7 +929,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333001.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333001_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "elementalresonancewovenwaters": {
             "name": "Elemental Resonance: Woven Waters",
@@ -937,7 +937,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333002.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337002.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333002_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "elementalresonancesoothingwater": {
             "name": "Elemental Resonance: Soothing Water",
@@ -945,7 +945,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333003.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333003_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "elementalresonancewovenflames": {
             "name": "Elemental Resonance: Woven Flames",
@@ -953,7 +953,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333004.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337004.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333004_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "elementalresonanceferventflames": {
             "name": "Elemental Resonance: Fervent Flames",
@@ -961,7 +961,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333005.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333005_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "elementalresonancewoventhunder": {
             "name": "Elemental Resonance: Woven Thunder",
@@ -969,7 +969,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333006_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "elementalresonancehighvoltage": {
             "name": "Elemental Resonance: High Voltage",
@@ -977,7 +977,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333007_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "elementalresonancewovenwinds": {
             "name": "Elemental Resonance: Woven Winds",
@@ -985,7 +985,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333008_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "elementalresonanceimpetuouswinds": {
             "name": "Elemental Resonance: Impetuous Winds",
@@ -993,7 +993,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333009_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "elementalresonancewovenstone": {
             "name": "Elemental Resonance: Woven Stone",
@@ -1001,7 +1001,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333010_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "elementalresonanceenduringrock": {
             "name": "Elemental Resonance: Enduring Rock",
@@ -1009,7 +1009,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333011_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "elementalresonancewovenweeds": {
             "name": "Elemental Resonance: Woven Weeds",
@@ -1017,7 +1017,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333012_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "elementalresonancesprawlinggreenery": {
             "name": "Elemental Resonance: Sprawling Greenery",
@@ -1025,7 +1025,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333013_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "thebestesttravelcompanion": {
             "name": "The Bestest Travel Companion!",
@@ -1033,7 +1033,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333014_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "changingshifts": {
             "name": "Changing Shifts",
@@ -1041,7 +1041,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333015_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "tossup": {
             "name": "Toss-Up",
@@ -1049,7 +1049,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333016_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "strategize": {
             "name": "Strategize",
@@ -1057,7 +1057,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333017_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "ihaventlostyet": {
             "name": "I Haven’t Lost Yet!",
@@ -1065,7 +1065,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333018_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "leaveittome": {
             "name": "Leave It to Me!",
@@ -1073,7 +1073,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333019.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333019_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '0'
         },
         "whenthecranereturned": {
             "name": "When the Crane Returned",
@@ -1081,7 +1081,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333020.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337020.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333020_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "starsigns": {
             "name": "Starsigns",
@@ -1089,7 +1089,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333021.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333021_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '2'
         },
         "calxsarts": {
             "name": "Calx’s Arts",
@@ -1097,7 +1097,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333022.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337022.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333022_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "masterofweaponry": {
             "name": "Master of Weaponry",
@@ -1105,7 +1105,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333023.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337023.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333023_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "blessingofthedivinerelicsinstallation": {
             "name": "Blessing of the Divine Relic’s Installation",
@@ -1113,7 +1113,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333024.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337024.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333024_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "quickknit": {
             "name": "Quick Knit",
@@ -1121,7 +1121,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333025.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337025.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333025_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "sendoff": {
             "name": "Send Off",
@@ -1129,7 +1129,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333026_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "guardiansoath": {
             "name": "Guardian’s Oath",
@@ -1137,7 +1137,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333027.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337027.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333027_gcg_high_resolution.webp",
-            "cost": 4
+            "cost": '4'
         },
         "abyssalsummons": {
             "name": "Abyssal Summons",
@@ -1145,7 +1145,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333028.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333028_gcg_high_resolution.webp",
-            "cost": 2
+            "cost": '2'
         },
         "jueyunguoba": {
             "name": "Jueyun Guoba",
@@ -1153,7 +1153,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333029.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337029.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333029_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "adeptustemptation": {
             "name": "Adeptus’ Temptation",
@@ -1161,7 +1161,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333030_gcg_high_resolution.webp",
-            "cost": 3
+            "cost": '2'
         },
         "lotusflowercrisp": {
             "name": "Lotus Flower Crisp",
@@ -1169,7 +1169,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333031.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337031.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333031_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "northernsmokedchicken": {
             "name": "Northern Smoked Chicken",
@@ -1177,7 +1177,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333032.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333032_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "sweetmadame": {
             "name": "Sweet Madame",
@@ -1185,7 +1185,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333033.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337033.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333033_gcg_high_resolution.webp",
-            "cost": 0
+            "cost": '0'
         },
         "mondstadthashbrown": {
             "name": "Mondstadt Hash Brown",
@@ -1193,7 +1193,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333034.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337034.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333034_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "mushroompizza": {
             "name": "Mushroom Pizza",
@@ -1201,7 +1201,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333035.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337035.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333035_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
         "mintymeatrolls": {
             "name": "Minty Meat Rolls",
@@ -1209,7 +1209,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333036.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337036.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333036_gcg_high_resolution.webp",
-            "cost": 1
+            "cost": '1'
         },
     },
 

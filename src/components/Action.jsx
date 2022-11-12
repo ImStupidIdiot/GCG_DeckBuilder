@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import '../scss/library.css';
 
-class Char extends Component {
+class Action extends Component {
     constructor(props) {
         super(props);
         this.state = { counter: 0, width: '135', height: '230'} //counter = 0 means card is unselected, counter = 1 means selected
@@ -35,7 +35,7 @@ class Char extends Component {
                         }
                         ></img>
                         <br></br>
-                        <p></p>
+                        <p>  </p>
                     </button>
                 </div>
             );
@@ -67,7 +67,7 @@ class Char extends Component {
                         }
                         ></img>
                         <br></br>
-                        <p>1/2</p>
+                        <p className="font">1/2</p>
                     </button>
                 </div>
             );
@@ -92,7 +92,7 @@ class Char extends Component {
                         }
                         ></img>
                         <br></br>
-                        <p>2/2</p>
+                        <p className="font">2/2</p>
                          </button></div>
             );
         }
@@ -100,4 +100,4 @@ class Char extends Component {
 }
 
 
-export default Char;
+export default Action;

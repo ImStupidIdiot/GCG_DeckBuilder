@@ -23,10 +23,12 @@ class Toggle extends Component {
             <button className='toggleElement' key="dendro" type="checkbox" name="dendro"  checked={this.state.currentElement == 'dendro'} onClick={() => {if(this.state.currentElement == 'dendro') {this.setState({currentElement: 'none'})} else {this.setState({currentElement: 'dendro'})} this.props.changeToggle('element', 'dendro')}}>{this.state.currentElement != 'dendro' ? <img src={db.elements.dendro} className='toggleImg'/> : <img src={db.elements.dendro_activated} className='toggleImg'/>}</button>
             <button className='toggleElement' key="cryo" type="checkbox" name="cryo" checked={this.state.currentElement == 'cryo'} onClick={() => {if(this.state.currentElement == 'cryo') {this.setState({currentElement: 'none'})} else {this.setState({currentElement: 'cryo'})} this.props.changeToggle('element', 'cryo')}}>{this.state.currentElement != 'cryo' ? <img src={db.elements.cryo} className='toggleImg'/> : <img src={db.elements.cryo_activated} className='toggleImg'/>}</button>
             <button className='toggleElement' key="geo" type="checkbox" name="geo"  checked={this.state.currentElement == 'geo'} onClick={() => {if(this.state.currentElement == 'geo') {this.setState({currentElement: 'none'})} else {this.setState({currentElement: 'geo'})} this.props.changeToggle('element', 'geo')}}>{this.state.currentElement != 'geo' ? <img src={db.elements.geo} className='toggleImg'/> : <img src={db.elements.geo_activated} className='toggleImg'/>}</button>
-        </ToggleButtonGroup></Container>);
+            </ToggleButtonGroup></Container>);
         }
         else {
-            return (<Container><button className='toggleElement' onClick={() => this.props.toggleCA()}><img src={db.misc.char_toggle} className='toggleImg'/></button> </Container>)
+            return (<Container>
+                <button className='toggleElement' onClick={() => this.props.toggleCA()}><img src={db.misc.char_toggle} className='toggleImg'/></button>
+                </Container>)
         }
         return (<div> 
             <ToggleButton type="checkbox" className="mb-2"

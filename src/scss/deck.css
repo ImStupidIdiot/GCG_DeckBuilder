@@ -39,7 +39,7 @@
 .ActionBlockName{
     z-index: 10;
     position: relative;
-    white-space: nowrap;
+    white-space: pre;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -53,7 +53,7 @@
 .ActionBlockMisc {
     z-index: 10;
     position: relative;
-    white-space: nowrap;
+    white-space: pre;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -64,4 +64,23 @@
     padding: 0;
     font-weight: bold;
     font-size: 20px;
+}
+
+.ActionBlockCost {
+    z-index: 10;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    text-align: left;
+    color: white;
+    font-family: 'Helvetica';
+    padding: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.font {
+    font-family: 'Helvetica';
 }

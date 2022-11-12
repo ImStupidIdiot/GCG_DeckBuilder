@@ -11,6 +11,24 @@ class ActionBlock extends Component {
     }
 
     render() {
+        var cost = this.props.cost[0]
+        if (db.actions[this.props.name].tags.includes('talent')) {
+            if (this.props.cost[4]) {
+                cost += '\n' + this.props.cost[4]
+            }
+        }
+
+        var name = db.actions[this.props.name].name
+        
+        if (name.length > 30) {
+            for (var i = 20; i < name.length; i++) {
+                if (name[i] === ' ') {
+                    name = name.slice(0, i) + '\n' + name.slice(i+1)
+                    break;
+                }
+            }
+        }
+
         return <button
             className='ActionBlock' 
             onClick={() => 
@@ -21,8 +39,8 @@ class ActionBlock extends Component {
             hidden={this.state.counter == 0}
         >
             <Row>
-                <Col xs={1}><div className='ActionBlockMisc'>{this.props.cost}</div></Col>
-                <Col xs={1}><div className='ActionBlockName'>{db.actions[this.props.name].name}</div></Col>
+                <Col xs={1}><div className='ActionBlockCost'>{cost}</div></Col>
+                <Col xs={1}><div className='ActionBlockName'>{name}</div></Col>
                 <Col xs={9} className="ActionBlockCol" background-image={this.props.url}>
                     <img src={this.props.url} className='ActionBlockImg' alt='test' onMouseEnter={ () => {
                         this.setState({height: '55'})
