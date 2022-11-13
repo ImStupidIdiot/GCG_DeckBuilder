@@ -3,7 +3,6 @@ import { Row, Col } from 'react-bootstrap';
 import CharBlock from './CharBlock';
 import XingqiuIcon from '../images/Xingqiu_Icon.png';
 import db from '../db'
-import '../scss/deck.css';
 
 class CharDeck extends Component {
     constructor(props) {

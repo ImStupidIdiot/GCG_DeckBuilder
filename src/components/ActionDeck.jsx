@@ -3,8 +3,6 @@ import { Container, Row } from 'react-bootstrap';
 
 import db from '../db'
 
-import '../scss/deck.css';
-
 import ActionBlock from './ActionBlock';
 import Action_Block_Test from '../images/Action_Block_Test.png';
 

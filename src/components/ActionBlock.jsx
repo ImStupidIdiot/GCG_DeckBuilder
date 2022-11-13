@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../scss/deck.css';
 import { Col, Row, Container } from 'react-bootstrap';
 import db from '../db'
 

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import '../scss/deck.css';
 
-class Char_Block extends Component {
+class CharBlock extends Component {
     constructor(props) {
         super(props);
         this.state = { counter: 1, height: '90', width: '90'}
@@ -35,4 +34,4 @@ class Char_Block extends Component {
     }
 }
 
-export default Char_Block;
+export default CharBlock;

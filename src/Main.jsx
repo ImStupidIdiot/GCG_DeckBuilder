@@ -3,7 +3,9 @@ import Library from './components/Library'
 import Deck from './components/Deck';
 import Toggle from './components/Toggle';
 import { Col, Row, Container } from 'react-bootstrap';
+import './scss/deck.css'
 import './scss/library.css';
+import './scss/misc.css'
 
 class Main extends Component {
     constructor(props) {

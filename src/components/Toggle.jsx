@@ -1,6 +1,5 @@
 import React, { Component, useState } from 'react';
 import db from '../db';
-import '../scss/library.css';
 import ToggleButtonGroup from 'react-bootstrap/ButtonGroup';
 import ToggleButton from 'react-bootstrap/ToggleButton';
 import Container from 'react-bootstrap/Container';

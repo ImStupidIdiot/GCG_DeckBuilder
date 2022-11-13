@@ -1,0 +1,170 @@
+__________________
+'na': 'Liutian Archery: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Trail of the Qilin: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C111012].</color=#ffffffff>',
+'burst': 'Frostflake Arrow: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals <color=#ffffffff>2 $[K5] to all opposing characters on standby.</color=#ffffffff>',
+'special': 'Celestial Shower: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals <color=#ffffffff>1 $[K5] to all opposing characters on standby, summons 1 <color=#ffffffff>$[C111011].</color=#ffffffff></color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp'
+
+__________________
+'na': 'Ceremonial Bladework: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Frostgnaw: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Glacial Waltz: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C111031].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330001_gcg_high_resolution.webp'
+
+__________________
+'na': 'Demonbane: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Chonghua’s Layered Frost: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C111041].</color=#ffffffff>',
+'burst': 'Cloud-Parting Star: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330002_gcg_high_resolution.webp'
+
+__________________
+'na': 'Kamisato Art: Kabuki: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Kamisato Art: Hyouka: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Kamisato Art: Soumetsu: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C111051].</color=#ffffffff>',
+'special': 'Kamisato Art: Senho: (Passive) When switched to be the active character, this character gains <color=#ffffffff>$[C111052].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330003_gcg_high_resolution.webp'
+
+__________________
+'na': 'Guhua Style: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Fatal Rainscreen: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], grants this character $[K202], creates 1 <color=#ffffffff>$[C112021].</color=#ffffffff>',
+'burst': 'Raincutter: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], grants this character $[K202], creates 1 <color=#ffffffff>$[C112021] and <color=#ffffffff>$[C112022].</color=#ffffffff></color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330004_gcg_high_resolution.webp'
+
+__________________
+'na': 'Ripple of Fate: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Mirror Reflection of Doom: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C112031].</color=#ffffffff>',
+'burst': 'Stellaris Phantasm: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C112032].</color=#ffffffff>',
+'special': 'Illusory Torrent: (Passive) (Once per Round) When this character switches to another character, this switch is considered a $[K2] instead of a $[K1].',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330005_gcg_high_resolution.webp'
+
+__________________
+'na': 'Tempered Sword: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Searing Onslaught: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. For the third use of this Skill each Round, deals +2 DMG.',
+'burst': 'Dawn: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <color=#ffffffff>$[C113011].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330006_gcg_high_resolution.webp'
+
+__________________
+'na': 'Dough-Fu: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Guoba Attack: Summons 1 <color=#ffffffff>$[C113021].</color=#ffffffff>',
+'burst': 'Pyronado: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C113022].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330007_gcg_high_resolution.webp'
+
+__________________
+'na': 'Strike of Fortune: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Passion Overload: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Fantastic Voyage: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C113031].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330008_gcg_high_resolution.webp'
+
+__________________
+'na': 'Firework Flare-Up: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Niwabi Fire-Dance: This character gains <color=#ffffffff>$[C113051]. (This Skill does not grant {SPRITE_PRESET#1110}Energy)</color=#ffffffff>',
+'burst': 'Ryuukin Saxifrage: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C113052].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330010_gcg_high_resolution.webp'
+
+__________________
+'na': 'Bolts of Downfall: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Nightrider: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C114011].</color=#ffffffff>',
+'burst': 'Midnight Phantasmagoria: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals <color=#ffffffff>2 $[K5] to all opposing characters on standby.</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330011_gcg_high_resolution.webp'
+
+__________________
+'na': 'Steel Fang: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Claw and Thunder: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Lightning Fang: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <color=#ffffffff>$[C114021].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330012_gcg_high_resolution.webp'
+
+__________________
+'na': 'Yunlai Swordsmanship: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Stellar Restoration: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C114031].</color=#ffffffff>',
+'burst': 'Starward Sword: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals <color=#ffffffff>3 $[K5] to all opposing characters on standby.</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330013_gcg_high_resolution.webp'
+
+__________________
+'na': 'Wind Spirit Creation: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Astable Anemohypostasis Creation – 6308: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], the target is forcibly switched to the previous character.',
+'burst': 'Forbidden Creation – Isomer 75 / Type II: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C115011].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330014_gcg_high_resolution.webp'
+
+__________________
+'na': 'Favonius Bladework: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Gale Blade: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], the target is forcibly switched to the next character.',
+'burst': 'Dandelion Breeze: Heals all your characters for 2 HP, summons 1 <color=#ffffffff>$[C115021].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330015_gcg_high_resolution.webp'
+
+__________________
+'na': 'Sparkling Scatter: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Jade Screen: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C116011].</color=#ffffffff>',
+'burst': 'Starshatter: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. If <color=#ffffffff>$[C116011] is on the field, deals +2 DMG.</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330016_gcg_high_resolution.webp'
+
+__________________
+'na': 'Favonius Bladework – Maid: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Breastplate: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C116021].</color=#ffffffff>',
+'burst': 'Sweeping Time: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <color=#ffffffff>$[C116022].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330017_gcg_high_resolution.webp'
+
+__________________
+'na': 'Supplicant’s Bowmanship: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Floral Brush: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Trump-Card Kitty: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C117011].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330018_gcg_high_resolution.webp'
+
+__________________
+'na': 'Surge: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Oceanid Mimic Summoning: Randomly summons 1 <color=#ffffffff>$[C122010] (Prioritizes summoning a different type from preexisting ones).</color=#ffffffff>',
+'burst': 'The Myriad Wilds: Randomly summons 2 <color=#ffffffff>$[C122010] (Prioritizes summoning different types).</color=#ffffffff>',
+'special': 'Tide and Torrent: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. For each Summon on your field, deals +2 additional DMG.',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330019_gcg_high_resolution.webp'
+
+__________________
+'na': 'Thrust: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Prowl: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains <color=#ffffffff>$[C123011].</color=#ffffffff>',
+'burst': 'Blade Ablaze: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'special': 'Stealth Master: (Passive) When the battle begins, this character gains <color=#ffffffff>$[C123011].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330020_gcg_high_resolution.webp'
+
+__________________
+'na': 'Ichimonji: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Blustering Blade: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C125011].</color=#ffffffff>',
+'burst': 'Frosty Assault: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C125012].</color=#ffffffff>',
+'special': 'False Tengu Sweeper: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], triggers the effect(s) of all your <color=#ffffffff>Shadowsword Summon(s). (Does not consume their Usages)</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp'
+
+__________________
+'na': 'Plama Lawa: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Movo Lawa: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Upa Shato: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'special': 'Infused Stonehide: (Passive) When the battle begins, this character gains <color=#ffffffff>$[C126011] and <color=#ffffffff>$[C126012].</color=#ffffffff></color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330022_gcg_high_resolution.webp'
+
+__________________
+'na': 'Kätzlein Style: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Icy Paws: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 <color=#ffffffff>$[C111021].</color=#ffffffff>',
+'burst': 'Signature Mix: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], heals this character for 2 HP, summons 1 <color=#ffffffff>$[C111023].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330023_gcg_high_resolution.webp'
+
+__________________
+'na': 'Invoker’s Spear: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Secret Rite: Chasmic Soulfarer: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Sacred Rite: Wolf’s Swiftness: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].<br/><color=#ffffffff>$[C114041]‘s [Indwelling] Level +2.</color=#ffffffff>',
+'special': 'Lawful Enforcer: (Passive) When the battle begins, this character gains <color=#ffffffff>$[C114041].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330024_gcg_high_resolution.webp'
+
+__________________
+'na': 'Whisper of Water: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Let the Show Begin♪: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 <color=#ffffffff>$[C112011].</color=#ffffffff>',
+'burst': 'Shining Miracle♪: Heals all of your characters for 4 HP.',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330025_gcg_high_resolution.webp'
+
+__________________
+'na': 'Water Ball: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Influx Blast: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. The target character receives <color=#ffffffff>$[C122021].</color=#ffffffff>',
+'burst': 'Rippled Reflection: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330026_gcg_high_resolution.webp'
+
+__________________
+'na': 'Majestic Dance: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'skill': 'Volatile Spore Cloud: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+'burst': 'Feather Spreading: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], then consumes all <color=#ffffffff>$[C127011] stacks. For each stack consumed, deals +1 DMG.</color=#ffffffff>',
+'special': 'Radical Vitality: (Passive) When the battle begins, this character gains <color=#ffffffff>$[C127011].</color=#ffffffff>',
+'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330027_gcg_high_resolution.webp'
