@@ -371,7 +371,7 @@ const db = {
             "name": "Ningguang",
             'na': 'Sparkling Scatter \n2 Colorless, 1 Geo \nDeals 1 Geo DMG.',
             'skill': "Jade Screen \n3 Geo \nDeals 2 Geo DMG, creates 1 'Jade Screen'.",
-            'burst': "Starshatter \n Geo, 3 'Burst Energy' \nDeals 6 Geo DMG. If 'Jade Screen' is on the field, deals +2 DMG.",
+            'burst': "Starshatter \n3 Geo, 3 'Burst Energy' \nDeals 6 Geo DMG. If 'Jade Screen' is on the field, deals +2 DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330016_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330016.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334016.webp',
