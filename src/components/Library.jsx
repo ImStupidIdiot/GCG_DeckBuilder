@@ -4,16 +4,19 @@ import db from '../db';
 import CharLibrary from './CharLibrary';
 import ActionLibrary from './ActionLibrary';
 import Toggle from './Toggle';
+import StartBox from './StartBox';
 
 class Library extends Component {
     constructor(props) {
         super(props);
         const displayChars = Object.entries(db.chars).map((char) => char[0]);
         const displayActions = Object.entries(db.actions).map((action) => action[0]).sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
-        this.state = {conditions: {}, conditionsA: {}, displayChars: displayChars, displayActions: displayActions, CoA: 'C'};
+        this.state = {conditions: {}, conditionsA: {}, displayChars: displayChars, displayActions: displayActions, CoA: 'C', showStart: true};
         this.changeToggle = this.changeToggle.bind(this);
         this.changeToggleA = this.changeToggleA.bind(this);
         this.toggleCA = this.toggleCA.bind(this);
+        this.closeStart = this.closeStart.bind(this);
+        this.startBox = <StartBox closeInfo={this.closeStart}/>
     }
 
     changeToggle(category, condition) {
@@ -60,9 +63,14 @@ class Library extends Component {
         {this.state.CoA =='C' ? this.setState({CoA: 'A'}) : this.setState({CoA: 'C'})}
     }
 
+    closeStart() {
+        this.setState({showStart: false})
+    }
+
     render() {
         if (this.state.CoA=='C') {
         return (<div>
+            {this.state.showStart ? this.startBox : null}
             <Toggle conditions={this.state.condtions} changeToggle={this.changeToggle} changeToggleA={this.changeToggleA} toggleCA = {this.toggleCA} CoA={this.state.CoA}/>
             <CharLibrary displayChars={this.state.displayChars} current_chars={this.props.current_chars} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck}/>
         </div>)

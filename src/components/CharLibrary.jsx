@@ -3,6 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import Char from './Char'
 import CharInfoBox from './CharInfoBox'
+import StartBox from './StartBox'
 
 import db from '../db';
 
