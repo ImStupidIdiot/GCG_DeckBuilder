@@ -32,7 +32,7 @@ class StartBox extends Component {
                 <br></br><br></br>
                 Huge thanks to Honey Hunter (https://genshin.honeyhunterworld.com/) for basically every single polished sprite you see on this page. 
                 <br></br><br></br><br></br>
-                Todo list: replacing placeholders, finishing translations for summons/creations, exporting deck codes, very basic simulation of the game, deck tier list
+                Todo list: replacing placeholders, finishing translations for summons/creations, mobile display, exporting deck codes, very basic simulation of the game, deck tier list
                 <br></br><br></br>
                 </Col>
                 <Col xs={1}> 
