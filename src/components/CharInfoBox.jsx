@@ -29,15 +29,15 @@ class CharInfoBox extends Component {
                     <br></br>
                     <div className="infoBoxName">{db.chars[this.props.char].name}</div> 
                     <br></br>
-                    <p className="infoBoxText">{db.chars[this.props.char].na}</p>
+                    <p className="infoBoxText">Normal Attack: {db.chars[this.props.char].na}</p>
                     <br></br>
-                    <p className="infoBoxText">{db.chars[this.props.char].skill}</p>
+                    <p className="infoBoxText">Elemental Skill: {db.chars[this.props.char].skill}</p>
                     <br></br>
-                    <p className="infoBoxText">{db.chars[this.props.char].burst}</p>
+                    <p className="infoBoxText">Elemental Burst: {db.chars[this.props.char].burst}</p>
                     <br></br>
-                    <p className='infoBoxText'>{db.chars[this.props.char].special}</p>
+                    <p className='infoBoxText'>{db.chars[this.props.char].special ? 'Special: ' + db.chars[this.props.char].special : null}</p>
                     <br></br>
-                    <p className="infoBoxText">Related Cards: {db.chars[this.props.char].related_cards}</p>
+                    <p className="infoBoxText">Related: {db.chars[this.props.char].related}</p>
                     <br></br>
                 </Col>
             </Row>

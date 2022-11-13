@@ -66,123 +66,130 @@ const db = {
     "chars": {
         "kaeya": {
             "name": 'Kaeya',
-            'na': "Ceremonial Bladework: Deals 2 Physical Damage.",
-            'skill': "Frostgnaw: Deals 3 Cryo Damage.",
-            'burst': "Glacial Waltz: Deals 1 Cryo Damage, creates 1 'Spinning Icicles'.",
+            'na': "Ceremonial Bladework \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.",
+            'skill': "Frostgnaw \n3 Cryo \nDeals 3 Cryo DMG.",
+            'burst': "Glacial Waltz \n4 Cryo, 2 'Burst Energy' \nDeals 1 Cryo DMG, creates 1 'Spinning Icicles'.",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330001_gcg_high_resolution.webp",
             "card": Kaeya_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
             "icon": Kaeya_Icon,
             "element": 'cryo',
             "region": 'mond',
-            'related_cards': 'Spinning Icicles',
+            'related': 'Spinning Icicles',
         },
         "diona": {
             "name": 'Diona',
-            'na': "Kätzlein Style: Deals 2 Physical Damage.",
-            'skill': "Icy Paws: Deals 2 Cryo Damage, creates 1 'Paw Shield'.",
-            'burst': "Signature Mix: Deals 1 Cryo Damage, heals this character for 2 HP, summons 1 'Mixed Drink.'",
+            'na': "Kätzlein Style \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.",
+            'skill': "Icy Paws \n3 Cryo \nDeals 2 Cryo DMG, creates 1 'Paw Shield'.",
+            'burst': "Signature Mix \n3 Cryo, 3 'Burst Energy' \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Mixed Drink.'",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330023_gcg_high_resolution.webp",
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330023.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334023.webp',
             "icon": Diona_Icon,
             "element": 'cryo',
             "region": 'mond',
-            'related_cards': 'Mixed Drink',
+            'related': 'Paw Shield, Mixed Drink'
         },
         "ganyu": {
             "name": "Ganyu",
-            'na': 'Liutian Archery: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Trail of the Qilin: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C111012].',
-            'burst': 'Celestial Shower: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals 1 $[K5] to all opposing characters on standby, summons 1 $[C111011].',
-            'special': 'Frostflake Arrow: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals 2 $[K5] to all opposing characters on standby.',
+            'na': 'Liutian Archery \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.',
+            'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
+            'burst': "Celestial Shower \n3 Cryo, 2 'Burst Energy' \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl.",
+            'special': "Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
             "card": Ganyu_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334000.webp',
             "icon": Ganyu_Icon,
             "element": 'cryo',
-            "region": 'liyue'
+            "region": 'liyue',
+            'related': 'Ice Lotus, Sacred Cryo Pearl'
         },
         "chongyun": {
             "name": 'Chongyun',
-            'na': 'Demonbane: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Chonghua’s Layered Frost: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C111041].',
-            'burst': 'Cloud-Parting Star: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+            'na': 'Demonbane \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.',
+            'skill': "Chonghua’s Layered Frost \n3 Cryo \nDeals 3 Cryo DMG, creates 1 'Chonghua Frost Field'.",
+            'burst': "Cloud-Parting Star \n3 Cryo, 3 'Burst Energy' \nDeals 7 Cryo DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330002_gcg_high_resolution.webp',
             "card": Chongyun_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334002.webp',
             "icon": Chongyun_Icon,
             "element": 'cryo',
-            "region": 'liyue'
+            "region": 'liyue',
+            'related': 'Chonghua Frost Field'
         },
         "ayaka": {
             "name": 'Kamisato Ayaka',
-            'na': 'Kamisato Art: Kabuki: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Kamisato Art: Hyouka: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'burst': 'Kamisato Art: Soumetsu: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C111051].',
-            'special': 'Kamisato Art: Senho: (Passive) When switched to be the active character, this character gains $[C111052].',
+            'na': 'Kamisato Art: Kabuki \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.',
+            'skill': 'Kamisato Art: Hyouka \n3 Cryo \nDeals 3 Cryo DMG.',
+            'burst': "Kamisato Art: Soumetsu \n3 Cryo, 3 'Burst Energy'\nDeals 4 Cryo DMG, summons 1 'Frostflake Seki no To'.",
+            'special': "Kamisato Art: Senho \n(Passive) \nWhen switched to be the active character, this character gains 'Cryo Infusion.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330003_gcg_high_resolution.webp',
             "card": Ayaka_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334003.webp',
             "icon": Ayaka_Icon,
             "element": 'cryo',
-            "region": 'inazuma'
+            "region": 'inazuma',
+            'related': 'Frostflake Seki no To, Cryo Infusion'
         },
         "mona": {
             "name": "Mona",
-            'na': 'Ripple of Fate: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Mirror Reflection of Doom: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C112031].',
-            'burst': 'Stellaris Phantasm: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C112032].',
-            'special': 'Illusory Torrent: (Passive) (Once per Round) When this character switches to another character, this switch is considered a $[K2] instead of a $[K1].',
+            'na': 'Ripple of Fate \n2 Colorless, 1 Hydro \nDeals 1 Hydro DMG.',
+            'skill': "Mirror Reflection of Doom \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Phantom'.",
+            'burst': "Stellaris Phantasm \n3 Hydro, 3 'Burst Energy' \nDeals 4 Hydro DMG, creates 1 'Illusory Bubble.",
+            'special': "Illusory Torrent \n(Passive) \n(Once per Round) When this character switches to another character, this switch is considered a 'Fast Action' instead of a 'Slow Action'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330005_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330005.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334005.webp',
             "icon": Mona_Icon,
             "element": 'hydro',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Phantom, Illusory Bubble'
         },
         "barbara": {
             "name": "Barbara",
-            'na': 'Whisper of Water: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Let the Show Begin♪: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C112011].',
-            'burst': 'Shining Miracle♪: Heals all of your characters for 4 HP.',
+            'na': 'Whisper of Water \n2 Colorless, 1 Hydro \nDeals 1 Hydro DMG.',
+            'skill': "Let the Show Begin♪ \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Melody Loop'.",
+            'burst': "Shining Miracle♪ \n3 Hydro, 3 'Burst Energy' \nHeals all of your characters for 4 HP.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330025_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330025.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334025.webp',
             "icon": Barbara_Icon,
             "element": 'hydro',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Melody Loop'
         },
         "xingqiu": {
             "name": 'Xingqiu',
-            'na': 'Guhua Style: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Fatal Rainscreen: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], grants this character $[K202], creates 1 $[C112021].',
-            'burst': 'Raincutter: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], grants this character $[K202], creates 1 $[C112021] and $[C112022].',
+            'na': 'Guhua Style \n2 Colorless, 1 Hydro \nDeals 2 Physical DMG.',
+            'skill': "Fatal Rainscreen \n3 Hydro \nDeals 2 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword'.",
+            'burst': "Raincutter \n3 Hydro, 2 'Burst Energy' \nDeals 1 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword' and 'Rainbow Bladework'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330004_gcg_high_resolution.webp',
             "card": Xingqiu_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
             "icon": Xingqiu_Icon,
             "element": 'hydro',
-            "region": 'liyue'
+            "region": 'liyue',
+            'related': 'Rain Sword, Rainbow Bladework'
         },
         "oceanoid": {
             "name": "Rhodeia of Loch",
-            'na': 'Surge: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Oceanid Mimic Summoning: Randomly summons 1 $[C122010] (Prioritizes summoning a different type from preexisting ones).',
-            'burst': 'Tide and Torrent: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. For each Summon on your field, deals +2 additional DMG.',
-            'special': 'The Myriad Wilds: Randomly summons 2 $[C122010] (Prioritizes summoning different types).',
+            'na': 'Surge \n2 Colorless, 1 Hydro \nDeals 1 Hydro DMG.',
+            'skill': "Oceanid Mimic Summoning \n3 Hydro \nRandomly summons 1 'Hydro Mimic' (Prioritizes summoning a different type from preexisting ones).",
+            'burst': "Tide and Torrent \n3 Hydro, 3 'Burst Energy' \nDeals 2 Hydro DMG. For each Summon on your field, deals +2 additional DMG.",
+            'special': "The Myriad Wilds \n5 Hydro \nRandomly summons 2 'Hydro Mimic's (Prioritizes summoning different types).",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330019_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330019.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334019.webp',
             "icon": Oceanoid_Icon,
             "element": 'hydro',
-            "region": 'monster'
+            "region": 'monster',
+            'related': 'Hydro Mimic Squirrel, Hydro Mimic Raptor, Hydro Mimic Frog'
         },
         "mirrormaiden": {
-            "name": "Mirror Maiden",
-            'na': 'Water Ball: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Influx Blast: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. The target character receives $[C122021].',
-            'burst': 'Rippled Reflection: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
+            "name": "Mirror Maiden (NO DATA)",
+            'na': 'Water Ball: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'skill': 'Influx Blast: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT]. The target character receives $[C122021].',
+            'burst': 'Rippled Reflection: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330026_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330026.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334026.webp',
@@ -192,107 +199,115 @@ const db = {
         },
         "diluc": {
             "name": "Diluc",
-            'na': 'Tempered Sword: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Searing Onslaught: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. For the third use of this Skill each Round, deals +2 DMG.',
-            'burst': 'Dawn: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains $[C113011].',
+            'na': 'Tempered Sword \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'skill': 'Searing Onslaught \n3 Pyro \nDeals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.',
+            'burst': "Dawn \n4 Pyro, 3 'Burst Energy' \nDeals 8 Pyro DMG. This character gains 'Pyro Infusion'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330006_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330006.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
             "icon": Diluc_Icon,
             "element": 'pyro',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Pyro Infusion'
         },
         "bennett": {
             "name": "Bennett",
-            'na': 'Strike of Fortune: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Passion Overload: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'burst': 'Fantastic Voyage: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C113031].',
+            'na': 'Strike of Fortune \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'skill': 'Passion Overload \n3 Pyro \nDeals 3 Pyro DMG.',
+            'burst': "Fantastic Voyage \n4 Pyro, 2 'Burst Energy' \nDeals 2 Pyro DMG, creates 1 'Inspiration Field'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330008_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330008.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
             "icon": Bennett_Icon,
             "element": 'pyro',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Inspiration Field'
         },
         "xiangling": {
             "name": "Xiangling",
-            'na': 'Dough-Fu: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Guoba Attack: Summons 1 $[C113021].',
-            'burst': 'Pyronado: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C113022].',
+            'na': 'Dough-Fu \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'skill': "Guoba Attack \n3 Pyro \nSummons 1 'Guoba'.",
+            'burst': "Pyronado \n4 Pyro, 2 'Burst Energy' \nDeals 2 Pyro DMG, creates 1 'Pyronado'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330007_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330007.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334007.webp',
             "icon": Xiangling_Icon,
             "element": 'pyro',
-            "region": 'liyue'
+            "region": 'liyue',
+            'related': 'Pyronado'
         },
         "yoimiya": {
             "name": 'Yoimiya',
-            'na': 'Firework Flare-Up: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Niwabi Fire-Dance: This character gains $[C113051]. (This Skill does not grant {SPRITE_PRESET#1110}Energy)',
-            'burst': 'Ryuukin Saxifrage: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C113052].',
+            'na': 'Firework Flare-Up \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'skill': "Niwabi Fire-Dance \n1 Pyro \nThis character gains 'Niwabi Enshou'. (This Skill does not grant Energy)",
+            'burst': "Ryuukin Saxifrage \n3 Pyro, 2 'Burst Energy' \nDeals 3 Pyro DMG, creates 1 'Aurous Blaze'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330010_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330010.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334010.webp',
             "icon": Yoimiya_Icon,
             "element": 'pyro',
-            "region": 'inazuma'
+            "region": 'inazuma',
+            'related': 'Niwabi Enshou, Aurous Blaze'
         },
         "pyroagent": {
             "name": "Fatui Pyro Agent",
-            'na': 'Thrust: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Prowl: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains $[C123011].',
-            'burst': 'Blade Ablaze: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'special': 'Stealth Master: (Passive) When the battle begins, this character gains $[C123011].',
+            'na': 'Thrust \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'skill': "Prowl \n3 Pyro \nDeals 1 Pyro DMG. This character gains 'Invsibility'.",
+            'burst': "Blade Ablaze \n3 Pyro, 2 'Burst Energy' \nDeals 5 Pyro DMG.",
+            'special': "Stealth Master \n(Passive) \nWhen the battle begins, this character gains 'Invisibility'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330020_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330020.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334020.webp',
             "icon": Pyroagent_Icon,
             "element": 'pyro',
-            "region": 'fatui'
+            "region": 'fatui',
+            'related': 'Invisibility'
         },
         "fischl": {
             "name": "Fischl",
-            'na': 'Bolts of Downfall: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Nightrider: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C114011].',
-            'burst': 'Midnight Phantasmagoria: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals 2 $[K5] to all opposing characters on standby.',
+            'na': 'Bolts of Downfall \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
+            'skill': "Nightrider \n3 Electro \nDeals 1 Electro DMG, summons 1 'Oz'.",
+            'burst': "Midnight Phantasmagoria \n3 Electro, 3 'Burst Energy' \nDeals 4 Electro DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330011_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330011.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
             "icon": Fischl_Icon,
             "element": 'electro',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Oz'
         },
         "razor": {
             "name": "Razor",
-            'na': 'Steel Fang: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Claw and Thunder: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'burst': 'Lightning Fang: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains $[C114021].',
+            'na': 'Steel Fang \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
+            'skill': 'Claw and Thunder \n3 Electro \nDeals 3 Electro DMG.',
+            'burst': "Lightning Fang \n3 Electro, 3 'Burst Energy' \nDeals 5 Electro DMG. This character gains 'The Wolf Within'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330012_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330012.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
             "icon": Razor_Icon,
             "element": 'electro',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'The Wolf Within'
         },
         "keqing": {
             "name": "Keqing",
-            'na': 'Yunlai Swordsmanship: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Stellar Restoration: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C114031].',
-            'burst': 'Starward Sword: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], deals 3 $[K5] to all opposing characters on standby.',
+            'na': 'Yunlai Swordsmanship \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
+            'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, generates 1 'Lightning Stilleto.",
+            'burst': "Starward Sword \n4 Electro, 3 'Burst Energy' \nDeals 4 Electro, deals 3 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330013_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334013.webp',
             "icon": Keqing_Icon,
             "element": 'electro',
-            "region": 'liyue'
+            "region": 'liyue',
+            'related': 'Lightning Stilleto'
         },
         "cyno": {
-            "name": "Cyno",
-            'na': 'Invoker’s Spear: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Secret Rite: Chasmic Soulfarer: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'burst': 'Sacred Rite: Wolf’s Swiftness: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].<br/>$[C114041]‘s [Indwelling] Level +2.',
-            'special': 'Lawful Enforcer: (Passive) When the battle begins, this character gains $[C114041].',
+            "name": "Cyno (NO DATA)",
+            'na': 'Invoker’s Spear: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'skill': 'Secret Rite: Chasmic Soulfarer: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'burst': 'Sacred Rite: Wolf’s Swiftness: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].<br/>$[C114041]‘s [Indwelling] Level +2.',
+            'special': 'Lawful Enforcer \n(Passive) \nWhen the battle begins, this character gains $[C114041].',
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330024_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330024.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334024.webp',
@@ -302,34 +317,36 @@ const db = {
         },
         "sucrose": {
             "name": "Sucrose",
-            'na': 'Wind Spirit Creation: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Astable Anemohypostasis Creation – 6308: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], the target is forcibly switched to the previous character.',
-            'burst': 'Forbidden Creation – Isomer 75 / Type II: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C115011].',
+            'na': 'Wind Spirit Creation \n2 Colorless, 1 Anemo \nDeals 1 Anemo DMG.',
+            'skill': 'Astable Anemohypostasis Creation – 6308 \n3 Anemo \nDeals 3 Anemo DMG, the target is forcibly switched to the previous character.',
+            'burst': "Forbidden Creation – Isomer 75 / Type II \n3 Anemo, 2 'Burst Energy' \nDeals 1 Anemo DMG, summons 1 'Large Wind Spirit.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330014_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330014.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
             "icon": Sucrose_Icon,
             "element": 'anemo',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Large Wind Spirit'
         },
         "jean": {
             "name": "Jean",
-            'na': 'Favonius Bladework: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Gale Blade: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], the target is forcibly switched to the next character.',
-            'burst': 'Dandelion Breeze: Heals all your characters for 2 HP, summons 1 $[C115021].',
+            'na': 'Favonius Bladework \n2 Colorless, 1 Anemo \nDeals 2 Physical DMG.',
+            'skill': 'Gale Blade \n3 Anemo \nDeals 3 Anemo DMG, the target is forcibly switched to the next character.',
+            'burst': "Dandelion Breeze \n4 Anemo, 3 'Burst Energy' \nHeals all your characters for 2 HP, summons 1 'Dandelion Field'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330015_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330015.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334015.webp',
             "icon": Jean_Icon,
             "element": 'anemo',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Dandelion Field'
         },
         "maguu": {
-            "name": 'Maguu Kenki',
-            'na': 'Ichimonji: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Blustering Blade: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C125011].',
-            'burst': 'False Tengu Sweeper: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)',
-            'special': 'Frosty Assault: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C125012].',
+            "name": 'Maguu Kenki (NO DATA)',
+            'na': 'Ichimonji: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'skill': 'Blustering Blade: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], summons 1 $[C125011].',
+            'burst': 'False Tengu Sweeper: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)',
+            'special': 'Frosty Assault: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], summons 1 $[C125012].',
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330021.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334021.webp',
@@ -339,34 +356,36 @@ const db = {
         },
         "noelle": {
             "name": "Noelle",
-            'na': 'Favonius Bladework – Maid: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Breastplate: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C116021].',
-            'burst': 'Sweeping Time: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. This character gains $[C116022].',
+            'na': 'Favonius Bladework – Maid \n2 Colorless, 1 Geo \nDeals 2 Physical DMG.',
+            'skill': "Breastplate \n3 Geo \nDeals 1 Geo DMG, creates 1 'Breastplate'.",
+            'burst': "Sweeping Time \n4 Geo, 2 'Burst Energy' \nDeals 4 Geo DMG. This character gains 'Sweeping Time'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330017_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330017.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334017.webp',
             "icon": Noelle_Icon,
             "element": 'geo',
-            "region": 'mond'
+            "region": 'mond',
+            'related': 'Breastplate, Sweeping Time'
         },
         "ningguang": {
             "name": "Ningguang",
-            'na': 'Sparkling Scatter: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Jade Screen: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], creates 1 $[C116011].',
-            'burst': 'Starshatter: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT]. If $[C116011] is on the field, deals +2 DMG.',
+            'na': 'Sparkling Scatter \n2 Colorless, 1 Geo \nDeals 1 Geo DMG.',
+            'skill': "Jade Screen \n3 Geo \nDeals 2 Geo DMG, creates 1 'Jade Screen'.",
+            'burst': "Starshatter \n Geo, 3 'Burst Energy' \nDeals 6 Geo DMG. If 'Jade Screen' is on the field, deals +2 DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330016_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330016.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334016.webp',
             "icon": Ningguang_Icon,
             "element": 'geo',
-            "region": 'liyue'
+            "region": 'liyue',
+            'related': 'Jade Screen'
         },
         "stonehidelawachurl": {
-            "name": "Stonehide Lawachurl",
-            'na': 'Plama Lawa: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Movo Lawa: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'burst': 'Upa Shato: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'special': 'Infused Stonehide: (Passive) When the battle begins, this character gains $[C126011] and $[C126012].',
+            "name": "Stonehide Lawachurl (NO DATA)",
+            'na': 'Plama Lawa: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'skill': 'Movo Lawa: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'burst': 'Upa Shato: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'special': 'Infused Stonehide \n(Passive) \nWhen the battle begins, this character gains $[C126011] and $[C126012].',
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330022_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330022.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334022.webp',
@@ -376,9 +395,9 @@ const db = {
         },
         "collei": {
             "name": "Collei",
-            'na': 'Supplicant’s Bowmanship: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Floral Brush: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'burst': 'Trump-Card Kitty: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], summons 1 $[C117011].',
+            'na': 'Supplicant’s Bowmanship \n2 Colorless, 1 Dendro \nDeals 2 Physical DMG.',
+            'skill': 'Floral Brush \n3 Dendro \nDeals 3 Dendro DMG.',
+            'burst': "Trump-Card Kitty \n3 Dendro, 2 'Burst Energy' \nDeals 2 Dendro DMG, summons 1 'Cuilein-Anbar.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330018_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330018.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334018.webp',
@@ -387,11 +406,11 @@ const db = {
             "region": 'sumeru'
         },
         "terrorshroom": {
-            "name": "Jadeplume Terrorshroom",
-            'na': 'Majestic Dance: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'skill': 'Volatile Spore Cloud: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT].',
-            'burst': 'Feather Spreading: Deals $[D__KEY__DAMAGE] $[D__KEY__ELEMENT], then consumes all $[C127011] stacks. For each stack consumed, deals +1 DMG.',
-            'special': 'Radical Vitality: (Passive) When the battle begins, this character gains $[C127011].',
+            "name": "Jadeplume Terrorshroom (NO DATA)",
+            'na': 'Majestic Dance: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'skill': 'Volatile Spore Cloud: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            'burst': 'Feather Spreading: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], then consumes all $[C127011] stacks. For each stack consumed, deals +1 DMG.',
+            'special': 'Radical Vitality: \n(Passive) \nWhen the battle begins, this character gains $[C127011].',
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330027_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330027.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334027.webp',
@@ -409,7 +428,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
             "cost": '5',
-            "description": "'Slow Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': If this Skill has been used before during this match, Cryo DMG dealt by this Skill +1, and it now deals 3 'Piercing Damage' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': If this Skill has been used before during this match, Cryo DMG dealt by this Skill +1, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)"
         },
         
         "coldbloodedstrike": {
@@ -439,7 +458,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334503.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330503_gcg_high_resolution.webp",
             "cost": '2',
-            "description": "The 'Frostflake Seki no To' created by your Kamisato Ayaka, who has this card equipped, allows the character to which it is attached to deal +1 'Cryo Damage'.\n\nWhen you switch to a Kamisato Ayaka who has this card equipped: Spend 1 less Elemental Dice. (Once per Round)\n\n(You must have Kamisato Ayaka in your deck to add this card to your deck.)"
+            "description": "The 'Frostflake Seki no To' created by your Kamisato Ayaka, who has this card equipped, allows the character to which it is attached to deal +1 'Cryo DMG'.\n\nWhen you switch to a Kamisato Ayaka who has this card equipped: Spend 1 less Elemental Dice. (Once per Round)\n\n(You must have Kamisato Ayaka in your deck to add this card to your deck.)"
         },
         
         "thescentremained": {
@@ -479,7 +498,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334507.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330507_gcg_high_resolution.webp",
             "cost": '4',
-            "description": "'Slow Action': When your active character is Xiangling, equip this card.\n\nAfter Xiangling equips this card, immediately use 'Elemental Skill: Guoba Attack' once.\n\nWhen your Xiangling, who has this card equipped, uses 'Elemental Skill: Guoba Attack', she will also deal 1 'Pyro Damage'.\n\n(You must have Xiangling in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Xiangling, equip this card.\n\nAfter Xiangling equips this card, immediately use 'Elemental Skill: Guoba Attack' once.\n\nWhen your Xiangling, who has this card equipped, uses 'Elemental Skill: Guoba Attack', she will also deal 1 'Pyro DMG'.\n\n(You must have Xiangling in your deck to add this card to your deck.)"
         },
         
         "grandexpectation": {
@@ -499,7 +518,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334510.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330510_gcg_high_resolution.webp",
             "cost": '2',
-            "description": "'Slow Action': When your active character is Yoimiya, equip this card.\n\nAfter Yoimiya equips this card, immediately use 'Elemental Skill: Niwabi Fire Dance' once.\n\nAfter your Yoimiya, who has this card equipped, triggers 'Niwabi Enshou': Deal 1 additional 'Pyro Damage'.\n\n(You must have Yoimiya in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Yoimiya, equip this card.\n\nAfter Yoimiya equips this card, immediately use 'Elemental Skill: Niwabi Fire Dance' once.\n\nAfter your Yoimiya, who has this card equipped, triggers 'Niwabi Enshou': Deal 1 additional 'Pyro DMG'.\n\n(You must have Yoimiya in your deck to add this card to your deck.)"
         },
         
         "stellarpredator": {
@@ -509,7 +528,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334511.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330511_gcg_high_resolution.webp",
             "cost": '3',
-            "description": "'Slow Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro Damage'.(Consumes a 'Use' (of Oz?))\n\n(You must have Fischl in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(Consumes a 'Use' (of Oz?))\n\n(You must have Fischl in your deck to add this card to your deck.)"
         },
         
         "awakening": {
@@ -529,7 +548,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334513.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330513_gcg_high_resolution.webp",
             "cost": '3',
-            "description": "'Slow Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an (Lightning Stilleto v2?), its 'Electro Damage' +1, and 'Electro Damage' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an (Lightning Stilleto v2?), its 'Electro DMG' +1, and 'Electro DMG' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)"
         },
         
         "chaoticentropy": {
@@ -549,7 +568,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334515.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330515_gcg_high_resolution.webp",
             "cost": '4 + 3',
-            "description": "'Slow Action': When your active character is Jean, equip this card.\n\nAfter Jean equips this card, immediately use 'Elemental Burst: Dandelion Breeze' once.\n\nWhen your Jean, who has this card equipped, creates a 'Dandelion Field', it will cause you to deal +1 'Anemo Damage'.\n\n(You must have Jean in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Jean, equip this card.\n\nAfter Jean equips this card, immediately use 'Elemental Burst: Dandelion Breeze' once.\n\nWhen your Jean, who has this card equipped, creates a 'Dandelion Field', it will cause you to deal +1 'Anemo DMG'.\n\n(You must have Jean in your deck to add this card to your deck.)"
         },
         
         "strategicreserve": {
@@ -559,7 +578,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334516.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330516_gcg_high_resolution.webp",
             "cost": '4',
-            "description": "'Slow Action': When your active character is Ningguang, equip this card.\n\nAfter Ningguang equips this card, immediately use 'Elemental Skill: Jade Screen' once.\n\nWhen your Ningguang, who has this card equipped, creates a 'Jade Screen', it will cause you to deal +1 'Geo Damage'.\n\n(You must have Ningguang in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Ningguang, equip this card.\n\nAfter Ningguang equips this card, immediately use 'Elemental Skill: Jade Screen' once.\n\nWhen your Ningguang, who has this card equipped, creates a 'Jade Screen', it will cause you to deal +1 'Geo DMG'.\n\n(You must have Ningguang in your deck to add this card to your deck.)"
         },
         
         "igotyourback": {
@@ -579,7 +598,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334518.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330518_gcg_high_resolution.webp",
             "cost": '3',
-            "description": "'Slow Action': When your active character is Collei, equip this card.\n\nAfter Collei equips this card, immediately use 'Elemental Skill: Floral Brush' once.\n\nAfter your Collei, who has this card equipped, uses 'Elemental Skill: Floral Brush', during this Round, after your characters’ Skills trigger a 'Dendro Reaction': Deal 1 'Dendro Damage'. (Once per Round)\n\n(You must have Collei in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Collei, equip this card.\n\nAfter Collei equips this card, immediately use 'Elemental Skill: Floral Brush' once.\n\nAfter your Collei, who has this card equipped, uses 'Elemental Skill: Floral Brush', during this Round, after your characters’ Skills trigger a 'Dendro Reaction': Deal 1 'Dendro DMG'. (Once per Round)\n\n(You must have Collei in your deck to add this card to your deck.)"
         },
         
         "streamingsurge": {
@@ -599,7 +618,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334520.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330520_gcg_high_resolution.webp",
             "cost": '3',
-            "description": "'Slow Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Invsibility Veil', its 'Use' +1, and the 'Physical Damage' this character deals will be converted to 'Pyro Damage'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Invsibility Veil', its 'Use' +1, and the 'Physical DMG' this character deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)"
         },
         
         "transcendentautomaton": {
@@ -1169,7 +1188,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332014_gcg_high_resolution.webp",
             "cost": '0',
-            "description": "After both sides deal 'Physical Damage', 'Piercing Damage', or trigger an Elemental Reaction: This card gains 1 Inspiration.\n\nWhen this card gains 3 Inspiration, discard this card, then draw 2 cards."
+            "description": "After both sides deal 'Physical DMG', 'Piercing DMG', or trigger an Elemental Reaction: This card gains 1 Inspiration.\n\nWhen this card gains 3 Inspiration, discard this card, then draw 2 cards."
         },
         
         "ellin": {
@@ -1279,7 +1298,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333005_gcg_high_resolution.webp",
             "cost": '1',
-            "description": "During this round, the next instance of 'Pyro Reaction Damage' your active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)"
+            "description": "During this round, the next instance of 'Pyro Reaction DMG' your active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)"
         },
         
         "elementalresonancewoventhunder": {
@@ -1339,7 +1358,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333011_gcg_high_resolution.webp",
             "cost": '1',
-            "description": "During this round, after your character deals 'Geo Damage' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)"
+            "description": "During this round, after your character deals 'Geo DMG' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)"
         },
         
         "elementalresonancewovenweeds": {
