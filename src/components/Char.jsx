@@ -4,7 +4,7 @@ import '../scss/library.css';
 class Char extends Component {
     constructor(props) {
         super(props);
-        this.state = { counter: 0, width: '135', height: '230'} //counter = 0 means card is unselected, counter = 1 means selected
+        this.state = { counter: 0 } //counter = 0 means card is unselected, counter = 1 means selected
     }
 
     render() {  
@@ -21,20 +21,7 @@ class Char extends Component {
                             }
                         }
                     > 
-                        <img src={this.props.url} width={this.state.width} height={this.state.height}
-                        onMouseEnter={
-                            () => {
-                                this.setState({width: '138'})
-                                this.setState({height: '235'})
-                            }
-                        }
-                        onMouseLeave={
-                            () => {
-                                this.setState({width: '135'})
-                                this.setState({height: '230'})
-                            }
-                        }
-                        ></img>
+                        <img src={this.props.url} width="135" height="230"></img>
                     </button>
                 </div>
             );
@@ -45,19 +32,7 @@ class Char extends Component {
                     this.props.removeFromDeck(this.props.name)
                 }
                 }> 
-                    <img src={this.props.url2} width={this.state.width} height={this.state.height}
-                    onMouseEnter={
-                            () => {
-                                this.setState({width: '138'})
-                                this.setState({height: '235'})
-                            }
-                        }
-                        onMouseLeave={
-                            () => {
-                                this.setState({width: '135'})
-                                this.setState({height: '230'})
-                            }
-                        }></img></button></div>
+                    <img src={this.props.url2} width="135" height="230"></img> </button></div>
             );
         }
     }
