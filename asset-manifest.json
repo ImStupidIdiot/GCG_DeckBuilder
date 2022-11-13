@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/GCG_DeckBuilder/static/css/main.d4fe3af8.css",
-    "main.js": "/GCG_DeckBuilder/static/js/main.dcd0d6c7.js",
+    "main.js": "/GCG_DeckBuilder/static/js/main.8c48df3a.js",
     "static/media/Action_Block_Test.png": "/GCG_DeckBuilder/static/media/Action_Block_Test.81ce58fd8ed0dbe18b7e.png",
     "static/media/Stonehidelawachurl_Icon.png": "/GCG_DeckBuilder/static/media/Stonehidelawachurl_Icon.a22c24837f174679890f.png",
     "static/media/Mona_Icon.png": "/GCG_DeckBuilder/static/media/Mona_Icon.6cd67da6584a8b7d2060.png",
@@ -45,10 +45,10 @@
     "static/media/Chongyun_Card.webp": "/GCG_DeckBuilder/static/media/Chongyun_Card.e68a18cc3a011b503135.webp",
     "index.html": "/GCG_DeckBuilder/index.html",
     "main.d4fe3af8.css.map": "/GCG_DeckBuilder/static/css/main.d4fe3af8.css.map",
-    "main.dcd0d6c7.js.map": "/GCG_DeckBuilder/static/js/main.dcd0d6c7.js.map"
+    "main.8c48df3a.js.map": "/GCG_DeckBuilder/static/js/main.8c48df3a.js.map"
   },
   "entrypoints": [
     "static/css/main.d4fe3af8.css",
-    "static/js/main.dcd0d6c7.js"
+    "static/js/main.8c48df3a.js"
   ]
 }
