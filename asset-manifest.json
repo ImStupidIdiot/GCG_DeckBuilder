@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/GCG_DeckBuilder/static/css/main.4742ca8f.css",
-    "main.js": "/GCG_DeckBuilder/static/js/main.bb0f3f8b.js",
+    "main.css": "/GCG_DeckBuilder/static/css/main.d4fe3af8.css",
+    "main.js": "/GCG_DeckBuilder/static/js/main.dcd0d6c7.js",
     "static/media/Action_Block_Test.png": "/GCG_DeckBuilder/static/media/Action_Block_Test.81ce58fd8ed0dbe18b7e.png",
     "static/media/Stonehidelawachurl_Icon.png": "/GCG_DeckBuilder/static/media/Stonehidelawachurl_Icon.a22c24837f174679890f.png",
     "static/media/Mona_Icon.png": "/GCG_DeckBuilder/static/media/Mona_Icon.6cd67da6584a8b7d2060.png",
@@ -37,17 +37,18 @@
     "static/media/Geo_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Geo_Sort_Activated.30cb03f4b918e21259cc.png",
     "static/media/Hydro_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Hydro_Sort_Activated.c0351e50523a010c5780.png",
     "static/media/Electro_Sort_Activated.png": "/GCG_DeckBuilder/static/media/Electro_Sort_Activated.dc8c30f497e6e95dd0ea.png",
+    "static/media/Info_Button.png": "/GCG_DeckBuilder/static/media/Info_Button.fc16ddd105ff5c4fa53d.png",
     "static/media/Xingqiu_Card.webp": "/GCG_DeckBuilder/static/media/Xingqiu_Card.adbd2b532ba5ad29380a.webp",
     "static/media/Ganyu_Card.webp": "/GCG_DeckBuilder/static/media/Ganyu_Card.fd8974244e601f6a39a1.webp",
     "static/media/Ayaka_Card.webp": "/GCG_DeckBuilder/static/media/Ayaka_Card.68212eaa0c3ec8283591.webp",
     "static/media/Kaeya_Card.webp": "/GCG_DeckBuilder/static/media/Kaeya_Card.19ec6df316ed2d2b0165.webp",
     "static/media/Chongyun_Card.webp": "/GCG_DeckBuilder/static/media/Chongyun_Card.e68a18cc3a011b503135.webp",
     "index.html": "/GCG_DeckBuilder/index.html",
-    "main.4742ca8f.css.map": "/GCG_DeckBuilder/static/css/main.4742ca8f.css.map",
-    "main.bb0f3f8b.js.map": "/GCG_DeckBuilder/static/js/main.bb0f3f8b.js.map"
+    "main.d4fe3af8.css.map": "/GCG_DeckBuilder/static/css/main.d4fe3af8.css.map",
+    "main.dcd0d6c7.js.map": "/GCG_DeckBuilder/static/js/main.dcd0d6c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.4742ca8f.css",
-    "static/js/main.bb0f3f8b.js"
+    "static/css/main.d4fe3af8.css",
+    "static/js/main.dcd0d6c7.js"
   ]
 }
