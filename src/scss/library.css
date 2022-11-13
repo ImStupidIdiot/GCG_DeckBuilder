@@ -45,6 +45,8 @@
     height:80px;
     width:80px;
     padding: 0;
+    font-family: Helvetica;
+    font-size: 35px;
 }
 
 .toggleFaction {
@@ -169,8 +171,52 @@
 }
 
 .actionCardCounter {
-    height: 0px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
     overflow: visible;
     font-family: Helvetica;
+}
+
+.relative {
+    position: relative;
+}
+
+.filterText {
+    font-family: Helvetica;
+    font-size: 30px;
+    position: relative;
+}
+
+.toggleElementText {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 300px;
+    background-color: rgba(0,0,0,0);
+    height:72px;
+    width:80px;
+    padding: 0;
+    font-family: Helvetica;
+    font-size: 20px;
+}
+
+.toggleElementTextSelected {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    border: 0;
+    border-radius: 300px;
+    background-color: rgb(0, 0, 0, 0.7);
+    height:72px;
+    width:80px;
+    padding: 0;
+    color: white;
+    font-family: Helvetica;
+    font-size: 20px;
 }

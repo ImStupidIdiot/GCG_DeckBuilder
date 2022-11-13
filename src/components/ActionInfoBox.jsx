@@ -20,7 +20,6 @@ class ActionInfoBox extends Component {
     render() {
         if (this.props.action) {
             var text = db.actions[this.props.action].description
-            console.log(text);
             return <div className="infobox"> 
                 <button onClick={this.props.closeInfo} className="infoBoxButton"><img src={Close_Icon} className="infoBoxClose"></img></button>
                 <Container>
