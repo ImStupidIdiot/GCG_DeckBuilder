@@ -60,7 +60,7 @@ class Library extends Component {
     }
 
     toggleCA() {
-        {this.state.CoA =='C' ? this.setState({CoA: 'A'}) : this.setState({CoA: 'C'})}
+        {this.state.CoA =='C' ? this.setState({conditions: {}, CoA: 'A'}) : this.setState({conditions: {}, CoA: 'C'})}
     }
 
     closeStart() {
