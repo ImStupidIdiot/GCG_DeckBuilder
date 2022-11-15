@@ -84,3 +84,39 @@
 .font {
     font-family: 'Helvetica';
 }
+
+.Pyro {
+    color: rgb(255, 0, 0)
+}
+
+.Hydro {
+    color:rgb(67, 98, 255)
+}
+
+.Anemo {
+    color: rgb(0, 255, 187)
+}
+
+.Electro {
+    color: rgb(153, 0, 255)
+}
+
+.Dendro {
+    color:rgb(87, 201, 0)
+}
+
+.Cryo {
+    color: rgb(0, 255, 247);
+}
+
+.Geo {
+    color:rgb(255, 234, 0)
+}
+
+.Energy {
+    color: rgb(255, 145, 0)
+}
+
+.Black {
+    color:rgba(255, 255, 255, 0.593);
+}

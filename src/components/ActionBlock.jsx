@@ -10,10 +10,18 @@ class ActionBlock extends Component {
     }
 
     render() {
-        var cost = this.props.cost[0]
+        var cost_list = this.props.cost
+        cost_list = cost_list.split(" ")
+        console.log(cost_list)
+        cost2 = null
+        var cost = cost_list[0]
+        var cost_style = cost_list[1]
+        var cost2_style = null
+
         if (db.actions[this.props.name].tags.includes('talent')) {
-            if (this.props.cost[4]) {
-                cost += '\n' + this.props.cost[4]
+            if (cost_list[2]) {
+                var cost2 = '\n' + cost_list[2]
+                cost2_style = 'Energy'
             }
         }
 
@@ -38,7 +46,7 @@ class ActionBlock extends Component {
             hidden={this.state.counter == 0}
         >
             <Row>
-                <Col xs={1}><div className='ActionBlockCost'>{cost}</div></Col>
+                <Col xs={1}><div className='ActionBlockCost'><div className={cost_style}>{cost}</div><div className={cost2_style}>{cost2}</div></div></Col>
                 <Col xs={1}><div className='ActionBlockName'>{name}</div></Col>
                 <Col xs={9} className="ActionBlockCol" background-image={this.props.url}>
                     <img src={this.props.url} className='ActionBlockImg' alt='test' onMouseEnter={ () => {

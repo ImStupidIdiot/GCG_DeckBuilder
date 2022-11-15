@@ -94,9 +94,9 @@ const db = {
     "chars": {
         "kaeya": {
             "name": 'Kaeya',
-            'na': "Ceremonial Bladework \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.",
+            'na': "Ceremonial Bladework \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
             'skill': "Frostgnaw \n3 Cryo \nDeals 3 Cryo DMG.",
-            'burst': "Glacial Waltz \n4 Cryo, 2 'Burst Energy' \nDeals 1 Cryo DMG, creates 1 'Spinning Icicles'.",
+            'burst': "Glacial Waltz \n4 Cryo, 2 'Energy' \nDeals 1 Cryo DMG, creates 1 'Spinning Icicles'.",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330001_gcg_high_resolution.webp",
             "card": Kaeya_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
@@ -107,9 +107,9 @@ const db = {
         },
         "diona": {
             "name": 'Diona',
-            'na': "Kätzlein Style \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.",
+            'na': "Kätzlein Style \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
             'skill': "Icy Paws \n3 Cryo \nDeals 2 Cryo DMG, creates 1 'Paw Shield'.",
-            'burst': "Signature Mix \n3 Cryo, 3 'Burst Energy' \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Mixed Drink.'",
+            'burst': "Signature Mix \n3 Cryo, 3 'Energy' \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Mixed Drink.'",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330023_gcg_high_resolution.webp",
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330023.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334023.webp',
@@ -120,9 +120,9 @@ const db = {
         },
         "ganyu": {
             "name": "Ganyu",
-            'na': 'Liutian Archery \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.',
+            'na': 'Liutian Archery \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
             'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
-            'burst': "Celestial Shower \n3 Cryo, 2 'Burst Energy' \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl.",
+            'burst': "Celestial Shower \n3 Cryo, 2 'Energy' \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl.",
             'special': "Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
             "card": Ganyu_Card,
@@ -134,9 +134,9 @@ const db = {
         },
         "chongyun": {
             "name": 'Chongyun',
-            'na': 'Demonbane \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.',
+            'na': 'Demonbane \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
             'skill': "Chonghua’s Layered Frost \n3 Cryo \nDeals 3 Cryo DMG, creates 1 'Chonghua Frost Field'.",
-            'burst': "Cloud-Parting Star \n3 Cryo, 3 'Burst Energy' \nDeals 7 Cryo DMG.",
+            'burst': "Cloud-Parting Star \n3 Cryo, 3 'Energy' \nDeals 7 Cryo DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330002_gcg_high_resolution.webp',
             "card": Chongyun_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334002.webp',
@@ -147,9 +147,9 @@ const db = {
         },
         "ayaka": {
             "name": 'Kamisato Ayaka',
-            'na': 'Kamisato Art: Kabuki \n2 Colorless, 1 Cryo \nDeals 2 Physical DMG.',
+            'na': 'Kamisato Art: Kabuki \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
             'skill': 'Kamisato Art: Hyouka \n3 Cryo \nDeals 3 Cryo DMG.',
-            'burst': "Kamisato Art: Soumetsu \n3 Cryo, 3 'Burst Energy'\nDeals 4 Cryo DMG, summons 1 'Frostflake Seki no To'.",
+            'burst': "Kamisato Art: Soumetsu \n3 Cryo, 3 'Energy'\nDeals 4 Cryo DMG, summons 1 'Frostflake Seki no To'.",
             'special': "Kamisato Art: Senho \n(Passive) \nWhen switched to be the active character, this character gains 'Cryo Infusion.'",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330003_gcg_high_resolution.webp',
             "card": Ayaka_Card,
@@ -161,9 +161,9 @@ const db = {
         },
         "mona": {
             "name": "Mona",
-            'na': 'Ripple of Fate \n2 Colorless, 1 Hydro \nDeals 1 Hydro DMG.',
+            'na': 'Ripple of Fate \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Mirror Reflection of Doom \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Phantom'.",
-            'burst': "Stellaris Phantasm \n3 Hydro, 3 'Burst Energy' \nDeals 4 Hydro DMG, creates 1 'Illusory Bubble.",
+            'burst': "Stellaris Phantasm \n3 Hydro, 3 'Energy' \nDeals 4 Hydro DMG, creates 1 'Illusory Bubble.",
             'special': "Illusory Torrent \n(Passive) \n(Once per Round) When this character switches to another character, this switch is considered a 'Fast Action' instead of a 'Slow Action'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330005_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330005.webp',
@@ -175,9 +175,9 @@ const db = {
         },
         "barbara": {
             "name": "Barbara",
-            'na': 'Whisper of Water \n2 Colorless, 1 Hydro \nDeals 1 Hydro DMG.',
+            'na': 'Whisper of Water \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Let the Show Begin♪ \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Melody Loop'.",
-            'burst': "Shining Miracle♪ \n3 Hydro, 3 'Burst Energy' \nHeals all of your characters for 4 HP.",
+            'burst': "Shining Miracle♪ \n3 Hydro, 3 'Energy' \nHeals all of your characters for 4 HP.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330025_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330025.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334025.webp',
@@ -188,9 +188,9 @@ const db = {
         },
         "xingqiu": {
             "name": 'Xingqiu',
-            'na': 'Guhua Style \n2 Colorless, 1 Hydro \nDeals 2 Physical DMG.',
+            'na': 'Guhua Style \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
             'skill': "Fatal Rainscreen \n3 Hydro \nDeals 2 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword'.",
-            'burst': "Raincutter \n3 Hydro, 2 'Burst Energy' \nDeals 1 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword' and 'Rainbow Bladework'.",
+            'burst': "Raincutter \n3 Hydro, 2 'Energy' \nDeals 1 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword' and 'Rainbow Bladework'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330004_gcg_high_resolution.webp',
             "card": Xingqiu_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
@@ -201,9 +201,9 @@ const db = {
         },
         "oceanoid": {
             "name": "Rhodeia of Loch",
-            'na': 'Surge \n2 Colorless, 1 Hydro \nDeals 1 Hydro DMG.',
+            'na': 'Surge \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Oceanid Mimic Summoning \n3 Hydro \nRandomly summons 1 'Hydro Mimic' (Prioritizes summoning a different type from preexisting ones).",
-            'burst': "Tide and Torrent \n3 Hydro, 3 'Burst Energy' \nDeals 2 Hydro DMG. For each Summon on your field, deals +2 additional DMG.",
+            'burst': "Tide and Torrent \n3 Hydro, 3 'Energy' \nDeals 2 Hydro DMG. For each Summon on your field, deals +2 additional DMG.",
             'special': "The Myriad Wilds \n5 Hydro \nRandomly summons 2 'Hydro Mimic's (Prioritizes summoning different types).",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330019_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330019.webp',
@@ -228,9 +228,9 @@ const db = {
         },
         "diluc": {
             "name": "Diluc",
-            'na': 'Tempered Sword \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'na': 'Tempered Sword \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': 'Searing Onslaught \n3 Pyro \nDeals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.',
-            'burst': "Dawn \n4 Pyro, 3 'Burst Energy' \nDeals 8 Pyro DMG. This character gains 'Pyro Infusion'.",
+            'burst': "Dawn \n4 Pyro, 3 'Energy' \nDeals 8 Pyro DMG. This character gains 'Pyro Infusion'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330006_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330006.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
@@ -241,9 +241,9 @@ const db = {
         },
         "bennett": {
             "name": "Bennett",
-            'na': 'Strike of Fortune \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'na': 'Strike of Fortune \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': 'Passion Overload \n3 Pyro \nDeals 3 Pyro DMG.',
-            'burst': "Fantastic Voyage \n4 Pyro, 2 'Burst Energy' \nDeals 2 Pyro DMG, creates 1 'Inspiration Field'.",
+            'burst': "Fantastic Voyage \n4 Pyro, 2 'Energy' \nDeals 2 Pyro DMG, creates 1 'Inspiration Field'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330008_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330008.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
@@ -254,9 +254,9 @@ const db = {
         },
         "xiangling": {
             "name": "Xiangling",
-            'na': 'Dough-Fu \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'na': 'Dough-Fu \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': "Guoba Attack \n3 Pyro \nSummons 1 'Guoba'.",
-            'burst': "Pyronado \n4 Pyro, 2 'Burst Energy' \nDeals 2 Pyro DMG, creates 1 'Pyronado'.",
+            'burst': "Pyronado \n4 Pyro, 2 'Energy' \nDeals 2 Pyro DMG, creates 1 'Pyronado'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330007_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330007.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334007.webp',
@@ -267,9 +267,9 @@ const db = {
         },
         "yoimiya": {
             "name": 'Yoimiya',
-            'na': 'Firework Flare-Up \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'na': 'Firework Flare-Up \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': "Niwabi Fire-Dance \n1 Pyro \nThis character gains 'Niwabi Enshou'. (This Skill does not grant Energy)",
-            'burst': "Ryuukin Saxifrage \n3 Pyro, 2 'Burst Energy' \nDeals 3 Pyro DMG, creates 1 'Aurous Blaze'.",
+            'burst': "Ryuukin Saxifrage \n3 Pyro, 2 'Energy' \nDeals 3 Pyro DMG, creates 1 'Aurous Blaze'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330010_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330010.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334010.webp',
@@ -280,9 +280,9 @@ const db = {
         },
         "pyroagent": {
             "name": "Fatui Pyro Agent",
-            'na': 'Thrust \n2 Colorless, 1 Pyro \nDeals 2 Physical DMG.',
+            'na': 'Thrust \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': "Prowl \n3 Pyro \nDeals 1 Pyro DMG. This character gains 'Invsibility'.",
-            'burst': "Blade Ablaze \n3 Pyro, 2 'Burst Energy' \nDeals 5 Pyro DMG.",
+            'burst': "Blade Ablaze \n3 Pyro, 2 'Energy' \nDeals 5 Pyro DMG.",
             'special': "Stealth Master \n(Passive) \nWhen the battle begins, this character gains 'Invisibility'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330020_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330020.webp',
@@ -294,9 +294,9 @@ const db = {
         },
         "fischl": {
             "name": "Fischl",
-            'na': 'Bolts of Downfall \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
+            'na': 'Bolts of Downfall \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': "Nightrider \n3 Electro \nDeals 1 Electro DMG, summons 1 'Oz'.",
-            'burst': "Midnight Phantasmagoria \n3 Electro, 3 'Burst Energy' \nDeals 4 Electro DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
+            'burst': "Midnight Phantasmagoria \n3 Electro, 3 'Energy' \nDeals 4 Electro DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330011_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330011.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
@@ -307,9 +307,9 @@ const db = {
         },
         "razor": {
             "name": "Razor",
-            'na': 'Steel Fang \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
+            'na': 'Steel Fang \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': 'Claw and Thunder \n3 Electro \nDeals 3 Electro DMG.',
-            'burst': "Lightning Fang \n3 Electro, 3 'Burst Energy' \nDeals 5 Electro DMG. This character gains 'The Wolf Within'.",
+            'burst': "Lightning Fang \n3 Electro, 3 'Energy' \nDeals 5 Electro DMG. This character gains 'The Wolf Within'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330012_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330012.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
@@ -320,9 +320,9 @@ const db = {
         },
         "keqing": {
             "name": "Keqing",
-            'na': 'Yunlai Swordsmanship \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
+            'na': 'Yunlai Swordsmanship \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, add 1 'Lightning Stilleto' to hand.",
-            'burst': "Starward Sword \n4 Electro, 3 'Burst Energy' \nDeals 4 Electro DMG, deals 3 'Piercing DMG' to all opposing characters on standby.",
+            'burst': "Starward Sword \n4 Electro, 3 'Energy' \nDeals 4 Electro DMG, deals 3 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330013_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334013.webp',
@@ -347,9 +347,9 @@ const db = {
         },
         "sucrose": {
             "name": "Sucrose",
-            'na': 'Wind Spirit Creation \n2 Colorless, 1 Anemo \nDeals 1 Anemo DMG.',
+            'na': 'Wind Spirit Creation \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.',
             'skill': 'Astable Anemohypostasis Creation – 6308 \n3 Anemo \nDeals 3 Anemo DMG, the target is forcibly switched to the previous character.',
-            'burst': "Forbidden Creation – Isomer 75 / Type II \n3 Anemo, 2 'Burst Energy' \nDeals 1 Anemo DMG, summons 1 'Large Wind Spirit.'",
+            'burst': "Forbidden Creation – Isomer 75 / Type II \n3 Anemo, 2 'Energy' \nDeals 1 Anemo DMG, summons 1 'Large Wind Spirit.'",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330014_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330014.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
@@ -360,9 +360,9 @@ const db = {
         },
         "jean": {
             "name": "Jean",
-            'na': 'Favonius Bladework \n2 Colorless, 1 Anemo \nDeals 2 Physical DMG.',
+            'na': 'Favonius Bladework \n2 Black, 1 Anemo \nDeals 2 Physical DMG.',
             'skill': 'Gale Blade \n3 Anemo \nDeals 3 Anemo DMG, the target is forcibly switched to the next character.',
-            'burst': "Dandelion Breeze \n4 Anemo, 3 'Burst Energy' \nHeals all your characters for 2 HP, summons 1 'Dandelion Field'.",
+            'burst': "Dandelion Breeze \n4 Anemo, 3 'Energy' \nHeals all your characters for 2 HP, summons 1 'Dandelion Field'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330015_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330015.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334015.webp',
@@ -387,9 +387,9 @@ const db = {
         },
         "noelle": {
             "name": "Noelle",
-            'na': 'Favonius Bladework – Maid \n2 Colorless, 1 Geo \nDeals 2 Physical DMG.',
+            'na': 'Favonius Bladework – Maid \n2 Black, 1 Geo \nDeals 2 Physical DMG.',
             'skill': "Breastplate \n3 Geo \nDeals 1 Geo DMG, creates 1 'Breastplate'.",
-            'burst': "Sweeping Time \n4 Geo, 2 'Burst Energy' \nDeals 4 Geo DMG. This character gains 'Sweeping Time'.",
+            'burst': "Sweeping Time \n4 Geo, 2 'Energy' \nDeals 4 Geo DMG. This character gains 'Sweeping Time'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330017_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330017.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334017.webp',
@@ -400,9 +400,9 @@ const db = {
         },
         "ningguang": {
             "name": "Ningguang",
-            'na': 'Sparkling Scatter \n2 Colorless, 1 Geo \nDeals 1 Geo DMG.',
+            'na': 'Sparkling Scatter \n2 Black, 1 Geo \nDeals 1 Geo DMG.',
             'skill': "Jade Screen \n3 Geo \nDeals 2 Geo DMG, creates 1 'Jade Screen'.",
-            'burst': "Starshatter \n3 Geo, 3 'Burst Energy' \nDeals 6 Geo DMG. If 'Jade Screen' is on the field, deals +2 DMG.",
+            'burst': "Starshatter \n3 Geo, 3 'Energy' \nDeals 6 Geo DMG. If 'Jade Screen' is on the field, deals +2 DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330016_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330016.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334016.webp',
@@ -427,9 +427,9 @@ const db = {
         },
         "collei": {
             "name": "Collei",
-            'na': 'Supplicant’s Bowmanship \n2 Colorless, 1 Dendro \nDeals 2 Physical DMG.',
+            'na': 'Supplicant’s Bowmanship \n2 Black, 1 Dendro \nDeals 2 Physical DMG.',
             'skill': 'Floral Brush \n3 Dendro \nDeals 3 Dendro DMG.',
-            'burst': "Trump-Card Kitty \n3 Dendro, 2 'Burst Energy' \nDeals 2 Dendro DMG, summons 1 'Cuilein-Anbar.",
+            'burst': "Trump-Card Kitty \n3 Dendro, 2 'Energy' \nDeals 2 Dendro DMG, summons 1 'Cuilein-Anbar.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330018_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330018.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334018.webp',
@@ -461,7 +461,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330500.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
-            "cost": '5',
+            "cost": '5 Cryo',
             "description": "'Slow Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': If this Skill has been used before during this match, Cryo DMG dealt by this Skill +1, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)"
         },
         
@@ -471,7 +471,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330501.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334501.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330501_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 Cryo',
             "description": "'Slow Action': When your active character is Kaeya, equip this card.\n\nAfter Kaeya equips this card, immediately use 'Elemental Skill: Frostgnaw' once.\n\nAfter your Kaeya, who has this card equipped, uses 'Elemental Skill: Frostgnaw', he heals himself for 2 HP. (Once per Round)\n\n(You must have Kaeya in your deck to add this card to your deck.)"
         },
         
@@ -481,7 +481,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330502.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334502.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330502_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 Cryo',
             "description": "'Slow Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', its $[K4] +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)"
         },
         
@@ -491,7 +491,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330503.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334503.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330503_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 Cryo',
             "description": "The 'Frostflake Seki no To' created by your Kamisato Ayaka, who has this card equipped, allows the character to which it is attached to deal +1 'Cryo DMG'.\n\nWhen you switch to a Kamisato Ayaka who has this card equipped: Spend 1 less Elemental Dice. (Once per Round)\n\n(You must have Kamisato Ayaka in your deck to add this card to your deck.)"
         },
         
@@ -501,7 +501,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330504.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334504.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330504_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 Hydro',
             "description": "'Slow Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its \n\n'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)"
         },
         
@@ -511,7 +511,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330505.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334505.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330505_gcg_high_resolution.webp",
-            "cost": '3 + 3',
+            "cost": '3 Hydro 3 Energy',
             "description": "'Slow Action': When your active character is Mona, equip this card.\n\nWhen Mona equips this card, immediately use 'Elemental Burst: Stellaris Phantasm' once.\n\nWhen your Mona, who has this card equipped, is the active character, the 'Hydro Reactions' you trigger deal +2 additional DMG.\n\n(You must have Mona in your deck to add this card to your deck.)"
         },
         
@@ -521,7 +521,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330506.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334506.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330506_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 Pyro',
             "description": "'Slow Action': When your active character is Diluc, equip this card.\n\nAfter Diluc equips this card, immediately use 'Elemental Skill: Searing Onslaught' once.\n\nWhen your Diluc, who has this card equipped, uses 'Elemental Skill: Searing Onslaught' for the second time in one Round, spend 1 less Pyro Die.\n\n(You must have Diluc in your deck to add this card to your deck.)"
         },
         
@@ -531,7 +531,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330507.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334507.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330507_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 Pyro',
             "description": "'Slow Action': When your active character is Xiangling, equip this card.\n\nAfter Xiangling equips this card, immediately use 'Elemental Skill: Guoba Attack' once.\n\nWhen your Xiangling, who has this card equipped, uses 'Elemental Skill: Guoba Attack', she will also deal 1 'Pyro DMG'.\n\n(You must have Xiangling in your deck to add this card to your deck.)"
         },
         
@@ -541,7 +541,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330508.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334508.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330508_gcg_high_resolution.webp",
-            "cost": '4 + 2',
+            "cost": '4 Pyro 2 Energy',
             "description": "'Slow Action': When your active character is Bennett, equip this card.\n\nAfter Bennett equips this card, immediately use 'Elemental Burst: Fantastic Voyage' once.\n\nWhen your Bennett, who has this card equipped, creates an 'Inspiration Field', its DMG Bonus is now always active and will no longer have an HP restriction.\n\n(You must have Bennett in your deck to add this card to your deck.)"
         },
         
@@ -551,7 +551,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330510.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334510.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330510_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 Pyro',
             "description": "'Slow Action': When your active character is Yoimiya, equip this card.\n\nAfter Yoimiya equips this card, immediately use 'Elemental Skill: Niwabi Fire Dance' once.\n\nAfter your Yoimiya, who has this card equipped, triggers 'Niwabi Enshou': Deal 1 additional 'Pyro DMG'.\n\n(You must have Yoimiya in your deck to add this card to your deck.)"
         },
         
@@ -561,7 +561,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330511.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334511.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330511_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 Electro',
             "description": "'Slow Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(Consumes a 'Use' (of Oz?))\n\n(You must have Fischl in your deck to add this card to your deck.)"
         },
         
@@ -571,7 +571,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330512.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334512.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330512_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 Electro',
             "description": "'Slow Action': When your active character is Razor, equip this card.\n\nAfter Razor equips this card, immediately use 'Elemental Skill: Claw and Thunder' once.\n\nAfter your Razor, who has this card equipped, uses 'Elemental Skill: Claw and Thunder': 1 of your Electro characters gains 1 Energy.\n\n(You must have Razor in your deck to add this card to your deck.)"
         },
         
@@ -581,7 +581,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330513.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334513.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330513_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 Electro',
             "description": "'Slow Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an (Lightning Stilleto v2?), its 'Electro DMG' +1, and 'Electro DMG' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)"
         },
         
@@ -591,7 +591,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330514.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334514.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330514_gcg_high_resolution.webp",
-            "cost": '3 + 2',
+            "cost": '3 Anemo 2 Energy',
             "description": "'Slow Action': When your active character is Sucrose, equip this card.\n\nAfter Sucrose equips this card, immediately use 'Elemental Burst: Forbidden Creation - Isomer 75 / Type II' once.\n\nAfter the 'Large Wind Spirit' created by your Sucrose, who had this card equipped, has converted to another Element: Deal +1 DMG of this Element.\n\n(You must have Sucrose in your deck to add this card to your deck.)"
         },
         
@@ -601,7 +601,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330515.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334515.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330515_gcg_high_resolution.webp",
-            "cost": '4 + 3',
+            "cost": '4 Anemo 3 Energy',
             "description": "'Slow Action': When your active character is Jean, equip this card.\n\nAfter Jean equips this card, immediately use 'Elemental Burst: Dandelion Breeze' once.\n\nWhen your Jean, who has this card equipped, creates a 'Dandelion Field', it will cause you to deal +1 'Anemo DMG'.\n\n(You must have Jean in your deck to add this card to your deck.)"
         },
         
@@ -611,7 +611,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330516.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334516.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330516_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 Geo',
             "description": "'Slow Action': When your active character is Ningguang, equip this card.\n\nAfter Ningguang equips this card, immediately use 'Elemental Skill: Jade Screen' once.\n\nWhen your Ningguang, who has this card equipped, creates a 'Jade Screen', it will cause you to deal +1 'Geo DMG'.\n\n(You must have Ningguang in your deck to add this card to your deck.)"
         },
         
@@ -621,7 +621,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330517.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334517.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330517_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 Geo',
             "description": "'Slow Action': When your active character is Noelle, equip this card.\n\nAfter Noelle equips this card, immediately use 'Elemental Skill: Breastplate' once.\n\nWhen your Noelle, who has this card equipped, creates a 'Breastplate', it will heal all your characters for 1 HP after Noelle uses a Normal Attack. (Once per Round)\n\n(You must have Noelle in your deck to add this card to your deck.)"
         },
         
@@ -631,7 +631,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330518.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334518.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330518_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 Dendro',
             "description": "'Slow Action': When your active character is Collei, equip this card.\n\nAfter Collei equips this card, immediately use 'Elemental Skill: Floral Brush' once.\n\nAfter your Collei, who has this card equipped, uses 'Elemental Skill: Floral Brush', during this Round, after your characters’ Skills trigger a 'Dendro Reaction': Deal 1 'Dendro DMG'. (Once per Round)\n\n(You must have Collei in your deck to add this card to your deck.)"
         },
         
@@ -641,7 +641,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330519.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334519.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330519_gcg_high_resolution.webp",
-            "cost": '4 + 3',
+            "cost": '4 Hydro 3 Energy',
             "description": "'Slow Action': When your active character is Rhodeia of Loch, equip this card.\n\nAfter Rhodeia of Loch equips this card, immediately use 'Elemental Burst: Tide and Torrent' once.\n\nWhen your Rhodeia of Loch, who has this card equipped, uses 'Elemental Burst: Tide and Torrent', all of your Summon(s) gain +1 'Use'.\n\n(You must have Rhodeia of Loch in your deck to add this card to your deck.)"
         },
         
@@ -651,7 +651,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330520.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334520.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330520_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 Pyro',
             "description": "'Slow Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Invsibility Veil', its 'Use' +1, and the 'Physical DMG' this character deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)"
         },
         
@@ -661,7 +661,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330521.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334521.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330521_gcg_high_resolution.webp",
-            "cost": "4*",
+            "cost": "4* Anemo",
             "description": "'Slow Action': When your active character is Maguu Kenki, equip this card.\n\nAfter Maguu Kenki equips this card, immediately use 'Elemental Skill: Blustering Blade' once.\n\nAfter your Maguu Kenki, who has this card equipped, uses 'Elemental Skill: Blustering Blade', you will switch to your next character. You will switch to your previous character when your Maguu Kenki, who has this card equipped, uses 'Elemental ???: Frosty Assault'.\n\n(You must have Maguu Kenki in your deck to add this card to your deck.)"
         },
         
@@ -671,7 +671,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330522.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334522.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330522_gcg_high_resolution.webp",
-            "cost": "4*",
+            "cost": "4* Geo",
             "description": "'Slow Action': When your active character is Stonehide Lawachurl, equip this card.\n\nAfter Stonehide Lawachurl equips this card, immediately use 'Elemental ?????: Upa Shato' once.\n\nWhen your Stonehide Lawachurl, who has this card equipped, defeats an opposing character: Stonehide Lawachurl will re-attach $[C126011] and $[C126012].\n\n(You must have Stonehide Lawachurl in your deck to add this card to your deck.)"
         },
         
@@ -681,8 +681,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330523.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
-            "cost": '4',
-            "description": "'Slow Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Paw Shield', its \n\n'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)"
+            "cost": '4 Cryo',
+            "description": "'Slow Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Paw Shield', its 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)"
         },
         
         "featherfalljudgment": {
@@ -691,7 +691,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330524.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334524.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330524_gcg_high_resolution.webp",
-            "cost": '3*',
+            "cost": '3* Electro',
             "description": "'Slow Action': When your active character is Cyno, equip this card.\n\nAfter Cyno equips this card, immediately use 'Elemental Skill: Secret Rite: Chasmic Soulfarer' once.\n\nWhen your Cyno, who has this card equipped, uses 'Elemental Skill: Secret Rite: Chasmic Soulfarer' with 3 or 5 levels of $[C114041]‘s [Indwelling] effect, deal +1 additional DMG.\n\n(You must have Cyno in your deck to add this card to your deck.)"
         },
         
@@ -701,7 +701,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330525.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334525.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330525_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 Hydro',
             "description": "'Slow Action': When your active character is Barbara, equip this card.\n\nAfter Barbara equips this card, immediately use 'Elemental Skill: Let the Show Begin' once.\n\nWhen 'Melody Loop' is on the field, switching characters will cost you 1 less Elemental Die. (Once per Round)\n\n(You must have Barbara in your deck to add this card to your deck.)"
         },
         
@@ -711,7 +711,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330526.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334526.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330526_gcg_high_resolution.webp",
-            "cost": '4*',
+            "cost": '4* Hydro',
             "description": "'Slow Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a $[C122021], its 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)"
         },
         
@@ -721,7 +721,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330527.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334527.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330527_gcg_high_resolution.webp",
-            "cost": '4*',
+            "cost": '4* Dendro',
             "description": "'Slow Action': When your active character is Jadeplume Terrorshroom, equip this card.\n\nAfter Jadeplume Terrorshroom equips this card, immediately use 'Elemental Skill: Volatile Spore Cloud' once.\n\nYour Jadeplume Terrorshroom, who has this card equipped, can gain 1 more stack of Radical Vitality.\n\n(You must have Jadeplume Terrorshroom in your deck to add this card to your deck.)"
         },
         
@@ -731,7 +731,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331000.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335000.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331000_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "The character deals +1 DMG.\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -741,7 +741,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331001.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331001_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -751,7 +751,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331002.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335002.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331002_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nOnce per Round: This character’s Normal Attacks deal +1 additional DMG.\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -761,7 +761,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331003.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331003_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "The character deals +1 DMG.\n\n(Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -771,7 +771,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331004.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335004.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331004_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)\n\n(Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -781,7 +781,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331005.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331005_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nOnce per Round: This character’s Normal Attacks deal +1 additional DMG.\n\n(Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -791,7 +791,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331006_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "The character deals +1 DMG.\n\n(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -801,7 +801,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331007_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)\n\n(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -811,7 +811,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331008_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nDeal +2 additional DMG if the target’s remaining HP is equal to or less than 6.\n\n(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -821,7 +821,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331009_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "The character deals +1 DMG.\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -831,7 +831,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331010_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nWhen played: For each party member from Liyue, grant 1 'Shield' point to the character to which this is attached. (Max 3 points)\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -841,7 +841,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331011_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nOnce per Round: This character’s Normal Attacks deal +1 additional DMG.\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -851,7 +851,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331012_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "The character deals +1 DMG.\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -861,7 +861,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331013_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Skill: Create 1 Elemental Die of the same Elemental Type as this character. (Once per Round)\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -871,7 +871,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331014_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nAfter the opposing character uses a Skill: If the character with this attached is the active character, heal this character for 1 HP. (Max twice per Round)\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)"
         },
         
@@ -881,7 +881,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331015_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "After this character uses a Normal Attack: Heal self for 1 HP. (Max 3 times per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -891,7 +891,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331016_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "After this character uses an Elemental Skill: Heal self for 2 HP. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -901,7 +901,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331017_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "After this character uses an Elemental Burst: Heal all your characters for 1 HP. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -911,7 +911,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331018_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "After this character defeats an opposing character: Create 'Omni Dice' ×2.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -921,7 +921,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331019.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331019_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "After this character triggers an Elemental Reaction: Create 1 Elemental Die that matches this Character’s Elemental Type. (Max 3 times per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -931,8 +931,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331020.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335020.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331020_gcg_high_resolution.webp",
-            "cost": '2',
-            "description": "After this character uses an Elemental Burst: All your characters on standby gain 1 'Burst Energy'. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
+            "cost": '2 White',
+            "description": "After this character uses an Elemental Burst: All your characters on standby gain 1 'Energy'. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
         "brokenrimesecho": {
@@ -941,7 +941,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331021.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331021_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Cryo Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -951,7 +951,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331022.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335022.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331022_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Cryo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Cryo Dice.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -961,7 +961,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331023.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335023.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331023_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Hydro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -971,7 +971,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331024.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335024.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331024_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Hydro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Hydro Dice.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -981,7 +981,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331025.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335025.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331025_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Pyro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -991,7 +991,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331026_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Pyro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Pyro Dice.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1001,7 +1001,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331027.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335027.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331027_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Electro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1011,7 +1011,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331028.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331028_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Electro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Electro Dice.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1021,7 +1021,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331029.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335029.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331029_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Anemo Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1031,7 +1031,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331030_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Anemo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Anemo Dice.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1041,7 +1041,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331031.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335031.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331031_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Geo Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1051,7 +1051,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331032.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331032_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Geo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Geo Dice.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1061,7 +1061,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331033.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335033.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331033_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Dendro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1071,7 +1071,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331034.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335034.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331034_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Dendro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Dendro Dice.\n\n(A character can equip a maximum of 1 Artifact)"
         },
         
@@ -1081,7 +1081,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332000.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336000.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332000_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "End Phase: Draw 2 cards.\n\n'Uses': 2"
         },
         
@@ -1091,7 +1091,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332001.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332001_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "When played: Select any Elemental Die to reroll.\n\nRoll Phase: Gain another chance to reroll."
         },
         
@@ -1101,7 +1101,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332002.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336002.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332002_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Roll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to match the Elemental Type of your active character."
         },
         
@@ -1111,7 +1111,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332003.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332003_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When you switch characters: Spend 1 less Elemental Die. (Once per Round)"
         },
         
@@ -1121,7 +1121,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332004.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336004.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332004_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "End Phase: Heal the most injured character on standby for 2 HP.\n\n'Uses': 2"
         },
         
@@ -1131,7 +1131,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332005.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332005_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "End Phase: Heal your active character for 2 HP.\n\n'Uses': 2"
         },
         
@@ -1141,7 +1141,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332006_gcg_high_resolution.webp",
-            "cost": '3',
+            "cost": '3 White',
             "description": "When Action Phase begins: Create 'Omni Dice' ×2.\n\n'Uses': 2"
         },
         
@@ -1151,7 +1151,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332007_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 Black',
             "description": "When you switch characters: This switch is considered a 'Fast Action' instead of a 'Slow Action'. (Once per Round)"
         },
         
@@ -1161,7 +1161,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332008_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "Comes with 2 Transmutation Materials when played.\n\nEnd Phase: Gain 1 Transmutation Material.\n\nWhen playing an Artifact Card: If possible, spend Transmutation Materials equal to the total cost of the Artifact and equip this Artifact for free. (Once per Round)"
         },
         
@@ -1171,7 +1171,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332009_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "Comes with 2 Forging Billets when played.\n\nEnd Phase: Gain 1 Forging Billet.\n\nWhen playing a Weapon Card: If possible, spend Forging Billets equal to the total cost of the Weapon and equip this Weapon for free. (Once per Round)"
         },
         
@@ -1181,7 +1181,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332010_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "After playing a Food Event Card: Create 1 random Elemental Die. (Once per Round)"
         },
         
@@ -1191,7 +1191,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332011_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When playing a Location Support Card: Spend 2 less Elemental Dice. (Once per Round)"
         },
         
@@ -1201,7 +1201,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332012_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Triggers automatically once per Round: This card gains 1 Pigeon.\n\nWhen this card gains 3 Pigeons, discard this card, then draw 1 card and create 'Omni Dice' ×1."
         },
         
@@ -1211,7 +1211,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332013_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "End Phase: Collect your unused Elemental Dice (Max 1 of each Elemental Type).\n\nWhen Action Phase begins: If this card has collected 3 Elemental Dice, draw 2 cards and create 'Omni Dice' ×2, then discard this card."
         },
         
@@ -1221,7 +1221,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332014_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "After either side deals 'Physical DMG', 'Piercing DMG', or trigger an Elemental Reaction: This card gains 1 Inspiration.\n\nWhen this card gains 3 Inspiration, discard this card, then draw 2 cards."
         },
         
@@ -1231,7 +1231,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332015_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When you use a Skill that has already been used in this Round: Spend 1 less Elemental Die. (Once per Round)"
         },
         
@@ -1241,8 +1241,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
-            "cost": '2',
-            "description": "End Phase: One of your characters gains 1 'Burst Energy'.\n\n'Uses': 3"
+            "cost": '2 Black',
+            "description": "End Phase: One of your characters gains 1 'Energy'.\n\n'Uses': 3"
         },
         
         "liusu": {
@@ -1251,8 +1251,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332017_gcg_high_resolution.webp",
-            "cost": '1',
-            "description": "After you switch characters: If the character you switched to does not have 'Burst Energy', they will gain 1 'Burst Energy'. (Once per Round)\n\n'Uses': 2"
+            "cost": '1 White',
+            "description": "After you switch characters: If the character you switched to does not have 'Energy', they will gain 1 'Energy'. (Once per Round)\n\n'Uses': 2"
         },
         
         "parametrictransformer": {
@@ -1261,7 +1261,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332018_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "After either side uses Skills: If Elemental DMG was dealt, this card gains 1 Qualitative Progress.\n\nWhen this card gains 3 Qualitative Progress, discard this card, then create 3 different Basic Elemental Dice."
         },
         
@@ -1271,7 +1271,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332019.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332019_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "When played: Draw 1 Food Event Card from your deck.\n\nWhen you play a Food Event Card: Draw 1 Food Event Card from your deck. (Once per Round)"
         },
         
@@ -1281,7 +1281,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333000.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337000.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333000_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Create 1 Cryo Die.\n\n(You must have at least 2 Cryo characters in your deck to add this card to your deck.)"
         },
         
@@ -1291,7 +1291,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333001.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333001_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "During this Round, your current active character will deal +2 DMG for the next instance.\n\n(You must have at least 2 Cryo characters in your deck to add this card to your deck.)"
         },
         
@@ -1301,7 +1301,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333002.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337002.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333002_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Create 1 Hydro Die.\n\n(You must have at least 2 Hydro characters in your deck to add this card to your deck.)"
         },
         
@@ -1311,7 +1311,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333003.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333003_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Heal your active characters for 2 HP, and also heals all your characters on standby for 1 HP.\n\n(You must have at least 2 Hydro characters in your deck to add this card to your deck.)"
         },
         
@@ -1321,7 +1321,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333004.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337004.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333004_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Create 1 Pyro Die.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)"
         },
         
@@ -1331,7 +1331,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333005.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333005_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "During this round, the next instance of 'Pyro Reaction DMG' your active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)"
         },
         
@@ -1341,7 +1341,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333006_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Create 1 Electro Die.\n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)"
         },
         
@@ -1351,8 +1351,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333007_gcg_high_resolution.webp",
-            "cost": '1',
-            "description": "Your active and next standby characters gain 1 'Burst Energy'.\n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)"
+            "cost": '1 White',
+            "description": "Your active and next standby characters gain 1 'Energy'.\n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)"
         },
         
         "elementalresonancewovenwinds": {
@@ -1361,7 +1361,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333008_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Create 1 Anemo Die.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)"
         },
         
@@ -1371,7 +1371,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333009_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Switch to the target character and create 'Omni Dice' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)"
         },
         
@@ -1381,7 +1381,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333010_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Create 1 Geo Die.\n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)"
         },
         
@@ -1391,7 +1391,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333011_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "During this round, after your character deals 'Geo DMG' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)"
         },
         
@@ -1401,7 +1401,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333012_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Create 1 Dendro Die.\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)"
         },
         
@@ -1411,7 +1411,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333013_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 'Use'.\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)"
         },
         
@@ -1421,7 +1421,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333014_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "Convert the Elemental Dice spent to 'Omni Dice' ×2."
         },
         
@@ -1431,7 +1431,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333015_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Your next character switch costs 1 less Elemental Die."
         },
         
@@ -1441,7 +1441,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333016_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Select any Elemental Die to reroll. Can reroll 2 times."
         },
         
@@ -1451,7 +1451,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333017_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Draw 2 cards."
         },
         
@@ -1461,8 +1461,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333018_gcg_high_resolution.webp",
-            "cost": '0',
-            "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Dice' ×1 and your current active character gains 1 'Burst Energy'."
+            "cost": '0 White',
+            "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Dice' ×1 and your current active character gains 1 'Energy'."
         },
         
         "leaveittome": {
@@ -1471,7 +1471,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333019.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333019_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Your next character switch will be considered a 'Fast Action' instead of a 'Slow Action'."
         },
         
@@ -1481,7 +1481,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333020.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337020.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333020_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "The next time you use a Skill: Switch your next character in to be the active character."
         },
         
@@ -1491,8 +1491,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333021.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333021_gcg_high_resolution.webp",
-            "cost": '2',
-            "description": "Your current active character gains 1 'Burst Energy'."
+            "cost": '2 White',
+            "description": "Your current active character gains 1 'Energy'."
         },
         
         "calxsarts": {
@@ -1501,8 +1501,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333022.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337022.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333022_gcg_high_resolution.webp",
-            "cost": '1',
-            "description": "Shift 1 'Burst Energy' from at most 2 of your characters on standby to your active character."
+            "cost": '1 White',
+            "description": "Shift 1 'Energy' from at most 2 of your characters on standby to your active character."
         },
         
         "masterofweaponry": {
@@ -1511,7 +1511,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333023.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337023.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333023_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Shift 1 Weapon Equipment Card that has been equipped to one of your characters to another one of your characters of the same Weapon Type."
         },
         
@@ -1521,7 +1521,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333024.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337024.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333024_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Shift 1 Artifact Equipment Card that has been equipped to one of your characters to another one of your characters."
         },
         
@@ -1531,7 +1531,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333025.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337025.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333025_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Choose one Summon on your side and grant it +1 'Use'."
         },
         
@@ -1541,7 +1541,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333026_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "Choose one Summon on the opposing side and destroy it."
         },
         
@@ -1551,7 +1551,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333027.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337027.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333027_gcg_high_resolution.webp",
-            "cost": '4',
+            "cost": '4 White',
             "description": "Destroy all Summons. (Affects both you and your opponent!)"
         },
         
@@ -1561,7 +1561,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333028.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333028_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "Summon 1 'Hilichurl'!\n\n(You must have at least 2 Monster characters in your deck to add this card to your deck.)"
         },
         
@@ -1571,7 +1571,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333029.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337029.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333029_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "During this Round, the target character’s next Normal Attack deals +1 DMG.\n\n(A character can consume at most 1 Food per Round)"
         },
         
@@ -1581,7 +1581,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333030_gcg_high_resolution.webp",
-            "cost": '2',
+            "cost": '2 White',
             "description": "During this Round, the target character’s next Elemental Burst deals +3 DMG.\n\n(A character can consume at most 1 Food per Round)"
         },
         
@@ -1591,7 +1591,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333031.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337031.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333031_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "During this Round, the next time, the target character takes -3 DMG.\n\n(A character can consume at most 1 Food per Round)"
         },
         
@@ -1601,7 +1601,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333032.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333032_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "During this Round, the target character’s next Normal Attack costs 1 less 'Colorless Dice'.\n\n(A character can consume at most 1 Food per Round)"
         },
         
@@ -1611,7 +1611,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333033.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337033.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333033_gcg_high_resolution.webp",
-            "cost": '0',
+            "cost": '0 White',
             "description": "Heal the target character for 1 HP.\n\n(A character can consume at most 1 Food per Round)"
         },
         
@@ -1621,7 +1621,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333034.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337034.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333034_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Heal the target character for 2 HP.\n\n(A character can consume at most 1 Food per Round)"
         },
         
@@ -1631,7 +1631,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333035.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337035.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333035_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Heal the target character for 1 HP. For the next two Rounds, heal this character for 1 HP again at the End Phase.\n\n(A character can consume at most 1 Food per Round)"
         },
         
@@ -1641,7 +1641,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333036.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337036.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333036_gcg_high_resolution.webp",
-            "cost": '1',
+            "cost": '1 White',
             "description": "Before this Round ends, the target character’s Normal Attacks cost 1 less 'Colorless Dice'.\n\n(A character can consume at most 1 Food per Round)"
         },
     },
