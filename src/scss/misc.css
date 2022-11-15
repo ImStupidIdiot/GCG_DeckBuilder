@@ -6,3 +6,8 @@ html, body {
     font-family: Helvetica;
     font-size: 18px;
 }
+
+.startBoxText {
+    font-family: Helvetica;
+    color: white;
+}

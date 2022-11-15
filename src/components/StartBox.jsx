@@ -44,13 +44,15 @@ class StartBox extends Component {
                 <br/><br/>
                 DM me on Discord (@StupidIdiot#9003) if you'd like to contribute a translation, art to replace a placeholder, or find any bugs/typos. 
                 <br/><br/>
-                Currently working on making a rulebook! For now, if you have questions about terminology or game rules, head over to the TCG Theorycrafting Channel at WFP (discord.gg/hutao). Also check out the spreadsheet from SigmaZero: https://docs.google.com/spreadsheets/d/13RRK4IYl0bHJFVtRmlDFVwE9BR-2qaq6dGr2sdJKj_o/edit#gid=1914067667
+                Currently working on making a rulebook! For now, if you have questions about terminology or game rules, head over to the TCG Theorycrafting Channel at WFP (<a className="startBoxText" href="https://discord.gg/hutao" target="_blank">discord.gg/hutao</a>). 
                 <br/><br/>
-                I'm also live sometimes at twitch.tv/robotwizhs. I'll definitely be streaming some TC content for Genius Invocation TCG up until and through the 3.3 patch. 
+                Other Helpful Links: <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/13RRK4IYl0bHJFVtRmlDFVwE9BR-2qaq6dGr2sdJKj_o/edit#gid=1914067667" target="_blank">SigmaZero Card List (WIP)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1J2ZvmK2T_mJR6BtPdXiSSnq1d2xesl_A3oA235ZvMLI/edit?usp=sharing" target="_blank">Google Sheet Simulator (WIP)</a>
                 <br/><br/>
-                Huge thanks to Honey Hunter (https://genshin.honeyhunterworld.com/) for a lot of info and basically every single polished sprite you see on this page. 
+                I'm also live sometimes at <a className="startBoxText" href="https://twitch.tv/robotwizhs" target="_blank">twitch.tv/robotwizhs</a>. I'll definitely be streaming some TC content for Genius Invocation TCG up until and through the 3.3 patch. 
                 <br/><br/>
-                Todo list: replacing placeholders, getting accurate translations, mobile display, exporting deck codes, very basic simulation of the game, deck tier list after doing some TC work
+                Huge thanks to Honey Hunter (<a className="startBoxText" href="https://genshin.honeyhunterworld.com/" target="_blank">https://genshin.honeyhunterworld.com/</a>) for a lot of info and basically every single polished sprite you see on this page. 
+                <br/><br/>
+                Todo list: replacing placeholders, getting official translations, mobile display, very basic simulation of the game (half done?), deck tier list after doing some TC work
                 <br/><br/>
                 </div>
                 </Col>
