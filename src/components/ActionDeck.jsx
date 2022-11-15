@@ -10,6 +10,12 @@ class ActionDeck extends Component {
     constructor(props) {
         super(props);
     }
+
+    copyActions() {
+        var toCopy = Object.entries(this.props.current_actions).map((mapped) => mapped[1] == 2 ? db.actions[mapped[0]].name + '\n' + db.actions[mapped[0]].name : db.actions[mapped[0]].name).toString().replaceAll(',', '\n')
+        navigator.clipboard.writeText(toCopy);
+    }
+
     render() {  
         var actions = Object.entries(this.props.current_actions).map((mapped) => mapped[0]);
         actions.sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
@@ -21,7 +27,7 @@ class ActionDeck extends Component {
                 {a1}
             </Row>
                 </div>
-            <p className='font'>{this.props.total_actions} / 30</p>
+            <p className='font'>{this.props.total_actions} / 30</p><button className="exportDeck" onClick={() => this.copyActions()}>Add Cards to Clipboard (for sim)</button>
             </div>
         )
     }

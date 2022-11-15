@@ -120,3 +120,11 @@
 .Black {
     color:rgba(255, 255, 255, 0.593);
 }
+
+.exportDeck {
+    color: blue;
+    background-color: white;
+    border-color:rgba(0, 0, 0, 0.177);
+    font: Helvetica;
+    border-radius: 7px;
+}

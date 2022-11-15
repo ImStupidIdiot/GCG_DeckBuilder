@@ -12,7 +12,6 @@ class ActionBlock extends Component {
     render() {
         var cost_list = this.props.cost
         cost_list = cost_list.split(" ")
-        console.log(cost_list)
         cost2 = null
         var cost = cost_list[0]
         var cost_style = cost_list[1]
