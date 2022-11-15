@@ -263,7 +263,7 @@ const db = {
             "icon": Xiangling_Icon,
             "element": 'pyro',
             "region": 'liyue',
-            'related': 'Pyronado'
+            'related': 'Guoba, Pyronado'
         },
         "yoimiya": {
             "name": 'Yoimiya',
