@@ -53,6 +53,7 @@ class ActionLibrary extends Component {
         document.removeEventListener("click", this.handleClick, true)
     }
 
+    // big source of tech debt; see long-form comment in CharLibrary.jsx
     handleClick(e) {
         if (e.target.className.includes("infoBox")) {
             return;

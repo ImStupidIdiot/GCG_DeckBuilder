@@ -9,6 +9,8 @@ class StartBox extends Component {
         this.handleClick = this.handleClick.bind(this)
     }
 
+    // big source of tech debt; see long-form comment in CharLibrary.jsx
+    
     handleClick(e) {
         e.stopPropagation()
         if (e.target.className == "infoBox" || e.target.className.includes("startBox")) {
@@ -18,7 +20,7 @@ class StartBox extends Component {
             this.props.closeInfo()
         }
     }
-    
+
     componentDidMount() {
         document.addEventListener("click", this.handleClick, true)
     }

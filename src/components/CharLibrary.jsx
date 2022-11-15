@@ -63,6 +63,10 @@ class CharLibrary extends Component {
         document.removeEventListener("click", this.handleClick, true)
     }
 
+    // this handleClick functionality comes with three MASSIVE sources of tech debt:
+    // 1) adding and removing EventListeners; order breaks might leave the event listeners in place, which may cause problems in the future.
+    // 2) stopPropagation is very much a cause for concern. Any children of CharLibrary that have click events will need a specific exception in the handleClick function.
+    // 3) the if statement functionality (target.className.includes) means that all elements in CharInfoBox, MiscInfoBox, and other children of CharLibrary will need to have a className containing infoBox, or will need a specific exception tacked on here.
     handleClick(e) {
         if (e.target.className.includes("infoBox") || e.target.className=="miscButton") {
             return;
