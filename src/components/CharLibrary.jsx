@@ -42,7 +42,6 @@ class CharLibrary extends Component {
             displayChars = displayChars.filter((char) => db.chars[char][key] == value);
         }
         
-        console.log(filters, displayChars)
         this.setState({filters: filters, displayChars: displayChars});
     }
 

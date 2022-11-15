@@ -2,10 +2,12 @@ import React, { Component } from 'react';
 import { Row, Col, Container } from 'react-bootstrap';
 import db from "../db"
 import Close_Icon from "../images/Close_Icon.png";
+import MiscInfoBox from './MiscInfoBox';
 
 class ActionInfoBox extends Component {
     constructor(props) {
         super(props);
+        this.state = {showMisc: null}
     }
 
     componentDidMount() {
@@ -20,7 +22,7 @@ class ActionInfoBox extends Component {
     render() {
         if (this.props.action) {
             var text = db.actions[this.props.action].description
-            return <div className="infobox"> 
+                return <div className="infobox"> <MiscInfoBox name={this.state.showMisc} />
                 <button onClick={this.props.closeInfo} className="infoBoxButton"><img src={Close_Icon} className="infoBoxClose"></img></button>
                 <Container>
                 <Row>

@@ -59,6 +59,34 @@ import Mond_Sort from './images/Mond_Sort.png'
 import Monster_Sort from './images/Monster_Sort.png'
 import Sumeru_Sort from './images/Sumeru_Sort.png'
 
+import Ayaka_Summon from './images/Ayaka_Summon.png'
+import Barbara_Summon from './images/Barbara_Summon.png'
+import Collei_Summon from './images/Collei_Summon.png'
+import Diona_Summon from './images/Diona_Summon.png'
+import Fischl_Summon from './images/Fischl_Summon.png'
+import Ganyu_Summon from './images/Ganyu_Summon.png'
+import Hilichurl_Summon1 from './images/Hilichurl_Summon1.png'
+import Hilichurl_Summon2 from './images/Hilichurl_Summon2.png'
+import Hilichurl_Summon3 from './images/Hilichurl_Summon3.png'
+import Hilichurl_Summon4 from './images/Hilichurl_Summon4.png'
+import Jean_Summon from './images/Jean_Summon.png'
+import Keqing_Summon from './images/Keqing_Summon.png'
+import Mona_Summon from './images/Mona_Summon.png'
+import Oceanoid_Summon1 from './images/Oceanoid_Summon1.png'
+import Oceanoid_Summon2 from './images/Oceanoid_Summon2.png'
+import Oceanoid_Summon3 from './images/Oceanoid_Summon3.png'
+import Sucrose_Summon from './images/Sucrose_Summon.png'
+import Xiangling_Summon from './images/Xiangling_Summon.png'
+
+import Bennett_BStatus from './images/Bennett_BStatus.png'
+import Kaeya_BStatus from './images/Kaeya_BStatus.png'
+import Mona_BStatus from './images/Mona_BStatus.png'
+import Noelle_Status from './images/Noelle_Status.png'
+import Razor_Status from './images/Razor_Status.png'
+import Xiangling_BStatus from './images/Xiangling_BStatus.png'
+import Xingqiu_BStatus1 from './images/Xingqiu_BStatus1.png'
+import Yoimiya_BStatus from './images/Yoimiya_BStatus.png'
+
 import Action_Block_Test from './images/Action_Block_Test.png'
 
 
@@ -129,7 +157,7 @@ const db = {
             "icon": Ayaka_Icon,
             "element": 'cryo',
             "region": 'inazuma',
-            'related': 'Frostflake Seki no To, Cryo Infusion'
+            'related': 'Frostflake Seki no To'
         },
         "mona": {
             "name": "Mona",
@@ -195,7 +223,8 @@ const db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334026.webp',
             "icon": Mirrormaiden_Icon,
             "element": 'hydro',
-            "region": 'fatui'
+            "region": 'fatui',
+            'related': ''
         },
         "diluc": {
             "name": "Diluc",
@@ -208,7 +237,7 @@ const db = {
             "icon": Diluc_Icon,
             "element": 'pyro',
             "region": 'mond',
-            'related': 'Pyro Infusion'
+            'related': ''
         },
         "bennett": {
             "name": "Bennett",
@@ -292,7 +321,7 @@ const db = {
         "keqing": {
             "name": "Keqing",
             'na': 'Yunlai Swordsmanship \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
-            'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, generates 1 'Lightning Stilleto.",
+            'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, add 1 'Lightning Stilleto' to hand.",
             'burst': "Starward Sword \n4 Electro, 3 'Burst Energy' \nDeals 4 Electro, deals 3 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330013_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
@@ -313,7 +342,8 @@ const db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334024.webp',
             "icon": Cyno_Icon,
             "element": 'electro',
-            "region": 'sumeru'
+            "region": 'sumeru',
+            'related': ''
         },
         "sucrose": {
             "name": "Sucrose",
@@ -343,16 +373,17 @@ const db = {
         },
         "maguu": {
             "name": 'Maguu Kenki (NO DATA)',
-            'na': 'Ichimonji: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'skill': 'Blustering Blade: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], summons 1 $[C125011].',
-            'burst': 'False Tengu Sweeper: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)',
-            'special': 'Frosty Assault: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], summons 1 $[C125012].',
+            'na': 'Ichimonji \n Deals 2 Physical Damage.',
+            'skill': 'Blustering Blade: Deals $[D__KEY__DMG] DMG, summons 1 $[C125011].',
+            'burst': 'False Tengu Sweeper: Deals $[D__KEY__DMG] DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)',
+            'special': 'Frosty Assault: Deals $[D__KEY__DMG] DMG, summons 1 $[C125012].',
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330021.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334021.webp',
             "icon": Maguu_Icon,
             "element": 'anemo',
-            "region": 'monster'
+            "region": 'monster',
+            'related': ''
         },
         "noelle": {
             "name": "Noelle",
@@ -391,7 +422,8 @@ const db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334022.webp',
             "icon": Stonehidelawachurl_Icon,
             "element": 'geo',
-            "region": 'monster'
+            "region": 'monster',
+            'related': ''
         },
         "collei": {
             "name": "Collei",
@@ -403,7 +435,8 @@ const db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334018.webp',
             "icon": Collei_Icon,
             "element": 'dendro',
-            "region": 'sumeru'
+            "region": 'sumeru',
+            'related': 'Cuilein-Anbar'
         },
         "terrorshroom": {
             "name": "Jadeplume Terrorshroom (NO DATA)",
@@ -416,7 +449,8 @@ const db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334027.webp',
             "icon": Terrorshroom_Icon,
             "element": 'dendro',
-            "region": 'monster'
+            "region": 'monster',
+            'related': ''
         },
     },
 
@@ -468,7 +502,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334504.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330504_gcg_high_resolution.webp",
             "cost": '4',
-            "description": "'Slow Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its 'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its \n\n'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)"
         },
         
         "prophecyofsubmersion": {
@@ -648,7 +682,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
             "cost": '4',
-            "description": "'Slow Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Paw Shield', its 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Paw Shield', its \n\n'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)"
         },
         
         "featherfalljudgment": {
@@ -1188,7 +1222,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332014_gcg_high_resolution.webp",
             "cost": '0',
-            "description": "After both sides deal 'Physical DMG', 'Piercing DMG', or trigger an Elemental Reaction: This card gains 1 Inspiration.\n\nWhen this card gains 3 Inspiration, discard this card, then draw 2 cards."
+            "description": "After either side deals 'Physical DMG', 'Piercing DMG', or trigger an Elemental Reaction: This card gains 1 Inspiration.\n\nWhen this card gains 3 Inspiration, discard this card, then draw 2 cards."
         },
         
         "ellin": {
@@ -1228,7 +1262,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332018_gcg_high_resolution.webp",
             "cost": '2',
-            "description": "After both sides use Skills: If Elemental DMG was dealt, this card gains 1 Qualitative Progress.\n\nWhen this card gains 3 Qualitative Progress, discard this card, then create 3 different Basic Elemental Dice."
+            "description": "After either side uses Skills: If Elemental DMG was dealt, this card gains 1 Qualitative Progress.\n\nWhen this card gains 3 Qualitative Progress, discard this card, then create 3 different Basic Elemental Dice."
         },
         
         "nre": {
@@ -1612,6 +1646,240 @@ const db = {
         },
     },
 
+    "misc": {
+        "lightningstilleto": {
+            "name": "Lightning Stilleto",
+            "type": "Event",
+            "cost": "3 Electro",
+            "description": "Switch Keqing to be your active character and immediately cast 'Stellar Restoration'. This cast of 'Stellar Restoration' does not generate a 'Lightning Stilleto' and instead grants Keqing 'Electro Infusion'. \n(If Keqing uses 'Stellar Restoration' while this is in your hand, discard this and grant Keqing 'Electro Infusion').",
+            "related": "Keqing",
+            "image": Keqing_Summon
+        },
+        "oz": {
+            "name": "Oz",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Electro DMG. \n\n'Uses': 2",
+            "related": "Fischl",
+            "image": Fischl_Summon
+        },
+        "thewolfwithin": {
+            "name": "The Wolf Within",
+            "type": "Status",
+            "description": "After the attached character uses a normal attack or elemental skill: Deal 2 additional Electro DMG. \n\n'Round Duration': 2",
+            "related": "Razor",
+            "image": Razor_Status
+        },
+        "icelotus": {
+            "name": "Ice Lotus",
+            "type": "Battle Status",
+            "description": "When your active character receives DMG: reduce that damage by 1. \n\n'Uses': 2",
+            "related": "Ganyu"
+        },
+        "sacredcryopearl": {
+            "name": "Sacred Cryo Pearl",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Cryo DMG, and 1 'Piercing DMG' to all characters on standby. \n\n'Uses': 2",
+            "related": "Ganyu",
+            "image": Ganyu_Summon
+        },
+        "frostflake": {
+            "name": "Frostflake Seki no To",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Cryo DMG. \n\n'Uses': 2",
+            "related": "Ayaka",
+            "image": Ayaka_Summon
+        },
+        "pawshield": {
+            "name": "Paw Shield",
+            "type": "Battle Status",
+            "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 2",
+            "related": "Diona"
+        },
+        "mixeddrink": {
+            "name": "Mixed Drink",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Cryo DMG, and heal your active character for 2. \n\n'Uses': 2",
+            "related": "Diona",
+            "image": Diona_Summon
+        },
+        "chonghuafrostfield": {
+            "name": "Chonghua Frost Field",
+            "type": "Battle Status",
+            "description": "Physical DMG caused by your active sword, claymore, and polearm characters is converted to Cryo DMG. \n\n'Round Duration': 2",
+            "related": "Chongyun"
+        },
+        "spinningicicles": {
+            "name": "Spinning Icicles",
+            "type": "Battle Status",
+            "description": "After you switch characters: Deal 2 Cryo DMG. \n\n'Uses': 3",
+            "related": "Kaeya",
+            "image": Kaeya_BStatus
+        },
+        "phantom": {
+            "name": "Phantom",
+            "type": "Summon",
+            "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 1. When exhausted: do not 'discard' this card. Instead, 'discard' this during the End Phase and deal 1 Hydro DMG.",
+            "related": "Mona",
+            "image": Mona_Summon
+        },
+        "illusorybubble": {
+            "name": "Illusory Bubble",
+            "type": "Battle Status",
+            "description": "When you next deal DMG: remove this battle status and double that DMG.",
+            "related": "Mona",
+            "image": Mona_BStatus
+        },
+        "melodyloop": {
+            "name": "Melody Loop",
+            "type": "Summon",
+            "description": "End Phase: Heal all your characters for 1, then apply the wet on your active character. \n\n'Uses': 2",
+            "related": "Barbara",
+            "image": Barbara_Summon
+        },
+        "rainsword": {
+            "name": "Rain Sword",
+            "type": "Battle Status",
+            "description": "When your active character receives 3 or more DMG: reduce that DMG by 1. \n\n'Uses': 2",
+            "related": "Xingqiu",
+        },
+        "rainbowbladework": {
+            "name": "Rainbow Bladework",
+            "type": "Battle Status",
+            "description": "When your active character performs a normal attack: Deal 2 additional Hydro DMG. \n\n'Uses': 3",
+            "related": "Xingqiu",
+            "image": Xingqiu_BStatus1
+        },
+        "niwabienshou": {
+            "name": "Niwabi Enshou",
+            "type": "Status",
+            "description": "The attached character's normal attacks deal +1 DMG and any Physical DMG becomes Pyro DMG. \n\n'Uses': 2",
+            "related": "Yoimiya"
+        },
+        "aurousblaze": {
+            "name": "Aurous Blaze",
+            "type": "Battle Status",
+            "description": "After a character other than Yoimiya uses any attack: Deal 1 additional Pyro DMG. \n\n'Round Duration': 2",
+            "related": "Yoimiya",
+            "image": Yoimiya_BStatus
+        },
+        "guoba": {
+            "name": "Guoba",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Pyro DMG. \n\n'Uses': 2",
+            "related": "Xiangling",
+            "image": Xiangling_Summon
+        },
+        "pyronado": {
+            "name": "Pyronado",
+            "type": "Battle Status",
+            "description": "After your active character uses any attack: Deal 2 additional Pyro DMG. \n\n'Uses': 2",
+            "related": "Xiangling",
+            "image": Xiangling_BStatus
+        },
+        "inspirationfield": {
+            "name": "Inspiration Field",
+            "type": "Battle Status",
+            "description": "When your active character uses any attack while they have 7 or more HP: Increase the DMG by 2. If your active character is at 6 or lower HP after performing an attack: Heal that character for 2. \n\n'Round Duration': 2",
+            "related": "Bennett",
+            "image": Bennett_BStatus
+        },
+        "dandelionfield": {
+            "name": "Dandelion Field",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Anemo DMG, then restore 1 HP to your active character. \n\n'Uses': 2",
+            "related": "Jean",
+            "image": Jean_Summon
+        },
+        "largewindspirit": {
+            "name": "Large Wind Spirit",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Anemo DMG. \n\n'Uses': 3. \n\nAfter this card or your active character triggers a swirl reaction: Convert the DMG dealt by this card to that element. (Only once)",
+            "related": "Sucrose",
+            "image": Sucrose_Summon
+        },
+        "jadescreen": {
+            "name": "Jade Screen",
+            "type": "Battle Status",
+            "description": "After your active character recieves 2 or more DMG: reduce that DMG by 1. \n\n'Uses': 2",
+            "related": "Ningguang"
+        },
+        "breastplate": {
+            "name": "Breastplate",
+            "type": "Battle Status",
+            "description": "Provides 2 shield points for your active character. While this shield is up, any Physical DMG recieves is halved.",
+            "related": "Noelle"
+        },
+        "sweepingtime": {
+            "name": "Sweeping Time",
+            "type": "Status",
+            "description": "Once per round: when the character this is attached to performs a normal attack, spend 1 less Geo Die. The DMG caused by this character's normal attacks deal +2 DMG and the Physical DMG is converted to Geo DMG. \n\n'Round Duration': 2",
+            "related": "Noelle",
+            "image": Noelle_Status
+        },
+        "cuileinanbar": {
+            "name": "Cuilein-Anbar",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Dendro DMG. \n\n'Uses': 2",
+            "related": "Collei",
+            "image": Collei_Summon
+        },
+        "hydromimicsquirrel": {
+            "name": "Hydro Mimic Squirrel",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Hydro DMG. \n\n'Uses': 2",
+            "related": "Rhodeia of Loch",
+            "image": Oceanoid_Summon1
+        },
+        "hydromimicraptor": {
+            "name": "Hydro Mimic Raptor",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Hydro DMG. \n\n'Uses': 3",
+            "related": "Rhodeia of Loch",
+            "image": Oceanoid_Summon2
+        },
+        "hydromimicfrog": {
+            "name": "Hydro Mimic Frog",
+            "type": "Summon",
+            "description": "Provides 2 shield points for your active character. After this is exhausted, deal 2 Hydro DMG.",
+            "related": "Rhodeia of Loch",
+            "image": Oceanoid_Summon3
+        },
+        "invisibility": {
+            "name": "Invisibility",
+            "type": "Status",
+            "description": "Reduce any DMG received by 1, and increase any DMG dealt by 1. \n\n'Uses': 2",
+            "related": "Fatui Pyro Agent"
+        },
+        "cryohilichurlshooter": {
+            "name": "Cryo Hilichurl Shooter",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Uses': 2",
+            "related": "Abyssal Summons",
+            "image": Hilichurl_Summon1
+        },
+        "hydrosamachurl": {
+            "name": "Hydro Samachurl",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Hydro DMG. \n\n'Uses': 2",
+            "related": "Abyssal Summons",
+            "image": Hilichurl_Summon2
+        },
+        "hilichurlberserker": {
+            "name": "Hilichurl Berserker",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Pyro DMG. \n\n'Uses': 2",
+            "related": "Abyssal Summons",
+            "image": Hilichurl_Summon3
+        },
+        "electrohilichurlshooter": {
+            "name": "Electro Hilichurl Shooter",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Electro DMG. \n\n'Uses': 2",
+            "related": "Abyssal Summons",
+            "image": Hilichurl_Summon4
+        },
+    },
+
     "nullchar": {
         "icon": Nullchar_Icon   
     },
@@ -1645,7 +1913,7 @@ const db = {
         'sumeru': Sumeru_Sort,
     },
 
-    "misc": {
+    "menu": {
         'char_toggle': Anemo_Sort,
         "action_toggle": Anemo_Sort_Activated
     }

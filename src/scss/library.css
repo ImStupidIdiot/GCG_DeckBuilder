@@ -90,15 +90,15 @@
 
 .infobox {
     position: fixed;
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.85);
     overflow: visible;
     color: white;
-    border-radius: 40px;
+    border-radius: 50px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-    width: 750px;
+    width: 900px;
     height: 750px;
     z-index: 100;
 }
@@ -219,4 +219,21 @@
     color: white;
     font-family: Helvetica;
     font-size: 20px;
+}
+
+.miscButton {
+    border: 0;
+    background-color: transparent;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: rgba(120, 225, 255, 1);
+}
+
+.toggleText {
+    font-size: 8px;
+    height: 20px;   
+    width: 80px;
+    position: absolute;
+    text-align: center;
+    transform: translateY(-250%)
 }
