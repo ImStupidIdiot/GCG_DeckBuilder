@@ -1671,7 +1671,7 @@ const db = {
         },
         "icelotus": {
             "name": "Ice Lotus",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "When your active character receives DMG: reduce that damage by 1. \n\n'Uses': 2",
             "related": "Ganyu"
         },
@@ -1691,7 +1691,7 @@ const db = {
         },
         "pawshield": {
             "name": "Paw Shield",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 2",
             "related": "Diona"
         },
@@ -1704,13 +1704,13 @@ const db = {
         },
         "chonghuafrostfield": {
             "name": "Chonghua Frost Field",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "Physical DMG caused by your active sword, claymore, and polearm characters is converted to Cryo DMG. \n\n'Round Duration': 2",
             "related": "Chongyun"
         },
         "spinningicicles": {
             "name": "Spinning Icicles",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "After you switch characters: Deal 2 Cryo DMG. \n\n'Uses': 3",
             "related": "Kaeya",
             "image": Kaeya_BStatus
@@ -1724,8 +1724,8 @@ const db = {
         },
         "illusorybubble": {
             "name": "Illusory Bubble",
-            "type": "Battle Status",
-            "description": "When you next deal DMG: remove this battle status and double that DMG.",
+            "type": "Combat Status",
+            "description": "When you next deal DMG: remove this Combat Status and double that DMG.",
             "related": "Mona",
             "image": Mona_BStatus
         },
@@ -1738,13 +1738,13 @@ const db = {
         },
         "rainsword": {
             "name": "Rain Sword",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "When your active character receives 3 or more DMG: reduce that DMG by 1. \n\n'Uses': 2",
             "related": "Xingqiu",
         },
         "rainbowbladework": {
             "name": "Rainbow Bladework",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "When your active character performs a normal attack: Deal 2 additional Hydro DMG. \n\n'Uses': 3",
             "related": "Xingqiu",
             "image": Xingqiu_BStatus1
@@ -1757,7 +1757,7 @@ const db = {
         },
         "aurousblaze": {
             "name": "Aurous Blaze",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "After a character other than Yoimiya uses any attack: Deal 1 additional Pyro DMG. \n\n'Round Duration': 2",
             "related": "Yoimiya",
             "image": Yoimiya_BStatus
@@ -1771,14 +1771,14 @@ const db = {
         },
         "pyronado": {
             "name": "Pyronado",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "After your active character uses any attack: Deal 2 additional Pyro DMG. \n\n'Uses': 2",
             "related": "Xiangling",
             "image": Xiangling_BStatus
         },
         "inspirationfield": {
             "name": "Inspiration Field",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "When your active character uses any attack while they have 7 or more HP: Increase the DMG by 2. If your active character is at 6 or lower HP after performing an attack: Heal that character for 2. \n\n'Round Duration': 2",
             "related": "Bennett",
             "image": Bennett_BStatus
@@ -1799,13 +1799,13 @@ const db = {
         },
         "jadescreen": {
             "name": "Jade Screen",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "After your active character recieves 2 or more DMG: reduce that DMG by 1. \n\n'Uses': 2",
             "related": "Ningguang"
         },
         "breastplate": {
             "name": "Breastplate",
-            "type": "Battle Status",
+            "type": "Combat Status",
             "description": "Provides 2 shield points for your active character. While this shield is up, any Physical DMG recieves is halved.",
             "related": "Noelle"
         },
