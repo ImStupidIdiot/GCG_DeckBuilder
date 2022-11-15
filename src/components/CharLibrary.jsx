@@ -18,13 +18,17 @@ class CharLibrary extends Component {
             shownChar: null, 
             filters: {}, 
             allChars: allChars,
-            displayChars: [...allChars]
+            displayChars: [...allChars],
+            showMisc: null
         }
 
         this.isInDeck = this.isInDeck.bind(this);
         this.showChar = this.showChar.bind(this);
         this.closeInfo = this.closeInfo.bind(this);
+        this.handleClick = this.handleClick.bind(this);
         this.changeFilter = this.changeFilter.bind(this);
+        this.showMiscBox = this.showMiscBox.bind(this);
+        this.closeMiscBox = this.closeMiscBox.bind(this);
     }
 
     changeFilter(category, condition) {
@@ -51,16 +55,41 @@ class CharLibrary extends Component {
 
     showChar(char) {
         this.setState({shownChar: char})
+        document.addEventListener("click", this.handleClick, true)
     }
 
     closeInfo() {
         this.setState({shownChar: null})
+        document.removeEventListener("click", this.handleClick, true)
+    }
+
+    handleClick(e) {
+        if (e.target.className.includes("infoBox") || e.target.className=="miscButton") {
+            return;
+        }
+        else {
+            e.stopPropagation();
+            if (this.state.showMisc) {
+                this.closeMiscBox()
+            }
+            else {
+                this.closeInfo()
+            }
+        }
+    }
+
+    showMiscBox(item) {
+        this.setState({showMisc: item})
+    }
+
+    closeMiscBox() {
+        this.setState({showMisc: null})
     }
 
     render() {
         const cl = this.state.displayChars.map((char) => 
             <Col xs={2} key={char+"-column"}> 
-                <Char name={char} key={char} 
+                <Char name={char} key={char}
                     url={this.isInDeck(char) ? db.chars[char].card_selected : db.chars[char].card} 
                     addToDeck={this.props.addToDeck} 
                     removeFromDeck={this.props.removeFromDeck} 
@@ -75,7 +104,7 @@ class CharLibrary extends Component {
             <div>
                 <CharFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle}/>
                 <Container className='scrollbox'>
-                    <CharInfoBox char={this.state.shownChar} closeInfo={this.closeInfo}/>
+                    <CharInfoBox char={this.state.shownChar} closeInfo={this.closeInfo} showMisc={this.state.showMisc} showMiscBox={this.showMiscBox} closeMiscBox={this.closeMiscBox}/>
                     <Row>
                         {cl}
                     </Row>

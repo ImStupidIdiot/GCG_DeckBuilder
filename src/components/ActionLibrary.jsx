@@ -22,6 +22,7 @@ class ActionLibrary extends Component {
         this.showAction = this.showAction.bind(this);
         this.closeInfo = this.closeInfo.bind(this);
         this.changeFilter = this.changeFilter.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
     changeFilter(category, condition) {
@@ -44,10 +45,21 @@ class ActionLibrary extends Component {
 
     showAction(action) {
         this.setState({shownAction: action})
+        document.addEventListener("click", this.handleClick, true)
     }
 
     closeInfo() {
         this.setState({shownAction: null})
+        document.removeEventListener("click", this.handleClick, true)
+    }
+
+    handleClick(e) {
+        if (e.target.className.includes("infoBox")) {
+            return;
+        }
+        else {
+            this.closeInfo()
+        }
     }
 
     howManyInDeck(action) {

@@ -8,48 +8,28 @@ import MiscButton from './MiscButton';
 class CharInfoBox extends Component {
     constructor(props) {
         super(props);
-        this.state = {showMisc: null};
-        this.handleClick = this.handleClick.bind(this);
-        this.ref = React.createRef()
-    }
-
-    componentDidMount() {
-        document.addEventListener("mousedown", this.handleClick)
-    }
-    
-    componentWillUnmount() {
-        document.removeEventListener("mousedown", this.handleClick)
-    }
-
-    handleClick(e) {
-        if (e.target.className == "miscButton") {
-            ;
-        }
-        else if (this.state.showMisc) {
-            this.setState({showMisc: null})
-        }
-        else {
-            this.props.closeInfo()
-        }
     }
 
     render() {
         if (this.props.char) {
-            var related_list = db.chars[this.props.char].related.split(", ").map((item) => <MiscButton passRef={this.passRef} name={item} key={item} display={() => {
-                this.setState({showMisc: item})
-            }}/>)
 
-            return <div className="infobox">
-                <MiscInfoBox name={this.state.showMisc} handleClick={this.handleClick}/>
+            var related_list = db.chars[this.props.char].related.split(", ").map((item) => 
+                <MiscButton 
+                    name={item} key={item} 
+                    showMiscBox={() => this.props.showMiscBox(item)}
+                />)
+
+            return <div className="infoBox">
+                <MiscInfoBox name={this.props.showMisc} infoHandleClick={this.infoHandleClick} closeMiscBox={this.props.closeMiscBox}/>
                 <button onClick={this.props.closeInfo} className="infoBoxButton"><img src={Close_Icon} className="infoBoxClose"/></button>
                 <Container>
                     <Row>
-                        <Col xs={6}> 
+                        <Col xs={6} className="infoBoxCol"> 
                             <Row> 
                                 <img src={db.chars[this.props.char].hi_res_image} className="infoBoxImage"/> 
                             </Row> 
                         </Col>
-                        <Col xs={6}> 
+                        <Col xs={6} className="infoBoxCol">
                             <br></br>
                             <div className="infoBoxName">{db.chars[this.props.char].name}</div> 
                             <p className="infoBoxText"><br></br>Normal Attack: {db.chars[this.props.char].na}</p>

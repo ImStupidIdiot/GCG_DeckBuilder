@@ -8,25 +8,17 @@ class MiscInfoBox extends Component {
         super(props);
     }
 
-    componentDidMount() {
-        document.addEventListener("mousedown", this.props.handleClick)
-    }
-    
-    componentWillUnmount() {
-        document.removeEventListener("mousedown", this.props.handleClick)
-    }    
-
     render() {
         if (this.props.name) {
             var displayedMisc = Object.entries(db.misc).find((misc) => (misc[1].name == this.props.name))
-            return <div className="infobox"> 
-                <button onClick={this.props.closeInfo} className="infoBoxButton"><img src={Close_Icon} className="infoBoxClose"></img></button>
+            return <div className="infoBox"> 
+                <button onClick={this.props.closeMiscBox} className="infoBoxButton"><img src={Close_Icon} className="infoBoxClose"></img></button>
                 <Container>
                 <Row>
-                    <Col xs={6}> 
+                    <Col xs={6} className="infoBoxCol"> 
                         <Row> <img src={displayedMisc[1].image} className="infoBoxImage"/> </Row> 
                     </Col>
-                    <Col xs={6}>    
+                    <Col xs={6} className="infoBoxCol">
                         <br></br>
                         <div className="infoBoxName">{displayedMisc[1].name}</div> 
                         <br></br>

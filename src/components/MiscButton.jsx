@@ -8,7 +8,7 @@ class MiscButton extends Component {
     
     render() {
         return (
-            <button className='miscButton' onClick={this.props.display}>{this.props.name}</button>
+            <button className='miscButton' onClick={() => this.props.showMiscBox(this.props.name)}>{this.props.name}</button>
         )
     }
 }

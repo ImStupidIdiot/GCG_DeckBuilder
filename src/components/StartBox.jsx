@@ -10,24 +10,25 @@ class StartBox extends Component {
     }
 
     handleClick(e) {
-        console.log(e.target.className)
-        if (e.target.className == "infobox" || e.target.className.includes("startBox")) {
+        e.stopPropagation()
+        if (e.target.className == "infoBox" || e.target.className.includes("startBox")) {
             ;
         }
         else {
             this.props.closeInfo()
         }
     }
+    
     componentDidMount() {
-        document.addEventListener("click", this.handleClick)
+        document.addEventListener("click", this.handleClick, true)
     }
     
     componentWillUnmount() {
-        document.removeEventListener("click", this.handleClick)
+        document.removeEventListener("click", this.handleClick, true)
     }
 
     render() {
-            return <div className="infobox"> 
+            return <div className="infoBox"> 
             <button onClick={this.props.closeInfo} className="infoBoxButton"><img src={Close_Icon} className="infoBoxClose"></img></button>
             <Container>
             <Row>
