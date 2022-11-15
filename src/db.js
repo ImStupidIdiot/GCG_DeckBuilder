@@ -322,7 +322,7 @@ const db = {
             "name": "Keqing",
             'na': 'Yunlai Swordsmanship \n2 Colorless, 1 Electro \nDeals 2 Physical DMG.',
             'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, add 1 'Lightning Stilleto' to hand.",
-            'burst': "Starward Sword \n4 Electro, 3 'Burst Energy' \nDeals 4 Electro, deals 3 'Piercing DMG' to all opposing characters on standby.",
+            'burst': "Starward Sword \n4 Electro, 3 'Burst Energy' \nDeals 4 Electro DMG, deals 3 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330013_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334013.webp',
@@ -1732,7 +1732,7 @@ const db = {
         "melodyloop": {
             "name": "Melody Loop",
             "type": "Summon",
-            "description": "End Phase: Heal all your characters for 1, then apply the wet on your active character. \n\n'Uses': 2",
+            "description": "End Phase: Heal all your characters for 1, then apply the wet status on your active character. \n\n'Uses': 2",
             "related": "Barbara",
             "image": Barbara_Summon
         },
