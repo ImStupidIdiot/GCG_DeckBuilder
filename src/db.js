@@ -482,7 +482,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334502.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330502_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Slow Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', its $[K4] +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', its 'Round Duration' +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)"
         },
         
         "kantensenmyoublessing": {
@@ -502,7 +502,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334504.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330504_gcg_high_resolution.webp",
             "cost": '4 Hydro',
-            "description": "'Slow Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its \n\n'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its 'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)"
         },
         
         "prophecyofsubmersion": {
