@@ -214,17 +214,17 @@ const db = {
             'related': 'Hydro Mimic Squirrel, Hydro Mimic Raptor, Hydro Mimic Frog'
         },
         "mirrormaiden": {
-            "name": "Mirror Maiden (NO DATA)",
-            'na': 'Water Ball: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'skill': 'Influx Blast: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT]. The target character receives $[C122021].',
-            'burst': 'Rippled Reflection: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
+            "name": "Mirror Maiden \n (VERY STC)",
+            'na': 'Water Ball \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
+            'skill': "Influx Blast \n3 Hydro \nDeals 3 Hydro DMG. The target character receives 'Refraction'.",
+            'burst': "Rippled Reflection \n3 Hydro, 2 'Energy' \nDeals 5 Hydro DMG. \n\n\n ALL INFO ON MIRROR MAIDEN IS BASED ON SUS INFO AND VERY STC.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330026_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330026.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334026.webp',
             "icon": Mirrormaiden_Icon,
             "element": 'hydro',
             "region": 'fatui',
-            'related': ''
+            'related': 'Refraction'
         },
         "diluc": {
             "name": "Diluc",
@@ -372,18 +372,18 @@ const db = {
             'related': 'Dandelion Field'
         },
         "maguu": {
-            "name": 'Maguu Kenki (NO DATA)',
-            'na': 'Ichimonji \n Deals 2 Physical Damage.',
-            'skill': 'Blustering Blade: Deals $[D__KEY__DMG] DMG, summons 1 $[C125011].',
-            'burst': 'False Tengu Sweeper: Deals $[D__KEY__DMG] DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)',
-            'special': 'Frosty Assault: Deals $[D__KEY__DMG] DMG, summons 1 $[C125012].',
+            "name": 'Maguu Kenki (VERY STC)',
+            'na': 'Ichimonji\n2 Black, 1 Anemo \nDeals 2 Physical DMG.',
+            'skill': "Blustering Blade\n3 Anemo \nDeals 1 Anemo DMG, summons 1 'Maguu Kenki: Lone Gale'.",
+            'burst': "False Tengu Sweeper\n3 Anemo, 3 'Energy' \nDeals 6 Physical DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
+            'special': "Frosty Assault\n3 Anemo\nDeals 1 Cryo DMG, summons 1 'Maguu Kenki: Galloping Frost'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330021.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334021.webp',
             "icon": Maguu_Icon,
             "element": 'anemo',
             "region": 'monster',
-            'related': ''
+            'related': 'Maguu Kenki: Lone Gale, Maguu Kenki: Galloping Frost'
         },
         "noelle": {
             "name": "Noelle",
@@ -1849,6 +1849,24 @@ const db = {
             "type": "Status",
             "description": "Reduce any DMG received by 1, and increase any DMG dealt by 1. \n\n'Uses': 2",
             "related": "Fatui Pyro Agent"
+        },
+        "refraction": {
+            "name": "Refraction",
+            "type": "Status",
+            "description": "Incoming Hydro DMG +1. \n\n'Round Duration': 2 \n\n WARNING: VERY SUBJECT TO CHANGE, BASED ON SUS INFO",
+            "related": "Mirror Maiden"
+        },
+        "maguuanemo": {
+            "name": "Maguu Kenki: Lone Gale",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Anemo DMG.\n\n'Uses': 2 \n\n WARNING: VERY SUBJECT TO CHANGE, BASED ON SUS INFO",
+            "related": "Maguu Kenki"
+        },
+        "maguucryo": {
+            "name": "Maguu Kenki: Galloping Frost",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Uses': 2 \n\n WARNING: VERY SUBJECT TO CHANGE, BASED ON SUS INFO",
+            "related": "Maguu Kenki"
         },
         "cryohilichurlshooter": {
             "name": "Cryo Hilichurl Shooter",
