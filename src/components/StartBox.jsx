@@ -38,15 +38,15 @@ class StartBox extends Component {
                 <Col xs={10} className="startBoxCol"> 
                 <div className = "startBox">
                 <br/><br/>
-                Welcome to the GCG Deck Builder! There's lots of placeholders right now but it should be fully functional. Anemo Symbol in top left currently toggles between character and action cards. Click outside this window to close it.
+                Welcome to the GCG Deck Builder! There's lots of placeholders right now but it should be fully functional. EVERYTHING IS SUBJECT TO CHANGE. Anemo Symbol in top left currently toggles between character and action cards. Click outside this window to close it.
                 <br/><br/>
                 Note that this does not currently work on Mobile. On Desktop, I'd recommend zooming out until you can see the entire scrollbox. 
                 <br/><br/>
                 DM me on Discord (@StupidIdiot#9003) if you'd like to contribute a translation, art to replace a placeholder, or find any bugs/typos. 
                 <br/><br/>
-                Currently working on making a rulebook! For now, if you have questions about terminology or game rules, head over to the TCG Theorycrafting Channel at WFP (<a className="startBoxText" href="https://discord.gg/hutao" target="_blank">discord.gg/hutao</a>). 
+                Helpful Links: <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/13RRK4IYl0bHJFVtRmlDFVwE9BR-2qaq6dGr2sdJKj_o/edit#gid=1914067667" target="_blank">SigmaZero Card List (WIP)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1J2ZvmK2T_mJR6BtPdXiSSnq1d2xesl_A3oA235ZvMLI/edit?usp=sharing" target="_blank">Google Sheet Simulator (WIP)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1rKIXofBzIVOlhlF97oACpAm9XpNwoglDhLlLGoR13Qk/edit?usp=sharing" target="_blank">Rulebook (WIP)</a>
                 <br/><br/>
-                Other Helpful Links: <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/13RRK4IYl0bHJFVtRmlDFVwE9BR-2qaq6dGr2sdJKj_o/edit#gid=1914067667" target="_blank">SigmaZero Card List (WIP)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1J2ZvmK2T_mJR6BtPdXiSSnq1d2xesl_A3oA235ZvMLI/edit?usp=sharing" target="_blank">Google Sheet Simulator (WIP)</a>
+                If you have questions about terminology or game rules, head over to the TCG Theorycrafting Channel at WFP (<a className="startBoxText" href="https://discord.gg/hutao" target="_blank">discord.gg/hutao</a>). 
                 <br/><br/>
                 I'm also live sometimes at <a className="startBoxText" href="https://twitch.tv/robotwizhs" target="_blank">twitch.tv/robotwizhs</a>. I'll definitely be streaming some TC content for Genius Invocation TCG up until and through the 3.3 patch. 
                 <br/><br/>

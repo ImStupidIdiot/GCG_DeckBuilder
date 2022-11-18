@@ -662,7 +662,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334521.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330521_gcg_high_resolution.webp",
             "cost": "4* Anemo",
-            "description": "'Slow Action': When your active character is Maguu Kenki, equip this card.\n\nAfter Maguu Kenki equips this card, immediately use 'Elemental Skill: Blustering Blade' once.\n\nAfter your Maguu Kenki, who has this card equipped, uses 'Elemental Skill: Blustering Blade', you will switch to your next character. You will switch to your previous character when your Maguu Kenki, who has this card equipped, uses 'Elemental ???: Frosty Assault'.\n\n(You must have Maguu Kenki in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Maguu Kenki, equip this card.\n\nAfter Maguu Kenki equips this card, immediately use 'Elemental Skill: Blustering Blade' once.\n\nAfter your Maguu Kenki, who has this card equipped, uses 'Elemental Skill: Blustering Blade', you will switch to your next character. You will switch to your previous character when your Maguu Kenki, who has this card equipped, uses 'Special Elemental Skill: Frosty Assault'.\n\n(You must have Maguu Kenki in your deck to add this card to your deck.)"
         },
         
         "stonehidereforged": {
@@ -712,7 +712,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334526.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330526_gcg_high_resolution.webp",
             "cost": '4* Hydro',
-            "description": "'Slow Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a $[C122021], its 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a 'Refraction', its 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)"
         },
         
         "proliferatingspores": {
