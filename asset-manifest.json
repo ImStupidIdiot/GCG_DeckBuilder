@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.18db7890.css",
-    "main.js": "/static/js/main.e5fda153.js",
+    "main.css": "/static/css/main.a784c1cd.css",
+    "main.js": "/static/js/main.da474938.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
+    "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
     "static/media/Hilichurl_Summon1.png": "/static/media/Hilichurl_Summon1.606e3267056ebef3eaf9.png",
+    "static/media/Maguu_Summon1.png": "/static/media/Maguu_Summon1.9a661250c37d3541740b.png",
     "static/media/Sucrose_Summon.png": "/static/media/Sucrose_Summon.cecb6178d815b748bf92.png",
     "static/media/Hilichurl_Summon2.png": "/static/media/Hilichurl_Summon2.e64ab107792014df105d.png",
     "static/media/Mona_Summon.png": "/static/media/Mona_Summon.740e3b2d1c1c10218b56.png",
@@ -71,11 +73,11 @@
     "static/media/Noelle_Status.png": "/static/media/Noelle_Status.3ffe8953bcaf87d4ec1e.png",
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
-    "main.18db7890.css.map": "/static/css/main.18db7890.css.map",
-    "main.e5fda153.js.map": "/static/js/main.e5fda153.js.map"
+    "main.a784c1cd.css.map": "/static/css/main.a784c1cd.css.map",
+    "main.da474938.js.map": "/static/js/main.da474938.js.map"
   },
   "entrypoints": [
-    "static/css/main.18db7890.css",
-    "static/js/main.e5fda153.js"
+    "static/css/main.a784c1cd.css",
+    "static/js/main.da474938.js"
   ]
 }
