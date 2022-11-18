@@ -12,7 +12,7 @@ class ActionDeck extends Component {
     }
 
     copyActions() {
-        var toCopy = Object.entries(this.props.current_actions).map((mapped) => mapped[1] == 2 ? db.actions[mapped[0]].name + '\n' + db.actions[mapped[0]].name : db.actions[mapped[0]].name).toString().replaceAll(',', '\n')
+        var toCopy = Object.entries(this.props.current_actions).sort((action1, action2) => db.actions[action1[0]].cost[0] - db.actions[action2[0]].cost[0]).map((mapped) => mapped[1] == 2 ? db.actions[mapped[0]].name + '\n' + db.actions[mapped[0]].name : db.actions[mapped[0]].name).toString().replaceAll(',', '\n')
         navigator.clipboard.writeText(toCopy);
     }
 

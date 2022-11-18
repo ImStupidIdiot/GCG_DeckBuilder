@@ -562,7 +562,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334511.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330511_gcg_high_resolution.webp",
             "cost": '3 Electro',
-            "description": "'Slow Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(Consumes a 'Use' (of Oz?))\n\n(You must have Fischl in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(This consumes a 'Use' of 'Oz'.)\n\n(You must have Fischl in your deck to add this card to your deck.)"
         },
         
         "awakening": {
@@ -582,7 +582,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334513.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330513_gcg_high_resolution.webp",
             "cost": '3 Electro',
-            "description": "'Slow Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an (Lightning Stilleto v2?), its 'Electro DMG' +1, and 'Electro DMG' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)"
+            "description": "'Slow Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an 'Electro Infusion', its 'Round Duration' +1, and 'Electro DMG' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)"
         },
         
         "chaoticentropy": {
