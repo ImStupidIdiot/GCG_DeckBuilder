@@ -27,6 +27,8 @@ class ActionInfoBox extends Component {
                         <p className="infoBoxCost">Cost: {db.actions[this.props.action].cost}</p>
                         <br></br>
                         <p className="infoBoxText">{text}</p>
+                        <br/>
+                        <p className="infoBoxTextItalic">{db.actions[this.props.action].flavor}</p>
                     </Col>
                 </Row>
                 </Container> 

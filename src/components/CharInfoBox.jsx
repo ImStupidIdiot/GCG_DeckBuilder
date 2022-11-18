@@ -12,13 +12,12 @@ class CharInfoBox extends Component {
 
     render() {
         if (this.props.char) {
-
             var related_list = db.chars[this.props.char].related.split(", ").map((item) => 
                 <MiscButton 
                     name={item} key={item} 
                     showMiscBox={() => this.props.showMiscBox(item)}
                 />)
-
+            var needsBrSmall = db.chars[this.props.char].special
             return <div className="infoBox">
                 <MiscInfoBox name={this.props.showMisc} infoHandleClick={this.infoHandleClick} closeMiscBox={this.props.closeMiscBox}/>
                 <button onClick={this.props.closeInfo} className="infoBoxButton"><img src={Close_Icon} className="infoBoxClose"/></button>
@@ -30,17 +29,19 @@ class CharInfoBox extends Component {
                             </Row> 
                         </Col>
                         <Col xs={6} className="infoBoxCol">
-                            <br></br>
+                            <br className={needsBrSmall ? 'brSmall' : null}/>
                             <div className="infoBoxName">{db.chars[this.props.char].name}</div> 
-                            <p className="infoBoxText"><br></br>Normal Attack: {db.chars[this.props.char].na}</p>
-                            <br></br>
+                            <br className={needsBrSmall ? 'brSmall' : null}/>
+                            <p className="infoBoxText">Normal Attack: {db.chars[this.props.char].na}</p>
+                            <br className={needsBrSmall ? 'brSmall' : null}/>
                             <p className="infoBoxText">Elemental Skill: {db.chars[this.props.char].skill}</p>
-                            <br></br>
+                            <br className={needsBrSmall ? 'brSmall' : null}/>
                             <p className="infoBoxText">Elemental Burst: {db.chars[this.props.char].burst}</p>
-                            <p className='infoBoxText'>{db.chars[this.props.char].special ? '\nSpecial: ' + db.chars[this.props.char].special : null}</p>
-                            <br></br>
+                            <p className='infoBoxText'>{needsBrSmall ? 'Special: ' + db.chars[this.props.char].special : null}</p>
+                            <br className={needsBrSmall ? 'brSmall' : null}/>
                             <p className="infoBoxText">Related: {related_list ? related_list : null}</p>
-                            <br></br>
+                            <br className={needsBrSmall ? 'brSmall' : null}/>
+                            <p className="infoBoxTextItalic">{db.chars[this.props.char].flavor}</p>
                         </Col>
                     </Row>
                 </Container> 

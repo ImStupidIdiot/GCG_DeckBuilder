@@ -237,3 +237,17 @@
     text-align: center;
     transform: translateY(-250%)
 }
+
+.infoBoxTextItalic {
+    font-size: 18px;
+    font-family: Helvetica;
+    white-space: pre-line;
+    font-style: italic;
+}
+
+.brSmall {
+    content: "";
+    margin: 6em;
+    display: block;
+    font-size: 24%;
+}
