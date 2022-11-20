@@ -89,6 +89,7 @@ import Xiangling_BStatus from './images/Xiangling_BStatus.png'
 import Xingqiu_BStatus1 from './images/Xingqiu_BStatus1.png'
 import Yoimiya_BStatus from './images/Yoimiya_BStatus.png'
 import Cyno_Status from './images/Cyno_Status.png'
+import Terrorshroom_Status from './images/Terrorshroom_Status.png'
 
 import Action_Block_Test from './images/Action_Block_Test.png'
 
@@ -439,18 +440,18 @@ const db = {
             "flavor": "The greatest secret she keeps is that she keeps a great many of Liyue’s secrets."        
         },
         "stonehidelawachurl": {
-            "name": "Stonehide Lawachurl (NO DATA)",
-            'na': 'Plama Lawa: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'skill': 'Movo Lawa: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'burst': 'Upa Shato: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'special': 'Infused Stonehide \n(Passive) \nWhen the battle begins, this character gains $[C126011] and $[C126012].',
+            "name": "Stonehide Lawachurl",
+            'na': 'Plama Lawa \n2 Black, 1 Geo \nDeals 2 Physical DMG.',
+            'skill': 'Movo Lawa \n3 Geo \nDeals 3 Physical DMG.',
+            'burst': "Upa Shato \n3 Geo, 2 'Energy' \nDeals 5 Physical DMG.",
+            'special': "Infused Stonehide \n(Passive) \nWhen the battle begins, this character gains 'Stonehide' and 'Stone Force'.\n\nNote: This character starts the battle with 8 HP.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330022_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330022.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334022.webp',
             "icon": Stonehidelawachurl_Icon,
             "element": 'geo',
             "region": 'monster',
-            'related': '',
+            'related': 'Stonehide, Stone Force',
             "flavor": "Go around — the way ahead is the realm of the “king.”"        
         },
         "collei": {
@@ -468,18 +469,18 @@ const db = {
             "flavor": "“‘Shouting the name of your card loudly will increase its power many-fold”… You’ve got to be kidding, right?”"        
         },
         "terrorshroom": {
-            "name": "Jadeplume Terrorshroom (NO DATA)",
-            'na': 'Majestic Dance: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'skill': 'Volatile Spore Cloud: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'burst': 'Feather Spreading: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT], then consumes all $[C127011] stacks. For each stack consumed, deals +1 DMG.',
-            'special': 'Radical Vitality: \n(Passive) \nWhen the battle begins, this character gains $[C127011].',
+            "name": "Jadeplume Terrorshroom",
+            'na': 'Majestic Dance\n2 Black, 1 Dendro \nDeals 2 Physical DMG.',
+            'skill': 'Volatile Spore Cloud\n 3 Dendro \nDeals 3 Dendro DMG.',
+            'burst': "Feather Spreading \n3 Dendro, 2 'Energy' \nDeals 4 Dendro DMG, then consumes all 'Radical Vitality' stacks. For each stack consumed, deals +1 DMG.",
+            'special': "Radical Vitality \n(Passive) \nWhen the battle begins, this character gains 'Radical Vtality'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330027_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330027.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334027.webp',
             "icon": Terrorshroom_Icon,
             "element": 'dendro',
             "region": 'monster',
-            'related': '',
+            'related': 'Radical Vitality',
             "flavor": "If you keep silent and listen closely, you can here the sound of the ruler of the Shroom-Kin inspecting its territory…"        
         },
     },
@@ -724,8 +725,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330522.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334522.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330522_gcg_high_resolution.webp",
-            "cost": "4* Geo",
-            "description": "'Slow Action': When your active character is Stonehide Lawachurl, equip this card.\n\nAfter Stonehide Lawachurl equips this card, immediately use 'Elemental ?????: Upa Shato' once.\n\nWhen your Stonehide Lawachurl, who has this card equipped, defeats an opposing character: Stonehide Lawachurl will re-attach $[C126011] and $[C126012].\n\n(You must have Stonehide Lawachurl in your deck to add this card to your deck.)",
+            "cost": "3* Geo 2* Energy",
+            "description": "'Slow Action': When your active character is Stonehide Lawachurl, equip this card.\n\nAfter Stonehide Lawachurl equips this card, immediately use 'Elemental Burst: Upa Shato' once.\n\nWhen your Stonehide Lawachurl, who has this card equipped, defeats an opposing character: Stonehide Lawachurl will re-attach 'Stonehide' and 'Stone Force'.\n\n(You must have Stonehide Lawachurl in your deck to add this card to your deck.)",
             "flavor": "An enduring force flows through that craggy form."        
         },
         
@@ -1975,12 +1976,31 @@ const db = {
             "related": "Noelle",
             "image": Noelle_Status
         },
+        "stonehide": {
+            "name": "Stonehide",
+            "type": "Status",
+            "description": "When the character to which this is attached to recieves DMG: Decrease DMG taken by 1. When Geo DMG is decreased, comsume 1 additional 'Use'. \n\n'Uses': 3",
+            "related": "Stonehide Lawachurl"
+        },
+        "stoneforce": {
+            "name": "Stone Force",
+            "type": "Status",
+            "description": "The character to which this is attached has their Physical DMG converted to Geo DMG. \n\nOnce per Round: The character deals +1 DMG. \n\nOnce the Stonehide attached to this character is removed, this status is removed alongside it.",
+            "related": "Stonehide Lawachurl"
+        },
         "cuileinanbar": {
             "name": "Cuilein-Anbar",
             "type": "Summon",
             "description": "End Phase: Deal 2 Dendro DMG. \n\n'Uses': 2",
             "related": "Collei",
             "image": Collei_Summon
+        },
+        "radicalvitality": {
+            "name": "Radical Vitality",
+            "type": "Status",
+            "description": "When this character takes or deals Elemental DMG: gain 1 stack of 'Radical Vitality' (max 3 stacks). \nEnd Phase: If radical vitality stacks reach maximum, they will be cleared and the character will lose all energy.",
+            "related": "Jadeplume Terrorshroom",
+            "image": Terrorshroom_Status
         },
         "hydromimicsquirrel": {
             "name": "Hydro Mimic Squirrel",
