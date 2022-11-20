@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a784c1cd.css",
-    "main.js": "/static/js/main.26ba8383.js",
+    "main.js": "/static/js/main.23808423.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -68,6 +68,7 @@
     "static/media/Yoimiya_BStatus.png": "/static/media/Yoimiya_BStatus.9923a4803a42f6d56e64.png",
     "static/media/Mona_BStatus.png": "/static/media/Mona_BStatus.58d5fdeca569ddfd06b0.png",
     "static/media/Razor_Status.png": "/static/media/Razor_Status.e3c68a79b5d676c40dd8.png",
+    "static/media/Terrorshroom_Status.png": "/static/media/Terrorshroom_Status.33758dda89830a6c5ff8.png",
     "static/media/Xingqiu_BStatus1.png": "/static/media/Xingqiu_BStatus1.e7fa4a3193e83f18d621.png",
     "static/media/Kaeya_BStatus.png": "/static/media/Kaeya_BStatus.88451b0659eb47424f76.png",
     "static/media/Bennett_BStatus.png": "/static/media/Bennett_BStatus.549f44dac405d848d436.png",
@@ -75,10 +76,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.a784c1cd.css.map": "/static/css/main.a784c1cd.css.map",
-    "main.26ba8383.js.map": "/static/js/main.26ba8383.js.map"
+    "main.23808423.js.map": "/static/js/main.23808423.js.map"
   },
   "entrypoints": [
     "static/css/main.a784c1cd.css",
-    "static/js/main.26ba8383.js"
+    "static/js/main.23808423.js"
   ]
 }
