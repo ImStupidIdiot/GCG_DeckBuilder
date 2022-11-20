@@ -15,7 +15,8 @@ class ActionLibrary extends Component {
             shownChar: null, 
             filters: {}, 
             allActions: allActions,
-            displayActions: [...allActions]
+            displayActions: [...allActions],
+            showMisc: null
         }
         
         this.howManyInDeck = this.howManyInDeck.bind(this);
@@ -23,6 +24,8 @@ class ActionLibrary extends Component {
         this.closeInfo = this.closeInfo.bind(this);
         this.changeFilter = this.changeFilter.bind(this);
         this.handleClick = this.handleClick.bind(this);
+        this.showMiscBox = this.showMiscBox.bind(this);
+        this.closeMiscBox = this.closeMiscBox.bind(this);
     }
 
     changeFilter(category, condition) {
@@ -55,13 +58,26 @@ class ActionLibrary extends Component {
 
     // big source of tech debt; see long-form comment in CharLibrary.jsx
     handleClick(e) {
-        if (e.target.className.includes("infoBox")) {
+        if (e.target.className.includes("infoBox") || e.target.className=="miscButton") {
             return;
         }
         else {
-            e.stopPropagation()
-            this.closeInfo()
+            e.stopPropagation();
+            if (this.state.showMisc) {
+                this.closeMiscBox()
+            }
+            else {
+                this.closeInfo()
+            }
         }
+    }
+
+    showMiscBox(item) {
+        this.setState({showMisc: item})
+    }
+
+    closeMiscBox() {
+        this.setState({showMisc: null})
     }
 
     howManyInDeck(action) {
@@ -89,7 +105,7 @@ class ActionLibrary extends Component {
             <div>
                 <ActionFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle}/>
                 <Container className='scrollbox'>
-                    <ActionInfoBox action={this.state.shownAction} closeInfo={this.closeInfo}/>
+                    <ActionInfoBox action={this.state.shownAction} closeInfo={this.closeInfo} showMisc={this.state.showMisc} showMiscBox={this.showMiscBox} closeMiscBox={this.closeMiscBox}/>
                     <Row>
                         {cl}
                     </Row>

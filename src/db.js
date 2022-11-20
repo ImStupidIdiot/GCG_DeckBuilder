@@ -1707,6 +1707,7 @@ const db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333028_gcg_high_resolution.webp",
             "cost": '2 White',
             "description": "Summon 1 'Hilichurl'!\n\n(You must have at least 2 Monster characters in your deck to add this card to your deck.)",
+            "related": "Electro Hilichurl Shooter, Cryo Hilichurl Shooter, Hilichurl Berserker, Hydro Samachurl, ",
             "flavor": "“Yaya ika!”"        
         },
         
@@ -1998,7 +1999,7 @@ const db = {
         "radicalvitality": {
             "name": "Radical Vitality",
             "type": "Status",
-            "description": "When this character takes or deals Elemental DMG: gain 1 stack of 'Radical Vitality' (max 3 stacks). \nEnd Phase: If radical vitality stacks reach maximum, they will be cleared and the character will lose all energy.",
+            "description": "When this character takes or deals Elemental DMG: gain 1 stack of 'Radical Vitality' (max 3 stacks). \n\nEnd Phase: If 'Radical Vitality' stacks reach maximum, they will be cleared and the character will lose all energy.",
             "related": "Jadeplume Terrorshroom",
             "image": Terrorshroom_Status
         },
