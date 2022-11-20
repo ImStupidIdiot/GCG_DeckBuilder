@@ -1917,7 +1917,7 @@ const db = {
         "aurousblaze": {
             "name": "Aurous Blaze",
             "type": "Combat Status",
-            "description": "After a character other than Yoimiya uses any attack: Deal 1 additional Pyro DMG. \n\n'Round Duration': 2",
+            "description": "After a character other than Yoimiya uses any skill: Deal 1 additional Pyro DMG. \n\n'Round Duration': 2",
             "related": "Yoimiya",
             "image": Yoimiya_BStatus
         },
@@ -1931,14 +1931,14 @@ const db = {
         "pyronado": {
             "name": "Pyronado",
             "type": "Combat Status",
-            "description": "After your active character uses any attack: Deal 2 additional Pyro DMG. \n\n'Uses': 2",
+            "description": "After your active character uses any skill: Deal 2 additional Pyro DMG. \n\n'Uses': 2",
             "related": "Xiangling",
             "image": Xiangling_BStatus
         },
         "inspirationfield": {
             "name": "Inspiration Field",
             "type": "Combat Status",
-            "description": "When your active character uses any attack while they have 7 or more HP: Increase the DMG by 2. If your active character is at 6 or lower HP after performing an attack: Heal that character for 2. \n\n'Round Duration': 2",
+            "description": "When your active character uses any skill while they have 7 or more HP: Increase the DMG by 2. If your active character is at 6 or lower HP after performing an skill: Heal that character for 2. \n\n'Round Duration': 2",
             "related": "Bennett",
             "image": Bennett_BStatus
         },
