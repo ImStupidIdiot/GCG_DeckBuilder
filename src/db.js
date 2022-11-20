@@ -747,7 +747,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334524.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330524_gcg_high_resolution.webp",
             "cost": '3* Electro',
-            "description": "'Slow Action': When your active character is Cyno, equip this card.\n\nAfter Cyno equips this card, immediately use 'Elemental Skill: Secret Rite: Chasmic Soulfarer' once.\n\nWhen your Cyno, who has this card equipped, uses 'Elemental Skill: Secret Rite: Chasmic Soulfarer' with 3 or 5 levels of $[C114041]‘s [Indwelling] effect, deal +1 additional DMG.\n\n(You must have Cyno in your deck to add this card to your deck.)",
+            "description": "'Slow Action': When your active character is Cyno, equip this card.\n\nAfter Cyno equips this card, immediately use 'Elemental Skill: Secret Rite: Chasmic Soulfarer' once.\n\nWhen your Cyno, who has this card equipped, uses 'Elemental Skill: Secret Rite: Chasmic Soulfarer' with 3 or 5 levels of Pactsworn Pathclearer's 'Indwelling' effect, deal +1 additional DMG.\n\n(You must have Cyno in your deck to add this card to your deck.)",
             "flavor": "“This is my duel soul.”"        
         },
         
