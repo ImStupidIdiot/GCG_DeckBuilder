@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a784c1cd.css",
-    "main.js": "/static/js/main.cbc723ba.js",
+    "main.js": "/static/js/main.c4b9dfae.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -63,6 +63,7 @@
     "static/media/Ayaka_Card.webp": "/static/media/Ayaka_Card.68212eaa0c3ec8283591.webp",
     "static/media/Kaeya_Card.webp": "/static/media/Kaeya_Card.19ec6df316ed2d2b0165.webp",
     "static/media/Chongyun_Card.webp": "/static/media/Chongyun_Card.e68a18cc3a011b503135.webp",
+    "static/media/Cyno_Status.png": "/static/media/Cyno_Status.db18ca084d0e53984405.png",
     "static/media/Xiangling_BStatus.png": "/static/media/Xiangling_BStatus.e242bfef7771e653afb4.png",
     "static/media/Yoimiya_BStatus.png": "/static/media/Yoimiya_BStatus.9923a4803a42f6d56e64.png",
     "static/media/Mona_BStatus.png": "/static/media/Mona_BStatus.58d5fdeca569ddfd06b0.png",
@@ -74,10 +75,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.a784c1cd.css.map": "/static/css/main.a784c1cd.css.map",
-    "main.cbc723ba.js.map": "/static/js/main.cbc723ba.js.map"
+    "main.c4b9dfae.js.map": "/static/js/main.c4b9dfae.js.map"
   },
   "entrypoints": [
     "static/css/main.a784c1cd.css",
-    "static/js/main.cbc723ba.js"
+    "static/js/main.c4b9dfae.js"
   ]
 }
