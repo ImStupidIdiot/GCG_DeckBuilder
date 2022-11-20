@@ -88,6 +88,7 @@ import Razor_Status from './images/Razor_Status.png'
 import Xiangling_BStatus from './images/Xiangling_BStatus.png'
 import Xingqiu_BStatus1 from './images/Xingqiu_BStatus1.png'
 import Yoimiya_BStatus from './images/Yoimiya_BStatus.png'
+import Cyno_Status from './images/Cyno_Status.png'
 
 import Action_Block_Test from './images/Action_Block_Test.png'
 
@@ -352,18 +353,18 @@ const db = {
             "flavor": "She can build decks heretofore not conceived and win battles in which victory is unthinkable."        
         },
         "cyno": {
-            "name": "Cyno (NO DATA)",
-            'na': 'Invoker’s Spear\n Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'skill': 'Secret Rite\n Chasmic Soulfarer: Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].',
-            'burst': "Sacred Rite: Wolf’s Swiftness\n Deals $[D__KEY__DMG] $[D__KEY__ELEMENT].\n$Cyno's Indwelling Level +2.",
-            'special': 'Lawful Enforcer \n(Passive) \nWhen the battle begins, this character gains $[C114041].',
+            "name": "Cyno",
+            'na': 'Invoker’s Spear\n2 Black, 1 Electro \nDeals 2 Physical DMG.',
+            'skill': 'Secret Rite\n3 Electro \nChasmic Soulfarer: Deals 3 Electro DMG.',
+            'burst': "Sacred Rite: Wolf’s Swiftness\n 4 Electro, 2 'Energy' \nDeals 4 Electro DMG. Cyno's Indwelling Level +2.",
+            'special': "Lawful Enforcer \n(Passive) \nWhen the battle begins, this character gains 'Pactsworn Pathclearer'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330024_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330024.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334024.webp',
             "icon": Cyno_Icon,
             "element": 'electro',
             "region": 'sumeru',
-            'related': '',
+            'related': 'Pactsworn Pathclearer',
             "flavor": "These card covers bear the weight of the General Mahamatra’s incomparable passion."        
         },
         "sucrose": {
@@ -395,10 +396,10 @@ const db = {
             "flavor": "Never believes that she has done well enough — not until final victory is hers, anyway."        
         },
         "maguu": {
-            "name": 'Maguu Kenki (VERY STC)',
+            "name": 'Maguu Kenki',
             'na': 'Ichimonji\n2 Black, 1 Anemo \nDeals 2 Physical DMG.',
             'skill': "Blustering Blade\n3 Anemo \nDeals 1 Anemo DMG, summons 1 'Maguu Kenki: Lone Gale'.",
-            'burst': "False Tengu Sweeper\n3 Anemo, 3 'Energy' \nDeals 6 Physical DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
+            'burst': "False Tengu Sweeper\n3 Anemo, 3 'Energy' \nDeals 6 Anemo DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
             'special': "Frosty Assault\n3 Anemo\nDeals 1 Cryo DMG, summons 1 'Maguu Kenki: Galloping Frost'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330021.webp',
@@ -1820,6 +1821,13 @@ const db = {
             "related": "Razor",
             "image": Razor_Status
         },
+        "pactswornpathclearer": {
+            "name": "Pactsworn Pathclearer",
+            "type": "Status",
+            "description": "End Phase: Gain 1 level of 'Indwelling'. \n\nCreate the following effects based on the 'Indwelling' Level: \n -If equal to or greater than 2: Physical DMG dealt is converted to Electro DMG. \n -If equal to or greater than 4: DMG dealt +2 \n -If equal to or greater than 6: 'Indwelling' Level -4",
+            "related": "Razor",
+            "image": Cyno_Status
+        },
         "icelotus": {
             "name": "Ice Lotus",
             "type": "Combat Status",
@@ -2010,14 +2018,14 @@ const db = {
         "maguuanemo": {
             "name": "Maguu Kenki: Lone Gale",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Anemo DMG.\n\n'Uses': 2 \n\n WARNING: VERY SUBJECT TO CHANGE, BASED ON SUS INFO",
+            "description": "End Phase: Deal 1 Anemo DMG.\n\n'Uses': 2 \n",
             "related": "Maguu Kenki",
             "image": Maguu_Summon2
         },
         "maguucryo": {
             "name": "Maguu Kenki: Galloping Frost",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Uses': 2 \n\n WARNING: VERY SUBJECT TO CHANGE, BASED ON SUS INFO",
+            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Uses': 2",
             "related": "Maguu Kenki",
             "image": Maguu_Summon1
         },
