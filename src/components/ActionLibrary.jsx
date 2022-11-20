@@ -59,6 +59,7 @@ class ActionLibrary extends Component {
             return;
         }
         else {
+            e.stopPropagation()
             this.closeInfo()
         }
     }
