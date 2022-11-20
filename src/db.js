@@ -1352,7 +1352,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'.\n\n'Uses': 3",
+            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'.\n\n'Uses': 2",
             "flavor": "“Listen, I’ll tell you how is it… Let me show you real storytelling tradition!”"        
         },
         
