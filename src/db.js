@@ -524,7 +524,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334503.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330503_gcg_high_resolution.webp",
             "cost": '2 Cryo',
-            "description": "The 'Frostflake Seki no To' created by your Kamisato Ayaka, who has this card equipped, allows the character to which it is attached to deal +1 'Cryo DMG'.\n\nWhen you switch to a Kamisato Ayaka who has this card equipped: Spend 1 less Elemental Dice. (Once per Round)\n\n(You must have Kamisato Ayaka in your deck to add this card to your deck.)",
+            "description": "The 'Cryo Infusion' created by your Kamisato Ayaka, who has this card equipped, allows the character to which it is attached to deal +1 'Cryo DMG'.\n\nWhen you switch to a Kamisato Ayaka who has this card equipped: Spend 1 less Elemental Dice. (Once per Round)\n\n(You must have Kamisato Ayaka in your deck to add this card to your deck.)",
             "flavor": "The heron holds upon the ice on elegant wing."
         
         },
@@ -1187,7 +1187,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332001_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "When played: Select any Elemental Die to reroll.\n\nRoll Phase: Gain another chance to reroll.",
+            "description": "When played: Select any Elemental Dice to reroll.\n\nRoll Phase: Gain another chance to reroll.",
             "flavor": "“Most of the books here can be lent out, but do bear in mind that you will have to return them… on time.”"        
         },
         
@@ -1352,7 +1352,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "End Phase: One of your characters gains 1 'Energy'.\n\n'Uses': 3",
+            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'.\n\n'Uses': 3",
             "flavor": "“Listen, I’ll tell you how is it… Let me show you real storytelling tradition!”"        
         },
         
@@ -1572,7 +1572,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333016_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "Select any Elemental Die to reroll. Can reroll 2 times.",
+            "description": "Select any Elemental Dice to reroll. Can reroll 2 times.",
             "flavor": "Before the dice are thrown, none can know their own destiny."        
         },
         
