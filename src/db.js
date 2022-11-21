@@ -113,7 +113,7 @@ const db = {
         "diona": {
             "name": 'Diona',
             'na': "Kätzlein Style \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
-            'skill': "Icy Paws \n3 Cryo \nDeals 2 Cryo DMG, creates 1 'Paw Shield'.",
+            'skill': "Icy Paws \n3 Cryo \nDeals 2 Cryo DMG, creates 1 'Cat-Claw Shield'.",
             'burst': "Signature Mix \n3 Cryo, 3 'Energy' \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Mixed Drink.'",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330023_gcg_high_resolution.webp",
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330023.webp',
@@ -121,7 +121,7 @@ const db = {
             "icon": Diona_Icon,
             "element": 'cryo',
             "region": 'mond',
-            'related': 'Paw Shield, Mixed Drink',
+            'related': 'Cat-Claw Shield, Mixed Drink',
             "flavor": "1% energy dedicated to mixing drinks, 99% to... denying the reality of familiar."
         },
         "ganyu": {
@@ -165,7 +165,7 @@ const db = {
             "icon": Ayaka_Icon,
             "element": 'cryo',
             "region": 'inazuma',
-            'related': 'Frostflake Seki no To',
+            'related': 'Frostflake Seki no To, Cryo Infusion',
             "flavor": "As graceful as the frost drifting in the wind, as elegant as a heron perched in a courtyard."
         },
         "mona": {
@@ -251,7 +251,7 @@ const db = {
             "icon": Diluc_Icon,
             "element": 'pyro',
             "region": 'mond',
-            'related': '',
+            'related': 'Pyro Infusion',
             "flavor": "His heart is his greatest foe."        
         },
         "bennett": {
@@ -350,7 +350,7 @@ const db = {
             "icon": Keqing_Icon,
             "element": 'electro',
             "region": 'liyue',
-            'related': 'Lightning Stilleto',
+            'related': 'Lightning Stilleto, Electro Infusion',
             "flavor": "She can build decks heretofore not conceived and win battles in which victory is unthinkable."        
         },
         "cyno": {
@@ -737,7 +737,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Paw Shield', its 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Cat-Claw Shield', its 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
             "flavor": "Shake and stir till its all evenly mixed… and there! Your refill’s ready!"        
         },
         
@@ -1809,6 +1809,12 @@ const db = {
             "related": "Keqing",
             "image": Keqing_Summon
         },
+        "electroinfusion": {
+            "name": "Electro Infusion",
+            "type": "Status",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n('Round Duration': 2)",
+            "related": "Keqing",
+        },
         "oz": {
             "name": "Oz",
             "type": "Summon",
@@ -1850,8 +1856,14 @@ const db = {
             "related": "Ayaka",
             "image": Ayaka_Summon
         },
-        "pawshield": {
-            "name": "Paw Shield",
+        "cryoinfusion": {
+            "name": "Cryo Infusion",
+            "type": "Status",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Cryo DMG. \n\n(Lasts until the Round ends)",
+            "related": "Ayaka",
+        },
+        "catclawshield": {
+            "name": "Cat-Claw Shield",
             "type": "Combat Status",
             "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 2",
             "related": "Diona"
@@ -2035,6 +2047,12 @@ const db = {
             "type": "Status",
             "description": "Incoming Hydro DMG +1. \n\n'Round Duration': 2 \n\n WARNING: VERY SUBJECT TO CHANGE, BASED ON SUS INFO",
             "related": "Mirror Maiden"
+        },
+        "pyroinfusion": {
+            "name": "Pyro Infusion",
+            "type": "Status",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n('Round Duration': 2)",
+            "related": "Diluc",
         },
         "maguuanemo": {
             "name": "Maguu Kenki: Lone Gale",
