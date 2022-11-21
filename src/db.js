@@ -165,7 +165,7 @@ const db = {
             "icon": Ayaka_Icon,
             "element": 'cryo',
             "region": 'inazuma',
-            'related': 'Frostflake Seki no To, Cryo Infusion',
+            'related': "Frostflake Seki no To, Kamisato Ayaka's Cryo Infusion",
             "flavor": "As graceful as the frost drifting in the wind, as elegant as a heron perched in a courtyard."
         },
         "mona": {
@@ -251,7 +251,7 @@ const db = {
             "icon": Diluc_Icon,
             "element": 'pyro',
             "region": 'mond',
-            'related': 'Pyro Infusion',
+            'related': "Diluc's Pyro Infusion",
             "flavor": "His heart is his greatest foe."        
         },
         "bennett": {
@@ -350,7 +350,7 @@ const db = {
             "icon": Keqing_Icon,
             "element": 'electro',
             "region": 'liyue',
-            'related': 'Lightning Stilleto, Electro Infusion',
+            'related': "Lightning Stilleto, Keqing's Electro Infusion",
             "flavor": "She can build decks heretofore not conceived and win battles in which victory is unthinkable."        
         },
         "cyno": {
@@ -1810,9 +1810,9 @@ const db = {
             "image": Keqing_Summon
         },
         "electroinfusion": {
-            "name": "Electro Infusion",
+            "name": "Keqing's Electro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n('Round Duration': 2)",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n'Round Duration': 2",
             "related": "Keqing",
         },
         "oz": {
@@ -1857,7 +1857,7 @@ const db = {
             "image": Ayaka_Summon
         },
         "cryoinfusion": {
-            "name": "Cryo Infusion",
+            "name": "Kamisato Ayaka's Cryo Infusion",
             "type": "Status",
             "description": "The character to which this is attached has their Physical DMG dealt converted to Cryo DMG. \n\n(Lasts until the Round ends)",
             "related": "Ayaka",
@@ -2049,9 +2049,9 @@ const db = {
             "related": "Mirror Maiden"
         },
         "pyroinfusion": {
-            "name": "Pyro Infusion",
+            "name": "Diluc's Pyro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n('Round Duration': 2)",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n'Round Duration': 2",
             "related": "Diluc",
         },
         "maguuanemo": {
