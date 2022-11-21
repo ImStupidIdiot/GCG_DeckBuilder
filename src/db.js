@@ -173,7 +173,7 @@ const db = {
             'na': 'Ripple of Fate \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Mirror Reflection of Doom \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Phantom'.",
             'burst': "Stellaris Phantasm \n3 Hydro, 3 'Energy' \nDeals 4 Hydro DMG, creates 1 'Illusory Bubble.",
-            'special': "Illusory Torrent \n(Passive) \n(Once per Round) When this character switches to another character, this switch is considered a 'Fast Action' instead of a 'Slow Action'.",
+            'special': "Illusory Torrent \n(Passive) \n(Once per Round) When this character switches to another character, this switch is considered a 'Fast Action' instead of a 'Combat Action'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330005_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330005.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334005.webp',
@@ -493,7 +493,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
             "cost": '5 Cryo',
-            "description": "'Slow Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': If this Skill has been used before during this match, Cryo DMG dealt by this Skill +1, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': If this Skill has been used before during this match, Cryo DMG dealt by this Skill +1, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
             "flavor": "First the arrow strikes, and then it turns to frost."     
         },
         
@@ -504,7 +504,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334501.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330501_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Slow Action': When your active character is Kaeya, equip this card.\n\nAfter Kaeya equips this card, immediately use 'Elemental Skill: Frostgnaw' once.\n\nAfter your Kaeya, who has this card equipped, uses 'Elemental Skill: Frostgnaw', he heals himself for 2 HP. (Once per Round)\n\n(You must have Kaeya in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Kaeya, equip this card.\n\nAfter Kaeya equips this card, immediately use 'Elemental Skill: Frostgnaw' once.\n\nAfter your Kaeya, who has this card equipped, uses 'Elemental Skill: Frostgnaw', he heals himself for 2 HP. (Once per Round)\n\n(You must have Kaeya in your deck to add this card to your deck.)",
             "flavor": "A slightly cold joke."        
         },
         
@@ -515,7 +515,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334502.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330502_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Slow Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', its 'Round Duration' +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', its 'Round Duration' +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)",
             "flavor": "Steady breathing makes a steady heart."        
         },
         
@@ -538,7 +538,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334504.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330504_gcg_high_resolution.webp",
             "cost": '4 Hydro',
-            "description": "'Slow Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its 'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its 'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)",
             "flavor": "His penmanship leaves quite the impression."        
         },
         
@@ -549,7 +549,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334505.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330505_gcg_high_resolution.webp",
             "cost": '3 Hydro 3 Energy',
-            "description": "'Slow Action': When your active character is Mona, equip this card.\n\nWhen Mona equips this card, immediately use 'Elemental Burst: Stellaris Phantasm' once.\n\nWhen your Mona, who has this card equipped, is the active character, the 'Hydro Reactions' you trigger deal +2 additional DMG.\n\n(You must have Mona in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Mona, equip this card.\n\nWhen Mona equips this card, immediately use 'Elemental Burst: Stellaris Phantasm' once.\n\nWhen your Mona, who has this card equipped, is the active character, the 'Hydro Reactions' you trigger deal +2 additional DMG.\n\n(You must have Mona in your deck to add this card to your deck.)",
             "flavor": "“Hey! You should be playing that card!”\n“…Well, alright then, do what you want.”"
         
         },
@@ -561,7 +561,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334506.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330506_gcg_high_resolution.webp",
             "cost": '3 Pyro',
-            "description": "'Slow Action': When your active character is Diluc, equip this card.\n\nAfter Diluc equips this card, immediately use 'Elemental Skill: Searing Onslaught' once.\n\nWhen your Diluc, who has this card equipped, uses 'Elemental Skill: Searing Onslaught' for the second time in one Round, spend 1 less Pyro Die.\n\n(You must have Diluc in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Diluc, equip this card.\n\nAfter Diluc equips this card, immediately use 'Elemental Skill: Searing Onslaught' once.\n\nWhen your Diluc, who has this card equipped, uses 'Elemental Skill: Searing Onslaught' for the second time in one Round, spend 1 less Pyro Die.\n\n(You must have Diluc in your deck to add this card to your deck.)",
             "flavor": "A simple way out of perilous situations."        
         },
         
@@ -572,7 +572,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334507.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330507_gcg_high_resolution.webp",
             "cost": '4 Pyro',
-            "description": "'Slow Action': When your active character is Xiangling, equip this card.\n\nAfter Xiangling equips this card, immediately use 'Elemental Skill: Guoba Attack' once.\n\nWhen your Xiangling, who has this card equipped, uses 'Elemental Skill: Guoba Attack', she will also deal 1 'Pyro DMG'.\n\n(You must have Xiangling in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Xiangling, equip this card.\n\nAfter Xiangling equips this card, immediately use 'Elemental Skill: Guoba Attack' once.\n\nWhen your Xiangling, who has this card equipped, uses 'Elemental Skill: Guoba Attack', she will also deal 1 'Pyro DMG'.\n\n(You must have Xiangling in your deck to add this card to your deck.)",
             "flavor": "This heat’s just normal for a restaurant’s standards!"        
         },
         
@@ -583,7 +583,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334508.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330508_gcg_high_resolution.webp",
             "cost": '4 Pyro 2 Energy',
-            "description": "'Slow Action': When your active character is Bennett, equip this card.\n\nAfter Bennett equips this card, immediately use 'Elemental Burst: Fantastic Voyage' once.\n\nWhen your Bennett, who has this card equipped, creates an 'Inspiration Field', its DMG Bonus is now always active and will no longer have an HP restriction.\n\n(You must have Bennett in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Bennett, equip this card.\n\nAfter Bennett equips this card, immediately use 'Elemental Burst: Fantastic Voyage' once.\n\nWhen your Bennett, who has this card equipped, creates an 'Inspiration Field', its DMG Bonus is now always active and will no longer have an HP restriction.\n\n(You must have Bennett in your deck to add this card to your deck.)",
             "flavor": "The best adventure is always yet to be."        
         },
         
@@ -594,7 +594,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334510.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330510_gcg_high_resolution.webp",
             "cost": '2 Pyro',
-            "description": "'Slow Action': When your active character is Yoimiya, equip this card.\n\nAfter Yoimiya equips this card, immediately use 'Elemental Skill: Niwabi Fire Dance' once.\n\nAfter your Yoimiya, who has this card equipped, triggers 'Niwabi Enshou': Deal 1 additional 'Pyro DMG'.\n\n(You must have Yoimiya in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Yoimiya, equip this card.\n\nAfter Yoimiya equips this card, immediately use 'Elemental Skill: Niwabi Fire Dance' once.\n\nAfter your Yoimiya, who has this card equipped, triggers 'Niwabi Enshou': Deal 1 additional 'Pyro DMG'.\n\n(You must have Yoimiya in your deck to add this card to your deck.)",
             "flavor": "Naganohara Ideal Firework Reserve Theory."        
         },
         
@@ -605,7 +605,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334511.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330511_gcg_high_resolution.webp",
             "cost": '3 Electro',
-            "description": "'Slow Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(This consumes a 'Use' of 'Oz'.)\n\n(You must have Fischl in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(This consumes a 'Use' of 'Oz'.)\n\n(You must have Fischl in your deck to add this card to your deck.)",
             "flavor": "“The instant in which Ozvaldo Hrafnavins shows his great might.”"        
         },
         
@@ -616,7 +616,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334512.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330512_gcg_high_resolution.webp",
             "cost": '4 Electro',
-            "description": "'Slow Action': When your active character is Razor, equip this card.\n\nAfter Razor equips this card, immediately use 'Elemental Skill: Claw and Thunder' once.\n\nAfter your Razor, who has this card equipped, uses 'Elemental Skill: Claw and Thunder': 1 of your Electro characters gains 1 Energy.\n\n(You must have Razor in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Razor, equip this card.\n\nAfter Razor equips this card, immediately use 'Elemental Skill: Claw and Thunder' once.\n\nAfter your Razor, who has this card equipped, uses 'Elemental Skill: Claw and Thunder': 1 of your Electro characters gains 1 Energy.\n\n(You must have Razor in your deck to add this card to your deck.)",
             "flavor": "The hunt is about to begin."        
         },
         
@@ -627,7 +627,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334513.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330513_gcg_high_resolution.webp",
             "cost": '3 Electro',
-            "description": "'Slow Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an 'Electro Infusion', its 'Round Duration' +1, and 'Electro DMG' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an 'Electro Infusion', its 'Round Duration' +1, and 'Electro DMG' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)",
             "flavor": "As long as you’re not actually cheating, this is just the name of a card."        
         },
         
@@ -638,7 +638,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334514.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330514_gcg_high_resolution.webp",
             "cost": '3 Anemo 2 Energy',
-            "description": "'Slow Action': When your active character is Sucrose, equip this card.\n\nAfter Sucrose equips this card, immediately use 'Elemental Burst: Forbidden Creation - Isomer 75 / Type II' once.\n\nAfter the 'Large Wind Spirit' created by your Sucrose, who had this card equipped, has converted to another Element: Deal +1 DMG of this Element.\n\n(You must have Sucrose in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Sucrose, equip this card.\n\nAfter Sucrose equips this card, immediately use 'Elemental Burst: Forbidden Creation - Isomer 75 / Type II' once.\n\nAfter the 'Large Wind Spirit' created by your Sucrose, who had this card equipped, has converted to another Element: Deal +1 DMG of this Element.\n\n(You must have Sucrose in your deck to add this card to your deck.)",
             "flavor": "The wild winds gather — and amidst the chaos, victory."        
         },
         
@@ -649,7 +649,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334515.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330515_gcg_high_resolution.webp",
             "cost": '4 Anemo 3 Energy',
-            "description": "'Slow Action': When your active character is Jean, equip this card.\n\nAfter Jean equips this card, immediately use 'Elemental Burst: Dandelion Breeze' once.\n\nWhen your Jean, who has this card equipped, creates a 'Dandelion Field', it will cause you to deal +1 'Anemo DMG'.\n\n(You must have Jean in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Jean, equip this card.\n\nAfter Jean equips this card, immediately use 'Elemental Burst: Dandelion Breeze' once.\n\nWhen your Jean, who has this card equipped, creates a 'Dandelion Field', it will cause you to deal +1 'Anemo DMG'.\n\n(You must have Jean in your deck to add this card to your deck.)",
             "flavor": "“Wind, hear me!”"        
         },
         
@@ -660,7 +660,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334516.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330516_gcg_high_resolution.webp",
             "cost": '4 Geo',
-            "description": "'Slow Action': When your active character is Ningguang, equip this card.\n\nAfter Ningguang equips this card, immediately use 'Elemental Skill: Jade Screen' once.\n\nWhen your Ningguang, who has this card equipped, creates a 'Jade Screen', it will cause you to deal +1 'Geo DMG'.\n\n(You must have Ningguang in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Ningguang, equip this card.\n\nAfter Ningguang equips this card, immediately use 'Elemental Skill: Jade Screen' once.\n\nWhen your Ningguang, who has this card equipped, creates a 'Jade Screen', it will cause you to deal +1 'Geo DMG'.\n\n(You must have Ningguang in your deck to add this card to your deck.)",
             "flavor": "Abundance is synonymous with confidence."        
         },
         
@@ -671,7 +671,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334517.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330517_gcg_high_resolution.webp",
             "cost": '3 Geo',
-            "description": "'Slow Action': When your active character is Noelle, equip this card.\n\nAfter Noelle equips this card, immediately use 'Elemental Skill: Breastplate' once.\n\nWhen your Noelle, who has this card equipped, creates a 'Breastplate', it will heal all your characters for 1 HP after Noelle uses a Normal Attack. (Once per Round)\n\n(You must have Noelle in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Noelle, equip this card.\n\nAfter Noelle equips this card, immediately use 'Elemental Skill: Breastplate' once.\n\nWhen your Noelle, who has this card equipped, creates a 'Breastplate', it will heal all your characters for 1 HP after Noelle uses a Normal Attack. (Once per Round)\n\n(You must have Noelle in your deck to add this card to your deck.)",
             "flavor": "A stout heart is the sternest armor."        
         },
         
@@ -682,7 +682,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334518.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330518_gcg_high_resolution.webp",
             "cost": '3 Dendro',
-            "description": "'Slow Action': When your active character is Collei, equip this card.\n\nAfter Collei equips this card, immediately use 'Elemental Skill: Floral Brush' once.\n\nAfter your Collei, who has this card equipped, uses 'Elemental Skill: Floral Brush', during this Round, after your characters’ Skills trigger a 'Dendro Reaction': Deal 1 'Dendro DMG'. (Once per Round)\n\n(You must have Collei in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Collei, equip this card.\n\nAfter Collei equips this card, immediately use 'Elemental Skill: Floral Brush' once.\n\nAfter your Collei, who has this card equipped, uses 'Elemental Skill: Floral Brush', during this Round, after your characters’ Skills trigger a 'Dendro Reaction': Deal 1 'Dendro DMG'. (Once per Round)\n\n(You must have Collei in your deck to add this card to your deck.)",
             "flavor": "Never underestimate Collei, and never underestimate her cat."        
         },
         
@@ -693,7 +693,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334519.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330519_gcg_high_resolution.webp",
             "cost": '4 Hydro 3 Energy',
-            "description": "'Slow Action': When your active character is Rhodeia of Loch, equip this card.\n\nAfter Rhodeia of Loch equips this card, immediately use 'Elemental Burst: Tide and Torrent' once.\n\nWhen your Rhodeia of Loch, who has this card equipped, uses 'Elemental Burst: Tide and Torrent', all of your Summon(s) gain +1 'Use'.\n\n(You must have Rhodeia of Loch in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Rhodeia of Loch, equip this card.\n\nAfter Rhodeia of Loch equips this card, immediately use 'Elemental Burst: Tide and Torrent' once.\n\nWhen your Rhodeia of Loch, who has this card equipped, uses 'Elemental Burst: Tide and Torrent', all of your Summon(s) gain +1 'Use'.\n\n(You must have Rhodeia of Loch in your deck to add this card to your deck.)",
             "flavor": "The racing waters are a display of love toward a deceased deity."        
         },
         
@@ -704,7 +704,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334520.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330520_gcg_high_resolution.webp",
             "cost": '3 Pyro',
-            "description": "'Slow Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Invsibility Veil', its 'Use' +1, and the 'Physical DMG' this character deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Invsibility Veil', its 'Use' +1, and the 'Physical DMG' this character deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)",
             "flavor": "Remember this for so long as you live: You know who it is you owe, and you know when you must pay."        
         },
         
@@ -715,7 +715,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334521.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330521_gcg_high_resolution.webp",
             "cost": "4* Anemo",
-            "description": "'Slow Action': When your active character is Maguu Kenki, equip this card.\n\nAfter Maguu Kenki equips this card, immediately use 'Elemental Skill: Blustering Blade' once.\n\nAfter your Maguu Kenki, who has this card equipped, uses 'Elemental Skill: Blustering Blade', you will switch to your next character. You will switch to your previous character when your Maguu Kenki, who has this card equipped, uses 'Special Elemental Skill: Frosty Assault'.\n\n(You must have Maguu Kenki in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Maguu Kenki, equip this card.\n\nAfter Maguu Kenki equips this card, immediately use 'Elemental Skill: Blustering Blade' once.\n\nAfter your Maguu Kenki, who has this card equipped, uses 'Elemental Skill: Blustering Blade', you will switch to your next character. You will switch to your previous character when your Maguu Kenki, who has this card equipped, uses 'Special Elemental Skill: Frosty Assault'.\n\n(You must have Maguu Kenki in your deck to add this card to your deck.)",
             "flavor": "That unerring strike has been delivered countless times."        
         },
         
@@ -726,7 +726,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334522.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330522_gcg_high_resolution.webp",
             "cost": "3* Geo 2* Energy",
-            "description": "'Slow Action': When your active character is Stonehide Lawachurl, equip this card.\n\nAfter Stonehide Lawachurl equips this card, immediately use 'Elemental Burst: Upa Shato' once.\n\nWhen your Stonehide Lawachurl, who has this card equipped, defeats an opposing character: Stonehide Lawachurl will re-attach 'Stonehide' and 'Stone Force'.\n\n(You must have Stonehide Lawachurl in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Stonehide Lawachurl, equip this card.\n\nAfter Stonehide Lawachurl equips this card, immediately use 'Elemental Burst: Upa Shato' once.\n\nWhen your Stonehide Lawachurl, who has this card equipped, defeats an opposing character: Stonehide Lawachurl will re-attach 'Stonehide' and 'Stone Force'.\n\n(You must have Stonehide Lawachurl in your deck to add this card to your deck.)",
             "flavor": "An enduring force flows through that craggy form."        
         },
         
@@ -737,7 +737,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Slow Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Paw Shield', its 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Paw Shield', its 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
             "flavor": "Shake and stir till its all evenly mixed… and there! Your refill’s ready!"        
         },
         
@@ -748,7 +748,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334524.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330524_gcg_high_resolution.webp",
             "cost": '3* Electro',
-            "description": "'Slow Action': When your active character is Cyno, equip this card.\n\nAfter Cyno equips this card, immediately use 'Elemental Skill: Secret Rite: Chasmic Soulfarer' once.\n\nWhen your Cyno, who has this card equipped, uses 'Elemental Skill: Secret Rite: Chasmic Soulfarer' with 3 or 5 levels of Pactsworn Pathclearer's 'Indwelling' effect, deal +1 additional DMG.\n\n(You must have Cyno in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Cyno, equip this card.\n\nAfter Cyno equips this card, immediately use 'Elemental Skill: Secret Rite: Chasmic Soulfarer' once.\n\nWhen your Cyno, who has this card equipped, uses 'Elemental Skill: Secret Rite: Chasmic Soulfarer' with 3 or 5 levels of Pactsworn Pathclearer's 'Indwelling' effect, deal +1 additional DMG.\n\n(You must have Cyno in your deck to add this card to your deck.)",
             "flavor": "“This is my duel soul.”"        
         },
         
@@ -759,7 +759,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334525.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330525_gcg_high_resolution.webp",
             "cost": '4 Hydro',
-            "description": "'Slow Action': When your active character is Barbara, equip this card.\n\nAfter Barbara equips this card, immediately use 'Elemental Skill: Let the Show Begin' once.\n\nWhen 'Melody Loop' is on the field, switching characters will cost you 1 less Elemental Die. (Once per Round)\n\n(You must have Barbara in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Barbara, equip this card.\n\nAfter Barbara equips this card, immediately use 'Elemental Skill: Let the Show Begin' once.\n\nWhen 'Melody Loop' is on the field, switching characters will cost you 1 less Elemental Die. (Once per Round)\n\n(You must have Barbara in your deck to add this card to your deck.)",
             "flavor": "Here’s a song for you~"        
         },
         
@@ -770,7 +770,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334526.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330526_gcg_high_resolution.webp",
             "cost": '4* Hydro',
-            "description": "'Slow Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a 'Refraction', its 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a 'Refraction', its 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)",
             "flavor": "“Mirror, mirror, in my hand, where do our foes lurk in this land?”"        
         },
         
@@ -780,8 +780,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330527.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334527.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330527_gcg_high_resolution.webp",
-            "cost": '4* Dendro',
-            "description": "'Slow Action': When your active character is Jadeplume Terrorshroom, equip this card.\n\nAfter Jadeplume Terrorshroom equips this card, immediately use 'Elemental Skill: Volatile Spore Cloud' once.\n\nYour Jadeplume Terrorshroom, who has this card equipped, can gain 1 more stack of Radical Vitality.\n\n(You must have Jadeplume Terrorshroom in your deck to add this card to your deck.)",
+            "cost": '3* Dendro',
+            "description": "'Combat Action': When your active character is Jadeplume Terrorshroom, equip this card.\n\nAfter Jadeplume Terrorshroom equips this card, immediately use 'Elemental Skill: Volatile Spore Cloud' once.\n\nYour Jadeplume Terrorshroom, who has this card equipped, can gain 1 more stack of Radical Vitality.\n\n(You must have Jadeplume Terrorshroom in your deck to add this card to your deck.)",
             "flavor": "Few can safely traverse the traps laid by the Fungus with intelligence above that of the average living being."        
         },
         
@@ -1255,7 +1255,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332007_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "When you switch characters: This switch is considered a 'Fast Action' instead of a 'Slow Action'. (Once per Round)",
+            "description": "When you switch characters: This switch is considered a 'Fast Action' instead of a 'Combat Action'. (Once per Round)",
             "flavor": "“Ad astra abyssosque! Welcome to the Adventurers’ Guild.”"        
         },
         
@@ -1607,7 +1607,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333019_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "Your next character switch will be considered a 'Fast Action' instead of a 'Slow Action'.",
+            "description": "Your next character switch will be considered a 'Fast Action' instead of a 'Combat Action'.",
             "flavor": "“It’s fine, leave everything to me!” — This ranks first among “lines to put Mondstadter hearts at ease.”"        
         },
         
