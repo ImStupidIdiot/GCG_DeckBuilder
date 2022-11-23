@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import db from '../db';
 import Info_Button from '../images/Info_Button.png'
 
 class Action extends Component {
@@ -17,7 +18,7 @@ class Action extends Component {
     render() {  
         return (
             <div>
-                <p />
+                <p/>
                 <button
                     className="charCardDefault" 
                     onClick={this.addToDeck}
@@ -41,23 +42,21 @@ class Action extends Component {
                         <img className="infoButtonIcon" src={Info_Button} /> 
                     </button> : null
                     }
-                    <img src={this.props.url} width={this.state.width} height={this.state.height}
-                    onMouseEnter={
-                        () => {
-                            this.setState({width: '138'})
-                            this.setState({height: '235'})
-                            this.setState({showInfoButton: true})
-                        }
-                    }
-                    onMouseLeave={
-                        () => {
-                            this.setState({width: '135'})
-                            this.setState({height: '230'})
-                            this.setState({showInfoButton: false})
-                        }
-                    }
-                    >
+                    <div onMouseEnter={() => {
+                        this.setState({width: '138'})
+                        this.setState({height: '235'})
+                        this.setState({showInfoButton: true})
+                    }}
+                    onMouseLeave={() => {
+                        this.setState({width: '135'})
+                        this.setState({height: '230'})
+                        this.setState({showInfoButton: false})
+                    }}>
+                    <img className="diceLibrary" width={this.state.width == '138' ? '61.33' : '60'} src={db.dice[db.actions[this.props.name].cost.split(" ")[1].toLowerCase()]}/>
+                    {db.actions[this.props.name].cost.split(" ")[3] ? <img className="diceLibrary2" width={this.state.width == '138' ? '61.33' : '60'} src={db.dice[db.actions[this.props.name].cost.split(" ")[3].toLowerCase()]}/> : null}
+                    <img src={this.props.url} width={this.state.width} height={this.state.height}>
                     </img>
+                    </div>
                 </button>
                 <div className='relative'>{this.props.howManyInDeck > 0 ? <p className='actionCardCounter'> {this.props.howManyInDeck}/2 </p> : null}</div>
             </div>

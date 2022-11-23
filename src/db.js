@@ -91,6 +91,18 @@ import Yoimiya_BStatus from './images/Yoimiya_BStatus.png'
 import Cyno_Status from './images/Cyno_Status.png'
 import Terrorshroom_Status from './images/Terrorshroom_Status.png'
 
+import Pyro_Dice from './images/Pyro_Dice.png'
+import Hydro_Dice from './images/Hydro_Dice.png'
+import Anemo_Dice from './images/Anemo_Dice.png'
+import Electro_Dice from './images/Electro_Dice.png'
+import Dendro_Dice from './images/Dendro_Dice.png'
+import Cryo_Dice from './images/Cryo_Dice.png'
+import Geo_Dice from './images/Geo_Dice.png'
+import White_Dice from './images/White_Dice.png'
+import Black_Dice from './images/Black_Dice.png'
+import Omni_Dice from './images/Omni_Dice.png'
+import Energy from './images/Energy.png'
+
 import Action_Block_Test from './images/Action_Block_Test.png'
 
 
@@ -201,7 +213,7 @@ const db = {
             "name": 'Xingqiu',
             'na': 'Guhua Style \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
             'skill': "Fatal Rainscreen \n3 Hydro \nDeals 2 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword'.",
-            'burst': "Raincutter \n3 Hydro, 2 'Energy' \nDeals 1 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword' and 'Rainbow Bladework'.",
+            'burst': "Raincutter \n3 Hydro, 2 'Energy' \nDeals 1 Hydro DMG, grants this character 'Wet', creates 1 'Rainbow Bladework'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330004_gcg_high_resolution.webp',
             "card": Xingqiu_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
@@ -2129,6 +2141,20 @@ const db = {
         'mondstadt': Mond_Sort,
         'monster': Monster_Sort,
         'sumeru': Sumeru_Sort,
+    },
+
+    "dice": {
+        'pyro': Pyro_Dice,
+        'hydro': Hydro_Dice,
+        'anemo': Anemo_Dice,
+        'electro': Electro_Dice,
+        'dendro': Dendro_Dice,
+        'cryo': Cryo_Dice,
+        'geo': Geo_Dice,
+        'omni': Omni_Dice,
+        'white': White_Dice,
+        'black': Black_Dice,
+        'energy': Energy
     },
 
     "menu": {

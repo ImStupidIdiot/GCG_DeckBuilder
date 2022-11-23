@@ -251,3 +251,27 @@
     display: block;
     font-size: 24%;
 }
+
+.diceLibrary {
+    position: absolute;
+    right: 64%;
+    bottom: 77%;
+    transform: translate(0%, 0%);
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    border-radius: 100px;
+    z-index: 20;
+}
+
+.diceLibrary2 {
+    position: absolute;
+    right: 64%;
+    bottom: 53%;
+    transform: translate(0%, 0%);
+    padding: 0px;
+    border: none;
+    background-color: transparent;
+    border-radius: 100px;
+    z-index: 20;
+}
