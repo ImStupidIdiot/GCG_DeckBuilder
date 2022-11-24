@@ -1366,7 +1366,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'.\n\n'Uses': 2",
+            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'. (Active Character prioritized) \n\n'Uses': 2",
             "flavor": "“Listen, I’ll tell you how is it… Let me show you real storytelling tradition!”"        
         },
         
@@ -1465,7 +1465,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333005_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "During this round, the next instance of 'Pyro Reaction DMG' your active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)",
+            "description": "During this round, the next instance of 'Pyro Reaction DMG' your current active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)",
             "flavor": "A burning heart may match the sun and moon."        
         },
         
@@ -1487,7 +1487,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333007_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "Your active and next standby characters gain 1 'Energy'.\n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)",
+            "description": "One of your characters without maximum Energy gains 1 'Energy'. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)",
             "flavor": "The storm rises in majesty."        
         },
         

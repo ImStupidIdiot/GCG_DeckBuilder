@@ -38,7 +38,7 @@ class ActionInfoBox extends Component {
                     <br></br>
                     <p className="infoBoxText">{text}</p>
                     <br/>
-                    {related_list != null ? <p className="infoBoxText">Related:</p> : null}{related_list}
+                    <div className="infoBoxText">{related_list != null ? 'Related:' : null}{related_list}</div>
                     <p className="infoBoxTextItalic">{related_list ? '\n' + db.actions[this.props.action].flavor : db.actions[this.props.action].flavor}</p>
                 </Col>
             </Row>
