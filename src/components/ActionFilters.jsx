@@ -9,7 +9,17 @@ import Filter_One from '../images/Filter_One_Temp.png';
 class ActionFilters extends Component {
     constructor(props) {
         super(props);
-        this.state = { currentElement: 'none' }
+        this.state = { currentElement: 'none', CoAHover: this.props.CoA}
+        this.handleToggleHover.bind(this);
+    }
+
+    handleToggleHover() {
+        if (this.state.CoAHover.includes('H')) {
+            this.setState({CoAHover: this.state.CoAHover.substring(0, 1)})
+        }
+        else {
+            this.setState({CoAHover: this.state.CoAHover + 'H'})
+        }
     }
     
     render() {
@@ -18,7 +28,7 @@ class ActionFilters extends Component {
 
         return (
             <div>
-            <Toggle toggle={this.props.toggle}/>
+            <Toggle toggle={this.props.toggle} CoA={this.state.CoAHover} handleToggleHover={this.handleToggleHover} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle}/>
             <ButtonGroup name="cost-buttons">
                 {
                     costs.map((cost) => {

@@ -9,15 +9,15 @@ import Toggle from './Toggle';
 class CharFilters extends Component {
     constructor(props) {
         super(props);
-        this.state = { currentElement: 'none' }
+        this.state = { currentElement: 'none', CoAHover: this.props.CoA}
     }
-    
+
     render() {
         var elements = ["pyro", "hydro", "anemo", "electro", "dendro", "cryo", "geo"];
 
         return (
             <div>
-                <Toggle toggle={this.props.toggle}/>
+            <Toggle toggle={this.props.toggle} CoA={this.state.CoAHover} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle}/>
                 <ButtonGroup name="element-wheel">
                     {
                         elements.map((element) => {

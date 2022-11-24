@@ -104,6 +104,10 @@ import Omni_Dice from './images/Omni_Dice.png'
 import Energy from './images/Energy.png'
 
 import Action_Block_Test from './images/Action_Block_Test.png'
+import Char_Sort from './images/Char_Sort.png'
+import Action_Sort from './images/Action_Sort.png'
+import Char_Sort_Hover from './images/Char_Sort_Hover.png'
+import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 
 
 const db = {
@@ -1201,7 +1205,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332001_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "When played: Select any Elemental Dice to reroll.\n\nRoll Phase: Gain another chance to reroll.",
+            "description": "When played: Select any Elemental Die/Dice to reroll.\n\nRoll Phase: Gain another chance to reroll.",
             "flavor": "“Most of the books here can be lent out, but do bear in mind that you will have to return them… on time.”"        
         },
         
@@ -1563,7 +1567,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333014_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "Convert the Elemental Dice spent to 'Omni Dice' ×2.",
             "flavor": "“You might be only one of countless stars, but you’re Paimon’s whole world!”"        
         },
@@ -1586,7 +1590,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333016_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "Select any Elemental Dice to reroll. Can reroll 2 times.",
+            "description": "Select any Elemental Die/Dice to reroll. Can reroll 2 times.",
             "flavor": "Before the dice are thrown, none can know their own destiny."        
         },
         
@@ -2158,8 +2162,10 @@ const db = {
     },
 
     "menu": {
-        'char_toggle': Anemo_Sort,
-        "action_toggle": Anemo_Sort_Activated
+        'char_sort': Char_Sort,
+        "action_sort": Action_Sort,
+        "char_sort_hover": Char_Sort_Hover,
+        "action_sort_hover": Action_Sort_Hover
     }
 }
 

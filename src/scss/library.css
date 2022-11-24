@@ -44,7 +44,7 @@
     background: rgba(0,0,0,0);
     height:80px;
     width:80px;
-    padding: 0;
+    padding-bottom: 5px;
     font-family: Helvetica;
     font-size: 35px;
 }
@@ -59,8 +59,8 @@
 .toggleImg {
     background: rgba(0,0,0,0);
     width: 70px;
-    padding-bottom: 10px;
     padding-left: 3px;
+    padding-top: 3px;
     padding-right: 3px;
 }
 
@@ -201,7 +201,7 @@
     background-color: rgba(0,0,0,0);
     height:72px;
     width:80px;
-    padding: 0;
+    padding-top: 6px;
     font-family: Helvetica;
     font-size: 20px;
 }
@@ -274,4 +274,19 @@
     background-color: transparent;
     border-radius: 100px;
     z-index: 20;
+}
+
+.toggleLibrary {
+    border: none;
+    background-color: transparent;
+    margin: 0px;
+    margin-left: 5px;
+}
+
+.toggleLibraryImg {
+    background: rgba(0,0,0,0);
+    width: 83px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    margin: 0px;
 }

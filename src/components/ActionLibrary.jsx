@@ -103,7 +103,7 @@ class ActionLibrary extends Component {
         
         return (
             <div>
-                <ActionFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle}/>
+                <ActionFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle}/>
                 <Container className='scrollbox'>
                     <ActionInfoBox action={this.state.shownAction} closeInfo={this.closeInfo} showMisc={this.state.showMisc} showMiscBox={this.showMiscBox} closeMiscBox={this.closeMiscBox}/>
                     <Row>
