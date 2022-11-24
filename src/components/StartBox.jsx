@@ -38,7 +38,7 @@ class StartBox extends Component {
                 <Col xs={10} className="startBoxCol"> 
                 <div className = "startBox">
                 <br/><br/>
-                Welcome to the GCG Deck Builder! There's lots of placeholders right now but it should be fully functional. EVERYTHING IS SUBJECT TO CHANGE. Anemo Symbol in top left currently toggles between character and action cards. Click outside this window to close it.
+                Welcome to the GCG Deck Builder! There's lots of placeholders right now but it should be fully functional. EVERYTHING IS SUBJECT TO CHANGE. Symbol in top left currently toggles between character and action cards. Click outside this window to close it.
                 <br/><br/>
                 This does not currently work on Mobile. On Desktop, I'd recommend zooming out to 75% or till you see the entire scrollbox until I fix some CSS stuff. 
                 <br/><br/>
