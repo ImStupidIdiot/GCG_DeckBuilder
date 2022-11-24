@@ -246,7 +246,7 @@ const db = {
             "name": "Mirror Maiden \n (VERY STC)",
             'na': 'Water Ball \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Influx Blast \n3 Hydro \nDeals 3 Hydro DMG. The target character receives 'Refraction'.",
-            'burst': "Rippled Reflection \n3 Hydro, 2 'Energy' \nDeals 5 Hydro DMG. \n\n\n ALL INFO ON MIRROR MAIDEN IS BASED ON SUS INFO AND VERY STC.",
+            'burst': "Rippled Reflection \n3 Hydro, 2 'Energy' \nDeals 5 Hydro DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330026_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330026.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334026.webp',
@@ -1017,7 +1017,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331019.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331019_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "After this character triggers an Elemental Reaction: Create 1 Elemental Die that matches this Character’s Elemental Type. (Max 3 times per Round)\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“I don’t have the talent to command an army as its general, nor am I qualified for anything beyond being a soldier.”\n“All I can do is to be a strict instructor to these children, so that they might survive on the battlefield a bit longer.”"        
         },
@@ -1391,7 +1391,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332018.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332018_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "After either side uses Skills: If Elemental DMG was dealt, this card gains 1 Qualitative Progress.\n\nWhen this card gains 3 Qualitative Progress, discard this card, then create 3 different Basic Elemental Dice.",
             "flavor": "“Simply put, everything on this earth and below it has cycles. Memories and elements surge throughout the Ley Lines.”\n“Perhaps the ancient civilizations were attempting to uncover the cycle that governs the conversion of dust to treasure.”"        
         },
@@ -1424,7 +1424,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333001.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333001_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '1 Cryo',
             "description": "During this Round, your current active character will deal +2 DMG for the next instance.\n\n(You must have at least 2 Cryo characters in your deck to add this card to your deck.)",
             "flavor": "The frost flower blooms as a heart undivided."            
         },
@@ -1446,7 +1446,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333003.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333003_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '1 Hydro',
             "description": "Heal your active characters for 2 HP, and also heals all your characters on standby for 1 HP.\n\n(You must have at least 2 Hydro characters in your deck to add this card to your deck.)",
             "flavor": "With purest water flows prosperity."        
         },
@@ -1468,7 +1468,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333005.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333005_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '1 Pyro',
             "description": "During this round, the next instance of 'Pyro Reaction DMG' your current active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)",
             "flavor": "A burning heart may match the sun and moon."        
         },
@@ -1490,7 +1490,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333007_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '1 Electro',
             "description": "One of your characters without maximum Energy gains 1 'Energy'. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)",
             "flavor": "The storm rises in majesty."        
         },
@@ -1512,7 +1512,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333009_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '1 Anemo',
             "description": "Switch to the target character and create 'Omni Dice' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)",
             "flavor": "The gale gallops through the woods."        
         },
@@ -1534,7 +1534,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333011_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '1 Geo',
             "description": "During this round, after your character deals 'Geo DMG' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)",
             "flavor": "Bedrock shall make the hills unshakable."        
         },
@@ -1556,7 +1556,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333013_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '1 Dendro',
             "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 'Use'.\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
             "flavor": "New branches and sprouts grow into a forest."        
         },
@@ -1699,7 +1699,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333026_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "Choose one Summon on the opposing side and destroy it.",
             "flavor": "“Here at Wangsheng Funeral Parlor, you can count on us to go full send! Satisfaction guaranteed!”"        
         },
@@ -1744,7 +1744,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333030_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "During this Round, the target character’s next Elemental Burst deals +3 DMG.\n\n(A character can consume at most 1 Food per Round)",
             "flavor": "It is said that this name was derived from this dish’s ability to tempt an adeptus to return to the mortal realm. But that begs the question… Which adeptus was that?"        
         },
@@ -2061,7 +2061,7 @@ const db = {
         "refraction": {
             "name": "Refraction",
             "type": "Status",
-            "description": "Incoming Hydro DMG +1. \n\n'Round Duration': 2 \n\n WARNING: VERY SUBJECT TO CHANGE, BASED ON SUS INFO",
+            "description": "Incoming Hydro DMG +1. \n\n'Round Duration': 2",
             "related": "Mirror Maiden"
         },
         "pyroinfusion": {
