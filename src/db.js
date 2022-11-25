@@ -243,7 +243,7 @@ const db = {
             "flavor": "“As long as rain falls and rivers flow… water will exist forever… “"        
         },
         "mirrormaiden": {
-            "name": "Mirror Maiden \n (VERY STC)",
+            "name": "Mirror Maiden",
             'na': 'Water Ball \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Influx Blast \n3 Hydro \nDeals 3 Hydro DMG. The target character receives 'Refraction'.",
             'burst': "Rippled Reflection \n3 Hydro, 2 'Energy' \nDeals 5 Hydro DMG.",
@@ -1028,7 +1028,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331020.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335020.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331020_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "After this character uses an Elemental Burst: All your characters on standby gain 1 'Energy'. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“Woe to thee, oh great hall with silver piled high! Why is your crown drenched in blood?”"        
         },
