@@ -984,7 +984,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331016_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "After this character uses an Elemental Skill: Heal self for 2 HP. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“One who is favored by fortune can even find priceless treasures in the most deadly of traps.”"        
         },
