@@ -373,7 +373,7 @@ const db = {
             "name": "Cyno",
             'na': 'Invoker’s Spear\n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': 'Secret Rite: Chasmic Soulfarer\n3 Electro \nDeals 3 Electro DMG.',
-            'burst': "Sacred Rite: Wolf’s Swiftness\n4 Electro, 2 'Energy' \nDeals 4 Electro DMG. Cyno's Indwelling Level +2.",
+            'burst': "Sacred Rite: Wolf’s Swiftness\n4 Electro, 2 'Energy' \nDeals 4 Electro DMG. Pactsworn Pathclearer's Indwelling Level +2.",
             'special': "Lawful Enforcer \n(Passive) \nWhen the battle begins, this character gains 'Pactsworn Pathclearer'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330024_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330024.webp',

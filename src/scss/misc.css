@@ -11,3 +11,9 @@ html, body {
     font-family: Helvetica;
     color: white;       
 }
+
+.startBoxTextBold {
+    font-family: Helvetica;
+    color: white;
+    font-size: 19px;
+}
