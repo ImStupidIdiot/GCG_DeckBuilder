@@ -1644,7 +1644,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333021.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333021_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '2 Black',
             "description": "Your current active character gains 1 'Energy'.",
             "flavor": "“This is destiny, and it cannot be defied.”"        
         },
