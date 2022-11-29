@@ -1645,7 +1645,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333021_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "Your current active character gains 1 'Energy'.\n\nNote: This card has an unconfirmed cost, and may instead cost 2 White.",
+            "description": "Your current active character gains 1 'Energy'.",
             "flavor": "“This is destiny, and it cannot be defied.”"        
         },
         
