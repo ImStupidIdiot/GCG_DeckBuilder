@@ -130,14 +130,14 @@ const db = {
             "name": 'Diona',
             'na': "Kätzlein Style \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
             'skill': "Icy Paws \n3 Cryo \nDeals 2 Cryo DMG, creates 1 'Cat-Claw Shield'.",
-            'burst': "Signature Mix \n3 Cryo, 3 'Energy' \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Mixed Drink.'",
+            'burst': "Signature Mix \n3 Cryo, 3 'Energy' \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Drunken Mist'.",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330023_gcg_high_resolution.webp",
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330023.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334023.webp',
             "icon": Diona_Icon,
             "element": 'cryo',
             "region": 'mond',
-            'related': 'Cat-Claw Shield, Mixed Drink',
+            'related': 'Cat-Claw Shield, Drunken Mist',
             "flavor": "1% energy dedicated to mixing drinks, 99% to... denying the reality of familiar."
         },
         "ganyu": {
@@ -187,7 +187,7 @@ const db = {
         "mona": {
             "name": "Mona",
             'na': 'Ripple of Fate \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
-            'skill': "Mirror Reflection of Doom \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Phantom'.",
+            'skill': "Mirror Reflection of Doom \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Reflection'.",
             'burst': "Stellaris Phantasm \n3 Hydro, 3 'Energy' \nDeals 4 Hydro DMG, creates 1 'Illusory Bubble.",
             'special': "Illusory Torrent \n(Passive) \n(Once per Round) When this character switches to another character, this switch is considered a 'Fast Action' instead of a 'Combat Action'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330005_gcg_high_resolution.webp',
@@ -196,7 +196,7 @@ const db = {
             "icon": Mona_Icon,
             "element": 'hydro',
             "region": 'mond',
-            'related': 'Phantom, Illusory Bubble',
+            'related': 'Reflection, Illusory Bubble',
             "flavor": "Victory or defeat — it has all been written in the stars."        
         },
         "barbara": {
@@ -415,16 +415,16 @@ const db = {
         "maguu": {
             "name": 'Maguu Kenki',
             'na': 'Ichimonji\n2 Black, 1 Anemo \nDeals 2 Physical DMG.',
-            'skill': "Blustering Blade\n3 Anemo \nDeals 1 Anemo DMG, summons 1 'Maguu Kenki: Lone Gale'.",
+            'skill': "Blustering Blade\n3 Anemo \nDeals 1 Anemo DMG, summons 1 'Shadowsword: Lone Gale'.",
             'burst': "False Tengu Sweeper\n3 Anemo, 3 'Energy' \nDeals 6 Anemo DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
-            'special': "Frosty Assault\n3 Anemo\nDeals 1 Cryo DMG, summons 1 'Maguu Kenki: Galloping Frost'.",
+            'special': "Frosty Assault\n3 Anemo\nDeals 1 Cryo DMG, summons 1 'Shadowsword: Galloping Frost'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330021.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334021.webp',
             "icon": Maguu_Icon,
             "element": 'anemo',
             "region": 'monster',
-            'related': 'Maguu Kenki: Lone Gale, Maguu Kenki: Galloping Frost',
+            'related': 'Shadowsword: Lone Gale, Shadowsword: Galloping Frost',
             "flavor": "Even today, it still patrols the place where fate was severed."        
         },
         "noelle": {
@@ -1821,7 +1821,7 @@ const db = {
             "name": "Lightning Stilleto",
             "type": "Event",
             "cost": "3 Electro",
-            "description": "Switch Keqing to be your active character and immediately cast 'Stellar Restoration'. This cast of 'Stellar Restoration' does not generate a 'Lightning Stilleto' and instead grants Keqing 'Electro Infusion'. \n(If Keqing uses 'Stellar Restoration' while this is in your hand, discard this and grant Keqing 'Electro Infusion').",
+            "description": "'Combat Action': Switch your Keqing in to be the active character and immediately use 'Stellar Restoration' once. This instance of 'Stellar Restoration' will grant Keqing 'Electro Infusion' without creating another Lightning Stiletto.\n\n(When Keqing uses 'Stellar Restoration' with this card in Hand: Instead of creating another Lightning Stiletto, discard this card and Keqing gains 'Electro Infusion'.)",
             "related": "Keqing",
             "image": Keqing_Summon
         },
@@ -1884,8 +1884,8 @@ const db = {
             "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 2",
             "related": "Diona"
         },
-        "mixeddrink": {
-            "name": "Mixed Drink",
+        "drunkenmist": {
+            "name": "Drunken Mist",
             "type": "Summon",
             "description": "End Phase: Deal 1 Cryo DMG, and heal your active character for 2. \n\n'Uses': 2",
             "related": "Diona",
@@ -1904,8 +1904,8 @@ const db = {
             "related": "Kaeya",
             "image": Kaeya_BStatus
         },
-        "phantom": {
-            "name": "Phantom",
+        "reflection": {
+            "name": "Reflection",
             "type": "Summon",
             "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 1. When exhausted: do not 'discard' this card. Instead, 'discard' this during the End Phase and deal 1 Hydro DMG.",
             "related": "Mona",
@@ -1914,7 +1914,7 @@ const db = {
         "illusorybubble": {
             "name": "Illusory Bubble",
             "type": "Combat Status",
-            "description": "When you next deal DMG: remove this Combat Status and double that DMG.",
+            "description": "When you deal Skill DMG: remove this Combat Status and double the DMG dealt for the instance.",
             "related": "Mona",
             "image": Mona_BStatus
         },
@@ -2071,14 +2071,14 @@ const db = {
             "related": "Diluc",
         },
         "maguuanemo": {
-            "name": "Maguu Kenki: Lone Gale",
+            "name": "Shadowsword: Lone Gale",
             "type": "Summon",
             "description": "End Phase: Deal 1 Anemo DMG.\n\n'Uses': 2 \n",
             "related": "Maguu Kenki",
             "image": Maguu_Summon2
         },
         "maguucryo": {
-            "name": "Maguu Kenki: Galloping Frost",
+            "name": "Shadowsword: Galloping Frost",
             "type": "Summon",
             "description": "End Phase: Deal 1 Cryo DMG. \n\n'Uses': 2",
             "related": "Maguu Kenki",
