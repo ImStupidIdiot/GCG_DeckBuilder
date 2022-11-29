@@ -1425,7 +1425,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333001_gcg_high_resolution.webp",
             "cost": '1 Cryo',
-            "description": "During this Round, your current active character will deal +2 DMG for the next instance.\n\n(You must have at least 2 Cryo characters in your deck to add this card to your deck.)",
+            "description": "During this Round, your current active character will deal +2 DMG for the next instance.\n\n(You must have at least 2 Cryo characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
             "flavor": "The frost flower blooms as a heart undivided."            
         },
         
@@ -1447,7 +1447,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333003_gcg_high_resolution.webp",
             "cost": '1 Hydro',
-            "description": "Heal your active characters for 2 HP, and also heals all your characters on standby for 1 HP.\n\n(You must have at least 2 Hydro characters in your deck to add this card to your deck.)",
+            "description": "Heal your active characters for 2 HP, and also heals all your characters on standby for 1 HP.\n\n(You must have at least 2 Hydro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
             "flavor": "With purest water flows prosperity."        
         },
         
@@ -1469,7 +1469,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333005_gcg_high_resolution.webp",
             "cost": '1 Pyro',
-            "description": "During this round, the next instance of 'Pyro Reaction DMG' your current active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)",
+            "description": "During this round, the next instance of 'Pyro Reaction DMG' your current active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
             "flavor": "A burning heart may match the sun and moon."        
         },
         
@@ -1491,7 +1491,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333007_gcg_high_resolution.webp",
             "cost": '1 Electro',
-            "description": "One of your characters without maximum Energy gains 1 'Energy'. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)",
+            "description": "One of your characters without maximum Energy gains 1 'Energy'. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
             "flavor": "The storm rises in majesty."        
         },
         
@@ -1513,7 +1513,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333009_gcg_high_resolution.webp",
             "cost": '1 Anemo',
-            "description": "Switch to the target character and create 'Omni Dice' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)",
+            "description": "Switch to the target character and create 'Omni Dice' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
             "flavor": "The gale gallops through the woods."        
         },
         
@@ -1535,7 +1535,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333011_gcg_high_resolution.webp",
             "cost": '1 Geo',
-            "description": "During this round, after your character deals 'Geo DMG' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)",
+            "description": "During this round, after your character deals 'Geo DMG' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
             "flavor": "Bedrock shall make the hills unshakable."        
         },
         
@@ -1557,7 +1557,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333013_gcg_high_resolution.webp",
             "cost": '1 Dendro',
-            "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 'Use'.\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
+            "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 'Use'.\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
             "flavor": "New branches and sprouts grow into a forest."        
         },
         
@@ -1645,7 +1645,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333021_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "Your current active character gains 1 'Energy'.",
+            "description": "Your current active character gains 1 'Energy'.\n\nNote: This card has an unconfirmed cost, and may instead cost 2 White.",
             "flavor": "“This is destiny, and it cannot be defied.”"        
         },
         
@@ -1722,7 +1722,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333028_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "Summon 1 'Hilichurl'!\n\n(You must have at least 2 Monster characters in your deck to add this card to your deck.)",
+            "description": "Summon 1 'Hilichurl'!\n\n(You must have at least 2 Monster characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 2 Black.",
             "related": "Electro Hilichurl Shooter, Cryo Hilichurl Shooter, Hilichurl Berserker, Hydro Samachurl, ",
             "flavor": "“Yaya ika!”"        
         },
