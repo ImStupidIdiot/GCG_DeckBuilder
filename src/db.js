@@ -1828,7 +1828,7 @@ const db = {
         "electroinfusion": {
             "name": "Keqing's Electro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n'Round Duration': 2",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n'Round Duration': 2\n\nPlease note that the duration of the Electro Infusion and the overall effect of this card is VERY STC.",
             "related": "Keqing",
         },
         "oz": {
@@ -1841,7 +1841,7 @@ const db = {
         "thewolfwithin": {
             "name": "The Wolf Within",
             "type": "Status",
-            "description": "After the attached character uses a normal attack or elemental skill: Deal 2 additional Electro DMG. \n\n'Round Duration': 2",
+            "description": "After the character to which this is attached uses a Normal Attack or Elemental Skill: Deal 2 additional Electro DMG. \n\n'Round Duration': 2",
             "related": "Razor",
             "image": Razor_Status
         },
@@ -1875,7 +1875,7 @@ const db = {
         "cryoinfusion": {
             "name": "Kamisato Ayaka's Cryo Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Cryo DMG. \n\n(Lasts until the Round ends)",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Cryo DMG. \n\n(Lasts until the Round ends)\n\nPlease note that the duration of the Cryo Infusion and the overall effect of this card is VERY STC.",
             "related": "Ayaka",
         },
         "catclawshield": {
@@ -1934,7 +1934,7 @@ const db = {
         "rainbowbladework": {
             "name": "Rainbow Bladework",
             "type": "Combat Status",
-            "description": "When your active character performs a normal attack: Deal 2 additional Hydro DMG. \n\n'Uses': 3",
+            "description": "After your active character uses a normal attack: Deal 2 Hydro DMG. \n\n'Uses': 3",
             "related": "Xingqiu",
             "image": Xingqiu_BStatus1
         },
@@ -2067,7 +2067,7 @@ const db = {
         "pyroinfusion": {
             "name": "Diluc's Pyro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n'Round Duration': 2",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n'Round Duration': 2\n\nPlease note that the duration of the Pyro Infusion and the overall effect of this card is VERY STC.",
             "related": "Diluc",
         },
         "maguuanemo": {
