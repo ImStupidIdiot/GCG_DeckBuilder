@@ -317,14 +317,14 @@ const db = {
             'na': 'Thrust \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': "Prowl \n3 Pyro \nDeals 1 Pyro DMG. This character gains 'Invsibility'.",
             'burst': "Blade Ablaze \n3 Pyro, 2 'Energy' \nDeals 5 Pyro DMG.",
-            'special': "Stealth Master \n(Passive) \nWhen the battle begins, this character gains 'Invisibility'.",
+            'special': "Stealth Master \n(Passive) \nWhen the battle begins, this character gains 'Stealth'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330020_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330020.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334020.webp',
             "icon": Pyroagent_Icon,
             "element": 'pyro',
             "region": 'fatui',
-            'related': 'Invisibility',
+            'related': 'Stealth',
             "flavor": "“There is no running from your debt, be you living or otherwise.”"        
         },
         "fischl": {
@@ -509,7 +509,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
             "cost": '5 Cryo',
-            "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': If this Skill has been used before during this match, Cryo DMG dealt by this Skill +1, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': Cryo DMG dealt by this Skill +1 if this Skill has been used before during this match, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
             "flavor": "First the arrow strikes, and then it turns to frost."     
         },
         
@@ -531,7 +531,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334502.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330502_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Combat Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', its 'Round Duration' +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', it will have the following effects: Starting 'Round Duration' +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)",
             "flavor": "Steady breathing makes a steady heart."        
         },
         
@@ -554,7 +554,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334504.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330504_gcg_high_resolution.webp",
             "cost": '4 Hydro',
-            "description": "'Combat Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its 'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its starting 'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)",
             "flavor": "His penmanship leaves quite the impression."        
         },
         
@@ -643,7 +643,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334513.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330513_gcg_high_resolution.webp",
             "cost": '3 Electro',
-            "description": "'Combat Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an 'Electro Infusion', its 'Round Duration' +1, and 'Electro DMG' dealt by the character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an 'Electro Infusion', it will have the following effects: Starting 'Round Duration' +1, and 'Electro DMG' dealt by the attached character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)",
             "flavor": "As long as you’re not actually cheating, this is just the name of a card."        
         },
         
@@ -720,7 +720,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334520.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330520_gcg_high_resolution.webp",
             "cost": '3 Pyro',
-            "description": "'Combat Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Invsibility Veil', its 'Use' +1, and the 'Physical DMG' this character deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Stealth', it will have the following effects: Starting 'Uses' +1, and the 'Physical DMG' the character this is attached to deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)",
             "flavor": "Remember this for so long as you live: You know who it is you owe, and you know when you must pay."        
         },
         
@@ -753,7 +753,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Cat-Claw Shield', its 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Cat-Claw Shield', its starting 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
             "flavor": "Shake and stir till its all evenly mixed… and there! Your refill’s ready!"        
         },
         
@@ -786,7 +786,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334526.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330526_gcg_high_resolution.webp",
             "cost": '4* Hydro',
-            "description": "'Combat Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a 'Refraction', its 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a 'Refraction', it will have the following effects: Starting 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)",
             "flavor": "“Mirror, mirror, in my hand, where do our foes lurk in this land?”"        
         },
         
@@ -1828,7 +1828,7 @@ const db = {
         "electroinfusion": {
             "name": "Keqing's Electro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n'Round Duration': 2\n\nPlease note that the duration of the Electro Infusion and the overall effect of this card is VERY STC.",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n'Round Duration': 2",
             "related": "Keqing",
         },
         "oz": {
@@ -1855,7 +1855,7 @@ const db = {
         "icelotus": {
             "name": "Ice Lotus",
             "type": "Combat Status",
-            "description": "When your active character receives DMG: reduce that damage by 1. \n\n'Uses': 2",
+            "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 2",
             "related": "Ganyu"
         },
         "sacredcryopearl": {
@@ -1875,7 +1875,7 @@ const db = {
         "cryoinfusion": {
             "name": "Kamisato Ayaka's Cryo Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Cryo DMG. \n\n(Lasts until the Round ends)\n\nPlease note that the duration of the Cryo Infusion and the overall effect of this card is VERY STC.",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Cryo DMG. \n\n(Lasts until the Round ends)",
             "related": "Ayaka",
         },
         "catclawshield": {
@@ -1907,7 +1907,7 @@ const db = {
         "reflection": {
             "name": "Reflection",
             "type": "Summon",
-            "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 1. When exhausted: do not 'discard' this card. Instead, 'discard' this during the End Phase and deal 1 Hydro DMG.",
+            "description": "When your active character receives DMG: Reduce that DMG taken by 1.\n\n'Uses': 1. When this card's 'Uses' are depleted, this card will not be discarded.\n\nDuring the End Phase, if this card's 'Uses' have been depleted: Discard this card and deal 1 Hydro DMG.",
             "related": "Mona",
             "image": Mona_Summon
         },
@@ -2048,12 +2048,12 @@ const db = {
         "hydromimicfrog": {
             "name": "Hydro Mimic Frog",
             "type": "Summon",
-            "description": "Provides 2 shield points for your active character. After this is exhausted, deal 2 Hydro DMG.",
+            "description": "When your active character receives DMG: Reduce that DMG taken by 1.\n\n'Uses': 2. When this card's 'Uses' are depleted, this card will not be discarded.\n\nDuring the End Phase, if this card's 'Uses' have been depleted: Discard this card and deal 2 Hydro DMG.\n\nNote: THE WORDING ON THIS SUMMON IN GAME IS SUPER WEIRD. AT THE MOMENT IT IS EXTREMELY SUBJECT TO CHANGE.",
             "related": "Rhodeia of Loch",
             "image": Oceanoid_Summon3
         },
-        "invisibility": {
-            "name": "Invisibility",
+        "stealth": {
+            "name": "stealth",
             "type": "Status",
             "description": "Reduce any DMG received by 1, and increase any DMG dealt by 1. \n\n'Uses': 2",
             "related": "Fatui Pyro Agent"
@@ -2067,7 +2067,7 @@ const db = {
         "pyroinfusion": {
             "name": "Diluc's Pyro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n'Round Duration': 2\n\nPlease note that the duration of the Pyro Infusion and the overall effect of this card is VERY STC.",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n'Round Duration': 2",
             "related": "Diluc",
         },
         "maguuanemo": {
