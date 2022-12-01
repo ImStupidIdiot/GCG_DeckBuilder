@@ -50,7 +50,7 @@ class StartBox extends Component {
                 <br/><br/>
                 I'm also live sometimes at <a className="startBoxText" href="https://twitch.tv/robotwizhs" target="_blank">twitch.tv/robotwizhs</a>. I'll definitely be streaming some TC content for Genius Invocation TCG up until and through the 3.3 patch. 
                 <br/><br/>
-                Huge thanks to Pengepul Teyvat and yarik0chka for lots of important leaked information, especially cost and damage numbers, and Honey Hunter (<a className="startBoxText" href="https://genshin.honeyhunterworld.com/" target="_blank">https://genshin.honeyhunterworld.com/</a>) for other info as well as most of the card images you see here. 
+                Huge thanks to Pengepul Teyvat and yarik0chka for lots of important leaked information, especially cost and damage numbers, and Honey (<a className="startBoxText" href="https://genshin.honeyhunterworld.com/" target="_blank">https://genshin.honeyhunterworld.com/</a>) for other info as well as most of the card images you see here. 
                 <br/><br/>
                 Todo list: replacing placeholders, getting official translations, mobile display, deck tier list
                 <br/><br/>
