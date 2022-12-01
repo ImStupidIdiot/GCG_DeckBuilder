@@ -2053,7 +2053,7 @@ const db = {
             "image": Oceanoid_Summon3
         },
         "stealth": {
-            "name": "stealth",
+            "name": "Stealth",
             "type": "Status",
             "description": "Reduce any DMG received by 1, and increase any DMG dealt by 1. \n\n'Uses': 2",
             "related": "Fatui Pyro Agent"
