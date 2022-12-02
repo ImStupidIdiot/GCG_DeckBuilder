@@ -315,7 +315,7 @@ const db = {
         "pyroagent": {
             "name": "Fatui Pyro Agent",
             'na': 'Thrust \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
-            'skill': "Prowl \n3 Pyro \nDeals 1 Pyro DMG. This character gains 'Invsibility'.",
+            'skill': "Prowl \n3 Pyro \nDeals 1 Pyro DMG. This character gains 'Stealth'.",
             'burst': "Blade Ablaze \n3 Pyro, 2 'Energy' \nDeals 5 Pyro DMG.",
             'special': "Stealth Master \n(Passive) \nWhen the battle begins, this character gains 'Stealth'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330020_gcg_high_resolution.webp',
