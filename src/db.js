@@ -775,7 +775,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334525.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330525_gcg_high_resolution.webp",
             "cost": '4 Hydro',
-            "description": "'Combat Action': When your active character is Barbara, equip this card.\n\nAfter Barbara equips this card, immediately use 'Elemental Skill: Let the Show Begin' once.\n\nWhen 'Melody Loop' is on the field, switching characters will cost you 1 less Elemental Die. (Once per Round)\n\n(You must have Barbara in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Barbara, equip this card.\n\nAfter Barbara equips this card, immediately use 'Elemental Skill: Let the Show Begin' once.\n\nWhen your Barbara, who has this card equipped, is on the field, 'Melody Loop' will allow you to spend 1 less Elemental Die the next time you use 'Switch Character'. (Once per Round)\n\n(You must have Barbara in your deck to add this card to your deck.)",
             "flavor": "Here’s a song for you~"        
         },
         
@@ -1007,7 +1007,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331018_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "After this character defeats an opposing character: Create 'Omni Dice' ×2.\n\n(A character can equip a maximum of 1 Artifact)",
+            "description": "After this character defeats an opposing character: Create 'Omni Element' ×2.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“In games where one gambles with life and death, remaining calm and composed is key to increasing one’s odds of victory.”"        
         },
         
@@ -1260,7 +1260,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332006_gcg_high_resolution.webp",
             "cost": '3 White',
-            "description": "When Action Phase begins: Create 'Omni Dice' ×2.\n\n'Usage(s)': 2",
+            "description": "When Action Phase begins: Create 'Omni Element' ×2.\n\n'Usage(s)': 2",
             "flavor": "“That’s right! Your fortune is Paimon’s fortune! And vice versa, Paimon’s fortune is also your fortune.”"        
         },
         
@@ -1326,7 +1326,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332012_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "Triggers automatically once per Round: This card gains 1 Pigeon.\n\nWhen this card gains 3 Pigeons, discard this card, then draw 1 card and create 'Omni Dice' ×1.",
+            "description": "Triggers automatically once per Round: This card gains 1 Pigeon.\n\nWhen this card gains 3 Pigeons, discard this card, then draw 1 card and create 'Omni Element' ×1.",
             "flavor": "“Will pigeons that have flown away come back?”"        
         },
         
@@ -1337,7 +1337,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332013_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "End Phase: Collect your unused Elemental Dice (Max 1 of each Elemental Type).\n\nWhen Action Phase begins: If this card has collected 3 Elemental Dice, draw 2 cards and create 'Omni Dice' ×2, then discard this card.",
+            "description": "End Phase: Collect your unused Elemental Dice (Max 1 of each Elemental Type).\n\nWhen Action Phase begins: If this card has collected 3 Elemental Dice, draw 2 cards and create 'Omni Element' ×2, then discard this card.",
             "flavor": "Big things are about to happen, big things! Oh, and I have an excellent business proposition for you, so, if I could just have a moment of your time?"        
         },
         
@@ -1513,7 +1513,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333009_gcg_high_resolution.webp",
             "cost": '1 Anemo',
-            "description": "Switch to the target character and create 'Omni Dice' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)",
+            "description": "Switch to the target character and create 'Omni Element' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)",
             "flavor": "The gale gallops through the woods."        
         },
         
@@ -1568,7 +1568,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333014_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "Convert the Elemental Dice spent to 'Omni Dice' ×2.",
+            "description": "Convert the Elemental Dice spent to 'Omni Element' ×2.",
             "flavor": "“You might be only one of countless stars, but you’re Paimon’s whole world!”"        
         },
         
@@ -1612,7 +1612,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333018_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Dice' ×1 and your current active character gains 1 'Energy'.",
+            "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Element' ×1 and your current active character gains 1 'Energy'.",
             "flavor": "Arataki “He Might Lose but He’ll Never Admit Defeatto” is always game for another round!"        
         },
         
