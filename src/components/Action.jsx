@@ -59,7 +59,7 @@ class Action extends Component {
                     </img>
                     </div>
                 </button>
-                <div className='relative'>{this.props.howManyInDeck > 0 ? <p className='actionCardCounter'> {this.props.howManyInDeck}/2 </p> : null}</div>
+                <div className={this.props.dark ? 'relativeWhite' : 'relative'}>{this.props.howManyInDeck > 0 ? <p className='actionCardCounter'> {this.props.howManyInDeck}/2 </p> : null}</div>
             </div>
         );
     }

@@ -34,12 +34,12 @@ class Library extends Component {
         if (this.state.CoA=='C') {
             return (<div>
                 {this.state.showStart ? this.startBox : null}
-                <CharLibrary current_chars={this.props.current_chars} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} toggle={this.toggle} CoA={this.state.CoA} CoAHovered={this.state.CoAHovered} hoverToggle={this.hoverToggle}/>
+                <CharLibrary current_chars={this.props.current_chars} addToDeck={this.props.addToDeck} removeFromDeck={this.props.removeFromDeck} toggle={this.toggle} CoA={this.state.CoA} CoAHovered={this.state.CoAHovered} hoverToggle={this.hoverToggle} dark={this.props.dark}/>
             </div>)
         }
         else {
             return (<div>
-                <ActionLibrary current_actions={this.props.current_actions} addToDeck={this.props.addToDeckAction} removeFromDeck={this.props.removeFromDeckAction} toggle={this.toggle} CoA={this.state.CoA} CoAHovered={this.state.CoAHovered} hoverToggle={this.hoverToggle}/>
+                <ActionLibrary current_actions={this.props.current_actions} addToDeck={this.props.addToDeckAction} removeFromDeck={this.props.removeFromDeckAction} toggle={this.toggle} CoA={this.state.CoA} CoAHovered={this.state.CoAHovered} hoverToggle={this.hoverToggle} dark={this.props.dark}/>
             </div>)
         }
     }

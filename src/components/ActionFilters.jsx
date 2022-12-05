@@ -42,7 +42,7 @@ class ActionFilters extends Component {
                                 checked={this.props.filters[cost]}
                                 onClick={() => this.props.changeFilter("cost", cost)}
                                 >
-                                    {cost}
+                                    <div className={this.props.dark? "whiteText" : null}>{cost}</div>
                                 </button>
                             )
                         }
@@ -62,7 +62,7 @@ class ActionFilters extends Component {
                                 checked={this.props.filters[type[0]]}
                                 onClick={() => this.props.changeFilter("type", type[0])}
                                 >
-                                    {type[1]}
+                                    <div className={this.props.dark? "whiteText" : null}>{type[1]}</div>
                                 </button>
                             )
                         }

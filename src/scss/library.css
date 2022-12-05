@@ -69,7 +69,7 @@
     overflow-y: scroll;
     scrollbar-width: none; 
     -ms-overflow-style: none;  
-    height:850px;
+    height: min(850px, 83vh);
     padding-left: 10px;
 }
 
@@ -79,9 +79,12 @@
     height: 0;
 }
 
-.blackcolor {
-    background-color: black;
-    margin-left: 0px;
+.blackBackground {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    left: 0;
+    right: 0;
+    top: 0;
 }
 
 .font {
@@ -183,6 +186,13 @@
 
 .relative {
     position: relative;
+    font-family: Helvetica;
+}
+
+.relativeWhite {
+    position: relative;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: Helvetica;
 }
 
 .filterText {
@@ -289,4 +299,8 @@
     padding-bottom: 5px;
     padding-left: 0;
     margin: 0px;
+}
+
+.whiteText {
+    color: rgba(255, 255, 255, 0.85);
 }

@@ -85,6 +85,11 @@
     font-family: 'Helvetica';
 }
 
+.fontWhite {
+    font-family: 'Helvetica';
+    color: rgba(255, 255, 255, 0.9);
+}
+
 .Pyro {
     color: rgb(255, 0, 0)
 }
@@ -127,4 +132,12 @@
     border-color:rgba(0, 0, 0, 0.177);
     font: Helvetica;
     border-radius: 7px;
+}
+
+.fullWidthHeight {
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
 }

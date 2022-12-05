@@ -6,11 +6,12 @@ import { Col, Row, Container } from 'react-bootstrap';
 import './scss/deck.css'
 import './scss/library.css';
 import './scss/misc.css';
+import db from './db';
 
 class Main extends Component {
     constructor(props) {
         super(props);
-        this.state = {current_chars: [], current_actions: {}, total_actions: 0};
+        this.state = {current_chars: [], current_actions: {}, total_actions: 0, dark: false};
         this.addToDeck = this.addToDeck.bind(this);
         this.removeFromDeck = this.removeFromDeck.bind(this);
         this.addToDeckAction = this.addToDeckAction.bind(this);
@@ -73,18 +74,19 @@ class Main extends Component {
         }
 
     render() { 
-        return (
+        return (<div className={this.state.dark ? "blackBackground" : "transparent"}>
             <Container>
                 <Row> 
                     <Col xs ={9}>
-                        <Library current_chars={this.state.current_chars} current_actions={this.state.current_actions} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction}/>
+                        <Library current_chars={this.state.current_chars} current_actions={this.state.current_actions} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} dark={this.state.dark}/>
+                        <label className={this.state.dark? "whiteText" : null}><input type="checkbox" className="darkToggle" onChange={() => {this.setState({dark: !(this.state.dark)})}}/> Dark Mode</label>
                     </Col>
                     <Col xs={3}>
-                        <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction}/>
+                        <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} dark={this.state.dark}/>
                     </Col>
                 </Row>
             </Container>
-        )
+        </div>)
     }
 }
 

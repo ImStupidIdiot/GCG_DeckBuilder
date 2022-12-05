@@ -97,13 +97,14 @@ class ActionLibrary extends Component {
                     howManyInDeck={this.howManyInDeck(action)} 
                     isDisplayed={this.state.displayActions.includes(action)} 
                     showAction={this.showAction} 
+                    dark={this.props.dark}
                 />
             </Col>
         )
         
         return (
             <div>
-                <ActionFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle}/>
+                <ActionFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle} dark={this.props.dark}/>
                 <Container className='scrollbox'>
                     <ActionInfoBox action={this.state.shownAction} closeInfo={this.closeInfo} showMisc={this.state.showMisc} showMiscBox={this.showMiscBox} closeMiscBox={this.closeMiscBox}/>
                     <Row>

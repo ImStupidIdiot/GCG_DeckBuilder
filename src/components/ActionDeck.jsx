@@ -27,7 +27,7 @@ class ActionDeck extends Component {
                 {a1}
             </Row>
                 </div>
-            <p className='font'>{this.props.total_actions} / 30</p><button className="exportDeck" onClick={() => this.copyActions()}>Add Cards to Clipboard (for sim)</button>
+            <p className={this.props.dark? 'fontWhite' : 'font'}>{this.props.total_actions} / 30</p><button className="exportDeck" onClick={() => this.copyActions()}>Add Cards to Clipboard (for sim)</button>
             </div>
         )
     }

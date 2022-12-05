@@ -1,5 +1,10 @@
-html, body {
-    overflow: none;
+html {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+body {
+    height: 100%;
 }
 
 .startBox {
@@ -16,4 +21,22 @@ html, body {
     font-family: Helvetica;
     color: white;
     font-size: 19px;
+}
+
+.blackBackground {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.87);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.fullWidthHeight {
+    position: relative;
+    left:0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    background-color: transparent;
 }

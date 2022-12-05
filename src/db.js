@@ -116,14 +116,14 @@ const db = {
             "name": 'Kaeya',
             'na': "Ceremonial Bladework \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
             'skill': "Frostgnaw \n3 Cryo \nDeals 3 Cryo DMG.",
-            'burst': "Glacial Waltz \n4 Cryo, 2 'Energy' \nDeals 1 Cryo DMG, creates 1 'Spinning Icicles'.",
+            'burst': "Glacial Waltz \n4 Cryo, 2 'Energy' \nDeals 1 Cryo DMG, creates 1 'Icicle'.",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330001_gcg_high_resolution.webp",
             "card": Kaeya_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
             "icon": Kaeya_Icon,
             "element": 'cryo',
             "region": 'mond',
-            'related': 'Spinning Icicles',
+            'related': 'Icicle',
             "flavor": "Specializes in awakening knightly virtue in others."
         },
         "diona": {
@@ -145,7 +145,7 @@ const db = {
             'na': 'Liutian Archery \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
             'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
             'burst': "Celestial Shower \n3 Cryo, 2 'Energy' \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
-            'special': "Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
+            'special': "Normal Attack: Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
             "card": Ganyu_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334000.webp',
@@ -216,8 +216,8 @@ const db = {
         "xingqiu": {
             "name": 'Xingqiu',
             'na': 'Guhua Style \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
-            'skill': "Fatal Rainscreen \n3 Hydro \nDeals 2 Hydro DMG, grants this character 'Wet', creates 1 'Rain Sword'.",
-            'burst': "Raincutter \n3 Hydro, 2 'Energy' \nDeals 1 Hydro DMG, grants this character 'Wet', creates 1 'Rainbow Bladework'.",
+            'skill': "Fatal Rainscreen \n3 Hydro \nDeals 2 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rain Sword'.",
+            'burst': "Raincutter \n3 Hydro, 2 'Energy' \nDeals 1 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rainbow Bladework'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330004_gcg_high_resolution.webp',
             "card": Xingqiu_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
@@ -230,16 +230,16 @@ const db = {
         "oceanoid": {
             "name": "Rhodeia of Loch",
             'na': 'Surge \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
-            'skill': "Oceanid Mimic Summoning \n3 Hydro \nRandomly summons 1 'Hydro Mimic' (Prioritizes summoning a different type from preexisting ones).",
+            'skill': "Oceanid Mimic Summoning \n3 Hydro \nRandomly summons 1 'Oceanid Mimic' (Prioritizes summoning a different type from preexisting ones).",
             'burst': "Tide and Torrent \n3 Hydro, 3 'Energy' \nDeals 2 Hydro DMG. For each Summon on your field, deals +2 additional DMG.",
-            'special': "The Myriad Wilds \n5 Hydro \nRandomly summons 2 'Hydro Mimic's (Prioritizes summoning different types).",
+            'special': "Elemental Skill: The Myriad Wilds \n5 Hydro \nRandomly summons 2 'Oceanid Mimics' (Prioritizes summoning different types).",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330019_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330019.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334019.webp',
             "icon": Oceanoid_Icon,
             "element": 'hydro',
             "region": 'monster',
-            'related': 'Hydro Mimic Squirrel, Hydro Mimic Raptor, Hydro Mimic Frog',
+            'related': 'Oceanic Mimic: Squirrel, Oceanic Mimic: Raptor, Oceanic Mimic: Frog',
             "flavor": "“As long as rain falls and rivers flow… water will exist forever… “"        
         },
         "mirrormaiden": {
@@ -358,7 +358,7 @@ const db = {
         "keqing": {
             "name": "Keqing",
             'na': 'Yunlai Swordsmanship \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
-            'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, add 1 'Lightning Stilleto' to hand.",
+            'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, create 1 'Lightning Stilleto'.",
             'burst': "Starward Sword \n4 Electro, 3 'Energy' \nDeals 4 Electro DMG, deals 3 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330013_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
@@ -416,8 +416,8 @@ const db = {
             "name": 'Maguu Kenki',
             'na': 'Ichimonji\n2 Black, 1 Anemo \nDeals 2 Physical DMG.',
             'skill': "Blustering Blade\n3 Anemo \nDeals 1 Anemo DMG, summons 1 'Shadowsword: Lone Gale'.",
-            'burst': "False Tengu Sweeper\n3 Anemo, 3 'Energy' \nDeals 6 Anemo DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
-            'special': "Frosty Assault\n3 Anemo\nDeals 1 Cryo DMG, summons 1 'Shadowsword: Galloping Frost'.",
+            'burst': "False Tengu Sweeper\n3 Anemo, 3 'Energy' \nDeals 4 Anemo DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
+            'special': "Elemental Skill: Frosty Assault\n3 Cryo\nDeals 1 Cryo DMG, summons 1 'Shadowsword: Galloping Frost'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330021.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334021.webp',
@@ -430,7 +430,7 @@ const db = {
         "noelle": {
             "name": "Noelle",
             'na': 'Favonius Bladework – Maid \n2 Black, 1 Geo \nDeals 2 Physical DMG.',
-            'skill': "Breastplate \n3 Geo \nDeals 1 Geo DMG, creates 1 'Breastplate'.",
+            'skill': "Breastplate \n3 Geo \nDeals 1 Geo DMG, creates 1 'Full Plate'.",
             'burst': "Sweeping Time \n4 Geo, 2 'Energy' \nDeals 4 Geo DMG. This character gains 'Sweeping Time'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330017_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330017.webp',
@@ -438,7 +438,7 @@ const db = {
             "icon": Noelle_Icon,
             "element": 'geo',
             "region": 'mond',
-            'related': 'Breastplate, Sweeping Time',
+            'related': 'Full Plate, Sweeping Time',
             "flavor": "You can leave arranging the table to her — really, you can."        
         },
         "ningguang": {
@@ -509,7 +509,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
             "cost": '5 Cryo',
-            "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Charged Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': Cryo DMG dealt by this Skill +1 if this Skill has been used before during this match, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Normal Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': Cryo DMG dealt by this Skill +1 if this Skill has been used before during this match, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
             "flavor": "First the arrow strikes, and then it turns to frost."     
         },
         
@@ -531,7 +531,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334502.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330502_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Combat Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', it will have the following effects: Starting 'Round Duration' +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Chongyun, equip this card.\n\nAfter Chongyun equips this card, immediately use 'Elemental Skill: Chonghua's Layered Frost' once.\n\nWhen your Chongyun, who has this card equipped, creates a 'Chonghua Frost Field', it will have the following effects: Starting 'Duration (Rounds)' +1, and its effect will cause your Sword, Claymore, and Polearm-wielding characters’ Normal Attacks to deal +1 DMG.\n\n(You must have Chongyun in your deck to add this card to your deck.)",
             "flavor": "Steady breathing makes a steady heart."        
         },
         
@@ -554,7 +554,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334504.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330504_gcg_high_resolution.webp",
             "cost": '4 Hydro',
-            "description": "'Combat Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its starting 'Uses' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Xingqiu, equip this card.\n\nAfter Xingqiu equips this card, immediately use 'Elemental Skill: Fatal Rainscreen' once.\n\nWhen your Xingqiu, who has this card equipped, creates a 'Rain Sword', its starting 'Usage(s)' +1.\n\n(You must have Xingqiu in your deck to add this card to your deck.)",
             "flavor": "His penmanship leaves quite the impression."        
         },
         
@@ -621,7 +621,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334511.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330511_gcg_high_resolution.webp",
             "cost": '3 Electro',
-            "description": "'Combat Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(This consumes a 'Use' of 'Oz'.)\n\n(You must have Fischl in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Fischl, equip this card.\n\nAfter Fischl equips this card, immediately use 'Elemental Skill: Nightrider' once.\n\nWhen your Fischl, who has this card equipped, creates an 'Oz', and after Fischl uses a Normal Attack: Deal 2 'Electro DMG'.(Consumes 'Usage(s)')\n\n(You must have Fischl in your deck to add this card to your deck.)",
             "flavor": "“The instant in which Ozvaldo Hrafnavins shows his great might.”"        
         },
         
@@ -643,7 +643,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334513.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330513_gcg_high_resolution.webp",
             "cost": '3 Electro',
-            "description": "'Combat Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an 'Electro Infusion', it will have the following effects: Starting 'Round Duration' +1, and 'Electro DMG' dealt by the attached character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Keqing, equip this card.\n\nAfter Keqing equips this card, immediately use 'Elemental Skill: Stellar Restoration' once.\n\nWhen your Keqing, who has this card equipped, creates an 'Electro Infusion', it will have the following effects: Starting 'Duration (Rounds)' +1, and 'Electro DMG' dealt by the attached character +1.\n\n(You must have Keqing in your deck to add this card to your deck.)",
             "flavor": "As long as you’re not actually cheating, this is just the name of a card."        
         },
         
@@ -665,7 +665,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334515.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330515_gcg_high_resolution.webp",
             "cost": '4 Anemo 3 Energy',
-            "description": "'Combat Action': When your active character is Jean, equip this card.\n\nAfter Jean equips this card, immediately use 'Elemental Burst: Dandelion Breeze' once.\n\nWhen your Jean, who has this card equipped, creates a 'Dandelion Field', it will cause you to deal +1 'Anemo DMG'.\n\n(You must have Jean in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Jean, equip this card.\n\nAfter Jean equips this card, immediately use 'Elemental Burst: Dandelion Breeze' once.\n\nWhen your Jean, who has this card equipped, is on the field, 'Dandelion Field' will cause you to deal +1 'Anemo DMG'.\n\n(You must have Jean in your deck to add this card to your deck.)",
             "flavor": "“Wind, hear me!”"        
         },
         
@@ -676,7 +676,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334516.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330516_gcg_high_resolution.webp",
             "cost": '4 Geo',
-            "description": "'Combat Action': When your active character is Ningguang, equip this card.\n\nAfter Ningguang equips this card, immediately use 'Elemental Skill: Jade Screen' once.\n\nWhen your Ningguang, who has this card equipped, creates a 'Jade Screen', it will cause you to deal +1 'Geo DMG'.\n\n(You must have Ningguang in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Ningguang, equip this card.\n\nAfter Ningguang equips this card, immediately use 'Elemental Skill: Jade Screen' once.\n\nWhen your Ningguang, who has this card equipped, is on the field, 'Jade Screen' will cause you to deal +1 'Geo DMG'.\n\n(You must have Ningguang in your deck to add this card to your deck.)",
             "flavor": "Abundance is synonymous with confidence."        
         },
         
@@ -687,7 +687,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334517.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330517_gcg_high_resolution.webp",
             "cost": '3 Geo',
-            "description": "'Combat Action': When your active character is Noelle, equip this card.\n\nAfter Noelle equips this card, immediately use 'Elemental Skill: Breastplate' once.\n\nWhen your Noelle, who has this card equipped, creates a 'Breastplate', it will heal all your characters for 1 HP after Noelle uses a Normal Attack. (Once per Round)\n\n(You must have Noelle in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Noelle, equip this card.\n\nAfter Noelle equips this card, immediately use 'Elemental Skill: Breastplate' once.\n\nWhen your Noelle, who has this card equipped, creates a 'Full Plate', it will heal all your characters for 1 HP after Noelle uses a Normal Attack. (Once per Round)\n\n(You must have Noelle in your deck to add this card to your deck.)",
             "flavor": "A stout heart is the sternest armor."        
         },
         
@@ -709,7 +709,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334519.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330519_gcg_high_resolution.webp",
             "cost": '4 Hydro 3 Energy',
-            "description": "'Combat Action': When your active character is Rhodeia of Loch, equip this card.\n\nAfter Rhodeia of Loch equips this card, immediately use 'Elemental Burst: Tide and Torrent' once.\n\nWhen your Rhodeia of Loch, who has this card equipped, uses 'Elemental Burst: Tide and Torrent', all of your Summon(s) gain +1 'Use'.\n\n(You must have Rhodeia of Loch in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Rhodeia of Loch, equip this card.\n\nAfter Rhodeia of Loch equips this card, immediately use 'Elemental Burst: Tide and Torrent' once.\n\nWhen your Rhodeia of Loch, who has this card equipped, uses 'Elemental Burst: Tide and Torrent', all of your Summon(s) gain +1 'Usage(s)'.\n\n(You must have Rhodeia of Loch in your deck to add this card to your deck.)",
             "flavor": "The racing waters are a display of love toward a deceased deity."        
         },
         
@@ -720,7 +720,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334520.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330520_gcg_high_resolution.webp",
             "cost": '3 Pyro',
-            "description": "'Combat Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Stealth', it will have the following effects: Starting 'Uses' +1, and the 'Physical DMG' the character this is attached to deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Fatui Pyro Agent, equip this card.\n\nAfter Fatui Pyro Agent equips this card, immediately use 'Elemental Skill: Prowl' once.\n\nWhen your Fatui Pyro Agent, who has this card equipped, creates a 'Stealth', it will have the following effects: Starting 'Usage(s)' +1, and the 'Physical DMG' the character this is attached to deals will be converted to 'Pyro DMG'.\n\n(You must have Fatui Pyro Agent in your deck to add this card to your deck.)",
             "flavor": "Remember this for so long as you live: You know who it is you owe, and you know when you must pay."        
         },
         
@@ -730,7 +730,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330521.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334521.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330521_gcg_high_resolution.webp",
-            "cost": "4* Anemo",
+            "cost": "3 Anemo",
             "description": "'Combat Action': When your active character is Maguu Kenki, equip this card.\n\nAfter Maguu Kenki equips this card, immediately use 'Elemental Skill: Blustering Blade' once.\n\nAfter your Maguu Kenki, who has this card equipped, uses 'Elemental Skill: Blustering Blade', you will switch to your next character. You will switch to your previous character when your Maguu Kenki, who has this card equipped, uses 'Special Elemental Skill: Frosty Assault'.\n\n(You must have Maguu Kenki in your deck to add this card to your deck.)",
             "flavor": "That unerring strike has been delivered countless times."        
         },
@@ -741,7 +741,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330522.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334522.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330522_gcg_high_resolution.webp",
-            "cost": "3* Geo 2* Energy",
+            "cost": "4 Geo 2 Energy",
             "description": "'Combat Action': When your active character is Stonehide Lawachurl, equip this card.\n\nAfter Stonehide Lawachurl equips this card, immediately use 'Elemental Burst: Upa Shato' once.\n\nWhen your Stonehide Lawachurl, who has this card equipped, defeats an opposing character: Stonehide Lawachurl will re-attach 'Stonehide' and 'Stone Force'.\n\n(You must have Stonehide Lawachurl in your deck to add this card to your deck.)",
             "flavor": "An enduring force flows through that craggy form."        
         },
@@ -753,7 +753,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
             "cost": '4 Cryo',
-            "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Cat-Claw Shield', its starting 'Uses' +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Cat-Claw Shield', its 'Shield' points +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
             "flavor": "Shake and stir till its all evenly mixed… and there! Your refill’s ready!"        
         },
         
@@ -763,7 +763,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330524.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334524.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330524_gcg_high_resolution.webp",
-            "cost": '3* Electro',
+            "cost": '3 Electro',
             "description": "'Combat Action': When your active character is Cyno, equip this card.\n\nAfter Cyno equips this card, immediately use 'Elemental Skill: Secret Rite: Chasmic Soulfarer' once.\n\nWhen your Cyno, who has this card equipped, uses 'Elemental Skill: Secret Rite: Chasmic Soulfarer' with 3 or 5 levels of Pactsworn Pathclearer's 'Indwelling' effect, deal +1 additional DMG.\n\n(You must have Cyno in your deck to add this card to your deck.)",
             "flavor": "“This is my duel soul.”"        
         },
@@ -785,8 +785,8 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330526.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334526.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330526_gcg_high_resolution.webp",
-            "cost": '4* Hydro',
-            "description": "'Combat Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a 'Refraction', it will have the following effects: Starting 'Round Duration' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)",
+            "cost": '4 Hydro',
+            "description": "'Combat Action': When your active character is Mirror Maiden, equip this card.\n\nAfter Mirror Maiden equips this card, immediately use 'Elemental Skill: Influx Blast' once.\n\nWhen your Mirror Maiden, who has this card equipped, creates a 'Refraction', it will have the following effects: Starting 'Duration (Rounds)' +1, and it will increase the Elemental Dice Cost of switching from the character to which this is attached to another character by 1.\n\n(You must have Mirror Maiden in your deck to add this card to your deck.)",
             "flavor": "“Mirror, mirror, in my hand, where do our foes lurk in this land?”"        
         },
         
@@ -796,7 +796,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n330527.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334527.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330527_gcg_high_resolution.webp",
-            "cost": '3* Dendro',
+            "cost": '3 Dendro',
             "description": "'Combat Action': When your active character is Jadeplume Terrorshroom, equip this card.\n\nAfter Jadeplume Terrorshroom equips this card, immediately use 'Elemental Skill: Volatile Spore Cloud' once.\n\nYour Jadeplume Terrorshroom, who has this card equipped, can gain 1 more stack of Radical Vitality.\n\n(You must have Jadeplume Terrorshroom in your deck to add this card to your deck.)",
             "flavor": "Few can safely traverse the traps laid by the Fungus with intelligence above that of the average living being."        
         },
@@ -1194,7 +1194,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336000.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332000_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "End Phase: Draw 2 cards.\n\n'Uses': 2",
+            "description": "End Phase: Draw 2 cards.\n\n'Usage(s)': 2",
             "flavor": "“Nature provides, the mountains rejoice, we are blessed by heaven’s good grace.”"        
         },
         
@@ -1238,7 +1238,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336004.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332004_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "End Phase: Heal the most injured character on standby for 2 HP.\n\n'Uses': 2",
+            "description": "End Phase: Heal the most injured character on standby for 2 HP.\n\n'Usage(s)': 2",
             "flavor": "“Folk stories also have it that even ones as august as the adepti sometimes bask in the moonlight here.”"        
         },
         
@@ -1249,7 +1249,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332005_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "End Phase: Heal your active character for 2 HP.\n\n'Uses': 2",
+            "description": "End Phase: Heal your active character for 2 HP.\n\n'Usage(s)': 2",
             "flavor": "“If you speak sincerely into the wind, your words will surely reach the archon’s ear one day.”"        
         },
         
@@ -1260,7 +1260,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332006_gcg_high_resolution.webp",
             "cost": '3 White',
-            "description": "When Action Phase begins: Create 'Omni Dice' ×2.\n\n'Uses': 2",
+            "description": "When Action Phase begins: Create 'Omni Dice' ×2.\n\n'Usage(s)': 2",
             "flavor": "“That’s right! Your fortune is Paimon’s fortune! And vice versa, Paimon’s fortune is also your fortune.”"        
         },
         
@@ -1370,7 +1370,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'. (Active Character prioritized) \n\n'Uses': 2",
+            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'. (Active Character prioritized) \n\n'Usage(s)': 2",
             "flavor": "“Listen, I’ll tell you how is it… Let me show you real storytelling tradition!”"        
         },
         
@@ -1381,7 +1381,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332017_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "After you switch characters: If the character you switched to does not have 'Energy', they will gain 1 'Energy'. (Once per Round)\n\n'Uses': 2",
+            "description": "After you switch characters: If the character you switched to does not have 'Energy', they will gain 1 'Energy'. (Once per Round)\n\n'Usage(s)': 2",
             "flavor": "“Well then, dear guests, what would you all like to hear next?”"        
         },
         
@@ -1425,7 +1425,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337001.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333001_gcg_high_resolution.webp",
             "cost": '1 Cryo',
-            "description": "During this Round, your current active character will deal +2 DMG for the next instance.\n\n(You must have at least 2 Cryo characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
+            "description": "During this Round, your current active character will deal +2 DMG for the next instance.\n\n(You must have at least 2 Cryo characters in your deck to add this card to your deck.)",
             "flavor": "The frost flower blooms as a heart undivided."            
         },
         
@@ -1447,7 +1447,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337003.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333003_gcg_high_resolution.webp",
             "cost": '1 Hydro',
-            "description": "Heal your active characters for 2 HP, and also heals all your characters on standby for 1 HP.\n\n(You must have at least 2 Hydro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
+            "description": "Heal your active characters for 2 HP, and also heals all your characters on standby for 1 HP.\n\n(You must have at least 2 Hydro characters in your deck to add this card to your deck.)",
             "flavor": "With purest water flows prosperity."        
         },
         
@@ -1469,7 +1469,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337005.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333005_gcg_high_resolution.webp",
             "cost": '1 Pyro',
-            "description": "During this round, the next instance of 'Pyro Reaction DMG' your current active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
+            "description": "During this round, the next instance of 'Pyro Reaction DMG' your current active character triggers deals +3 DMG.\n\n(You must have at least 2 Pyro characters in your deck to add this card to your deck.)",
             "flavor": "A burning heart may match the sun and moon."        
         },
         
@@ -1491,7 +1491,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333007_gcg_high_resolution.webp",
             "cost": '1 Electro',
-            "description": "One of your characters without maximum Energy gains 1 'Energy'. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
+            "description": "One of your characters without maximum Energy gains 1 'Energy'. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)",
             "flavor": "The storm rises in majesty."        
         },
         
@@ -1513,7 +1513,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333009_gcg_high_resolution.webp",
             "cost": '1 Anemo',
-            "description": "Switch to the target character and create 'Omni Dice' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
+            "description": "Switch to the target character and create 'Omni Dice' ×1.\n\n(You must have at least 2 Anemo characters in your deck to add this card to your deck.)",
             "flavor": "The gale gallops through the woods."        
         },
         
@@ -1535,7 +1535,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333011_gcg_high_resolution.webp",
             "cost": '1 Geo',
-            "description": "During this round, after your character deals 'Geo DMG' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
+            "description": "During this round, after your character deals 'Geo DMG' next time: Should there be any Combat Status on your side that provides 'Shield', grant one such Status with 3 'Shield' points. \n\n(You must have at least 2 Geo characters in your deck to add this card to your deck.)",
             "flavor": "Bedrock shall make the hills unshakable."        
         },
         
@@ -1557,7 +1557,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333013_gcg_high_resolution.webp",
             "cost": '1 Dendro',
-            "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 'Use'.\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 1 White.",
+            "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 'Usage(s)'.\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
             "flavor": "New branches and sprouts grow into a forest."        
         },
         
@@ -1623,7 +1623,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337019.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333019_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "Your next character switch will be considered a 'Fast Action' instead of a 'Combat Action'.",
+            "description": "The next time you perform 'Switch Character': This switch will be considered a 'Fast Action' instead of a 'Combat Action'.",
             "flavor": "“It’s fine, leave everything to me!” — This ranks first among “lines to put Mondstadter hearts at ease.”"        
         },
         
@@ -1689,7 +1689,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337025.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333025_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "Choose one Summon on your side and grant it +1 'Use'.",
+            "description": "Choose one Summon on your side and grant it +1 'Usage(s)'.",
             "flavor": "‘Tis the secret to Baron Bunny the 893rd’s longevity."        
         },
         
@@ -1722,7 +1722,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333028_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "Summon 1 'Hilichurl'!\n\n(You must have at least 2 Monster characters in your deck to add this card to your deck.)\n\nNote: This card has an unconfirmed cost, and may instead cost 2 Black.",
+            "description": "Summon 1 'Random Hilichurl Summon'!\n\n(You must have at least 2 Monster characters in your deck to add this card to your deck.)",
             "related": "Electro Hilichurl Shooter, Cryo Hilichurl Shooter, Hilichurl Berserker, Hydro Samachurl, ",
             "flavor": "“Yaya ika!”"        
         },
@@ -1767,7 +1767,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333032_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "During this Round, the target character’s next Normal Attack costs 1 less 'Colorless Dice'.\n\n(A character can consume at most 1 Food per Round)",
+            "description": "During this Round, the target character’s next Normal Attack costs 1 less 'Unaligned Element'.\n\n(A character can consume at most 1 Food per Round)",
             "flavor": "This dish makes for a warm welcome for guests who come to the northern regions. Now, what manner of guests shall be “treated” to this hospitality this time?"        
         },
         
@@ -1811,7 +1811,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337036.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333036_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "Before this Round ends, the target character’s Normal Attacks cost 1 less 'Colorless Dice'.\n\n(A character can consume at most 1 Food per Round)",
+            "description": "Before this Round ends, the target character’s Normal Attacks cost 1 less 'Unaligned Element'.\n\n(A character can consume at most 1 Food per Round)",
             "flavor": "Though this might be its current form, think about it for a moment: did this dish first start as mint rolled around meat, or meat rolled around mint?"        
         },
     },
@@ -1828,20 +1828,20 @@ const db = {
         "electroinfusion": {
             "name": "Keqing's Electro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n'Round Duration': 2",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Electro DMG. \n\n'Duration (Rounds)': 2",
             "related": "Keqing",
         },
         "oz": {
             "name": "Oz",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Electro DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Electro DMG. \n\n'Usage(s)': 2",
             "related": "Fischl",
             "image": Fischl_Summon
         },
         "thewolfwithin": {
             "name": "The Wolf Within",
             "type": "Status",
-            "description": "After the character to which this is attached uses a Normal Attack or Elemental Skill: Deal 2 additional Electro DMG. \n\n'Round Duration': 2",
+            "description": "After the character to which this is attached uses a Normal Attack or Elemental Skill: Deal 2 additional Electro DMG. \n\n'Duration (Rounds)': 2",
             "related": "Razor",
             "image": Razor_Status
         },
@@ -1855,20 +1855,20 @@ const db = {
         "icelotus": {
             "name": "Ice Lotus",
             "type": "Combat Status",
-            "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 2",
+            "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Usage(s)': 2",
             "related": "Ganyu"
         },
         "sacredcryopearl": {
             "name": "Sacred Cryo Pearl",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Cryo DMG, and 1 'Piercing DMG' to all characters on standby. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Cryo DMG, and 1 'Piercing DMG' to all characters on standby. \n\n'Usage(s)': 2",
             "related": "Ganyu",
             "image": Ganyu_Summon
         },
         "frostflake": {
             "name": "Frostflake Seki no To",
             "type": "Summon",
-            "description": "End Phase: Deal 2 Cryo DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 2 Cryo DMG. \n\n'Usage(s)': 2",
             "related": "Ayaka",
             "image": Ayaka_Summon
         },
@@ -1881,33 +1881,33 @@ const db = {
         "catclawshield": {
             "name": "Cat-Claw Shield",
             "type": "Combat Status",
-            "description": "When your active character receives DMG: reduce that DMG by 1. \n\n'Uses': 2",
+            "description": "Provides 2 Shield Points for your active character.\n\n Note: Diona's Talent card was recently changed, and this is my best guess as to how her Ele Skill reflects this change.",
             "related": "Diona"
         },
         "drunkenmist": {
             "name": "Drunken Mist",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Cryo DMG, and heal your active character for 2. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Cryo DMG, and heal your active character for 2. \n\n'Usage(s)': 2",
             "related": "Diona",
             "image": Diona_Summon
         },
         "chonghuafrostfield": {
             "name": "Chonghua Frost Field",
             "type": "Combat Status",
-            "description": "Physical DMG caused by your active sword, claymore, and polearm characters is converted to Cryo DMG. \n\n'Round Duration': 2",
+            "description": "Physical DMG caused by your active sword, claymore, and polearm characters is converted to Cryo DMG. \n\n'Duration (Rounds)': 2",
             "related": "Chongyun"
         },
-        "spinningicicles": {
-            "name": "Spinning Icicles",
+        "Icicle": {
+            "name": "Icicle",
             "type": "Combat Status",
-            "description": "After you switch characters: Deal 2 Cryo DMG. \n\n'Uses': 3",
+            "description": "After you switch characters: Deal 2 Cryo DMG. \n\n'Usage(s)': 3",
             "related": "Kaeya",
             "image": Kaeya_BStatus
         },
         "reflection": {
             "name": "Reflection",
             "type": "Summon",
-            "description": "When your active character receives DMG: Reduce that DMG taken by 1.\n\n'Uses': 1. When this card's 'Uses' are depleted, this card will not be discarded.\n\nDuring the End Phase, if this card's 'Uses' have been depleted: Discard this card and deal 1 Hydro DMG.",
+            "description": "When your active character receives DMG: Reduce that DMG taken by 1.\n\n'Usage(s)': 1. When this card's 'Usage(s)' are depleted, this card will not be discarded.\n\nDuring the End Phase, if this card's 'Usage(s)' have been depleted: Discard this card and deal 1 Hydro DMG.",
             "related": "Mona",
             "image": Mona_Summon
         },
@@ -1921,79 +1921,79 @@ const db = {
         "melodyloop": {
             "name": "Melody Loop",
             "type": "Summon",
-            "description": "End Phase: Heal all your characters for 1, then apply the wet status on your active character. \n\n'Uses': 2",
+            "description": "End Phase: Heal all your characters for 1, then apply 'Hydro Application' on your active character. \n\n'Usage(s)': 2",
             "related": "Barbara",
             "image": Barbara_Summon
         },
         "rainsword": {
             "name": "Rain Sword",
             "type": "Combat Status",
-            "description": "When your active character receives 3 or more DMG: reduce that DMG by 1. \n\n'Uses': 2",
+            "description": "When your active character receives 3 or more DMG: reduce that DMG by 1. \n\n'Usage(s)': 2",
             "related": "Xingqiu",
         },
         "rainbowbladework": {
             "name": "Rainbow Bladework",
             "type": "Combat Status",
-            "description": "After your active character uses a normal attack: Deal 2 Hydro DMG. \n\n'Uses': 3",
+            "description": "After your active character uses a normal attack: Deal 2 Hydro DMG. \n\n'Usage(s)': 3",
             "related": "Xingqiu",
             "image": Xingqiu_BStatus1
         },
         "niwabienshou": {
             "name": "Niwabi Enshou",
             "type": "Status",
-            "description": "The attached character's normal attacks deal +1 DMG and any Physical DMG becomes Pyro DMG. \n\n'Uses': 2",
+            "description": "The attached character's normal attacks deal +1 DMG and any Physical DMG becomes Pyro DMG. \n\n'Usage(s)': 2",
             "related": "Yoimiya"
         },
         "aurousblaze": {
             "name": "Aurous Blaze",
             "type": "Combat Status",
-            "description": "After a character other than Yoimiya uses any skill: Deal 1 additional Pyro DMG. \n\n'Round Duration': 2",
+            "description": "After a character other than Yoimiya uses any skill: Deal 1 additional Pyro DMG. \n\n'Duration (Rounds)': 2",
             "related": "Yoimiya",
             "image": Yoimiya_BStatus
         },
         "guoba": {
             "name": "Guoba",
             "type": "Summon",
-            "description": "End Phase: Deal 2 Pyro DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 2 Pyro DMG. \n\n'Usage(s)': 2",
             "related": "Xiangling",
             "image": Xiangling_Summon
         },
         "pyronado": {
             "name": "Pyronado",
             "type": "Combat Status",
-            "description": "After your active character uses any skill: Deal 2 additional Pyro DMG. \n\n'Uses': 2",
+            "description": "After your active character uses any skill: Deal 2 additional Pyro DMG. \n\n'Usage(s)': 2",
             "related": "Xiangling",
             "image": Xiangling_BStatus
         },
         "inspirationfield": {
             "name": "Inspiration Field",
             "type": "Combat Status",
-            "description": "When your active character uses any skill while they have 7 or more HP: Increase the DMG by 2. If your active character is at 6 or lower HP after performing an skill: Heal that character for 2. \n\n'Round Duration': 2",
+            "description": "When your active character uses any skill while they have 7 or more HP: Increase the DMG by 2. If your active character is at 6 or lower HP after performing an skill: Heal that character for 2. \n\n'Duration (Rounds)': 2",
             "related": "Bennett",
             "image": Bennett_BStatus
         },
         "dandelionfield": {
             "name": "Dandelion Field",
             "type": "Summon",
-            "description": "End Phase: Deal 2 Anemo DMG, then restore 1 HP to your active character. \n\n'Uses': 2",
+            "description": "End Phase: Deal 2 Anemo DMG, then restore 1 HP to your active character. \n\n'Usage(s)': 2",
             "related": "Jean",
             "image": Jean_Summon
         },
         "largewindspirit": {
             "name": "Large Wind Spirit",
             "type": "Summon",
-            "description": "End Phase: Deal 2 Anemo DMG. \n\n'Uses': 3. \n\nAfter this card or your active character triggers a swirl reaction: Convert the DMG dealt by this card to that element. (Only once)",
+            "description": "End Phase: Deal 2 Anemo DMG. \n\n'Usage(s)': 3. \n\nAfter this card or your active character triggers a swirl reaction: Convert the DMG dealt by this card to that element. (Only once)",
             "related": "Sucrose",
             "image": Sucrose_Summon
         },
         "jadescreen": {
             "name": "Jade Screen",
             "type": "Combat Status",
-            "description": "After your active character recieves 2 or more DMG: reduce that DMG by 1. \n\n'Uses': 2",
+            "description": "After your active character recieves 2 or more DMG: reduce that DMG by 1. \n\n'Usage(s)': 2",
             "related": "Ningguang"
         },
-        "breastplate": {
-            "name": "Breastplate",
+        "fullplate": {
+            "name": "Full Plate",
             "type": "Combat Status",
             "description": "Provides 2 shield points for your active character. While this shield is up, any Physical DMG recieves is halved.",
             "related": "Noelle"
@@ -2001,14 +2001,14 @@ const db = {
         "sweepingtime": {
             "name": "Sweeping Time",
             "type": "Status",
-            "description": "Once per round: when the character this is attached to performs a normal attack, spend 1 less Geo Die. The DMG caused by this character's normal attacks deal +2 DMG and the Physical DMG is converted to Geo DMG. \n\n'Round Duration': 2",
+            "description": "Once per round: when the character this is attached to performs a normal attack, spend 1 less Geo Die. The DMG caused by this character's normal attacks deal +2 DMG and the Physical DMG is converted to Geo DMG. \n\n'Duration (Rounds)': 2",
             "related": "Noelle",
             "image": Noelle_Status
         },
         "stonehide": {
             "name": "Stonehide",
             "type": "Status",
-            "description": "When the character to which this is attached to recieves DMG: Decrease DMG taken by 1. When Geo DMG is decreased, comsume 1 additional 'Use'. \n\n'Uses': 3",
+            "description": "When the character to which this is attached to recieves DMG: Decrease DMG taken by 1. When Geo DMG is decreased, comsume 1 additional 'Usage(s)'. \n\n'Usage(s)': 3",
             "related": "Stonehide Lawachurl"
         },
         "stoneforce": {
@@ -2020,7 +2020,7 @@ const db = {
         "cuileinanbar": {
             "name": "Cuilein-Anbar",
             "type": "Summon",
-            "description": "End Phase: Deal 2 Dendro DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 2 Dendro DMG. \n\n'Usage(s)': 2",
             "related": "Collei",
             "image": Collei_Summon
         },
@@ -2032,83 +2032,83 @@ const db = {
             "image": Terrorshroom_Status
         },
         "hydromimicsquirrel": {
-            "name": "Hydro Mimic Squirrel",
+            "name": "Oceanic Mimic: Squirrel",
             "type": "Summon",
-            "description": "End Phase: Deal 2 Hydro DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 2 Hydro DMG. \n\n'Usage(s)': 2",
             "related": "Rhodeia of Loch",
             "image": Oceanoid_Summon1
         },
         "hydromimicraptor": {
-            "name": "Hydro Mimic Raptor",
+            "name": "Oceanic Mimic: Raptor",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Hydro DMG. \n\n'Uses': 3",
+            "description": "End Phase: Deal 1 Hydro DMG. \n\n'Usage(s)': 3",
             "related": "Rhodeia of Loch",
             "image": Oceanoid_Summon2
         },
         "hydromimicfrog": {
-            "name": "Hydro Mimic Frog",
+            "name": "Oceanic Mimic: Frog",
             "type": "Summon",
-            "description": "When your active character receives DMG: Reduce that DMG taken by 1.\n\n'Uses': 2. When this card's 'Uses' are depleted, this card will not be discarded.\n\nDuring the End Phase, if this card's 'Uses' have been depleted: Discard this card and deal 2 Hydro DMG.\n\nNote: THE WORDING ON THIS SUMMON IN GAME IS SUPER WEIRD. AT THE MOMENT IT IS EXTREMELY SUBJECT TO CHANGE.",
+            "description": "When your active character receives DMG: Reduce that DMG taken by 1.\n\n'Usage(s)': 2. When this card's 'Usage(s)' are depleted, this card will not be discarded.\n\nDuring the End Phase, if this card's 'Usage(s)' have been depleted: Discard this card and deal 2 Hydro DMG.\n\nNote: THE WORDING ON THIS SUMMON IN GAME IS SUPER WEIRD. AT THE MOMENT IT IS EXTREMELY SUBJECT TO CHANGE.",
             "related": "Rhodeia of Loch",
             "image": Oceanoid_Summon3
         },
         "stealth": {
             "name": "Stealth",
             "type": "Status",
-            "description": "Reduce any DMG received by 1, and increase any DMG dealt by 1. \n\n'Uses': 2",
+            "description": "Reduce any DMG received by 1, and increase any DMG dealt by 1. \n\n'Usage(s)': 2",
             "related": "Fatui Pyro Agent"
         },
         "refraction": {
             "name": "Refraction",
             "type": "Status",
-            "description": "Incoming Hydro DMG +1. \n\n'Round Duration': 2",
+            "description": "Incoming Hydro DMG +1. \n\n'Duration (Rounds)': 2",
             "related": "Mirror Maiden"
         },
         "pyroinfusion": {
             "name": "Diluc's Pyro Infusion",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n'Round Duration': 2",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG. \n\n'Duration (Rounds)': 2",
             "related": "Diluc",
         },
         "maguuanemo": {
             "name": "Shadowsword: Lone Gale",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Anemo DMG.\n\n'Uses': 2 \n",
+            "description": "End Phase: Deal 1 Anemo DMG.\n\n'Usage(s)': 2 \n",
             "related": "Maguu Kenki",
             "image": Maguu_Summon2
         },
         "maguucryo": {
             "name": "Shadowsword: Galloping Frost",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Usage(s)': 2",
             "related": "Maguu Kenki",
             "image": Maguu_Summon1
         },
         "cryohilichurlshooter": {
             "name": "Cryo Hilichurl Shooter",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Cryo DMG. \n\n'Usage(s)': 2",
             "related": "Abyssal Summons",
             "image": Hilichurl_Summon1
         },
         "hydrosamachurl": {
             "name": "Hydro Samachurl",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Hydro DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Hydro DMG. \n\n'Usage(s)': 2",
             "related": "Abyssal Summons",
             "image": Hilichurl_Summon2
         },
         "hilichurlberserker": {
             "name": "Hilichurl Berserker",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Pyro DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Pyro DMG. \n\n'Usage(s)': 2",
             "related": "Abyssal Summons",
             "image": Hilichurl_Summon3
         },
         "electrohilichurlshooter": {
             "name": "Electro Hilichurl Shooter",
             "type": "Summon",
-            "description": "End Phase: Deal 1 Electro DMG. \n\n'Uses': 2",
+            "description": "End Phase: Deal 1 Electro DMG. \n\n'Usage(s)': 2",
             "related": "Abyssal Summons",
             "image": Hilichurl_Summon4
         },
