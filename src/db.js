@@ -1348,7 +1348,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332014_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "After either side deals 'Physical DMG', 'Piercing DMG', or trigger an Elemental Reaction: This card gains 1 Inspiration.\n\nWhen this card gains 3 Inspiration, discard this card, then draw 2 cards.",
+            "description": "When either side uses a Skill: If 'Physical DMG' or 'Piercing DMG' was dealt, or an Elemental Reaction was triggered, this card gains 1 Inspiration.\n\nWhen this card gains 3 Inspiration, discard this card, then draw 2 cards.",
             "flavor": "“He who has not known poverty has yet to become a true man, and at least this man has books to keep him company!”"        
         },
         
