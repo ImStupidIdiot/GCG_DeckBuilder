@@ -1881,7 +1881,7 @@ const db = {
         "catclawshield": {
             "name": "Cat-Claw Shield",
             "type": "Combat Status",
-            "description": "Provides 2 Shield Points for your active character.\n\n Note: Diona's Talent card was recently changed, and this is my best guess as to how her Ele Skill reflects this change.",
+            "description": "Provides 1 Shield Point for your active character.",
             "related": "Diona"
         },
         "drunkenmist": {
@@ -1907,7 +1907,7 @@ const db = {
         "reflection": {
             "name": "Reflection",
             "type": "Summon",
-            "description": "When your active character receives DMG: Reduce that DMG taken by 1.\n\n'Usage(s)': 1. When this card's 'Usage(s)' are depleted, this card will not be discarded.\n\nDuring the End Phase, if this card's 'Usage(s)' have been depleted: Discard this card and deal 1 Hydro DMG.",
+            "description": "When your active character receives DMG: Decrease DMG taken by 1.\n\n'Usage(s)': 1. When this card's 'Usage(s)' are depleted, this card will not be discarded.\n\nDuring the End Phase: Discard this card, deal 1 Hydro DMG.",
             "related": "Mona",
             "image": Mona_Summon
         },
