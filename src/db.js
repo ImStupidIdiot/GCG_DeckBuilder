@@ -1007,7 +1007,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331018_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "After this character defeats an opposing character: Create 'Omni Element' ×2.\n\n(A character can equip a maximum of 1 Artifact)",
+            "description": "After an opposing character is defeated: If the character this card is attached to is the active character, create 'Omni Element' ×2.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“In games where one gambles with life and death, remaining calm and composed is key to increasing one’s odds of victory.”"        
         },
         
