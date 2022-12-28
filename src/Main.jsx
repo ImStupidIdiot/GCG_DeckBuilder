@@ -77,7 +77,6 @@ class Main extends Component {
 
     importDeck(deckString) {
         if (!(deckString && deckString[0] + deckString[1] == '!!')) {
-            console.log(deckString[0] + deckString[1])
             return;
         }
         this.state = {current_actions: {}, total_actions: 0, current_chars: []}
@@ -124,10 +123,10 @@ class Main extends Component {
 
     validDeckCheckHelper(twoDigitString) { //will need to update this as database expands unfortunately
         const conversion = parseInt(twoDigitString, 36)
-        if (/^[a-zA-Z0-9]+$/.test(twoDigitString) && conversion >= 1 && conversion <= 27) {
+        if (/^[A-Z0-9]+$/.test(twoDigitString) && conversion >= 1 && conversion <= 27) {
             return 'char';
         }
-        else if (/^[a-zA-Z0-9]+$/.test(twoDigitString) && conversion >= 28 && conversion <= 146) {
+        else if (/^[A-Z0-9]+$/.test(twoDigitString) && conversion >= 28 && conversion <= 146) {
             return 'action';
         }
         else {
