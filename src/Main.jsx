@@ -16,6 +16,8 @@ class Main extends Component {
         this.removeFromDeck = this.removeFromDeck.bind(this);
         this.addToDeckAction = this.addToDeckAction.bind(this);
         this.removeFromDeckAction = this.removeFromDeckAction.bind(this);
+        this.importDeck = this.importDeck.bind(this);
+        this.exportDeck = this.exportDeck.bind(this);
     }
 
     addToDeck(char) {
@@ -44,7 +46,7 @@ class Main extends Component {
         }
 
     addToDeckAction(action) {
-        if (this.state.total_actions >= 30){
+        if (this.state.total_actions >= 30 || (this.state.current_actions[action] && this.state.current_actions[action] == 2)){
             return false;
         }
         this.setState({total_actions: this.state.total_actions + 1});
@@ -66,12 +68,80 @@ class Main extends Component {
         if (this.state.current_actions[action]) {
             this.state.current_actions[action] -= 1;
             if (this.state.current_actions[action] == 0) {
-            delete this.state.current_actions[action];
+                delete this.state.current_actions[action];
             }
         }
         this.setState({current_actions: this.state.current_actions});
         return true;
         }
+
+    importDeck(deckString) {
+        if (!(deckString && deckString[0] + deckString[1] == '!!')) {
+            console.log(deckString[0] + deckString[1])
+            return;
+        }
+        this.state = {current_actions: {}, total_actions: 0, current_chars: []}
+        this.setState({current_actions: {}}) //idk why i need both of these to make it work help
+        const allChars = Object.entries(db.chars).map((char) => char[0])
+        const allActions = Object.entries(db.actions).map((action) => action[0])
+        var deckLengthTracker = 0
+        this.setState({current_chars: []})
+        for (var i = 2; i < deckString.length; i += 2) {
+                if (deckString[i] == '*') {
+                    i += 1
+                    if (this.validDeckCheckHelper(deckString[i] + deckString[i+1]) && deckLengthTracker < 30) {
+                        if (this.addToDeckAction(allActions.filter((action) => db.actions[action].id.includes(deckString[i] + deckString[i+1]))[0])) {
+                            this.addToDeckAction(allActions.filter((action) => db.actions[action].id.includes(deckString[i] + deckString[i+1]))[0])
+                            deckLengthTracker += 2
+                        }
+                    }
+                    else {
+                        this.setState({total_actions: deckLengthTracker})
+                        return;
+                    }
+                }
+                else if (deckString[i] == '=') {
+                    this.setState({total_actions: deckLengthTracker})
+                    return;
+                }
+                else {
+                    if (this.validDeckCheckHelper(deckString[i] + deckString[i+1]) == 'action' && deckLengthTracker < 30) {
+                        if (this.addToDeckAction(allActions.filter((action) => db.actions[action].id.includes(deckString[i] + deckString[i+1]))[0])) {
+                            deckLengthTracker += 1
+                        }
+                    }
+                    else if (this.validDeckCheckHelper(deckString[i] + deckString[i+1]) == 'char') {
+                        this.addToDeck(allChars.filter((char) => db.chars[char].id.includes(deckString[i] + deckString[i+1]))[0])
+                    }
+                    else {
+                        this.setState({total_actions: deckLengthTracker})
+                        return;
+                    }
+                }
+        }
+        this.setState({total_actions: deckLengthTracker})
+    }
+
+    validDeckCheckHelper(twoDigitString) { //will need to update this as database expands unfortunately
+        const conversion = parseInt(twoDigitString, 36)
+        if (/^[a-zA-Z0-9]+$/.test(twoDigitString) && conversion >= 1 && conversion <= 27) {
+            return 'char';
+        }
+        else if (/^[a-zA-Z0-9]+$/.test(twoDigitString) && conversion >= 28 && conversion <= 146) {
+            return 'action';
+        }
+        else {
+            return null;
+        }
+    }
+
+    exportDeck() {
+        var toCopy = Object.entries(this.state.current_chars).map((input) => db.chars[input[1]].id).toString().replaceAll(',', '') + Object.entries(this.state.current_actions).sort((action1, action2) => db.actions[action1[0]].cost[0] - db.actions[action2[0]].cost[0]).map((mapped) => mapped[1] == 2 ? '*' + db.actions[mapped[0]].id : db.actions[mapped[0]].id).toString().replaceAll(',', '');
+        if (toCopy) {
+            toCopy = '!!' + toCopy + '=';
+        }
+        navigator.clipboard.writeText(toCopy);
+    }
 
     render() { 
         return (<div className={this.state.dark ? "blackBackground" : "transparent"}>
@@ -82,11 +152,11 @@ class Main extends Component {
                         <label className={this.state.dark? "whiteText" : null}><input type="checkbox" className="darkToggle" onChange={() => {this.setState({dark: !(this.state.dark)})}}/> Dark Mode</label>
                     </Col>
                     <Col xs={3}>
-                        <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} dark={this.state.dark}/>
+                        <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} importDeck={this.importDeck} exportDeck={this.exportDeck} dark={this.state.dark}/>
                     </Col>
                 </Row>
             </Container>
-        </div>)
+        </div>) 
     }
 }
 

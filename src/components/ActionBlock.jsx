@@ -36,7 +36,11 @@ class ActionBlock extends Component {
         }
 
         return <button
-            className='ActionBlock' 
+            className={!(db.actions[this.props.name].required) || (this.props.current_chars.includes(db.actions[this.props.name].required) || 
+                (db.actions[this.props.name].required.includes("2") &&
+                this.props.current_chars.filter((char) => db.chars[char].element.includes(db.actions[this.props.name].required.substring(1)) || db.chars[char].region.includes(db.actions[this.props.name].required.substring(1))).length >= 2
+                ))
+                ? 'ActionBlock' : 'ActionBlockInvalid'}
             onClick={() => 
                 {
                     this.props.removeFromDeck(this.props.name)

@@ -53,8 +53,8 @@ class Action extends Component {
                         this.setState({showInfoButton: false})
                     }}>
                     {/* uncomment out below later to implement dice costs */}
-                    {/* <img className="diceLibrary" width={this.state.width == '138' ? '61.33' : '60'} src={db.dice[db.actions[this.props.name].cost.split(" ")[1].toLowerCase()]}/> */}
-                    {/* {db.actions[this.props.name].cost.split(" ")[3] ? <img className="diceLibrary2" width={this.state.width == '138' ? '61.33' : '60'} src={db.dice[db.actions[this.props.name].cost.split(" ")[3].toLowerCase()]}/> : null} */}
+                    {/* <img className="diceLibrary" width={this.state.width == '138' ? '61.33' : '60'} src={db.dice[db.actions[this.props.name].cost.split(" ")[1].toLowerCase()]}/>
+                    {db.actions[this.props.name].cost.split(" ")[3] ? <img className="diceLibrary2" width={this.state.width == '138' ? '61.33' : '60'} src={db.dice[db.actions[this.props.name].cost.split(" ")[3].toLowerCase()]}/> : null} */}
                     <img src={this.props.url} width={this.state.width} height={this.state.height}>
                     </img>
                     </div>
