@@ -157,8 +157,8 @@ class Main extends Component {
             if (!validDeck) {
                 toCopy += '?';
             }
+            navigator.clipboard.writeText(toCopy);
         }
-        navigator.clipboard.writeText(toCopy);
     }
 
     render() { 
