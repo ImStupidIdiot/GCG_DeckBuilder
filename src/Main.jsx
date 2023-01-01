@@ -137,7 +137,6 @@ class Main extends Component {
     exportDeck() {
         var toCopy = Object.entries(this.state.current_chars).map((input) => db.chars[input[1]].id).toString().replaceAll(',', '') + Object.entries(this.state.current_actions).sort((action1, action2) => db.actions[action1[0]].cost[0] - db.actions[action2[0]].cost[0]).map((mapped) => mapped[1] == 2 ? '.' + db.actions[mapped[0]].id : db.actions[mapped[0]].id).toString().replaceAll(',', '');
         var validDeck = true;
-        console.log(this.state.current_chars.length, Object.entries(this.state.current_actions).length);
         if (this.state.current_chars.length == 3 && this.state.total_actions == 30) {
             for (var i = 0; i < Object.entries(this.state.current_actions).length; i++) {
                 if (!(!(db.actions[Object.entries(this.state.current_actions)[i][0]].required) || (this.state.current_chars.includes(db.actions[Object.entries(this.state.current_actions)[i][0]].required) || 
