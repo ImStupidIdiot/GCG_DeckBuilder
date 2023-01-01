@@ -86,7 +86,7 @@ class Main extends Component {
         var deckLengthTracker = 0
         this.setState({current_chars: []})
         for (var i = 2; i < deckString.length; i += 2) {
-                if (deckString[i] == '*') {
+                if (deckString[i] == '.') {
                     i += 1
                     if (this.validDeckCheckHelper(deckString[i] + deckString[i+1]) && deckLengthTracker < 30) {
                         if (this.addToDeckAction(allActions.filter((action) => db.actions[action].id.includes(deckString[i] + deckString[i+1]))[0])) {
@@ -135,9 +135,28 @@ class Main extends Component {
     }
 
     exportDeck() {
-        var toCopy = Object.entries(this.state.current_chars).map((input) => db.chars[input[1]].id).toString().replaceAll(',', '') + Object.entries(this.state.current_actions).sort((action1, action2) => db.actions[action1[0]].cost[0] - db.actions[action2[0]].cost[0]).map((mapped) => mapped[1] == 2 ? '*' + db.actions[mapped[0]].id : db.actions[mapped[0]].id).toString().replaceAll(',', '');
+        var toCopy = Object.entries(this.state.current_chars).map((input) => db.chars[input[1]].id).toString().replaceAll(',', '') + Object.entries(this.state.current_actions).sort((action1, action2) => db.actions[action1[0]].cost[0] - db.actions[action2[0]].cost[0]).map((mapped) => mapped[1] == 2 ? '.' + db.actions[mapped[0]].id : db.actions[mapped[0]].id).toString().replaceAll(',', '');
+        var validDeck = true;
+        console.log(this.state.current_chars.length, Object.entries(this.state.current_actions).length);
+        if (this.state.current_chars.length == 3 && this.state.total_actions == 30) {
+            for (var i = 0; i < Object.entries(this.state.current_actions).length; i++) {
+                if (!(!(db.actions[Object.entries(this.state.current_actions)[i][0]].required) || (this.state.current_chars.includes(db.actions[Object.entries(this.state.current_actions)[i][0]].required) || 
+                (db.actions[Object.entries(this.state.current_actions)[i][0]].required.includes("2") &&
+                this.state.current_chars.filter((char) => db.chars[char].element.includes(db.actions[Object.entries(this.state.current_actions)[i][0]].required.substring(1)) || db.chars[char].region.includes(db.actions[Object.entries(this.state.current_actions)[i][0]].required.substring(1))).length >= 2
+                )))) {
+                        validDeck = false;
+                        break;
+                    }
+            }
+        }
+        else {
+            validDeck = false;
+        }   
         if (toCopy) {
             toCopy = '!!' + toCopy + '=';
+            if (!validDeck) {
+                toCopy += '?';
+            }
         }
         navigator.clipboard.writeText(toCopy);
     }
