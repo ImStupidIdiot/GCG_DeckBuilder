@@ -158,6 +158,7 @@ class Main extends Component {
             }
             navigator.clipboard.writeText(toCopy);
         }
+        return toCopy;
     }
 
     render() { 

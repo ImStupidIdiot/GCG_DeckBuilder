@@ -9,7 +9,7 @@ import Action_Block_Test from '../images/Action_Block_Test.png';
 class ActionDeck extends Component {
     constructor(props) {
         super(props);
-        this.state = {showingImportText: false}
+        this.state = {showingImportText: false, showingExportText: false}
     }
 
     copyActions() {
@@ -32,7 +32,9 @@ class ActionDeck extends Component {
             {this.state.showingImportText ? <div><input className='rounded' type="text" id="importText" name="importText"></input><button className="exportDeck" onClick={() => {
                 this.props.importDeck(document.getElementById("importText").value)
                 this.setState({showingImportText: false})
-            }}>Import</button><br/><br/><button className="exportDeck" onClick={() => this.props.exportDeck()}>Export Deck</button></div> : <div><button className="exportDeck" onClick={() => this.setState({showingImportText: true})}>Import Deck</button><button className="exportDeck" onClick={() => this.props.exportDeck()}>Export Deck</button></div>}
+            }}>Import</button><br/><br/><button className="exportDeck" onClick={() => {this.props.exportDeck(); this.setState({showingExportText: true})}}>Export Deck</button></div> : <div><button className="exportDeck" onClick={() => this.setState({showingImportText: true})}>Import Deck</button><button className="exportDeck" onClick={() => {this.props.exportDeck() 
+            this.setState({showingExportText: true})}}>Export Deck</button></div>}
+            {this.state.showingExportText ? <div><br/><input className='rounded' type="text" id="importText" name="importText" value={this.props.exportDeck()}></input><button className="exportDeck" onClick={() => this.setState({showingExportText: false})}>Close</button></div> : null}
             <br></br>
             <button className="exportDeck" onClick={() => this.copyActions()}>Add Cards to Clipboard (sheet sim)</button>
             </div>
