@@ -18,6 +18,7 @@ class Main extends Component {
         this.removeFromDeckAction = this.removeFromDeckAction.bind(this);
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
+        this.importDeck(window.location.hash.substring(1));
     }
 
     addToDeck(char) {
@@ -95,11 +96,13 @@ class Main extends Component {
                         }
                     }
                     else {
+                        this.state.total_actions = deckLengthTracker;
                         this.setState({total_actions: deckLengthTracker})
                         return;
                     }
                 }
                 else if (deckString[i] == '=') {
+                    this.state.total_actions = deckLengthTracker;
                     this.setState({total_actions: deckLengthTracker})
                     return;
                 }
@@ -113,11 +116,13 @@ class Main extends Component {
                         this.addToDeck(allChars.filter((char) => db.chars[char].id.includes(deckString[i] + deckString[i+1]))[0])
                     }
                     else {
+                        this.state.total_actions = deckLengthTracker;
                         this.setState({total_actions: deckLengthTracker})
                         return;
                     }
                 }
         }
+        this.state.total_actions = deckLengthTracker;
         this.setState({total_actions: deckLengthTracker})
     }
 
@@ -156,8 +161,8 @@ class Main extends Component {
             if (!validDeck) {
                 toCopy += '?';
             }
-            navigator.clipboard.writeText(toCopy);
         }
+        window.location.href = '#' + toCopy;
         return toCopy;
     }
 
