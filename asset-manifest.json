@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef0cdba9.css",
-    "main.js": "/static/js/main.64bb3851.js",
+    "main.js": "/static/js/main.a9ce7ae9.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -39,6 +39,7 @@
     "static/media/Ayaka_Icon.png": "/static/media/Ayaka_Icon.4cbe2031383500979f17.png",
     "static/media/Kaeya_Icon.png": "/static/media/Kaeya_Icon.c89aed4b105bc39459c1.png",
     "static/media/Terrorshroom_Icon.png": "/static/media/Terrorshroom_Icon.dede5615de06a8b3c17e.png",
+    "static/media/Klee_Icon.png": "/static/media/Klee_Icon.3e9b17ef84048dd9c42c.png",
     "static/media/Cyno_Icon.png": "/static/media/Cyno_Icon.8008cfda8fdeeacae23e.png",
     "static/media/Mirrormaiden_Icon.png": "/static/media/Mirrormaiden_Icon.e59e3a640ee6b4b220bc.png",
     "static/media/Jean_Icon.png": "/static/media/Jean_Icon.0b6b6bb06e167763b48a.png",
@@ -71,6 +72,7 @@
     "static/media/White_Dice.png": "/static/media/White_Dice.c8d08c0854ef19727be7.png",
     "static/media/Xiangling_BStatus.png": "/static/media/Xiangling_BStatus.e242bfef7771e653afb4.png",
     "static/media/Yoimiya_BStatus.png": "/static/media/Yoimiya_BStatus.9923a4803a42f6d56e64.png",
+    "static/media/Beidou_BStatus.png": "/static/media/Beidou_BStatus.e459418db4ad216f2ac6.png",
     "static/media/Mona_BStatus.png": "/static/media/Mona_BStatus.58d5fdeca569ddfd06b0.png",
     "static/media/Razor_Status.png": "/static/media/Razor_Status.e3c68a79b5d676c40dd8.png",
     "static/media/Terrorshroom_Status.png": "/static/media/Terrorshroom_Status.33758dda89830a6c5ff8.png",
@@ -79,13 +81,14 @@
     "static/media/Bennett_BStatus.png": "/static/media/Bennett_BStatus.549f44dac405d848d436.png",
     "static/media/Omni_Dice.png": "/static/media/Omni_Dice.1f28e0200518a6c6715f.png",
     "static/media/Noelle_Status.png": "/static/media/Noelle_Status.3ffe8953bcaf87d4ec1e.png",
+    "static/media/Klee_Status.png": "/static/media/Klee_Status.644a92137769d1ebe177.png",
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.ef0cdba9.css.map": "/static/css/main.ef0cdba9.css.map",
-    "main.64bb3851.js.map": "/static/js/main.64bb3851.js.map"
+    "main.a9ce7ae9.js.map": "/static/js/main.a9ce7ae9.js.map"
   },
   "entrypoints": [
     "static/css/main.ef0cdba9.css",
-    "static/js/main.64bb3851.js"
+    "static/js/main.a9ce7ae9.js"
   ]
 }
