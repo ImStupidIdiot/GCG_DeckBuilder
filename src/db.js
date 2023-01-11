@@ -30,6 +30,7 @@ import Cyno_Icon from './images/Cyno_Icon.png'
 import Barbara_Icon from './images/Barbara_Icon.png'
 import Mirrormaiden_Icon from './images/Mirrormaiden_Icon.png'
 import Terrorshroom_Icon from './images/Terrorshroom_Icon.png'
+import Klee_Icon from './images/Klee_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -90,6 +91,8 @@ import Xingqiu_BStatus1 from './images/Xingqiu_BStatus1.png'
 import Yoimiya_BStatus from './images/Yoimiya_BStatus.png'
 import Cyno_Status from './images/Cyno_Status.png'
 import Terrorshroom_Status from './images/Terrorshroom_Status.png'
+import Klee_Status from './images/Klee_Status.png'
+import Beidou_BStatus from './images/Beidou_BStatus.png'
 
 import Pyro_Dice from './images/Pyro_Dice.png'
 import Hydro_Dice from './images/Hydro_Dice.png'
@@ -526,6 +529,37 @@ const db = {
             "flavor": "If you keep silent and listen closely, you can here the sound of the ruler of the Shroom-Kin inspecting its territory…",
             "id": '0R'        
         },
+        "klee": {
+            "name": "Klee",
+            "na": 'Kaboom!\n2 Black, 1 Pyro \nDeals 1 Pyro DMG.',
+            "skill": "Jumpy Dumpty\n3 Pyro \nDeals 3 Pyro DMG. This character gains 'Explosive Spark'.",
+            "burst": "Sparks'n'Splash\n3 Pyro, 3 'Energy'\nDeals 3 Pyro DMG, creates 1 'Sparks'n'Splash' at the opponent's play area.",
+            'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330032_gcg_high_resolution.webp',
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330032.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334029.webp',
+            "icon": Klee_Icon,
+            "element": 'pyro',
+            "region": 'mond',
+            'related': "Explosive Spark, Sparks'n'Splash",
+            "flavor": "Every card you draw may bring an “explosive surprise.”",
+            "id": '43'
+        },
+        "beidou": {
+            "name": "Beidou",
+            "na": 'Oceanborne\n2 Black, 1 Electro \nDeals 2 Physical DMG.',
+            "skill": "Tidecaller\n3 Electro \nThis character gains 'Tidecaller: Surf Embrace'. Prepare Skill: Wavestrider.",
+            "burst": "Stormbreaker\n4 Electro, 3 'Energy'\nDeals 3 Electro DMG, creates 1 'Thunderbeast's Targe'.",
+            "special": "Wavestrider\n(Prepare for 1 turn)\nDeal 2 Electro DMG.",
+            'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330034_gcg_high_resolution.webp',
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330034.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334028.webp',
+            "icon": Razor_Icon,
+            "element": 'electro',
+            "region": 'liyue',
+            'related': "Tidecaller: Surf Embrace, Thunderbeast's Targe",
+            "flavor": "“Remember this day, you almost won money from the Captain of the Crux.”",
+            "id": '44'
+        }
     },
 
     "actions": {
@@ -536,7 +570,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
             "cost": '5 Cryo',
-            "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Normal Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Charged Attack: Frostflake Arrow': Cryo DMG dealt by this Skill +1 if this Skill has been used before during this match, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Normal Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Normal Attack: Frostflake Arrow': Cryo DMG dealt by this Skill +1 if this Skill has been used before during this match, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
             "flavor": "First the arrow strikes, and then it turns to frost.",
             "required": "ganyu",
             "id": '0S'     
@@ -2000,6 +2034,30 @@ const db = {
             "flavor": "Though this might be its current form, think about it for a moment: did this dish first start as mint rolled around meat, or meat rolled around mint?",
             "id": '42'        
         },
+        "poundingsurprise": {
+            "name": "Pounding Surprise",
+            "tags": ['modify', 'talent', 'slowly'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n330530.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334529.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330530_gcg_high_resolution.webp",
+            "cost": '3 Pyro',
+            "description": "'Combat Action': When your active character is Klee, equip this card.\n\nAfter Klee equips this card, immediately use 'Elemental Skill: Jumpy Dumpty' once.\n\nWhen your Klee, who has this card equipped, creates an 'Explosive Spark', its 'Usage(s)' +1.\n\n(You must have Klee in your deck to add this card to your deck.)",
+            "flavor": "Let out a good laugh when you draw this card!",
+            "required": "klee",
+            "id": '45'     
+        },
+        "lightningstorm": {
+            "name": "Lightning Storm",
+            "tags": ['modify', 'talent', 'slowly'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n330531.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334528.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330531_gcg_high_resolution.webp",
+            "cost": '3 Electro',
+            "description": "'Combat Action': When your active character is Beidou, equip this card.\n\nAfter Beidou equips this card, immediately use 'Elemental Skill: Tidecaller' once.\n\nWhen your Beidou, who has this card equipped, uses 'Wavestrider': If DMG is taken while 'Prepare Skill' is active, Beidou's Normal Attacks this Round will cost 1 less 'Unaligned Element'. (Can be triggered 2 times)\n\n(You must have Beidou in your deck to add this card to your deck.)",
+            "flavor": "Rumbling thunder goes well with lightning storm!",
+            "required": "beidou",
+            "id": '46'     
+        },
     },
 
     "misc": {
@@ -2298,6 +2356,32 @@ const db = {
             "related": "Abyssal Summons",
             "image": Hilichurl_Summon4
         },
+        "explosivespark": {
+            "name": "Explosive Spark",
+            "type": "Status",
+            "description": "When the character to which this is attached uses a Charged Attack: Spend 1 less Pyro Die and deal +1 DMG. \n\n'Usage(s)': 1 \n\nCharge Attack: When the total number of Elemental Dice is even, the Normal Attack to use will be considered a Charged Attack.",
+            "related": "Klee"
+        },
+        "sparks'n'splash": {
+            "name": "Sparks'n'Splash",
+            "type": "Combat Status",
+            "description": "After your character uses a Skill: Deal 2 Pyro DMG to the active character. \n\n'Usage(s)': 2",
+            "related": "Klee",
+            "image": Klee_Status
+        },
+        "tidecallersurfembrace": {
+            "name": "Tidecaller: Surf Embrace",
+            "type": "Status",
+            "description": "The next time this character acts, they will immediately use the Skill Wavestrider. While preparing this Skill: Grant 2 Shield points to the character to which this is attached. When the character uses Wavestrider: If the Shield provided by this status has blocked DMG, deal +1 DMG.",
+            "related": "Beidou"
+        },
+        "thunderbeaststarge": {
+            "name": "Thunderbeast's Targe",
+            "type": "Combat Status",
+            "description": "After your character uses a Normal Attack: Deal 1 Electro DMG. When your character takes at least 3 DMG: Decrease DMG taken by 1. \n\nDuration (Rounds): 2",
+            "related": "Beidou",
+            "image": Beidou_BStatus
+        }
     },
 
     "nullchar": {
