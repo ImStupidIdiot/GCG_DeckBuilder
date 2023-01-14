@@ -2372,7 +2372,7 @@ const db = {
         "tidecallersurfembrace": {
             "name": "Tidecaller: Surf Embrace",
             "type": "Status",
-            "description": "The next time this character acts, they will immediately use the Skill Wavestrider. While preparing this Skill: Grant 2 Shield points to the character to which this is attached. When the character uses Wavestrider: If the Shield provided by this status has blocked DMG, deal +1 DMG.",
+            "description": "The next time this character acts, they will immediately use the Skill Wavestrider. While preparing this Skill: Grant 2 Shield points to the character to which this is attached.",
             "related": "Beidou"
         },
         "thunderbeaststarge": {
