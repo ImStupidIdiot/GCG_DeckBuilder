@@ -128,10 +128,10 @@ class Main extends Component {
 
     validDeckCheckHelper(twoDigitString) { //will need to update this as database expands unfortunately
         const conversion = parseInt(twoDigitString, 36)
-        if (/^[A-Z0-9]+$/.test(twoDigitString) && conversion >= 1 && conversion <= 27) {
+        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148))) {
             return 'char';
         }
-        else if (/^[A-Z0-9]+$/.test(twoDigitString) && conversion >= 28 && conversion <= 146) {
+        else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150))) {
             return 'action';
         }
         else {
