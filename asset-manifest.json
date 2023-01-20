@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef0cdba9.css",
-    "main.js": "/static/js/main.b12e0e6f.js",
+    "main.js": "/static/js/main.8989587a.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -27,6 +27,7 @@
     "static/media/Xiangling_Summon.png": "/static/media/Xiangling_Summon.9c44f4ee169b39b5c1e2.png",
     "static/media/Action_Block_Test.png": "/static/media/Action_Block_Test.81ce58fd8ed0dbe18b7e.png",
     "static/media/Stonehidelawachurl_Icon.png": "/static/media/Stonehidelawachurl_Icon.a22c24837f174679890f.png",
+    "static/media/Kokomi_Icon.png": "/static/media/Kokomi_Icon.e15b886ef0efc284e8c2.png",
     "static/media/Mona_Icon.png": "/static/media/Mona_Icon.6cd67da6584a8b7d2060.png",
     "static/media/Noelle_Icon.png": "/static/media/Noelle_Icon.bfd6d94d208a8ff10aca.png",
     "static/media/Xiangling_Icon.png": "/static/media/Xiangling_Icon.06a1714e55d2f318a43e.png",
@@ -92,10 +93,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.ef0cdba9.css.map": "/static/css/main.ef0cdba9.css.map",
-    "main.b12e0e6f.js.map": "/static/js/main.b12e0e6f.js.map"
+    "main.8989587a.js.map": "/static/js/main.8989587a.js.map"
   },
   "entrypoints": [
     "static/css/main.ef0cdba9.css",
-    "static/js/main.b12e0e6f.js"
+    "static/js/main.8989587a.js"
   ]
 }
