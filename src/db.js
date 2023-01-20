@@ -33,6 +33,7 @@ import Terrorshroom_Icon from './images/Terrorshroom_Icon.png'
 import Klee_Icon from './images/Klee_Icon.png'
 import Sara_Icon from './images/Sara_Icon.png'
 import Eula_Icon from './images/Eula_Icon.png'
+import Beidou_Icon from './images/Beidou_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -82,6 +83,10 @@ import Sucrose_Summon from './images/Sucrose_Summon.png'
 import Xiangling_Summon from './images/Xiangling_Summon.png'
 import Maguu_Summon1 from './images/Maguu_Summon1.png'
 import Maguu_Summon2 from './images/Maguu_Summon2.png'
+import Sara_Summon1 from './images/Sara_Summon1.png'
+import Sara_Summon2 from './images/Sara_Summon2.png'
+import Kokomi_Summon from './images/Kokomi_Summon.png'
+import Kokomi_Status from './images/Kokomi_Status.png'
 
 import Bennett_BStatus from './images/Bennett_BStatus.png'
 import Kaeya_BStatus from './images/Kaeya_BStatus.png'
@@ -555,7 +560,7 @@ const db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330034_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330034.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334028.webp',
-            "icon": Razor_Icon,
+            "icon": Beidou_Icon,
             "element": 'electro',
             "region": 'liyue',
             'related': "Tidecaller: Surf Embrace, Thunderbeast's Targe",
@@ -573,7 +578,7 @@ const db = {
             "icon": Sara_Icon,
             "element": 'electro',
             "region": "inazuma",
-            'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowefeather Cover",
+            'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowfeather Cover",
             "id": '47'
         },
         "kokomi": {
@@ -2074,7 +2079,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337036.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333036_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "Before this Round ends, the target character’s Normal Attacks cost 1 less 'Unaligned Element'.\n\n(A character can consume at most 1 Food per Round)",
+            "description": "Before this Round ends, the target character’s next 3 Normal Attacks cost 1 less 'Unaligned Element'.\n\n(A character can consume at most 1 Food per Round)",
             "flavor": "Though this might be its current form, think about it for a moment: did this dish first start as mint rolled around meat, or meat rolled around mint?",
             "id": '42'        
         },
@@ -2483,6 +2488,52 @@ const db = {
             "description": "After your character uses a Normal Attack: Deal 1 Electro DMG. When your character takes at least 3 DMG: Decrease DMG taken by 1. \n\nDuration (Rounds): 2",
             "related": "Beidou",
             "image": Beidou_BStatus
+        },
+        "tengujurraiambush": {
+            "name": "Tengu Jurrai: Ambush",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Electro DMG, applies Crowfeather Cover to friendly active character. \n\nUsage(s): 1",
+            "related": "Kujou Sara",
+            "image": Sara_Summon1
+        },
+        "tengujurraistormcluster": {
+            "name": "Tengu Jurrai: Stormcluster",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Electro DMG, applies Crowfeather Cover to friendly active character. \n\nUsage(s): 2",
+            "related": "Kujou Sara",
+            "image": Sara_Summon2
+        },
+        "crowfeathercover": {
+            "name": "Crowfeather Cover",
+            "type": "Combat Status",
+            "description": "The character with this attached deals +1 Elemental Skill and Elemental Burst DMG. \n\nUsage(s): 2 \n\nAfter this card effect is triggered: 1 Usage of it will be consumed. This card will be discarded immediately once it has 0 Usages remaining.",
+            "related": "Kujou Sara"
+        },
+        "bakekurage": {
+            "name": "Bake-Kurage",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Hydro DMG, heal your active character for 1 HP. \n\nUsage(s): 2",
+            "related": "Sangonomiya Kokomi",
+            "image": Kokomi_Summon
+        },
+        "ceremonialgarment": {
+            "name": "Ceremonial Garment",
+            "type": "Status",
+            "description": "The character to which this is attached has their Normal Attacks deal +1 DMG, and after using a Normal Attack, heal 1 HP for all characters. \n\nDuration (Rounds): 2",
+            "related": "Sangonomiya Kokomi",
+            "image": Kokomi_Status
+        },
+        "grimheart": {
+            "name": "Grimheart",
+            "type": "Status",
+            "description": "After the character to which this is attached uses Icetide Vortex: Remove this status, DMG +2.",
+            "related": "Eula",
+        },
+        "lightfallsword": {
+            "name": "Lightfall Sword",
+            "type": "Summon",
+            "description": "When Eula uses a Skill, this card will accumulate 2 Zeal stacks, but Eula will be unable to receive Energy. End Phase: Discard this card and deal 2 Physical DMG. Each Zeal stack adds 1 DMG to this damage instance.",
+            "related": "Eula"
         }
     },
 
