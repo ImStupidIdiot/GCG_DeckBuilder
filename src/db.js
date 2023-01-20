@@ -2506,7 +2506,7 @@ const db = {
         },
         "crowfeathercover": {
             "name": "Crowfeather Cover",
-            "type": "Combat Status",
+            "type": "Status",
             "description": "The character with this attached deals +1 Elemental Skill and Elemental Burst DMG. \n\nUsage(s): 2 \n\nAfter this card effect is triggered: 1 Usage of it will be consumed. This card will be discarded immediately once it has 0 Usages remaining.",
             "related": "Kujou Sara"
         },
