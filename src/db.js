@@ -571,6 +571,8 @@ const db = {
             "card": "https://genshin.honeyhunterworld.com/img/i_n330035.webp",
             "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334032.webp",
             "icon": Sara_Icon,
+            "element": 'electro',
+            "region": "inazuma",
             'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowefeather Cover",
             "id": '47'
         },
@@ -583,6 +585,8 @@ const db = {
             "card": "https://genshin.honeyhunterworld.com/img/i_n330030.webp",
             "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334031.webp",
             "icon": Barbara_Icon,
+            "element": 'hydro',
+            "region": "inazuma",
             'related': "Bake-Kurage, Ceremonial Garment",
             "id": '48'
         },
@@ -595,6 +599,8 @@ const db = {
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330028.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334030.webp',
             "icon": Eula_Icon,
+            "element": "cryo",
+            "region": "mond",
             "related": "Grimheart, Lightfall Sword",
             "id": '49'
         },
