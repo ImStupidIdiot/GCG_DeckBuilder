@@ -34,6 +34,7 @@ import Klee_Icon from './images/Klee_Icon.png'
 import Sara_Icon from './images/Sara_Icon.png'
 import Eula_Icon from './images/Eula_Icon.png'
 import Beidou_Icon from './images/Beidou_Icon.png'
+import Kokomi_Icon from './images/Kokomi_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -589,7 +590,7 @@ const db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330030_gcg_high_resolution.webp',
             "card": "https://genshin.honeyhunterworld.com/img/i_n330030.webp",
             "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334031.webp",
-            "icon": Barbara_Icon,
+            "icon": Kokomi_Icon,
             "element": 'hydro',
             "region": "inazuma",
             'related': "Bake-Kurage, Ceremonial Garment",
