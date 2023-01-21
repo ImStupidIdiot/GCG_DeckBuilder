@@ -23,7 +23,7 @@ class Main extends Component {
 
     addToDeck(char) {
         var char_on = this.state.current_chars
-        if (this.state.current_chars.length >= 3){
+        if (this.state.current_chars.length >= 3 || this.state.current_chars.includes(char)){
             return false;
         }
         char_on.push(char);
