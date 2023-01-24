@@ -11,7 +11,7 @@ class Library extends Component {
         super(props);
         const displayChars = Object.entries(db.chars).map((char) => char[0]);
         const displayActions = Object.entries(db.actions).map((action) => action[0]).sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
-        this.state = {conditionsA: {}, displayActions: displayActions, CoA: 'C', CoAHovered: false, showStart: true};
+        this.state = {conditionsA: {}, displayActions: displayActions, CoA: 'C', CoAHovered: false, showStart: Object.keys(this.props.current_actions).length == 0 && this.props.current_chars.length == 0};
         this.toggle = this.toggle.bind(this);
         this.closeStart = this.closeStart.bind(this);
         this.startBox = <StartBox closeInfo={this.closeStart}/>
