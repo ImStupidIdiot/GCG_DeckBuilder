@@ -568,48 +568,48 @@ const db = {
             "flavor": "“Remember this day, you almost won money from the Captain of the Crux.”",
             "id": '44'
         },
-        "sara": {
-            "name": "Kujou Sara",
-            "na": 'Tengu Bowmanship\n2 Black, 1 Electro \nDeals 2 Phyiscal DMG.',
-            "skill": "Tengu Stormcall\n3 Electro \nDeals 1 Electro DMG, summons 1 Tengu Jurrai: Ambush.",
-            "burst": "Subjugation: Koukou Sendou \n4 Electro, 2 Energy \n Deals 1 Electro DMG, summons 1 Tenguu Jurrai: Stormcluser.",
-            'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330035_gcg_high_resolution.webp",
-            "card": "https://genshin.honeyhunterworld.com/img/i_n330035.webp",
-            "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334032.webp",
-            "icon": Sara_Icon,
-            "element": 'electro',
-            "region": "inazuma",
-            'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowfeather Cover",
-            "id": '47'
-        },
-        "kokomi": {
-            "name": "Sangonomiya Kokomi",
-            "na": "The Shape of Water\n2 Black, 1 Hydro \nDeals 1 Hydro DMG.",
-            "skill": "Kurage's Oath\n3 Hydro \nThis character gains Hydro Application and summons 1 Bake-Kurage.",
-            "burst": "Nereid's Ascension\n3 Hydro, 2 Energy\n Deals 3 Hydro DMG. this character gains Ceremonial Garment.",
-            'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330030_gcg_high_resolution.webp',
-            "card": "https://genshin.honeyhunterworld.com/img/i_n330030.webp",
-            "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334031.webp",
-            "icon": Kokomi_Icon,
-            "element": 'hydro',
-            "region": "inazuma",
-            'related': "Bake-Kurage, Ceremonial Garment",
-            "id": '48'
-        },
-        "eula": {
-            "name": "Eula",
-            "na": "Favonius Bladework - Edel\n2 Black, 1 Cryo\nDeals 2 Physical DMG.",
-            "skill": "Ice Tide Vortex\n3 Cryo \nDeals 2 Cryo DMG. If this character has not yet gained Grimheart, they will gain Grimheart.",
-            "burst": "Glacial Illumination\n3 Cryo, 2 Energy\n Deals 2 Cryo DMG, summons 1 Lightfall Sword.",
-            'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330028_gcg_high_resolution.webp',
-            "card": 'https://genshin.honeyhunterworld.com/img/i_n330028.webp',
-            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334030.webp',
-            "icon": Eula_Icon,
-            "element": "cryo",
-            "region": "mond",
-            "related": "Grimheart, Lightfall Sword",
-            "id": '49'
-        },
+        // "sara": {
+        //     "name": "Kujou Sara",
+        //     "na": 'Tengu Bowmanship\n2 Black, 1 Electro \nDeals 2 Phyiscal DMG.',
+        //     "skill": "Tengu Stormcall\n3 Electro \nDeals 1 Electro DMG, summons 1 Tengu Jurrai: Ambush.",
+        //     "burst": "Subjugation: Koukou Sendou \n4 Electro, 2 Energy \n Deals 1 Electro DMG, summons 1 Tenguu Jurrai: Stormcluser.",
+        //     'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330035_gcg_high_resolution.webp",
+        //     "card": "https://genshin.honeyhunterworld.com/img/i_n330035.webp",
+        //     "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334032.webp",
+        //     "icon": Sara_Icon,
+        //     "element": 'electro',
+        //     "region": "inazuma",
+        //     'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowfeather Cover",
+        //     "id": '47'
+        // },
+        // "kokomi": {
+        //     "name": "Sangonomiya Kokomi",
+        //     "na": "The Shape of Water\n2 Black, 1 Hydro \nDeals 1 Hydro DMG.",
+        //     "skill": "Kurage's Oath\n3 Hydro \nThis character gains Hydro Application and summons 1 Bake-Kurage.",
+        //     "burst": "Nereid's Ascension\n3 Hydro, 2 Energy\n Deals 3 Hydro DMG. this character gains Ceremonial Garment.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330030_gcg_high_resolution.webp',
+        //     "card": "https://genshin.honeyhunterworld.com/img/i_n330030.webp",
+        //     "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334031.webp",
+        //     "icon": Kokomi_Icon,
+        //     "element": 'hydro',
+        //     "region": "inazuma",
+        //     'related': "Bake-Kurage, Ceremonial Garment",
+        //     "id": '48'
+        // },
+        // "eula": {
+        //     "name": "Eula",
+        //     "na": "Favonius Bladework - Edel\n2 Black, 1 Cryo\nDeals 2 Physical DMG.",
+        //     "skill": "Ice Tide Vortex\n3 Cryo \nDeals 2 Cryo DMG. If this character has not yet gained Grimheart, they will gain Grimheart.",
+        //     "burst": "Glacial Illumination\n3 Cryo, 2 Energy\n Deals 2 Cryo DMG, summons 1 Lightfall Sword.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330028_gcg_high_resolution.webp',
+        //     "card": 'https://genshin.honeyhunterworld.com/img/i_n330028.webp',
+        //     "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334030.webp',
+        //     "icon": Eula_Icon,
+        //     "element": "cryo",
+        //     "region": "mond",
+        //     "related": "Grimheart, Lightfall Sword",
+        //     "id": '49'
+        // },
     },
 
     "actions": {
@@ -2108,64 +2108,64 @@ const db = {
             "required": "beidou",
             "id": '46'     
         },
-        "wellspringofwarlust": {
-            "name": "Wellspring of War-Lust",
-            "tags": ['modify', 'talent', 'slowly'],
-            "image": "https://genshin.honeyhunterworld.com/img/i_n330528.webp",
-            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334530.webp",
-            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330528_gcg_high_resolution.webp",
-            "cost": '3 Cryo 2 Energy',
-            "description": "'Combat Action': When your active character is Eula, equip this card.\n\nAfter Eula equips this card, immediately use 'Elemental Burst: Glacial Illumination' once.\n\nWhen your Eula, who has this card equipped, uses Icetide Vortex, this will generate 1 more Zeal for Lightfall Sword.\n\n(You must have Eula in your deck to add this card to your deck.)",
-            "flavor": "",
-            "required": "eula",
-            "id": '4A' 
-        },
-        "tamanooyascasket": {
-            "name": "Tamanooya's Casket",
-            "tags": ['modify', 'talent', 'slowly'],
-            "image": "https://genshin.honeyhunterworld.com/img/i_n330529.webp",
-            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334531.webp",
-            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330529_gcg_high_resolution.webp",
-            "cost": '3 Hydro 2 Energy',
-            "description": "'Combat Action': When your active character is Sangonomiya Kokomi, equip this card.\n\nAfter Sangonomiya Kokomi equips this card, immediately use 'Elemental Burst: Nereid's Ascension' once.\n\nWhen your Sangonomiya Kokomi, who has this card equipped, uses Nereid's Ascension while Bake-Kurage is on the field, its Usages will be reset. While Ceremonial Garment exists, Bake-Kurage deals +1 DMG.\n\n(You must have Sangonomiya Kokomi in your deck to add this card to your deck.)",
-            "flavor": "",
-            "required": "kokomi",
-            "id": '4B'
-        },
-        "sinofpride": {
-            "name": "Sin of Pride",
-            "tags": ['modify', 'talent', 'slowly'],
-            "image": "https://genshin.honeyhunterworld.com/img/i_n330537.webp",
-            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334532.webp",
-            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330537_gcg_high_resolution.webp",
-            "cost": '4 Electro 2 Energy',
-            "description": "'Combat Action': When your active character is Kujou Sara, equip this card.\n\nAfter Kujou Sara equips this card, immediately use 'Elemental Burst: Subjugation: Koukou Sendou' once.\n\nIf a friendly Electro character has Crowfeather Cover attached, their Elemental Skill and Elemental Burst deal +1 additional DMG.\n\n(You must have Kujou Sara in your deck to add this card to your deck.)",
-            "flavor": "",
-            "required": "sara",
-            "id": '4C' 
-        },
-        "ornatekabuto": {
-            "name": "Ornate Kabuto",
-            "tags": ['modify', 'artifact'],
-            "image": "https://genshin.honeyhunterworld.com/img/i_n331035.webp",
-            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335035.webp",
-            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331035_gcg_high_resolution.webp",
-            "cost": '2 Black',
-            "description": "After another character of yours uses an Elemental Burst: The character to which this is attached gains 1 Energy. (A character can equip a maximum of 1 Artifact)",
-            "flavor": "",
-            "id": '4D'        
-        },
-        "generalsancienthelm": {
-            "name": "General's Ancient Helm",
-            "tags": ['modify', 'artifact'],
-            "image": "https://genshin.honeyhunterworld.com/img/i_n331036.webp",
-            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335036.webp",
-            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331036_gcg_high_resolution.webp",
-            "cost": '2 White',
-            "description": "When Action Phase begins: Grant 2 Shield Points to attached characters. (A character can equip a maximum of 1 Artifact)",
-            "flavor": "",
-            "id": '4E' 
-        }
+        // "wellspringofwarlust": {
+        //     "name": "Wellspring of War-Lust",
+        //     "tags": ['modify', 'talent', 'slowly'],
+        //     "image": "https://genshin.honeyhunterworld.com/img/i_n330528.webp",
+        //     "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334530.webp",
+        //     "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330528_gcg_high_resolution.webp",
+        //     "cost": '3 Cryo 2 Energy',
+        //     "description": "'Combat Action': When your active character is Eula, equip this card.\n\nAfter Eula equips this card, immediately use 'Elemental Burst: Glacial Illumination' once.\n\nWhen your Eula, who has this card equipped, uses Icetide Vortex, this will generate 1 more Zeal for Lightfall Sword.\n\n(You must have Eula in your deck to add this card to your deck.)",
+        //     "flavor": "",
+        //     "required": "eula",
+        //     "id": '4A' 
+        // },
+        // "tamanooyascasket": {
+        //     "name": "Tamanooya's Casket",
+        //     "tags": ['modify', 'talent', 'slowly'],
+        //     "image": "https://genshin.honeyhunterworld.com/img/i_n330529.webp",
+        //     "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334531.webp",
+        //     "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330529_gcg_high_resolution.webp",
+        //     "cost": '3 Hydro 2 Energy',
+        //     "description": "'Combat Action': When your active character is Sangonomiya Kokomi, equip this card.\n\nAfter Sangonomiya Kokomi equips this card, immediately use 'Elemental Burst: Nereid's Ascension' once.\n\nWhen your Sangonomiya Kokomi, who has this card equipped, uses Nereid's Ascension while Bake-Kurage is on the field, its Usages will be reset. While Ceremonial Garment exists, Bake-Kurage deals +1 DMG.\n\n(You must have Sangonomiya Kokomi in your deck to add this card to your deck.)",
+        //     "flavor": "",
+        //     "required": "kokomi",
+        //     "id": '4B'
+        // },
+        // "sinofpride": {
+        //     "name": "Sin of Pride",
+        //     "tags": ['modify', 'talent', 'slowly'],
+        //     "image": "https://genshin.honeyhunterworld.com/img/i_n330537.webp",
+        //     "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334532.webp",
+        //     "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330537_gcg_high_resolution.webp",
+        //     "cost": '4 Electro 2 Energy',
+        //     "description": "'Combat Action': When your active character is Kujou Sara, equip this card.\n\nAfter Kujou Sara equips this card, immediately use 'Elemental Burst: Subjugation: Koukou Sendou' once.\n\nIf a friendly Electro character has Crowfeather Cover attached, their Elemental Skill and Elemental Burst deal +1 additional DMG.\n\n(You must have Kujou Sara in your deck to add this card to your deck.)",
+        //     "flavor": "",
+        //     "required": "sara",
+        //     "id": '4C' 
+        // },
+        // "ornatekabuto": {
+        //     "name": "Ornate Kabuto",
+        //     "tags": ['modify', 'artifact'],
+        //     "image": "https://genshin.honeyhunterworld.com/img/i_n331035.webp",
+        //     "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335035.webp",
+        //     "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331035_gcg_high_resolution.webp",
+        //     "cost": '2 Black',
+        //     "description": "After another character of yours uses an Elemental Burst: The character to which this is attached gains 1 Energy. (A character can equip a maximum of 1 Artifact)",
+        //     "flavor": "",
+        //     "id": '4D'        
+        // },
+        // "generalsancienthelm": {
+        //     "name": "General's Ancient Helm",
+        //     "tags": ['modify', 'artifact'],
+        //     "image": "https://genshin.honeyhunterworld.com/img/i_n331036.webp",
+        //     "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335036.webp",
+        //     "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331036_gcg_high_resolution.webp",
+        //     "cost": '2 White',
+        //     "description": "When Action Phase begins: Grant 2 Shield Points to attached characters. (A character can equip a maximum of 1 Artifact)",
+        //     "flavor": "",
+        //     "id": '4E' 
+        // }
     },
 
     "misc": {
