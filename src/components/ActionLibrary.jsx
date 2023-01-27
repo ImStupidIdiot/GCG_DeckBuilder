@@ -10,7 +10,7 @@ class ActionLibrary extends Component {
     constructor(props) {
         super(props);
 
-        const allActions = Object.entries(db.actions).sort((action1, action2) => action1[1].cost[0] - action2[1].cost[0]).map((action) => action[0])
+        const allActions = Object.entries(db.actions).map((action) => action[0])
         this.state = {
             shownChar: null, 
             filters: {}, 
