@@ -8,7 +8,12 @@ import './scss/library.css';
 import './scss/misc.css';
 import db from './db';
 
+const { convertBase } = require("simple-base-converter");
+const cards = require("./cards");
+const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+
 class Main extends Component {
+    
     constructor(props) {
         super(props);
         this.state = {current_chars: [], current_actions: {}, total_actions: 0, dark: false};
@@ -76,7 +81,7 @@ class Main extends Component {
         return true;
         }
 
-    importDeck(deckString) {
+    importDeck(deckString) { //version 1.0. New deck strig converter below. 
         if (!(deckString && deckString[0] + deckString[1] == '!!')) {
             return;
         }
@@ -165,6 +170,99 @@ class Main extends Component {
         window.location.href = '#' + toCopy;
         return toCopy;
     }
+
+    //everything below is just a test run of the new import/export deck code function we are testing for tournaments at discord.gg/gitcg
+
+    exportDeckv34(data) {
+        const l = cards.latest;
+        const latest = cards[l];
+        let field = Array(latest.deck.length).fill(0);
+    
+        for (const i in data.deck) {
+            field[this.reverse(field, i)] = data.deck[i];
+        }
+    
+        return this.encodeHeader(l) + this.encodeCharacters(data.characters) + this.encodeDeck(field.join(""));
+    }
+
+    importDeckv34(code) {
+        if (!code) {
+            return;
+        }
+        const v = this.decodeHeader(code.slice(0, 2));
+        const version = cards[v];
+        const [characters, deckCode] = this.decodeCards(code.slice(2));
+    
+        let description = characters.map((i) => version.characters[i].name).join("\n") + "\n";
+    
+        for (let i = deckCode.length - 1; i >= 0; i--) {
+            const value = deckCode[i];
+            const index = this.reverse(deckCode, i);
+    
+            if (value !== "0") {
+                description += `${value} - ${version.deck[index].name}\n`;
+            }
+        }
+    
+        return description;
+    }
+
+    reverse(arr, n) {
+        return arr.length - 1 - n;
+    };
+    
+    encodeHeader(x) {
+        return convertBase(x, 10, chars).padStart(2, "0");
+    };
+    
+    encodeCharacters(xs) {
+        let res = "";
+    
+        for (const x of xs) {
+            res += chars[chars.length - 1].repeat(Math.floor(x / chars.length));
+            res += chars[x % chars.length];
+        }
+    
+        return res;
+    };
+    
+    encodeDeck(x) {
+        return convertBase(x, "012", chars);
+    };
+    
+    decodeHeader(x) {
+        return convertBase(x, chars, 10);
+    };
+    
+    decodeCards(x) {
+        let characters = [];
+        let characterLength = 0;
+    
+        for (let i = 0; i < x.length; i++) {
+            let characterCode = x[i];
+    
+            while (characterCode[characterCode.length - 1] === chars[chars.length - 1]) {
+                characterCode += x[++i];
+            }
+    
+            characters.push(this.decodeCharacter(characterCode));
+            characterLength = i;
+    
+            if (characters.length === 3) break;
+        }
+    
+        return [characters, convertBase(x.slice(characterLength + 1), chars, "012")];
+    };
+    
+    decodeCharacter(x) {
+        let n = 0;
+    
+        for (let i = 0; i < x.length; i++) {
+            n += chars.indexOf(x[i]);
+        }
+    
+        return n;
+    };
 
     render() { 
         return (<div className={this.state.dark ? "blackBackground" : "transparent"}>

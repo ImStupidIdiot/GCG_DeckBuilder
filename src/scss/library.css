@@ -79,14 +79,6 @@
     height: 0;
 }
 
-.blackBackground {
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.87);
-    left: 0;
-    right: 0;
-    top: 0;
-}
-
 .font {
     font-family: 'Helvetica';
 }
