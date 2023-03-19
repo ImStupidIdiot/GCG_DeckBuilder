@@ -38,7 +38,7 @@ class StartBox extends Component {
                 <Col xs={10} className="startBoxCol"> 
                 <div className = "startBox">
                 <br></br><br></br><br></br>
-                <strong className="startBoxTextBold">Helpful Links (note: most of these are outdated):</strong> <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/13RRK4IYl0bHJFVtRmlDFVwE9BR-2qaq6dGr2sdJKj_o/edit#gid=1914067667" target="_blank">SigmaZero Card List (WIP)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1J2ZvmK2T_mJR6BtPdXiSSnq1d2xesl_A3oA235ZvMLI/edit?usp=sharing" target="_blank">Google Sheet Simulator (WIP)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1Ai86SDsJqz4MIOrNJEh7aagOnpV-JjKss7hT26udl-g/edit?usp=sharing" target="_blank">Deck Lucky Coin Cost Calculator (Very WIP)</a>, <a className="startBoxText" href="https://docs.google.com/document/d/1EPk-IWrygkX9VePRZhaHyMRxSPdzwNHMG2m-h66PyTc/edit?usp=sharing" target="_blank">My Favorite Pre-Release Decks (WIP)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1GMau1t-g8cDDpQLnSfgAuDt9qh5V1BoRIkTjkXy92MQ/edit?usp=sharing" target="_blank">Deck List Storage / Fancifier</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1gopvNuL5-dVYI-qKvArf84JNFoLdFl1FeSXlU9_alL0/edit?usp=sharing" target="_blank">Changelog</a>
+                <strong className="startBoxTextBold">Helpful Links:</strong> <a className="startBoxText" href="https://cards.keqingmains.com/" target="_blank">KQM Deck Guides (!!!)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1J2ZvmK2T_mJR6BtPdXiSSnq1d2xesl_A3oA235ZvMLI/edit?usp=sharing" target="_blank">Google Sheet Simulator</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1GMau1t-g8cDDpQLnSfgAuDt9qh5V1BoRIkTjkXy92MQ/edit?usp=sharing" target="_blank">Deck List Storage / Fancifier</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1gopvNuL5-dVYI-qKvArf84JNFoLdFl1FeSXlU9_alL0/edit?usp=sharing" target="_blank">Changelog (no longer in use)</a>
                 <br/><br/>
                 Welcome to the GCG Deck Builder! There's lots of placeholders right now but it should be fully functional. Symbol in top left currently toggles between character and action cards. Click outside this window to close it.
                 <br/><br/>
@@ -50,7 +50,7 @@ class StartBox extends Component {
                 <br/><br/>
                 I'm also live sometimes at <a className="startBoxText" href="https://twitch.tv/robotwizhs" target="_blank">twitch.tv/robotwizhs</a>. I'll definitely be streaming some Genius Invocation TCG up until and through the 3.3 patch. 
                 <br/><br/>
-                Todo list: replacing placeholders, mobile display, deck tier list
+                Todo list: mobile display... surely I'll get around to it one day...
                 <br/><br/>
                 </div>
                 </Col>
