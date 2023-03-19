@@ -20,7 +20,9 @@ class ActionDeck extends Component {
     render() {  
         var deckCode = this.props.exportDeck();
         var actions = Object.entries(this.props.current_actions).map((mapped) => mapped[0]);
-        actions.sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
+        var allActionsTemp = Object.entries(db.actions).map((mapped) => mapped[0]);
+        // actions.sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
+        actions.sort((action1, action2) => allActionsTemp.indexOf(action1) - allActionsTemp.indexOf(action2));
         const a1 = actions.map((action) => <ActionBlock current_chars={this.props.current_chars} name={action} key={action} url={db.actions[action].hi_res_image} count={this.props.current_actions[action]} cost={db.actions[action].cost} removeFromDeck={this.props.removeFromDeck}/>)
         return (
             <div height="850">
