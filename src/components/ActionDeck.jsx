@@ -9,7 +9,8 @@ import Action_Block_Test from '../images/Action_Block_Test.png';
 class ActionDeck extends Component {
     constructor(props) {
         super(props);
-        this.state = {showingImportText: false, showingExportText: false}
+        this.state = {showingImportText: false, showingExportText: false, sortInGame: true}
+        this.allActionsTemp = Object.entries(db.actions).map((mapped) => mapped[0]);
     }
 
     copyActions() {
@@ -20,9 +21,12 @@ class ActionDeck extends Component {
     render() {  
         var deckCode = this.props.exportDeck();
         var actions = Object.entries(this.props.current_actions).map((mapped) => mapped[0]);
-        var allActionsTemp = Object.entries(db.actions).map((mapped) => mapped[0]);
-        // actions.sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
-        actions.sort((action1, action2) => allActionsTemp.indexOf(action1) - allActionsTemp.indexOf(action2));
+        if (this.state.sortInGame) {
+            actions.sort((action1, action2) => this.allActionsTemp.indexOf(action1) - this.allActionsTemp.indexOf(action2));
+        }
+        else {
+            actions.sort((action1, action2) => db.actions[action1].cost[0] - db.actions[action2].cost[0]);
+        }
         const a1 = actions.map((action) => <ActionBlock current_chars={this.props.current_chars} name={action} key={action} url={db.actions[action].hi_res_image} count={this.props.current_actions[action]} cost={db.actions[action].cost} removeFromDeck={this.props.removeFromDeck}/>)
         return (
             <div height="850">
@@ -38,8 +42,8 @@ class ActionDeck extends Component {
             }}>Import</button><br/><br/><button className="exportDeck" onClick={() => {this.setState({showingExportText: true})}}>Export Deck</button></div> : <div><button className="exportDeck" onClick={() => this.setState({showingImportText: true})}>Import Deck</button><button className="exportDeck" onClick={() => {
             this.setState({showingExportText: true})}}>Export Deck </button></div>}
             {this.state.showingExportText ? <div><br/><input className='rounded' type="text" id="importText" name="importText" value={deckCode} readOnly={true}></input><button className="exportDeck" onClick={() => this.setState({showingExportText: false})}>Close</button></div> : null}
-            <br></br>
             <button className="exportDeck" onClick={() => this.copyActions()}>Add Cards to Clipboard (sheet sim)</button>
+            <button className="exportDeck" onClick={() => this.setState({sortInGame: !this.state.sortInGame})}>Toggle Deck View</button>
             </div>
         )
     }
