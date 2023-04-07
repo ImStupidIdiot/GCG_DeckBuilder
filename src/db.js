@@ -35,6 +35,7 @@ import Sara_Icon from './images/Sara_Icon.png'
 import Eula_Icon from './images/Eula_Icon.png'
 import Beidou_Icon from './images/Beidou_Icon.png'
 import Kokomi_Icon from './images/Kokomi_Icon.png'
+import Tighnari_Icon from './images/Tighnari_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -587,7 +588,7 @@ const db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330043_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330043.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334035.webp',
-            "icon": Collei_Icon,
+            "icon": Tighnari_Icon,
             "element": 'dendro',
             "region": 'sumeru',
             'related': 'Vijnana Suffusion, Clusterbloom Arrow',
