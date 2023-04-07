@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef0cdba9.css",
-    "main.js": "/static/js/main.ce11e890.js",
+    "main.js": "/static/js/main.582eaf48.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -14,9 +14,11 @@
     "static/media/Sara_Summon2.png": "/static/media/Sara_Summon2.42b61fdd5fb598eb96bf.png",
     "static/media/Sara_Summon1.png": "/static/media/Sara_Summon1.9e10242aebb77e9d00d8.png",
     "static/media/Ayaka_Summon.png": "/static/media/Ayaka_Summon.752d4bb6f330a1e5d29f.png",
+    "static/media/Itto_Summon.png": "/static/media/Itto_Summon.e934251f115626a75a9f.png",
     "static/media/Keqing_Summon.png": "/static/media/Keqing_Summon.5e3d10845b1792bba180.png",
     "static/media/Kokomi_Summon.png": "/static/media/Kokomi_Summon.5945958928beef42136d.png",
     "static/media/Oceanoid_Summon2.png": "/static/media/Oceanoid_Summon2.25dcfe905012093d3e7a.png",
+    "static/media/Tighnari_Summon.png": "/static/media/Tighnari_Summon.7a1c53c731acbfcf3afc.png",
     "static/media/Collei_Summon.png": "/static/media/Collei_Summon.728b3dbc6f69502aa8b4.png",
     "static/media/Oceanoid_Summon1.png": "/static/media/Oceanoid_Summon1.22ea47bf7fd22f9a0cd9.png",
     "static/media/Jean_Summon.png": "/static/media/Jean_Summon.4bb6ee7a330b6a1f1945.png",
@@ -25,6 +27,7 @@
     "static/media/Fischl_Summon.png": "/static/media/Fischl_Summon.03c9cb0c334cde3b66bd.png",
     "static/media/Diona_Summon.png": "/static/media/Diona_Summon.508eda4353a4edd0df52.png",
     "static/media/Xiangling_Summon.png": "/static/media/Xiangling_Summon.9c44f4ee169b39b5c1e2.png",
+    "static/media/Ayato_Summon.png": "/static/media/Ayato_Summon.3230eb9d6bce3159a0f2.png",
     "static/media/Action_Block_Test.png": "/static/media/Action_Block_Test.81ce58fd8ed0dbe18b7e.png",
     "static/media/Stonehidelawachurl_Icon.png": "/static/media/Stonehidelawachurl_Icon.a22c24837f174679890f.png",
     "static/media/Kokomi_Icon.png": "/static/media/Kokomi_Icon.e15b886ef0efc284e8c2.png",
@@ -65,6 +68,7 @@
     "static/media/Hydro_Sort_Activated.png": "/static/media/Hydro_Sort_Activated.c0351e50523a010c5780.png",
     "static/media/Electro_Sort_Activated.png": "/static/media/Electro_Sort_Activated.dc8c30f497e6e95dd0ea.png",
     "static/media/Beidou_Icon.png": "/static/media/Beidou_Icon.2bd8e200c30c8efc97ca.png",
+    "static/media/Eula_Summon.png": "/static/media/Eula_Summon.8b1bc0abe7f2154220eb.png",
     "static/media/Char_Sort_Hover.png": "/static/media/Char_Sort_Hover.368e116c33a08a0a90f6.png",
     "static/media/Action_Sort_Hover.png": "/static/media/Action_Sort_Hover.b7374a447e495345f12a.png",
     "static/media/Info_Button.png": "/static/media/Info_Button.fc16ddd105ff5c4fa53d.png",
@@ -93,10 +97,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.ef0cdba9.css.map": "/static/css/main.ef0cdba9.css.map",
-    "main.ce11e890.js.map": "/static/js/main.ce11e890.js.map"
+    "main.582eaf48.js.map": "/static/js/main.582eaf48.js.map"
   },
   "entrypoints": [
     "static/css/main.ef0cdba9.css",
-    "static/js/main.ce11e890.js"
+    "static/js/main.582eaf48.js"
   ]
 }
