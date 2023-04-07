@@ -20,7 +20,7 @@ class ActionBlock extends Component {
         if (db.actions[this.props.name].tags.includes('talent')) {
             if (cost_list[2]) {
                 var cost2 = '\n' + cost_list[2]
-                cost2_style = 'Energy'
+                cost2_style = cost_list[3]
             }
         }
 

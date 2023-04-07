@@ -46,7 +46,7 @@ class StartBox extends Component {
                 <br/><br/>
                 DM me on Discord (@StupidIdiot#9003) if you'd like to contribute art to replace a placeholder or find any bugs/typos. 
                 <br/><br/>
-                Head over to the Genius Invokation TCG Discord server (discord.gg/invokation) if you'd like to particpate in tournaments, fight against others in ranked matches, or just talk about the TCG! 
+                Head over to the Genius Invokation TCG Discord server (discord.gg/GITCG) if you'd like to particpate in tournaments, fight against others in ranked matches, or just talk about the TCG! 
                 <br/><br/>
                 I'm also live sometimes at <a className="startBoxText" href="https://twitch.tv/robotwizhs" target="_blank">twitch.tv/robotwizhs</a>. I'll definitely be streaming some Genius Invocation TCG up until and through the 3.3 patch. 
                 <br/><br/>

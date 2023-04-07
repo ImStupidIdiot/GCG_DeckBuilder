@@ -88,6 +88,10 @@ import Sara_Summon1 from './images/Sara_Summon1.png'
 import Sara_Summon2 from './images/Sara_Summon2.png'
 import Kokomi_Summon from './images/Kokomi_Summon.png'
 import Kokomi_Status from './images/Kokomi_Status.png'
+import Eula_Summon from './images/Eula_Summon.png'
+import Ayato_Summon from './images/Ayato_Summon.png'
+import Itto_Summon from './images/Itto_Summon.png'
+import Tighnari_Summon from './images/Tighnari_Summon.png'
 
 import Bennett_BStatus from './images/Bennett_BStatus.png'
 import Kaeya_BStatus from './images/Kaeya_BStatus.png'
@@ -127,7 +131,7 @@ const db = {
             "name": "Ganyu",
             'na': 'Liutian Archery \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
             'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
-            'burst': "Celestial Shower \n3 Cryo, 2 'Energy' \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
+            'burst': "Celestial Shower \n3 Cryo, 2 Energy \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
             'special': "Normal Attack: Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
             "card": Ganyu_Card,
@@ -144,7 +148,7 @@ const db = {
             "name": 'Diona',
             'na': "Kätzlein Style \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
             'skill': "Icy Paws \n3 Cryo \nDeals 2 Cryo DMG, creates 1 'Cat-Claw Shield'.",
-            'burst': "Signature Mix \n3 Cryo, 3 'Energy' \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Drunken Mist'.",
+            'burst': "Signature Mix \n3 Cryo, 3 Energy \nDeals 1 Cryo DMG, heals this character for 2 HP, summons 1 'Drunken Mist'.",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330023_gcg_high_resolution.webp",
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330023.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334023.webp',
@@ -160,7 +164,7 @@ const db = {
             "name": 'Kaeya',
             'na': "Ceremonial Bladework \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
             'skill': "Frostgnaw \n3 Cryo \nDeals 3 Cryo DMG.",
-            'burst': "Glacial Waltz \n4 Cryo, 2 'Energy' \nDeals 1 Cryo DMG, creates 1 'Icicle'.",
+            'burst': "Glacial Waltz \n4 Cryo, 2 Energy \nDeals 1 Cryo DMG, creates 1 'Icicle'.",
             'hi_res_image': "https://genshin.honeyhunterworld.com/img/i_n330001_gcg_high_resolution.webp",
             "card": Kaeya_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
@@ -176,7 +180,7 @@ const db = {
             "name": 'Chongyun',
             'na': 'Demonbane \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
             'skill': "Chonghua’s Layered Frost \n3 Cryo \nDeals 3 Cryo DMG, creates 1 'Chonghua Frost Field'.",
-            'burst': "Cloud-Parting Star \n3 Cryo, 3 'Energy' \nDeals 7 Cryo DMG.",
+            'burst': "Cloud-Parting Star \n3 Cryo, 3 Energy \nDeals 7 Cryo DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330002_gcg_high_resolution.webp',
             "card": Chongyun_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334002.webp',
@@ -192,7 +196,7 @@ const db = {
             "name": 'Kamisato Ayaka',
             'na': 'Kamisato Art: Kabuki \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
             'skill': 'Kamisato Art: Hyouka \n3 Cryo \nDeals 3 Cryo DMG.',
-            'burst': "Kamisato Art: Soumetsu \n3 Cryo, 3 'Energy'\nDeals 4 Cryo DMG, summons 1 'Frostflake Seki no To'.",
+            'burst': "Kamisato Art: Soumetsu \n3 Cryo, 3 Energy\nDeals 4 Cryo DMG, summons 1 'Frostflake Seki no To'.",
             'special': "Kamisato Art: Senho \n(Passive) \nWhen switched to be the active character, this character gains 'Cryo Infusion.'",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330003_gcg_high_resolution.webp',
             "card": Ayaka_Card,
@@ -217,6 +221,7 @@ const db = {
             "element": "cryo",
             "region": "mond",
             "related": "Grimheart, Lightfall Sword",
+            "flavor": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
             "id": '49'
         },
 
@@ -224,7 +229,7 @@ const db = {
             "name": "Barbara",
             'na': 'Whisper of Water \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Let the Show Begin♪ \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Melody Loop'.",
-            'burst': "Shining Miracle♪ \n3 Hydro, 3 'Energy' \nHeals all of your characters for 4 HP.",
+            'burst': "Shining Miracle♪ \n3 Hydro, 3 Energy \nHeals all of your characters for 4 HP.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330025_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330025.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334025.webp',
@@ -240,7 +245,7 @@ const db = {
             "name": 'Xingqiu',
             'na': 'Guhua Style \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
             'skill': "Fatal Rainscreen \n3 Hydro \nDeals 2 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rain Sword'.",
-            'burst': "Raincutter \n3 Hydro, 2 'Energy' \nDeals 1 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rainbow Bladework'.",
+            'burst': "Raincutter \n3 Hydro, 2 Energy \nDeals 1 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rainbow Bladework'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330004_gcg_high_resolution.webp',
             "card": Xingqiu_Card,
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
@@ -256,7 +261,7 @@ const db = {
             "name": "Mona",
             'na': 'Ripple of Fate \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Mirror Reflection of Doom \n3 Hydro \nDeals 1 Hydro DMG, summons 1 'Reflection'.",
-            'burst': "Stellaris Phantasm \n3 Hydro, 3 'Energy' \nDeals 4 Hydro DMG, creates 1 'Illusory Bubble.",
+            'burst': "Stellaris Phantasm \n3 Hydro, 3 Energy \nDeals 4 Hydro DMG, creates 1 'Illusory Bubble.",
             'special': "Illusory Torrent \n(Passive) \n(Once per Round) When this character switches to another character, this switch is considered a 'Fast Action' instead of a 'Combat Action'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330005_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330005.webp',
@@ -281,14 +286,31 @@ const db = {
             "element": 'hydro',
             "region": "inazuma",
             'related': "Bake-Kurage, Ceremonial Garment",
+            "flavor": "To survive hardship, you must prepare for hardship.",
             "id": '48'
+        },
+
+        "ayato": {
+            "name": "Kamisato Ayato",
+            "na": "Kamisato Art: Marobashi\n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+            'skill': "Kamisato Art: Kyouka\n3 Hydro \nDeals 2 Hydro DMG. This character gains 'Takimeguri Kanka'.",
+            'burst': "Kamisato Art: Suiyuu\n3 Hydro, 3 Energy \nDeals 3 Hydro DMG, summons 1 'Garden of Purity'.",
+            "hi_res_image": 'https://genshin.honeyhunterworld.com/img/i_n330031_gcg_high_resolution.webp',
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330031.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334033.webp',
+            'related': 'Takimeguri Kanka, Garden of Purity',
+            "icon": Xingqiu_Icon,
+            "element": 'hydro',
+            "region": "inazuma",
+            "flavor": "The divinely-blessed cypress sprouts new leaves.",
+            "id": '4F'
         },
 
         "diluc": {
             "name": "Diluc",
             'na': 'Tempered Sword \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': 'Searing Onslaught \n3 Pyro \nDeals 3 Pyro DMG. For the third use of this Skill each Round, deals +2 DMG.',
-            'burst': "Dawn \n4 Pyro, 3 'Energy' \nDeals 8 Pyro DMG. This character gains 'Pyro Infusion'.",
+            'burst': "Dawn \n4 Pyro, 3 Energy \nDeals 8 Pyro DMG. This character gains 'Pyro Infusion'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330006_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330006.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
@@ -304,7 +326,7 @@ const db = {
             "name": "Xiangling",
             'na': 'Dough-Fu \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': "Guoba Attack \n3 Pyro \nSummons 1 'Guoba'.",
-            'burst': "Pyronado \n4 Pyro, 2 'Energy' \nDeals 2 Pyro DMG, creates 1 'Pyronado'.",
+            'burst': "Pyronado \n4 Pyro, 2 Energy \nDeals 2 Pyro DMG, creates 1 'Pyronado'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330007_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330007.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334007.webp',
@@ -320,7 +342,7 @@ const db = {
             "name": "Bennett",
             'na': 'Strike of Fortune \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': 'Passion Overload \n3 Pyro \nDeals 3 Pyro DMG.',
-            'burst': "Fantastic Voyage \n4 Pyro, 2 'Energy' \nDeals 2 Pyro DMG, creates 1 'Inspiration Field'.",
+            'burst': "Fantastic Voyage \n4 Pyro, 2 Energy \nDeals 2 Pyro DMG, creates 1 'Inspiration Field'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330008_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330008.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
@@ -336,7 +358,7 @@ const db = {
             "name": 'Yoimiya',
             'na': 'Firework Flare-Up \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': "Niwabi Fire-Dance \n1 Pyro \nThis character gains 'Niwabi Enshou'. (This Skill does not grant Energy)",
-            'burst': "Ryuukin Saxifrage \n4 Pyro, 3 'Energy' \nDeals 4 Pyro DMG, creates 1 'Aurous Blaze'.",
+            'burst': "Ryuukin Saxifrage \n4 Pyro, 3 Energy \nDeals 4 Pyro DMG, creates 1 'Aurous Blaze'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330010_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330010.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334010.webp',
@@ -352,7 +374,7 @@ const db = {
             "name": "Klee",
             "na": 'Kaboom!\n2 Black, 1 Pyro \nDeals 1 Pyro DMG.',
             "skill": "Jumpy Dumpty\n3 Pyro \nDeals 3 Pyro DMG. This character gains 'Explosive Spark'.",
-            "burst": "Sparks'n'Splash\n3 Pyro, 3 'Energy'\nDeals 3 Pyro DMG, creates 1 'Sparks'n'Splash' at the opponent's play area.",
+            "burst": "Sparks'n'Splash\n3 Pyro, 3 Energy\nDeals 3 Pyro DMG, creates 1 'Sparks'n'Splash' at the opponent's play area.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330032_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330032.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334029.webp',
@@ -368,7 +390,7 @@ const db = {
             "name": "Fischl",
             'na': 'Bolts of Downfall \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': "Nightrider \n3 Electro \nDeals 1 Electro DMG, summons 1 'Oz'.",
-            'burst': "Midnight Phantasmagoria \n3 Electro, 3 'Energy' \nDeals 4 Electro DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
+            'burst': "Midnight Phantasmagoria \n3 Electro, 3 Energy \nDeals 4 Electro DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330011_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330011.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
@@ -384,7 +406,7 @@ const db = {
             "name": "Razor",
             'na': 'Steel Fang \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': 'Claw and Thunder \n3 Electro \nDeals 3 Electro DMG.',
-            'burst': "Lightning Fang \n3 Electro, 3 'Energy' \nDeals 5 Electro DMG. This character gains 'The Wolf Within'.",
+            'burst': "Lightning Fang \n3 Electro, 3 Energy \nDeals 5 Electro DMG. This character gains 'The Wolf Within'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330012_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330012.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
@@ -400,7 +422,7 @@ const db = {
             "name": "Keqing",
             'na': 'Yunlai Swordsmanship \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': "Stellar Restoration \n3 Electro \nDeals 3 Electro DMG, create 1 'Lightning Stilleto'.",
-            'burst': "Starward Sword \n4 Electro, 3 'Energy' \nDeals 4 Electro DMG, deals 3 'Piercing DMG' to all opposing characters on standby.",
+            'burst': "Starward Sword \n4 Electro, 3 Energy \nDeals 4 Electro DMG, deals 3 'Piercing DMG' to all opposing characters on standby.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330013_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330013.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334013.webp',
@@ -416,7 +438,7 @@ const db = {
             "name": "Cyno",
             'na': 'Invoker’s Spear\n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             'skill': 'Secret Rite: Chasmic Soulfarer\n3 Electro \nDeals 3 Electro DMG.',
-            'burst': "Sacred Rite: Wolf’s Swiftness\n4 Electro, 2 'Energy' \nDeals 4 Electro DMG. Pactsworn Pathclearer's Indwelling Level +2.",
+            'burst': "Sacred Rite: Wolf’s Swiftness\n4 Electro, 2 Energy \nDeals 4 Electro DMG. Pactsworn Pathclearer's Indwelling Level +2.",
             'special': "Lawful Enforcer \n(Passive) \nWhen the battle begins, this character gains 'Pactsworn Pathclearer'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330024_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330024.webp',
@@ -433,7 +455,7 @@ const db = {
             "name": "Beidou",
             "na": 'Oceanborne\n2 Black, 1 Electro \nDeals 2 Physical DMG.',
             "skill": "Tidecaller\n3 Electro \nThis character gains 'Tidecaller: Surf Embrace'. Prepare Skill: Wavestrider.",
-            "burst": "Stormbreaker\n4 Electro, 3 'Energy'\nDeals 3 Electro DMG, creates 1 'Thunderbeast's Targe'.",
+            "burst": "Stormbreaker\n4 Electro, 3 Energy\nDeals 3 Electro DMG, creates 1 'Thunderbeast's Targe'.",
             "special": "Wavestrider\n(Prepare for 1 turn)\nDeal 2 Electro DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330034_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330034.webp',
@@ -458,6 +480,7 @@ const db = {
             "element": 'electro',
             "region": "inazuma",
             'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowfeather Cover",
+            "flavor": "“This is an act of righteousness.”",
             "id": '47'
         },
 
@@ -465,7 +488,7 @@ const db = {
             "name": "Sucrose",
             'na': 'Wind Spirit Creation \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.',
             'skill': 'Astable Anemohypostasis Creation – 6308 \n3 Anemo \nDeals 3 Anemo DMG, the target is forcibly switched to the previous character.',
-            'burst': "Forbidden Creation – Isomer 75 / Type II \n3 Anemo, 2 'Energy' \nDeals 1 Anemo DMG, summons 1 'Large Wind Spirit.'",
+            'burst': "Forbidden Creation – Isomer 75 / Type II \n3 Anemo, 2 Energy \nDeals 1 Anemo DMG, summons 1 'Large Wind Spirit.'",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330014_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330014.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
@@ -481,7 +504,7 @@ const db = {
             "name": "Jean",
             'na': 'Favonius Bladework \n2 Black, 1 Anemo \nDeals 2 Physical DMG.',
             'skill': 'Gale Blade \n3 Anemo \nDeals 3 Anemo DMG, the target is forcibly switched to the next character.',
-            'burst': "Dandelion Breeze \n4 Anemo, 3 'Energy' \nHeals all your characters for 2 HP, summons 1 'Dandelion Field'.",
+            'burst': "Dandelion Breeze \n4 Anemo, 3 Energy \nHeals all your characters for 2 HP, summons 1 'Dandelion Field'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330015_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330015.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334015.webp',
@@ -497,7 +520,7 @@ const db = {
             "name": "Noelle",
             'na': 'Favonius Bladework – Maid \n2 Black, 1 Geo \nDeals 2 Physical DMG.',
             'skill': "Breastplate \n3 Geo \nDeals 1 Geo DMG, creates 1 'Full Plate'.",
-            'burst': "Sweeping Time \n4 Geo, 2 'Energy' \nDeals 4 Geo DMG. This character gains 'Sweeping Time'.",
+            'burst': "Sweeping Time \n4 Geo, 2 Energy \nDeals 4 Geo DMG. This character gains 'Sweeping Time'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330017_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330017.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334017.webp',
@@ -512,7 +535,7 @@ const db = {
             "name": "Ningguang",
             'na': 'Sparkling Scatter \n2 Black, 1 Geo \nDeals 1 Geo DMG.',
             'skill': "Jade Screen \n3 Geo \nDeals 2 Geo DMG, creates 1 'Jade Screen'.",
-            'burst': "Starshatter \n3 Geo, 3 'Energy' \nDeals 6 Geo DMG. If 'Jade Screen' is on the field, deals +2 DMG.",
+            'burst': "Starshatter \n3 Geo, 3 Energy \nDeals 6 Geo DMG. If 'Jade Screen' is on the field, deals +2 DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330016_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330016.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334016.webp',
@@ -524,11 +547,27 @@ const db = {
             "id": '0O'        
         },
 
+        "itto": {
+            "name": "Arataki Itto",
+            'na': 'Fight Club Legend \n2 Black, 1 Geo \n Deals 2 Physical DMG.',
+            'skill': "Masatsu Zetsugi: Akaushi Burst! \n3 Geo \nDeals 1 Geo DMG. Summons 'Ushi'. This character gains 'Superlative Superstrength'.",
+            'burst': "Royal Descent: Behold, Itto the Evil!\n3 Geo, 3 Energy \nDeals 5 Geo DMG. This character gains 'Raging Oni King'.",
+            'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330042_gcg_high_resolution.webp',
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330042.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334034.webp',
+            "icon": Noelle_Icon,
+            "element": 'geo',
+            "region": 'inazuma',
+            'related': "Ushi, Superlative Superstrength, Raging Oni King",
+            'flavor': "Arataki \"The Ultimate TCG Champion\" Itto",
+            "id": '4G'
+        },
+
         "collei": {
             "name": "Collei",
             'na': 'Supplicant’s Bowmanship \n2 Black, 1 Dendro \nDeals 2 Physical DMG.',
             'skill': 'Floral Brush \n3 Dendro \nDeals 3 Dendro DMG.',
-            'burst': "Trump-Card Kitty \n3 Dendro, 2 'Energy' \nDeals 2 Dendro DMG, summons 1 'Cuilein-Anbar.",
+            'burst': "Trump-Card Kitty \n3 Dendro, 2 Energy \nDeals 2 Dendro DMG, summons 1 'Cuilein-Anbar.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330018_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330018.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334018.webp',
@@ -540,11 +579,27 @@ const db = {
             "id": '0Q'        
         },
 
+        "tighnari": {
+            "name": "Tighnari",
+            "na": "Khanda Barrier-Buster\n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+            "skill": "Vijnana-Phala Mine \n3 Dendro \nDeals 2 Dendro DMG. This character gains 'Vijnana Suffusion'.",
+            "burst": "Fashioner's Tanglevine Shaft \n 3 Dendro, 2 Energy \n Deals 4 Dendro DMG, deals 1 Piercing DMG to all opposing characters on standby.",
+            'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330043_gcg_high_resolution.webp',
+            "card": 'https://genshin.honeyhunterworld.com/img/i_n330043.webp',
+            "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334035.webp',
+            "icon": Collei_Icon,
+            "element": 'dendro',
+            "region": 'sumeru',
+            'related': 'Vijnana Suffusion, Clusterbloom Arrow',
+            "flavor": "From a certain perspective, experience does not hold parity with wisdom.",
+            "id": '4H'  
+        },
+
         "oceanid": {
             "name": "Rhodeia of Loch",
             'na': 'Surge \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Oceanid Mimic Summoning \n3 Hydro \nRandomly summons 1 'Oceanid Mimic' (Prioritizes summoning a different type from preexisting ones).",
-            'burst': "Tide and Torrent \n3 Hydro, 3 'Energy' \nDeals 2 Hydro DMG. For each Summon on your field, deals +2 additional DMG.",
+            'burst': "Tide and Torrent \n3 Hydro, 3 Energy \nDeals 2 Hydro DMG. For each Summon on your field, deals +2 additional DMG.",
             'special': "Elemental Skill: The Myriad Wilds \n5 Hydro \nRandomly summons 2 'Oceanid Mimics' (Prioritizes summoning different types).",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330019_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330019.webp',
@@ -561,7 +616,7 @@ const db = {
             "name": "Mirror Maiden",
             'na': 'Water Ball \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
             'skill': "Influx Blast \n3 Hydro \nDeals 3 Hydro DMG. The target character receives 'Refraction'.",
-            'burst': "Rippled Reflection \n3 Hydro, 2 'Energy' \nDeals 5 Hydro DMG.",
+            'burst': "Rippled Reflection \n3 Hydro, 2 Energy \nDeals 5 Hydro DMG.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330026_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330026.webp',
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334026.webp',
@@ -577,7 +632,7 @@ const db = {
             "name": "Fatui Pyro Agent",
             'na': 'Thrust \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
             'skill': "Prowl \n3 Pyro \nDeals 1 Pyro DMG. This character gains 'Stealth'.",
-            'burst': "Blade Ablaze \n3 Pyro, 2 'Energy' \nDeals 5 Pyro DMG.",
+            'burst': "Blade Ablaze \n3 Pyro, 2 Energy \nDeals 5 Pyro DMG.",
             'special': "Stealth Master \n(Passive) \nWhen the battle begins, this character gains 'Stealth'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330020_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330020.webp',
@@ -594,7 +649,7 @@ const db = {
             "name": 'Maguu Kenki',
             'na': 'Ichimonji\n2 Black, 1 Anemo \nDeals 2 Physical DMG.',
             'skill': "Blustering Blade\n3 Anemo \nSummons 1 'Shadowsword: Lone Gale'.",
-            'burst': "False Tengu Sweeper\n3 Anemo, 3 'Energy' \nDeals 4 Anemo DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
+            'burst': "False Tengu Sweeper\n3 Anemo, 3 Energy \nDeals 4 Anemo DMG, triggers the effect(s) of all your Shadowsword Summon(s). (Does not consume their Usages)",
             'special': "Elemental Skill: Frosty Assault\n3 Cryo\nSummons 1 'Shadowsword: Galloping Frost'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330021_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330021.webp',
@@ -611,7 +666,7 @@ const db = {
             "name": "Stonehide Lawachurl",
             'na': 'Plama Lawa \n2 Black, 1 Geo \nDeals 2 Physical DMG.',
             'skill': 'Movo Lawa \n3 Geo \nDeals 3 Physical DMG.',
-            'burst': "Upa Shato \n3 Geo, 2 'Energy' \nDeals 5 Physical DMG.",
+            'burst': "Upa Shato \n3 Geo, 2 Energy \nDeals 5 Physical DMG.",
             'special': "Infused Stonehide \n(Passive) \nWhen the battle begins, this character gains 'Stonehide' and 'Stone Force'.\n\nNote: This character starts the battle with 8 HP.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330022_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330022.webp',
@@ -627,8 +682,8 @@ const db = {
         "terrorshroom": {
             "name": "Jadeplume Terrorshroom",
             'na': 'Majestic Dance\n2 Black, 1 Dendro \nDeals 2 Physical DMG.',
-            'skill': 'Volatile Spore Cloud\n 3 Dendro \nDeals 3 Dendro DMG.',
-            'burst': "Feather Spreading \n3 Dendro, 2 'Energy' \nDeals 4 Dendro DMG, then consumes all 'Radical Vitality' stacks. For each stack consumed, deals +1 DMG.",
+            'skill': 'Volatile Spore Cloud\n3 Dendro \nDeals 3 Dendro DMG.',
+            'burst': "Feather Spreading \n3 Dendro, 2 Energy \nDeals 4 Dendro DMG, then consumes all 'Radical Vitality' stacks. For each stack consumed, deals +1 DMG.",
             'special': "Radical Vitality \n(Passive) \nWhen the battle begins, this character gains 'Radical Vtality'.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330027_gcg_high_resolution.webp',
             "card": 'https://genshin.honeyhunterworld.com/img/i_n330027.webp',
@@ -640,14 +695,6 @@ const db = {
             "flavor": "If you keep silent and listen closely, you can here the sound of the ruler of the Shroom-Kin inspecting its territory…",
             "id": '0R'        
         },
-
-        // "ayato": {
-        //     "name": "Kamisato Ayato",
-        //     "na": "",
-        //     "high_res_image": 'https://genshin.honeyhunterworld.com/img/i_n330031_gcg_high_resolution.webp',
-        //     "card": 'https://genshin.honeyhunterworld.com/img/i_n330031.webp',
-        //     "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334033.webp',
-        // }
     },
 
     "actions": {
@@ -724,7 +771,7 @@ const db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330528_gcg_high_resolution.webp",
             "cost": '3 Cryo 2 Energy',
             "description": "'Combat Action': When your active character is Eula, equip this card.\n\nAfter Eula equips this card, immediately use 'Elemental Burst: Glacial Illumination' once.\n\nWhen your Eula, who has this card equipped, uses Icetide Vortex, this will generate 1 more Zeal for Lightfall Sword.\n\n(You must have Eula in your deck to add this card to your deck.)",
-            "flavor": "",
+            "flavor": "Flood of frost will ensure that vengeance is mine.",
             "required": "eula",
             "id": '4A' 
         },
@@ -776,9 +823,22 @@ const db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330529_gcg_high_resolution.webp",
             "cost": '3 Hydro 2 Energy',
             "description": "'Combat Action': When your active character is Sangonomiya Kokomi, equip this card.\n\nAfter Sangonomiya Kokomi equips this card, immediately use 'Elemental Burst: Nereid's Ascension' once.\n\nWhen your Sangonomiya Kokomi, who has this card equipped, uses Nereid's Ascension while Bake-Kurage is on the field, its Usages will be reset. While Ceremonial Garment exists, Bake-Kurage deals +1 DMG.\n\n(You must have Sangonomiya Kokomi in your deck to add this card to your deck.)",
-            "flavor": "",
+            "flavor": "Wisdom yet revealed from the casket parallels tides yet unfolded by the sea.",
             "required": "kokomi",
             "id": '4B'
+        },
+
+        "kyoukafuushi": {
+            "name": "Kyouka Fuushi",
+            "tags": ['modify', 'talent', 'slowly'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n330538.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334533.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330538_gcg_high_resolution.webp",
+            "cost": '3 Hydro',
+            "description": "'Combat Action': When your active character is Kamisato Ayato, equip this card.\n\nAfter Kamisato Ayato equips this card, immediately use 'Elemental Skill: Kamisato Art: Kyouka' once.\n\nWhen your Kamisato Ayato, who has this card equipped, triggers the effects of 'Takimeguri Kanka', deal +1 additional DMG if the target's remaining HP is equal to or less than 6.\n\n(You must have Kamisato Ayato in your deck to add this card to your deck.)",
+            "flavor": "The courtyard remains fragrant even in the bitterest winter.",
+            "required": "ayato",
+            "id": '4I'
         },
         
         "flowingflame": {
@@ -919,7 +979,7 @@ const db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330537_gcg_high_resolution.webp",
             "cost": '4 Electro 2 Energy',
             "description": "'Combat Action': When your active character is Kujou Sara, equip this card.\n\nAfter Kujou Sara equips this card, immediately use 'Elemental Burst: Subjugation: Koukou Sendou' once.\n\nIf a friendly Electro character has Crowfeather Cover attached, their Elemental Skill and Elemental Burst deal +1 additional DMG.\n\n(You must have Kujou Sara in your deck to add this card to your deck.)",
-            "flavor": "",
+            "flavor": "“With this unity between my mind, arrow, and bow, any enemy will be struck down!”",
             "required": "sara",
             "id": '4C' 
         },
@@ -975,6 +1035,19 @@ const db = {
             "required": "noelle",
             "id": '18'        
         },
+
+        "aratakiichiban": {
+            "name": "Arataki Ichiban",
+            "tags": ['modify', 'talent', 'slowly'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n330539.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334534.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330539_gcg_high_resolution.webp",
+            "cost": '2 Black 1 Geo',
+            "description": "'Combat Action': When your active character is Arataki Itto, equip this card.\n\nAfter Arataki Itto equips this card, immediately use 'Normal Attack: Fight Club Legend' once.\n\nAfter your Arataki Itto, who has this card equipped, uses 'Fight Club Legend' for the second time or more in one Round: If 'Superlative Superstrength' is triggered, deal +1 additional DMG.\n\n(You must have Arataki Itto in your deck to add this card to your deck.)",
+            "flavor": "Whatever you do, remember to ride the momentum.",
+            "required": "itto",
+            "id": '4J'        
+        },
         
         "floralsidewinder": {
             "name": "Floral Sidewinder",
@@ -987,6 +1060,19 @@ const db = {
             "flavor": "Never underestimate Collei, and never underestimate her cat.",
             "required": "collei",
             "id": '19'        
+        },
+
+        "keensight": {
+            "name": "Keen Sight",
+            "tags": ['modify', 'talent', 'slowly'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n330535.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334535.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330535_gcg_high_resolution.webp",
+            "cost": '4 Dendro',
+            "description": "'Combat Action': When your active character is Tighnari, equip this card.\n\nAfter Tighnari equips this card, immediately use 'Elemental Skill: Vijnana-Phala Mine' once.\n\nWhen your Tighnari, who has this card equipped, is affected by 'Vijnana Suffusion', the character's Charged Attack costs 1 less Unaligned Element.\n\n(You must have Tighnari in your deck to add this card to your deck.)",
+            "flavor": "Mistakes are part of learning... However, these mistakes should be corrected upon being discovered.",
+            "required": "tighnari",
+            "id": '4K'        
         },
         
         "streamingsurge": {
@@ -1234,6 +1320,18 @@ const db = {
             "flavor": "This blade was just a prop before its blade was sharpened by the passage of time.",
             "id": '1W'        
         },
+
+        "favoniussword": {
+            "name": "Favonius Sword",
+            "tags": ['modify', 'weapon', 'weapon_sword'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n331045.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335037.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331045_gcg_high_resolution.webp",
+            "cost": '3 White',
+            "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Skill: The character gains 1 additional Energy. (Once per Round)\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
+            "flavor": "\"Legend has it that the knight that bore the title of Wolf Pup could cleave even raindrops with his blade, and the gales spurred by his blows were strong enough to snap roses. Though none could match the heights of the Wolf Pup's prowess, the knights bear his oath of protection yet, his legacy lasting even to the present.\"",
+            "id": '4L'
+        },
         
         "aquilafavonia": {
             "name": "Aquila Favonia",
@@ -1314,7 +1412,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335020.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331020_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "After this character uses an Elemental Burst: All your characters on standby gain 1 'Energy'. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
+            "description": "After this character uses an Elemental Burst: All your characters on standby gain 1 Energy. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“Woe to thee, oh great hall with silver piled high! Why is your crown drenched in blood?”",
             "id": '23'        
         },
@@ -1582,6 +1680,18 @@ const db = {
             "flavor": "“If you speak sincerely into the wind, your words will surely reach the archon’s ear one day.”",
             "id": '2N'        
         },
+
+        "grandnarukamishrine": {
+            "name": "Grand Narukami Shrine",
+            "tags": ['assist', 'place'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n332020.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336020.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332020_gcg_high_resolution.webp",
+            "cost": '2 White',
+            "description": "Triggers automatically once per Round: Create 1 random Elemental Die.\n\nUsage(s)：3",
+            "flavor": "\"May Mt. Yougou flourish eternal, and may its glory be everlasting.\"",
+            "id": '4M'
+        },
         
         "paimon": {
             "name": "Paimon",
@@ -1710,7 +1820,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "End Phase: One of your characters without maximum energy gains 1 'Energy'. (Active Character prioritized) \n\n'Usage(s)': 2",
+            "description": "End Phase: One of your characters without maximum energy gains 1 Energy. (Active Character prioritized) \n\n'Usage(s)': 2",
             "flavor": "“Listen, I’ll tell you how is it… Let me show you real storytelling tradition!”",
             "id": '2Y'        
         },
@@ -1722,7 +1832,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332017_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "After you switch characters: If the character you switched to does not have 'Energy', they will gain 1 'Energy'. (Once per Round)\n\n'Usage(s)': 2",
+            "description": "After you switch characters: If the character you switched to does not have Energy, they will gain 1 Energy. (Once per Round)\n\n'Usage(s)': 2",
             "flavor": "“Well then, dear guests, what would you all like to hear next?”",
             "id": '2Z'        
         },
@@ -1849,7 +1959,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333007_gcg_high_resolution.webp",
             "cost": '1 Electro',
-            "description": "One of your characters without maximum Energy gains 1 'Energy'. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)",
+            "description": "One of your characters without maximum Energy gains 1 Energy. (Active Character prioritized) \n\n(You must have at least 2 Electro characters in your deck to add this card to your deck.)",
             "flavor": "The storm rises in majesty.",
             "required": "2electro",
             "id": '39'        
@@ -1988,7 +2098,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337018.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333018_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Element' ×1 and your current active character gains 1 'Energy'.",
+            "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Element' ×1 and your current active character gains 1 Energy.",
             "flavor": "Arataki “He Might Lose but He’ll Never Admit Defeatto” is always game for another round!",
             "id": '3K'        
         },
@@ -2024,7 +2134,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337021.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333021_gcg_high_resolution.webp",
             "cost": '2 Black',
-            "description": "Your current active character gains 1 'Energy'.",
+            "description": "Your current active character gains 1 Energy.",
             "flavor": "“This is destiny, and it cannot be defied.”",
             "id": '3N'        
         },
@@ -2036,7 +2146,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337022.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333022_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "Shift 1 'Energy' from at most 2 of your characters on standby to your active character.",
+            "description": "Shift 1 Energy from at most 2 of your characters on standby to your active character.",
             "flavor": "“Not to worry. The experiment has been completed, and it is — if I may say so — a great success.”",
             "id": '3O'        
         },
@@ -2511,7 +2621,7 @@ const db = {
         "explosivespark": {
             "name": "Explosive Spark",
             "type": "Status",
-            "description": "When the character to which this is attached uses a Charged Attack: Spend 1 less Pyro Die and deal +1 DMG. \n\n'Usage(s)': 1 \n\nCharge Attack: When the total number of Elemental Dice is even, the Normal Attack to use will be considered a Charged Attack.",
+            "description": "When the character to which this is attached uses a Charged Attack: Spend 1 less Pyro Die and deal +1 DMG. \n\n'Usage(s)': 1 \n\nCharged Attack: When the total number of your Elemental Dice is even, the Normal Attack to use will be considered a Charged Attack.",
             "related": "Klee"
         },
         "sparks'n'splash": {
@@ -2578,7 +2688,53 @@ const db = {
             "name": "Lightfall Sword",
             "type": "Summon",
             "description": "When Eula uses a Skill, this card will accumulate 2 Zeal stacks, but Eula will be unable to receive Energy. End Phase: Discard this card and deal 2 Physical DMG. Each Zeal stack adds 1 DMG to this damage instance.",
-            "related": "Eula"
+            "related": "Eula",
+            "image": Eula_Summon
+        },
+        "takimegurikanka": {
+            "name": "Takimeguri Kanka",
+            "type": "Status",
+            "description": "The character to which this is attached has their Normal Attacks deal +1 DMG, and their Physical DMG dealt converted to Hydro DMG. \n\nUsage(s): 2",
+            "related": "Kamisato Ayato",
+        },
+        "gardenofpurity": {
+            "name": "Garden of Purity",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Hydro DMG. \n\nUsage(s): 2 \n\nWhen this Summon is on the field: Your characters' Normal Attacks deal +1 DMG.",
+            "related": "Kamisato Ayato",
+            // "image": Ayato_Summon
+        },
+        "ushi": {
+            "name": "Ushi",
+            "type": "Summon",
+            "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your active character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
+            "related": "Arataki Itto",
+            // "image": Itto_Summon
+        },  
+        "superlativesuperstrength": {
+            "name": "Superlative Superstrength",
+            "type": "Status",
+            "description": "When the character to which this is attached uses a Charged Attack: Deal +1 DMG. If the Usage(s) are no less than 2, expend 1 less Unaligned Element. \n\nUsage(s): 1 (Can stack. Max 3 stacks.)\n\nCharged Attack: When the total number of your Elemental Dice is even, the Normal Attack to use will be considered a Charged Attack.",
+            "related": "Arataki Itto"
+        },
+        "ragingoniking": {
+            "name": "Raging Oni King",
+            "type": "Status",
+            "description": "The character to which this is attached has their Normal Attacks deal +2 DMG, and their Physical DMG dealt converted to Geo DMG. \n\nDuration (Rounds): 2 \n\nAfter the character to which this is attached uses a Normal Attack: Gains Superlative Superstrength. (Once per Round)",
+            "related": "Arataki Itto"
+        },
+        'vijnanasuffusion': {
+            "name": "Vijnana Suffusion",
+            "type": "Status", 
+            "description": "When the character to which this is attached uses a Charged Attack: Their Physical DMG dealt will be converted to Dendro DMG and after the Skill DMG is finalized, summon 1 'Clusterbloom Arrow'. \n\nUsage(s): 2\n\nCharged Attack: When the total number of your Elemental Dice is even, the Normal Attack to use will be considered a Charged Attack.",
+            "related": "Tighnari"
+        },
+        'clusterbloomarrow': {
+            "name": "Clusterbloom Arrow",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Dendro DMG. \n\nUsage(s): 1 (Can stack. Max 2 stacks.)",
+            "related": "Tighnari",
+            // "image": Tighnari_Summon
         }
     },
 
@@ -2626,7 +2782,7 @@ const db = {
         'omni': Omni_Dice,
         'white': White_Dice,
         'black': Black_Dice,
-        'energy': Energy
+        Energy: Energy
     },
 
     "menu": {
