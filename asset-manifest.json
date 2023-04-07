@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ef0cdba9.css",
-    "main.js": "/static/js/main.343bfce6.js",
+    "main.js": "/static/js/main.81690402.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -51,10 +51,12 @@
     "static/media/Klee_Icon.png": "/static/media/Klee_Icon.3e9b17ef84048dd9c42c.png",
     "static/media/Cyno_Icon.png": "/static/media/Cyno_Icon.8008cfda8fdeeacae23e.png",
     "static/media/Mirrormaiden_Icon.png": "/static/media/Mirrormaiden_Icon.e59e3a640ee6b4b220bc.png",
+    "static/media/Itto_Icon.png": "/static/media/Itto_Icon.d1fedf857dbdbc4f245c.png",
     "static/media/Eula_Icon.png": "/static/media/Eula_Icon.08b73d5b7ea3bf39ea2a.png",
     "static/media/Jean_Icon.png": "/static/media/Jean_Icon.0b6b6bb06e167763b48a.png",
     "static/media/Oceanoid_Icon.png": "/static/media/Oceanoid_Icon.61ff12811771c79dc803.png",
     "static/media/Barbara_Icon.png": "/static/media/Barbara_Icon.7cd7bf952ae826204138.png",
+    "static/media/Ayato_Icon.png": "/static/media/Ayato_Icon.409df5dd66f0b1fbd7a3.png",
     "static/media/Fischl_Icon.png": "/static/media/Fischl_Icon.07ca0bfae21fb09cd192.png",
     "static/media/Keqing_Icon.png": "/static/media/Keqing_Icon.10775e6609eae15734ac.png",
     "static/media/Ningguang_Icon.png": "/static/media/Ningguang_Icon.1937cd1f158b7b500673.png",
@@ -98,10 +100,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.ef0cdba9.css.map": "/static/css/main.ef0cdba9.css.map",
-    "main.343bfce6.js.map": "/static/js/main.343bfce6.js.map"
+    "main.81690402.js.map": "/static/js/main.81690402.js.map"
   },
   "entrypoints": [
     "static/css/main.ef0cdba9.css",
-    "static/js/main.343bfce6.js"
+    "static/js/main.81690402.js"
   ]
 }
