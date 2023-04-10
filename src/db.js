@@ -281,7 +281,7 @@ const db = {
             "name": "Sangonomiya Kokomi",
             "na": "The Shape of Water\n2 Black, 1 Hydro \nDeals 1 Hydro DMG.",
             "skill": "Kurage's Oath\n3 Hydro \nThis character gains Hydro Application and summons 1 Bake-Kurage.",
-            "burst": "Nereid's Ascension\n3 Hydro, 2 Energy\n Deals 3 Hydro DMG. this character gains Ceremonial Garment.",
+            "burst": "Nereid's Ascension\n3 Hydro, 2 Energy\n Deals 2 Hydro DMG. Heal all allied characters for 1 point. This character gains Ceremonial Garment.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330030_gcg_high_resolution.webp',
             "card": "https://genshin.honeyhunterworld.com/img/i_n330030.webp",
             "card_selected": "https://genshin.honeyhunterworld.com/img/i_n334031.webp",
@@ -981,7 +981,7 @@ const db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334532.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330537_gcg_high_resolution.webp",
             "cost": '4 Electro 2 Energy',
-            "description": "'Combat Action': When your active character is Kujou Sara, equip this card.\n\nAfter Kujou Sara equips this card, immediately use 'Elemental Burst: Subjugation: Koukou Sendou' once.\n\nIf a friendly Electro character has Crowfeather Cover attached, their Elemental Skill and Elemental Burst deal +1 additional DMG.\n\n(You must have Kujou Sara in your deck to add this card to your deck.)",
+            "description": "'Combat Action': When your active character is Kujou Sara, equip this card.\n\nAfter Kujou Sara equips this card, immediately use 'Elemental Burst: Subjugation: Koukou Sendou' once.\n\nWhen Kujou Sara is active and has this card equipped, all allied Electro characters with Crowfeather Cover will deal +1 additional Elemental Skill and Elemental Burst DMG.\n\n(You must have Kujou Sara in your deck to add this card to your deck.)",
             "flavor": "“With this unity between my mind, arrow, and bow, any enemy will be struck down!”",
             "required": "sara",
             "id": '4C' 
@@ -1462,7 +1462,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331022.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335022.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331022_gcg_high_resolution.webp",
-            "cost": '3 White',
+            "cost": '3 Black',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Cryo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Cryo Dice.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“…Then please, live on. Do not accompany us unto our doom — to languish forgotten in the snow.”",
             "id": '25'        
@@ -1486,7 +1486,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331024.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335024.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331024_gcg_high_resolution.webp",
-            "cost": '3 White',
+            "cost": '3 Black',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Hydro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Hydro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“For all deaths are in vain. There is no saving those who indulge in the past.”",
             "id": '27'        
@@ -1510,7 +1510,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331026_gcg_high_resolution.webp",
-            "cost": '3 White',
+            "cost": '3 Black',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Pyro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Pyro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“I will sing no elegies. I refuse laments. I shall not sigh. I have no use for pointless noise.\nIf justice is long dead, then to whom can I offer redemption?”",
             "id": '29'        
@@ -1534,7 +1534,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331028.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331028_gcg_high_resolution.webp",
-            "cost": '3 White',
+            "cost": '3 Black',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Electro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Electro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“Then I shall sing you another tune — when you come again with thunder and rain!”",
             "id": '2B'        
@@ -1558,7 +1558,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331030_gcg_high_resolution.webp",
-            "cost": '3 White',
+            "cost": '3 Black',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Anemo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Anemo Dice.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“One day, in those boundless hunting grounds… we will meet again.”",
             "id": '2D'        
@@ -1582,7 +1582,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331032.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331032_gcg_high_resolution.webp",
-            "cost": '3 White',
+            "cost": '3 Black',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Geo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Geo Dice.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“While the Millelith stands guard, evil shall never prevail!”",
             "id": '2F'        
@@ -1606,7 +1606,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n331034.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335034.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331034_gcg_high_resolution.webp",
-            "cost": '3 White',
+            "cost": '3 Black',
             "description": "When a character uses a Skill or equips a Talent: Spend 1 less Dendro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Dendro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
             "flavor": "“For all those who follow nature must pass through the maze of the forest and reach that endless plain.”",
             "id": '2H'        
@@ -1714,7 +1714,7 @@ const db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332007_gcg_high_resolution.webp",
-            "cost": '2 Black',
+            "cost": '1 White',
             "description": "When you switch characters: This switch is considered a 'Fast Action' instead of a 'Combat Action'. (Once per Round)",
             "flavor": "“Ad astra abyssosque! Welcome to the Adventurers’ Guild.”",
             "id": '2P'        
@@ -2443,7 +2443,7 @@ const db = {
         "rainbowbladework": {
             "name": "Rainbow Bladework",
             "type": "Combat Status",
-            "description": "After your active character uses a normal attack: Deal 2 Hydro DMG. \n\n'Usage(s)': 3",
+            "description": "After your active character uses a normal attack: Deal 1 Hydro DMG. \n\n'Usage(s)': 3",
             "related": "Xingqiu",
             "image": Xingqiu_BStatus1
         },
@@ -2630,7 +2630,7 @@ const db = {
         "sparks'n'splash": {
             "name": "Sparks'n'Splash",
             "type": "Combat Status",
-            "description": "After your character uses a Skill: Deal 2 Pyro DMG to the active character. \n\n'Usage(s)': 2",
+            "description": "After a character to which Sparks 'n' Splash is attached uses a Skill: Deals 2 Pyro DMG to their team's active character. \n\n'Usage(s)': 2",
             "related": "Klee",
             "image": Klee_Status
         },

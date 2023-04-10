@@ -66,14 +66,16 @@
     white-space: pre;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-300%, -50%);
     margin: 0;
     text-align: left;
     color: white;
     font-family: 'Helvetica';
     padding: 0;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 23px;
+    /* -webkit-text-stroke: 1px black; */
+    text-shadow: 2px 2px black;
 }
 
 .ActionBlockCost {
