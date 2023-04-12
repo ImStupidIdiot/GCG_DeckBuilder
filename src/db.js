@@ -1323,18 +1323,6 @@ const db = {
             "flavor": "This blade was just a prop before its blade was sharpened by the passage of time.",
             "id": '1W'        
         },
-
-        "favoniussword": {
-            "name": "Favonius Sword",
-            "tags": ['modify', 'weapon', 'weapon_sword'],
-            "image": "https://genshin.honeyhunterworld.com/img/i_n331045.webp",
-            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335037.webp",
-            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331045_gcg_high_resolution.webp",
-            "cost": '3 White',
-            "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Skill: The character gains 1 additional Energy. (Once per Round)\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": "\"Legend has it that the knight that bore the title of Wolf Pup could cleave even raindrops with his blade, and the gales spurred by his blows were strong enough to snap roses. Though none could match the heights of the Wolf Pup's prowess, the knights bear his oath of protection yet, his legacy lasting even to the present.\"",
-            "id": '4L'
-        },
         
         "aquilafavonia": {
             "name": "Aquila Favonia",
@@ -1346,6 +1334,18 @@ const db = {
             "description": "The character deals +1 DMG.\n\nAfter the opposing character uses a Skill: If the character with this attached is the active character, heal this character for 1 HP. (Max twice per Round)\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
             "flavor": "This sword was ever at the hip of the warrior from another land, and it bore witness to her achievement in spreading justice and freedom across Mondstadt.",
             "id": '1X'        
+        },
+
+        "favoniussword": {
+            "name": "Favonius Sword",
+            "tags": ['modify', 'weapon', 'weapon_sword'],
+            "image": "https://genshin.honeyhunterworld.com/img/i_n331045.webp",
+            "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335037.webp",
+            "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331045_gcg_high_resolution.webp",
+            "cost": '3 White',
+            "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Skill: The character gains 1 additional Energy. (Once per Round)\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
+            "flavor": "\"Legend has it that the knight that bore the title of Wolf Pup could cleave even raindrops with his blade, and the gales spurred by his blows were strong enough to snap roses. Though none could match the heights of the Wolf Pup's prowess, the knights bear his oath of protection yet, his legacy lasting even to the present.\"",
+            "id": '4L'
         },
         
         "adventurersbandana": {
@@ -2705,14 +2705,14 @@ const db = {
             "type": "Summon",
             "description": "End Phase: Deal 2 Hydro DMG. \n\nUsage(s): 2 \n\nWhen this Summon is on the field: Your characters' Normal Attacks deal +1 DMG.",
             "related": "Kamisato Ayato",
-            // "image": Ayato_Summon
+            "image": Ayato_Summon
         },
         "ushi": {
             "name": "Ushi",
             "type": "Summon",
             "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your active character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
             "related": "Arataki Itto",
-            // "image": Itto_Summon
+            "image": Itto_Summon
         },  
         "superlativesuperstrength": {
             "name": "Superlative Superstrength",
@@ -2737,7 +2737,7 @@ const db = {
             "type": "Summon",
             "description": "End Phase: Deal 1 Dendro DMG. \n\nUsage(s): 1 (Can stack. Max 2 stacks.)",
             "related": "Tighnari",
-            // "image": Tighnari_Summon
+            "image": Tighnari_Summon
         }
     },
 
