@@ -128,7 +128,7 @@ import Action_Sort from './images/Action_Sort.png'
 import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 
-if (!(window.location.pathname.substring(1) == "6jCACqzayijXmMjDf9rA/")) {
+if (!(window.location.hash.substring(1).includes("6jCACqzayijXmMjDf9rA"))) {
 var db = {
     "chars": {
         "ganyu": {
