@@ -38,6 +38,7 @@ import Kokomi_Icon from './images/Kokomi_Icon.png'
 import Tighnari_Icon from './images/Tighnari_Icon.png'
 import Itto_Icon from './images/Itto_Icon.png'
 import Ayato_Icon from './images/Ayato_Icon.png'
+import Amber_Icon from './images/Amber_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -357,6 +358,22 @@ const db = {
             "id": '0C'        
         },
 
+        // "amber": {
+        //     'name': 'Amber',
+        //     'na': 'Sharpshooter \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
+        //     'skill': 'Explosive Puppet \n3 Pyro \nSummons 1 Baron Bunny.',
+        //     'burst': 'Fiery Rain \n3 Pyro, 2 Energy \nDeals 2 Pyro DMG, deals 2 Piercing DMG to all opposing characters on standby.',
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330009_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330009.webp',
+        //     "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334009.webp',
+        //     "icon": Amber_Icon,
+        //     "element": 'pyro',
+        //     'region': 'mond',
+        //     'related': 'Baron Bunny',
+        //     'flavor': '',
+        //     'id': '4N'
+        // },
+
         "yoimiya": {
             "name": 'Yoimiya',
             'na': 'Firework Flare-Up \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
@@ -388,6 +405,22 @@ const db = {
             "flavor": "Every card you draw may bring an “explosive surprise.”",
             "id": '43'
         },
+
+        // "hutao": {
+        //     'name': "Hu Tao",
+        //     'na': "Secret Spear of Wangsheng \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+        //     'skill': "Guide to Afterlife \n2 Pyro \nAttach Paramita Papilio to this character. If this character's HP is at least 7, then she will deal 1 Piercing DMG to herself.",
+        //     'burst': "Spirit Soother \n3 Pyro, 3 Energy \nDeals 4 Pyro DMG, heals herself for 2 HP. If this character's HP is no more than 6, +1 DMG dealt and Healing.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330033_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330033.webp',
+        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334037.webp',
+        //     'icon': Xiangling_Icon,
+        //     'element': 'pyro',
+        //     'region': "liyue",
+        //     'related': 'Paramita Papilio, Blood Blossom',
+        //     'flavor': '',
+        //     'id': '4O'
+        // },
 
         "fischl": {
             "name": "Fischl",
@@ -487,6 +520,39 @@ const db = {
             "id": '47'
         },
 
+        // "raiden": {
+        //     'name': "Raiden Shogun",
+        //     'na': "Origin \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
+        //     'skill': "Transcendence: Baleful Omen \n3 Electro \nSummons 1 Eye of Stormy Judgment.",
+        //     'burst': "Secret Art: Musou Shinsetsu \n4 Electro, 2 Energy \nDeals 3 Electro DMG. All of your other characters gain 2 Energy.",
+        //     'special': "Chakra Desiderata \n(Passive) \nWhen the battle begins, this character gains Chakra Desiderata.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330036_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330036.webp',
+        //     'card_selected': "https://genshin.honeyhunterworld.com/img/i_n334038.webp",
+        //     'icon': Sara_Icon,
+        //     'element': 'electro',
+        //     'region': 'inazuma',
+        //     'related': "Eye of Stormy Judgement, Chakra Desiderata",
+        //     'flavor': '',
+        //     'id': '4P'
+        // },
+
+        // "yae": {
+        //     'name': 'Yae Miko',
+        //     'na': "Spiritfox Sin-Eater \n2 Black, 1 Electro \nsDeals 1 Electro DMG.",
+        //     'skill': "Yakan Evocation: Sesshou Sakura \n3 Electro \nSummons 1 Sesshou Sakura.",
+        //     'burst': "Great Secret Art: Tenko Kenshin \n3 Electro, 2 Energy \nDeals 4 Electro DMG. If your side of the field has any Sesshou Sakura, destroy them and create Tenko Thunderbolts.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330037_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330037.webp',
+        //     'card_selected': "https://genshin.honeyhunterworld.com/img/i_n334039.webp",
+        //     'icon': Sara_Icon,
+        //     'element': 'electro',
+        //     'region': 'inazuma',
+        //     'related': 'Sesshou Sakura, Tenko Thunderbolts',
+        //     'flavor': '',
+        //     'id': '4Q'
+        // },
+
         "sucrose": {
             "name": "Sucrose",
             'na': 'Wind Spirit Creation \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.',
@@ -518,6 +584,38 @@ const db = {
             "flavor": "Never believes that she has done well enough — not until final victory is hers, anyway.",
             "id": '0L'        
         },
+
+        // "venti": {
+        //     'name': "Venti",
+        //     'na': "Divine Marksmanship \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
+        //     'skill': "Skyward Sonnet \n3 Anemo \nDeals 2 Anemo DMG, creates 1 Stormzone and triggers its effect.",
+        //     'burst': "Wind's Grand Ode \n3 Anemo, 2 Energy \nDeals 2 Anemo DMG, summons 1 Stormeye.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330038_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330038.webp',
+        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334040.webp',
+        //     'icon': Jean_Icon,
+        //     'element': 'anemo',
+        //     'region': 'mond',
+        //     'related': 'Stormzone, Stormeye',
+        //     'flavor': '',
+        //     'id': '4R'
+        // },
+
+        // "xiao": {
+        //     'name': "Xiao",
+        //     'na': "Whirlwind Thrust \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
+        //     'skill': "Lemniscatic Wind Cycling \n3 Anemo \nDeals 3 Anemo DMG.",
+        //     'burst': "Bane of All Evil \n3 Anemo, 2 Energy \nDeals 4 Anemo DMG. This character gains Yaksha's Mask.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330039_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330039.webp',
+        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334041.webp',
+        //     'icon': Jean_Icon,
+        //     'element': 'anemo',
+        //     'region': 'liyue',
+        //     'related': "Yaksha's Mask",
+        //     'flavor': '',
+        //     'id': '4S'
+        // },
 
         "noelle": {
             "name": "Noelle",
@@ -566,6 +664,23 @@ const db = {
             "id": '4G'
         },
 
+        // "zhongli": {
+        //     'name': "Zhongli",
+        //     'na': "Rain of Stone \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+        //     'skill': "Dominus Lapidis \n3 Geo \nDeals 1 Geo DMG, summons 1 Stone Stele.",
+        //     'special': "Dominus Lapidis: Striking Stone \n5 Geo \nDeals 2  Geo DMG, summons 1 Stone Stele, creates 1 Jade Shield.",       
+        //     'burst': "Planet Befall \n3 Geo, 3 Energy \nDeals 4  Geo DMG. The target character receives Petrification.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330040_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330040.webp',
+        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334042.webp',
+        //     'icon': Ningguang_Icon,
+        //     'element': 'geo',
+        //     'region': 'liyue',
+        //     'related': 'Stone Stele, Jade Shield, Petrification',
+        //     'flavor': '',
+        //     'id': '4T'
+        // },
+
         "collei": {
             "name": "Collei",
             'na': 'Supplicant’s Bowmanship \n2 Black, 1 Dendro \nDeals 2 Physical DMG.',
@@ -597,6 +712,39 @@ const db = {
             "flavor": "From a certain perspective, experience does not hold parity with wisdom.",
             "id": '4H'  
         },
+
+        // "nahida": {
+        //     'name': "Nahida",
+        //     'na': "Akara \n2 Black, 1 Dendro \nDeals 1 Dendro DMG.",
+        //     'skill': "All Schemes to Know \n3 Dendro \nDeals 2 Dendro DMG, applies Seed of Skandha to target character. If the target character already had Seed of Skandha applied to them, then apply Seed of Skandha to all opposing characters instead.",
+        //     'special': "All Schemes to Know: Tathata \n5 Dendro \nDeals 3 Dendro DMG. Applies Seed of Skandha to all opposing characters.",
+        //     'burst': "Illusory Heart \n3 Dendro, 2 Energy \nDeals 4 Dendro DMG, creates 1 Shrine of Maya.",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330044_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330044.webp',
+        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334044.webp',
+        //     'icon': Terrorshroom_Icon,
+        //     'element': 'dendro',
+        //     'region': 'sumeru',
+        //     'related': 'Seed of Skandha, Shrine of Maya',
+        //     'flavor': '',
+        //     'id': '4U'
+        // },
+
+        // 'cryocicinmage': {
+        //     'name': "Fatui Cryo Cicin Mage",
+        //     'na': "Cicin Icicle \n2 Black, 1 Cryo \nDeals 1  Cryo DMG.",
+        //     'skill': "Misty Summons \n3 Cryo \nDeals 1 Cryo DMG, summons 1 Cryo Cicin.",
+        //     'burst': "Blizzard, Branch, Blossom \n3 Cryo, 3 Energy \nDeals 5 Cryo DMG, grants this character  Cryo Application, creates 1 Flowing Cicin Shield.Flowing Cicin ShieldProvides 1  Shield for your active character.When created: If you have Cryo Cicin on the field, additionally increase  Shield by the amount of Usage(s) it has.Cryo CicinEnd Phase:Deal 1  Cryo DMGUsage(s): 2(Can stack, max 3 stacks)After Fatui Cryo Cicin Mage performs a Normal Attack: This card gains 1 Usage(s).After your character takes Elemental Reaction DMG:This card loses 1 Usage(s).",
+        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330045_gcg_high_resolution.webp',
+        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330045.webp',
+        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334045.webp',
+        //     'icon': Ganyu_Icon,
+        //     'element': 'cryo',
+        //     'region': 'fatui',
+        //     'related': 'Cryo Cicin, Flowing Cicin Shield',
+        //     'flavor': '',
+        //     'id': '4V'
+        // },
 
         "oceanid": {
             "name": "Rhodeia of Loch",
@@ -2738,6 +2886,102 @@ const db = {
             "description": "End Phase: Deal 1 Dendro DMG. \n\nUsage(s): 1 (Can stack. Max 2 stacks.)",
             "related": "Tighnari",
             "image": Tighnari_Summon
+        },
+        'baronbunny': {
+            "name": "Baron Bunny",
+            "type": "Summon",
+            "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 2. When the Usages are depleted, this card will not be discarded. \n\nEnd Phase, and if Usage(s) have been depleted: Discard this card to deal 2 Pyro DMG.",
+            "related": "Amber",
+        },
+        "paramitapapilio": {
+            "name": "Paramita Papilio",
+            "type": "Status",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Pyro DMG, and they will deal +1 Pyro DMG. When the character to which this is attached uses a Charged Attack: Apply Blood Blossom to target character. \n\nDuration (Rounds): 2",
+            "related": "Hu Tao"
+        },
+        "bloodblossom": {
+            "name": "Blood Blossom",
+            "type": "Status",
+            "description": "End Phase: Deal 1 Pyro DMG to the character to which this is attached. \n\nUsage(s): 1",
+            'related': "Hu Tao"
+        },
+        "eyeofstormyjudgement": {
+            "name": "Eye of Stormy Judgement",
+            "type": "Summon",
+            "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 3 \n\nWhen this Summon is on the field: Your characters' Elemental Bursts deal +1 DMG.",
+            "related": "Raiden Shogun"
+        },
+        "chakradesiderata": {
+            "name": "Chakra Desiderata",
+            "type": "Status",
+            "description": "After your other characters use Elemental Bursts: Gain 1 Resolve. (Max 3) \n\nWhen the character to which this is attached uses Secret Art: Musou Shinsetsu: Consume all Resolve and deal +1 DMG per Resolve.",
+            "related": "Raiden Shogun"
+        },
+        "sesshousakura": {
+            "name": "Sesshou Sakura",
+            "type": "Summon",
+            "description": "End Phase:Deal 1 Electro DMG. \n\nUsage(s): 3 (Can stack, max 6 stacks) \n\nWhen you declare the end of your Round: If this card's Usage(s) is at least 4, deal 1 Electro DMG. (Consumes Usage(s)s)",
+            "related": "Yae Miko"
+        },
+        "tenkothunderbolts": {
+            "name": "Tenko Thunderbolts",
+            "type": "Combat Status",
+            "description": "Before you choose your action: Deal 3 Electro DMG. \n\nUsage(s): 1",
+            "related": "Yae Miko"
+        },
+        "stormzone": {
+            "name": "Stormzone",
+            "type": "Combat Status",
+            "description": "After your character uses an Elemental Skill: Switch to the next character. \n\nUsage(s): 2",
+            "related": "Venti"
+        },
+        "stormeye": {
+            "name": "Stormeye",
+            "type": "Summon",
+            "description": "End Phase: Deal 2 Anemo DMG, switch opposing character to Character closest to your current active character. \n\nUsage(s): 2 \n\nAfter your character or Summon triggers a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
+            "related": "Venti"
+        },
+        'yakshasmask': {
+            'name': "Yaksha's Mask",
+            "type": "Status",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Anemo DMG, and they will deal +1 Anemo DMG. \n\nWhen the character to which this is attached uses a Plunging Attack: +2 extra DMG. (Once per Round) \n\nDuration (Rounds): 2",
+            'related': "Xiao"
+        },
+        'stonestele': {
+            'name': 'Stone Stele',
+            'type': "Summon",
+            "description": "End Phase: Deal 1  Geo DMG. \n\nUsage(s): 2",
+            "related": "Zhongli"
+        },
+        'jadeshield': {
+            'name': 'Jade Shield',
+            'type': 'Combat Status',
+            'description': 'Grants 2 Shield points for your active character.',
+            'related': "Zhongli"
+        },
+        "petrification": {
+            'name': 'Petrification',
+            'type': "Status",
+            'description': "Character cannot use Skills. (Lasts until the end of this Round)",
+            "related": "Zhongli"
+        },
+        'seedsofskandha': {
+            'name': 'Seed of Skandha',
+            'type': 'Status',
+            'description': 'When any character whose play area has a Seed of Skandha in it is affected by an Elemental Reaction: Deals 1 Piercing DMG to the character to which this is attached. \n\nUsage(s): 2',
+            'related': 'Nahida'
+        },
+        'shrineofmaya': {
+            'name': 'Shrine of Maya',
+            'type': 'Combat Status',
+            'description': 'When your character triggers an Elemental Reaction: +1 extra DMG. \n\nDuration (Rounds): 2',
+            'related': "Nahida"
+        },
+        'cryocicin': {
+            'name': 'Cryo Cicin', 
+            'type': 'Summon',
+            'description': 'End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 2 (Can stack, max 3 stacks) \n\nAfter Fatui Cryo Cicin Mage performs a Normal Attack: This card gains 1 Usage(s). After your character takes Elemental Reaction DMG: This card loses 1 Usage(s).',
+            'related': 'Fatui Cryo Cicin Mage'
         }
     },
 
