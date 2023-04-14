@@ -39,6 +39,18 @@ import Tighnari_Icon from './images/Tighnari_Icon.png'
 import Itto_Icon from './images/Itto_Icon.png'
 import Ayato_Icon from './images/Ayato_Icon.png'
 import Amber_Icon from './images/Amber_Icon.png'
+import Shenhe_Icon from './images/Shenhe_Icon.png'
+import Childe_Icon from './images/Childe_Icon.png'
+import Hutao_Icon from './images/Hutao_Icon.png'
+import Raiden_Icon from './images/Raiden_Icon.png'
+import Yae_Icon from './images/Yae_Icon.png'
+import Venti_Icon from './images/Venti_Icon.png'
+import Xiao_Icon from './images/Xiao_Icon.png'
+import Zhongli_Icon from './images/Zhongli_Icon.png'
+import Nahida_Icon from './images/Nahida_Icon.png'
+import Cryocicin_Icon from './images/Cryocicin_Icon.png'
+import Electrohypostasis_Icon from './images/ElectroHypostasis_Icon.png'
+import Abysslector_Icon from './images/Abyssherald_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -3149,7 +3161,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330048_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330048.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334048.webp',
-            'icon': Ayaka_Icon,
+            'icon': Shenhe_Icon,
             'element': 'cryo',
             'region': 'liyue',
             'related': 'Icy Quill, Talisman Spirit',
@@ -3248,7 +3260,7 @@ var db = {
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330029.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334036.webp',
             'related': 'Melee Stance, Ranged Stance, Riptide',
-            'icon': Ayato_Icon,
+            'icon': Childe_Icon,
             'element': 'hydro',
             'region': 'fatui',
             'flavor': '',
@@ -3359,7 +3371,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330033_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330033.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334037.webp',
-            'icon': Xiangling_Icon,
+            'icon': Hutao_Icon,
             'element': 'pyro',
             'region': "liyue",
             'related': 'Paramita Papilio, Blood Blossom',
@@ -3474,7 +3486,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330036_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330036.webp',
             'card_selected': "https://genshin.honeyhunterworld.com/img/i_n334038.webp",
-            'icon': Sara_Icon,
+            'icon': Raiden_Icon,
             'element': 'electro',
             'region': 'inazuma',
             'related': "Eye of Stormy Judgement, Chakra Desiderata",
@@ -3490,7 +3502,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330037_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330037.webp',
             'card_selected': "https://genshin.honeyhunterworld.com/img/i_n334039.webp",
-            'icon': Sara_Icon,
+            'icon': Yae_Icon,
             'element': 'electro',
             'region': 'inazuma',
             'related': 'Sesshou Sakura, Tenko Thunderbolts',
@@ -3538,7 +3550,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330038_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330038.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334040.webp',
-            'icon': Jean_Icon,
+            'icon': Venti_Icon,
             'element': 'anemo',
             'region': 'mond',
             'related': 'Stormzone, Stormeye',
@@ -3554,7 +3566,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330039_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330039.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334041.webp',
-            'icon': Jean_Icon,
+            'icon': Xiao_Icon,
             'element': 'anemo',
             'region': 'liyue',
             'related': "Yaksha's Mask",
@@ -3618,7 +3630,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330040_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330040.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334042.webp',
-            'icon': Ningguang_Icon,
+            'icon': Zhongli_Icon,
             'element': 'geo',
             'region': 'liyue',
             'related': 'Stone Stele, Jade Shield, Petrification',
@@ -3667,7 +3679,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330044_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330044.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334044.webp',
-            'icon': Terrorshroom_Icon,
+            'icon': Nahida_Icon,
             'element': 'dendro',
             'region': 'sumeru',
             'related': 'Seed of Skandha, Shrine of Maya',
@@ -3683,7 +3695,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330045_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330045.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334045.webp',
-            'icon': Ganyu_Icon,
+            'icon': Cryocicin_Icon,
             'element': 'cryo',
             'region': 'fatui',
             'related': 'Cryo Cicin, Flowing Cicin Shield',
@@ -3735,7 +3747,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330047_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330047.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334047.webp',
-            'icon': Keqing_Icon,
+            'icon': Electrohypostasis_Icon,
             'element': 'electro',
             'region': 'monster',
             'related': 'Electro Crystal Core, Chains of Warding Thunder',
@@ -3769,7 +3781,7 @@ var db = {
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330046_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330046.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334046.webp',
-            'icon': Pyroagent_Icon,
+            'icon': Abysslector_Icon,
             'element': 'pyro',
             'region': 'monster',
             'related': 'Fiery Rebirth, Darkfire Furnace',
