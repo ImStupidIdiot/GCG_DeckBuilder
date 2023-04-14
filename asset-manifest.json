@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ae24adbd.css",
-    "main.js": "/static/js/main.b42a94a4.js",
+    "main.js": "/static/js/main.8101470b.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -73,6 +73,7 @@
     "static/media/Electro_Sort_Activated.png": "/static/media/Electro_Sort_Activated.dc8c30f497e6e95dd0ea.png",
     "static/media/Beidou_Icon.png": "/static/media/Beidou_Icon.2bd8e200c30c8efc97ca.png",
     "static/media/Eula_Summon.png": "/static/media/Eula_Summon.8b1bc0abe7f2154220eb.png",
+    "static/media/ElectroHypostasis_Icon.png": "/static/media/ElectroHypostasis_Icon.1c6ac9ea38be558dee00.png",
     "static/media/Char_Sort_Hover.png": "/static/media/Char_Sort_Hover.368e116c33a08a0a90f6.png",
     "static/media/Action_Sort_Hover.png": "/static/media/Action_Sort_Hover.b7374a447e495345f12a.png",
     "static/media/Info_Button.png": "/static/media/Info_Button.fc16ddd105ff5c4fa53d.png",
@@ -101,10 +102,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.ae24adbd.css.map": "/static/css/main.ae24adbd.css.map",
-    "main.b42a94a4.js.map": "/static/js/main.b42a94a4.js.map"
+    "main.8101470b.js.map": "/static/js/main.8101470b.js.map"
   },
   "entrypoints": [
     "static/css/main.ae24adbd.css",
-    "static/js/main.b42a94a4.js"
+    "static/js/main.8101470b.js"
   ]
 }
