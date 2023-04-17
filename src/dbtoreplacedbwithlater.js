@@ -2552,7 +2552,7 @@ const dbencrypted = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n332032.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336032.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332032_gcg_high_resolution.webp",
-            "cost": '1 Black',
+            "cost": '1 White',
             "description": "After your character uses a skill: This card will accumulate 1 Treasure Clue. \n\nWhen this card has stored 3 Treasure Clues, discard this card and draw 3 cards.",
             "flavor": '',
             'id': '62'
@@ -2914,7 +2914,7 @@ const dbencrypted = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333037.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337037.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333037_gcg_high_resolution.webp",
-            "cost": '2 White',
+            "cost": '1 White',
             "description": "In this Round, the next time an opposing character is defeated during your Action, you can continue to act again.\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
             "required": '2mond',
             "flavor": '',

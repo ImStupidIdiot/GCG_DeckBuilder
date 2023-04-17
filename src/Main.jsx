@@ -24,6 +24,19 @@ class Main extends Component {
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
         this.importDeck(window.location.hash.substring(1));
+        // var c = Object.entries(db.chars).map((char) => [char[1].name, char[1].id]);
+
+        // var a = Object.entries(db.actions).map((char) => [char[1].name, char[1].id]);
+        // var str = "";
+        // for (var i = 0; i < c.length; i++) {
+        //     str += c[i].toString();
+        //     str += "\n";
+        // }
+        // for (var p = 0; p < a.length; p++) {
+        //     str += a[p].toString();
+        //     str += "\n";
+        // }
+        // console.log(str);
     }
 
     addToDeck(char) {
