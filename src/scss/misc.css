@@ -4,7 +4,22 @@ html {
 }
 
 body {
-    height: 100%;
+    max-height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    -webkit-display: flex;
+    justify-content: center;
+}
+
+/* thanks chatgpt for the following @media idea */
+
+@media (max-width: 1000px) { 
+    body {
+        display: inline;
+        -webkit-display: inline;
+        align-items: center;
+        text-align: center;
+    }
 }
 
 .startBox {
@@ -30,6 +45,10 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
+}
+
+.transparent {
+    width: 1300px;
 }
 
 .fullWidthHeight {

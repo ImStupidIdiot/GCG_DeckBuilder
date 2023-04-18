@@ -279,9 +279,8 @@ class Main extends Component {
 
     render() { 
         return (<div className={this.state.dark ? "blackBackground" : "transparent"}>
-            <Container>
-                <Row> 
-                    <Col xs ={9}>
+                <Row xs={12}> 
+                    <Col xs={9}>
                         <Library current_chars={this.state.current_chars} current_actions={this.state.current_actions} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} dark={this.state.dark}/>
                         <label className={this.state.dark? "whiteText" : null}><input type="checkbox" className="darkToggle" onChange={() => {this.setState({dark: !(this.state.dark)})}}/> Dark Mode</label>
                     </Col>
@@ -289,7 +288,6 @@ class Main extends Component {
                         <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} importDeck={this.importDeck} exportDeck={this.exportDeck} dark={this.state.dark}/>
                     </Col>
                 </Row>
-            </Container>
         </div>) 
     }
 }
