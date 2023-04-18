@@ -302,6 +302,52 @@
         height: 850px;
     }
     .infoBox {
-        top: 25%;
+        position: fixed;
+        background-color: rgba(0,0,0,0.85);
+        overflow: visible;
+        color: white;
+        border-radius: 50px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        width: 600px;
+        height: 450px;
+        z-index: 100;
+        font-size: 3px;
+    }
+    .infoBoxName {
+        font-size: 25px;
+        font-family: Helvetica;
+    }
+    
+    .infoBoxText {
+        font-size: 13px;
+        font-family: Helvetica;
+        white-space: pre-line;
+    }
+    
+    .infoBoxCost {
+        font-size: 18px;
+        font-family: Helvetica;
+    }
+    .infoBoxImage {
+        padding-top: 13px;
+    }
+    .brSmall {
+        content: "";
+        margin: 6em;
+        display: block;
+        font-size: 10%;
+    }
+    .miscButton {
+        border: 0;
+        background-color: transparent;
+        font-family: Helvetica;
+        font-size: 14px;
+        color: rgba(120, 225, 255, 1);
+    }
+    .infoBoxTextItalic {
+        font-size: 13px;
     }
 }
