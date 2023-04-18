@@ -301,4 +301,7 @@
     .scrollbox {
         height: 850px;
     }
+    .infoBox {
+        top: 25%;
+    }
 }
