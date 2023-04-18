@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ae24adbd.css",
-    "main.js": "/static/js/main.634c41ef.js",
+    "main.css": "/static/css/main.72bd81dc.css",
+    "main.js": "/static/js/main.9220c243.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -101,11 +101,11 @@
     "static/media/Klee_Status.png": "/static/media/Klee_Status.644a92137769d1ebe177.png",
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
-    "main.ae24adbd.css.map": "/static/css/main.ae24adbd.css.map",
-    "main.634c41ef.js.map": "/static/js/main.634c41ef.js.map"
+    "main.72bd81dc.css.map": "/static/css/main.72bd81dc.css.map",
+    "main.9220c243.js.map": "/static/js/main.9220c243.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae24adbd.css",
-    "static/js/main.634c41ef.js"
+    "static/css/main.72bd81dc.css",
+    "static/js/main.9220c243.js"
   ]
 }
