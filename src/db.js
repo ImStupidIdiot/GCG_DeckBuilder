@@ -3157,7 +3157,7 @@ var db = {
             'name': 'Shenhe',
             'na': "Dawnstar Piercer \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
             'skill': "Spring Spirit Summoning \n3 Cryo \nDeals 2 Cryo DMG, creates 1 Icy Quill.",
-            'burst': "Divine Maiden's Deliverance \n4 Cryo, 2 Energy \nDeals 2 Cryo DMG, summons 1 Talisman Spirit.",
+            'burst': "Divine Maiden's Deliverance \n3 Cryo, 2 Energy \nDeals 1 Cryo DMG, summons 1 Talisman Spirit.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330048_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330048.webp',
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334048.webp',
@@ -3496,7 +3496,7 @@ var db = {
 
         "yae": {
             'name': 'Yae Miko',
-            'na': "Spiritfox Sin-Eater \n2 Black, 1 Electro \nsDeals 1 Electro DMG.",
+            'na': "Spiritfox Sin-Eater \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
             'skill': "Yakan Evocation: Sesshou Sakura \n3 Electro \nSummons 1 Sesshou Sakura.",
             'burst': "Great Secret Art: Tenko Kenshin \n3 Electro, 2 Energy \nDeals 4 Electro DMG. If your side of the field has any Sesshou Sakura, destroy them and create Tenko Thunderbolts.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330037_gcg_high_resolution.webp',
@@ -3545,7 +3545,7 @@ var db = {
         "venti": {
             'name': "Venti",
             'na': "Divine Marksmanship \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
-            'skill': "Skyward Sonnet \n3 Anemo \nDeals 2 Anemo DMG, creates 1 Stormzone and triggers its effect.",
+            'skill': "Skyward Sonnet \n3 Anemo \nDeals 2 Anemo DMG, creates 1 Stormzone.",
             'burst': "Wind's Grand Ode \n3 Anemo, 2 Energy \nDeals 2 Anemo DMG, summons 1 Stormeye.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330038_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330038.webp',
@@ -6551,7 +6551,7 @@ var db = {
         "stormzone": {
             "name": "Stormzone",
             "type": "Combat Status",
-            "description": "After your character uses an Elemental Skill: Switch to the next character. \n\nUsage(s): 2",
+            "description": "After any of your characters, other than Venti, uses an Elemental Skill: Switch to the next character. \n\nUsage(s): 2",
             "related": "Venti"
         },
         "stormeye": {
@@ -6635,7 +6635,7 @@ var db = {
         'icyquill': {
             'name': 'Icy Quill',
             'type': 'Combat Status',
-            'description': 'Your character deals 1 increased Cryo DMG. \n\nUsage(s): 2',
+            'description': 'Your character deals 1 increased Cryo DMG. \n\nUsage(s): 3',
             'related': 'Shenhe'
         },
         'talismanspirit': {
