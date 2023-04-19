@@ -278,11 +278,19 @@ class Main extends Component {
     };
 
     render() { 
+        if (this.state.dark) {
+            document.body.style = 'background: black;';
+        }
+        else {
+            document.body.style = 'background: transparent;';
+        }
         return (<div className={this.state.dark ? "blackBackground" : "transparent"}>
                 <Row xs={12}> 
                     <Col xs={9}>
                         <Library current_chars={this.state.current_chars} current_actions={this.state.current_actions} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} dark={this.state.dark}/>
-                        <label className={this.state.dark? "whiteText" : null}><input type="checkbox" className="darkToggle" onChange={() => {this.setState({dark: !(this.state.dark)})}}/> Dark Mode</label>
+                        <label className={this.state.dark? "whiteText" : null}><input type="checkbox" className="darkToggle" onChange={() => {
+                            this.setState({dark: !(this.state.dark)
+                            })}}/> Dark Mode</label>
                     </Col>
                     <Col xs={3}>
                         <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} importDeck={this.importDeck} exportDeck={this.exportDeck} dark={this.state.dark}/>

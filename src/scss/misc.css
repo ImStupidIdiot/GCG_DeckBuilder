@@ -11,8 +11,6 @@ body {
     justify-content: center;
 }
 
-/* thanks chatgpt for the following @media idea */
-
 @media (max-width: 1000px) { 
     body {
         display: inline;
@@ -39,12 +37,13 @@ body {
 }
 
 .blackBackground {
-    position: absolute;
+    position: relative;
     background-color: rgba(0, 0, 0, 0.87);
     left: 0;
     right: 0;
     top: 0;
     bottom: 0;
+    width: 1300px;
 }
 
 .transparent {
