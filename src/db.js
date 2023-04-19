@@ -6635,7 +6635,7 @@ var db = {
         'icyquill': {
             'name': 'Icy Quill',
             'type': 'Combat Status',
-            'description': 'Your character deals 1 increased Cryo DMG. \n\nUsage(s): 3',
+            'description': 'Your character deals 1 increased Cryo DMG (Includes the DMG triggered by Cryo-infused Swirl reactions) \n\nUsage(s): 3',
             'related': 'Shenhe'
         },
         'talismanspirit': {
