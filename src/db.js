@@ -5912,8 +5912,8 @@ var db = {
             'id': '67'
         },
 
-        "plungingattack": {
-            "name": "Plunging Attack",
+        "plungingstrike": {
+            "name": "Plunging Strike",
             "tags": ['event', 'slowly'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n333042.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337042.webp",
@@ -5924,8 +5924,8 @@ var db = {
             'id': '68'
         },
 
-        "chargedattack": {
-            "name": "Charged Attack",
+        "heavystrike": {
+            "name": "Heavy Strike",
             "tags": ['event'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n333043.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337043.webp",
