@@ -113,7 +113,7 @@ class CharLibrary extends Component {
 
         return (
             <div>
-                <CharFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle} search={this.search}/>
+                <CharFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle} search={this.search} dark={this.props.dark}/>
                 <Container className='scrollbox'>
                     <CharInfoBox char={this.state.shownChar} closeInfo={this.closeInfo} showMisc={this.state.showMisc} showMiscBox={this.showMiscBox} closeMiscBox={this.closeMiscBox}/>
                     <Row>
