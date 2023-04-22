@@ -29,6 +29,7 @@ class CharLibrary extends Component {
         this.changeFilter = this.changeFilter.bind(this);
         this.showMiscBox = this.showMiscBox.bind(this);
         this.closeMiscBox = this.closeMiscBox.bind(this);
+        this.search = this.search.bind(this);
     }
 
     changeFilter(category, condition) {
@@ -47,6 +48,12 @@ class CharLibrary extends Component {
         }
         
         this.setState({filters: filters, displayChars: displayChars});
+    }
+
+    search(text) {
+        var displayChars = [...this.state.allChars];
+        displayChars = displayChars.filter((char) => db.chars[char].name.toLowerCase().includes(text.toLowerCase()) || db.chars[char].na.toLowerCase().includes(text.toLowerCase()) || db.chars[char].skill.toLowerCase().includes(text.toLowerCase()) || db.chars[char].burst.toLowerCase().includes(text.toLowerCase()) || (db.chars[char].special && db.chars[char].special.toLowerCase().includes(text.toLowerCase())) || db.chars[char].element.toLowerCase().includes(text.toLowerCase()) || db.chars[char].region.toLowerCase().includes(text.toLowerCase()) || db.chars[char].related.toLowerCase().includes(text.toLowerCase()) || db.chars[char].flavor.toLowerCase().includes(text.toLowerCase()));
+        this.setState({displayChars: displayChars});
     }
 
     isInDeck(char) {
@@ -106,7 +113,7 @@ class CharLibrary extends Component {
 
         return (
             <div>
-                <CharFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle}/>
+                <CharFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle} search={this.search}/>
                 <Container className='scrollbox'>
                     <CharInfoBox char={this.state.shownChar} closeInfo={this.closeInfo} showMisc={this.state.showMisc} showMiscBox={this.showMiscBox} closeMiscBox={this.closeMiscBox}/>
                     <Row>

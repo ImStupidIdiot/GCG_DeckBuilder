@@ -55,7 +55,7 @@ class ActionFilters extends Component {
                         {
                             return (
                                 <button 
-                                className={this.props.filters.type == type[0] ? 'toggleElementTextSelected' : 'toggleElementText'}
+                                className={this.props.filters.type == type[0] ? 'toggleElementTextSelectedLong' : 'toggleElementTextLong'}
                                 key={type[0]}
                                 type="checkbox"
                                 name={type[0]}
@@ -70,6 +70,9 @@ class ActionFilters extends Component {
                     
                 }
             </ButtonGroup>
+            <input className='rounded' type="text" id="searchBarAction" name="searchBarAction"></input><button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => {
+                this.props.search(document.getElementById('searchBarAction').value);
+            }}>Search</button>
             </div>
         )
     }

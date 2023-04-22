@@ -26,6 +26,7 @@ class ActionLibrary extends Component {
         this.handleClick = this.handleClick.bind(this);
         this.showMiscBox = this.showMiscBox.bind(this);
         this.closeMiscBox = this.closeMiscBox.bind(this);
+        this.search = this.search.bind(this);
     }
 
     changeFilter(category, condition) {
@@ -44,6 +45,12 @@ class ActionLibrary extends Component {
         }
         
         this.setState({filters: filters, displayActions: displayActions});
+    }
+
+    search(text) {
+        var displayActions = [...this.state.allActions];
+        displayActions = displayActions.filter((action) => db.actions[action].description.toLowerCase().includes(text.toLowerCase()) || db.actions[action].name.toLowerCase().includes(text.toLowerCase()) || db.actions[action].cost.toLowerCase().includes(text.toLowerCase()) || db.actions[action].flavor.toLowerCase().includes(text.toLowerCase()));
+        this.setState({displayActions: displayActions});
     }
 
     showAction(action) {
@@ -104,7 +111,7 @@ class ActionLibrary extends Component {
         
         return (
             <div>
-                <ActionFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle} dark={this.props.dark}/>
+                <ActionFilters filters={this.state.filters} changeFilter={this.changeFilter} toggle={this.props.toggle} CoA={this.props.CoA} CoAHovered={this.props.CoAHovered} hoverToggle={this.props.hoverToggle} search={this.search} dark={this.props.dark}/>
                 <Container className='scrollbox'>
                     <ActionInfoBox action={this.state.shownAction} closeInfo={this.closeInfo} showMisc={this.state.showMisc} showMiscBox={this.showMiscBox} closeMiscBox={this.closeMiscBox}/>
                     <Row>
