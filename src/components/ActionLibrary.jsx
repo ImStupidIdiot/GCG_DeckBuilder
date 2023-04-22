@@ -48,6 +48,7 @@ class ActionLibrary extends Component {
     }
 
     search(text) {
+        this.setState({filters: {}});
         var displayActions = [...this.state.allActions];
         displayActions = displayActions.filter((action) => db.actions[action].description.toLowerCase().includes(text.toLowerCase()) || db.actions[action].name.toLowerCase().includes(text.toLowerCase()) || db.actions[action].cost.toLowerCase().includes(text.toLowerCase()) || db.actions[action].flavor.toLowerCase().includes(text.toLowerCase()));
         this.setState({displayActions: displayActions});
