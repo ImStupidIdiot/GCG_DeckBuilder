@@ -23,20 +23,13 @@ class Main extends Component {
         this.removeFromDeckAction = this.removeFromDeckAction.bind(this);
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
-        this.importDeck(window.location.hash.substring(1));
-        // var c = Object.entries(db.chars).map((char) => [char[1].name, char[1].id]);
 
-        // var a = Object.entries(db.actions).map((char) => [char[1].name, char[1].id]);
-        // var str = "";
-        // for (var i = 0; i < c.length; i++) {
-        //     str += c[i].toString();
-        //     str += "\n";
-        // }
-        // for (var p = 0; p < a.length; p++) {
-        //     str += a[p].toString();
-        //     str += "\n";
-        // }
-        // console.log(str);
+        this.leeks = false; //delete everything that has this later
+        if (db.chars.zhongli) {
+            this.leeks = true;
+        } //temp, obviously 
+
+        this.importDeck(window.location.hash.substring(1));
     }
 
     addToDeck(char) {
@@ -107,7 +100,7 @@ class Main extends Component {
         for (var i = 2; i < deckString.length; i += 2) {
                 if (deckString[i] == '.') {
                     i += 1
-                    if (this.validDeckCheckHelper(deckString[i] + deckString[i+1]) && deckLengthTracker < 30) {
+                    if (this.validDeckCheckHelper(deckString[i] + deckString[i+1]) == 'action' && deckLengthTracker < 30) {
                         if (this.addToDeckAction(allActions.filter((action) => db.actions[action].id.includes(deckString[i] + deckString[i+1]))[0])) {
                             this.addToDeckAction(allActions.filter((action) => db.actions[action].id.includes(deckString[i] + deckString[i+1]))[0])
                             deckLengthTracker += 2
@@ -146,10 +139,10 @@ class Main extends Component {
 
     validDeckCheckHelper(twoDigitString) { //will need to update this as database expands unfortunately
         const conversion = parseInt(twoDigitString, 36)
-        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161))) {
+        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161) || (this.leeks && conversion >= 167 && conversion <= 179))) {
             return 'char';
         }
-        else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150) || (conversion >= 154 && conversion <= 158) || (conversion >= 162 && conversion <= 166))) {
+        else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150) || (conversion >= 154 && conversion <= 158) || (conversion >= 162 && conversion <= 166) || (this.leeks && conversion >= 180 && conversion <= 230))) {
             return 'action';
         }
         else {
@@ -179,6 +172,9 @@ class Main extends Component {
             if (!validDeck) {
                 toCopy += '?';
             }
+        }
+        if (this.leeks) {
+            toCopy += "6jCACqzayijXmMjDf9rA"; //delete later
         }
         window.location.href = '#' + toCopy;
         return toCopy;
