@@ -25,9 +25,10 @@ class Main extends Component {
         this.exportDeck = this.exportDeck.bind(this);
 
         this.leeks = false; //delete everything that has this later
-        // if (db.chars.zhongli) {
-        //     this.leeks = true;
-        // } //temp, obviously 
+        console.log(db.chars.zhongli);
+        if (db.chars.zhongli) {
+            this.leeks = true;
+        } //temp, obviously 
 
         this.importDeck(window.location.hash.substring(1));
     }
