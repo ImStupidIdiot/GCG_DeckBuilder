@@ -384,6 +384,8 @@
     }
 }
 
-.rounded {
+.roundedSearch {
     margin-left: 5px;
+    width: 280px;
+    border-radius: 5px;
 }

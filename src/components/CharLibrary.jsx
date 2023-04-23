@@ -51,6 +51,7 @@ class CharLibrary extends Component {
     }
 
     search(text) {
+        var text = document.getElementById("searchBarChar").value;
         this.setState({filters: {}});
         var displayChars = [...this.state.allChars];
         displayChars = displayChars.filter((char) => db.chars[char].name.toLowerCase().includes(text.toLowerCase()) || db.chars[char].na.toLowerCase().includes(text.toLowerCase()) || db.chars[char].skill.toLowerCase().includes(text.toLowerCase()) || db.chars[char].burst.toLowerCase().includes(text.toLowerCase()) || (db.chars[char].special && db.chars[char].special.toLowerCase().includes(text.toLowerCase())) || db.chars[char].element.toLowerCase().includes(text.toLowerCase()) || db.chars[char].region.toLowerCase().includes(text.toLowerCase()) || db.chars[char].related.toLowerCase().includes(text.toLowerCase()) || db.chars[char].flavor.toLowerCase().includes(text.toLowerCase()));

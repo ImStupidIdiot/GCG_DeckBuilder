@@ -39,10 +39,7 @@ class CharFilters extends Component {
                         })
                     }
                 </ButtonGroup>
-                <input className='rounded' type="text" id="searchBarChar" name="searchBarChar"></input><button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => {
-                this.props.search(document.getElementById('searchBarChar').value);
-                this.setState({currentElement: 'none'});
-            }}>Search</button>
+                <input className='roundedSearch' type="text" id="searchBarChar" name="searchBarChar" placeholder="Search a character or effect..." onChange={this.props.search}></input>
             </div>
         )
     }

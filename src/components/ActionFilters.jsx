@@ -70,9 +70,7 @@ class ActionFilters extends Component {
                     
                 }
             </ButtonGroup>
-            <input className='rounded' type="text" id="searchBarAction" name="searchBarAction"></input><button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => {
-                this.props.search(document.getElementById('searchBarAction').value);
-            }}>Search</button>
+            <input className='roundedSearch' type="text" id="searchBarAction" name="searchBarAction" placeholder="Search a card or effect..." onChange={this.props.search}></input>
             </div>
         )
     }
