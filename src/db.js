@@ -2932,7 +2932,7 @@ var db = {
         "sesshousakura": {
             "name": "Sesshou Sakura",
             "type": "Summon",
-            "description": "End Phase:Deal 1 Electro DMG. \n\nUsage(s): 3 (Can stack, max 6 stacks) \n\nWhen you declare the end of your Round: If this card's Usage(s) is at least 4, deal 1 Electro DMG. (Consumes Usage(s)s)",
+            "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 3 (Can stack, max 6 stacks) \n\nWhen you declare the end of your Round: If this card's Usage(s) is at least 4, deal 1 Electro DMG. (Consumes Usage(s)s)",
             "related": "Yae Miko"
         },
         "tenkothunderbolts": {
@@ -3366,7 +3366,7 @@ var db = {
         "hutao": {
             'name': "Hu Tao",
             'na': "Secret Spear of Wangsheng \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
-            'skill': "Guide to Afterlife \n2 Pyro \nAttach Paramita Papilio to this character. If this character's HP is at least 7, then she will deal 1 Piercing DMG to herself.",
+            'skill': "Guide to Afterlife \n2 Pyro \nAttach Paramita Papilio to this character.",
             'burst': "Spirit Soother \n3 Pyro, 3 Energy \nDeals 4 Pyro DMG, heals herself for 2 HP. If this character's HP is no more than 6, +1 DMG dealt and Healing.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330033_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330033.webp',
@@ -3739,7 +3739,7 @@ var db = {
         "electrohypostasis": {
             'name': "Electro Hypostasis",
             'na': "Electro Crystal Projection \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
-            'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 3 Electro DMG and then separately Prepare Skill: Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper. \nScissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.\nPaper: Deals 3 Electro DMG.",
+            'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately Prepare Skill: Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper. \nScissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.\nPaper: Deals 3 Electro DMG.",
             'burst': "Lightning Lockdown\n3 Electro, 2 Energy \nDeals 1  Electro DMG, summons 1 Chains of Warding Thunder.",
             'special': "Electro Crystal Core\n(Passive) \nWhen the battle begins, this character gains Electro Crystal Core.\n\nNote: This character begins the battle with 8 HP.",
             'special2': "Rock-Paper-Scissors Combo: Scissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.",
@@ -4253,7 +4253,7 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334537.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330533_gcg_high_resolution.webp",
             "cost": '3 Anemo 2 Energy',
-            "description": "Combat Action: When your active character is Xiao, equip this card. \n\nAfter Xiao equips this card, immediately use Bane of All Evil once. \n\nIn a Round in which your Xiao, who has this card equipped, has used Bane of All Evil, your use of Lemniscatic Wind Cycling will cost 1 less Anemo Die. (Twice per Round) \n\n(You must have Xiao in your deck to add this card to your deck.)",
+            "description": "Combat Action: When your active character is Xiao, equip this card. \n\nAfter Xiao equips this card, immediately use Bane of All Evil once. \n\nWhile your Xiao, who has this card equipped, has Yaksha's Mask attached, your use of Lemniscatic Wind Cycling will cost 1 less Anemo Die. (Twice per instance of the character gaining Yaksha's Mask)\n\n(You must have Xiao in your deck to add this card to your deck.)",
             "flavor": '',
             'required': 'xiao',
             'id': '52'
@@ -4511,7 +4511,7 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335039.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331038_gcg_high_resolution.webp",
             "cost": '3 White',
-            "description": "The character deals +1 DMG.\n\nWhen your character triggers an Elemental Reaction:Deal +1 DMG. (Twice per Round)\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
+            "description": "The character deals +1 DMG.\n\nWhen your character triggers an Elemental Reaction: Deal +1 DMG. (Twice per Round)\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
             "flavor": '',
             'id': '5E'
         },
@@ -4679,7 +4679,7 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335043.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331042_gcg_high_resolution.webp",
             "cost": '3 White',
-            "description": "The character deals +1 DMG.\n\nAfter the character uses a Elemental Skill: If you have a Combat Status that grants Shield on your side, add 2 Shield to that Combat Status. (Once per Round)\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)",
+            "description": "The character deals +1 DMG.\n\nWhen protected by a Shield Character Status or a Shield Combat Status, the character deals +1 additional DMG.\n\nAfter the character uses a Elemental Skill: If you have a Combat Status that grants Shield on your side, add 1 Shield to that Combat Status. (Once per Round)\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)",
             "flavor": '',
             'id': '5I'
         },
@@ -5205,7 +5205,7 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336023.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332023_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "When your character uses a Skill or equips a Talent Card: If you have less die than cards in your hand, spend 1 less die. (Once per Round)",
+            "description": "When your character uses a Skill or equips a Talent Card: If you have no more dice than cards in your hand, spend 1 less die. (Once per Round)",
             "flavor": '',
             'id': '5T'
         },
@@ -6539,7 +6539,7 @@ var db = {
         "sesshousakura": {
             "name": "Sesshou Sakura",
             "type": "Summon",
-            "description": "End Phase:Deal 1 Electro DMG. \n\nUsage(s): 3 (Can stack, max 6 stacks) \n\nWhen you declare the end of your Round: If this card's Usage(s) is at least 4, deal 1 Electro DMG. (Consumes Usage(s)s)",
+            "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 3 (Can stack, max 6 stacks) \n\nWhen you declare the end of your Round: If this card's Usage(s) is at least 4, deal 1 Electro DMG. (Consumes Usage(s)s)",
             "related": "Yae Miko"
         },
         "tenkothunderbolts": {
@@ -6563,7 +6563,7 @@ var db = {
         'yakshasmask': {
             'name': "Yaksha's Mask",
             "type": "Status",
-            "description": "The character to which this is attached has their Physical DMG dealt converted to Anemo DMG, and they will deal +1 Anemo DMG. \n\nWhen the character to which this is attached uses a Plunging Attack: +2 extra DMG. (Once per Round) \n\nDuration (Rounds): 2",
+            "description": "The character to which this is attached has their Physical DMG dealt converted to Anemo DMG, and they will deal +1 Anemo DMG. \n\nWhen the character to which this is attached uses a Plunging Attack: +2 extra DMG.\n\nIf the character to which this is attached is the active character, when you perform \"Switch Character\": Spend 1 less Elemental Die. (Once per Round)\n\nDuration (Rounds): 2",
             'related': "Xiao"
         },
         'stonestele': {
@@ -6647,7 +6647,7 @@ var db = {
         'meleestance': {
             'name': 'Melee Stance',
             'type': 'Status',
-            'description': 'Physical DMG dealt by character is converted to Hydro DMG, deal +1 DMG to characters affected by Riptide.\n\nAfter the character to which this is attached uses Charged Attack: Apply Riptide to target character.\n\nAfter Skills are used against characters affected by Riptide: Deal 1 Piercing DMG to the next opposing off-field character. (Twice per Round)\n\nDuration (Rounds): 2, switch back to Ranged Stance once 0 Usages remain.',
+            'description': 'Physical DMG dealt by character is converted to Hydro DMG.\n\nAfter the character to which this is attached uses Charged Attack: Apply Riptide to target character.\n\nCharacter deals +1 DMG to target characters with Riptide attached.\n\nAfter Skills are used against characters affected by Riptide: Deal 1 Piercing DMG to the next opposing off-field character. (Twice per Round)\n\nDuration (Rounds): 2, switch back to Ranged Stance once 0 Usages remain.',
             'related': "Tartaglia"
         },
         'rangedstance': {
@@ -6659,7 +6659,7 @@ var db = {
         'riptide': {
             'name': 'Riptide',
             'type': 'Status',
-            'description': 'When the character to which this is attached is defeated: Apply Riptide to active character. \n\nDuration (Rounds): 2',
+            'description': 'When the character to which this is attached is defeated: Apply Riptide to active character. \n\nWhen Tartaglia is in Melee Stance, he will deal additional DMG when attacking the character to which this is attached. \n\nDuration (Rounds): 2',
             'related': 'Tartaglia'
         },
         'cryocicinmage': {
