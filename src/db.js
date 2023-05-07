@@ -864,7 +864,7 @@ var db = {
         "undividedheart": {
             "name": "Undivided Heart",
             "tags": ['modify', 'talent', 'slowly'],
-            "image": "https://genshin.honeyhunterworld.com/img/i_n330500.webp",
+            "image": "https://genshin.honeyhunterworld.com/img/i_n330500.webp   ",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
             "cost": '5 Cryo',
@@ -1858,7 +1858,7 @@ var db = {
         
         "paimon": {
             "name": "Paimon",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332006_gcg_high_resolution.webp",
@@ -1870,7 +1870,7 @@ var db = {
         
         "katheryne": {
             "name": "Katheryne",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332007_gcg_high_resolution.webp",
@@ -1882,7 +1882,7 @@ var db = {
         
         "timaeus": {
             "name": "Timaeus",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332008_gcg_high_resolution.webp",
@@ -1894,7 +1894,7 @@ var db = {
         
         "wagner": {
             "name": "Wagner",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332009_gcg_high_resolution.webp",
@@ -1906,7 +1906,7 @@ var db = {
         
         "chefmao": {
             "name": "Chef Mao",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332010_gcg_high_resolution.webp",
@@ -1918,7 +1918,7 @@ var db = {
         
         "tubby": {
             "name": "Tubby",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332011_gcg_high_resolution.webp",
@@ -1930,7 +1930,7 @@ var db = {
         
         "timmie": {
             "name": "Timmie",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332012_gcg_high_resolution.webp",
@@ -1942,7 +1942,7 @@ var db = {
         
         "liben": {
             "name": "Liben",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332013_gcg_high_resolution.webp",
@@ -1954,7 +1954,7 @@ var db = {
         
         "changtheninth": {
             "name": "Chang the Ninth",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332014_gcg_high_resolution.webp",
@@ -1966,7 +1966,7 @@ var db = {
         
         "ellin": {
             "name": "Ellin",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332015_gcg_high_resolution.webp",
@@ -1978,7 +1978,7 @@ var db = {
         
         "irontonguetian": {
             "name": "Iron Tongue Tian",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
@@ -1990,7 +1990,7 @@ var db = {
         
         "liusu": {
             "name": "Liu Su",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332017_gcg_high_resolution.webp",
@@ -3165,7 +3165,7 @@ var db = {
             'element': 'cryo',
             'region': 'liyue',
             'related': 'Icy Quill, Talisman Spirit',
-            'flavor': '',
+            'flavor': 'The mortal realm briefly gracing, like a wisp of smoke vanishing.',
             'id': '4Y'
         },
 
@@ -3263,7 +3263,7 @@ var db = {
             'icon': Childe_Icon,
             'element': 'hydro',
             'region': 'fatui',
-            'flavor': '',
+            'flavor': 'Should this table be considered a battlefield, then may the strongest claim the win.',
             'id': '4Z'
         },
 
@@ -3327,7 +3327,7 @@ var db = {
             "element": 'pyro',
             'region': 'mond',
             'related': 'Baron Bunny',
-            'flavor': '',
+            'flavor': 'If you want to be a great player...\nFirst, you have to have the courage to sit down and play.',
             'id': '4N'
         },
 
@@ -3375,7 +3375,7 @@ var db = {
             'element': 'pyro',
             'region': "liyue",
             'related': 'Paramita Papilio, Blood Blossom',
-            'flavor': '',
+            'flavor': '\"Send one, send \'em all!\"',
             'id': '4O'
         },
 
@@ -3490,7 +3490,7 @@ var db = {
             'element': 'electro',
             'region': 'inazuma',
             'related': "Eye of Stormy Judgement, Chakra Desiderata",
-            'flavor': '',
+            'flavor': 'The tranquil thunder shall scatter this world most ephemeral.',
             'id': '4P'
         },
 
@@ -3506,7 +3506,7 @@ var db = {
             'element': 'electro',
             'region': 'inazuma',
             'related': 'Sesshou Sakura, Tenko Thunderbolts',
-            'flavor': '',
+            'flavor': 'The wise and beautiful Yae Miko.',
             'id': '4Q'
         },
 
@@ -3554,7 +3554,7 @@ var db = {
             'element': 'anemo',
             'region': 'mond',
             'related': 'Stormzone, Stormeye',
-            'flavor': '',
+            'flavor': '"As the four seasons in turn shall say their piece, so the four winds too shall never cease. \n"Of course, to look at it differently, I am the one who should be credited here, and not they."\nCredits should be given where credits belong — if not for the bard who pens the song, then who shall ensure that these tales are passed on!?"',
             'id': '4R'
         },
 
@@ -3570,7 +3570,7 @@ var db = {
             'element': 'anemo',
             'region': 'liyue',
             'related': "Yaksha's Mask",
-            'flavor': '',
+            'flavor': 'The Vigilant Yaksha, the bane of all evil',
             'id': '4S'
         },
 
@@ -3634,7 +3634,7 @@ var db = {
             'element': 'geo',
             'region': 'liyue',
             'related': 'Stone Stele, Jade Shield, Petrification',
-            'flavor': '',
+            'flavor': 'A hidden gemstone can illuminate the whole earth, bright and unrivaled as a star.',
             'id': '4T'
         },
 
@@ -3683,7 +3683,7 @@ var db = {
             'element': 'dendro',
             'region': 'sumeru',
             'related': 'Seed of Skandha, Shrine of Maya',
-            'flavor': '',
+            'flavor': 'The panacea brings purity, and from the palace depths is spring renewed.',
             'id': '4U'
         },
 
@@ -3699,7 +3699,7 @@ var db = {
             'element': 'cryo',
             'region': 'fatui',
             'related': 'Cryo Cicin, Flowing Cicin Shield',
-            'flavor': '',
+            'flavor': 'And so long as the Mist Grass yet lingers, the Cryo Cicins will not abandon her.',
             'id': '4V'
         },
 
@@ -3740,7 +3740,7 @@ var db = {
             'name': "Electro Hypostasis",
             'na': "Electro Crystal Projection \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
             'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately Prepare Skill: Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper. \nScissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.\nPaper: Deals 3 Electro DMG.",
-            'burst': "Lightning Lockdown\n3 Electro, 2 Energy \nDeals 1  Electro DMG, summons 1 Chains of Warding Thunder.",
+            'burst': "Lightning Lockdown\n3 Electro, 2 Energy \nDeals 2 Electro DMG, summons 1 Chains of Warding Thunder.",
             'special': "Electro Crystal Core\n(Passive) \nWhen the battle begins, this character gains Electro Crystal Core.\n\nNote: This character begins the battle with 8 HP.",
             'special2': "Rock-Paper-Scissors Combo: Scissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.",
             'special3': "Rock-Paper-Scissors Combo: Paper: Deals 3  Electro DMG.",
@@ -3751,7 +3751,7 @@ var db = {
             'element': 'electro',
             'region': 'monster',
             'related': 'Electro Crystal Core, Chains of Warding Thunder',
-            'flavor': '',
+            'flavor': 'A high-level Electro being. Code name: Aleph.\nJust like how one might act in a game of rock paper scissors, Aleph is not one to admit defeat.',
             'id': '4X'
         },
 
@@ -3776,7 +3776,7 @@ var db = {
             'name': "Abyss Lector: Fathomless Flames",
             'na': "Flame of Salvation \n2 Black, 1 Pyro \nDeals 1 Pyro DMG.",
             'skill': "Searing Precept \n3 Pyro \nDeals 3 Pyro DMG.",
-            'burst': "Ominous Star \n4 Pyro, 2 Energy \nDeals 4 Pyro DMG, summons 1 Darkfire Furnace.",
+            'burst': "Ominous Star \n4 Pyro, 2 Energy \nDeals 3 Pyro DMG, summons 1 Darkfire Furnace.",
             'special': "Fiery Rebirth \n(Passive) \nWhen the battle begins, this character gains Fiery Rebirth.\n\nNote: This character starts the battle with 6 HP.",
             'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330046_gcg_high_resolution.webp',
             'card': 'https://genshin.honeyhunterworld.com/img/i_n330046.webp',
@@ -3785,7 +3785,7 @@ var db = {
             'element': 'pyro',
             'region': 'monster',
             'related': 'Fiery Rebirth, Darkfire Furnace',
-            'flavor': '',
+            'flavor': 'From chapters of canon revealed comes much heeded admonishments.',
             'id': '4W'
         },
 
@@ -3928,7 +3928,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330540_gcg_high_resolution.webp",
             "cost": '3 Cryo',
             "description": "Combat Action: When your active character is Shenhe, equip this card. \n\nAfter Shenhe equips this card, immediately use Spring Spirit Summoning once. \n\nWhen a Icy Quill is created by your Shenhe who has this card equipped, its Usages will not decrease when triggered by your characters' Normal Attacks. (Once per Round) \n\n(You must have Shenhe in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": 'Transfigure, and let my will be embodied!',
             'required': 'shenhe',
             'related': 'Icy Quill',
             'id': '55'
@@ -4007,7 +4007,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330541_gcg_high_resolution.webp",
             "cost": '4 Hydro',
             "description": "Combat Action: When your active character is Tartaglia, equip this card.\n\nAfter Tartaglia equips this card, immediately use Foul Legacy: Raging Tide once.\n\nEnd Phase: Deals 1 Piercing DMG to all opposing characters affected by Riptide.\n\n(You must have Tartaglia in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": 'A reckless yet precise blow.',
             'required': 'tartaglia',
             'id': '56'
         },
@@ -4059,7 +4059,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330509_gcg_high_resolution.webp",
             "cost": '3 Pyro',
             "description": "Combat Action: When your active character is Amber, equip this card. \n\nAfter Amber equips this card, immediately use Explosive Puppet once. \n\nThe Baron Bunny created by your Amber will explode after your Amber uses a Normal Attack, dealing 3 Pyro DMG. \n\n(You must have Amber in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": '"Go go Baron Bunny!"',
             "required": "amber",
             'id': '50'
         },
@@ -4098,7 +4098,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330542_gcg_high_resolution.webp",
             "cost": '2 Pyro',
             "description": "Combat Action: When your active character is Hu Tao, equip this card.\n\nAfter Hu Tao equips this card, immediately use Guide to Afterlife once.\n\nWhen your Hu Tao, who has this card equipped, has no more than 6 HP, Pyro DMG dealt +1.\n\n(You must have Hu Tao in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": 'Director Hu needs a bit more firepower to settle certain unique affairs.',
             'required': 'hutao',
             'id': '57'
         },
@@ -4189,7 +4189,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330543_gcg_high_resolution.webp",
             "cost": '4 Electro 2 Energy',
             "description": "Combat Action: When your active character is Raiden Shogun, equip this card.\n\nAfter Raiden Shogun equips this card, immediately use Secret Art: Musou Shinsetsu once.\n\nWhen your Raiden Shogun, who has this card equipped, uses Secret Art: Musou Shinsetsu, it will deal +1 extra DMG for every point of Resolve consumed.\n\n(You must have Raiden Shogun in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": 'Transcendence: Shine down!',
             'required': 'raiden',
             'id': '58'
         },
@@ -4202,7 +4202,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330544_gcg_high_resolution.webp",
             "cost": '3 Electro 2 Energy',
             "description": "Combat Action: When your active character is Yae Miko, equip this card. \n\nAfter Yae Miko equips this card, immediately use Great Secret Art: Tenko Kenshin once. \n\nAfter your Yae Miko, who has this card equipped, destroys a Sesshou Sakura through Great Secret Art: Tenko Kenshin, the next use of Yakan Evocation: Sesshou Sakura this Round will cost 2 less Elemental Dice. \n\n(You must have Yae Miko in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": '"Ah... A sight to behold..."',
             'required': 'yae',
             'id': '59'
         },
@@ -4241,7 +4241,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330532_gcg_high_resolution.webp",
             "cost": '3 Anemo',
             "description": "Combat Action: When your active character is Venti, equip this card. \n\nAfter Venti equips this card, immediately use Skyward Sonnet once. \n\nAfter a Stormzone created by your Venti who has this card equipped is triggered, the next Normal Attack used by your character in this Round will cost 1 less Unaligned Element. \n\n(You must have Venti in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": '"Watch your step."',
             'required': 'venti',
             'id': '51'
         },
@@ -4253,8 +4253,8 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334537.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330533_gcg_high_resolution.webp",
             "cost": '3 Anemo 2 Energy',
-            "description": "Combat Action: When your active character is Xiao, equip this card. \n\nAfter Xiao equips this card, immediately use Bane of All Evil once. \n\nWhile your Xiao, who has this card equipped, has Yaksha's Mask attached, your use of Lemniscatic Wind Cycling will cost 1 less Anemo Die. (Twice per instance of the character gaining Yaksha's Mask)\n\n(You must have Xiao in your deck to add this card to your deck.)",
-            "flavor": '',
+            "description": "Combat Action: When your active character is Xiao, equip this card. \n\nAfter Xiao equips this card, immediately use Bane of All Evil once. \n\nWhile your Xiao, who has this card equipped, has Yaksha's Mask attached, your use of Lemniscatic Wind Cycling will cost 1 less Anemo Die. (Every attachment of Yaksha's Mask allows the effect to be triggered twice)\n\n(You must have Xiao in your deck to add this card to your deck.)",
+            "flavor": 'Evil shall be dispersed, and the vile will be scattered.',
             'required': 'xiao',
             'id': '52'
         },
@@ -4306,7 +4306,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330534_gcg_high_resolution.webp",
             "cost": '5 Geo',
             "description": "Combat Action: When your active character is Zhongli, equip this card. \n\nAfter Zhongli equips this card, immediately use Dominus Lapidis: Striking Stone once. \n\nWhen your active character is protected by a Shield Character Status or a Shield Combat Status, your Summons deal +1 Geo DMG. \n\n(You must have Zhongli in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": 'The vastness of rivers flows endless, perpetual upon the tapestry of eons.',
             'required': 'zhongli',
             'id': '53'
         },
@@ -4344,8 +4344,8 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334546.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330546_gcg_high_resolution.webp",
             "cost": '3 Dendro 2 Energy',
-            "description": "Combat Action: When your active character is Nahida, equip this card.\n\nAfter Nahida equips this card, immediately use Illusory Heart once.\n\nWhen your Nahida, who has this card equipped, is on the field, the following effects will take place based on your party's Elemental Types: \nPyro: When Shrine of Maya is on the field, characters who trigger Seed of Skandha due to Elemental Reactions they are affected by will have the Piercing DMG they take from Seed of Skandha converted to Dendro DMG. \nElectro: When Shrine of Maya enters the field, Seed of Skandha currently present will gain 1 Usage(s). \nHydro: Shrine of Maya's starting Duration (Rounds) +1.\n\n(You must have Nahida in your deck to add this card to your deck.)",
-            "flavor": '',
+            "description": "Combat Action: When your active character is Nahida, equip this card.\n\nAfter Nahida equips this card, immediately use Illusory Heart once.\n\nWhen your Nahida, who has this card equipped, is on the field, the following effects will take place based on your party's Elemental Types: \nPyro: When Shrine of Maya is on the field, characters who trigger Seed of Skandha due to Elemental Reactions they are affected by will have the Piercing DMG they take from Seed of Skandha converted to Dendro DMG. \nElectro: When the Shrine of Maya enters the field, Seed of Skandha currently present of the opposition will gain 1 Usage(s). \nHydro: After your Nahida, who has this card equipped unleashes Shrine of Maya, Duration (Rounds) +1.\n\n(You must have Nahida in your deck to add this card to your deck.)",
+            "flavor": '"Share in my knowledge."',
             'required': 'nahida',
             'id': '5A'
         },
@@ -4358,7 +4358,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330547_gcg_high_resolution.webp",
             "cost": '3 Cryo',
             "description": "Combat Action: When your active character is Fatui Cryo Cicin Mage, equip this card.\n\nAfter Fatui Cryo Cicin Mage equips this card, immediately use Misty Summons once. \n\nAfter your Fatui Cryo Cicin Mage, who has this card equipped, uses a Skill: If Cryo Cicin's Usage(s) stacks have surpassed their upper limit, Cryo Cicin will deal 2 Cryo DMG.\n\n(You must have Fatui Cryo Cicin Mage in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": 'More Mist Grass means more friendly Cicin.\n...But what happens when the Mist Grass is used up?\nPerhaps she never considered this.',
             'required': 'cryocicinmage',
             'id': '5B'
         },
@@ -4410,8 +4410,9 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330548_gcg_high_resolution.webp",
             "cost": '2 Pyro',
             "description": "When played: If Abyss Lector: Fathomless Flames, who equips this card, has already triggered Fiery Rebirth, immediately discard this card and apply Aegis of Abyssal Flame to the character.\n\nWhen Abyss Lector: Fathomless Flames, who has this card equipped, triggers Fiery Rebirth: discard this card and apply Aegis of Abyssal Flame to the character.\n\n(You must have Abyss Lector: Fathomless Flames in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": 'The path toward sowing grace is not assured to be one free of obstructions.',
             'required': 'abysslector',
+            'related': 'Aegis of Abyssal Flame',
             'id': '5C'
         },
 
@@ -4423,7 +4424,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330536_gcg_high_resolution.webp",
             "cost": '3 Electro',
             "description": "Combat Action: When your active character is Electro Hypostasis, heal that character for 3 HP and attach Electro Crystal Core to them. \n\n(You must have Electro Hypostasis in your deck to add this card to your deck.)",
-            "flavor": '',
+            "flavor": '"Here\'s our chance!"\n"Hey, it\'s on our side!"',
             'required': 'electrohypostasis',
             'related': 'Electro Crystal Core',
             'id': '54'
@@ -4512,7 +4513,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331038_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nWhen your character triggers an Elemental Reaction: Deal +1 DMG. (Twice per Round)\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": '"There is an appointed time for all things to live and die, just like the ceaseless cycles of night and dawn."\n',
             'id': '5E'
         },
         
@@ -4560,7 +4561,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331037_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nWhen the character uses a Skill of which the original Elemental Dice and Energy cost totals at least 5, +2 extra DMG. (Once per Round)\n\n(Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": '"I dreamt of ocean waves and sand, of lush forests and land."\n"I dreamt of boars playing in berry bushes, of a towering spire."',
             'id': '5D'
         },
 
@@ -4572,7 +4573,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331039_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nAfter the character uses an Elemental Burst: Create Millennial Movement: Farewell Song. (Your character deals +1 DMG, Duration (Rounds): 2)\n\n(Only Bow Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": '"...But no wind in any season on earth"\n"Shall have you gaze upon me again."',
             'id': '5F'
         },
         
@@ -4620,7 +4621,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331040_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nOnce per Round: This character's Normal Attacks deal +1 extra DMG.\n\n(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": 'Sundering the courage of the skies and bearing the will to defend all, let the wind dragon bestow wrath upon its vile nemesis.',
             'id': '5G'
         },
 
@@ -4632,7 +4633,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331041_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nAfter the character uses a skill: Gives 1 Shield point to your active character. (Once per Round, stacks up to 2 points)\n\n(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": 'There once was a traitor who brandished a blade against his fallen clan.\nThough this individual was eventual cast out from his clan, rumor has that his organization continued their chosen duties.\nLegend claims that even the Wolf Pup Rostam might have been involved...',
             'id': '5H'
         },
         
@@ -4680,7 +4681,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331042_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nWhen protected by a Shield Character Status or a Shield Combat Status, the character deals +1 additional DMG.\n\nAfter the character uses a Elemental Skill: If you have a Combat Status that grants Shield on your side, add 1 Shield to that Combat Status. (Once per Round)\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": 'Folklore spoke of a vast shadow entrenched in the depths of the ocean capable of swallowing passing warships...\nAt tale\'s end, they believe that Rex Lapis once wielded a spear that pierced the rainbow, pinning the churning vortex that had once terrorized the oceans in the center of the deep sea.',
             'id': '5I'
         },
 
@@ -4692,7 +4693,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331043_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nTriggers automatically once per Round: If the character to which this is attached does not have Energy, they will gain 1 Energy.\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": 'The naginata was a lethal weapon by which scattered dross might be cut away.\nAnd the one who wielded that naginata was one who guarded the path to eternity.',
             'id': '5J'
         },
         
@@ -4752,7 +4753,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331044_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "The character deals +1 DMG.\n\nOnce per Round: This character's Normal Attacks deal +1 extra DMG.\n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
-            "flavor": '',
+            "flavor": 'The sky-piercing fang. With nemesis vanquished, the wind dragon fell into a deep slumber.\nCenturies passed, and the people of Mondstadt gradually forgot Dvalin\'s desperate struggle.\nThis sword represents the oath offered toward the restoration of Dvalin\'s reputation.',
             'id': '5K'
         },
         
@@ -4848,7 +4849,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331046_gcg_high_resolution.webp",
             "cost": '3 Black',
             "description": "After another character of yours uses an Elemental Burst: The character to which this is attached gains 1 Energy.\n\nThe DMG dealt by the character's Elemental Bursts is increased by 2.\n\n(A character can equip a maximum of 1 Artifact)",
-            "flavor": '',
+            "flavor": 'Thirteen years went by like a dream.\nThe scarlet snow flies through the shadowed pass like smoke.\nYou have now gone afar.',
             'id': '5L'
         },
 
@@ -4872,8 +4873,8 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331047_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "When Action Phase begins: The character to which this is attached gains Unmovable Mountain that provides 2 Shield points.\n\nAfter this character takes DMG: Create 1 Elemental Die matching this character's Elemental Type. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
-            "flavor": '',
-            'id': '5M'
+            "flavor": '"...To ensure that the afflicted civilians could safely escape, and to maintain their honor in the eyes of the Lord of Geo, the helmet-clad troops of the front line took the lead, pointing their spears towards the Abyss and charging into battle."',
+            'id': '5M',
         },
 
         "thunderingpoise": {
@@ -4884,7 +4885,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331048_gcg_high_resolution.webp",
             "cost": '2 White',
             "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
-            "flavor": '',
+            "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
             'id': '5N'
         },
 
@@ -4896,7 +4897,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331049_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\nAfter a character is switched to the active character: During this Round, character deals +1 Normal Attack DMG.\n\n(A character can equip a maximum of 1 Artifact)",
-            "flavor": '',
+            "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
             'id': '5O'
         },
         "capriciousvisage": {
@@ -4907,7 +4908,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331050_gcg_high_resolution.webp",
             "cost": '2 White',
             "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\n(A character can equip a maximum of 1  Artifact)",
-            "flavor": '',
+            "flavor": 'Even a faint smile could not conceal her sorrow.\nThough this is a festive day, it seems more like a farewell...',
             'id': '5P'
         },
         "shimenawasreminiscence": {
@@ -4918,7 +4919,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331051_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\nIf the character had at least 2 Energy, this character's Normal Attacks and Elemental Skills will deal +1 DMG.\n\n(A character can equip a maximum of 1 Artifact)",
-            "flavor": '',
+            "flavor": '"...Losing one\'s memory is no different from losing one\'s life. It is like death amidst darkness eternal."\n"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost..."',
             'id': '5Q'
         },
         
@@ -5182,7 +5183,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332021_gcg_high_resolution.webp",
             "cost": '2 White',
             "description": "When the Action Phase begins: If you have 5 different kinds of Elemental Die, create 1 Omni Element.",
-            "flavor": '',
+            "flavor": '"What matters is that I tread the path of eternity on my people\'s behalf."',
             'id': '5R'
         },
 
@@ -5194,7 +5195,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332022_gcg_high_resolution.webp",
             "cost": '2 White',
             "description": "End Phase: Heal all your characters for 1 HP.\n\nUsage(s): 2", 
-            "flavor": '',
+            "flavor": '"Sangonomiya was once an ocean abyss, until the Great Serpent came, forming a vortex with its spiral movements, and fashioning the coral into an island."',
             'id': '5S'
         },
 
@@ -5205,8 +5206,8 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336023.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332023_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "When your character uses a Skill or equips a Talent Card: If you have no more dice than cards in your hand, spend 1 less die. (Once per Round)",
-            "flavor": '',
+            "description": "When your character uses a Skill or equips a Talent Card: If you do not have more Elemental Dice than cards in your hand, spend 1 less Elemental Die. (Once per Round)",
+            "flavor": 'Under the luxuriant Divine Tree, the sages of the academy city have accumulated all the knowledge there is to be gathered.',
             'id': '5T'
         },
 
@@ -5218,7 +5219,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332024_gcg_high_resolution.webp",
             "cost": '0 White',
             "description": "End Phase: Collect up to 2 unused die.\n\nWhen the Action Phase begins: Reclaim the die you collected using this card.",
-            "flavor": '',
+            "flavor": '"Enter the memories of the trees in the forest, descend into seedbeds sprouting the dreams of slumbering leaves, and dive a world free of woes."',
             'id': '5U'
         },
 
@@ -5229,14 +5230,14 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336025.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332025_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "When Action Phase begins: If you do not start first, create 1 die that matches the Type of your active character.\n\nUsage(s): 2",
-            "flavor": '',
+            "description": "When Action Phase begins: If you do not start first, create 1 die that matches the Type of your active character.\n\nUsage(s): 3",
+            "flavor": 'Legend has it that this sacred forest was once home to many demons.',
             'id': '5V'
         },
         
         "paimon": {
             "name": "Paimon",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332006.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336006.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332006_gcg_high_resolution.webp",
@@ -5248,7 +5249,7 @@ var db = {
         
         "katheryne": {
             "name": "Katheryne",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332007.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336007.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332007_gcg_high_resolution.webp",
@@ -5260,7 +5261,7 @@ var db = {
         
         "timaeus": {
             "name": "Timaeus",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332008.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336008.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332008_gcg_high_resolution.webp",
@@ -5272,7 +5273,7 @@ var db = {
         
         "wagner": {
             "name": "Wagner",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332009.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336009.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332009_gcg_high_resolution.webp",
@@ -5284,7 +5285,7 @@ var db = {
         
         "chefmao": {
             "name": "Chef Mao",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332010.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336010.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332010_gcg_high_resolution.webp",
@@ -5296,7 +5297,7 @@ var db = {
         
         "tubby": {
             "name": "Tubby",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332011.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336011.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332011_gcg_high_resolution.webp",
@@ -5308,7 +5309,7 @@ var db = {
         
         "timmie": {
             "name": "Timmie",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332012.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336012.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332012_gcg_high_resolution.webp",
@@ -5320,7 +5321,7 @@ var db = {
         
         "liben": {
             "name": "Liben",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332013.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336013.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332013_gcg_high_resolution.webp",
@@ -5332,7 +5333,7 @@ var db = {
         
         "changtheninth": {
             "name": "Chang the Ninth",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332014.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336014.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332014_gcg_high_resolution.webp",
@@ -5344,7 +5345,7 @@ var db = {
         
         "ellin": {
             "name": "Ellin",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332015.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336015.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332015_gcg_high_resolution.webp",
@@ -5356,7 +5357,7 @@ var db = {
         
         "irontonguetian": {
             "name": "Iron Tongue Tian",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332016.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336016.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332016_gcg_high_resolution.webp",
@@ -5368,7 +5369,7 @@ var db = {
         
         "liusu": {
             "name": "Liu Su",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332017.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336017.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332017_gcg_high_resolution.webp",
@@ -5380,57 +5381,57 @@ var db = {
 
         "hanachirusato": {
             "name": "Hanachirusato",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332026.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336026.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332026_gcg_high_resolution.webp",
             "cost": '0 White',
-            "description": "When a Summon disappears: This card gains 1 Cleansing Ritual Progress. (Max 3)\n\nWhen you play a Weapon or Artifact Card: If you already have 3 Cleansing Ritual Progress, discard this card and cause the card you play to cost 2 less die.",
-            "flavor": '',
+            "description": "When a Summon disappears: This card gains 1 Cleansing Ritual Progress. (Max 3)\n\nWhen you play a Weapon or Artifact Card: If you already have 3 Cleansing Ritual Progress, discard this card and cause the card you play to cost 2 less Elemental Dice.",
+            "flavor": '"When shall we meet again after this parting? For life is like the morning dew."',
             'id': '5W'
         },
         "kidkujirai": {
             "name": "Kid Kujirai",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332027.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336027.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332027_gcg_high_resolution.webp",
             "cost": '0 White',
             "description": "When the Action Phase begins: Create 1 Omni Element. Then if your opponent's Support Zone is not full, transfer this card to your opponent's Support Zone.",
-            "flavor": '',
+            "flavor": '"When you hide a Temari, you have to hide it within the time of a Temari song. The person who is looking for it will also find it within a song\'s time. That will make the game fair!"',
             'id': '5X'
         },
         "xudong": {
             "name": "Xudong",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332028.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336028.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332028_gcg_high_resolution.webp",
             "cost": '2 Black',
             "description": "When playing a Food Event Card: Spend 2 less Elemental Dice. (Once per Round)",
-            "flavor": '',
+            "flavor": '"Hmm? A problem. Agh. We can deal with it after we finish eating."',
             'id': '5Y'
         },
         "dunyarzad": {
             "name": "Dunyarzad",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332029.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336029.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332029_gcg_high_resolution.webp",
             "cost": '1 White',
             "description": "When playing a Companion Support Card: Spend 1 less Elemental Dice. (Once per Round)",
-            "flavor": '',
+            "flavor": '"The point of living is to not leave behind any regrets."',
             'id': '5Z'
         },
         "rana": {
             "name": "Rana",
-            "tags": ['assist', 'ally'],
+            "tags": ['assist', 'companion'],
             "image": "https://genshin.honeyhunterworld.com/img/i_n332030.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336030.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332030_gcg_high_resolution.webp",
             "cost": '2 White',
-            "description": "After your character uses an Elemental Skill: Create 1 die of the same Type as your next off-field character. (Once per Round)",
-            "flavor": '',
+            "description": "After your character uses an Elemental Skill: Create 1 Elemental Die of the same Type as your next off-field character. (Once per Round)",
+            "flavor": '"We still have a lot of time with each other. We can explore the vastness of the forest, the world, and the future together."',
             'id': '60'
         },
         
@@ -5466,7 +5467,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332031_gcg_high_resolution.webp",
             "cost": '2 White',
             "description": "After you switch characters: The next Switch Character action you perform this Round will be considered a Fast Action instead of a Combat Action. It will also cost 1 less die. (Once per Round)",
-            "flavor": '',
+            "flavor": 'Legend has that this fan is capable of unleashing all kinds of power in the hands of a tengu warrior.\nWhen held by someone of mundane make, however, it only possesses the power to imbue their body weight a little more lightness.\nEven so, this degree of power is more than useful for the average individual.',
             'id': '61'
         },
 
@@ -5478,7 +5479,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332032_gcg_high_resolution.webp",
             "cost": '1 White',
             "description": "After your character uses a skill: This card will accumulate 1 Treasure Clue. \n\nWhen this card has stored 3 Treasure Clues, discard this card and draw 3 cards.",
-            "flavor": '',
+            "flavor": 'Strange Seelie capable of guiding people toward treasure. Legend has it that some individuals know how to communicate with these Seelie...',
             'id': '62'
         },
         
@@ -5839,9 +5840,9 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337037.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333037_gcg_high_resolution.webp",
             "cost": '1 White',
-            "description": "In this Round, the next time an opposing character is defeated during your Action, you can continue to act again.\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
+            "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again.\n\nUsage(s)：1\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
             "required": '2mond',
-            "flavor": '',
+            "flavor": 'Usage(s)：1',
             'id': '63'
         },
 
@@ -5854,7 +5855,7 @@ var db = {
             "cost": '3 Black',
             "description": "When the Action Phase of the next Round begins: create 3  Omni Element.\n\n(You must have at least 2 Liyue characters in your deck to add this card to your deck.)",
             "required": '2liyue',
-            "flavor": '',
+            "flavor": '"Such is my faith in life itself, and to sully my trust is to tarnish my blood."',
             'id': '64'
         },
 
@@ -5864,10 +5865,10 @@ var db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333039.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337039.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333039_gcg_high_resolution.webp",
-            "cost": '1 White',
+            "cost": '0 White',
             "description": "Convert all your dice to the Type of the active character.\n\n(You must have at least 2 Inazuma characters in your deck to add this card to your deck.)",
             "required": '2inazuma',
-            "flavor": '',
+            "flavor": '"It once promised its people a dream: the never-changing \'eternity.\'"',
             'id': '65'
         },
 
@@ -5877,10 +5878,10 @@ var db = {
             "image": "https://genshin.honeyhunterworld.com/img/i_n333040.webp",
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337040.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333040_gcg_high_resolution.webp",
-            "cost": '2 White',
-            "description": "Draw 2 cards. After that, switch them with cards of choice in your hand.\n\n(You must have at least 2 Sumeru characters in your deck to add this card to your deck.)",
+            "cost": '1 White',
+            "description": "Draw 2 cards. After that, switch any cards in your hand.\n\n(You must have at least 2 Sumeru characters in your deck to add this card to your deck.)",
             "required": '2sumeru',
-            "flavor": '',
+            "flavor": '"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means."',
             'id': '66'
         },
         
@@ -5908,7 +5909,7 @@ var db = {
             "description": "Create 1 Fatui Ambushers of a random type on the opponent's field.\n\n(You must have at least 2 Fatui characters in your deck to add this card to your deck.)",
             'required': '2fatui',
             'related': 'Cryo Cicin Mage, Mirror Maiden, Pyroslinger Bracer, Electrohammer Vanguard',
-            "flavor": '',
+            "flavor": '...But none know the intricacies of what they are plotting.',
             'id': '67'
         },
 
@@ -5920,7 +5921,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333042_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "Combat Action: Switch to the target character. That character then uses a Normal Attack.",
-            "flavor": '',
+            "flavor": '"...Don\'t deploy your Wind Glider halfway down! You\'ll get discovered!"',
             'id': '68'
         },
 
@@ -5932,7 +5933,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333043_gcg_high_resolution.webp",
             "cost": '1 White',
             "description": "During this round, your current active character's next Normal Attack deals +1 DMG.\n\nWhen this Normal Attack is a Charged Attack: +1 extra DMG.",
-            "flavor": '',
+            "flavor": 'For those that aren\'t so strong...\nIt\'s best to regard the "The Shatterstone Method" as just a "metaphor."',
             'id': '69'
         },
 
@@ -5944,7 +5945,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333044_gcg_high_resolution.webp",
             "cost": '3 White',
             "description": "Create 4 basic Elemental Dice of different types.",
-            "flavor": '',
+            "flavor": '"Lonely forest breezes converged, jointly they overthrew the tyrant\'s tower from the sky."\n"Broken free from shackles at last, the young lioness stood firm in the winds with her head held high."',
             'id': '6A'
         },
         
@@ -6052,7 +6053,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333046_gcg_high_resolution.webp",
             "cost": '3 White',
             'description': "Revives the target character and heals that character for 1 HP. \n\n(You can only revive 1 character via Food per Round, and a character can consume at most 1 Food per Round)",
-            "flavor": '',
+            "flavor": '"Lonely forest breezes converged, jointly they overthrew the tyrant\'s tower from the sky."\n"Broken free from shackles at last, the young lioness stood firm in the winds with her head held high."',
             'id': '6B'
         },
 
@@ -6064,7 +6065,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333047_gcg_high_resolution.webp",
             "cost": '1 White',
             "description": "Before this Round ends, the target character's Normal Attacks deal +1 DMG.\n\n(A character can consume at most 1 Food per Round)",
-            "flavor": '',
+            "flavor": 'Under the blade of a master chef, the texture of the ingredients remains pristine. Upon consumption, it is as if something living is leaping inside your mouth...\nHold on, could these ingredients still be...',
             'id': '6C'
         },
 
@@ -6076,7 +6077,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333048_gcg_high_resolution.webp",
             "cost": '2 Black',
             "description": "During this Round, all your characters' next Elemental Skills deal +2 DMG.\n\n(A character can consume at most 1  Food per Round)",
-            "flavor": '',
+            "flavor": 'Under the blade of a master chef, the texture of the ingredients remains pristine. Upon consumption, it is as if something living is leaping inside your mouth...\nHold on, could these ingredients still be...',
             'id': '6D'
         },
         "buttercrab": {
@@ -6087,7 +6088,7 @@ var db = {
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333049_gcg_high_resolution.webp",
             "cost": '2 Black',
             "description": "During this Round, all your characters take -2 DMG the next time.\n\n(A character can consume at most 1 Food per Round)",
-            "flavor": '',
+            "flavor": 'The butter-infused crab legs have a rich aroma that washes over the tastes buds so seductively that none can resist its allure.\n"Another dish, please!"',
             'id': '6E'
         },
     },
@@ -6509,7 +6510,7 @@ var db = {
         'baronbunny': {
             "name": "Baron Bunny",
             "type": "Summon",
-            "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 2. When the Usages are depleted, this card will not be discarded. \n\nEnd Phase, and if Usage(s) have been depleted: Discard this card to deal 2 Pyro DMG.",
+            "description": "When your active character takes DMG: Decrease DMG taken by 1. \n\nUsage(s): 2. When the Usages are depleted, this card will not be discarded. \n\nAt the End Phase, if Usage(s) have been depleted: Discard this card to deal 2 Pyro DMG.",
             "related": "Amber",
         },
         "paramitapapilio": {
@@ -6681,8 +6682,12 @@ var db = {
             'name': 'Electrohammer Vanguard',
             'type': 'Combat Status',
             'description': "After a character to which Electrohammer Vanguard is attached uses a Skill: Deals 1 Electro DMG to their team's active character. \n\nUsage(s): 2"
+        },
+        'aegisofabyssalflame': {
+            'name': "Aegis of Abyssal Flame",
+            "type": "Combat Status",
+            "description": "Grant the character to which this is attached 3 Shield points. \n\nBefore this Shield is depleted, the character to which this is attached will deal +1 Pyro DMG."
         }
-
     },
 
     "nullchar": {
