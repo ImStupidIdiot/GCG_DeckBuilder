@@ -157,7 +157,8 @@ var db = {
             "region": 'liyue',
             'related': 'Ice Lotus, Sacred Cryo Pearl',
             "flavor": "“This press release is due tomorrow… I suppose I could work through the night and get it done.”",
-            "id": '03'
+            "id": '03',
+            "keyword": "bow"
         },
 
         "diona": {
@@ -170,10 +171,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334023.webp',
             "icon": Diona_Icon,
             "element": 'cryo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Cat-Claw Shield, Drunken Mist',
             "flavor": "1% energy dedicated to mixing drinks, 99% to... denying the reality of familiar.",
-            "id": '02'
+            "id": '02',
+            "keyword": "bow"
         },
 
         "kaeya": {
@@ -186,10 +188,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
             "icon": Kaeya_Icon,
             "element": 'cryo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Icicle',
             "flavor": "Specializes in awakening knightly virtue in others.",
-            "id": '01'
+            "id": '01',
+            "keyword": "sword"
         },
 
         "chongyun": {
@@ -205,7 +208,8 @@ var db = {
             "region": 'liyue',
             'related': 'Chonghua Frost Field',
             "flavor": "“Ugh, summer… Please pass us by in peace…”",
-            "id": '04'
+            "id": '04',
+            "keyword": "claymore"
         },
 
         "ayaka": {
@@ -222,7 +226,8 @@ var db = {
             "region": 'inazuma',
             'related': "Frostflake Seki no To, Kamisato Ayaka's Cryo Infusion",
             "flavor": "As graceful as the frost drifting in the wind, as elegant as a heron perched in a courtyard.",
-            "id": '05'
+            "id": '05',
+            "keyword": "sword"
         },
 
         "eula": {
@@ -235,10 +240,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334030.webp',
             "icon": Eula_Icon,
             "element": "cryo",
-            "region": "mond",
+            "region": 'mondstadt',
             "related": "Grimheart, Lightfall Sword",
             "flavor": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
-            "id": '49'
+            "id": '49',
+            "keyword": "claymore"
         },
 
         "barbara": {
@@ -251,10 +257,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334025.webp',
             "icon": Barbara_Icon,
             "element": 'hydro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Melody Loop',
             "flavor": "Ready to heal hearts and soothe souls at any time.",
-            "id": '07'        
+            "id": '07',
+            "keyword": "catalyst"        
         },
 
         "xingqiu": {
@@ -270,7 +277,8 @@ var db = {
             "region": 'liyue',
             'related': 'Rain Sword, Rainbow Bladework',
             "flavor": "“Is it just me, or are the protagonists in novels nowadays all students of some private school or another…”",
-            "id": '08'        
+            "id": '08',
+            "keyword": "sword"        
         },
 
         "mona": {
@@ -284,10 +292,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334005.webp',
             "icon": Mona_Icon,
             "element": 'hydro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Reflection, Illusory Bubble',
             "flavor": "Victory or defeat — it has all been written in the stars.",
-            "id": '06'        
+            "id": '06',
+            "keyword": "catalyst"        
         },
 
         "kokomi": {
@@ -303,7 +312,8 @@ var db = {
             "region": "inazuma",
             'related': "Bake-Kurage, Ceremonial Garment",
             "flavor": "To survive hardship, you must prepare for hardship.",
-            "id": '48'
+            "id": '48',
+            "keyword": "catalyst"
         },
 
         "ayato": {
@@ -319,7 +329,8 @@ var db = {
             "element": 'hydro',
             "region": "inazuma",
             "flavor": "The divinely-blessed cypress sprouts new leaves.",
-            "id": '4F'
+            "id": '4F',
+            "keyword": "sword"
         },
 
         "diluc": {
@@ -332,10 +343,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
             "icon": Diluc_Icon,
             "element": 'pyro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': "Diluc's Pyro Infusion",
             "flavor": "His heart is his greatest foe.",
-            "id": '0B'
+            "id": '0B',
+            "keyword": "claymore"
         },
 
         "xiangling": {
@@ -351,7 +363,8 @@ var db = {
             "region": 'liyue',
             'related': 'Guoba, Pyronado',
             "flavor": "As a chef, she is practically omnipotent.",
-            "id": '0D'        
+            "id": '0D',
+            "keyword": "polearm"        
         },
 
         "bennett": {
@@ -364,27 +377,12 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
             "icon": Bennett_Icon,
             "element": 'pyro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Inspiration Field',
             "flavor": "Once you know that you will certainly lose, then you must certainly know the way to win.",
-            "id": '0C'        
+            "id": '0C',
+            "keyword": "sword"        
         },
-
-        // "amber": {
-        //     'name': 'Amber',
-        //     'na': 'Sharpshooter \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
-        //     'skill': 'Explosive Puppet \n3 Pyro \nSummons 1 Baron Bunny.',
-        //     'burst': 'Fiery Rain \n3 Pyro, 2 Energy \nDeals 2 Pyro DMG, deals 2 Piercing DMG to all opposing characters on standby.',
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330009_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330009.webp',
-        //     "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334009.webp',
-        //     "icon": Amber_Icon,
-        //     "element": 'pyro',
-        //     'region': 'mond',
-        //     'related': 'Baron Bunny',
-        //     'flavor': '',
-        //     'id': '4N'
-        // },
 
         "yoimiya": {
             "name": 'Yoimiya',
@@ -399,7 +397,8 @@ var db = {
             "region": 'inazuma',
             'related': 'Niwabi Enshou, Aurous Blaze',
             "flavor": "Captain and Vanguard of Team Naganohara for the 11th Hanamizaka Street Invitational.",
-            "id": '0E'        
+            "id": '0E',
+            "keyword": "bow"        
         },
 
         "klee": {
@@ -412,10 +411,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334029.webp',
             "icon": Klee_Icon,
             "element": 'pyro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': "Explosive Spark, Sparks'n'Splash",
             "flavor": "Every card you draw may bring an “explosive surprise.”",
-            "id": '43'
+            "id": '43',
+            "keyword": "catalyst"
         },
 
         // "hutao": {
@@ -444,10 +444,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
             "icon": Fischl_Icon,
             "element": 'electro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Oz',
             "flavor": "“Oz, mine familiar, spread thine wings and weave for me a new fate in the gloom of this night!”\n“Mein Fräulein, you cannot expect me to fetch you a replacement card…”",
-            "id": '0G'        
+            "id": '0G',
+            "keyword": "bow"        
         },
 
         "razor": {
@@ -460,10 +461,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
             "icon": Razor_Icon,
             "element": 'electro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'The Wolf Within',
             "flavor": "“Cards, hard.”\n“But… friends…”",
-            "id": '0H'        
+            "id": '0H',
+            "keyword": "claymore"        
         },
 
         "keqing": {
@@ -479,7 +481,8 @@ var db = {
             "region": 'liyue',
             'related': "Lightning Stilleto, Keqing's Electro Infusion",
             "flavor": "She can build decks heretofore not conceived and win battles in which victory is unthinkable.",
-            "id": '0I'        
+            "id": '0I',
+            "keyword": "sword"        
         },
 
         "cyno": {
@@ -496,7 +499,8 @@ var db = {
             "region": 'sumeru',
             'related': 'Pactsworn Pathclearer',
             "flavor": "These card covers bear the weight of the General Mahamatra’s incomparable passion.",
-            "id": '0J'        
+            "id": '0J',
+            "keyword": "polearm"        
         },
 
         "beidou": {
@@ -513,7 +517,8 @@ var db = {
             "region": 'liyue',
             'related': "Tidecaller: Surf Embrace, Thunderbeast's Targe",
             "flavor": "“Remember this day, you almost won money from the Captain of the Crux.”",
-            "id": '44'
+            "id": '44',
+            "keyword": "claymore"
         },
 
         "sara": {
@@ -529,41 +534,9 @@ var db = {
             "region": "inazuma",
             'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowfeather Cover",
             "flavor": "“This is an act of righteousness.”",
-            "id": '47'
+            "id": '47',
+            "keyword": "bow"
         },
-
-        // "raiden": {
-        //     'name': "Raiden Shogun",
-        //     'na': "Origin \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
-        //     'skill': "Transcendence: Baleful Omen \n3 Electro \nSummons 1 Eye of Stormy Judgment.",
-        //     'burst': "Secret Art: Musou Shinsetsu \n4 Electro, 2 Energy \nDeals 3 Electro DMG. All of your other characters gain 2 Energy.",
-        //     'special': "Chakra Desiderata \n(Passive) \nWhen the battle begins, this character gains Chakra Desiderata.",
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330036_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330036.webp',
-        //     'card_selected': "https://genshin.honeyhunterworld.com/img/i_n334038.webp",
-        //     'icon': Sara_Icon,
-        //     'element': 'electro',
-        //     'region': 'inazuma',
-        //     'related': "Eye of Stormy Judgement, Chakra Desiderata",
-        //     'flavor': '',
-        //     'id': '4P'
-        // },
-
-        // "yae": {
-        //     'name': 'Yae Miko',
-        //     'na': "Spiritfox Sin-Eater \n2 Black, 1 Electro \nsDeals 1 Electro DMG.",
-        //     'skill': "Yakan Evocation: Sesshou Sakura \n3 Electro \nSummons 1 Sesshou Sakura.",
-        //     'burst': "Great Secret Art: Tenko Kenshin \n3 Electro, 2 Energy \nDeals 4 Electro DMG. If your side of the field has any Sesshou Sakura, destroy them and create Tenko Thunderbolts.",
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330037_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330037.webp',
-        //     'card_selected': "https://genshin.honeyhunterworld.com/img/i_n334039.webp",
-        //     'icon': Sara_Icon,
-        //     'element': 'electro',
-        //     'region': 'inazuma',
-        //     'related': 'Sesshou Sakura, Tenko Thunderbolts',
-        //     'flavor': '',
-        //     'id': '4Q'
-        // },
 
         "sucrose": {
             "name": "Sucrose",
@@ -575,10 +548,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
             "icon": Sucrose_Icon,
             "element": 'anemo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Large Wind Spirit',
             "flavor": "“You can’t rate the strength of an as-yet untested deck!”",
-            "id": '0K'        
+            "id": '0K',
+            "keyword": "catalyst"        
         },
 
         "jean": {
@@ -591,43 +565,12 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334015.webp',
             "icon": Jean_Icon,
             "element": 'anemo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Dandelion Field',
             "flavor": "Never believes that she has done well enough — not until final victory is hers, anyway.",
-            "id": '0L'        
+            "id": '0L',
+            "keyword": "sword"        
         },
-
-        // "venti": {
-        //     'name': "Venti",
-        //     'na': "Divine Marksmanship \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
-        //     'skill': "Skyward Sonnet \n3 Anemo \nDeals 2 Anemo DMG, creates 1 Stormzone and triggers its effect.",
-        //     'burst': "Wind's Grand Ode \n3 Anemo, 2 Energy \nDeals 2 Anemo DMG, summons 1 Stormeye.",
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330038_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330038.webp',
-        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334040.webp',
-        //     'icon': Jean_Icon,
-        //     'element': 'anemo',
-        //     'region': 'mond',
-        //     'related': 'Stormzone, Stormeye',
-        //     'flavor': '',
-        //     'id': '4R'
-        // },
-
-        // "xiao": {
-        //     'name': "Xiao",
-        //     'na': "Whirlwind Thrust \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
-        //     'skill': "Lemniscatic Wind Cycling \n3 Anemo \nDeals 3 Anemo DMG.",
-        //     'burst': "Bane of All Evil \n3 Anemo, 2 Energy \nDeals 4 Anemo DMG. This character gains Yaksha's Mask.",
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330039_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330039.webp',
-        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334041.webp',
-        //     'icon': Jean_Icon,
-        //     'element': 'anemo',
-        //     'region': 'liyue',
-        //     'related': "Yaksha's Mask",
-        //     'flavor': '',
-        //     'id': '4S'
-        // },
 
         "noelle": {
             "name": "Noelle",
@@ -639,10 +582,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334017.webp',
             "icon": Noelle_Icon,
             "element": 'geo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Full Plate, Sweeping Time',
             "flavor": "You can leave arranging the table to her — really, you can.",
-            "id": '0N'        
+            "id": '0N',
+            "keyword": "claymore"        
         },
         "ningguang": {
             "name": "Ningguang",
@@ -657,7 +601,8 @@ var db = {
             "region": 'liyue',
             'related': 'Jade Screen',
             "flavor": "The greatest secret she keeps is that she keeps a great many of Liyue’s secrets.",
-            "id": '0O'        
+            "id": '0O',
+            "keyword": "catalyst"        
         },
 
         "itto": {
@@ -673,25 +618,9 @@ var db = {
             "region": 'inazuma',
             'related': "Ushi, Superlative Superstrength, Raging Oni King",
             'flavor': "Arataki \"The Ultimate TCG Champion\" Itto",
-            "id": '4G'
+            "id": '4G',
+            "keyword": "claymore"
         },
-
-        // "zhongli": {
-        //     'name': "Zhongli",
-        //     'na': "Rain of Stone \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
-        //     'skill': "Dominus Lapidis \n3 Geo \nDeals 1 Geo DMG, summons 1 Stone Stele.",
-        //     'special': "Dominus Lapidis: Striking Stone \n5 Geo \nDeals 2  Geo DMG, summons 1 Stone Stele, creates 1 Jade Shield.",       
-        //     'burst': "Planet Befall \n3 Geo, 3 Energy \nDeals 4  Geo DMG. The target character receives Petrification.",
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330040_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330040.webp',
-        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334042.webp',
-        //     'icon': Ningguang_Icon,
-        //     'element': 'geo',
-        //     'region': 'liyue',
-        //     'related': 'Stone Stele, Jade Shield, Petrification',
-        //     'flavor': '',
-        //     'id': '4T'
-        // },
 
         "collei": {
             "name": "Collei",
@@ -706,7 +635,8 @@ var db = {
             "region": 'sumeru',
             'related': 'Cuilein-Anbar',
             "flavor": "“‘Shouting the name of your card loudly will increase its power many-fold”… You’ve got to be kidding, right?”",
-            "id": '0Q'        
+            "id": '0Q',
+            "keyword": "bow"        
         },
 
         "tighnari": {
@@ -722,41 +652,9 @@ var db = {
             "region": 'sumeru',
             'related': 'Vijnana Suffusion, Clusterbloom Arrow',
             "flavor": "From a certain perspective, experience does not hold parity with wisdom.",
-            "id": '4H'  
+            "id": '4H',
+            "keyword": "bow"  
         },
-
-        // "nahida": {
-        //     'name': "Nahida",
-        //     'na': "Akara \n2 Black, 1 Dendro \nDeals 1 Dendro DMG.",
-        //     'skill': "All Schemes to Know \n3 Dendro \nDeals 2 Dendro DMG, applies Seed of Skandha to target character. If the target character already had Seed of Skandha applied to them, then apply Seed of Skandha to all opposing characters instead.",
-        //     'special': "All Schemes to Know: Tathata \n5 Dendro \nDeals 3 Dendro DMG. Applies Seed of Skandha to all opposing characters.",
-        //     'burst': "Illusory Heart \n3 Dendro, 2 Energy \nDeals 4 Dendro DMG, creates 1 Shrine of Maya.",
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330044_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330044.webp',
-        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334044.webp',
-        //     'icon': Terrorshroom_Icon,
-        //     'element': 'dendro',
-        //     'region': 'sumeru',
-        //     'related': 'Seed of Skandha, Shrine of Maya',
-        //     'flavor': '',
-        //     'id': '4U'
-        // },
-
-        // 'cryocicinmage': {
-        //     'name': "Fatui Cryo Cicin Mage",
-        //     'na': "Cicin Icicle \n2 Black, 1 Cryo \nDeals 1  Cryo DMG.",
-        //     'skill': "Misty Summons \n3 Cryo \nDeals 1 Cryo DMG, summons 1 Cryo Cicin.",
-        //     'burst': "Blizzard, Branch, Blossom \n3 Cryo, 3 Energy \nDeals 5 Cryo DMG, grants this character  Cryo Application, creates 1 Flowing Cicin Shield.Flowing Cicin ShieldProvides 1  Shield for your active character.When created: If you have Cryo Cicin on the field, additionally increase  Shield by the amount of Usage(s) it has.Cryo CicinEnd Phase:Deal 1  Cryo DMGUsage(s): 2(Can stack, max 3 stacks)After Fatui Cryo Cicin Mage performs a Normal Attack: This card gains 1 Usage(s).After your character takes Elemental Reaction DMG:This card loses 1 Usage(s).",
-        //     'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330045_gcg_high_resolution.webp',
-        //     'card': 'https://genshin.honeyhunterworld.com/img/i_n330045.webp',
-        //     'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334045.webp',
-        //     'icon': Ganyu_Icon,
-        //     'element': 'cryo',
-        //     'region': 'fatui',
-        //     'related': 'Cryo Cicin, Flowing Cicin Shield',
-        //     'flavor': '',
-        //     'id': '4V'
-        // },
 
         "oceanid": {
             "name": "Rhodeia of Loch",
@@ -772,7 +670,8 @@ var db = {
             "region": 'monster',
             'related': 'Oceanic Mimic: Squirrel, Oceanic Mimic: Raptor, Oceanic Mimic: Frog',
             "flavor": "“As long as rain falls and rivers flow… water will exist forever… “",
-            "id": '09'        
+            "id": '09',
+            "keyword": ''        
         },
 
         "mirrormaiden": {
@@ -788,7 +687,8 @@ var db = {
             "region": 'fatui',
             'related': 'Refraction',
             "flavor": "All secrets shall be concealed within the mirror of glaring brightness…",
-            "id": '0A'        
+            "id": '0A',
+            "keyword": ""        
         },
 
         "pyroagent": {
@@ -805,7 +705,8 @@ var db = {
             "region": 'fatui',
             'related': 'Stealth',
             "flavor": "“There is no running from your debt, be you living or otherwise.”",
-            "id": '0F'        
+            "id": '0F',
+            "keyword": ""        
         },
 
         "maguu": {
@@ -822,7 +723,8 @@ var db = {
             "region": 'monster',
             'related': 'Shadowsword: Lone Gale, Shadowsword: Galloping Frost',
             "flavor": "Even today, it still patrols the place where fate was severed.",
-            "id": '0M'        
+            "id": '0M',
+            "keyword": ""        
         },
 
         "stonehidelawachurl": {
@@ -839,7 +741,8 @@ var db = {
             "region": 'monster',
             'related': 'Stonehide, Stone Force',
             "flavor": "Go around — the way ahead is the realm of the “king.”",
-            "id": '0P'        
+            "id": '0P',
+            "keyword": ""        
         },
 
         "terrorshroom": {
@@ -856,7 +759,8 @@ var db = {
             "region": 'monster',
             'related': 'Radical Vitality',
             "flavor": "If you keep silent and listen closely, you can here the sound of the ruler of the Shroom-Kin inspecting its territory…",
-            "id": '0R'        
+            "id": '0R',
+            "keyword": ""        
         },
     },
 
@@ -3069,7 +2973,8 @@ var db = {
             "region": 'liyue',
             'related': 'Ice Lotus, Sacred Cryo Pearl',
             "flavor": "“This press release is due tomorrow… I suppose I could work through the night and get it done.”",
-            "id": '03'
+            "id": '03',
+            "keyword": "bow"
         },
 
         "diona": {
@@ -3082,10 +2987,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334023.webp',
             "icon": Diona_Icon,
             "element": 'cryo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Cat-Claw Shield, Drunken Mist',
             "flavor": "1% energy dedicated to mixing drinks, 99% to... denying the reality of familiar.",
-            "id": '02'
+            "id": '02',
+            "keyword": "bow"
         },
 
         "kaeya": {
@@ -3098,10 +3004,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334001.webp',
             "icon": Kaeya_Icon,
             "element": 'cryo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Icicle',
             "flavor": "Specializes in awakening knightly virtue in others.",
-            "id": '01'
+            "id": '01',
+            "keyword": "sword"
         },
 
         "chongyun": {
@@ -3117,7 +3024,8 @@ var db = {
             "region": 'liyue',
             'related': 'Chonghua Frost Field',
             "flavor": "“Ugh, summer… Please pass us by in peace…”",
-            "id": '04'
+            "id": '04',
+            "keyword": "claymore"
         },
 
         "ayaka": {
@@ -3134,7 +3042,8 @@ var db = {
             "region": 'inazuma',
             'related': "Frostflake Seki no To, Kamisato Ayaka's Cryo Infusion",
             "flavor": "As graceful as the frost drifting in the wind, as elegant as a heron perched in a courtyard.",
-            "id": '05'
+            "id": '05',
+            "keyword": "sword"
         },
 
         "eula": {
@@ -3147,10 +3056,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334030.webp',
             "icon": Eula_Icon,
             "element": "cryo",
-            "region": "mond",
+            "region": 'mondstadt',
             "related": "Grimheart, Lightfall Sword",
             "flavor": "It's but a game. I won't hold a grudge should luck happen to be on your side.",
-            "id": '49'
+            "id": '49',
+            "keyword": "claymore"
         },
 
         'shenhe': {
@@ -3166,7 +3076,8 @@ var db = {
             'region': 'liyue',
             'related': 'Icy Quill, Talisman Spirit',
             'flavor': 'The mortal realm briefly gracing, like a wisp of smoke vanishing.',
-            'id': '4Y'
+            'id': '4Y',
+            "keyword": "polearm"
         },
 
         "barbara": {
@@ -3179,10 +3090,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334025.webp',
             "icon": Barbara_Icon,
             "element": 'hydro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Melody Loop',
             "flavor": "Ready to heal hearts and soothe souls at any time.",
-            "id": '07'        
+            "id": '07',
+            "keyword": "catalyst"        
         },
 
         "xingqiu": {
@@ -3198,7 +3110,8 @@ var db = {
             "region": 'liyue',
             'related': 'Rain Sword, Rainbow Bladework',
             "flavor": "“Is it just me, or are the protagonists in novels nowadays all students of some private school or another…”",
-            "id": '08'        
+            "id": '08',
+            "keyword": "sword"        
         },
 
         "mona": {
@@ -3212,10 +3125,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334005.webp',
             "icon": Mona_Icon,
             "element": 'hydro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Reflection, Illusory Bubble',
             "flavor": "Victory or defeat — it has all been written in the stars.",
-            "id": '06'        
+            "id": '06',
+            "keyword": "catalyst"        
         },
 
         "kokomi": {
@@ -3231,7 +3145,8 @@ var db = {
             "region": "inazuma",
             'related': "Bake-Kurage, Ceremonial Garment",
             "flavor": "To survive hardship, you must prepare for hardship.",
-            "id": '48'
+            "id": '48',
+            "keyword": "catalyst"
         },
 
         "ayato": {
@@ -3247,7 +3162,8 @@ var db = {
             "element": 'hydro',
             "region": "inazuma",
             "flavor": "The divinely-blessed cypress sprouts new leaves.",
-            "id": '4F'
+            "id": '4F',
+            "keyword": "sword"
         },
 
         'tartaglia': {
@@ -3264,7 +3180,8 @@ var db = {
             'element': 'hydro',
             'region': 'fatui',
             'flavor': 'Should this table be considered a battlefield, then may the strongest claim the win.',
-            'id': '4Z'
+            'id': '4Z',
+            "keyword": "bow"
         },
 
         "diluc": {
@@ -3277,10 +3194,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334006.webp',
             "icon": Diluc_Icon,
             "element": 'pyro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': "Diluc's Pyro Infusion",
             "flavor": "His heart is his greatest foe.",
-            "id": '0B'
+            "id": '0B',
+            "keyword": "claymore"
         },
 
         "xiangling": {
@@ -3296,7 +3214,8 @@ var db = {
             "region": 'liyue',
             'related': 'Guoba, Pyronado',
             "flavor": "As a chef, she is practically omnipotent.",
-            "id": '0D'        
+            "id": '0D',
+            "keyword": "polearm"        
         },
 
         "bennett": {
@@ -3309,10 +3228,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334008.webp',
             "icon": Bennett_Icon,
             "element": 'pyro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Inspiration Field',
             "flavor": "Once you know that you will certainly lose, then you must certainly know the way to win.",
-            "id": '0C'        
+            "id": '0C',
+            "keyword": "sword"        
         },
 
         "amber": {
@@ -3325,10 +3245,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334009.webp',
             "icon": Amber_Icon,
             "element": 'pyro',
-            'region': 'mond',
+            'region': 'mondstadt',
             'related': 'Baron Bunny',
             'flavor': 'If you want to be a great player...\nFirst, you have to have the courage to sit down and play.',
-            'id': '4N'
+            'id': '4N',
+            "keyword": "bow"
         },
 
         "yoimiya": {
@@ -3344,7 +3265,8 @@ var db = {
             "region": 'inazuma',
             'related': 'Niwabi Enshou, Aurous Blaze',
             "flavor": "Captain and Vanguard of Team Naganohara for the 11th Hanamizaka Street Invitational.",
-            "id": '0E'        
+            "id": '0E',
+            "keyword": "bow"        
         },
 
         "klee": {
@@ -3357,10 +3279,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334029.webp',
             "icon": Klee_Icon,
             "element": 'pyro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': "Explosive Spark, Sparks'n'Splash",
             "flavor": "Every card you draw may bring an “explosive surprise.”",
-            "id": '43'
+            "id": '43',
+            "keyword": "catalyst"
         },
 
         "hutao": {
@@ -3376,7 +3299,8 @@ var db = {
             'region': "liyue",
             'related': 'Paramita Papilio, Blood Blossom',
             'flavor': '\"Send one, send \'em all!\"',
-            'id': '4O'
+            'id': '4O',
+            "keyword": "polearm"
         },
 
         "fischl": {
@@ -3389,10 +3313,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334011.webp',
             "icon": Fischl_Icon,
             "element": 'electro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Oz',
             "flavor": "“Oz, mine familiar, spread thine wings and weave for me a new fate in the gloom of this night!”\n“Mein Fräulein, you cannot expect me to fetch you a replacement card…”",
-            "id": '0G'        
+            "id": '0G',
+            "keyword": "bow"        
         },
 
         "razor": {
@@ -3405,10 +3330,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
             "icon": Razor_Icon,
             "element": 'electro',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'The Wolf Within',
             "flavor": "“Cards, hard.”\n“But… friends…”",
-            "id": '0H'        
+            "id": '0H',
+            "keyword": "claymore"        
         },
 
         "keqing": {
@@ -3424,7 +3350,8 @@ var db = {
             "region": 'liyue',
             'related': "Lightning Stilleto, Keqing's Electro Infusion",
             "flavor": "She can build decks heretofore not conceived and win battles in which victory is unthinkable.",
-            "id": '0I'        
+            "id": '0I',
+            "keyword": "sword"        
         },
 
         "cyno": {
@@ -3441,7 +3368,8 @@ var db = {
             "region": 'sumeru',
             'related': 'Pactsworn Pathclearer',
             "flavor": "These card covers bear the weight of the General Mahamatra’s incomparable passion.",
-            "id": '0J'        
+            "id": '0J',
+            "keyword": "polearm"        
         },
 
         "beidou": {
@@ -3458,7 +3386,8 @@ var db = {
             "region": 'liyue',
             'related': "Tidecaller: Surf Embrace, Thunderbeast's Targe",
             "flavor": "“Remember this day, you almost won money from the Captain of the Crux.”",
-            "id": '44'
+            "id": '44',
+            "keyword": "claymore"
         },
 
         "sara": {
@@ -3474,7 +3403,8 @@ var db = {
             "region": "inazuma",
             'related': "Tengu Jurrai: Ambush, Tengu Jurrai: Stormcluster, Crowfeather Cover",
             "flavor": "“This is an act of righteousness.”",
-            "id": '47'
+            "id": '47',
+            "keyword": "bow"
         },
 
         "raiden": {
@@ -3491,7 +3421,8 @@ var db = {
             'region': 'inazuma',
             'related': "Eye of Stormy Judgement, Chakra Desiderata",
             'flavor': 'The tranquil thunder shall scatter this world most ephemeral.',
-            'id': '4P'
+            'id': '4P',
+            "keyword": "polearm broken"
         },
 
         "yae": {
@@ -3507,7 +3438,8 @@ var db = {
             'region': 'inazuma',
             'related': 'Sesshou Sakura, Tenko Thunderbolts',
             'flavor': 'The wise and beautiful Yae Miko.',
-            'id': '4Q'
+            'id': '4Q',
+            "keyword": "catalyst"
         },
 
         "sucrose": {
@@ -3520,10 +3452,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334014.webp',
             "icon": Sucrose_Icon,
             "element": 'anemo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Large Wind Spirit',
             "flavor": "“You can’t rate the strength of an as-yet untested deck!”",
-            "id": '0K'        
+            "id": '0K',
+            "keyword": "catalyst"        
         },
 
         "jean": {
@@ -3536,10 +3469,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334015.webp',
             "icon": Jean_Icon,
             "element": 'anemo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Dandelion Field',
             "flavor": "Never believes that she has done well enough — not until final victory is hers, anyway.",
-            "id": '0L'        
+            "id": '0L',
+            "keyword": "sword"        
         },
 
         "venti": {
@@ -3552,10 +3486,11 @@ var db = {
             'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334040.webp',
             'icon': Venti_Icon,
             'element': 'anemo',
-            'region': 'mond',
+            'region': 'mondstadt',
             'related': 'Stormzone, Stormeye',
             'flavor': '"As the four seasons in turn shall say their piece, so the four winds too shall never cease. \n"Of course, to look at it differently, I am the one who should be credited here, and not they."\nCredits should be given where credits belong — if not for the bard who pens the song, then who shall ensure that these tales are passed on!?"',
-            'id': '4R'
+            'id': '4R',
+            "keyword": "bow"
         },
 
         "xiao": {
@@ -3571,7 +3506,8 @@ var db = {
             'region': 'liyue',
             'related': "Yaksha's Mask",
             'flavor': 'The Vigilant Yaksha, the bane of all evil',
-            'id': '4S'
+            'id': '4S',
+            "keyword": "polearm"
         },
 
         "noelle": {
@@ -3584,10 +3520,11 @@ var db = {
             "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334017.webp',
             "icon": Noelle_Icon,
             "element": 'geo',
-            "region": 'mond',
+            "region": 'mondstadt',
             'related': 'Full Plate, Sweeping Time',
             "flavor": "You can leave arranging the table to her — really, you can.",
-            "id": '0N'        
+            "id": '0N',
+            "keyword": "claymore"        
         },
         "ningguang": {
             "name": "Ningguang",
@@ -3602,7 +3539,8 @@ var db = {
             "region": 'liyue',
             'related': 'Jade Screen',
             "flavor": "The greatest secret she keeps is that she keeps a great many of Liyue’s secrets.",
-            "id": '0O'        
+            "id": '0O',
+            "keyword": "catalyst"        
         },
 
         "itto": {
@@ -3618,7 +3556,8 @@ var db = {
             "region": 'inazuma',
             'related': "Ushi, Superlative Superstrength, Raging Oni King",
             'flavor': "Arataki \"The Ultimate TCG Champion\" Itto",
-            "id": '4G'
+            "id": '4G',
+            "keyword": "claymore"
         },
 
         "zhongli": {
@@ -3635,7 +3574,8 @@ var db = {
             'region': 'liyue',
             'related': 'Stone Stele, Jade Shield, Petrification',
             'flavor': 'A hidden gemstone can illuminate the whole earth, bright and unrivaled as a star.',
-            'id': '4T'
+            'id': '4T',
+            "keyword": "polearm"
         },
 
         "collei": {
@@ -3651,7 +3591,8 @@ var db = {
             "region": 'sumeru',
             'related': 'Cuilein-Anbar',
             "flavor": "“‘Shouting the name of your card loudly will increase its power many-fold”… You’ve got to be kidding, right?”",
-            "id": '0Q'        
+            "id": '0Q',
+            "keyword": "bow"        
         },
 
         "tighnari": {
@@ -3667,7 +3608,8 @@ var db = {
             "region": 'sumeru',
             'related': 'Vijnana Suffusion, Clusterbloom Arrow',
             "flavor": "From a certain perspective, experience does not hold parity with wisdom.",
-            "id": '4H'  
+            "id": '4H',
+            "keyword": "bow"  
         },
 
         "nahida": {
@@ -3684,7 +3626,8 @@ var db = {
             'region': 'sumeru',
             'related': 'Seed of Skandha, Shrine of Maya',
             'flavor': 'The panacea brings purity, and from the palace depths is spring renewed.',
-            'id': '4U'
+            'id': '4U',
+            "keyword": "catalyst"
         },
 
         'cryocicinmage': {
@@ -3700,7 +3643,8 @@ var db = {
             'region': 'fatui',
             'related': 'Cryo Cicin, Flowing Cicin Shield',
             'flavor': 'And so long as the Mist Grass yet lingers, the Cryo Cicins will not abandon her.',
-            'id': '4V'
+            'id': '4V',
+            "keyword": ""
         },
 
         "oceanid": {
@@ -3717,7 +3661,8 @@ var db = {
             "region": 'monster',
             'related': 'Oceanic Mimic: Squirrel, Oceanic Mimic: Raptor, Oceanic Mimic: Frog',
             "flavor": "“As long as rain falls and rivers flow… water will exist forever… “",
-            "id": '09'        
+            "id": '09',
+            "keyword": ""        
         },
 
         "mirrormaiden": {
@@ -3733,7 +3678,8 @@ var db = {
             "region": 'fatui',
             'related': 'Refraction',
             "flavor": "All secrets shall be concealed within the mirror of glaring brightness…",
-            "id": '0A'        
+            "id": '0A',
+            "keyword": ""        
         },
 
         "electrohypostasis": {
@@ -3752,7 +3698,8 @@ var db = {
             'region': 'monster',
             'related': 'Electro Crystal Core, Chains of Warding Thunder',
             'flavor': 'A high-level Electro being. Code name: Aleph.\nJust like how one might act in a game of rock paper scissors, Aleph is not one to admit defeat.',
-            'id': '4X'
+            'id': '4X',
+            "keyword": ""
         },
 
         "pyroagent": {
@@ -3769,7 +3716,8 @@ var db = {
             "region": 'fatui',
             'related': 'Stealth',
             "flavor": "“There is no running from your debt, be you living or otherwise.”",
-            "id": '0F'        
+            "id": '0F',
+            "keyword": ""        
         },
 
         'abysslector': {
@@ -3786,7 +3734,8 @@ var db = {
             'region': 'monster',
             'related': 'Fiery Rebirth, Darkfire Furnace',
             'flavor': 'From chapters of canon revealed comes much heeded admonishments.',
-            'id': '4W'
+            'id': '4W',
+            "keyword": ""
         },
 
         "maguu": {
@@ -3803,7 +3752,8 @@ var db = {
             "region": 'monster',
             'related': 'Shadowsword: Lone Gale, Shadowsword: Galloping Frost',
             "flavor": "Even today, it still patrols the place where fate was severed.",
-            "id": '0M'        
+            "id": '0M',
+            "keyword": ""        
         },
 
         "stonehidelawachurl": {
@@ -3820,7 +3770,8 @@ var db = {
             "region": 'monster',
             'related': 'Stonehide, Stone Force',
             "flavor": "Go around — the way ahead is the realm of the “king.”",
-            "id": '0P'        
+            "id": '0P',
+            "keyword": ""        
         },
 
         "terrorshroom": {
@@ -6612,7 +6563,7 @@ var db = {
         'fieryrebirth': {
             'name': 'Fiery Rebirth',
             'type': 'Status',
-            'description': 'When the character to which this is attached is defeated: Remove this effect, prevent the character from being defeated, and heal them until they reach 3 HP.',
+            'description': 'When the character to which this is attached is defeated: Remove this effect, ensure the character will not be defeated, and heal them until they reach 3 HP.',
             'related': 'Abyss Lector: Fathomless Flames'
         },
         'darkfirefurnace': {
@@ -6630,7 +6581,7 @@ var db = {
         'electrocrystalcore': {
             'name': 'Electro Crystal Core',
             'type': 'Status',
-            'description': 'When the character to which this is attached is defeated: Remove this effect, prevent the character from being defeated, and heal them until they reach 1 HP.',
+            'description': 'When the character to which this is attached is defeated: Remove this effect, ensure the character will not be defeated, and heal them until they reach 1 HP.',
             'related': 'Electro Hypostasis'
         },
         'icyquill': {
