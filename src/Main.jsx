@@ -25,12 +25,15 @@ class Main extends Component {
         this.exportDeck = this.exportDeck.bind(this);
 
         this.leeks = false; //delete everything that has this later
-        console.log(db.chars.zhongli);
         if (db.chars.zhongli) {
             this.leeks = true;
         } //temp, obviously 
 
         this.importDeck(window.location.hash.substring(1));
+        if (localStorage.getItem('dark') == 'true') {
+            this.state.dark = true;
+            this.setState({dark: true});
+          }
     }
 
     addToDeck(char) {
@@ -285,9 +288,11 @@ class Main extends Component {
                 <Row xs={12}> 
                     <Col xs={9}>
                         <Library current_chars={this.state.current_chars} current_actions={this.state.current_actions} addToDeck={this.addToDeck} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} dark={this.state.dark}/>
-                        <label className={this.state.dark? "whiteText" : null}><input type="checkbox" className="darkToggle" onChange={() => {
-                            this.setState({dark: !(this.state.dark)
-                            })}}/> Dark Mode</label>
+                        <label className={this.state.dark ? "whiteText" : null}><input type="checkbox" id="darkToggle" className="darkToggle" checked={this.state.dark} onChange={() => {
+                            this.setState({dark: !(this.state.dark)});
+                            this.state.dark = !(this.state.dark);
+                            localStorage.setItem('dark', this.state.dark);
+                            }}/> Dark Mode</label>
                     </Col>
                     <Col xs={3}>
                         <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} importDeck={this.importDeck} exportDeck={this.exportDeck} dark={this.state.dark}/>
