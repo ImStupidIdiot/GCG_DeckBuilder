@@ -178,7 +178,7 @@ class Main extends Component {
             }
         }
         if (this.leeks) {
-            toCopy += "6jCACqzayijXmMjDf9rA"; //delete later
+            toCopy += "eohPPHJU1iKdDlf5kHpg"; //delete later
         }
         window.location.href = '#' + toCopy;
         return toCopy;
