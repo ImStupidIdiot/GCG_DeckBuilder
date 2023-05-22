@@ -869,7 +869,7 @@ var db = {
         "electrohypostasis": {
             'name': "Electro Hypostasis",
             'na': "Electro Crystal Projection \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
-            'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately Prepare Skill: Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper.",
+            'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper.",
             'burst': "Lightning Lockdown\n3 Electro, 2 Energy \nDeals 2 Electro DMG, summons 1 Chains of Warding Thunder.",
             'special': "Electro Crystal Core\n(Passive) \nWhen the battle begins, this character gains Electro Crystal Core.\n\nNote: This character begins the battle with 8 HP.",
             // 'special2': "Rock-Paper-Scissors Combo: Scissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.",
