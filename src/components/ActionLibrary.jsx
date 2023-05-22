@@ -51,7 +51,7 @@ class ActionLibrary extends Component {
         var text = document.getElementById('searchBarAction').value;
         this.setState({filters: {}});
         var displayActions = [...this.state.allActions];
-        displayActions = displayActions.filter((action) => db.actions[action].description.toLowerCase().includes(text.toLowerCase()) || db.actions[action].name.toLowerCase().includes(text.toLowerCase()) || db.actions[action].cost.toLowerCase().includes(text.toLowerCase()) || db.actions[action].flavor.toLowerCase().includes(text.toLowerCase()) || (db.actions[action].keyword && db.actions[action].keyword.toLowerCase().includes(text.toLowerCase())) || db.actions[action].tags.toString().toLowerCase().includes(text.toLowerCase()));
+        displayActions = displayActions.filter((action) => db.actions[action].description.toLowerCase().includes(text.toLowerCase()) || db.actions[action].name.toLowerCase().includes(text.toLowerCase()) || db.actions[action].cost.toLowerCase().includes(text.toLowerCase()) || (db.actions[action].flavor && db.actions[action].flavor.toLowerCase().includes(text.toLowerCase())) || (db.actions[action].keyword && db.actions[action].keyword.toLowerCase().includes(text.toLowerCase())) || db.actions[action].tags.toString().toLowerCase().includes(text.toLowerCase()));
         this.setState({displayActions: displayActions});
     }
 
