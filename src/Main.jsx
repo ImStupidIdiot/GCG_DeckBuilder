@@ -25,7 +25,7 @@ class Main extends Component {
         this.exportDeck = this.exportDeck.bind(this);
 
         this.leeks = false; //delete everything that has this later
-        if (db.chars.zhongli) {
+        if (db.misc.stormeye) {
             this.leeks = true;
         } //temp, obviously 
 
