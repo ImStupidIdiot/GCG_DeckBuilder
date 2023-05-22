@@ -147,7 +147,7 @@ if (!(window.location.hash.substring(1).includes("eohPPHJU1iKdDlf5kHpg"))) {
                 "name": "Ganyu",
                 'na': 'Liutian Archery \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
                 'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
-                'burst': "Celestial Shower \n3 Cryo, 2 Energy \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
+                'burst': "Celestial Shower \n3 Cryo, 3 Energy \nDeals 2 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
                 'special': "Normal Attack: Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
                 "card": Ganyu_Card,
@@ -677,7 +677,7 @@ if (!(window.location.hash.substring(1).includes("eohPPHJU1iKdDlf5kHpg"))) {
             "mirrormaiden": {
                 "name": "Mirror Maiden",
                 'na': 'Water Ball \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.',
-                'skill': "Influx Blast \n3 Hydro \nDeals 3 Hydro DMG. The target character receives 'Refraction'.",
+                'skill': "Influx Blast \n3 Hydro \nDeals 2 Hydro DMG. The target character receives 'Refraction'.",
                 'burst': "Rippled Reflection \n3 Hydro, 2 Energy \nDeals 5 Hydro DMG.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330026_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330026.webp',
@@ -772,7 +772,7 @@ if (!(window.location.hash.substring(1).includes("eohPPHJU1iKdDlf5kHpg"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334500.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330500_gcg_high_resolution.webp",
                 "cost": '5 Cryo',
-                "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Normal Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Normal Attack: Frostflake Arrow': Cryo DMG dealt by this Skill +1 if this Skill has been used before during this match, and it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
+                "description": "'Combat Action': When your active character is Ganyu, equip this card.\n\nAfter Ganyu equips this card, immediately use 'Normal Attack: Frostflake Arrow' once.\n\nWhen your Ganyu, who has this card equipped, uses 'Normal Attack: Frostflake Arrow': If this Skill has been used before during this match, it now deals 3 'Piercing DMG' to all opposing characters on standby instead.\n\n(You must have Ganyu in your deck to add this card to your deck.)",
                 "flavor": "First the arrow strikes, and then it turns to frost.",
                 "required": "ganyu",
                 "id": '0S'     
@@ -2261,7 +2261,7 @@ if (!(window.location.hash.substring(1).includes("eohPPHJU1iKdDlf5kHpg"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337026.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333026_gcg_high_resolution.webp",
                 "cost": '2 Black',
-                "description": "Choose one Summon on the opposing side and destroy it.",
+                "description": "Choose one Summon on the opposing side and cause it to lose usages by 2.",
                 "flavor": "“Here at Wangsheng Funeral Parlor, you can count on us to go full send! Satisfaction guaranteed!”",
                 "id": '3S'        
             },
@@ -2774,7 +2774,7 @@ if (!(window.location.hash.substring(1).includes("eohPPHJU1iKdDlf5kHpg"))) {
             "ushi": {
                 "name": "Ushi",
                 "type": "Summon",
-                "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your active character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
+                "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
                 "related": "Arataki Itto",
                 "image": Itto_Summon
             },  
