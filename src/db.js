@@ -2004,7 +2004,7 @@ var db = {
             "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335047.webp",
             "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331047_gcg_high_resolution.webp",
             "cost": '3 White',
-            "description": "When Action Phase begins: The character to which this is attached gains Unmovable Mountain that provides 2 Shield points.\n\nAfter this character takes DMG: Create 1 Elemental Die matching this character's Elemental Type. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
+            "description": "When Action Phase begins: The character to which this is attached gains Unmovable Mountain that provides 2 Shield points.\n\nAfter this character takes DMG: If this character is the active character, create 1 Elemental Die matching this character's Elemental Type. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
             // "flavor": '"...To ensure that the afflicted civilians could safely escape, and to maintain their honor in the eyes of the Lord of Geo, the helmet-clad troops of the front line took the lead, pointing their spears towards the Abyss and charging into battle."',
             'id': '5M',
         },
