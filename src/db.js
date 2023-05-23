@@ -3610,7 +3610,7 @@ var db = {
         "ushi": {
             "name": "Ushi",
             "type": "Summon",
-            "description": "When your character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your active character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
+            "description": "When your character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
             "related": "Arataki Itto",
             "image": Itto_Summon
         },  
@@ -7350,7 +7350,7 @@ var db = {
         "ushi": {
             "name": "Ushi",
             "type": "Summon",
-            "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your active character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
+            "description": "When your active character receives DMG: Decrease DMG taken by 1. \n\nUsage(s): 1. \n\nWhen the Usage is depleted, this card will not be discarded. \n\nCan be triggered once while this Summon is present: When your character receives DMG, Arataki Itto gains Superlative Superstrength. \n\nEnd Phase: Discard this card, deal 1 Geo DMG.",
             "related": "Arataki Itto",
             "image": Itto_Summon
         },  
