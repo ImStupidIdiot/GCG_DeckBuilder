@@ -24,11 +24,6 @@ class Main extends Component {
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
 
-        this.leeks = false; //delete everything that has this later
-        if (db.misc.fieryrebirth) {
-            this.leeks = true;
-        } //temp, obviously 
-
         this.importDeck(window.location.hash.substring(1));
         if (localStorage.getItem('dark') == 'true') {
             this.state.dark = true;
@@ -176,9 +171,6 @@ class Main extends Component {
             if (!validDeck) {
                 toCopy += '?';
             }
-        }
-        if (this.leeks) {
-            toCopy += "eohPPHJU1iKdDlf5kHpg"; //delete later
         }
         window.location.href = '#' + toCopy;
         return toCopy;
