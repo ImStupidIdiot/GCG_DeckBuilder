@@ -3084,6 +3084,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": '"Lonely forest breezes converged, jointly they overthrew the tyrant\'s tower from the sky."\n"Broken free from shackles at last, the young lioness stood firm in the winds with her head held high."',
                 'id': '6A'
             },
+
+            "friendshipeternal": {
+                "name": "Friendship Eternal",
+                "tags": ['event'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333045.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337045.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333045_gcg_high_resolution.webp",
+                "cost": "2 White",
+                "description": "Players with less than 4 cards in their hand draw cards until their hand has 4 cards in it.",
+                "flavor": "Good friends never truly leave. They stay with us in another form.",
+                "id": '6F'
+            },
             
             "jueyunguoba": {
                 "name": "Jueyun Guoba",
