@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.899878ad.css",
-    "main.js": "/static/js/main.88ca9154.js",
+    "main.js": "/static/js/main.c00666b7.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -60,9 +60,9 @@
     "static/media/Barbara_Icon.png": "/static/media/Barbara_Icon.7cd7bf952ae826204138.png",
     "static/media/Ayato_Icon.png": "/static/media/Ayato_Icon.409df5dd66f0b1fbd7a3.png",
     "static/media/Fischl_Icon.png": "/static/media/Fischl_Icon.07ca0bfae21fb09cd192.png",
-    "static/media/Candace_Icon.png": "/static/media/Candace_Icon.26f09f14898971032388.png",
     "static/media/Kazuha_Icon.png": "/static/media/Kazuha_Icon.70e91cec361b04dcd6a4.png",
     "static/media/Keqing_Icon.png": "/static/media/Keqing_Icon.10775e6609eae15734ac.png",
+    "static/media/Candace_Icon.png": "/static/media/Candace_Icon.f27621b0a9f481bb3293.png",
     "static/media/Ningguang_Icon.png": "/static/media/Ningguang_Icon.1937cd1f158b7b500673.png",
     "static/media/Chongyun_Icon.png": "/static/media/Chongyun_Icon.3f65e64dacf5fe3955c9.png",
     "static/media/Anemo_Sort_Activated.png": "/static/media/Anemo_Sort_Activated.e83656a00c10f15585fb.png",
@@ -105,10 +105,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.899878ad.css.map": "/static/css/main.899878ad.css.map",
-    "main.88ca9154.js.map": "/static/js/main.88ca9154.js.map"
+    "main.c00666b7.js.map": "/static/js/main.c00666b7.js.map"
   },
   "entrypoints": [
     "static/css/main.899878ad.css",
-    "static/js/main.88ca9154.js"
+    "static/js/main.c00666b7.js"
   ]
 }
