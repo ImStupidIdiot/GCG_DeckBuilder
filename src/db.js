@@ -51,6 +51,9 @@ import Nahida_Icon from './images/Nahida_Icon.png'
 import Cryocicin_Icon from './images/Cryocicin_Icon.png'
 import Electrohypostasis_Icon from './images/ElectroHypostasis_Icon.png'
 import Abysslector_Icon from './images/Abyssherald_Icon.png'
+import Yanfei_Icon from './images/Yanfei_Icon.png'
+import Kazuha_Icon from './images/Kazuha_Icon.png'
+import Candace_Icon from './images/Candace_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -140,7 +143,7 @@ import Action_Sort from './images/Action_Sort.png'
 import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 
-if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
+if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
 
     var db = {
         "chars": {
@@ -368,6 +371,24 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "id": '4F',
                 "keyword": "sword"
             },
+
+            "candace": {
+                "name": "Candace",
+                "na": "Gleaming Spear - Guardian Stance\n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+                'skill': "Sacred Rite: Heron's Sanctum\n3 Hydro \nAttach Heron Shield to character and use Prepare Skill: Heron Strike.",
+                'burst': "Sacred Rite: Heron's Sanctum\n3 Hydro, 2 Energy \nDeals 2 Hydro DMG and creates Prayer of the Crimson Crown.",
+                "special": "Heron Strike\n(Prepare for 1 turn)\nDeal 3 Hydro DMG.",
+                "hi_res_image": 'https://genshin.honeyhunterworld.com/img/i_n330049_gcg_high_resolution.webp',
+                "card": 'https://genshin.honeyhunterworld.com/img/i_n330049.webp',
+                "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334049.webp',
+                'related': 'Heron Shield, Prayer of the Crimson Crown',
+                "icon": Candace_Icon,
+                "element": 'hydro',
+                "region": "sumeru",
+                "flavor": "The crimson sand flows, an oath to defend.",
+                "id": '6G',
+                "keyword": "polearm "
+            },
     
             "diluc": {
                 "name": "Diluc",
@@ -486,6 +507,23 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'flavor': '\"Send one, send \'em all!\"',
                 'id': '4O',
                 "keyword": "polearm"
+            },
+
+            "yanfei": {
+                'name': "Yanfei",
+                'na': "Seal of Approval \n2 Black, 1 Pyro \nDeals 1 Pyro DMG.",
+                'skill': "Signed Edict \n3 Pyro \nDeals 3 Pyro DMG and attach Scarlet Seal to your character.",
+                'burst': "Done Deal \n3 Pyro, 2 Energy \nDeals 3 Pyro DMG, attach Scarlet Seal and Brilliance to your character.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330050_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330050.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334050.webp',
+                'icon': Yanfei_Icon,
+                'element': 'pyro',
+                'region': "liyue",
+                'related': 'Scarlet Seal, Brilliance',
+                'flavor': 'One who fails to revise the classics is liable to fall foul of the law.',
+                'id': '6H',
+                "keyword": "catalyst"
             },
     
             "fischl": {
@@ -693,6 +731,23 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'flavor': 'The Vigilant Yaksha, the bane of all evil',
                 'id': '4S',
                 "keyword": "polearm"
+            },
+
+            "kazuha": {
+                'name': "Kazuha",
+                'na': "Garyuu Bladework \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
+                'skill': "Chihayaburu \n3 Anemo \nDeals 3 Anemo DMG, attach Midare Ranzan to your character. If this skill triggers Swirl, Midare Ranzan is converted to the Swirled Element. After the Skill DMG is finalized: Your team switches to the next character.",
+                'burst': "Kazuha Slash \n3 Anemo, 2 Energy \nDeals 3 Anemo DMG and summons Autumn Whirlwind.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330051_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330051.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334051.webp',
+                'icon': Kazuha_Icon,
+                'element': 'anemo',
+                'region': 'inazuma',
+                'related': "Midare Ranzan, Autumn Whirlwind",
+                'flavor': 'Flowers and birds are a dear pleasure to one winding under the moonlight.',
+                'id': '6I',
+                "keyword": "sword"
             },
     
             "noelle": {
@@ -1147,6 +1202,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "required": "ayato",
                 "id": '4I'
             },
+
+            "theoverflow": {
+                "name": "The Overflow",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330549.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334549.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330549_gcg_high_resolution.webp",
+                "cost": '4 Hydro 2 Energy',
+                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 2102_BuffHydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
+                "flavor": "Those who do not respect the regulations at cards...\nAre the enemy of all who love the game.",
+                "required": "candace",
+                "id": '6J'
+            },
             
             "flowingflame": {
                 "name": "Flowing Flame",
@@ -1237,6 +1305,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": 'Director Hu needs a bit more firepower to settle certain unique affairs.',
                 'required': 'hutao',
                 'id': '57'
+            },
+
+            "rightoffinalinterpretation": {
+                "name": "Right of Final Interpretation",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330550.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334550.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330550_gcg_high_resolution.webp",
+                "cost": '2 Black 1 Pyro',
+                "description": "Combat Action: When Yanfei is your active character, equip this card.\n\nAfter Yanfei equips this card, she will immediately use Seal of Approval once.\n\nWhen Yanfei uses a Charged Attack with this card equipped: Deal +1 DMG to enemies with 6 or less HP.\n\n(You must have Yanfei in your deck to add this card to your deck.)",
+                "flavor": '"When it comes to cards... Well, anything is permissible, so long as the rules don\'t forbid it."',
+                'required': 'yanfei',
+                'id': '6K'
             },
             
             "stellarpredator": {
@@ -1393,6 +1474,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": 'Evil shall be dispersed, and the vile will be scattered.',
                 'required': 'xiao',
                 'id': '52'
+            },
+
+            'poeticsoffuubutsu': {
+                "name": "Poetics of Fuubutsu",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330551.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334551.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330551_gcg_high_resolution.webp",
+                "cost": '3 Anemo',
+                "description": "Combat Action: When Kaedehara Kazuha is your active character, equip this card.\n\nAfter Kaedehara Kazuha equips this card, he will immediately use Chihayaburu once.\n\nAfter Kaedehara Kazuha triggers Swirl with this card equipped: For the next 2 instances, your characters and Summons will deal +1 DMG for the Elemental Type Swirled. (Each Elemental Type is counted independently as one instance)\n\n(You must have Kaedehara Kazuha in your deck to add this card to your deck.)",
+                "flavor": 'There is something elegant about this match.\nIf nothing else, both sides may concede defeat without regrets.',
+                'required': 'kazuha',
+                'id': '6L'
             },
             
             "strategicreserve": {
@@ -1649,8 +1743,20 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331038_gcg_high_resolution.webp",
                 "cost": '3 White',
                 "description": "The character deals +1 DMG.\n\nWhen your character triggers an Elemental Reaction: Deal +1 DMG. (Twice per Round)\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
-                "flavor": '"There is an appointed time for all things to live and die, just like the ceaseless cycles of night and dawn."\n',
+                "flavor": '"There is an appointed time for all things to live and die, just like the ceaseless cycles of night and dawn."',
                 'id': '5E'
+            },
+
+            "fruitoffulfillment": {
+                "name": "Fruit of Fulfillment",
+                "tags": ['modify', 'weapon', 'weapon_catalyst'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n331052.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335052.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331052_gcg_high_resolution.webp",
+                "cost": '3 Black',
+                "description": "The character deals +1 DMG.\n\nWhen entering play: Draw 2 cards.\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                "flavor": '"Even the most bitter of stories contain courage and strength... the story of the good Golden Nara\'s adventures with us will help good Nara defend the forest."',
+                'id': '6M'
             },
             
             "ravenbow": {
@@ -2570,6 +2676,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": '"We still have a lot of time with each other. We can explore the vastness of the forest, the world, and the future together."',
                 'id': '60'
             },
+
+            "masterzhang": {
+                "name": "Master Zhang",
+                "tags": ['assist', 'companion'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n332033.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336033.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332033_gcg_high_resolution.webp",
+                "cost": '1 White',
+                "description": "When you play a Weapon from your hand: Use 1 less Elemental Die. For every character already equipped with a Weapon on the field, you use 1 less Elemental Die. (Once per Round.)",
+                "flavor": 'Much burning frustration must transpire before a hunk of metal may become a keen blade.',
+                'id': '6N'
+            },
             
             "parametrictransformer": {
                 "name": "Parametric Transformer",
@@ -2617,6 +2735,30 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "description": "After your character uses a skill: This card will accumulate 1 Treasure Clue. \n\nWhen this card has stored 3 Treasure Clues, discard this card and draw 3 cards.",
                 "flavor": 'Strange Seelie capable of guiding people toward treasure. Legend has it that some individuals know how to communicate with these Seelie...',
                 'id': '62'
+            },
+
+            "ancientcourtyardMAX1": {
+                "name": "Ancient Courtyard",
+                "tags": ['event', 'arcane legend'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333050.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337050.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333050_gcg_high_resolution.webp",
+                "cost": '1 Arcane',
+                "description": "You must have a character who has already equipped a Weapon or Artifact: The next time you equip a Weapon or Artifact on a character that already has a Weapon or Artifact equipped in this Round: Use 2 less Elemental Dice.\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "flavor": '"Is mortal life not an empty shell, as unto a dream?"',
+                'id': '6O'
+            },
+
+            "covenantofrockMAX1": {
+                "name": "Covenant of Rock",
+                "tags": ['event', 'arcane legend'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333051.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337051.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333051_gcg_high_resolution.webp",
+                "cost": '1 Arcane',
+                "description": "Can only be played when you have 0 Elemental Dice left: Generate 2 different Elemental Dice.\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "flavor": '"Rex Lapis bestowed him with a pair of eyes to see the world, and came to an agreement with him. The dragon then accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world..."',
+                'id': '6P'
             },
             
             "elementalresonancewovenice": {
@@ -3095,6 +3237,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "description": "Players with less than 4 cards in their hand draw cards until their hand has 4 cards in it.",
                 "flavor": "Good friends never truly leave. They stay with us in another form.",
                 "id": '6F'
+            },
+
+            "rhythmofthegreatdream": {
+                "name": "Rhythm of the Great Dream",
+                "tags": ['event'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333052.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337052.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333052_gcg_high_resolution.webp",
+                "cost": "0 White",
+                "description": "The next time you play a Weapon or Artifact from your hand: Use 1 less Elemental Die.",
+                "flavor": "\"Enter our dreams, our world.\"\n\"Write of deeds good, brave, and honest.\"",
+                "id": '6Q'
             },
             
             "jueyunguoba": {
@@ -3833,8 +3987,38 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             },
             'aegisofabyssalflame': {
                 'name': "Aegis of Abyssal Flame",
-                "type": "Combat Status",
+                "type": "Status",
                 "description": "Grant the character to which this is attached 3 Shield points. \n\nBefore this Shield is depleted, the character to which this is attached will deal +1 Pyro DMG."
+            },
+            'heronshield': {
+                'name': "Heron Shield",
+                "type": "Status",
+                "description": "The next time this character acts, they will immediately use the Skill Heron Strike. While preparing this Skill: Grant 2 Shield points to the character to which this is attached."
+            },
+            "prayerofthecrimsoncrown": {
+                'name': "Prayer of the Crimson Crown",
+                "type": "Combat Status",
+                "description": "Your characters' Normal Attacks deal +1 DMG. \nYour Sword, Claymore, and Polearm-wielding characters' Physical DMG is converted to Hydro DMG. \nAfter you switch characters, you deal 1 Hydro DMG. (Once per Round) \n\nDuration (Rounds): 2."
+            },
+            'scarletseal': {
+                'name': "Scarlet Seal",
+                "type": "Status",
+                "description": "When the character uses a Charged Attack: Damage dealt +2. \n\nUsage(s): 1."
+            },
+            'brilliance': {
+                'name': 'Brilliance',
+                'type': 'Status',
+                "description": "When the character uses a Charged Attack: Use 1 less Pyro Die. (Once every round.) \nEnd Phase: Attach Scarlet Seal to this character. \n\nDuration (Rounds): 2."
+            },
+            'midareranzan': {
+                'name': "Midare Ranzan",
+                "type": "Status",
+                "description": "When the attached character uses a Plunging Attack: Physical DMG dealt becomes Anemo DMG, and deals +1 DMG. After the character uses a skill: This effect is removed."
+            },
+            'autumnwhirlwind': {
+                'name': "Autumn Whirlwind",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Anemo DMG. \nUsage(s): 3 \n\nAfter your character or Summon triggers a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)"
             }
         },
     
@@ -7573,9 +7757,9 @@ else {
             },
             'aegisofabyssalflame': {
                 'name': "Aegis of Abyssal Flame",
-                "type": "Combat Status",
+                "type": "Status",
                 "description": "Grant the character to which this is attached 3 Shield points. \n\nBefore this Shield is depleted, the character to which this is attached will deal +1 Pyro DMG."
-            }
+            },
         },
     
         "nullchar": {
