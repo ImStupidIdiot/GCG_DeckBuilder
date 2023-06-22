@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5d5a0e42.css",
-    "main.js": "/static/js/main.127f2289.js",
+    "main.css": "/static/css/main.899878ad.css",
+    "main.js": "/static/js/main.b3602bdd.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -37,12 +37,14 @@
     "static/media/Maguu_Icon.png": "/static/media/Maguu_Icon.0cbff5e3c63eaa7dcf00.png",
     "static/media/Collei_Icon.png": "/static/media/Collei_Icon.46dedc9f0382c2f8247c.png",
     "static/media/Razor_Icon.png": "/static/media/Razor_Icon.3d6fc4d2c1cf93c9d32b.png",
+    "static/media/Yanfei_Icon.png": "/static/media/Yanfei_Icon.2d23706ad1b00a2ebc76.png",
     "static/media/Xingqiu_Icon.png": "/static/media/Xingqiu_Icon.45d890acda91be2ee575.png",
     "static/media/Tighnari_Icon.png": "/static/media/Tighnari_Icon.586acad6a12956356870.png",
     "static/media/Pyroagent_Icon.png": "/static/media/Pyroagent_Icon.9f41fa72c4b923a66c59.png",
     "static/media/Ganyu_Icon.png": "/static/media/Ganyu_Icon.c1e92a6d8e68e9b6028b.png",
     "static/media/Diona_Icon.png": "/static/media/Diona_Icon.f6670591dca18b0d2657.png",
     "static/media/Sucrose_Icon.png": "/static/media/Sucrose_Icon.c5acc051040a2a4dd9ae.png",
+    "static/media/Candace_Icon.png": "/static/media/Candace_Icon.ae9cd478af1b1fd7c68b.png",
     "static/media/Diluc_Icon.png": "/static/media/Diluc_Icon.f9817daccde23db64f9f.png",
     "static/media/Ayaka_Icon.png": "/static/media/Ayaka_Icon.4cbe2031383500979f17.png",
     "static/media/Kaeya_Icon.png": "/static/media/Kaeya_Icon.c89aed4b105bc39459c1.png",
@@ -51,6 +53,7 @@
     "static/media/Amber_Icon.png": "/static/media/Amber_Icon.4949219c8dcdf656112d.png",
     "static/media/Klee_Icon.png": "/static/media/Klee_Icon.3e9b17ef84048dd9c42c.png",
     "static/media/Cyno_Icon.png": "/static/media/Cyno_Icon.8008cfda8fdeeacae23e.png",
+    "static/media/Kazuha_Icon.png": "/static/media/Kazuha_Icon.5d87eda7df4c94bb6393.png",
     "static/media/Mirrormaiden_Icon.png": "/static/media/Mirrormaiden_Icon.e59e3a640ee6b4b220bc.png",
     "static/media/Itto_Icon.png": "/static/media/Itto_Icon.d1fedf857dbdbc4f245c.png",
     "static/media/Eula_Icon.png": "/static/media/Eula_Icon.08b73d5b7ea3bf39ea2a.png",
@@ -101,11 +104,11 @@
     "static/media/Klee_Status.png": "/static/media/Klee_Status.644a92137769d1ebe177.png",
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
-    "main.5d5a0e42.css.map": "/static/css/main.5d5a0e42.css.map",
-    "main.127f2289.js.map": "/static/js/main.127f2289.js.map"
+    "main.899878ad.css.map": "/static/css/main.899878ad.css.map",
+    "main.b3602bdd.js.map": "/static/js/main.b3602bdd.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d5a0e42.css",
-    "static/js/main.127f2289.js"
+    "static/css/main.899878ad.css",
+    "static/js/main.b3602bdd.js"
   ]
 }
