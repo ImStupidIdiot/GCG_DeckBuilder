@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.899878ad.css",
-    "main.js": "/static/js/main.be5b498c.js",
+    "main.js": "/static/js/main.88ca9154.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -37,14 +37,12 @@
     "static/media/Maguu_Icon.png": "/static/media/Maguu_Icon.0cbff5e3c63eaa7dcf00.png",
     "static/media/Collei_Icon.png": "/static/media/Collei_Icon.46dedc9f0382c2f8247c.png",
     "static/media/Razor_Icon.png": "/static/media/Razor_Icon.3d6fc4d2c1cf93c9d32b.png",
-    "static/media/Yanfei_Icon.png": "/static/media/Yanfei_Icon.2d23706ad1b00a2ebc76.png",
     "static/media/Xingqiu_Icon.png": "/static/media/Xingqiu_Icon.45d890acda91be2ee575.png",
     "static/media/Tighnari_Icon.png": "/static/media/Tighnari_Icon.586acad6a12956356870.png",
     "static/media/Pyroagent_Icon.png": "/static/media/Pyroagent_Icon.9f41fa72c4b923a66c59.png",
     "static/media/Ganyu_Icon.png": "/static/media/Ganyu_Icon.c1e92a6d8e68e9b6028b.png",
     "static/media/Diona_Icon.png": "/static/media/Diona_Icon.f6670591dca18b0d2657.png",
     "static/media/Sucrose_Icon.png": "/static/media/Sucrose_Icon.c5acc051040a2a4dd9ae.png",
-    "static/media/Candace_Icon.png": "/static/media/Candace_Icon.ae9cd478af1b1fd7c68b.png",
     "static/media/Diluc_Icon.png": "/static/media/Diluc_Icon.f9817daccde23db64f9f.png",
     "static/media/Ayaka_Icon.png": "/static/media/Ayaka_Icon.4cbe2031383500979f17.png",
     "static/media/Kaeya_Icon.png": "/static/media/Kaeya_Icon.c89aed4b105bc39459c1.png",
@@ -53,15 +51,17 @@
     "static/media/Amber_Icon.png": "/static/media/Amber_Icon.4949219c8dcdf656112d.png",
     "static/media/Klee_Icon.png": "/static/media/Klee_Icon.3e9b17ef84048dd9c42c.png",
     "static/media/Cyno_Icon.png": "/static/media/Cyno_Icon.8008cfda8fdeeacae23e.png",
-    "static/media/Kazuha_Icon.png": "/static/media/Kazuha_Icon.5d87eda7df4c94bb6393.png",
     "static/media/Mirrormaiden_Icon.png": "/static/media/Mirrormaiden_Icon.e59e3a640ee6b4b220bc.png",
     "static/media/Itto_Icon.png": "/static/media/Itto_Icon.d1fedf857dbdbc4f245c.png",
     "static/media/Eula_Icon.png": "/static/media/Eula_Icon.08b73d5b7ea3bf39ea2a.png",
+    "static/media/Yanfei_Icon.png": "/static/media/Yanfei_Icon.93abf8cd31bd93076cb8.png",
     "static/media/Jean_Icon.png": "/static/media/Jean_Icon.0b6b6bb06e167763b48a.png",
     "static/media/Oceanoid_Icon.png": "/static/media/Oceanoid_Icon.61ff12811771c79dc803.png",
     "static/media/Barbara_Icon.png": "/static/media/Barbara_Icon.7cd7bf952ae826204138.png",
     "static/media/Ayato_Icon.png": "/static/media/Ayato_Icon.409df5dd66f0b1fbd7a3.png",
     "static/media/Fischl_Icon.png": "/static/media/Fischl_Icon.07ca0bfae21fb09cd192.png",
+    "static/media/Candace_Icon.png": "/static/media/Candace_Icon.26f09f14898971032388.png",
+    "static/media/Kazuha_Icon.png": "/static/media/Kazuha_Icon.70e91cec361b04dcd6a4.png",
     "static/media/Keqing_Icon.png": "/static/media/Keqing_Icon.10775e6609eae15734ac.png",
     "static/media/Ningguang_Icon.png": "/static/media/Ningguang_Icon.1937cd1f158b7b500673.png",
     "static/media/Chongyun_Icon.png": "/static/media/Chongyun_Icon.3f65e64dacf5fe3955c9.png",
@@ -105,10 +105,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.899878ad.css.map": "/static/css/main.899878ad.css.map",
-    "main.be5b498c.js.map": "/static/js/main.be5b498c.js.map"
+    "main.88ca9154.js.map": "/static/js/main.88ca9154.js.map"
   },
   "entrypoints": [
     "static/css/main.899878ad.css",
-    "static/js/main.be5b498c.js"
+    "static/js/main.88ca9154.js"
   ]
 }
