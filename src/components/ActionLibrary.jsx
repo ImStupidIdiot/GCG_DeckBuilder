@@ -100,7 +100,7 @@ class ActionLibrary extends Component {
         const cl = this.state.displayActions.map((action) => 
             <Col xs={2} key={action+"-column"}> 
                 <Action name={action} key={action} 
-                    url={this.howManyInDeck(action) < 2 ? db.actions[action].image : db.actions[action].golden_image} 
+                    url={this.howManyInDeck(action) == 2 || (action.includes("MAX1") && this.howManyInDeck(action) == 1) ? db.actions[action].golden_image : db.actions[action].image} 
                     addToDeck={this.props.addToDeck} 
                     removeFromDeck={this.props.removeFromDeck} 
                     howManyInDeck={this.howManyInDeck(action)} 
