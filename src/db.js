@@ -2952,7 +2952,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "cost": '1 White',
                 "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again.\n\nUsage(s)：1\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
                 "required": '2mond',
-                "flavor": 'Usage(s)：1',
+                "flavor": '"Someday, the winds will blow towards a brighter future."',
                 'id': '63'
             },
     
@@ -3145,7 +3145,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333026.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337026.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333026_gcg_high_resolution.webp",
-                "cost": '2 Black',
+                "cost": '2 White',
                 "description": "Choose one Summon on the opposing side and cause it to lose usages by 2.",
                 "flavor": "“Here at Wangsheng Funeral Parlor, you can count on us to go full send! Satisfaction guaranteed!”",
                 "id": '3S'        
@@ -6746,7 +6746,7 @@ else {
                 "cost": '1 White',
                 "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again.\n\nUsage(s)：1\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
                 "required": '2mond',
-                "flavor": 'Usage(s)：1',
+                "flavor": '"Someday, the winds will blow towards a brighter future."',
                 'id': '63'
             },
     
@@ -7019,6 +7019,18 @@ else {
                 "description": "Create 4 basic Elemental Dice of different types.",
                 "flavor": '"Lonely forest breezes converged, jointly they overthrew the tyrant\'s tower from the sky."\n"Broken free from shackles at last, the young lioness stood firm in the winds with her head held high."',
                 'id': '6A'
+            },
+
+            "friendshipeternal": {
+                "name": "Friendship Eternal",
+                "tags": ['event'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333045.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337045.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333045_gcg_high_resolution.webp",
+                "cost": "2 White",
+                "description": "Players with less than 4 cards in their hand draw cards until their hand has 4 cards in it.",
+                "flavor": "Good friends never truly leave. They stay with us in another form.",
+                "id": '6F'
             },
             
             "jueyunguoba": {
@@ -7757,9 +7769,9 @@ else {
             },
             'aegisofabyssalflame': {
                 'name': "Aegis of Abyssal Flame",
-                "type": "Status",
+                "type": "Combat Status",
                 "description": "Grant the character to which this is attached 3 Shield points. \n\nBefore this Shield is depleted, the character to which this is attached will deal +1 Pyro DMG."
-            },
+            }
         },
     
         "nullchar": {
