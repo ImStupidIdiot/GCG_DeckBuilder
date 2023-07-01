@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.899878ad.css",
-    "main.js": "/static/js/main.7e9d28fd.js",
+    "main.css": "/static/css/main.8707d3b6.css",
+    "main.js": "/static/js/main.e7cb82f0.js",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -41,6 +41,7 @@
     "static/media/Tighnari_Icon.png": "/static/media/Tighnari_Icon.586acad6a12956356870.png",
     "static/media/Pyroagent_Icon.png": "/static/media/Pyroagent_Icon.9f41fa72c4b923a66c59.png",
     "static/media/Ganyu_Icon.png": "/static/media/Ganyu_Icon.c1e92a6d8e68e9b6028b.png",
+    "static/media/Arcane.png": "/static/media/Arcane.bed7dac6afad59aeb4be.png",
     "static/media/Diona_Icon.png": "/static/media/Diona_Icon.f6670591dca18b0d2657.png",
     "static/media/Sucrose_Icon.png": "/static/media/Sucrose_Icon.c5acc051040a2a4dd9ae.png",
     "static/media/Diluc_Icon.png": "/static/media/Diluc_Icon.f9817daccde23db64f9f.png",
@@ -104,11 +105,11 @@
     "static/media/Klee_Status.png": "/static/media/Klee_Status.644a92137769d1ebe177.png",
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
-    "main.899878ad.css.map": "/static/css/main.899878ad.css.map",
-    "main.7e9d28fd.js.map": "/static/js/main.7e9d28fd.js.map"
+    "main.8707d3b6.css.map": "/static/css/main.8707d3b6.css.map",
+    "main.e7cb82f0.js.map": "/static/js/main.e7cb82f0.js.map"
   },
   "entrypoints": [
-    "static/css/main.899878ad.css",
-    "static/js/main.7e9d28fd.js"
+    "static/css/main.8707d3b6.css",
+    "static/js/main.e7cb82f0.js"
   ]
 }

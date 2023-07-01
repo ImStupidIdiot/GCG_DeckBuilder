@@ -12,6 +12,8 @@
    *  MIT Licence
    */
 
+/*!arcane ? cost : <img src={db.dice.arcane} className='arcaneDice'></img>*/
+
 /**
  * @license React
  * react-dom.production.min.js
