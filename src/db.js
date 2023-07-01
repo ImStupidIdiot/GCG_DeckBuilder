@@ -136,6 +136,7 @@ import White_Dice from './images/White_Dice.png'
 import Black_Dice from './images/Black_Dice.png'
 import Omni_Dice from './images/Omni_Dice.png'
 import Energy from './images/Energy.png'
+import Arcane from './images/Arcane.png'
 
 import Action_Block_Test from './images/Action_Block_Test.png'
 import Char_Sort from './images/Char_Sort.png'
@@ -2743,8 +2744,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333050.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337050.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333050_gcg_high_resolution.webp",
-                "cost": '1 Arcane',
-                "description": "You must have a character who has already equipped a Weapon or Artifact: The next time you equip a Weapon or Artifact on a character that already has a Weapon or Artifact equipped in this Round: Use 2 less Elemental Dice.\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "cost": '0 White',
+                "description": "You must have a character who has already equipped a Weapon or Artifact: The next time you play a Weapon or Artifact card in this Round: Spend 2 less Elemental Dice.\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
                 "flavor": '"Is mortal life not an empty shell, as unto a dream?"',
                 'id': '6O'
             },
@@ -2755,7 +2756,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333051.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337051.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333051_gcg_high_resolution.webp",
-                "cost": '1 Arcane',
+                "cost": '0 White',
                 "description": "Can only be played when you have 0 Elemental Dice left: Generate 2 different Elemental Dice.\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
                 "flavor": '"Rex Lapis bestowed him with a pair of eyes to see the world, and came to an agreement with him. The dragon then accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world..."',
                 'id': '6P'
@@ -4066,7 +4067,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             'omni': Omni_Dice,
             'white': White_Dice,
             'black': Black_Dice,
-            Energy: Energy
+            'energy': Energy,
+            'arcane': Arcane
         },
     
         "menu": {
@@ -6939,7 +6941,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333026.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337026.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333026_gcg_high_resolution.webp",
-                "cost": '2 Black',
+                "cost": '2 White',
                 "description": "Choose one Summon on the opposing side and cause it to lose usages by 2.",
                 "flavor": "“Here at Wangsheng Funeral Parlor, you can count on us to go full send! Satisfaction guaranteed!”",
                 "id": '3S'        

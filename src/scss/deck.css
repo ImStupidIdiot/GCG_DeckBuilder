@@ -1,4 +1,5 @@
 .ActionBlock {
+    z-index: 2;
     background: rgb(0, 0, 0);
     border-width: 0px;
     border-radius: 10px;
@@ -6,6 +7,18 @@
     width: 270px;
     padding: 0;
     margin-left: 6px;
+}
+
+.ActionBlockMAX1 {
+    z-index: 10;
+    background: rgb(0,0,0);
+    border-width: 0px;
+    border-radius: 10px;
+    height: 55px;
+    width: 270px;
+    padding: 0;
+    margin-left: 6px;
+    box-shadow: 4px 0px 0.5em rgb(243, 179, 247), -3px 0px 0.5em rgb(232, 171, 236);
 }
 
 .ActionBlockInvalid {
@@ -40,7 +53,20 @@
     -webkit-mask-image: linear-gradient(to right, transparent 0%, black);
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
-    object-position: 80% 30%;
+    object-position: -30% 30%;
+    height: 55px; 
+    width: 245px;
+    padding: 0px;
+}
+
+.ActionBlockImgMAX1 {
+    z-index: 0;
+    object-fit: cover;
+    mask-image: linear-gradient(to right, transparent 0%, black);
+    -webkit-mask-image: linear-gradient(to right, transparent 0%, black);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    object-position: -30% 30%;
     height: 55px; 
     width: 245px;
     padding: 0px;
@@ -155,4 +181,9 @@
     border-color:rgba(0, 0, 0, 0.177);
     font: Helvetica;
     border-radius: 7px;
+}
+
+.arcaneDice {
+    height: 30px;
+    transform: translate(-25%, -5%);
 }

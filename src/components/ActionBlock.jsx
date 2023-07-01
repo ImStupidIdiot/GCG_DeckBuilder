@@ -17,14 +17,21 @@ class ActionBlock extends Component {
         var cost_style = cost_list[1]
         var cost2_style = null
 
-        if (db.actions[this.props.name].tags.includes('talent')) {
+        // if (db.actions[this.props.name].tags.includes('talent')) {
             if (cost_list[2]) {
                 var cost2 = '\n' + cost_list[2]
                 cost2_style = cost_list[3]
             }
-        }
+        // }
 
         var name = db.actions[this.props.name].name
+        var arcane = this.props.name.includes("MAX1");
+
+        if (arcane) {
+            arcane = "MAX1";
+        } else {
+            arcane = "";
+        }
         
         if (name.length > 30) {
             for (var i = 20; i < name.length; i++) {
@@ -34,13 +41,13 @@ class ActionBlock extends Component {
                 }
             }
         }
-
+        console.log('ActionBlock' + arcane)
         return <button
             className={!(db.actions[this.props.name].required) || (this.props.current_chars.includes(db.actions[this.props.name].required) || 
                 (db.actions[this.props.name].required.includes("2") &&
                 this.props.current_chars.filter((char) => db.chars[char].element.includes(db.actions[this.props.name].required.substring(1)) || db.chars[char].region.includes(db.actions[this.props.name].required.substring(1))).length >= 2
                 ))
-                ? 'ActionBlock' : 'ActionBlockInvalid'}
+                ? 'ActionBlock' + arcane: 'ActionBlockInvalid'}
             onClick={() => 
                 {
                     this.props.removeFromDeck(this.props.name)
@@ -49,10 +56,10 @@ class ActionBlock extends Component {
             hidden={this.state.counter == 0}
         >
             <Row>
-                <Col xs={1}><div className='ActionBlockCost'><div className={cost_style}>{cost}</div><div className={cost2_style}>{cost2}</div></div></Col>
+                <Col xs={1}><div className='ActionBlockCost'><div className={cost_style}>{cost /*!arcane ? cost : <img src={db.dice.arcane} className='arcaneDice'></img>*/}</div><div className={cost2_style}>{cost2}</div></div></Col>
                 <Col xs={1}><div className='ActionBlockName'>{name}</div></Col>
                 <Col xs={9} className="ActionBlockCol" background-image={this.props.url}>
-                    <img src={this.props.url} className='ActionBlockImg' alt='test' onMouseEnter={ () => {
+                    <img src={this.props.url} className={'ActionBlockImg' + arcane} alt='test' onMouseEnter={ () => {
                         this.setState({height: '55'})
                         this.setState({width: '270'})
                     }   
