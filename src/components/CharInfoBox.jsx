@@ -31,6 +31,7 @@ class CharInfoBox extends Component {
                         <Col xs={6} className="infoBoxCol">
                             <br className={needsBrSmall ? 'brSmall' : null}/>
                             <div className="infoBoxName">{db.chars[this.props.char].name}</div> 
+                            <div className="charinfoBoxScroll">
                             <br className={needsBrSmall ? 'brSmall' : null}/>
                             <p className="infoBoxText">Normal Attack: {db.chars[this.props.char].na}</p>
                             <br className={needsBrSmall ? 'brSmall' : null}/>
@@ -42,6 +43,7 @@ class CharInfoBox extends Component {
                             <p className="infoBoxText">Related: {related_list ? related_list : null}</p>
                             <br className={needsBrSmall ? 'brSmall' : null}/>
                             <p className="infoBoxTextItalic">{db.chars[this.props.char].flavor}</p>
+                            </div>
                         </Col>
                     </Row>
                 </Container> 

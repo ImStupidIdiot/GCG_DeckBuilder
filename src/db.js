@@ -111,6 +111,15 @@ import Eula_Summon from './images/Eula_Summon.png'
 import Ayato_Summon from './images/Ayato_Summon.png'
 import Itto_Summon from './images/Itto_Summon.png'
 import Tighnari_Summon from './images/Tighnari_Summon.png'
+import Zhongli_Summon from './images/Zhongli_Summon.png'
+import Shenhe_Summon from './images/Shenhe_Summon.png'
+import Raiden_Summon from './images/Raiden_Summon.png'
+import Yae_Summon from './images/Yae_Summon.png'
+import Venti_Summon from './images/Venti_Summon.png'
+import Cicin_Summon from './images/Cicin_Summon.png'
+import Lector_Summon from './images/Lector_Summon.png'
+import Hypostasis_Summon from './images/Hypostasis_Summon.png'
+import Amber_Summon from './images/Amber_Summon.png'
 
 import Bennett_BStatus from './images/Bennett_BStatus.png'
 import Kaeya_BStatus from './images/Kaeya_BStatus.png'
@@ -325,7 +334,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': 'Tartaglia',
                 'na': 'Cutting Torent \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
                 'skill': 'Foul Legacy: Raging Tide \n3 Hydro \nSwitches to Melee Stance and deals 2 Hydro DMG.',
-                'burst': 'Havoc: Obliteration \n3 Hydro, 3 Energy \nPerform different attacks based on the current state that Tartaglia is in. Ranged Stance - Flash of Havoc: Deal 4 Hydro DMG, reclaim 2 Energy, and apply Riptide to the target. Melee Stance - Light of Obliteration: Deal 7 Hydro DMG.',
+                'burst': 'Havoc: Obliteration \n3 Hydro, 3 Energy \nPerform different attacks based on the current state that Tartaglia is in. \nRanged Stance - Flash of Havoc: Deal 4 Hydro DMG, reclaim 2 Energy, and apply Riptide to the target. \nMelee Stance - Light of Obliteration: Deal 7 Hydro DMG.',
                 'special': 'Tide Withholder \n(Passive) \nWhen the battle begins, this character gains Ranged Stance. Once the Melee Stance attached to the character ends, reapplys Ranged Stance.',
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330029_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330029.webp',
@@ -376,9 +385,9 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             "candace": {
                 "name": "Candace",
                 "na": "Gleaming Spear - Guardian Stance\n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
-                'skill': "Sacred Rite: Heron's Sanctum\n3 Hydro \nAttach Heron Shield to character and use Prepare Skill: Heron Strike.",
-                'burst': "Sacred Rite: Heron's Sanctum\n3 Hydro, 2 Energy \nDeals 2 Hydro DMG and creates Prayer of the Crimson Crown.",
-                "special": "Heron Strike\n(Prepare for 1 turn)\nDeal 3 Hydro DMG.",
+                'skill': "Sacred Rite: Heron's Sanctum\n3 Hydro \nAttaches a Heron Shield to character and prepares Heron Strike.",
+                'burst': "Sacred Rite: Heron's Sanctum\n3 Hydro, 2 Energy \nDeals 2 Hydro DMG and creates 1 Prayer of the Crimson Crown.",
+                "special": "Heron Strike\n(Prepare for 1 turn)\nDeals 3 Hydro DMG.",
                 "hi_res_image": 'https://genshin.honeyhunterworld.com/img/i_n330049_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330049.webp',
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334049.webp',
@@ -735,7 +744,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             },
 
             "kazuha": {
-                'name': "Kazuha",
+                'name': "Kaedehara Kazuha",
                 'na': "Garyuu Bladework \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
                 'skill': "Chihayaburu \n3 Anemo \nDeals 3 Anemo DMG, attach Midare Ranzan to your character. If this skill triggers Swirl, Midare Ranzan is converted to the Swirled Element. After the Skill DMG is finalized: Your team switches to the next character.",
                 'burst': "Kazuha Slash \n3 Anemo, 2 Energy \nDeals 3 Anemo DMG and summons Autumn Whirlwind.",
@@ -926,7 +935,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             "electrohypostasis": {
                 'name': "Electro Hypostasis",
                 'na': "Electro Crystal Projection \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
-                'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper. \nScissors: Deals 2 Electro DMG, then performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Paper.\nPaper: Deals 3 Electro DMG.",
+                'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper. \nRock-Paper-Scissors Combo: Scissors: Deals 2 Electro DMG, then performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Paper.\nRock-Paper-Scissors Combo: Paper: Deals 3 Electro DMG.",
                 'burst': "Lightning Lockdown\n3 Electro, 2 Energy \nDeals 2 Electro DMG, summons 1 Chains of Warding Thunder.",
                 'special': "Electro Crystal Core\n(Passive) \nWhen the battle begins, this character gains Electro Crystal Core.\n\nNote: This character begins the battle with 8 HP.",
                 'special2': "Rock-Paper-Scissors Combo: Scissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.",
@@ -1575,7 +1584,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334546.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330546_gcg_high_resolution.webp",
                 "cost": '3 Dendro 2 Energy',
-                "description": "Combat Action: When your active character is Nahida, equip this card.\n\nAfter Nahida equips this card, immediately use Illusory Heart once.\n\nWhen your Nahida, who has this card equipped, is on the field, the following effects will take place based on your party's Elemental Types: \nPyro: When Shrine of Maya is on the field, characters who trigger Seed of Skandha due to Elemental Reactions they are affected by will have the Piercing DMG they take from Seed of Skandha converted to Dendro DMG. \nElectro: When the Shrine of Maya enters the field, Seed of Skandha currently present of the opposition will gain 1 Usage(s). \nHydro: After your Nahida, who has this card equipped unleashes Shrine of Maya, Duration (Rounds) +1.\n\n(You must have Nahida in your deck to add this card to your deck.)",
+                "description": "Combat Action: When your active character is Nahida, equip this card.\n\nAfter Nahida equips this card, immediately use Illusory Heart once.\n\nWhen your Nahida, who has this card equipped, is on the field, the following effects will take place based on your party's Elemental Types: \n\nPyro: When Shrine of Maya is on the field, characters who trigger Seed of Skandha due to Elemental Reactions they are affected by will have the Piercing DMG they take from Seed of Skandha converted to Dendro DMG. \n\nElectro: When the Shrine of Maya enters the field, Seed of Skandha currently present of the opposition will gain 1 Usage(s). \n\nHydro: After your Nahida, who has this card equipped unleashes Shrine of Maya, Duration (Rounds) +1.\n\n(You must have Nahida in your deck to add this card to your deck.)",
                 "flavor": '"Share in my knowledge."',
                 'required': 'nahida',
                 'id': '5A'
@@ -1755,7 +1764,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335052.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331052_gcg_high_resolution.webp",
                 "cost": '3 Black',
-                "description": "The character deals +1 DMG.\n\nWhen entering play: Draw 2 cards.\n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                "description": "Character deals +1 DMG.\n\nWhen played: Draw 2 cards.\n\n(Can only be equipped by Catalyst characters. Characters can equip at most 1 Weapon)",
                 "flavor": '"Even the most bitter of stories contain courage and strength... the story of the good Golden Nara\'s adventures with us will help good Nara defend the forest."',
                 'id': '6M'
             },
@@ -3815,6 +3824,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "type": "Summon",
                 "description": "When your active character takes DMG: Decrease DMG taken by 2. \n\nUsage(s): 1. When the Usages are depleted, this card will not be discarded. \n\nAt the End Phase, if Usage(s) have been depleted: Discard this card to deal 2 Pyro DMG.",
                 "related": "Amber",
+                "image": Amber_Summon
             },
             "paramitapapilio": {
                 "name": "Paramita Papilio",
@@ -3832,7 +3842,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Eye of Stormy Judgement",
                 "type": "Summon",
                 "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 3 \n\nWhen this Summon is on the field: Your characters' Elemental Bursts deal +1 DMG.",
-                "related": "Raiden Shogun"
+                "related": "Raiden Shogun",
+                "image": Raiden_Summon
             },
             "chakradesiderata": {
                 "name": "Chakra Desiderata",
@@ -3844,7 +3855,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Sesshou Sakura",
                 "type": "Summon",
                 "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 3 (Can stack, max 6 stacks) \n\nWhen you declare the end of your Round: If this card's Usage(s) is at least 4, deal 1 Electro DMG. (Consumes Usage(s)s)",
-                "related": "Yae Miko"
+                "related": "Yae Miko",
+                "image": Yae_Summon
             },
             "tenkothunderbolts": {
                 "name": "Tenko Thunderbolts",
@@ -3862,7 +3874,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Stormeye",
                 "type": "Summon",
                 "description": "End Phase: Deal 2 Anemo DMG, switch opposing character to Character closest to your current active character. \n\nUsage(s): 2 \n\nAfter your character or Summon triggers a Swirl reaction: Convert the Elemental Type of this card and change its DMG dealt to the element Swirled. (Can only be converted once before leaving the field)",
-                "related": "Venti"
+                "related": "Venti",
+                "image": Venti_Summon
             },
             'yakshasmask': {
                 'name': "Yaksha's Mask",
@@ -3874,7 +3887,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': 'Stone Stele',
                 'type': "Summon",
                 "description": "End Phase: Deal 1  Geo DMG. \n\nUsage(s): 2",
-                "related": "Zhongli"
+                "related": "Zhongli",
+                "image": Zhongli_Summon
             },
             'jadeshield': {
                 'name': 'Jade Shield',
@@ -3904,7 +3918,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': 'Cryo Cicin', 
                 'type': 'Summon',
                 'description': 'End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 2 (Can stack, max 3 stacks) \n\nAfter Fatui Cryo Cicin Mage performs a Normal Attack: This card gains 1 Usage(s). After your character takes Elemental Reaction DMG: This card loses 1 Usage(s).',
-                'related': 'Fatui Cryo Cicin Mage'
+                'related': 'Fatui Cryo Cicin Mage',
+                "image": Cicin_Summon
             },
             'flowingcicinshield': {
                 'name': 'Flowing Cicin Shield',
@@ -3922,13 +3937,15 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': 'Darkfire Furnace',
                 'type': 'Summon',
                 'description': 'End Phase: Deal 1 Pyro DMG, deal 1 Piercing DMG to all opposing characters on standby. \n\nUsage(s): 2',
-                'related': 'Abyss Lecor: Fathomless Flames'
+                'related': 'Abyss Lecor: Fathomless Flames',
+                "image": Lector_Summon
             },
             'chainsofwardingthunder': {
                 'name': 'Chains of Warding Thunder',
                 'type': 'Summon',
                 'description': 'End Phase: Deal 1 Electro DMG. \n\nUsage(s): 2 \n\nWhen this Summon is on the field: When your opponent uses Switch Character, they will have to spend 1 extra Elemental Die. (Once per Round)',
-                'related': 'Electro Hypostasis'
+                'related': 'Electro Hypostasis',
+                "image": Hypostasis_Summon
             },
             'electrocrystalcore': {
                 'name': 'Electro Crystal Core',
@@ -3946,7 +3963,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': 'Talisman Spirit',
                 'type': 'Summon',
                 'description': 'End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 2 \n\nWhen this Summon is on the field: Opposing character(s) take +1 Cryo DMG and Physical DMG.',
-                'related': 'Shenhe'
+                'related': 'Shenhe',
+                "image": Shenhe_Summon
             },
             'meleestance': {
                 'name': 'Melee Stance',
@@ -4259,7 +4277,7 @@ else {
                 'name': 'Tartaglia',
                 'na': 'Cutting Torent \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
                 'skill': 'Foul Legacy: Raging Tide \n3 Hydro \nSwitches to Melee Stance and deals 2 Hydro DMG.',
-                'burst': 'Havoc: Obliteration \n3 Hydro, 3 Energy \nPerform different attacks based on the current state that Tartaglia is in. Ranged Stance - Flash of Havoc: Deal 4 Hydro DMG, reclaim 2 Energy, and apply Riptide to the target. Melee Stance - Light of Obliteration: Deal 7 Hydro DMG.',
+                'burst': 'Havoc: Obliteration \n3 Hydro, 3 Energy \nPerform different attacks based on the current state that Tartaglia is in. \nRanged Stance - Flash of Havoc: Deal 4 Hydro DMG, reclaim 2 Energy, and apply Riptide to the target. \nMelee Stance - Light of Obliteration: Deal 7 Hydro DMG.',
                 'special': 'Tide Withholder \n(Passive) \nWhen the battle begins, this character gains Ranged Stance. Once the Melee Stance attached to the character ends, reapplys Ranged Stance.',
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330029_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330029.webp',
@@ -4808,7 +4826,7 @@ else {
             "electrohypostasis": {
                 'name': "Electro Hypostasis",
                 'na': "Electro Crystal Projection \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
-                'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper. \nScissors: Deals 2 Electro DMG, then performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Paper.\nPaper: Deals 3 Electro DMG.",
+                'skill': "Rock-Paper-Scissors Combo \n5 Electro \nDeals 2 Electro DMG and then separately performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Scissors and Rock-Paper-Scissors Combo: Paper. \nRock-Paper-Scissors Combo: Scissors: Deals 2 Electro DMG, then performs \"Prepare Skill\" for Rock-Paper-Scissors Combo: Paper.\nRock-Paper-Scissors Combo: Paper: Deals 3 Electro DMG.",
                 'burst': "Lightning Lockdown\n3 Electro, 2 Energy \nDeals 2 Electro DMG, summons 1 Chains of Warding Thunder.",
                 'special': "Electro Crystal Core\n(Passive) \nWhen the battle begins, this character gains Electro Crystal Core.\n\nNote: This character begins the battle with 8 HP.",
                 'special2': "Rock-Paper-Scissors Combo: Scissors: Deals 2 Electro DMG, then Prepare Skill: Rock-Paper-Scissors Combo: Paper.",
@@ -5418,7 +5436,7 @@ else {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334546.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330546_gcg_high_resolution.webp",
                 "cost": '3 Dendro 2 Energy',
-                "description": "Combat Action: When your active character is Nahida, equip this card.\n\nAfter Nahida equips this card, immediately use Illusory Heart once.\n\nWhen your Nahida, who has this card equipped, is on the field, the following effects will take place based on your party's Elemental Types: \nPyro: When Shrine of Maya is on the field, characters who trigger Seed of Skandha due to Elemental Reactions they are affected by will have the Piercing DMG they take from Seed of Skandha converted to Dendro DMG. \nElectro: When the Shrine of Maya enters the field, Seed of Skandha currently present of the opposition will gain 1 Usage(s). \nHydro: After your Nahida, who has this card equipped unleashes Shrine of Maya, Duration (Rounds) +1.\n\n(You must have Nahida in your deck to add this card to your deck.)",
+                "description": "Combat Action: When your active character is Nahida, equip this card.\n\nAfter Nahida equips this card, immediately use Illusory Heart once.\n\nWhen your Nahida, who has this card equipped, is on the field, the following effects will take place based on your party's Elemental Types: \n\nPyro: When Shrine of Maya is on the field, characters who trigger Seed of Skandha due to Elemental Reactions they are affected by will have the Piercing DMG they take from Seed of Skandha converted to Dendro DMG. \n\nElectro: When the Shrine of Maya enters the field, Seed of Skandha currently present of the opposition will gain 1 Usage(s). \n\nHydro: After your Nahida, who has this card equipped unleashes Shrine of Maya, Duration (Rounds) +1.\n\n(You must have Nahida in your deck to add this card to your deck.)",
                 "flavor": '"Share in my knowledge."',
                 'required': 'nahida',
                 'id': '5A'

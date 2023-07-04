@@ -79,6 +79,36 @@
     height: 0;
 }
 
+.infoBoxScroll {
+    background: rgba(0,0,0,0);
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+    height: 500px;
+    padding-left: 0px;
+}
+
+.infoBoxScroll::-webkit-scrollbar { 
+    background: rgba(0,0,0,0);
+    width: 0;
+    height: 500px;
+}
+
+.charinfoBoxScroll {
+    background: rgba(0,0,0,0);
+    overflow-y: scroll;
+    scrollbar-width: none; 
+    -ms-overflow-style: none;  
+    height: 650px;
+    padding-left: 0px;
+}
+
+.charinfoBoxScroll::-webkit-scrollbar { 
+    background: rgba(0,0,0,0);
+    width: 0;
+    height: 0;
+}
+
 .font {
     font-family: 'Helvetica';
 }

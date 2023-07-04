@@ -35,11 +35,12 @@ class ActionInfoBox extends Component {
                     <div className="infoBoxName">{db.actions[this.props.action].name}</div> 
                     <br></br>
                     <p className="infoBoxCost">Cost: {db.actions[this.props.action].cost}</p>
-                    <br></br>
+                    <div className="infoBoxScroll">
                     <p className="infoBoxText">{text}</p>
                     <br/>
                     <div className="infoBoxText">{related_list != null ? 'Related: ' : null}{related_list}</div>
                     <p className="infoBoxTextItalic">{related_list ? '\n' + db.actions[this.props.action].flavor : db.actions[this.props.action].flavor}</p>
+                    </div>
                 </Col>
             </Row>
             </Container> 
