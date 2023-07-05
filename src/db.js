@@ -153,7 +153,7 @@ import Action_Sort from './images/Action_Sort.png'
 import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 
-if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
+if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
 
     var db = {
         "chars": {
@@ -161,7 +161,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Ganyu",
                 'na': 'Liutian Archery \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
                 'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
-                'burst': "Celestial Shower \n3 Cryo, 2 Energy \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
+                'burst': "Celestial Shower \n3 Cryo, 3 Energy \nDeals 2 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
                 'special': "Normal Attack: Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
                 "card": Ganyu_Card,
@@ -421,7 +421,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Xiangling",
                 'na': 'Dough-Fu \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
                 'skill': "Guoba Attack \n3 Pyro \nSummons 1 'Guoba'.",
-                'burst': "Pyronado \n4 Pyro, 2 Energy \nDeals 2 Pyro DMG, creates 1 'Pyronado'.",
+                'burst': "Pyronado \n4 Pyro, 2 Energy \nDeals 3 Pyro DMG, creates 1 'Pyronado'.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330007_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330007.webp',
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334007.webp',
@@ -472,7 +472,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": 'Yoimiya',
                 'na': 'Firework Flare-Up \n2 Black, 1 Pyro \nDeals 2 Physical DMG.',
                 'skill': "Niwabi Fire-Dance \n1 Pyro \nThis character gains 'Niwabi Enshou'. (This Skill does not grant Energy)",
-                'burst': "Ryuukin Saxifrage \n4 Pyro, 3 Energy \nDeals 4 Pyro DMG, creates 1 'Aurous Blaze'.",
+                'burst': "Ryuukin Saxifrage \n3 Pyro, 3 Energy \nDeals 3 Pyro DMG, creates 1 'Aurous Blaze'.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330010_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330010.webp',
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334010.webp',
@@ -557,7 +557,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Razor",
                 'na': 'Steel Fang \n2 Black, 1 Electro \nDeals 2 Physical DMG.',
                 'skill': 'Claw and Thunder \n3 Electro \nDeals 3 Electro DMG.',
-                'burst': "Lightning Fang \n3 Electro, 3 Energy \nDeals 5 Electro DMG. This character gains 'The Wolf Within'.",
+                'burst': "Lightning Fang \n3 Electro, 2 Energy \nDeals 3 Electro DMG. This character gains 'The Wolf Within'.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330012_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330012.webp',
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334012.webp',
@@ -609,8 +609,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Beidou",
                 "na": 'Oceanborne\n2 Black, 1 Electro \nDeals 2 Physical DMG.',
                 "skill": "Tidecaller\n3 Electro \nThis character gains 'Tidecaller: Surf Embrace'. Prepare Skill: Wavestrider.",
-                "burst": "Stormbreaker\n4 Electro, 3 Energy\nDeals 3 Electro DMG, creates 1 'Thunderbeast's Targe'.",
-                "special": "Wavestrider\n(Prepare for 1 turn)\nDeal 2 Electro DMG.",
+                "burst": "Stormbreaker\n3 Electro, 3 Energy\nDeals 2 Electro DMG, creates 1 'Thunderbeast's Targe'.",
+                "special": "Wavestrider\n(Prepare for 1 turn)\nDeal 3 Electro DMG.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330034_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330034.webp',
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334028.webp',
@@ -2052,7 +2052,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335018.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331018_gcg_high_resolution.webp",
                 "cost": '1 White',
-                "description": "After an opposing character is defeated: If the character this card is attached to is the active character, create 'Omni Element' ×2.\n\n(A character can equip a maximum of 1 Artifact)",
+                "description": "After an opposing character is defeated: If the character this card is attached to is the active character, create 'Omni Element' ×2.(Can happen 3 times per match)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“In games where one gambles with life and death, remaining calm and composed is key to increasing one’s odds of victory.”",
                 "id": '21'          
             },
@@ -2694,7 +2694,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336033.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332033_gcg_high_resolution.webp",
                 "cost": '1 White',
-                "description": "When you play a Weapon from your hand: Use 1 less Elemental Die. For every character already equipped with a Weapon on the field, you use 1 less Elemental Die. (Once per Round.)",
+                "description": "When you play a Weapon from your hand: Use 1 less Elemental Die. On top of that, for each of your character already equipped with a Weapon on the field, you spend 1 less Elemental Die. (Once per Round.)",
                 "flavor": 'Much burning frustration must transpire before a hunk of metal may become a keen blade.',
                 'id': '6N'
             },
@@ -2766,7 +2766,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337051.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333051_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "Can only be played when you have 0 Elemental Dice left: Generate 2 different Elemental Dice.\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "description": "Can only be played when you have 0 Elemental Dice left: Generate 2 different basic Elemental Dice.\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
                 "flavor": '"Rex Lapis bestowed him with a pair of eyes to see the world, and came to an agreement with him. The dragon then accompanied the Lord of Geo, fighting campaigns alongside him in the four corners of the world..."',
                 'id': '6P'
             },
@@ -3764,13 +3764,13 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             "grimheart": {
                 "name": "Grimheart",
                 "type": "Status",
-                "description": "After the character to which this is attached uses Icetide Vortex: Remove this status, DMG +2.",
+                "description": "After the character to which this is attached uses Icetide Vortex: Remove this status, DMG +3.",
                 "related": "Eula",
             },
             "lightfallsword": {
                 "name": "Lightfall Sword",
                 "type": "Summon",
-                "description": "When Eula uses a Skill, this card will accumulate 2 Zeal stacks, but Eula will be unable to receive Energy. End Phase: Discard this card and deal 2 Physical DMG. Each Zeal stack adds 1 DMG to this damage instance.",
+                "description": "When Eula uses a Skill, this card will accumulate 2 Zeal stacks, but Eula will be unable to receive Energy. End Phase: Discard this card and deal 3 Physical DMG. Each Zeal stack adds 1 DMG to this damage instance.",
                 "related": "Eula",
                 "image": Eula_Summon
             },
@@ -4104,7 +4104,7 @@ else {
                 "name": "Ganyu",
                 'na': 'Liutian Archery \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
                 'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
-                'burst': "Celestial Shower \n3 Cryo, 2 Energy \nDeals 1 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
+                'burst': "Celestial Shower \n3 Cryo, 3 Energy \nDeals 2 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
                 'special': "Normal Attack: Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
                 "card": Ganyu_Card,

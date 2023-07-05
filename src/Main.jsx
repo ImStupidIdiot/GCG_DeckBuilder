@@ -23,7 +23,7 @@ class Main extends Component {
         this.removeFromDeckAction = this.removeFromDeckAction.bind(this);
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
-        this.leaks = window.location.hash.includes('FCyyUBaTqdmauwye29RQ');
+        this.leaks = true;
         this.importDeck(window.location.hash.substring(1));
         if (localStorage.getItem('dark') == 'true') {
             this.state.dark = true;
@@ -172,9 +172,6 @@ class Main extends Component {
             if (!validDeck) {
                 toCopy += '?';
             }
-        }
-        if (this.leaks) {
-            toCopy += 'FCyyUBaTqdmauwye29RQ';
         }
         window.location.href = '#' + toCopy;
         return toCopy;
