@@ -4103,9 +4103,9 @@ else {
             "ganyu": {
                 "name": "Ganyu",
                 'na': 'Liutian Archery \n2 Black, 1 Cryo \nDeals 2 Physical DMG.',
-                'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 'Ice Lotus'.",
-                'burst': "Celestial Shower \n3 Cryo, 3 Energy \nDeals 2 Cryo DMG, deals 1 'Piercing DMG' to all opposing characters on standby, summons 1 'Sacred Cryo Pearl'.",
-                'special': "Normal Attack: Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
+                'skill': "Trail of the Qilin \n3 Cryo \nDeals 1 Cryo DMG, creates 1 Ice Lotus.",
+                'burst': "Celestial Shower \n3 Cryo, 3 Energy \nDeals 2 Cryo DMG, deals 1 Piercing DMG to all opposing characters on standby, summons 1 Sacred Cryo Pearl.",
+                'special': "Frostflake Arrow \n5 Cryo \nDeals 2 Cryo DMG, deals 2 'Piercing DMG' to all opposing characters on standby.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330000_gcg_high_resolution.webp',
                 "card": Ganyu_Card,
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334000.webp',
