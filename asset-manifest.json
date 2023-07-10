@@ -1,7 +1,9 @@
 {
   "files": {
     "main.css": "/static/css/main.af1869fd.css",
-    "main.js": "/static/js/main.5c7e59dc.js",
+    "main.js": "/static/js/main.8e3d1ed5.js",
+    "static/media/Qiqi_Icon.png": "/static/media/Qiqi_Icon.bbeba026f6a3a33b670e.png",
+    "static/media/Lisa_Icon.png": "/static/media/Lisa_Icon.0335939d9a9ea498f966.png",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
     "static/media/Maguu_Summon2.png": "/static/media/Maguu_Summon2.87e2d94e2450de4dc1b1.png",
     "static/media/Hilichurl_Summon4.png": "/static/media/Hilichurl_Summon4.bfc1933c9dd171a08eec.png",
@@ -53,6 +55,7 @@
     "static/media/Amber_Icon.png": "/static/media/Amber_Icon.4949219c8dcdf656112d.png",
     "static/media/Klee_Icon.png": "/static/media/Klee_Icon.3e9b17ef84048dd9c42c.png",
     "static/media/Cyno_Icon.png": "/static/media/Cyno_Icon.8008cfda8fdeeacae23e.png",
+    "static/media/Albedo_Icon.png": "/static/media/Albedo_Icon.42c5a3aae47270696ee8.png",
     "static/media/Mirrormaiden_Icon.png": "/static/media/Mirrormaiden_Icon.e59e3a640ee6b4b220bc.png",
     "static/media/Itto_Icon.png": "/static/media/Itto_Icon.d1fedf857dbdbc4f245c.png",
     "static/media/Eula_Icon.png": "/static/media/Eula_Icon.08b73d5b7ea3bf39ea2a.png",
@@ -115,10 +118,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.af1869fd.css.map": "/static/css/main.af1869fd.css.map",
-    "main.5c7e59dc.js.map": "/static/js/main.5c7e59dc.js.map"
+    "main.8e3d1ed5.js.map": "/static/js/main.8e3d1ed5.js.map"
   },
   "entrypoints": [
     "static/css/main.af1869fd.css",
-    "static/js/main.5c7e59dc.js"
+    "static/js/main.8e3d1ed5.js"
   ]
 }
