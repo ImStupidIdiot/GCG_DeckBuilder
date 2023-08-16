@@ -156,7 +156,7 @@ import Action_Sort from './images/Action_Sort.png'
 import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 
-if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
+if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
 
     var db = {
         "chars": {
@@ -285,7 +285,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': 'Qiqi',
                 'na': "Ancient Sword Art \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
                 'skill': "Adeptus Art: Herald of Frost \n3 Cryo \nSummons 1 Herald of Frost.",
-                'burst': "Adeptus Art: Preserver of Fortune \n3 Cryo, 3 Energy \nDeals 3 Cryo DMG, summons 1 Fortune-Preserving Talisman.",
+                'burst': "Adeptus Art: Preserver of Fortune \n3 Cryo, 3 Energy \nDeals 3 Cryo DMG, creates 1 Fortune-Preserving Talisman.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330052_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330052.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334052.webp',
@@ -697,8 +697,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
 
             "lisa": {
                 'name': 'Lisa',
-                'na': "Lightning Touch\n2 Black, 1 Electro \nDeals 1 Electro DMG. When this Skill is a Charged Attack: Attach Conductive to the target character.",
-                'skill': "Violet Arc\n3 Electro \nDeals 2 Electro DMG. If Conductive is not attached to target character, Conductive will be attached.",
+                'na': "Lightning Touch\n2 Black, 1 Electro \nDeals 1 Electro DMG. If this Skill is a Charged Attack, attach Conductive to the opponent's active character.",
+                'skill': "Violet Arc\n3 Electro \nDeals 2 Electro DMG. If Conductive is not attached to the opponent's active character, Conductive will be attached.",
                 'burst': "Lightning Rose\n3 Electro, 2 Energy \nDeals 2 Electro DMG, summons Lightning Rose.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330053_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330053.webp',
@@ -1507,8 +1507,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n330553.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334553.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330553_gcg_high_resolution.webp",
-                "cost": '0 White',
-                "description": "This card can only be equipped by your Lisa. \n\nWhen you switch to Lisa, who has this card equipped: Attach Conductive to the opposing active character. (Once per Round) \n\n(You must have Lisa in your deck to add this card to your deck.)",
+                "cost": '1 Electro',
+                "description": "After you switch to Lisa, who has this card equipped: Attach Conductive to the opposing active character. (Once per Round) \n\n(You must have Lisa in your deck to add this card to your deck.)",
                 "flavor": 'As a Librarian who has read through tens of thousands of volumes, of course it\'s trivial for me to remember how to win...',
                 'required': 'lisa',
                 'id': '6W'
@@ -1625,7 +1625,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334545.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330545_gcg_high_resolution.webp",
                 "cost": '3 Geo',
-                "description": "Combat Action: When your active character is Albedo, equip this card. \n\nAfter Albedo equips this card, immediately use Abiogenesis: Solar Isotoma. \n\nWhen there is Solar Isotoma created by your Albedo, who has this card equipped, your characters' Plunging Attack deals +1 DMG. \n\n(You must have Albedo in your deck to add this card to your deck.)",
+                "description": "Combat Action: When your active character is Albedo, equip this card. \n\nAfter Albedo equips this card, immediately use Abiogenesis: Solar Isotoma. \n\nWhen there is Albedo on the field who has this card equipped, if your side of the field has Solar Isotoma, then your characters' Plunging Attack deals +1 DMG. \n\n(You must have Albedo in your deck to add this card to your deck.)",
                 "flavor": '	"The process of confirming the strategy for a duel also requires meticulous calculations..."',
                 'required': 'albedo',
                 'id': '6U'
@@ -2192,7 +2192,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331035.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335035.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331035_gcg_high_resolution.webp",
-                "cost": '2 Black',
+                "cost": '1 White',
                 "description": "After another character of yours uses an Elemental Burst: The character to which this is attached gains 1 Energy. (A character can equip a maximum of 1 Artifact)",
                 "flavor": "",
                 "id": '4D'        
@@ -2204,7 +2204,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331046.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335046.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331046_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "After another character of yours uses an Elemental Burst: The character to which this is attached gains 1 Energy.\n\nThe DMG dealt by the character's Elemental Bursts is increased by 2.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": 'Thirteen years went by like a dream.\nThe scarlet snow flies through the shadowed pass like smoke.\nYou have now gone afar.',
                 'id': '5L'
@@ -2286,7 +2286,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331021.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335021.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331021_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Cryo Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“Past the ice-sealed door, walking down the corridors to the depths, he will break off a branch of silver-white, and bring hope to the snowy land.”",
                 "id": '24'        
@@ -2298,7 +2298,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331022.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335022.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331022_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Cryo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Cryo Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“…Then please, live on. Do not accompany us unto our doom — to languish forgotten in the snow.”",
                 "id": '25'        
@@ -2310,7 +2310,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331023.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335023.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331023_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Hydro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“The wine-sodden sea hat was thrust by a storm into the sky, and then carried away on the roiling waves, while those fated to lose their homelands engaged in battles bereft of hope and want.”",
                 "id": '26'        
@@ -2322,7 +2322,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331024.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335024.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331024_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Hydro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Hydro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“For all deaths are in vain. There is no saving those who indulge in the past.”",
                 "id": '27'        
@@ -2334,7 +2334,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331025.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335025.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331025_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Pyro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“…You ashes who dance so wildly, answer me — why have you taken all that I love?”",
                 "id": '28'        
@@ -2346,7 +2346,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331026.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335026.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331026_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Pyro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Pyro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“I will sing no elegies. I refuse laments. I shall not sigh. I have no use for pointless noise.\nIf justice is long dead, then to whom can I offer redemption?”",
                 "id": '29'        
@@ -2358,7 +2358,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331027.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335027.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331027_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Electro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“The song pierced the storm’s low hum, ripped through the clouds, and bestowed upon it, light.”",
                 "id": '2A'        
@@ -2370,7 +2370,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331028.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335028.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331028_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Electro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Electro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“Then I shall sing you another tune — when you come again with thunder and rain!”",
                 "id": '2B'        
@@ -2382,7 +2382,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331029.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335029.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331029_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Anemo Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“None could ever bestow a crown upon the queen of hunters, for only earth and heaven were higher than she.”",
                 "id": '2C'        
@@ -2394,7 +2394,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331030.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335030.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331030_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Anemo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Anemo Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“One day, in those boundless hunting grounds… we will meet again.”",
                 "id": '2D'        
@@ -2406,7 +2406,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331031.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335031.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331031_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Geo Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“He knew right from wrong, and he never missed his mark.”",
                 "id": '2E'        
@@ -2418,7 +2418,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331032.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335032.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331032_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Geo Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Geo Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“While the Millelith stands guard, evil shall never prevail!”",
                 "id": '2F'        
@@ -2430,7 +2430,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331033.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335033.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331033_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Dendro Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“There is a time appointed for all things to live and die, and the cycle continues on forever.”",
                 "id": '2G'        
@@ -2442,7 +2442,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331034.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335034.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331034_gcg_high_resolution.webp",
-                "cost": '3 Black',
+                "cost": '2 White',
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Dendro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Dendro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“For all those who follow nature must pass through the maze of the forest and reach that endless plain.”",
                 "id": '2H'        
@@ -2478,7 +2478,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n332002.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336002.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332002_gcg_high_resolution.webp",
-                "cost": '1 White',
+                "cost": '0 White',
                 "description": "Roll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to match the Elemental Type of your active character.",
                 "flavor": "“They say that it contains thousand dazzling jewels.”",
                 "id": '2K'        
@@ -2823,7 +2823,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336035.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332035_gcg_high_resolution.webp",
                 "cost": '1 White',
-                "description": "After you perform any action, if you have 0 cards in your hand: Draw 2 cards. (Once per Round) \n\nUsage(s): 2",
+                "description": "After you perform any action, if you have 0 cards in your hand: Draw 1 card. (Once per Round) \n\nUsage(s): 3",
                 "flavor": 'A genius from the desert, deep within the rainforest\'s temple...',
                 'id': '6Z'
             },
@@ -2906,8 +2906,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333053.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337053.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333053_gcg_high_resolution.webp",
-                "cost": '0 White',
-                "description": "During this Round, next time when you play a Weapon card or an Artifact card: Spend 3 less Unaligned Element. \n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "cost": '1 White',
+                "description": "Your active character must be one of the following elemental types to play this card: Cryo/Hydro/Pyro/Electro/Dendro: The element corresponding to your active character's Elemental Type will be applied to all your characters. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
                 "flavor": '"Celebration should be shared with everyone."',
                 'id': '70'
             },
@@ -3088,7 +3088,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337013.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333013_gcg_high_resolution.webp",
                 "cost": '1 Dendro',
-                "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 Usage(s).\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
+                "description": "During this round, the next Elemental Reaction you triggers deals +2 DMG.\n\nYour 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 Usage(s).\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
                 "flavor": "New branches and sprouts grow into a forest.",
                 "required": "2dendro",
                 "id": '3F'        
@@ -3127,7 +3127,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337039.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333039_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "Convert all your dice to the Type of the active character.\n\n(You must have at least 2 Inazuma characters in your deck to add this card to your deck.)",
+                "description": "Convert all your dice to Omni Element.\n\n(You must have at least 2 Inazuma characters in your deck to add this card to your deck.)",
                 "required": '2inazuma',
                 "flavor": '"It once promised its people a dream: the never-changing \'eternity.\'"',
                 'id': '65'
@@ -3201,7 +3201,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337018.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333018_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Element' ×1 and your current active character gains 1 Energy.",
+                "description": "Only playable if one of your characters is defeated this Round:\n\nCreate 'Omni Element' ×1 and your current active character gains 1 Energy. (Only one copy of I Haven't Lost Yet! can be played each round.)",
                 "flavor": "Arataki “He Might Lose but He’ll Never Admit Defeatto” is always game for another round!",
                 "id": '3K'        
             },
@@ -3523,7 +3523,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             },
     
             "sashimiplatter": {
-                "name": "Sashimi Plater",
+                "name": "Sashimi Platter",
                 "tags": ['event', 'food'],
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333047.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337047.webp",
@@ -4208,19 +4208,19 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             'heraldoffrost': {
                 'name': 'Herald of Frost',
                 "type": "Summon",
-                "description": "End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 3 \n\nWhen this Summon is on the field, after Qiqi uses Normal Attack: Heals your most wounded character for 1 HP.",
+                "description": "End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 3 \n\nWhen this Summon is on the field, after Qiqi uses Normal Attack: Heals your character who took the most DMG for 1 HP.",
                 'related': 'Qiqi'
             },
             'fortunepreservingtalisman': {
                 'name': 'Fortune-Preserving Talisman',
-                "type": 'Summon',
+                "type": 'Combat Status',
                 "description": "After your character uses a Skill: If that character does not have full HP, heal that character for 2 HP. \n\nUsage(s): 3",
                 'related': 'Qiqi'
             },
             "conductive": {
                 'name': 'Conductive',
                 'type': 'Status',
-                "description": 'This status starts with 2 stacks of Conductive. When attached repeatedly, Conductive can be stacked to a maximum of 4 stacks. \nEnd Phase: Accumulate 1 stack of Conductive.\n\nWhen the character attached by Conductive takes DMG from Violet Arc: Remove this status and DMG +1 for each stack of Conductive.',
+                "description": 'This status starts with 2 stacks of Conductive. When attached repeatedly, Conductive stacks +1. Conductive can be stacked to a maximum of 4 stacks. \nEnd Phase: Accumulate 1 stack of Conductive.\n\nWhen the character attached by Conductive takes DMG from Violet Arc: Remove this status and DMG +1 for each stack of Conductive.',
                 'related': 'Lisa'
             },
             "lightningrose": {
@@ -6268,7 +6268,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331048.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335048.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331048_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
                 'id': '5N'
@@ -6280,7 +6280,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331049.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335049.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331049_gcg_high_resolution.webp",
-                "cost": '3 White',
+                "cost": '3 Black',
                 "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\nAfter a character is switched to the active character: During this Round, character deals +1 Normal Attack DMG.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
                 'id': '5O'
@@ -6291,7 +6291,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331050.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335050.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331050_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\n(A character can equip a maximum of 1  Artifact)",
                 "flavor": 'Even a faint smile could not conceal her sorrow.\nThough this is a festive day, it seems more like a farewell...',
                 'id': '5P'
@@ -6302,7 +6302,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331051.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335051.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331051_gcg_high_resolution.webp",
-                "cost": '3 White',
+                "cost": '3 Black',
                 "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\nIf the character had at least 2 Energy, this character's Normal Attacks and Elemental Skills will deal +1 DMG.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Losing one\'s memory is no different from losing one\'s life. It is like death amidst darkness eternal."\n"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost..."',
                 'id': '5Q'
@@ -7080,7 +7080,7 @@ else {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337013.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333013_gcg_high_resolution.webp",
                 "cost": '1 Dendro',
-                "description": "During this round, the next Elemental Reaction your active character triggers deals +2 DMG.\n\nYour active 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 Usage(s).\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
+                "description": "During this round, the next Elemental Reaction you trigger deals +2 DMG.\n\nYour 'Burning Flame', 'Dendro Core', and 'Catalyzing Field' gain +1 Usage(s).\n\n(You must have at least 2 Dendro characters in your deck to add this card to your deck.)",
                 "flavor": "New branches and sprouts grow into a forest.",
                 "required": "2dendro",
                 "id": '3F'        
@@ -7503,7 +7503,7 @@ else {
             },
     
             "sashimiplatter": {
-                "name": "Sashimi Plater",
+                "name": "Sashimi Platter",
                 "tags": ['event', 'food'],
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333047.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337047.webp",
