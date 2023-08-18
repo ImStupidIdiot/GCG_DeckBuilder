@@ -2905,7 +2905,7 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': "Joyous Celebration",
                 "tags": ['event', 'arcane legend'],
                 "image": Joyous_Celebration,
-                "golden_image": Joyous_Celebration,
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337053.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333053_gcg_high_resolution.webp",
                 "cost": '1 White',
                 "description": "Your active character must be one of the following elemental types to play this card: Cryo/Hydro/Pyro/Electro/Dendro: The element corresponding to your active character's Elemental Type will be applied to all your characters. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
