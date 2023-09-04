@@ -556,6 +556,24 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'id': '6H',
                 "keyword": "catalyst"
             },
+
+            "dehya": {
+                'name': "Dehya",
+                'na': "Sandstorm Assault \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+                'skill': "Molten Inferno \n3 Pyro \nSummon Fiery Sanctum Field; If Fiery Sanctum Field already exists, then first deal 1 Pyro DMG.",
+                'burst': "Leonine Bite\n4 Pyro, 2 Energy \nDeals 3 Pyro DMG, then performs \"Prepare Skill\" for Incineration Drive.",
+                'special': "Incineration Drive\n(Prepare for 1 turn)\nDeals 3 Pyro DMG.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330055_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330055.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334054.webp',
+                'icon': Yanfei_Icon,
+                'element': 'pyro',
+                'region': "sumeru",
+                'related': 'Fiery Sanctum Field',
+                'flavor': 'The eyes of the vulture, the soul of the lion, the free daughter of the desert.',
+                'id': '73',
+                "keyword": "claymore"
+            },
     
             "fischl": {
                 "name": "Fischl",
@@ -798,7 +816,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "keyword": "sword"
             },
 
-            "Wanderer": {
+            "wanderer": {
                 'name': "Wanderer",
                 'na': "Garyuu Bladework \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.",
                 'skill': "Hanega: Song of the Wind\n3 Anemo \nDeals 2 Anemo DMG. This character gains Windfavored.",
@@ -810,7 +828,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'element': 'anemo',
                 'region': 'sumeru',
                 'related': "Windfavored",
-                'flavor': 'Flowers and birds are a dear pleasure to one winding under the moonlight.',
+                'flavor': 'Tribulations Uncounted, Trials Unknowable.',
                 'id': '72',
                 "keyword": "catalyst"
             },
@@ -950,6 +968,23 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'flavor': 'The panacea brings purity, and from the palace depths is spring renewed.',
                 'id': '4U',
                 "keyword": "catalyst"
+            },
+
+            "yaoyao": {
+                'name': "Yaoyao",
+                'na': "Toss 'N' Turn Spear\n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Raphanus Sky Cluster \n3 Dendro \nSummons 1 Yuegui: Throwing Mode.",
+                'burst': "Moonjade Descent \n4 Dendro, 2 Energy \nDeals 1 Dendro DMG, creates 1 Adeptal Legacy.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330056_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330056.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334056.webp',
+                'icon': Nahida_Icon,
+                'element': 'dendro',
+                'region': 'liyue',
+                'related': 'Yuegui: Throwing Mode, Adeptal Legacy',
+                'flavor': 'Constitution of jade, adepti bones.',
+                'id': '74',
+                "keyword": "polearm"
             },
     
             'cryocicinmage': {
@@ -1414,6 +1449,19 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'required': 'yanfei',
                 'id': '6K'
             },
+
+            "stalwartandtrue": {
+                "name": "Stalwart and True",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330554.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334554.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330554_gcg_high_resolution.webp",
+                "cost": '4 Pyro',
+                "description": "Combat Action: When your active character is Dehya, equip this card.\n\nAfter Dehya equips this card, immediately use Molten Inferno once.\n\nEnd Phase: If your Dehya, who has this card equipped, has no more than 6 HP, heal that character for 2HP.\n\n(You must have Dehya in your deck to add this card to your deck.)",
+                "flavor": '""Don\'t hold back, let\'s rock!"',
+                'required': 'dehya',
+                'id': '75'
+            },
             
             "stellarpredator": {
                 "name": "Stellar Predator",
@@ -1596,6 +1644,19 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'required': 'kazuha',
                 'id': '6L'
             },
+
+            'galesofreverie': {
+                "name": "Gales of Reverie",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330555.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334555.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330555_gcg_high_resolution.webp",
+                "cost": '4 Anemo',
+                "description": "Combat Action: When your active character is Wanderer, equip this card.\n\nAfter Wanderer equips this card, immediately use Hanega: Song of the Wind once.\n\nWhen your Wanderer, who has this card equipped, is in Windfavored state and after using Charged Attack: you will spend 1 less Elemental Die the next time you use \"Switch Character\" and deal 1 2105_BuffAnemo DMG.\n\n(You must have Wanderer in your deck to add this card to your deck.)",
+                "flavor": '"Squall and fury!"',
+                'required': 'wanderer',
+                'id': '76'
+            },
             
             "strategicreserve": {
                 "name": "Strategic Reserve",
@@ -1699,6 +1760,19 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": '"Share in my knowledge."',
                 'required': 'nahida',
                 'id': '5A'
+            },
+
+            "beneficent": {
+                "name": "Beneficent",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330556.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334556.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330556_gcg_high_resolution.webp",
+                "cost": '3 Dendro',
+                "description": "Combat Action: When your active character is Yaoyao, equip this card.\n\nAfter Yaoyao equips this card, immediately use Raphanus Sky Cluster.\n\nWhen Raphanus Sky Cluster is created by your Yaoyao, who has this card equipped, and there is only 1 Usage(s) remaining, deals +1 DMG and healing is increased by 1.\n\n(You must have Yaoyao in your deck to add this card to your deck.)",
+                "flavor": '"Pain, pain, go away!"',
+                'required': 'yaoyao',
+                'id': '77'
             },
     
             "cicinscoldglare": {
@@ -2071,6 +2145,18 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": 'The naginata was a lethal weapon by which scattered dross might be cut away.\nAnd the one who wielded that naginata was one who guarded the path to eternity.',
                 'id': '5J'
             },
+
+            "moonpiercer": {
+                "name": "Moonpiercer",
+                "tags": ['modify', 'weapon', 'weapon_pole'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n331054.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335054.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331054_gcg_high_resolution.webp",
+                "cost": '3 White',
+                "description": "Character deals +1 DMG.\n\nWhen played: The character to which this is attached will spend 2 less Elemental Dice next time they use an Elemental Skill or equip a Talent card.\n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon.)",
+                "flavor": '"Children fascinated by the moon will weep when they gaze upon it, for the moon has turned into fine sand and entered their eyes. In many stories, no tears are shed in vain."',
+                'id': '78'
+            },
             
             "travelershandysword": {
                 "name": "Traveler’s Handy Sword",
@@ -2296,6 +2382,17 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\nIf the character had at least 2 Energy, this character's Normal Attacks and Elemental Skills will deal +1 DMG.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Losing one\'s memory is no different from losing one\'s life. It is like death amidst darkness eternal."\n"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost..."',
                 'id': '5Q'
+            },
+            "crownofwatatsumi": {
+                "name": "Crown of Watatsumi",
+                "tags": ['modify', 'artifact'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n331055.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335055.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331055_gcg_high_resolution.webp",
+                "cost": '1 White',
+                "description": "For every 3 HP of healing your characters receive, this card accumulates 1 Sea-Dyed Foam (maximum of 2).\n\nWhen this character deals DMG: Consume all Sea-Dyed Foam. DMG is increased by 1 for each Sea-Dyed Foam consumed.\n\n(A character can equip a maximum of 1 Artifact)",
+                "flavor": '"Bringing hopes and memories from the depths, permeating long-lost civilizations and history, these graceful and exquisite crowns slide into the forgotten rifts with their owners."',
+                'id': '79'
             },
             
             "brokenrimesecho": {
@@ -2621,6 +2718,18 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": 'All the contracts that circulate throughout the land are forged here.',
                 'id': '6Y'
             },
+
+            "gandharvaville": {
+                "name": "Gandharva Ville",
+                "tags": ['assist', 'place'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n332036.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336036.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332036_gcg_high_resolution.webp",
+                "cost": '1 White',
+                "description": "Before you choose your action, when the number of Elemental Dice you have is 0: Create 1 Omni Element (once per Round).\n\nUsage(s): 3",
+                "flavor": 'The village place the Traveler and Forest Rangers celebrated, the village that listens to the heartbeat of the rainforest.',
+                'id': '7A'
+            },
             
             "paimon": {
                 "name": "Paimon",
@@ -2845,6 +2954,18 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": 'A genius from the desert, deep within the rainforest\'s temple...',
                 'id': '6Z'
             },
+
+            "Yayoi": {
+                "name": "Yayoi",
+                "tags": ['assist', 'companion'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n332037.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336037.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332037_gcg_high_resolution.webp",
+                "cost": '1 White',
+                "description": "When playing a Artifact card: Spend 1 less Elemental Die. On top of that, for each of your characters already equipped with an Artifact on the field, you spend 1 less Elemental Die (once per Round).",
+                "flavor": '"If my skill can reach that apex, I am sure that my lacquerware will bear out the pattern of the truth..."',
+                'id': '7B'
+            },
             
             "parametrictransformer": {
                 "name": "Parametric Transformer",
@@ -2928,6 +3049,18 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "description": "Your active character must be one of the following elemental types to play this card: Cryo/Hydro/Pyro/Electro/Dendro: The element corresponding to your active character's Elemental Type will be applied to all your characters. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
                 "flavor": '"Celebration should be shared with everyone."',
                 'id': '70'
+            },
+
+            'freshwindoffreedomMAX1': {
+                'name': "Fresh Wind of Freedom",
+                "tags": ['event', 'arcane legend'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333055.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337055.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333055_gcg_high_resolution.webp",
+                "cost": '0 White',
+                "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends.\n\nUsage(s)：1",
+                "flavor": '"The heavenly bard brushes the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom."',
+                'id': '7C'
             },
             
             "elementalresonancewovenice": {
@@ -3430,6 +3563,18 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "description": "Return a Weapon card equipped by your character to your Hand. \n\nDuring this Round, the next time you play a Weapon card: Spend 2 less Elemental Dice.",
                 "flavor": "The origins of this Branch Master of the Adventurers' Guild are shrouded in mystery, yet she keeps looking for clues about the sword, constantly challenging powerful enemies along the way...",
                 "id": '71'
+            },
+
+            "pankration": {
+                "name": "Pankration!",
+                "tags": ['event'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333056.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337056.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333056_gcg_high_resolution.webp",
+                "cost": "0 White",
+                "description": "Can only be played when you have at least 8 Elemental Dice remaining, and your opponent has not yet ended their Round: After a player announces the end of their Round, the other player who has not announced the end of their Round draws 2 cards.",
+                "flavor": "\"For victory, Credit Coupons, and the hottest goods in the Rag and Bone Shop... and the freedom that may come someday, strike!\"",
+                "id": '7D'
             },
             
             "jueyunguoba": {
@@ -4246,6 +4391,30 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "type": "Summon",
                 "description": "End Phase: Deal 2 Electro DMG. \n\nUsage(s): 2",
                 'related': 'Lisa'
+            },
+            "windfavored": {
+                'name': 'Windfavored',
+                "type": "Status",
+                "description": "When the character to which this is attached performs a Normal Attack: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby.\n\nUsage(s): 2",
+                'related': 'Wanderer'
+            },
+            "fierysanctumfield": {
+                'name': 'Fiery Sanctum Field',
+                "type": "Summon",
+                "description": "End Phase:Deal 1 Pyro DMG.\n\nUsage(s): 3\n\nWhen this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage: Decrease DMG taken by 1, and if Dehya has at least 7 HP, deal 1 Piercing DMG to the opponent (once per round).",
+                'related': 'Dehya'
+            },
+            "yueguithrowingmode": {
+                'name': 'Yuegui: Throwing Mode',
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Dendro DMG, heal the character on your team that has taken the most damage for 1 HP.\n\nUsage(s): 2",
+                'related': 'Yaoyao'
+            },
+            "adeptallegacy": {
+                'name': 'Adeptal Legacy',
+                "type": "Combat Status",
+                "description": "After you switch characters: Deal 1 Dendro DMG, heal your active character for 1 HP.\n\nUsage(s): 3",
+                'related': 'Yaoyao'
             }
         },
     
