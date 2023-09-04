@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af1869fd.css",
-    "main.js": "/static/js/main.a73f8fe1.js",
+    "main.js": "/static/js/main.76669704.js",
     "static/media/Qiqi_Icon.png": "/static/media/Qiqi_Icon.bbeba026f6a3a33b670e.png",
     "static/media/Lisa_Icon.png": "/static/media/Lisa_Icon.0335939d9a9ea498f966.png",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
@@ -61,6 +61,7 @@
     "static/media/Eula_Icon.png": "/static/media/Eula_Icon.08b73d5b7ea3bf39ea2a.png",
     "static/media/Yanfei_Icon.png": "/static/media/Yanfei_Icon.93abf8cd31bd93076cb8.png",
     "static/media/Jean_Icon.png": "/static/media/Jean_Icon.0b6b6bb06e167763b48a.png",
+    "static/media/Yaoyao_Icon.png": "/static/media/Yaoyao_Icon.97c5a2dd767bb1a72d5f.png",
     "static/media/Oceanoid_Icon.png": "/static/media/Oceanoid_Icon.61ff12811771c79dc803.png",
     "static/media/Barbara_Icon.png": "/static/media/Barbara_Icon.7cd7bf952ae826204138.png",
     "static/media/Ayato_Icon.png": "/static/media/Ayato_Icon.409df5dd66f0b1fbd7a3.png",
@@ -71,6 +72,8 @@
     "static/media/Ningguang_Icon.png": "/static/media/Ningguang_Icon.1937cd1f158b7b500673.png",
     "static/media/Chongyun_Icon.png": "/static/media/Chongyun_Icon.3f65e64dacf5fe3955c9.png",
     "static/media/Anemo_Sort_Activated.png": "/static/media/Anemo_Sort_Activated.e83656a00c10f15585fb.png",
+    "static/media/Dehya_Icon.png": "/static/media/Dehya_Icon.21ae6fcc557e54d8560b.png",
+    "static/media/Wanderer_Icon.png": "/static/media/Wanderer_Icon.4a3ed807937212f2546e.png",
     "static/media/Bennett_Icon.png": "/static/media/Bennett_Icon.2430ba24854d9bddaabc.png",
     "static/media/Cryo_Sort_Activated.png": "/static/media/Cryo_Sort_Activated.8d09238b0f6970a830c5.png",
     "static/media/Dendro_Sort_Activated.png": "/static/media/Dendro_Sort_Activated.5e928b8dcb76cce317a4.png",
@@ -119,10 +122,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.af1869fd.css.map": "/static/css/main.af1869fd.css.map",
-    "main.a73f8fe1.js.map": "/static/js/main.a73f8fe1.js.map"
+    "main.76669704.js.map": "/static/js/main.76669704.js.map"
   },
   "entrypoints": [
     "static/css/main.af1869fd.css",
-    "static/js/main.a73f8fe1.js"
+    "static/js/main.76669704.js"
   ]
 }
