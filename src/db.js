@@ -57,6 +57,9 @@ import Candace_Icon from './images/Candace_Icon.png'
 import Albedo_Icon from './images/Albedo_Icon.png'
 import Qiqi_Icon from './images/Qiqi_Icon.png'
 import Lisa_Icon from './images/Lisa_Icon.png'
+import Yaoyao_Icon from './images/Yaoyao_Icon.png'
+import Dehya_Icon from './images/Dehya_Icon.png'
+import Wanderer_Icon from './images/Wanderer_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -566,7 +569,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330055_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330055.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334054.webp',
-                'icon': Yanfei_Icon,
+                'icon': Dehya_Icon,
                 'element': 'pyro',
                 'region': "sumeru",
                 'related': 'Fiery Sanctum Field',
@@ -824,7 +827,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330054_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330054.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334055.webp',
-                'icon': Kazuha_Icon,
+                'icon': Wanderer_Icon,
                 'element': 'anemo',
                 'region': 'sumeru',
                 'related': "Windfavored",
@@ -978,7 +981,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330056_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330056.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334056.webp',
-                'icon': Nahida_Icon,
+                'icon': Yaoyao_Icon,
                 'element': 'dendro',
                 'region': 'liyue',
                 'related': 'Yuegui: Throwing Mode, Adeptal Legacy',
@@ -2955,8 +2958,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'id': '6Z'
             },
 
-            "Yayoi": {
-                "name": "Yayoi",
+            "yayoinanatsuki": {
+                "name": "Yayoi Nanatsuki",
                 "tags": ['assist', 'companion'],
                 "image": "https://genshin.honeyhunterworld.com/img/i_n332037.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336037.webp",
