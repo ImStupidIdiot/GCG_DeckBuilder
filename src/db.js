@@ -2347,7 +2347,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331048.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335048.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331048_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
                 'id': '5N'
@@ -2359,7 +2359,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331049.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335049.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331049_gcg_high_resolution.webp",
-                "cost": '3 White',
+                "cost": '3 Black',
                 "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\nAfter a character is switched to the active character: During this Round, character deals +1 Normal Attack DMG.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
                 'id': '5O'
@@ -2370,7 +2370,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331050.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335050.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331050_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\n(A character can equip a maximum of 1  Artifact)",
                 "flavor": 'Even a faint smile could not conceal her sorrow.\nThough this is a festive day, it seems more like a farewell...',
                 'id': '5P'
@@ -2381,7 +2381,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331051.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335051.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331051_gcg_high_resolution.webp",
-                "cost": '3 White',
+                "cost": '3 Black',
                 "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\nIf the character had at least 2 Energy, this character's Normal Attacks and Elemental Skills will deal +1 DMG.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Losing one\'s memory is no different from losing one\'s life. It is like death amidst darkness eternal."\n"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost..."',
                 'id': '5Q'
@@ -6560,7 +6560,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331048.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335048.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331048_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
                 'id': '5N'
@@ -6572,7 +6572,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331049.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335049.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331049_gcg_high_resolution.webp",
-                "cost": '3 White',
+                "cost": '3 Black',
                 "description": "When a character uses a Normal Attack or equips a Talent: Spend 1 less Elemental Die. (Once per Round)\n\nAfter a character is switched to the active character: During this Round, character deals +1 Normal Attack DMG.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Tianqiu once played host to a Yaksha, four-armed and mighty."\n"He came to The Chasm from afar, to the praises of the tribes."',
                 'id': '5O'
@@ -6583,7 +6583,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331050.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335050.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331050_gcg_high_resolution.webp",
-                "cost": '2 White',
+                "cost": '2 Black',
                 "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\n(A character can equip a maximum of 1  Artifact)",
                 "flavor": 'Even a faint smile could not conceal her sorrow.\nThough this is a festive day, it seems more like a farewell...',
                 'id': '5P'
@@ -6594,7 +6594,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n331051.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335051.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331051_gcg_high_resolution.webp",
-                "cost": '3 White',
+                "cost": '3 Black',
                 "description": "When a character uses an Elemental Skill or equips a Talent: Spend 1 less die. (Once per Round)\n\nIf the character had at least 2 Energy, this character's Normal Attacks and Elemental Skills will deal +1 DMG.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": '"...Losing one\'s memory is no different from losing one\'s life. It is like death amidst darkness eternal."\n"Life is full of uncertainty. Love is fleeting, and even lasting memories may be lost..."',
                 'id': '5Q'

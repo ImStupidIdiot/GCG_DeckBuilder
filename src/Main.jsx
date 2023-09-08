@@ -87,7 +87,16 @@ class Main extends Component {
         return true;
         }
 
-    importDeck(deckString) { //version 1.0. New deck strig converter below. 
+    importDeck(deckString) { //version 1.0. New deck strin  g converter below. 
+        var index = 0;
+        while (deckString.length > 2) {
+            if (!(deckString && deckString[0] + deckString[1] == '!!')) {
+                deckString = deckString.substring(1);
+            }
+            else {
+                break;
+            }
+        }
         if (!(deckString && deckString[0] + deckString[1] == '!!')) {
             return;
         }

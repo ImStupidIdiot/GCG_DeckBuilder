@@ -41,7 +41,6 @@ class ActionBlock extends Component {
                 }
             }
         }
-        console.log('ActionBlock' + arcane)
         return <button
             className={!(db.actions[this.props.name].required) || (this.props.current_chars.includes(db.actions[this.props.name].required) || 
                 (db.actions[this.props.name].required.includes("2") &&
