@@ -160,7 +160,7 @@ import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 import Joyous_Celebration from './images/Joyous_Celebration.png'
 
-if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
+if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
 
     var db = {
         "chars": {
@@ -323,7 +323,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": 'Xingqiu',
                 'na': 'Guhua Style \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
                 'skill': "Fatal Rainscreen \n3 Hydro \nDeals 2 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rain Sword'.",
-                'burst': "Raincutter \n3 Hydro, 2 Energy \nDeals 1 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rainbow Bladework'.",
+                'burst': "Raincutter \n3 Hydro, 2 Energy \nDeals 2 Hydro DMG, grants this character 'Hydro Application', creates 1 'Rainbow Bladework'.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330004_gcg_high_resolution.webp',
                 "card": Xingqiu_Card,
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334004.webp',
@@ -357,8 +357,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             'tartaglia': {
                 'name': 'Tartaglia',
                 'na': 'Cutting Torent \n2 Black, 1 Hydro \nDeals 2 Physical DMG.',
-                'skill': 'Foul Legacy: Raging Tide \n3 Hydro \nSwitches to Melee Stance and deals 2 Hydro DMG.',
-                'burst': 'Havoc: Obliteration \n3 Hydro, 3 Energy \nPerform different attacks based on the current state that Tartaglia is in. \nRanged Stance - Flash of Havoc: Deal 4 Hydro DMG, reclaim 2 Energy, and apply Riptide to the target. \nMelee Stance - Light of Obliteration: Deal 7 Hydro DMG.',
+                'skill': 'Foul Legacy: Raging Tide \n3 Hydro \nSwitches to Melee Stance and deals 2 Hydro DMG, and attach Riptide to the target character.',
+                'burst': 'Havoc: Obliteration \n3 Hydro, 3 Energy \nPerform different attacks based on the current state that Tartaglia is in. \nRanged Stance - Flash of Havoc: Deal 5 Hydro DMG, reclaim 2 Energy, and apply Riptide to the target. \nMelee Stance - Light of Obliteration: Deal 7 Hydro DMG.',
                 'special': 'Tide Withholder \n(Passive) \nWhen the battle begins, this character gains Ranged Stance. Once the Melee Stance attached to the character ends, reapplys Ranged Stance.',
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330029_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330029.webp',
@@ -393,7 +393,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Kamisato Ayato",
                 "na": "Kamisato Art: Marobashi\n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
                 'skill': "Kamisato Art: Kyouka\n3 Hydro \nDeals 2 Hydro DMG. This character gains 'Takimeguri Kanka'.",
-                'burst': "Kamisato Art: Suiyuu\n3 Hydro, 3 Energy \nDeals 3 Hydro DMG, summons 1 'Garden of Purity'.",
+                'burst': "Kamisato Art: Suiyuu\n3 Hydro, 2 Energy \nDeals 1 Hydro DMG, summons 1 'Garden of Purity'.",
                 "hi_res_image": 'https://genshin.honeyhunterworld.com/img/i_n330031_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330031.webp',
                 "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334033.webp',
@@ -563,7 +563,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             "dehya": {
                 'name': "Dehya",
                 'na': "Sandstorm Assault \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
-                'skill': "Molten Inferno \n3 Pyro \nSummon Fiery Sanctum Field; If Fiery Sanctum Field already exists, then first deal 1 Pyro DMG.",
+                'skill': "Molten Inferno \n3 Pyro \nSummon Fiery Sanctum Field. If Fiery Sanctum Field already exists, then first deal 1 Pyro DMG.",
                 'burst': "Leonine Bite\n4 Pyro, 2 Energy \nDeals 3 Pyro DMG, then performs \"Prepare Skill\" for Incineration Drive.",
                 'special': "Incineration Drive\n(Prepare for 1 turn)\nDeals 3 Pyro DMG.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330055_gcg_high_resolution.webp',
@@ -823,7 +823,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'name': "Wanderer",
                 'na': "Garyuu Bladework \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.",
                 'skill': "Hanega: Song of the Wind\n3 Anemo \nDeals 2 Anemo DMG. This character gains Windfavored.",
-                'burst': "Kyougen: Five Ceremonial Plays\n3 Anemo, 2 Energy \nDeals 5 Anemo DMG; if the character has Windfavored attached, then remove it and increase DMG by 1.",
+                'burst': "Kyougen: Five Ceremonial Plays\n3 Anemo, 3 Energy \nDeals 7 Anemo DMG. If the character has Windfavored attached, then remove it and increase DMG by 1.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330054_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330054.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334055.webp',
@@ -1303,8 +1303,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n330541.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334541.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330541_gcg_high_resolution.webp",
-                "cost": '4 Hydro',
-                "description": "Combat Action: When your active character is Tartaglia, equip this card.\n\nAfter Tartaglia equips this card, immediately use Foul Legacy: Raging Tide once.\n\nEnd Phase: Deals 1 Piercing DMG to all opposing characters affected by Riptide.\n\n(You must have Tartaglia in your deck to add this card to your deck.)",
+                "cost": '3 Hydro',
+                "description": "Combat Action: When your active character is Tartaglia, equip this card.\n\nAfter Tartaglia equips this card, immediately use Foul Legacy: Raging Tide once.\n\nEnd Phase: When Tartaglia is on the field and has this card equipped, deal 1 Piercing DMG to the opponent's active character if they have Riptide attached.\n\n(You must have Tartaglia in your deck to add this card to your deck.)",
                 "flavor": 'A reckless yet precise blow.',
                 'required': 'tartaglia',
                 'id': '56'
@@ -1772,7 +1772,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334556.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330556_gcg_high_resolution.webp",
                 "cost": '3 Dendro',
-                "description": "Combat Action: When your active character is Yaoyao, equip this card.\n\nAfter Yaoyao equips this card, immediately use Raphanus Sky Cluster.\n\nWhen Raphanus Sky Cluster is created by your Yaoyao, who has this card equipped, and there is only 1 Usage(s) remaining, deals +1 DMG and healing is increased by 1.\n\n(You must have Yaoyao in your deck to add this card to your deck.)",
+                "description": "Combat Action: When your active character is Yaoyao, equip this card.\n\nAfter Yaoyao equips this card, immediately use Raphanus Sky Cluster once.\n\nWhen Yuegui: Throwing Mode is created by your Yaoyao, who has this card equipped, and it has only 1 Usage(s) remaining, it deals +1 DMG and healing is increased by 1.\n\n(You must have Yaoyao in your deck to add this card to your deck.)",
                 "flavor": '"Pain, pain, go away!"',
                 'required': 'yaoyao',
                 'id': '77'
@@ -2312,7 +2312,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335046.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331046_gcg_high_resolution.webp",
                 "cost": '2 White',
-                "description": "After another character of yours uses an Elemental Burst: The character to which this is attached gains 1 Energy.\n\nThe DMG dealt by the character's Elemental Bursts is increased by 2.\n\n(A character can equip a maximum of 1 Artifact)",
+                "description": "After another character of yours uses an Elemental Burst: The character to which this is attached gains 1 Energy.\n\nThe DMG dealt by the character's Elemental Bursts is increased by 2 (once per Round).\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": 'Thirteen years went by like a dream.\nThe scarlet snow flies through the shadowed pass like smoke.\nYou have now gone afar.',
                 'id': '5L'
             },
@@ -2789,7 +2789,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336010.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332010_gcg_high_resolution.webp",
                 "cost": '1 White',
-                "description": "After playing a Food Event Card: Create 1 random Elemental Die. (Once per Round)",
+                "description": "After playing a Food Event Card: Create 1 random Elemental Die (once per Round). After playing a Food Event Card: Draw 1 random Food Event Card from your deck (once per match).",
                 "flavor": "“We just concern ourselves with making the most delicious food imaginable using everyday ingredients, universally loved flavors, and truly excellent cooking.”",
                 "id": '2S'        
             },
@@ -2918,7 +2918,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336029.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332029_gcg_high_resolution.webp",
                 "cost": '1 White',
-                "description": "When playing a Companion Support Card: Spend 1 less Elemental Dice. (Once per Round)",
+                "description": "When playing a Companion Support Card: Spend 1 less Elemental Dice (Once per Round). After playing a Companion Support Card: Draw 1 random Companion Support Card from your deck (once per match).",
                 "flavor": '"The point of living is to not leave behind any regrets."',
                 'id': '5Z'
             },
@@ -2988,7 +2988,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n332019.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336019.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332019_gcg_high_resolution.webp",
-                "cost": '2 Black',
+                "cost": '1 White',
                 "description": "When played: Draw 1 Food Event Card from your deck.\n\nWhen you play a Food Event Card: Draw 1 Food Event Card from your deck. (Once per Round)",
                 "flavor": "“Regular nutrition helps in case of physical exertion.”",
                 "id": '31'        
@@ -3061,7 +3061,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337055.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333055_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends.\n\nUsage(s)：1",
+                "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends.\n\nUsage(s)：1\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
                 "flavor": '"The heavenly bard brushes the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom."',
                 'id': '7C'
             },
@@ -3255,7 +3255,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337037.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333037_gcg_high_resolution.webp",
                 "cost": '1 White',
-                "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again.\n\nUsage(s)：1\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
+                "description": "During this turn, after one of your characters uses a Skill: Switch your next character in to be the active character.\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
                 "required": '2mond',
                 "flavor": '"Someday, the winds will blow towards a brighter future."',
                 'id': '63'
@@ -3415,7 +3415,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337023.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333023_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "Shift 1 Weapon Equipment Card that has been equipped to one of your characters to another one of your characters of the same Weapon Type.",
+                "description": "Shift 1 Weapon Equipment Card that has been equipped to one of your characters to another one of your characters of the same Weapon Type, and reset the \"usages per Round\" limit on its effects.",
                 "flavor": "“Watch and learn, comrade! A real warrior isn’t picky about their weapons!”",
                 "id": '3P'        
             },
@@ -3427,7 +3427,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337024.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333024_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "Shift 1 Artifact Equipment Card that has been equipped to one of your characters to another one of your characters.",
+                "description": "Shift 1 Artifact Equipment Card that has been equipped to one of your characters to another one of your characters, , and reset the \"usages per Round\" limit on its effects.",
                 "flavor": "“Hehe… Well now, isn’t this finally getting interesting?”",
                 "id": '3Q'        
             },
@@ -3575,7 +3575,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337056.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333056_gcg_high_resolution.webp",
                 "cost": "0 White",
-                "description": "Can only be played when you have at least 8 Elemental Dice remaining, and your opponent has not yet ended their Round: After a player announces the end of their Round, the other player who has not announced the end of their Round draws 2 cards.",
+                "description": "Can only be played when you have at least 8 Elemental Dice remaining, and your opponent has not yet ended their Round: After a player announces the end of their Round first, the other player, who has yet to announced the end of their Round, draws 2 cards.",
                 "flavor": "\"For victory, Credit Coupons, and the hottest goods in the Rag and Bone Shop... and the freedom that may come someday, strike!\"",
                 "id": '7D'
             },
@@ -3682,7 +3682,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333046.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337046.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333046_gcg_high_resolution.webp",
-                "cost": '3 White',
+                "cost": '2 White',
                 'description': "Revives the target character and heals that character for 1 HP. \n\n(You can only revive 1 character via Food per Round, and a character can consume at most 1 Food per Round)",
                 "flavor": '"Lonely forest breezes converged, jointly they overthrew the tyrant\'s tower from the sky."\n"Broken free from shackles at last, the young lioness stood firm in the winds with her head held high."',
                 'id': '6B'
@@ -4096,7 +4096,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             "takimegurikanka": {
                 "name": "Takimeguri Kanka",
                 "type": "Status",
-                "description": "The character to which this is attached has their Normal Attacks deal +1 DMG, and their Physical DMG dealt converted to Hydro DMG. \n\nUsage(s): 2",
+                "description": "The character to which this is attached has their Normal Attacks deal +1 DMG, and their Physical DMG dealt converted to Hydro DMG. \n\nUsage(s): 3",
                 "related": "Kamisato Ayato",
             },
             "gardenofpurity": {
@@ -4236,7 +4236,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             'cryocicin': {
                 'name': 'Cryo Cicin', 
                 'type': 'Summon',
-                'description': 'End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 2 (Can stack, max 3 stacks) \n\nAfter Fatui Cryo Cicin Mage performs a Normal Attack: This card gains 1 Usage(s). After your character takes Elemental Reaction DMG: This card loses 1 Usage(s).',
+                'description': 'End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 2 (Can stack, max 3 stacks) \n\nAfter Fatui Cryo Cicin Mage performs a Normal Attack: This card gains 1 Usage(s). After Fatui Cryo Cicin Mage takes Elemental Reaction DMG: This card loses 1 Usage(s).',
                 'related': 'Fatui Cryo Cicin Mage',
                 "image": Cicin_Summon
             },
@@ -4398,13 +4398,13 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             "windfavored": {
                 'name': 'Windfavored',
                 "type": "Status",
-                "description": "When the character to which this is attached performs a Normal Attack: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby.\n\nUsage(s): 2",
+                "description": "When the character to which this is attached performs a Normal Attack: DMG dealt +2. If the opponent has characters on standby, then this Skill will deal damage to the next opposing character on standby instead.\n\nUsage(s): 2",
                 'related': 'Wanderer'
             },
             "fierysanctumfield": {
                 'name': 'Fiery Sanctum Field',
                 "type": "Summon",
-                "description": "End Phase:Deal 1 Pyro DMG.\n\nUsage(s): 3\n\nWhen this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage: Decrease DMG taken by 1, and if Dehya has at least 7 HP, deal 1 Piercing DMG to the opponent (once per round).",
+                "description": "End Phase:Deal 1 Pyro DMG.\n\nUsage(s): 3\n\nWhen this Summon is on the field and Dehya is on standby on your side, then when your active character takes damage: Decrease DMG taken by 1, and if Dehya has at least 7 HP, deal 1 Piercing DMG to the her (once per round).",
                 'related': 'Dehya'
             },
             "yueguithrowingmode": {
@@ -5436,7 +5436,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n330523.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
-                "cost": '4 Cryo',
+                "cost": '3 Cryo',
                 "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Cat-Claw Shield', its 'Shield' points +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
                 "flavor": "Shake and stir till its all evenly mixed… and there! Your refill’s ready!",
                 "required": "diona",
