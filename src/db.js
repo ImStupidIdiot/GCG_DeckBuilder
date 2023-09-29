@@ -1172,7 +1172,7 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n330523.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334523.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330523_gcg_high_resolution.webp",
-                "cost": '4 Cryo',
+                "cost": '3 Cryo',
                 "description": "'Combat Action': When your active character is Diona, equip this card.\n\nAfter Diona equips this card, immediately use 'Elemental Skill: Icy Paws' once.\n\nWhen your Diona, who has this card equipped, creates a 'Cat-Claw Shield', its 'Shield' points +1.\n\n(You must have Diona in your deck to add this card to your deck.)",
                 "flavor": "Shake and stir till its all evenly mixed… and there! Your refill’s ready!",
                 "required": "diona",

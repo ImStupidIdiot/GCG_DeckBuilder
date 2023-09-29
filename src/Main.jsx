@@ -23,7 +23,7 @@ class Main extends Component {
         this.removeFromDeckAction = this.removeFromDeckAction.bind(this);
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
-        this.leaks = window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ");
+        // this.leaks = window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ");
         this.importDeck(window.location.hash.substring(1));
         if (localStorage.getItem('dark') == 'true') {
             this.state.dark = true;
