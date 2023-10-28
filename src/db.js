@@ -1310,8 +1310,8 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'id': '56'
             },
     
-            "tamanooyascasket": {
-                "name": "Tamanooya's Casket",
+            "tamakushicasket": {
+                "name": "Tamakushi Casket",
                 "tags": ['modify', 'talent', 'slowly'],
                 "image": "https://genshin.honeyhunterworld.com/img/i_n330529.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334531.webp",
@@ -5574,8 +5574,8 @@ else {
                 'id': '56'
             },
     
-            "tamanooyascasket": {
-                "name": "Tamanooya's Casket",
+            "tamakushicasket": {
+                "name": "Tamakushi Casket",
                 "tags": ['modify', 'talent', 'slowly'],
                 "image": "https://genshin.honeyhunterworld.com/img/i_n330529.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334531.webp",
