@@ -32,7 +32,6 @@ class Main extends Component {
             this.state.dark = true;
             this.setState({dark: true});
           }
-        this.importDeckv42('ARAA0TMNA+BQ4UwOBhDw4pEOCiAw8aMPDBAQ9sEPDGEgCMIQDIFgDcYQDNGQDskQDeAA');
     }
 
     addToDeck(char) {
