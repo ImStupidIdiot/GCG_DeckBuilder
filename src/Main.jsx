@@ -14,6 +14,10 @@ const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 const base64conversion = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'.split("");
 
+const allChars = Object.entries(db.chars).map((char) => char[0]);
+const allActions = Object.entries(db.actions).map((action) => action[0]);
+const combinedList = ['BLANK'].concat(allChars, allActions);
+
 class Main extends Component {
     
     constructor(props) {
@@ -70,6 +74,7 @@ class Main extends Component {
         else {
             this.state.current_actions[action] = 1;
         }
+        this.state.current_actions = Object.fromEntries(Object.entries(this.state.current_actions).sort((a, b) => combinedList.indexOf(a[0]) - combinedList.indexOf(b[0])));
         this.setState({current_actions: this.state.current_actions});
         return true;
     }
@@ -316,7 +321,6 @@ class Main extends Component {
     }
 
     render() { 
-        console.log(this.exportDeckv42());
         if (this.state.dark) {
             document.body.style = 'background: black;';
         }
