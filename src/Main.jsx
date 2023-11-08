@@ -279,6 +279,8 @@ class Main extends Component {
             build[i] = str.substring(8, 12);
             i += flip; {flip == 1 ? flip = 3 : flip = 1};
         }
+        i = 17;
+        flip = 3;
         for (var action in this.state.current_actions) {
             var str = this.encodev42(action);
             for (var count = 0; count < this.state.current_actions[action]; count++) {
