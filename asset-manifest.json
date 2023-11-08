@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af1869fd.css",
-    "main.js": "/static/js/main.59ac9973.js",
+    "main.js": "/static/js/main.068080da.js",
     "static/media/Qiqi_Icon.png": "/static/media/Qiqi_Icon.bbeba026f6a3a33b670e.png",
     "static/media/Lisa_Icon.png": "/static/media/Lisa_Icon.0335939d9a9ea498f966.png",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
@@ -32,6 +32,9 @@
     "static/media/Xiangling_Summon.png": "/static/media/Xiangling_Summon.9c44f4ee169b39b5c1e2.png",
     "static/media/Ayato_Summon.png": "/static/media/Ayato_Summon.3230eb9d6bce3159a0f2.png",
     "static/media/Action_Block_Test.png": "/static/media/Action_Block_Test.81ce58fd8ed0dbe18b7e.png",
+    "static/media/Dori_Icon.png": "/static/media/Dori_Icon.16acc358f553440114b3.png",
+    "static/media/Nilou_Icon.png": "/static/media/Nilou_Icon.80e54e0c3427e3062576.png",
+    "static/media/Baizhu_Icon.png": "/static/media/Baizhu_Icon.0100653992f5b66d8fee.png",
     "static/media/Stonehidelawachurl_Icon.png": "/static/media/Stonehidelawachurl_Icon.a22c24837f174679890f.png",
     "static/media/Kokomi_Icon.png": "/static/media/Kokomi_Icon.e15b886ef0efc284e8c2.png",
     "static/media/Mona_Icon.png": "/static/media/Mona_Icon.6cd67da6584a8b7d2060.png",
@@ -122,10 +125,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.af1869fd.css.map": "/static/css/main.af1869fd.css.map",
-    "main.59ac9973.js.map": "/static/js/main.59ac9973.js.map"
+    "main.068080da.js.map": "/static/js/main.068080da.js.map"
   },
   "entrypoints": [
     "static/css/main.af1869fd.css",
-    "static/js/main.59ac9973.js"
+    "static/js/main.068080da.js"
   ]
 }
