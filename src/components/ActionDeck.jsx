@@ -19,7 +19,8 @@ class ActionDeck extends Component {
     }
 
     render() {  
-        var deckCode = this.props.exportDeck();
+        var deckCode = this.props.exportDeckNew();
+        var deckCodeOld = this.props.exportDeck();
         var actions = Object.entries(this.props.current_actions).map((mapped) => mapped[0]);
         if (this.state.sortInGame) {
             actions.sort((action1, action2) => this.allActionsTemp.indexOf(action1) - this.allActionsTemp.indexOf(action2));
@@ -40,7 +41,7 @@ class ActionDeck extends Component {
                 this.props.importDeck(document.getElementById("importText").value)
                 this.setState({showingImportText: false})
             }}>Import</button><br/><br/><button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => {this.setState({showingExportText: true})}}>Export Deck</button></div> : <div><button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => this.setState({showingImportText: true})}>Import Deck</button><button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => {
-            this.setState({showingExportText: true})}}>Export Deck </button></div>}
+            this.setState({showingExportText: true})}}>Export Deck</button></div>}
             {this.state.showingExportText ? <div><br/><input className='rounded' type="text" id="importText" name="importText" value={deckCode} readOnly={true}></input><button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => this.setState({showingExportText: false})}>Close</button></div> : null}
             <button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => this.copyActions()}>Add Cards to Clipboard (sheet sim)</button>
             <button className={this.props.dark ? "exportDeckDark" : "exportDeck"} onClick={() => this.setState({sortInGame: !this.state.sortInGame})}>Toggle Deck View</button>

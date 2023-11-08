@@ -12,6 +12,8 @@ const { convertBase } = require("simple-base-converter");
 const cards = require("./cards");
 const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
+const base64conversion = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'.split("");
+
 class Main extends Component {
     
     constructor(props) {
@@ -23,17 +25,19 @@ class Main extends Component {
         this.removeFromDeckAction = this.removeFromDeckAction.bind(this);
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
+        this.exportDeckv42 = this.exportDeckv42.bind(this);
         // this.leaks = window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ");
         this.importDeck(window.location.hash.substring(1));
         if (localStorage.getItem('dark') == 'true') {
             this.state.dark = true;
             this.setState({dark: true});
           }
+        this.importDeckv42('ARAA0TMNA+BQ4UwOBhDw4pEOCiAw8aMPDBAQ9sEPDGEgCMIQDIFgDcYQDNGQDskQDeAA');
     }
 
     addToDeck(char) {
         var char_on = this.state.current_chars
-        if (this.state.current_chars.length >= 3 || this.state.current_chars.includes(char)){
+        if (char == 'BLANK' || this.state.current_chars.length >= 3 || this.state.current_chars.includes(char)){
             return false;
         }
         char_on.push(char);
@@ -57,8 +61,7 @@ class Main extends Component {
         }
 
     addToDeckAction(action) {
-        if (this.state.total_actions >= 30 || (this.state.current_actions[action] && (this.state.current_actions[action] == 2 || action.includes('MAX1')))){
-            console.log('f')
+        if (action == 'BLANK' || this.state.total_actions >= 30 || (this.state.current_actions[action] && (this.state.current_actions[action] == 2 || action.includes('MAX1')))){
             return false;
         }
         this.setState({total_actions: this.state.total_actions + 1});
@@ -91,6 +94,10 @@ class Main extends Component {
         var index = 0;
         while (deckString.length > 2) {
             if (!(deckString && deckString[0] + deckString[1] == '!!')) {
+                if(deckString[0] == 'A') {
+                    this.importDeckv42(deckString);
+                    return;
+                }
                 deckString = deckString.substring(1);
                 }
             else {
@@ -182,7 +189,7 @@ class Main extends Component {
                 toCopy += '?';
             }
         }
-
+    
         // if (this.leaks) {
         //     toCopy += 'FCyyUBaTqdmauwye29RQ';
         // }
@@ -190,100 +197,125 @@ class Main extends Component {
         return toCopy;
     }
 
-    //everything below is just a test run of the new import/export deck code function we are testing for tournaments at discord.gg/gitcg
-
-    exportDeckv34(data) {
-        const l = cards.latest;
-        const latest = cards[l];
-        let field = Array(latest.deck.length).fill(0);
-    
-        for (const i in data.deck) {
-            field[this.reverse(field, i)] = data.deck[i];
+    importDeckv42(str) {
+        this.state = {current_actions: {}, total_actions: 0, current_chars: []}
+        this.setState({current_actions: {}}) //idk why i need both of these to make it work help
+        // const raw = atob(str);
+        // let result = ''; //yoink stackoverflow
+        // for (let i = 0; i < raw.length; i++) {
+        //   const hex = raw.charCodeAt(i).toString(16);
+        //   result += (hex.length === 2 ? hex : '0' + hex);
+        // }
+        // const translated = result.toLowerCase(); //to hex
+        str = str.split("");
+        var translated = "";
+        for (var i = 0; i < str.length; i += 2) {
+            var parse = 64 * base64conversion.indexOf(str[i]) + base64conversion.indexOf(str[i + 1]);
+            parse = parse.toString(16);
+            while (parse.length < 3) {
+                parse = "0" + parse;
+            }
+            translated = translated + parse;
         }
-    
-        return this.encodeHeader(l) + this.encodeCharacters(data.characters) + this.encodeDeck(field.join(""));
-    }
-
-    importDeckv34(code) {
-        if (!code) {
-            return;
-        }
-        const v = this.decodeHeader(code.slice(0, 2));
-        const version = cards[v];
-        const [characters, deckCode] = this.decodeCards(code.slice(2));
-    
-        let description = characters.map((i) => version.characters[i].name).join("\n") + "\n";
-    
-        for (let i = deckCode.length - 1; i >= 0; i--) {
-            const value = deckCode[i];
-            const index = this.reverse(deckCode, i);
-    
-            if (value !== "0") {
-                description += `${value} - ${version.deck[index].name}\n`;
+        var i = 0; //current hex number we are checking
+        var count = 0; //every time count hits 3, we translate to a card and move on
+        var flip = 1; //if flip is 1, we add flip then switch flip to 3. repeat
+        var build = '';
+        var total = 0; //stop when total is 33
+        var actual = 0;
+        while(i != 99 && total != 33) {
+            build += translated.substring(i, i+1);
+            count += 1;
+            i += flip;
+            if (flip == 1) {
+                flip = 3;
+            } else {
+                flip = 1;
+            }
+            if (count == 3) {
+                if (total < 3) {
+                    this.addToDeck(this.decodev42(build));
+                } else {
+                    var added = this.addToDeckAction(this.decodev42(build));
+                    if (added == true) {
+                        actual += 1;
+                    }
+                }
+                build = '';
+                count = 0;
+                total += 1;
+            } 
+            if (i == 100) {
+                i = 2;
             }
         }
-    
-        return description;
+            this.state.total_actions = actual;
+            this.setState({total_actions: actual});
     }
 
-    reverse(arr, n) {
-        return arr.length - 1 - n;
-    };
-    
-    encodeHeader(x) {
-        return convertBase(x, 10, chars).padStart(2, "0");
-    };
-    
-    encodeCharacters(xs) {
-        let res = "";
-    
-        for (const x of xs) {
-            res += chars[chars.length - 1].repeat(Math.floor(x / chars.length));
-            res += chars[x % chars.length];
+    decodev42(build) {
+        const allChars = Object.entries(db.chars).map((char) => char[0]);
+        const allActions = Object.entries(db.actions).map((action) => action[0]);
+        const combinedList = ['BLANK'].concat(allChars, allActions);
+        if (Number('0x' + build) > combinedList.length) {
+            return 'BLANK';
         }
-    
-        return res;
-    };
-    
-    encodeDeck(x) {
-        return convertBase(x, "012", chars);
-    };
-    
-    decodeHeader(x) {
-        return convertBase(x, chars, 10);
-    };
-    
-    decodeCards(x) {
-        let characters = [];
-        let characterLength = 0;
-    
-        for (let i = 0; i < x.length; i++) {
-            let characterCode = x[i];
-    
-            while (characterCode[characterCode.length - 1] === chars[chars.length - 1]) {
-                characterCode += x[++i];
+        return combinedList[Number('0x' + build)];
+    }
+
+    exportDeckv42() {
+        var build = [];
+        for (var x = 0; x < 102; x++) {
+            build.push("0000");
+        }
+        var i = 0;
+        var flip = 1;
+        for (var a = 0; a < this.state.current_chars.length; a++) {
+            var char = this.state.current_chars[a];
+            var str = this.encodev42(char);
+            build[i] = str.substring(0, 4);
+            i += flip; {flip == 1 ? flip = 3 : flip = 1};
+            build[i] = str.substring(4, 8);
+            i += flip; {flip == 1 ? flip = 3 : flip = 1};
+            build[i] = str.substring(8, 12);
+            i += flip; {flip == 1 ? flip = 3 : flip = 1};
+        }
+        for (var action in this.state.current_actions) {
+            var str = this.encodev42(action);
+            for (var count = 0; count < this.state.current_actions[action]; count++) {
+                build[i] = str.substring(0, 4);
+                i += flip; {flip == 1 ? flip = 3 : flip = 1};
+                build[i] = str.substring(4, 8);
+                i += flip; {flip == 1 ? flip = 3 : flip = 1}; {i == 100 ? i = 2 : i = i};
+                build[i] = str.substring(8, 12);
+                i += flip; {flip == 1 ? flip = 3 : flip = 1};
             }
-    
-            characters.push(this.decodeCharacter(characterCode));
-            characterLength = i;
-    
-            if (characters.length === 3) break;
         }
-    
-        return [characters, convertBase(x.slice(characterLength + 1), chars, "012")];
-    };
-    
-    decodeCharacter(x) {
-        let n = 0;
-    
-        for (let i = 0; i < x.length; i++) {
-            n += chars.indexOf(x[i]);
+        build = build.join("");
+        var toReturn = "";
+        for (var s = 0; s < build.length; s += 6) {
+            var temp = build.substring(s, s+6);
+            toReturn = toReturn + base64conversion[parseInt(temp, 2)];
         }
-    
-        return n;
-    };
+        return toReturn;
+    }
+
+    encodev42(thing) {
+        const allChars = Object.entries(db.chars).map((char) => char[0]);
+        const allActions = Object.entries(db.actions).map((action) => action[0]);
+        const combinedList = ['BLANK'].concat(allChars, allActions);
+        var toReturn = combinedList.indexOf(thing).toString(2);
+        if (toReturn == -1) {
+            return "000";
+        }
+        while (toReturn.length < 12) {
+            toReturn = "0" + toReturn;
+        }
+        return toReturn;
+    }
 
     render() { 
+        console.log(this.exportDeckv42());
         if (this.state.dark) {
             document.body.style = 'background: black;';
         }
@@ -301,7 +333,7 @@ class Main extends Component {
                             }}/> Dark Mode</label>
                     </Col>
                     <Col xs={3}>
-                        <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} importDeck={this.importDeck} exportDeck={this.exportDeck} dark={this.state.dark}/>
+                        <Deck current_chars={this.state.current_chars} current_actions={this.state.current_actions} total_actions={this.state.total_actions} removeFromDeck={this.removeFromDeck} addToDeckAction={this.addToDeckAction} removeFromDeckAction={this.removeFromDeckAction} importDeck={this.importDeck} exportDeck={this.exportDeck} exportDeckNew = {this.exportDeckv42} dark={this.state.dark}/>
                     </Col>
                 </Row>
         </div>) 

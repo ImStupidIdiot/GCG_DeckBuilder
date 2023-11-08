@@ -60,6 +60,9 @@ import Lisa_Icon from './images/Lisa_Icon.png'
 import Yaoyao_Icon from './images/Yaoyao_Icon.png'
 import Dehya_Icon from './images/Dehya_Icon.png'
 import Wanderer_Icon from './images/Wanderer_Icon.png'
+import Baizhu_Icon from './images/Baizhu_Icon.png'
+import Nilou_Icon from './images/Nilou_Icon.png'
+import Dori_Icon from './images/Dori_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -410,7 +413,7 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "name": "Candace",
                 "na": "Gleaming Spear - Guardian Stance\n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
                 'skill': "Sacred Rite: Heron's Sanctum\n3 Hydro \nAttaches a Heron Shield to character and prepares Heron Strike.",
-                'burst': "Sacred Rite: Heron's Sanctum\n3 Hydro, 2 Energy \nDeals 2 Hydro DMG and creates 1 Prayer of the Crimson Crown.",
+                'burst': "Sacred Rite: Wagtail's Tide\n3 Hydro, 2 Energy \nDeals 2 Hydro DMG and creates 1 Prayer of the Crimson Crown.",
                 "special": "Heron Strike\n(Prepare for 1 turn)\nDeals 3 Hydro DMG.",
                 "hi_res_image": 'https://genshin.honeyhunterworld.com/img/i_n330049_gcg_high_resolution.webp',
                 "card": 'https://genshin.honeyhunterworld.com/img/i_n330049.webp',
@@ -422,6 +425,23 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": "The crimson sand flows, an oath to defend.",
                 "id": '6G',
                 "keyword": "polearm "
+            },
+
+            "nilou": {
+                "name": "Nilou",
+                "na": "Dance of Samser\n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+                'skill': "Dance of Haftkarsvar\n3 Hydro \nDeals 3 Hydro DMG, if the party includes Hydro Characters and Dendro Characters and characters from no other Elements, create 1 Golden Chalice's Bounty.",
+                'burst': "Dance of Abzendegi: Distant Dreams, Listening Spring\n3 Hydro, 2 Energy \nDeals 2 Hydro DMG. The target character receives Lingering Aeon.",
+                "hi_res_image": 'https://genshin.honeyhunterworld.com/img/i_n330057_gcg_high_resolution.webp',
+                "card": 'https://genshin.honeyhunterworld.com/img/i_n330057.webp',
+                "card_selected": 'https://genshin.honeyhunterworld.com/img/i_n334057.webp',
+                'related': 'Golden Chalice\'s Bounty, Lingering Aeon',
+                "icon": Nilou_Icon,
+                "element": 'hydro',
+                "region": "sumeru",
+                "flavor": "Steps floating like lotus petals, emerging from an intoxicating dream.",
+                "id": '7E',
+                "keyword": "sword"
             },
     
             "diluc": {
@@ -733,6 +753,23 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'id': '6T',
                 "keyword": "catalyst"
             },
+
+            "dori": {
+                'name': 'Dori',
+                'na': "Lightning Touch\n2 Black, 1 Electro \nDeals 1 Electro DMG. If this Skill is a Charged Attack, attach Conductive to the opponent's active character.",
+                'skill': "Violet Arc\n3 Electro \nDeals 2 Electro DMG. If Conductive is not attached to the opponent's active character, Conductive will be attached.",
+                'burst': "Lightning Rose\n3 Electro, 2 Energy \nDeals 2 Electro DMG, summons Lightning Rose.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330058_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330058.webp',
+                'card_selected': "https://genshin.honeyhunterworld.com/img/i_n334058.webp",
+                'icon': Dori_Icon,
+                'element': 'electro',
+                'region': 'mond',
+                'related': 'Conductive, Lightning Rose',
+                'flavor': 'Pursuing the arcane mysteries of magic, and waiting quietly for an encounter with truth.',
+                'id': '7F',
+                "keyword": "catalyst"
+            },
     
             "sucrose": {
                 "name": "Sucrose",
@@ -988,6 +1025,23 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'flavor': 'Constitution of jade, adepti bones.',
                 'id': '74',
                 "keyword": "polearm"
+            },
+
+            "baizhu": {
+                'name': "Baizhu",
+                'na': "Toss 'N' Turn Spear\n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Raphanus Sky Cluster \n3 Dendro \nSummons 1 Yuegui: Throwing Mode.",
+                'burst': "Moonjade Descent \n4 Dendro, 2 Energy \nDeals 1 Dendro DMG, creates 1 Adeptal Legacy.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330059_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330059.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334059.webp',
+                'icon': Baizhu_Icon,
+                'element': 'dendro',
+                'region': 'liyue',
+                'related': 'Yuegui: Throwing Mode, Adeptal Legacy',
+                'flavor': 'Constitution of jade, adepti bones.',
+                'id': '7G',
+                "keyword": "catalyst"
             },
     
             'cryocicinmage': {
@@ -1348,6 +1402,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "required": "candace",
                 "id": '6J'
             },
+
+            "thestarryskiestheirflowersrain": { //needs update
+                "name": "The Starry Skies Their Flowers Rain",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330557.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334557.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330557_gcg_high_resolution.webp",
+                "cost": '3 Hydro',
+                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 2102_BuffHydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
+                "flavor": "Those who do not respect the regulations at cards...\nAre the enemy of all who love the game.",
+                "required": "nilou",
+                "id": '7H'
+            },
             
             "flowingflame": {
                 "name": "Flowing Flame",
@@ -1582,6 +1649,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'required': 'lisa',
                 'id': '6W'
             },
+
+            "discretionarysupplement": {
+                "name": "Discretionary Supplement",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330558.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334558.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330558_gcg_high_resolution.webp",
+                "cost": '3 Electro 2 Energy',
+                "description": "After you switch to Lisa, who has this card equipped: Attach Conductive to the opposing active character. (Once per Round) \n\n(You must have Lisa in your deck to add this card to your deck.)",
+                "flavor": 'As a Librarian who has read through tens of thousands of volumes, of course it\'s trivial for me to remember how to win...',
+                'required': 'dori',
+                'id': '7I'
+            },
             
             "chaoticentropy": {
                 "name": "Chaotic Entropy",
@@ -1776,6 +1856,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": '"Pain, pain, go away!"',
                 'required': 'yaoyao',
                 'id': '77'
+            },
+
+            "allthingsareoftheearth": {
+                "name": "All Things Are of the Earth",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330559.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334559.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330559_gcg_high_resolution.webp",
+                "cost": '4 Dendro 2 Energy',
+                "description": "Combat Action: When your active character is Yaoyao, equip this card.\n\nAfter Yaoyao equips this card, immediately use Raphanus Sky Cluster once.\n\nWhen Yuegui: Throwing Mode is created by your Yaoyao, who has this card equipped, and it has only 1 Usage(s) remaining, it deals +1 DMG and healing is increased by 1.\n\n(You must have Yaoyao in your deck to add this card to your deck.)",
+                "flavor": '"Pain, pain, go away!"',
+                'required': 'baizhu',
+                'id': '7J'
             },
     
             "cicinscoldglare": {
@@ -2397,6 +2490,30 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": '"Bringing hopes and memories from the depths, permeating long-lost civilizations and history, these graceful and exquisite crowns slide into the forgotten rifts with their owners."',
                 'id': '79'
             },
+
+            "oceanhuedclam": {
+                "name": "Ocean Hued Clam",
+                "tags": ['modify', 'artifact'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n331056.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335056.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331056_gcg_high_resolution.webp",
+                "cost": '3 Black',
+                "description": "For every 3 HP of healing your characters receive, this card accumulates 1 Sea-Dyed Foam (maximum of 2).\n\nWhen this character deals DMG: Consume all Sea-Dyed Foam. DMG is increased by 1 for each Sea-Dyed Foam consumed.\n\n(A character can equip a maximum of 1 Artifact)",
+                "flavor": '"Bringing hopes and memories from the depths, permeating long-lost civilizations and history, these graceful and exquisite crowns slide into the forgotten rifts with their owners."',
+                'id': '7K'
+            },
+
+            "shadowofthesandking": {
+                "name": "Shadow of the Sand King",
+                "tags": ['modify', 'artifact'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n331057.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n335057.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n331057_gcg_high_resolution.webp",
+                "cost": '1 White',
+                "description": "For every 3 HP of healing your characters receive, this card accumulates 1 Sea-Dyed Foam (maximum of 2).\n\nWhen this character deals DMG: Consume all Sea-Dyed Foam. DMG is increased by 1 for each Sea-Dyed Foam consumed.\n\n(A character can equip a maximum of 1 Artifact)",
+                "flavor": '"Bringing hopes and memories from the depths, permeating long-lost civilizations and history, these graceful and exquisite crowns slide into the forgotten rifts with their owners."',
+                'id': '7L'
+            },
             
             "brokenrimesecho": {
                 "name": "Broken Rime’s Echo",
@@ -2733,6 +2850,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "flavor": 'The village place the Traveler and Forest Rangers celebrated, the village that listens to the heartbeat of the rainforest.',
                 'id': '7A'
             },
+
+            "stormterrorslair": {
+                "name": "Stormterror's Lair",
+                "tags": ['assist', 'place'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n332038.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336038.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332038_gcg_high_resolution.webp",
+                "cost": '2 White',
+                "description": "Before you choose your action, when the number of Elemental Dice you have is 0: Create 1 Omni Element (once per Round).\n\nUsage(s): 3",
+                "flavor": 'The village place the Traveler and Forest Rangers celebrated, the village that listens to the heartbeat of the rainforest.',
+                'id': '7M'
+            },
             
             "paimon": {
                 "name": "Paimon",
@@ -3064,6 +3193,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends.\n\nUsage(s)：1\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
                 "flavor": '"The heavenly bard brushes the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom."',
                 'id': '7C'
+            },
+
+            'ineveryhouseastoveMAX1': {
+                'name': "In Every House a Stove",
+                "tags": ['event', 'arcane legend'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333057.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337057.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333057_gcg_high_resolution.webp",
+                "cost": '0 White',
+                "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends.\n\nUsage(s)：1\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "flavor": '"The heavenly bard brushes the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom."',
+                'id': '7N'
             },
             
             "elementalresonancewovenice": {
@@ -3578,6 +3719,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 "description": "Can only be played when you have at least 8 Elemental Dice remaining, and your opponent has not yet ended their Round: After a player announces the end of their Round first, the other player, who has yet to announced the end of their Round, draws 2 cards.",
                 "flavor": "\"For victory, Credit Coupons, and the hottest goods in the Rag and Bone Shop... and the freedom that may come someday, strike!\"",
                 "id": '7D'
+            },
+
+            "lyresong": {
+                "name": "Lyresong",
+                "tags": ['event'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n333058.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337058.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333058_gcg_high_resolution.webp",
+                "cost": "0 White",
+                "description": "Can only be played when you have at least 8 Elemental Dice remaining, and your opponent has not yet ended their Round: After a player announces the end of their Round first, the other player, who has yet to announced the end of their Round, draws 2 cards.",
+                "flavor": "\"For victory, Credit Coupons, and the hottest goods in the Rag and Bone Shop... and the freedom that may come someday, strike!\"",
+                "id": '7O'
             },
             
             "jueyunguoba": {
