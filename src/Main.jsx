@@ -30,7 +30,7 @@ class Main extends Component {
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
         this.exportDeckv42 = this.exportDeckv42.bind(this);
-        // this.leaks = window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ");
+        this.leaks = window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ");
         this.importDeck(window.location.hash.substring(1));
         if (localStorage.getItem('dark') == 'true') {
             this.state.dark = true;
@@ -159,10 +159,10 @@ class Main extends Component {
 
     validDeckCheckHelper(twoDigitString) { //will need to update this as database expands unfortunately
         const conversion = parseInt(twoDigitString, 36)
-        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161) || (conversion >= 167 && conversion <= 179) || (conversion >= 232 && conversion <= 234) || (conversion >= 243 && conversion <= 245) || (conversion >= 254 && conversion <= 256) || (conversion >= 266 && conversion <= 268))) {
+        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161) || (conversion >= 167 && conversion <= 179) || (conversion >= 232 && conversion <= 234) || (conversion >= 243 && conversion <= 245) || (conversion >= 254 && conversion <= 256) || (conversion >= 266 && conversion <= 268) || (conversion >= 277 && conversion <= 287))) {
             return 'char';
         }
-        else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150) || (conversion >= 154 && conversion <= 158) || (conversion >= 162 && conversion <= 166) || (conversion >= 180 && conversion <= 231) || (conversion >= 235 && conversion <= 242) || (conversion >= 246 && conversion <= 253) || (conversion >= 257 && conversion <= 265) || (conversion >= 269 && conversion <= 276))) {
+        else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150) || (conversion >= 154 && conversion <= 158) || (conversion >= 162 && conversion <= 166) || (conversion >= 180 && conversion <= 231) || (conversion >= 235 && conversion <= 242) || (conversion >= 246 && conversion <= 253) || (conversion >= 257 && conversion <= 265) || (conversion >= 269 && conversion <= 276) || (conversion >= 288 && conversion <= 318))) {
             return 'action';
         }
         else {
@@ -194,9 +194,9 @@ class Main extends Component {
             }
         }
     
-        // if (this.leaks) {
-        //     toCopy += 'FCyyUBaTqdmauwye29RQ';
-        // }
+        if (this.leaks) {
+            toCopy += 'FCyyUBaTqdmauwye29RQ';
+        }
         window.location.href = '#' + toCopy;
         return toCopy;
     }
