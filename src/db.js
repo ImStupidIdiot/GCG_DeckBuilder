@@ -2074,7 +2074,7 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
                 'cost': '3 Geo',
                 'description': "Combat Action: When your active character is Gorou, equip this card. \nAfter Gorou equips this card, immediately use Inuzaka All-Round Defense once. \nWhen your Gorou, who has this card equipped, is on the field, and after any of your characters deals 2106_BuffGeo DMG: If General's War Banner is in play, draw 1 card. (Once per Round) \n(You must have Gorou in your deck to add this card to your deck.)",
                 'flavor': "\"Rally!\"",
-                'required': 'Gorou',
+                'required': 'gorou',
                 'id': '84',
             },
             
