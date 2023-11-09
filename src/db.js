@@ -319,8 +319,8 @@ if ((window.location.hash.substring(1).includes("FCyyUBaTqdmauwye29RQ"))) {
             'layla': {
                 'name': 'Layla',
                 'na': "Sword of the Radiant Path \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
-                'skill': "Nights of Formal Focus \n3 Cryo \nDeals.",
-                'burst': "Dream of the Star-Stream Shaker \n3 Cryo, 2 Energy\nDeals.",
+                'skill': "Nights of Formal Focus \n3 Cryo \nCreates Curtain of Slumber Shield and Shooting Star, and collects 1 Night Star for Shooting Star. (If Shooting Staralready exists, then collect an extra 2 Night Stars)",
+                'burst': "Dream of the Star-Stream Shaker \n3 Cryo, 2 Energy\nDeals 3 Cryo DMG, summons 1 Celestial Dreamsphere.",
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330062_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330062.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334062.webp',
