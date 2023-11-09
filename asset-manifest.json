@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.af1869fd.css",
-    "main.js": "/static/js/main.d3836835.js",
+    "main.js": "/static/js/main.7a8d1f3f.js",
     "static/media/Qiqi_Icon.png": "/static/media/Qiqi_Icon.bbeba026f6a3a33b670e.png",
     "static/media/Lisa_Icon.png": "/static/media/Lisa_Icon.0335939d9a9ea498f966.png",
     "static/media/Hilichurl_Summon3.png": "/static/media/Hilichurl_Summon3.d8453ee61f15e06a7393.png",
@@ -42,18 +42,29 @@
     "static/media/Xiangling_Icon.png": "/static/media/Xiangling_Icon.06a1714e55d2f318a43e.png",
     "static/media/Maguu_Icon.png": "/static/media/Maguu_Icon.0cbff5e3c63eaa7dcf00.png",
     "static/media/Collei_Icon.png": "/static/media/Collei_Icon.46dedc9f0382c2f8247c.png",
+    "static/media/ThunderManifestation_Icon.png": "/static/media/ThunderManifestation_Icon.b024553d962124cb55e8.png",
+    "static/media/Dvalin_Icon.png": "/static/media/Dvalin_Icon.3c65f8a6c1f5f7016792.png",
+    "static/media/Azhdaha_Icon.png": "/static/media/Azhdaha_Icon.593006b1f0699b61a59c.png",
+    "static/media/Layla_Icon.png": "/static/media/Layla_Icon.23d755560d76d22eb382.png",
+    "static/media/Alhaitham_Icon.png": "/static/media/Alhaitham_Icon.37808e647698641b1d89.png",
     "static/media/Razor_Icon.png": "/static/media/Razor_Icon.3d6fc4d2c1cf93c9d32b.png",
+    "static/media/Gorou_Icon.png": "/static/media/Gorou_Icon.b3d91e43b6bfe1b014c4.png",
     "static/media/Xingqiu_Icon.png": "/static/media/Xingqiu_Icon.45d890acda91be2ee575.png",
     "static/media/Tighnari_Icon.png": "/static/media/Tighnari_Icon.586acad6a12956356870.png",
     "static/media/Pyroagent_Icon.png": "/static/media/Pyroagent_Icon.9f41fa72c4b923a66c59.png",
     "static/media/Ganyu_Icon.png": "/static/media/Ganyu_Icon.c1e92a6d8e68e9b6028b.png",
     "static/media/Arcane.png": "/static/media/Arcane.bed7dac6afad59aeb4be.png",
     "static/media/Diona_Icon.png": "/static/media/Diona_Icon.f6670591dca18b0d2657.png",
+    "static/media/Yelan_Icon.png": "/static/media/Yelan_Icon.c768a3004e611d991039.png",
     "static/media/Sucrose_Icon.png": "/static/media/Sucrose_Icon.c5acc051040a2a4dd9ae.png",
+    "static/media/PyroEremite_Icon.png": "/static/media/PyroEremite_Icon.4a460d5ba05e45f3333f.png",
+    "static/media/Lyney_Icon.png": "/static/media/Lyney_Icon.a495dafa783635bb4b3a.png",
     "static/media/Diluc_Icon.png": "/static/media/Diluc_Icon.f9817daccde23db64f9f.png",
     "static/media/Ayaka_Icon.png": "/static/media/Ayaka_Icon.4cbe2031383500979f17.png",
     "static/media/Kaeya_Icon.png": "/static/media/Kaeya_Icon.c89aed4b105bc39459c1.png",
     "static/media/Terrorshroom_Icon.png": "/static/media/Terrorshroom_Icon.dede5615de06a8b3c17e.png",
+    "static/media/Signora_Icon.png": "/static/media/Signora_Icon.0b055b1ecf23f4095e1e.png",
+    "static/media/Lynette_Icon.png": "/static/media/Lynette_Icon.c0af0016c346a98da741.png",
     "static/media/Sara_Icon.png": "/static/media/Sara_Icon.82b7950526c286fd3150.png",
     "static/media/Amber_Icon.png": "/static/media/Amber_Icon.4949219c8dcdf656112d.png",
     "static/media/Klee_Icon.png": "/static/media/Klee_Icon.3e9b17ef84048dd9c42c.png",
@@ -125,10 +136,10 @@
     "static/media/Filter_One_Temp.png": "/static/media/Filter_One_Temp.271611b24095627f50a9.png",
     "index.html": "/index.html",
     "main.af1869fd.css.map": "/static/css/main.af1869fd.css.map",
-    "main.d3836835.js.map": "/static/js/main.d3836835.js.map"
+    "main.7a8d1f3f.js.map": "/static/js/main.7a8d1f3f.js.map"
   },
   "entrypoints": [
     "static/css/main.af1869fd.css",
-    "static/js/main.d3836835.js"
+    "static/js/main.7a8d1f3f.js"
   ]
 }
