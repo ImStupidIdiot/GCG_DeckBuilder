@@ -307,6 +307,27 @@ class Main extends Component {
                 i += flip; {flip == 1 ? flip = 3 : flip = 1};
             }
         }
+
+        for (var index = 1; index < build.length; index += 2) { 
+            console.log(build[index - 1], build[index]);
+            if (build[index] == "1111") {
+                build[index] = "0000";
+                build[index - 1] = (parseInt(build[index - 1], 2) + 1).toString(2);
+                if (build[index - 1] == "10000") {
+                    build[index - 1] = "0000";
+                }
+                while (build[index - 1].length < 4) {
+                    build[index - 1] = "0" + build[index - 1];
+                }
+            }
+            else {
+                build[index] = (parseInt(build[index], 2) + 1).toString(2);
+                while (build[index].length < 4) {
+                    build[index] = "0" + build[index];
+                }
+            }
+            console.log(build[index - 1], build[index]);
+        }
         build = build.join("");
         var toReturn = "";
         for (var s = 0; s < build.length; s += 6) {
