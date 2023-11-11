@@ -30,7 +30,7 @@ class Main extends Component {
         this.importDeck = this.importDeck.bind(this);
         this.exportDeck = this.exportDeck.bind(this);
         this.exportDeckv42 = this.exportDeckv42.bind(this);
-        this.leaks = window.location.hash.substring(1).includes("FCyyUbaTqdmauwye29RQ");
+        this.leaks = window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ");
         this.importDeck(window.location.hash.substring(1));
         if (localStorage.getItem('dark') == 'true') {
             this.state.dark = true;
@@ -195,7 +195,7 @@ class Main extends Component {
         }
     
         if (this.leaks) {
-            toCopy += 'FCyyUBaTqdmauwye29RQ';
+            toCopy += 'FCyyUCaTqdmauwye29RQ';
         }
         window.location.href = '#' + toCopy;
         return toCopy;

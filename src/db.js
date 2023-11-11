@@ -174,7 +174,7 @@ import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 import Joyous_Celebration from './images/Joyous_Celebration.png'
 
-if ((window.location.hash.substring(1).includes("FCyyUbaTqdmauwye29RQ"))) {
+if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
 
     var db = {
         "chars": {
