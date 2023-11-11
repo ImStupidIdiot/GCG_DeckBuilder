@@ -98,7 +98,7 @@ class Main extends Component {
         var index = 0;
         while (deckString.length > 2) {
             if (!(deckString && deckString[0] + deckString[1] == '!!')) {
-                if(deckString[0] == 'A') {
+                if(deckString[0] == 'A' || deckString[0] == 'B') {
                     this.importDeckv42(deckString);
                     return;
                 }
@@ -211,16 +211,26 @@ class Main extends Component {
         //   result += (hex.length === 2 ? hex : '0' + hex);
         // }
         // const translated = result.toLowerCase(); //to hex
-        str = str.split("");
+        str = str.substring(0, 68).split("");
+        var offset = (64 * base64conversion.indexOf(str[66]) + base64conversion.indexOf(str[67])) % 256;
+        console.log(offset);
         var translated = "";
         for (var i = 0; i < str.length; i += 2) {
             var parse = 64 * base64conversion.indexOf(str[i]) + base64conversion.indexOf(str[i + 1]);
+            if ((i * 6) % 8 == 4) {
+                parse -= offset;
+                parse -= 256 * offset;
+            }
+            else {
+                parse -= 16 * offset;
+            }
             parse = parse.toString(16);
             while (parse.length < 3) {
                 parse = "0" + parse;
             }
             translated = translated + parse;
-        }
+        }     
+        console.log(translated);   
         var i = 0; //current hex number we are checking
         var count = 0; //every time count hits 3, we translate to a card and move on
         var flip = 1; //if flip is 1, we add flip then switch flip to 3. repeat
