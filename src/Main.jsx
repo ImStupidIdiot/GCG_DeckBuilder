@@ -213,11 +213,9 @@ class Main extends Component {
         // const translated = result.toLowerCase(); //to hex
         str = str.substring(0, 68).split("");
         var offset = (64 * base64conversion.indexOf(str[66]) + base64conversion.indexOf(str[67])) % 256;
-        console.log(offset);
         var translated = "";
         for (var i = 0; i < str.length; i += 2) {
             var parse = 64 * base64conversion.indexOf(str[i]) + base64conversion.indexOf(str[i + 1]);
-            console.log(parse);
             // if ((i * 6) % 8 == 4) {
             //     parse -= offset;
             //     parse -= 256 * offset;
@@ -231,12 +229,16 @@ class Main extends Component {
             }
             translated = translated + parse;
         }
-        console.log(translated);  
         var toRead = ""; 
         for (var i = 0; i < translated.length; i+=8) {
             var temp = translated.substring(i, i+8);
             temp = parseInt(temp, 2);
-            temp = temp - offset;
+            if (temp == 0) {
+                temp = 255;
+            }
+            else {
+                temp = temp - offset;
+            }
             temp = temp.toString(16);
             while (temp.length < 2) {
                 temp = "0" + temp;
@@ -320,7 +322,6 @@ class Main extends Component {
                 i += flip; {flip == 1 ? flip = 3 : flip = 1};
             }
         }
-
         for (var index = 1; index < build.length; index += 2) { 
             if (build[index] == "1111") {
                 build[index] = "0000";
@@ -338,7 +339,6 @@ class Main extends Component {
                     build[index] = "0" + build[index];
                 }
             }
-            console.log(build[index - 1], build[index]);
         }
         build = build.join("");
         var toReturn = "";
@@ -355,7 +355,8 @@ class Main extends Component {
         const combinedList = ['BLANK'].concat(allChars, allActions);
         var toReturn = combinedList.indexOf(thing).toString(2);
         if (toReturn == -1) {
-            return "000";
+            console.log("error", thing);
+            return "000000000000";
         }
         while (toReturn.length < 12) {
             toReturn = "0" + toReturn;
