@@ -44,7 +44,7 @@ class CharLibrary extends Component {
         var displayChars = [...this.state.allChars];
         
         for (const [key, value] of Object.entries(filters)) {
-            displayChars = displayChars.filter((char) => db.chars[char][key].lower() == value.lower());
+            displayChars = displayChars.filter((char) => db.chars[char][key] == value);
         }
         
         this.setState({filters: filters, displayChars: displayChars});

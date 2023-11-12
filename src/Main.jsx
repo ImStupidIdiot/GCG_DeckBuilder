@@ -217,20 +217,33 @@ class Main extends Component {
         var translated = "";
         for (var i = 0; i < str.length; i += 2) {
             var parse = 64 * base64conversion.indexOf(str[i]) + base64conversion.indexOf(str[i + 1]);
-            if ((i * 6) % 8 == 4) {
-                parse -= offset;
-                parse -= 256 * offset;
-            }
-            else {
-                parse -= 16 * offset;
-            }
-            parse = parse.toString(16);
-            while (parse.length < 3) {
+            console.log(parse);
+            // if ((i * 6) % 8 == 4) {
+            //     parse -= offset;
+            //     parse -= 256 * offset;
+            // }
+            // else {
+            //     parse -= 16 * offset;
+            // }
+            parse = parse.toString(2);
+            while (parse.length < 12) {
                 parse = "0" + parse;
             }
             translated = translated + parse;
-        }     
-        console.log(translated);   
+        }
+        console.log(translated);  
+        var toRead = ""; 
+        for (var i = 0; i < translated.length; i+=8) {
+            var temp = translated.substring(i, i+8);
+            temp = parseInt(temp, 2);
+            temp = temp - offset;
+            temp = temp.toString(16);
+            while (temp.length < 2) {
+                temp = "0" + temp;
+            }
+            toRead = toRead + temp;
+        }
+        translated = toRead;
         var i = 0; //current hex number we are checking
         var count = 0; //every time count hits 3, we translate to a card and move on
         var flip = 1; //if flip is 1, we add flip then switch flip to 3. repeat
@@ -309,7 +322,6 @@ class Main extends Component {
         }
 
         for (var index = 1; index < build.length; index += 2) { 
-            console.log(build[index - 1], build[index]);
             if (build[index] == "1111") {
                 build[index] = "0000";
                 build[index - 1] = (parseInt(build[index - 1], 2) + 1).toString(2);
