@@ -233,12 +233,10 @@ class Main extends Component {
         for (var i = 0; i < translated.length; i+=8) {
             var temp = translated.substring(i, i+8);
             temp = parseInt(temp, 2);
-            if (temp == 0) {
-                temp = 255;
-            }
-            else {
-                temp = temp - offset;
-            }
+            if (temp == 0 && offset != 0) {
+                temp = 256;
+            } 
+            temp -= offset;
             temp = temp.toString(16);
             while (temp.length < 2) {
                 temp = "0" + temp;
