@@ -3938,7 +3938,7 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n333037.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337037.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333037_gcg_high_resolution.webp",
-                "cost": '1 White',
+                "cost": '0 White',
                 "description": "During this turn, after one of your characters uses a Skill: Switch your next character in to be the active character.\n\n(You must have at least 2 Mondstadt characters in your deck to add this card to your deck.)", 
                 "required": '2mond',
                 "flavor": '"Someday, the winds will blow towards a brighter future."',
@@ -8375,7 +8375,7 @@ else {
                 "image": Joyous_Celebration,
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337053.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333053_gcg_high_resolution.webp",
-                "cost": '1 White',
+                "cost": '0 White',
                 "description": "Your active character must be one of the following elemental types to play this card: Cryo/Hydro/Pyro/Electro/Dendro: The element corresponding to your active character's Elemental Type will be applied to all your characters. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
                 "flavor": '"Celebration should be shared with everyone."',
                 'id': '70'
