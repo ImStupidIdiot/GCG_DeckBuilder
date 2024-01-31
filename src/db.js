@@ -74,6 +74,10 @@ import Alhaitham_Icon from './images/Alhaitham_Icon.png'
 import Azhdaha_Icon from './images/Azhdaha_Icon.png'
 import Dvalin_Icon from './images/Dvalin_Icon.png'
 import Yelan_Icon from './images/Yelan_Icon.png'
+import CryoCube_Icon from './images/CryoCube_Icon.png'
+import Thoma_Icon from './images/Thoma_Icon.png'
+import Sayu_Icon from './images/Sayu_Icon.png'
+import Seahorse_Icon from './images/Seahorse_Icon.png'
 
 import Nullchar_Icon from './images/Nullchar_Icon.png'
 
@@ -670,7 +674,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330071_gcg_high_resolution.webp', 
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330071.webp', 
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334071.webp', 
-                'icon': Lyney_Icon, 
+                'icon': Thoma_Icon, 
                 'element': 'pyro',
                 'region': 'inazuma',
                 'related': 'Blazing Barrier, Scorching Ooyoroi', 
@@ -980,9 +984,9 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330072_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330072.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334072.webp',
-                'icon': Lynette_Icon,
+                'icon': Sayu_Icon,
                 'element': 'anemo',
-                'region': 'fatui',
+                'region': 'inazuma',
                 'related': 'Muji-Muji Daruma',
                 'flavor': "By your side without a trace, like a character from a dream.",
                 'id': '8W',
@@ -1239,7 +1243,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330073_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330073.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334073.webp',
-                'icon': Signora_Icon,
+                'icon': CryoCube_Icon,
                 'element': 'cryo',
                 'region': 'monster',
                 'related': 'Overwhelming Ice, Piercing Iceridge, Cryocrystal Core',
@@ -1384,7 +1388,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330074_gcg_high_resolution.webp',
                 'card': 'https://genshin.honeyhunterworld.com/img/i_n330074.webp',
                 'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334074.webp',
-                'icon': ThunderManifestation_Icon,
+                'icon': Seahorse_Icon,
                 'element': 'electro',
                 'region': 'monster',
                 'related': 'Fontemer Pearl, Resonant Coral Orb',
@@ -2286,7 +2290,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330573_gcg_high_resolution.webp',
                 'image': 'https://genshin.honeyhunterworld.com/img/i_n330573.webp',
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334573.webp',
-                'cost': '0 White',
+                'cost': '1 Cryo',
                 'description': "Can only be played if your active character is Cryo Hypostasis: Attach Cryocrystal Core to them. \n\nAfter Cryo Hypostasis, who has this card equipped, triggers Cryocrystal Core: Attach Sheer Cold to the opposing active character. \n\n(Your deck must contain Cryo Hypostasis to add this card to your deck)",
                 'flavor': "Despite its highly stable form and almost machine-like movements, it must still meticulously defend its weak spot...",
                 "required": "cryohypo",
@@ -3879,7 +3883,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "image": Joyous_Celebration,
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337053.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333053_gcg_high_resolution.webp",
-                "cost": '1 White',
+                "cost": '0 White',
                 "description": "Your active character must be one of the following elemental types to play this card: Cryo/Hydro/Pyro/Electro/Dendro: The element corresponding to your active character's Elemental Type will be applied to all your characters. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
                 "flavor": '"Celebration should be shared with everyone."',
                 'id': '70'
@@ -3904,7 +3908,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337057.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333057_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends.\n\nUsage(s)：1\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "description": "Draw a number of cards equal to the current Round number minus 1. (Up to 4 cards can be drawn in this way).\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
                 "flavor": '"The heavenly bard brushes the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom."',
                 'id': '7N'
             },
@@ -4492,7 +4496,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337064.webp',
                 'cost': '0 White',
                 'description': "Each time after your character is targeted by and takes DMG or is healed: Accumulate 1 point of Battle-Readiness (Max 2 points). \n\nWhen you play a Weapon or Artifact with an original cost of fewer Dice than you have Battle-Readiness points: Clear all Battle-Readiness points and play that card for free.",
-                'flavor': "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
+                // 'flavor': "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
                 'id': '97',
             },
 
@@ -4504,7 +4508,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337065.webp',
                 'cost': '0 White',
                 'description': "Select a card from your Support Zone and discard it. After that, randomly generate 2 Support Cards in your hand. \n\nDuring the Round, the next time you play a Support Card: Spend 1 less Elemental Die.",
-                'flavor': "\"This vibrant color is the miracle of life's flowing springs.\"\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
+                // 'flavor': "\"This vibrant color is the miracle of life's flowing springs.\"\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
                 'id': '98',
             },
             
@@ -5617,6 +5621,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
     }
 }
 else {
+    
     var db = {
         "chars": {
             "ganyu": {
@@ -6102,6 +6107,23 @@ else {
                 'id': '7R', 
                 'keyword': 'bow',
             },
+
+            'thoma': { 
+                'name': 'Thoma', 
+                'na': "Swiftshatter Spear\n2 Black, 1 Pyro \nDeals 2 Physical DMG.", 
+                'skill': "Blazing Blessing \n3 Pyro \nDeals 2 Pyro DMG, creates 1 Blazing Barrier.", 
+                'burst': "Crimson Ooyoroi\n3 Pyro, 2 Energy\nDeals 2 Pyro DMG, creates 1 Blazing Barrier and Scorching Ooyoroi.", 
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330071_gcg_high_resolution.webp', 
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330071.webp', 
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334071.webp', 
+                'icon': Thoma_Icon, 
+                'element': 'pyro',
+                'region': 'inazuma',
+                'related': 'Blazing Barrier, Scorching Ooyoroi', 
+                // 'flavor': "A protector from abroad, loyal to the end.", 
+                'id': '8V', 
+                'keyword': 'polearm',
+            },
     
             "fischl": {
                 "name": "Fischl",
@@ -6395,6 +6417,24 @@ else {
                 'keyword': 'sword',
             },
 
+            'sayu': {
+                'name': 'Sayu',
+                'na': "Shuumatsuban Ninja Blade \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
+                'skill': "Yoohoo Art: Fuuin Dash\n3 Anemo \nDeals 1 Anemo DMG, and this character prepares Fuufuu Whirlwind Kick. \n\nIf this usage of the skill triggers Swirl, then Fuufuu Whirlwind Kick is converted to DMG of the Swirled Element.",
+                'burst': "Yoohoo Art: Mujina Flurry\n3 Anemo, 2 Energy\nDeals 1 Anemo DMG, summons 1 Muji-Muji Daruma.",
+                'special': "Fuufuu Whirlwind Kick\n(Prepare for 1 turn)\nDeals 2 Anemo DMG.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330072_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330072.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334072.webp',
+                'icon': Sayu_Icon,
+                'element': 'anemo',
+                'region': 'inazuma',
+                'related': 'Muji-Muji Daruma',
+                // 'flavor': "By your side without a trace, like a character from a dream.",
+                'id': '8W',
+                'keyword': 'claymore',
+            },
+
             "ningguang": {
                 "name": "Ningguang",
                 'na': 'Sparkling Scatter \n2 Black, 1 Geo \nDeals 1 Geo DMG.',
@@ -6635,6 +6675,24 @@ else {
                 'id': '7V',
                 'keyword': '',
             },
+
+            'cryohypo': {
+                'name': 'Cryo Hypostasis',
+                'na': "Frostblade Hailstorm \n2 Black, 1 Cryo \nDeals 1 Cryo DMG.",
+                'skill': "Ice Ring Waltz \n3 Cryo \nDeals 3 Cryo DMG. This character gains Overwhelming Ice.",
+                'burst': "Plunging Ice Shards \n3 Cryo, 2 Energy\nDeals 2 Cryo DMG, deals 1 Piercing DMG to all opposing characters on standby, summons 1 Piercing Iceridge.",
+                'special': "Cryocrystal Core\n(Passive) \nWhen the battle begins, this character gains Cryocrystal Core.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330073_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330073.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334073.webp',
+                'icon': CryoCube_Icon,
+                'element': 'cryo',
+                'region': 'monster',
+                'related': 'Overwhelming Ice, Piercing Iceridge, Cryocrystal Core',
+                // 'flavor': "Code name: Daleth. A high-purity Cryo entity.\nIt doesn't seem all that good at ball sports...",
+                'id': '8X',
+                'keyword': '',
+            },
     
             "oceanid": {
                 "name": "Rhodeia of Loch",
@@ -6760,6 +6818,24 @@ else {
                 'related': 'Lightning Rod, Thundering Shackles, Lightning Strike Probe',
                 'flavor': "As long as the grudges of the land do not fade, so will the roaring thunder persist.",
                 'id': '7X',
+                'keyword': '',
+            },
+
+            'seahorse': {
+                'name': 'Millennial Pearl Seahorse',
+                'na': "Tail Sweep \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
+                'skill': "Swirling School of Fish\n3 Electro \nDeals 3 Electro DMG. Once per Round: If this character has Fontemer Pearl attached, that Usage(s) +1.",
+                'burst': "Fontemer Hoarthunder \n3 Electro, 2 Energy\nDeals 1 Electro DMG, attaches Fontemer Pearl to this character, and summons 1 Resonant Coral Orb.",
+                'special': "Pearl Armor \n(Passive) \nWhen the battle begins, attach Fontemer Pearl to this character.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330074_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330074.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334074.webp',
+                'icon': Seahorse_Icon,
+                'element': 'electro',
+                'region': 'monster',
+                'related': 'Fontemer Pearl, Resonant Coral Orb',
+                // 'flavor': "One of the two sovereigns standing at the apex of the Fontemer Aberrants. Poets and authors view it as a proud and noble creature, thus bestowing it with its high-flown title.",
+                'id': '8Y',
                 'keyword': '',
             },
     
@@ -7220,6 +7296,19 @@ else {
                 'required': 'lyney',
                 'id': '82',
             },
+
+            'asubordinate\'sskills': { 
+                'name': 'A Subordinate\'s Skills',
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330571_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n330571.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334571.webp',
+                'cost': '3 Pyro 2 Energy',
+                'description': "Combat Action: When your active character is Thoma, equip this card. \n\nAfter Thoma equips this card, immediately use Crimson Ooyoroi once. \n\nWhen your Thoma, who has this card equipped, creates a Scorching Ooyoroi, its starting Usage(s) +1. \n\n(You must have Thoma in your deck to add this card to your deck.)",
+                // 'flavor': "\"It looks like I'm responsible for another smile.\"",
+                'required': 'thoma',
+                'id': '8Z',
+            },
             
             "stellarpredator": {
                 "name": "Stellar Predator",
@@ -7441,6 +7530,19 @@ else {
                 'required': 'lynette',
                 'id': '83'
             },
+
+            'skivingnewandimproved': {
+                "name": "Skiving: New and Improved",
+                "tags": ['modify', 'talent', 'slowly'],
+                "image": "https://genshin.honeyhunterworld.com/img/i_n330572.webp",
+                "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334572.webp",
+                "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330572_gcg_high_resolution.webp",
+                "cost": '3 Anemo',
+                "description": "Combat Action: When your active character is Sayu, equip this card. \n\nWhen Sayu equips this card, immediately use Yoohoo Art: Fuuin Dash once. \n\nWhen your Sayu who has this card equipped is the active character, draw 2 cards when you trigger a Swirl reaction. (Once per Round) \n\n(You must have Sayu in your deck to add this card to your deck.)",
+                // "flavor": '"I should have just stayed in bed today."',
+                'required': 'sayu',
+                'id': '90'
+            },
             
             "strategicreserve": {
                 "name": "Strategic Reserve",
@@ -7623,6 +7725,19 @@ else {
                 "required": "signora",
                 'id': '86',
             },
+
+            'sternfrostprism': { 
+                'name': 'Sternfrost Prism',
+                'tags': ['modify', 'talent'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330573_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n330573.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334573.webp',
+                'cost': '1 Cryo',
+                'description': "Can only be played if your active character is Cryo Hypostasis: Attach Cryocrystal Core to them. \n\nAfter Cryo Hypostasis, who has this card equipped, triggers Cryocrystal Core: Attach Sheer Cold to the opposing active character. \n\n(Your deck must contain Cryo Hypostasis to add this card to your deck)",
+                // 'flavor': "Despite its highly stable form and almost machine-like movements, it must still meticulously defend its weak spot...",
+                "required": "cryohypo",
+                'id': '91',
+            },
             
             "streamingsurge": {
                 "name": "Streaming Surge",
@@ -7715,6 +7830,19 @@ else {
                 'flavor': "That which drives the Thunder Manifestation is a much more primal fury...",
                 "required": "thundermanifestation",
                 'id': '88',
+            },
+
+            'pearlsolidification': { 
+                'name': 'Pearl Solidification',
+                'tags': ['modify', 'talent'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330574_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n330574.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334574.webp',
+                'cost': '0 White',
+                'description': "Can only be played if your active character is Millennial Pearl Seahorse: When entering play, Millennial Pearl Seahorse will have Fontemer Pearl with 1 Usage(s) attached to them. If they already have Fontemer Pearl attached, Usage(s) +1 instead. \n\nWhen the Fontemer Pearl attached to Millennial Pearl Seahorse negates DMG from Summons, change to Usage(s) not being consumed twice per Round. \n\n(Your deck must contain Millennial Pearl Seahorse to add this card to your deck)",
+                // 'flavor': "Xenomare Pearl, Fontemer Hoarthunder... The seahorse-shaped phantasmal beast, though a solitary king, has neither an opulent court nor the ruins of one. What it does have, however, is the majesty and might to send other Fontemer Aberrants skittering away from it in terror...",
+                "required": "seahorse",
+                'id': '92',
             },
             
             "transcendentautomaton": {
@@ -8165,6 +8293,18 @@ else {
                 'flavor': "\"If you believe that he yet has the potential to reclaim his honor in the maze, then guide him to break off the pale branch...\nOnly then can the bright moon and the newborn stars grant him pure wisdom and help him shed his bitter memories and desires.\"",
                 'id': '8F',
             },
+
+            'sapwoodblade': { 
+                'name': 'Sapwood Blade',
+                'tags': ['modify', 'weapon', 'weapon_sword'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n331068_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n331068.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n335068.webp',
+                'cost': '3 Black',
+                'description': "The character deals +1 DMG. \n\nWhen entering play: When the character to which this is attached next uses a Normal Attack during this Round: Create 2 Elemental Dice of this character's Elemental Type. \n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                // 'flavor': "\"...Even so, your stories and mine will leave their traces in the depths of the desert, like the footprints of the Forest Kind.\"\n\"So shall past friendships peacefully sleep, like an Aranara transformed into a seed.\"",
+                'id': '93',
+            },
             
             "adventurersbandana": {
                 "name": "Adventurer’s Bandana",
@@ -8425,6 +8565,18 @@ else {
                 'description': "After this character takes DMG: If the character to which this is attached is the active character, then draw 1 card. (Once per Round) \n\nEnd Phase: Heal the attached character for 1 HP. \n\n(A character can equip a maximum of 1 Artifact)",
                 'flavor': "\"Many spirits dwell in the sea, and they carry the wishes of grass, tree, and dew, cleansing all filth.\nMany spirits dwell in the sea, and they sing of the three mothers — of verdure, of sweet dew, and fresh flowers.\"",
                 'id': '8K',
+            },
+
+            'veteransvisage': { 
+                'name': 'Veteran\'s Visage',
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n331069_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n331069.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n335069.webp',
+                'cost': '2 Black',
+                'description': "After this character takes DMG or is healed: Based on the number of times this effect has been triggered this Round, the effects will be different. \n\nFirst Trigger: Create 1 Elemental Die of the character's Elemental Type. \n\nSecond Trigger: Draw 1 card. \n\n(A character can equip a maximum of 1 Artifact)",
+                // 'flavor': "\"Yet even though the scars can be covered, the wounds laid on one's heart will not disappear.\"",
+                'id': '94',
             },
             
             "brokenrimesecho": {
@@ -9046,6 +9198,30 @@ else {
                 'flavor': "A Melusine that paints every day. \n\"Because painting the things that I want to brings me happiness!\"",
                 'id': '8N',
             },
+
+            'jeht': { 
+                'name': 'Jeht',
+                'tags': ['assist', 'companion'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n332044_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n332044.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n336044.webp',
+                'cost': '2 Black',
+                'description': "This card will record the number of cards discarded from your Support Zone during this match as Sophistication points. (Max 6 points) \n\nAfter your characters use an Elemental Burst: If this card has recorded at least 5 Sophistication points, discard this card and generate Omni Element equal to the number of Sophistication points minus 2.",
+                // 'flavor': "\"Here's a thousand hugs! We will meet again!\"\n\"May we meet again under a lovelier sun.\"",
+                'id': '95',
+            },
+
+            'silverandmelus': { 
+                'name': 'Silver and Melus',
+                'tags': ['assist', 'companion'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n332045_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n332045.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n336045.webp',
+                'cost': '1 White',
+                'description': "This card will record the number of types of Elemental DMG opposing characters have taken during this match as points of Attendant's Attentiveness. (Max 4 points) \n\nEnd Phase: If you have at least 3 Attendant's Attentiveness points, discard this card and draw cards equal to the amount of Attendant's Attentiveness points.",
+                // 'flavor': "\"Don't be afraid. We will protect you to the very end.\"",
+                'id': '96',
+            },
             
             "parametrictransformer": {
                 "name": "Parametric Transformer",
@@ -9149,7 +9325,7 @@ else {
                 "image": Joyous_Celebration,
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337053.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333053_gcg_high_resolution.webp",
-                "cost": '1 White',
+                "cost": '0 White',
                 "description": "Your active character must be one of the following elemental types to play this card: Cryo/Hydro/Pyro/Electro/Dendro: The element corresponding to your active character's Elemental Type will be applied to all your characters. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
                 "flavor": '"Celebration should be shared with everyone."',
                 'id': '70'
@@ -9174,7 +9350,7 @@ else {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n337057.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n333057_gcg_high_resolution.webp",
                 "cost": '0 White',
-                "description": "In this Round, when an opposing character is defeated during your Action, you can continue to act again when that Action ends.\n\nUsage(s)：1\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
+                "description": "Draw a number of cards equal to the current Round number minus 1. (Up to 4 cards can be drawn in this way).\n\n(Only one \"Arcane Legend\" card can be played for the entire game. This card will be in your starting hand.)",
                 "flavor": '"The heavenly bard brushes the strings of the lyre, summoning forth the gale, dispersing the ice and snow, cleaving the peaks, and making the new Mondstadt the home of freedom."',
                 'id': '7N'
             },
@@ -9753,6 +9929,30 @@ else {
                 'related': 'Four-Leaf Sigil',
                 'id': '8T',
             },
+
+            'machineassemblyline': { 
+                'name': 'Machine Assembly Line',
+                'tags': ['event'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n333064_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n333064.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337064.webp',
+                'cost': '0 White',
+                'description': "Each time after your character is targeted by and takes DMG or is healed: Accumulate 1 point of Battle-Readiness (Max 2 points). \n\nWhen you play a Weapon or Artifact with an original cost of fewer Dice than you have Battle-Readiness points: Clear all Battle-Readiness points and play that card for free.",
+                'flavor': "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
+                'id': '97',
+            },
+
+            'sunyataflower': { 
+                'name': 'Sunyata Flower',
+                'tags': ['event'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n333065_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n333065.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337065.webp',
+                'cost': '0 White',
+                'description': "Select a card from your Support Zone and discard it. After that, randomly generate 2 Support Cards in your hand. \n\nDuring the Round, the next time you play a Support Card: Spend 1 less Elemental Die.",
+                'flavor': "\"This vibrant color is the miracle of life's flowing springs.\"\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
+                'id': '98',
+            },
             
             "jueyunguoba": {
                 "name": "Jueyun Guoba",
@@ -9907,6 +10107,18 @@ else {
                 'description': "During this Round, all your characters will use 1 less Elemental Die when using their next Skill.\n(A character can consume at most 1 Food per Round)",
                 'flavor': "Fish fried until golden and crispy, with chips and a smorgasbord of sauces. Every single bite is suffused with savory satisfaction...",
                 'id': '8U',
+            },
+
+            'matsutakemeatrolls': { 
+                'name': 'Matsutake Meat Rolls',
+                'tags': ['event', 'food'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n333066_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n333066.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337066.webp',
+                'cost': '2 White',
+                'description': "Heal the target character for 2 HP. For the next 3 Rounds, heal this character for 1 HP again during the End Phase. \n\n(A character can consume at most 1 3101_BuffFood per Round)",
+                // 'flavor': "Ground meat is put on the Matsutake and gently pan-fried on low heat so the Matsutake can fully take in the aromatic juice of the meat. It's a mouthwatering delicacy in all of its glory.",
+                'id': '99',
             },
         },
     
@@ -10743,6 +10955,54 @@ else {
                 "type": 'Status',
                 "description": "End Phase: Switch to the attached character.",
                 'related': 'Flickering Four-Leaf Sigil',
+            },
+            'blazingbarrier': {
+                "name": 'Blazing Barrier',
+                "type": 'Combat Status',
+                "description": "Grants 1 Shield point to your active character. (Can stack. Max 3 points.).",
+                'related': 'Thoma',
+            },
+            'scorchingooyoroi': {
+                "name": 'Scorching Ooyoroi',
+                "type": "Combat Status",
+                "description": "After your character uses a Normal Attack: Deal 1 Pyro DMG and create a Blazing Barrier. \n\nUsage(s): 2",
+                "related": "Thoma"
+            },
+            'mujimujidaruma': {
+                "name": "Muji-Muji Daruma",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Anemo DMG, heal the character on your team that has taken the most damage for 2 HP. \n\nUsage(s): 2",
+                "related": "Sayu"
+            },
+            'overwhelmingice': {
+                "name": "Overwhelming Ice",
+                "type": "Status",
+                "description": "When the character uses a Normal Attack: Deal 1 Piercing DMG to all opposing characters on standby. \n\nUsage(s): 1",
+                "related": "Cryo Hypostasis"
+            },
+            'piercingiceridge': {
+                "name": "Piercing Iceridge",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Cryo DMG to the opposing Character Closest to Your Current Active Character. \n\nUsage(s): 2",
+                "related": "Cryo Hypostasis"
+            },
+            'cryocrystalcore': {
+                "name": "Cryocrystal Core",
+                "type": "Status",
+                "description": "When the character to which this is attached would be defeated: Remove this effect, ensure the character is not defeated, and heal them to 1 HP.",
+                "related": "Cryo Hypostasis"
+            },
+            'fontemerpearl': {
+                "name": "Fontemer Pearl",
+                "type": "Status",
+                "description": "When the character to which this is attached takes DMG: Negate 1 DMG. Once per Round, Usage(s) will not be used when negating DMG from Summons. \n\nUsage(s): 2 \n\nWhen you declare the end of your Round: If the character to which this is attached is the active character, draw 1 card.",
+                "related": "Millennial Pearl Seahorse"
+            },
+            'resonantcoralorb': {
+                "name": "Resonant Coral Orb",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 2104_BuffElectro DMG. \n\nUsage(s): 2",
+                "related": "Millennial Pearl Seahorse"
             },
         },
     
