@@ -1693,7 +1693,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334549.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330549_gcg_high_resolution.webp",
                 "cost": '3 Hydro 2 Energy',
-                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 2102_BuffHydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
+                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 Hydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
                 "flavor": "Those who do not respect the regulations at cards...\nAre the enemy of all who love the game.",
                 "required": "candace",
                 "id": '6J'
@@ -1706,7 +1706,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334557.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330557_gcg_high_resolution.webp",
                 "cost": '3 Hydro',
-                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 2102_BuffHydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
+                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 Hydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
                 "flavor": "Those who do not respect the regulations at cards...\nAre the enemy of all who love the game.",
                 "required": "nilou",
                 "id": '7H'
@@ -2070,7 +2070,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334555.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330555_gcg_high_resolution.webp",
                 "cost": '4 Anemo',
-                "description": "Combat Action: When your active character is Wanderer, equip this card.\n\nAfter Wanderer equips this card, immediately use Hanega: Song of the Wind once.\n\nWhen your Wanderer, who has this card equipped, is in Windfavored state and after using Charged Attack: you will spend 1 less Elemental Die the next time you use \"Switch Character\" and deal 1 2105_BuffAnemo DMG.\n\n(You must have Wanderer in your deck to add this card to your deck.)",
+                "description": "Combat Action: When your active character is Wanderer, equip this card.\n\nAfter Wanderer equips this card, immediately use Hanega: Song of the Wind once.\n\nWhen your Wanderer, who has this card equipped, is in Windfavored state and after using Charged Attack: you will spend 1 less Elemental Die the next time you use \"Switch Character\" and deal Anemo DMG.\n\n(You must have Wanderer in your deck to add this card to your deck.)",
                 "flavor": '"Squall and fury!"',
                 'required': 'wanderer',
                 'id': '76'
@@ -5559,7 +5559,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
             'resonantcoralorb': {
                 "name": "Resonant Coral Orb",
                 "type": "Summon",
-                "description": "End Phase: Deal 1 2104_BuffElectro DMG. \n\nUsage(s): 2",
+                "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 2",
                 "related": "Millennial Pearl Seahorse"
             },
         },
@@ -7135,7 +7135,7 @@ else {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334549.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330549_gcg_high_resolution.webp",
                 "cost": '3 Hydro 2 Energy',
-                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 2102_BuffHydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
+                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 Hydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
                 "flavor": "Those who do not respect the regulations at cards...\nAre the enemy of all who love the game.",
                 "required": "candace",
                 "id": '6J'
@@ -7148,7 +7148,7 @@ else {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334557.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330557_gcg_high_resolution.webp",
                 "cost": '3 Hydro',
-                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 2102_BuffHydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
+                "description": "Combat Action: When Candace is your active character, equip this card. \n\nAfter Candace equips this card, she will immediately use Sacred Rite: Heron's Sanctum once. \n\nWhen this card is equipped by Candace, her Prayer of the Crimson Crown has the following extra effect: After your character uses a Normal Attack: Deals 1 Hydro DMG. (Once per Round) \n\n(You must have Candace in your deck to add this card to your deck.)",
                 "flavor": "Those who do not respect the regulations at cards...\nAre the enemy of all who love the game.",
                 "required": "nilou",
                 "id": '7H'
@@ -7512,7 +7512,7 @@ else {
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n334555.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n330555_gcg_high_resolution.webp",
                 "cost": '4 Anemo',
-                "description": "Combat Action: When your active character is Wanderer, equip this card.\n\nAfter Wanderer equips this card, immediately use Hanega: Song of the Wind once.\n\nWhen your Wanderer, who has this card equipped, is in Windfavored state and after using Charged Attack: you will spend 1 less Elemental Die the next time you use \"Switch Character\" and deal 1 2105_BuffAnemo DMG.\n\n(You must have Wanderer in your deck to add this card to your deck.)",
+                "description": "Combat Action: When your active character is Wanderer, equip this card.\n\nAfter Wanderer equips this card, immediately use Hanega: Song of the Wind once.\n\nWhen your Wanderer, who has this card equipped, is in Windfavored state and after using Charged Attack: you will spend 1 less Elemental Die the next time you use \"Switch Character\" and deal 1 Anemo DMG.\n\n(You must have Wanderer in your deck to add this card to your deck.)",
                 "flavor": '"Squall and fury!"',
                 'required': 'wanderer',
                 'id': '76'
@@ -11001,7 +11001,7 @@ else {
             'resonantcoralorb': {
                 "name": "Resonant Coral Orb",
                 "type": "Summon",
-                "description": "End Phase: Deal 1 2104_BuffElectro DMG. \n\nUsage(s): 2",
+                "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 2",
                 "related": "Millennial Pearl Seahorse"
             },
         },
