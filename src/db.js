@@ -178,7 +178,7 @@ import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 import Joyous_Celebration from './images/Joyous_Celebration.png'
 
-if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
+if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
 
     var db = {
         "chars": {
@@ -336,6 +336,23 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '7P',
                 'keyword': 'sword',
             },
+
+            'charlotte': {
+                'name': 'Charlotte',
+                'na': "Cool-Color Capture \n2 Black, 1 Cryo \nDeals 1 Cryo DMG.",
+                'skill': "Framing: Freezing Point Composition \n3 Cryo \nDeals 1 Cryo DMG. Attach Snappy Silhouette to the target.",
+                'burst': "Still Photo: Comprehensive Confirmation \n3 Cryo, 2 Energy\nDeals 1 Cryo DMG, heals all your characters for 1 HP, summons 1 Newsflash Field.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330075_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330075.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334075.webp',
+                'icon': Layla_Icon,
+                'element': 'cryo',
+                'region': 'fontaine',
+                'related': 'Snappy Silhouette, Newsflash Field',
+                'flavor': "\"Your credible source of the unbelievable truth!\"",
+                'id': '9A',
+                'keyword': 'catalyst',
+            },
     
             "barbara": {
                 "name": "Barbara",
@@ -492,6 +509,24 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "The world is vast and infinite, the solitary one comes and goes as she pleases.",
                 'id': '7Q',
                 'keyword': 'bow',
+            },
+
+            'neuvillette': {
+                'name': 'Neuvillette',
+                'na': "As Water Seeks Equilibrium \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.",
+                'skill': "O Tears, I Shall Repay \n3 Hydro \nDeals 2 Hydro DMG, creates 1 Sourcewater Droplet.",
+                'burst': "O Tides, I Have Returned \n3 Hydro, 2 Energy\nDeals 2 Hydro DMG, deals 1 Piercing DMG to all opposing characters on standby, then creates a Sourcewater Droplet with 2 Usages.",
+                'special': "Normal Attack: Equitable Judgement \n(Prepare for 1 turn) \nDeals 2 Hydro DMG. If character has at least 6 HP, then they deal 1 Piercing DMG to themselves and deal +1 DMG.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330076_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330076.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334076.webp',
+                'icon': Yelan_Icon,
+                'element': 'hydro',
+                'region': 'fontaine',
+                'related': 'Sourcewater Droplet',
+                'flavor': "He who looks down on all that are haughty.",
+                'id': '9B',
+                'keyword': 'catalyst',
             },
     
             "diluc": {
@@ -1198,6 +1233,23 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '7U',
                 'keyword': 'sword',
             },
+
+            'kirara': {
+                'name': 'Kirara',
+                'na': "Boxcutter \n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Meow-teor Kick \n3 Dendro \nCreates 1 Urgent Neko Parcel and Shield of Safe Transport.",
+                'burst': "Secret Art: Surprise Dispatch \n3 Dendro, 2 Energy\nDeals 4 Dendro DMG, creates 1 Cat Grass Cardamom on the opponent's side of the field.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330077_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330077.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334077.webp',
+                'icon': Alhaitham_Icon,
+                'element': 'dendro',
+                'region': 'inazuma',
+                'related': 'Urgent Neko Parcel, Shield of Safe Transport, Cat Grass Cardamom',
+                'flavor': "On tails twain and padded feet, to all doors shall she deliver.",
+                'id': '9C',
+                'keyword': 'sword',
+            },
     
             'cryocicinmage': {
                 'name': "Fatui Cryo Cicin Mage",
@@ -1394,6 +1446,24 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'related': 'Fontemer Pearl, Resonant Coral Orb',
                 'flavor': "One of the two sovereigns standing at the apex of the Fontemer Aberrants. Poets and authors view it as a proud and noble creature, thus bestowing it with its high-flown title.",
                 'id': '8Y',
+                'keyword': '',
+            },
+
+            'ecicinmage': {
+                'name': 'Fatui Electro Cicin Mage',
+                'na': "Hurtling Bolts \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
+                'skill': "Misty Call\n3 Electro \nSummons 1 Electro Cicin.",
+                'burst': "Thundering Shield \n3 Electro, 2 Energy\nDeals 1 Electro DMG, applies Electro Application to this character, creates 1 Electro Cicin Shield and prepares Surging Thunder.",
+                'special': "Surging Thunder \n(Prepare for 1 turn) \nDeals 2 Electro DMG.",
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330078_gcg_high_resolution.webp',
+                'card': 'https://genshin.honeyhunterworld.com/img/i_n330078.webp',
+                'card_selected': 'https://genshin.honeyhunterworld.com/img/i_n334078.webp',
+                'icon': Seahorse_Icon,
+                'element': 'electro',
+                'region': 'fatui',
+                'related': 'Electro Cicin, Electro Cicin Shield',
+                'flavor': "...Just as the scent of Mist Grass intoxicates the Electro Cicins, so too does the sadistic mage hanker after the pleasure of toying with her foe...",
+                'id': '9D',
                 'keyword': '',
             },
     
@@ -1607,6 +1677,19 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'layla',
                 'id': '80',
             },
+
+            'asummationofinterest': { 
+                'name': 'A Summation of Interest',
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330575_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n330575.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334575.webp',
+                'cost': '3 Cryo',
+                'description': "Combat Action: When your active character is Charlotte, equip this card. \n\nAfter Charlotte equips this card, immediately use Framing: Freezing Point Composition once. \n\nWhen your Charlotte, who has this card equipped, is on the field, and after any of your characters uses a Normal Attack: If your opponent has a character on the field with Snappy Silhouette attached, heal your active character for 2 HP. (Once per Round) \n\n(You must have Charlotte in your deck to add this card to your deck.)",
+                'flavor': "\"Breaking news!\"",
+                'required': 'charlotte',
+                'id': '9E',
+            },
     
             "gloriousseason": {
                 "name": "Glorious Season",
@@ -1723,6 +1806,19 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"Things are about to get dicey.\"",
                 'required': 'yelan',
                 'id': '81',
+            },
+
+            'heirtotheancientseasauthority': { 
+                'name': 'Heir to the Ancient Sea\'s Authority',
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330576_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n330576.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334576.webp',
+                'cost': '2 Black 1 Hydro',
+                'description': "Combat Action: When your active character is Neuvillette, equip this card. \n\nAfter Neuvillette equips this card, immediately use As Water Seeks Equilibrium once. \n\nAfter your characters trigger 2102_BuffHydro-Related Reactions: Neuvillette, who has this card equipped, deals +1 DMG for the next 2 instances. \n\n(You must have Neuvillette in your deck to add this card to your deck.)",
+                'flavor': "\"The tides beckon.\"",
+                'required': 'neuvillette',
+                'id': '9F',
             },
             
             "flowingflame": {
@@ -2257,6 +2353,19 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'alhaitham',
                 'id': '85',
             },
+
+            'countlesssightstosee': { 
+                'name': 'Countless Sights to See',
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330577_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n330577.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334577.webp',
+                'cost': '3 Dendro',
+                'description': "Combat Action: When your active character is Kirara, equip this card. \n\nAfter Kirara equips this card, immediately use Meow-teor Kick once. \n\nWhen your Kirara who has this card equipped is the active character, spend 1 less Elemental Die when switching characters. (Once per Round) \n\n(You must have Kirara in your deck to add this card to your deck.)",
+                'flavor': "\"Service with a smile!\"",
+                'required': 'kirara',
+                'id': '9G',
+            },
     
             "cicinscoldglare": {
                 "name": "Cicin's Cold Glare",
@@ -2383,8 +2492,8 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330568_gcg_high_resolution.webp',
                 'image': 'https://genshin.honeyhunterworld.com/img/i_n330568.webp',
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334568.webp',
-                'cost': '0 White',
-                'description': "When your Thunder Manifestation, who has this card equipped, is on the field, when an opposing character affected by Lightning Rod takes DMG, you will draw 1 card.\n\n(You must have Thunder Manifestation in your deck to add this card to your deck)",
+                'cost': '3 Electro',
+                'description': "Combat Action: When your active character is Thunder Manifestation, equip this card. After Thunder Manifestation equips this card, immediately use Strikeful Lightning once. When your Thunder Manifestation, who has this card equipped, is on the field, when an opposing character affected by Lightning Rod takes DMG, you will draw 1 card.\n\n(You must have Thunder Manifestation in your deck to add this card to your deck)",
                 'flavor': "That which drives the Thunder Manifestation is a much more primal fury...",
                 "required": "thundermanifestation",
                 'id': '88',
@@ -2401,6 +2510,19 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "Xenomare Pearl, Fontemer Hoarthunder... The seahorse-shaped phantasmal beast, though a solitary king, has neither an opulent court nor the ruins of one. What it does have, however, is the majesty and might to send other Fontemer Aberrants skittering away from it in terror...",
                 "required": "seahorse",
                 'id': '92',
+            },
+
+            'electrocicinsgleam': { 
+                'name': 'Electro Cicin\'s Gleam',
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n330578_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n330578.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334578.webp',
+                'cost': '3 Electro',
+                'description': "Combat Action: When your active character is Fatui Electro Cicin Mage, equip this card. \n\nAfter Fatui Electro Cicin Mage equips this card, immediately use Misty Call once. \n\nIf your Fatui Electro Cicin Mage who has this card equipped is on the field, before you choose an action: If Electro Cicin's Usage(s) is at least 3, then Electro Cicin will immediately deal 1 2104_BuffElectro DMG. (Usage(s) will be consumed, once per Round) \n\n(You must have Fatui Electro Cicin Mage in your deck to add this card to your deck.)",
+                'flavor': "\"Are you... here to play with me?\"",
+                "required": "ecicinmage",
+                'id': '9H',
             },
             
             "transcendentautomaton": {
@@ -2550,6 +2672,18 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "The character deals +1 DMG. \n\nWhen the character uses a Charged Attack: Spend 1 less Unaligned Element. (Can be triggered up to twice per Round) \n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
                 'flavor': "\"In the end, all people, good or evil, will find themselves ground beneath the wheels of fate, and the sapphire city would fade, dissipating like tears beneath the scorching sun.\"",
                 'id': '8C',
+            },
+
+            'tomeoftheeternalflow': { 
+                'name': 'Tome of the Eternal Flow',
+                'tags': ['modify', 'weapon', 'weapon_catalyst'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n331070_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n331070.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n335070.webp',
+                'cost': '3 White',
+                'description': "The character deals +1 DMG. \n\nAfter this character takes DMG or is healed: If this character has already been damaged or healed 2 times this Round, then this character's next attack this Round deals +2 additional DMG. (Once per Round) \n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"...For if the harbinger of the apocalypse would indeed one day arrive, the flood would wash everything away.\"\n\"The watchers would fight with both duty and joy in their our hearts, just as the goddess had found empathy for them in hers.\"",
+                'id': '9I',
             },
             
             "ravenbow": {
@@ -3136,6 +3270,18 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"Yet even though the scars can be covered, the wounds laid on one's heart will not disappear.\"",
                 'id': '94',
             },
+
+            'goldentroupesreward': { 
+                'name': 'Golden Troupe\'s Reward',
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n331071_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n331071.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n335071.webp',
+                'cost': '0 White',
+                'description': "End Phase: If the character to which this is attached is on standby, this card gains 1 \"Recompense\" point. (Max 2 points) \n\nWhen you play a Talent card or a Character uses an Elemental Skill: For each \"Recompense\" point this card has, consume it to spend 1 less Elemental Die. \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"When the great golden symphony plays once more, the Golden Troupe will receive the rightful rewards owed to the true and loyal.\"\n\"When the perfect order separates humanity into master and servant, prosperity and beauty shall make the kingdom glorious once more...\"",
+                'id': '9J',
+            },
             
             "brokenrimesecho": {
                 "name": "Broken Rime’s Echo",
@@ -3323,7 +3469,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n332001.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336001.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332001_gcg_high_resolution.webp",
-                "cost": '1 White',
+                "cost": '0 White',
                 "description": "When played: Select any Elemental Die/Dice to reroll.\n\nRoll Phase: Gain another chance to reroll.",
                 "flavor": "“Most of the books here can be lent out, but do bear in mind that you will have to return them… on time.”",
                 "id": '2J'        
@@ -3507,6 +3653,18 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "Before you choose an Action: If the total dice cost of the Equipment Cards attached to your characters is less than that of your opponent, then you will generate 1 Elemental Die of your active character's element. (Once per Round)\nUsage(s): 3",
                 'flavor': "The true and the fantastical, the comedic and tragic find a stage here equally. Perhaps it truly is as an ancient Fontainian playwright once said \"All the world's a stage, and all of us merely players.\"",      
                 'id': '8M',
+            },
+
+            'fortessofmeropide': { 
+                'name': 'Fortess of Meropide',
+                'tags': ['assist', 'place'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n332046_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n332046.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n336046.webp',
+                'cost': '1 White',
+                'description': "When your active character takes DMG or is healed: This card gains 1 \"Prohibition\" point. (Maximum 4 points) \n\nWhen Action Phase begins: If this card has accumulated 4 \"Prohibition\" points, then 4 points will be consumed and 1 Strictly Prohibited will be created in your opponent's playing field. (1 Event Card played by your opponent this Round will have no effect.)",
+                'flavor': "\"A fastness of bronze and iron will collapse one day, but a city of law and justice will never fall.\"",      
+                'id': '9K',
             },
             
             "paimon": {
@@ -3853,6 +4011,18 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '8P',
             },
 
+            'lumenstoneadjuvent': { 
+                'name': 'Lumenstone Adjuvant',
+                'tags': ['assist', 'item'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n332047_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n332047.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n336047.webp',
+                'cost': '2 White',
+                'description': "After you play an Action Card: If, while this card is on the field, you have already played 3 Action Cards this Round, draw 1 card and create 1 Omni Die. (Once per Round) \n\nUsage(s): 3",
+                'flavor': "\"May it be as a sun in your palm, lighting the way through the lightless tunnels and bringing comfort where all is dark.\"",
+                'id': '9L',
+            },
+
             "ancientcourtyardMAX1": {
                 "name": "Ancient Courtyard",
                 "tags": ['event', 'arcane legend'],
@@ -3923,6 +4093,18 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "3 Event Cards played by your opponent in this Round will take no effect.\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
                 'flavor': "\"It is time to make the final decision on this case.\"",
                 'id': '8Q',
+            },
+
+            'dayofresistancemomentofshattereddreamsMAX1': { 
+                'name': 'Day of Resistance: Moment of Shattered Dreams',
+                'tags': ['event', 'arcane legend'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n333067_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n333067.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337067.webp',
+                'cost': '0 White',
+                'description': "During this Round, your targeted character takes -1 DMG. (Max 4 times) \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                'flavor': "Victorious were we who fought to be free... Thus did the dream of eternal prosperity fall with this mighty capital...",
+                'id': '9M',
             },
             
             "elementalresonancewovenice": {
@@ -4496,7 +4678,7 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337064.webp',
                 'cost': '0 White',
                 'description': "Each time after your character is targeted by and takes DMG or is healed: Accumulate 1 point of Battle-Readiness (Max 2 points). \n\nWhen you play a Weapon or Artifact with an original cost of fewer Dice than you have Battle-Readiness points: Clear all Battle-Readiness points and play that card for free.",
-                // 'flavor': "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
+                'flavor': "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
                 'id': '97',
             },
 
@@ -4508,8 +4690,20 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337065.webp',
                 'cost': '0 White',
                 'description': "Select a card from your Support Zone and discard it. After that, randomly generate 2 Support Cards in your hand. \n\nDuring the Round, the next time you play a Support Card: Spend 1 less Elemental Die.",
-                // 'flavor': "\"This vibrant color is the miracle of life's flowing springs.\"\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
+                'flavor': "\"This vibrant color is the miracle of life's flowing springs.\"\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
                 'id': '98',
+            },
+
+            'controlleddirectionalblast': { 
+                'name': 'Controlled Directional Blast',
+                'tags': ['event'],
+                'hi_res_image': 'https://genshin.honeyhunterworld.com/img/i_n333068_gcg_high_resolution.webp',
+                'image': 'https://genshin.honeyhunterworld.com/img/i_n333068.webp',
+                'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337068.webp',
+                'cost': '1 White',
+                'description': "Can only be played when there is a total of at least 4 cards in your opponent's Support Zone and Summons Zone: All Summons on both sides lose 1 Usage.",
+                'flavor': "\"...haven't hidden anything. All the Arkhium has been handled appropriately. This explosion was always a 'controllable hazard removal directional blast.'\"",
+                'id': '9N',
             },
             
             "jueyunguoba": {
@@ -5561,6 +5755,54 @@ if ((window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "type": "Summon",
                 "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 2",
                 "related": "Millennial Pearl Seahorse"
+            },
+            'snappysilhouette': {
+                "name": "Snappy Silhouette",
+                "type": "Status",
+                "description": "End Phase: Deal 1 Cryo DMG to the character(s) to which this is attached. If only 1 Usage(s) is remaining and the attached character is affected by Cryo, this instance of DMG +1. \n\nUsage(s): 2",
+                "related": "Charlotte"
+            },
+            'newsflashfield': {
+                "name": "Newsflash Field",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Cryo DMG, heal your active character for 1 HP. \n\nUsage(s): 2",
+                "related": "Charlotte"
+            },
+            'sourcewaterdroplet': {
+                "name": "Sourcewater Droplet",
+                "type": "Combat Status",
+                "description": "After Neuvillette uses a Normal Attack: Heals the character for 2 HP. After this, Prepare Skill: Equitable Judgment. \n\nUsage(s): 1 (Can stack. Max 3 stacks.)",
+                "related": "Neuvillette"
+            },
+            'urgentnekoparcel': {
+                "name": "Urgent Neko Parcel",
+                "type": "Combat Status",
+                "description": "When Kirara is your active character, after you switch characters: Deal 1 Dendro DMG and draw 1 card. \n\nUsage(s): 1 (Can stack. Max 2 stacks.)",
+                "related": "Kirara"
+            },
+            'shieldofsafetransport': {
+                "name": "Shield of Safe Transport",
+                "type": "Combat Status",
+                "description": "Grants 2 Shield points to your active character.",
+                "related": "Kirara"
+            },
+            'catgrasscardamom': {
+                "name": "Cat Grass Cardamom",
+                "type": "Combat Status",
+                "description": "After the side of the field that this card is on has played 2 Action Cards: Deal 1 Dendro DMG to the active character on that side. \n\nUsage(s): 2",
+                "related": "Kirara"
+            },
+            'electrocicin': {
+                "name": "Electro Cicin",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 3 \n\nAfter your opponent plays a total of 3 Action Cards: This card gains 1 Usage(s). (Max 3 stacks) \n\nAfter Fatui Electro Cicin Mage takes Elemental Reaction DMG: This card loses 1 Usage(s).",
+                "related": "Fatui Electro Cicin Mage"
+            },
+            'electrocicinshield': {
+                "name": "Electro Cicin Shield",
+                "type": "Combat Status",
+                "description": "Provides 1 Shield point for your active character. \n\nWhen created: If you have Electro Cicin on the field, additionally increase Shield by the amount of Usage(s) it has. (Adds a maximum of 3 additional Shield)",
+                "related": "Fatui Electro Cicin Mage"
             },
         },
     
@@ -8765,7 +9007,7 @@ else {
                 "image": "https://genshin.honeyhunterworld.com/img/i_n332001.webp",
                 "golden_image": "https://genshin.honeyhunterworld.com/img/i_n336001.webp",
                 "hi_res_image": "https://genshin.honeyhunterworld.com/img/i_n332001_gcg_high_resolution.webp",
-                "cost": '1 White',
+                "cost": '0 White',
                 "description": "When played: Select any Elemental Die/Dice to reroll.\n\nRoll Phase: Gain another chance to reroll.",
                 "flavor": "“Most of the books here can be lent out, but do bear in mind that you will have to return them… on time.”",
                 "id": '2J'        
@@ -9938,7 +10180,7 @@ else {
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337064.webp',
                 'cost': '0 White',
                 'description': "Each time after your character is targeted by and takes DMG or is healed: Accumulate 1 point of Battle-Readiness (Max 2 points). \n\nWhen you play a Weapon or Artifact with an original cost of fewer Dice than you have Battle-Readiness points: Clear all Battle-Readiness points and play that card for free.",
-                // 'flavor': "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
+                'flavor': "Countless widgets, heated and forged, eventually go into making these exceptional machines, and to the inmates of the Fortress of Meropide, they mean valuable Credit Coupons...",
                 'id': '97',
             },
 
@@ -9950,7 +10192,7 @@ else {
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n337065.webp',
                 'cost': '0 White',
                 'description': "Select a card from your Support Zone and discard it. After that, randomly generate 2 Support Cards in your hand. \n\nDuring the Round, the next time you play a Support Card: Spend 1 less Elemental Die.",
-                // 'flavor': "\"This vibrant color is the miracle of life's flowing springs.\"\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
+                'flavor': "\"This vibrant color is the miracle of life's flowing springs.\"\n\"Abide with me, sing and caper with me, and let us weave eternal joy\"...",
                 'id': '98',
             },
             
