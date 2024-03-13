@@ -2519,7 +2519,7 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'image': 'https://genshin.honeyhunterworld.com/img/i_n330578.webp',
                 'golden_image': 'https://genshin.honeyhunterworld.com/img/i_n334578.webp',
                 'cost': '3 Electro',
-                'description': "Combat Action: When your active character is Fatui Electro Cicin Mage, equip this card. \n\nAfter Fatui Electro Cicin Mage equips this card, immediately use Misty Call once. \n\nIf your Fatui Electro Cicin Mage who has this card equipped is on the field, before you choose an action: If Electro Cicin's Usage(s) is at least 3, then Electro Cicin will immediately deal 1 2104_BuffElectro DMG. (Usage(s) will be consumed, once per Round) \n\n(You must have Fatui Electro Cicin Mage in your deck to add this card to your deck.)",
+                'description': "Combat Action: When your active character is Fatui Electro Cicin Mage, equip this card. \n\nAfter Fatui Electro Cicin Mage equips this card, immediately use Misty Call once. \n\nIf your Fatui Electro Cicin Mage who has this card equipped is on the field, before you choose an action: If Electro Cicin's Usage(s) is at least 3, then Electro Cicin will immediately deal 1 Electro DMG. (Usage(s) will be consumed, once per Round) \n\n(You must have Fatui Electro Cicin Mage in your deck to add this card to your deck.)",
                 'flavor': "\"Are you... here to play with me?\"",
                 "required": "ecicinmage",
                 'id': '9H',
