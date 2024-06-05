@@ -159,10 +159,10 @@ class Main extends Component {
 
     validDeckCheckHelper(twoDigitString) { //will need to update this as database expands unfortunately
         const conversion = parseInt(twoDigitString, 36)
-        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161) || (conversion >= 167 && conversion <= 179) || (conversion >= 232 && conversion <= 234) || (conversion >= 243 && conversion <= 245) || (conversion >= 254 && conversion <= 256) || (conversion >= 266 && conversion <= 268) || (conversion >= 277 && conversion <= 287) || (conversion >= 319 && conversion <= 322) || (conversion >= 334 && conversion <= 337))) {
+        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161) || (conversion >= 167 && conversion <= 179) || (conversion >= 232 && conversion <= 234) || (conversion >= 243 && conversion <= 245) || (conversion >= 254 && conversion <= 256) || (conversion >= 266 && conversion <= 268) || (conversion >= 277 && conversion <= 287) || (conversion >= 319 && conversion <= 322) || (conversion >= 334 && conversion <= 337) || (conversion >= 348 && conversion <= 360))) {
             return 'char';
         }
-        else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150) || (conversion >= 154 && conversion <= 158) || (conversion >= 162 && conversion <= 166) || (conversion >= 180 && conversion <= 231) || (conversion >= 235 && conversion <= 242) || (conversion >= 246 && conversion <= 253) || (conversion >= 257 && conversion <= 265) || (conversion >= 269 && conversion <= 276) || (conversion >= 288 && conversion <= 318) || (conversion >= 323 && conversion <= 333) || (conversion >= 338 && conversion <= 347))) {
+        else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150) || (conversion >= 154 && conversion <= 158) || (conversion >= 162 && conversion <= 166) || (conversion >= 180 && conversion <= 231) || (conversion >= 235 && conversion <= 242) || (conversion >= 246 && conversion <= 253) || (conversion >= 257 && conversion <= 265) || (conversion >= 269 && conversion <= 276) || (conversion >= 288 && conversion <= 318) || (conversion >= 323 && conversion <= 333) || (conversion >= 338 && conversion <= 347) || (conversion >= 361 && conversion <= 394))) {
             return 'action';
         }
         else {
@@ -293,11 +293,11 @@ class Main extends Component {
     exportDeckv42() {
         var build = [];
         for (var x = 0; x < 102; x++) {
-            build.push("0000");
+            build.push("0000"); //fill the deck with blank cards. We build the deck in binary first
         }
         var i = 0;
-        var flip = 1;
-        for (var a = 0; a < this.state.current_chars.length; a++) {
+        var flip = 1; //this needs to altnerate between 1 and 3, because we write to the 1st, 4th, 5th, 8th, ... byte; every card is encoded in 3 bytes, 1st card is 1st 4th 5th byte, 2nd card is 8th 9th 12th byte, etc. 
+        for (var a = 0; a < this.state.current_chars.length; a++) { //first add all the chars
             var char = this.state.current_chars[a];
             var str = this.encodev42(char);
             build[i] = str.substring(0, 4);
@@ -309,7 +309,7 @@ class Main extends Component {
         }
         i = 17;
         flip = 3;
-        for (var action in this.state.current_actions) {
+        for (var action in this.state.current_actions) { //iterate through all the action cards
             var str = this.encodev42(action);
             for (var count = 0; count < this.state.current_actions[action]; count++) {
                 build[i] = str.substring(0, 4);
@@ -320,6 +320,7 @@ class Main extends Component {
                 i += flip; {flip == 1 ? flip = 3 : flip = 1};
             }
         }
+        //at this point the deck code is basically done, but if this first deck code doesnt work we have to increase every byte by 1
         for (var index = 1; index < build.length; index += 2) { 
             if (build[index] == "1111") {
                 build[index] = "0000";
@@ -340,7 +341,7 @@ class Main extends Component {
         }
         build = build.join("");
         var toReturn = "";
-        for (var s = 0; s < build.length; s += 6) {
+        for (var s = 0; s < build.length; s += 6) { //convert to base 64
             var temp = build.substring(s, s+6);
             toReturn = toReturn + base64conversion[parseInt(temp, 2)];
         }
@@ -348,10 +349,10 @@ class Main extends Component {
     }
 
     encodev42(thing) {
-        const allChars = Object.entries(db.chars).map((char) => char[0]);
-        const allActions = Object.entries(db.actions).map((action) => action[0]);
-        const combinedList = ['BLANK'].concat(allChars, allActions);
-        var toReturn = combinedList.indexOf(thing).toString(2);
+        const allChars = Object.entries(db.chars).map((char) => char[0]); //this part needs updating to make it map correctly
+        const allActions = Object.entries(db.actions).map((action) => action[0]); //update
+        const combinedList = ['BLANK'].concat(allChars, allActions); //update
+        var toReturn = combinedList.indexOf(thing).toString(2); //update
         if (toReturn == -1) {
             console.log("error", thing);
             return "000000000000";
