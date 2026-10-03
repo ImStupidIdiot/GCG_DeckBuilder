@@ -38,7 +38,7 @@ class Char extends Component {
                             <img className="infoButtonIcon" src={Info_Button} /> 
                         </button> : null
                         }
-                        <img src={this.props.url} width={this.state.width} height={this.state.height}
+                        <img src={this.props.url} onError={(e) => { if (!e.target.src.endsWith('/cards/placeholder.webp')) e.target.src = '/cards/placeholder.webp' }} width={this.state.width} height={this.state.height}
                         onMouseEnter={
                             () => {
                                 this.setState({width: '138'})

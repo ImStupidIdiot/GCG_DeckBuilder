@@ -27,7 +27,7 @@ class ActionInfoBox extends Component {
             <Container>
             <Row>
                 <Col xs={6} className="infoBoxCol"> 
-                    <Row> <img src={db.actions[this.props.action].hi_res_image} className="infoBoxImage"/> </Row> 
+                    <Row> <img src={db.actions[this.props.action].hi_res_image} onError={(e) => { if (!e.target.src.endsWith('/cards/placeholder.webp')) e.target.src = '/cards/placeholder.webp' }} className="infoBoxImage"/> </Row> 
                 </Col>
 
                 <Col xs={6} className="infoBoxCol"> 

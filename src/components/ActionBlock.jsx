@@ -58,7 +58,7 @@ class ActionBlock extends Component {
                 <Col xs={1}><div className='ActionBlockCost'><div className={cost_style}>{cost /*!arcane ? cost : <img src={db.dice.arcane} className='arcaneDice'></img>*/}</div><div className={cost2_style}>{cost2}</div></div></Col>
                 <Col xs={1}><div className='ActionBlockName'>{name}</div></Col>
                 <Col xs={9} className="ActionBlockCol" background-image={this.props.url}>
-                    <img src={this.props.url} className={'ActionBlockImg' + arcane} alt='test' onMouseEnter={ () => {
+                    <img src={this.props.url} onError={(e) => { if (!e.target.src.endsWith('/cards/placeholder.webp')) e.target.src = '/cards/placeholder.webp' }} className={'ActionBlockImg' + arcane} alt='test' onMouseEnter={ () => {
                         this.setState({height: '55'})
                         this.setState({width: '270'})
                     }   

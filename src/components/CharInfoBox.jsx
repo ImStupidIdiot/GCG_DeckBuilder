@@ -25,7 +25,7 @@ class CharInfoBox extends Component {
                     <Row>
                         <Col xs={6} className="infoBoxCol"> 
                             <Row> 
-                                <img src={db.chars[this.props.char].hi_res_image} className="infoBoxImage"/> 
+                                <img src={db.chars[this.props.char].hi_res_image} onError={(e) => { if (!e.target.src.endsWith('/cards/placeholder.webp')) e.target.src = '/cards/placeholder.webp' }} className="infoBoxImage"/> 
                             </Row> 
                         </Col>
                         <Col xs={6} className="infoBoxCol">
