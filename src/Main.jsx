@@ -7,12 +7,16 @@ import './scss/deck.css'
 import './scss/library.css';
 import './scss/misc.css';
 import db from './db';
+import shareIds from './shareIds';
 
 const { convertBase } = require("simple-base-converter");
 const cards = require("./cards");
 const chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 const base64conversion = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'.split("");
+// the game rejects deck codes containing these words (it ignores + and / when matching), so the export picks a last byte that avoids them
+const blockedWords = ["1s", "2c8", "2g1c", "4jg", "4jk", "5l3", "64", "6four", "6iv", "6si", "89", "8jiu", "92f", "99bb", "a55", "anal", "anus", "ass", "ash0le", "b00b", "b1tch", "b17ch", "ba9", "bb1", "bbw", "bdsm", "beaner", "bi7ch", "bimbos", "bitch", "boob", "boner", "c0cks", "c0n", "c4", "cag", "ccp", "chink", "clit", "cnm", "cnn", "cock", "coons", "cum", "cunt", "cuum", "cv0", "darkie", "dick", "dildo", "dilld0", "dommes", "dpp", "dvda", "ecchi", "erotic", "f4k", "fag1t", "fagg1t", "faggot", "fck", "fdp", "fecal", "felch", "feltch", "femdom", "flg", "fm2", "fuck", "gay", "gcd", "gdm", "ggc", "girlon", "goatcx", "goatse", "gokkun", "grope", "guro", "gwg", "hentai", "hitler", "hjt", "honkey", "hooker", "incest", "j8", "jba", "ji8", "jiba", "jiz", "juggs", "jzm", "k7", "kike", "kinky", "kmt", "kock", "liu4", "liusi", "lolita", "lsp", "m0m", "m2f", "mh0", "milf", "mof0", "nambla", "negro", "nignog", "nigga", "nigger", "nipple", "njink", "nmd", "ntd", "ntr", "nympho", "orgasm", "orgy", "p0rn", "p2np", "p3t", "paki", "panty", "pcp", "penis", "phuq", "pig", "poof", "poon", "porn", "pqp", "prr", "pthc", "pu55i", "pu55y", "pubes", "puki", "punany", "pussy", "queaf", "queef", "queer", "quim", "rape", "raping", "rapist", "rbq", "rectum", "rimjob", "s2x", "s3x", "sadism", "scat", "semen", "sex", "sh7t", "shit", "shota", "six4", "skeet", "slut", "slvt", "smut", "sodomy", "spic", "spooge", "spunk", "suck", "t3k", "t41", "t43", "t4e", "t4i", "tits", "tiedup", "titty", "tmd", "tosser", "tranny", "tushy", "twat", "twink", "vagina", "vi4", "viiv", "vpn", "vulva", "waf", "wank", "whore", "wh0re", "wtf", "x3r", "xdd", "xjp", "yaoi", "yiffy"];
+const blockedWordsRegex = new RegExp(blockedWords.map((word) => word.split("").join("[+/]*")).join("|"), "i");
 
 const allChars = Object.entries(db.chars).map((char) => char[0]);
 const allActions = Object.entries(db.actions).map((action) => action[0]);
@@ -95,6 +99,10 @@ class Main extends Component {
         }
 
     importDeck(deckString) { //version 1.0. New deck strin  g converter below. 
+        if (/^[A-Za-z0-9+\/]{68}$/.test(deckString.trim())) { //in-game deck code
+            this.importDeckv42(deckString.trim());
+            return;
+        }
         var index = 0;
         while (deckString.length > 2) {
             if (!(deckString && deckString[0] + deckString[1] == '!!')) {
@@ -159,7 +167,7 @@ class Main extends Component {
 
     validDeckCheckHelper(twoDigitString) { //will need to update this as database expands unfortunately
         const conversion = parseInt(twoDigitString, 36)
-        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161) || (conversion >= 167 && conversion <= 179) || (conversion >= 232 && conversion <= 234) || (conversion >= 243 && conversion <= 245) || (conversion >= 254 && conversion <= 256) || (conversion >= 266 && conversion <= 268) || (conversion >= 277 && conversion <= 287) || (conversion >= 319 && conversion <= 322) || (conversion >= 334 && conversion <= 337) || (conversion >= 348 && conversion <= 360))) {
+        if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 1 && conversion <= 27) || (conversion >= 147 && conversion <= 148) || (conversion >= 151 && conversion <= 153) || (conversion >= 159 && conversion <= 161) || (conversion >= 167 && conversion <= 179) || (conversion >= 232 && conversion <= 234) || (conversion >= 243 && conversion <= 245) || (conversion >= 254 && conversion <= 256) || (conversion >= 266 && conversion <= 268) || (conversion >= 277 && conversion <= 287) || (conversion >= 319 && conversion <= 322) || (conversion >= 334 && conversion <= 337) || (conversion >= 348 && conversion <= 360) || (conversion >= 395 && conversion <= 395))) {
             return 'char';
         }
         else if (/^[A-Z0-9]+$/.test(twoDigitString) && ((conversion >= 28 && conversion <= 146) || (conversion >= 149 && conversion <= 150) || (conversion >= 154 && conversion <= 158) || (conversion >= 162 && conversion <= 166) || (conversion >= 180 && conversion <= 231) || (conversion >= 235 && conversion <= 242) || (conversion >= 246 && conversion <= 253) || (conversion >= 257 && conversion <= 265) || (conversion >= 269 && conversion <= 276) || (conversion >= 288 && conversion <= 318) || (conversion >= 323 && conversion <= 333) || (conversion >= 338 && conversion <= 347) || (conversion >= 361 && conversion <= 394))) {
@@ -233,10 +241,7 @@ class Main extends Component {
         for (var i = 0; i < translated.length; i+=8) {
             var temp = translated.substring(i, i+8);
             temp = parseInt(temp, 2);
-            if (temp == 0 && offset != 0) {
-                temp = 256;
-            } 
-            temp -= offset;
+            temp = (temp - offset + 256) % 256;
             temp = temp.toString(16);
             while (temp.length < 2) {
                 temp = "0" + temp;
@@ -280,14 +285,10 @@ class Main extends Component {
             this.setState({total_actions: actual});
     }
 
-    decodev42(build) {
-        const allChars = Object.entries(db.chars).map((char) => char[0]);
-        const allActions = Object.entries(db.actions).map((action) => action[0]);
-        const combinedList = ['BLANK'].concat(allChars, allActions);
-        if (Number('0x' + build) > combinedList.length) {
-            return 'BLANK';
-        }
-        return combinedList[Number('0x' + build)];
+    decodev42(build) { //12-bit official share ID -> card key
+        const shareId = Number('0x' + build);
+        const found = Object.keys(db.chars).find((char) => shareIds.chars[char] == shareId) || Object.keys(db.actions).find((action) => shareIds.actions[action] == shareId);
+        return found ? found : 'BLANK';
     }
 
     exportDeckv42() {
@@ -320,43 +321,32 @@ class Main extends Component {
                 i += flip; {flip == 1 ? flip = 3 : flip = 1};
             }
         }
-        //at this point the deck code is basically done, but if this first deck code doesnt work we have to increase every byte by 1
-        for (var index = 1; index < build.length; index += 2) { 
-            if (build[index] == "1111") {
-                build[index] = "0000";
-                build[index - 1] = (parseInt(build[index - 1], 2) + 1).toString(2);
-                if (build[index - 1] == "10000") {
-                    build[index - 1] = "0000";
-                }
-                while (build[index - 1].length < 4) {
-                    build[index - 1] = "0" + build[index - 1];
-                }
-            }
-            else {
-                build[index] = (parseInt(build[index], 2) + 1).toString(2);
-                while (build[index].length < 4) {
-                    build[index] = "0" + build[index];
-                }
-            }
-        }
         build = build.join("");
-        var toReturn = "";
-        for (var s = 0; s < build.length; s += 6) { //convert to base 64
-            var temp = build.substring(s, s+6);
-            toReturn = toReturn + base64conversion[parseInt(temp, 2)];
+        var bytes = [];
+        for (var b = 0; b < 50; b++) {
+            bytes.push(parseInt(build.substring(b * 8, b * 8 + 8), 2));
         }
-        return toReturn;
+        for (var last = 0; last < 256; last++) { //the last byte is added to every other byte, like the game does
+            var bits = bytes.concat([0]).map((byte, index) => (index == 50 ? last : (byte + last) % 256).toString(2).padStart(8, "0")).join("");
+            var toReturn = "";
+            for (var s = 0; s < bits.length; s += 6) { //convert to base 64
+                var temp = bits.substring(s, s+6);
+                toReturn = toReturn + base64conversion[parseInt(temp, 2)];
+            }
+            if (!blockedWordsRegex.test(toReturn)) {
+                return toReturn;
+            }
+        }
+        return "";
     }
 
-    encodev42(thing) {
-        const allChars = Object.entries(db.chars).map((char) => char[0]); //this part needs updating to make it map correctly
-        const allActions = Object.entries(db.actions).map((action) => action[0]); //update
-        const combinedList = ['BLANK'].concat(allChars, allActions); //update
-        var toReturn = combinedList.indexOf(thing).toString(2); //update
-        if (toReturn == -1) {
+    encodev42(thing) { //card key -> 12-bit official share ID
+        const shareId = shareIds.chars[thing] || shareIds.actions[thing];
+        if (!shareId) {
             console.log("error", thing);
             return "000000000000";
         }
+        var toReturn = shareId.toString(2);
         while (toReturn.length < 12) {
             toReturn = "0" + toReturn;
         }

@@ -177,6 +177,7 @@ import Action_Sort from './images/Action_Sort.png'
 import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 import Joyous_Celebration from './images/Joyous_Celebration.png'
+import Chevreuse_Icon from './images/Chevreuse_Icon.png'
 
 if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
 
@@ -767,6 +768,24 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "Time to rock!", 
                 'id': '9U', 
                 'keyword': 'claymore',
+            },
+
+            'chevreuse': {
+                'name': "Chevreuse",
+                'na': "Line Bayonet Thrust EX \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+                'skill': "Short-Range Rapid Interdiction Fire \n3 Pyro \nDeals 2 Pyro DMG. \n\nAfter the Skill finalizes: If your Hand has Overcharged Ball: Discard 1 of them and heal the character on your team that has taken the most damage for 1 HP.",
+                'burst': "Ring of Bursting Grenades \n3 Pyro, 2 Energy \nDeals 2 Pyro DMG, creates 1 Secondary Explosive Shells on the opponent's side of the field.",
+                'special': "Vertical Force Coordination \n(Passive) \nAfter an opponent's character takes Overloaded reaction DMG: Create 1 Overcharged Ball card in your Hand (Once per Round)",
+                'hi_res_image': '/cards/gcg_1313_hd.webp',
+                'card': '/cards/gcg_1313.webp',
+                'card_selected': '/cards/gcg_1313_golden.webp',
+                'icon': Chevreuse_Icon,
+                'element': 'pyro',
+                'region': 'fontaine',
+                'related': "Overcharged Ball, Secondary Explosive Shells",
+                'flavor': "Righteous Enforcer of the Law.",
+                'id': 'AZ',
+                'keyword': 'polearm',
             },
     
             "fischl": {
@@ -6472,6 +6491,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "type": "Status",
                 "description": "When the character to which this is attached uses Charged Attack: Spend 1 less Unaligned Element, Physical DMG dealt converted to Anemo DMG, and attaches Pressurized Collapse to the target character. \n\nUsage(s): 1",
                 "related": "Faruzan"
+            },
+            "overchargedball": {
+                "name": "Overcharged Ball",
+                "type": "Event",
+                "cost": "2 Pyro",
+                "description": "Combat Action: Deal 1 Pyro DMG to the opponent's active character. \n\nWhen this card is Discarded: Deal 1 Pyro DMG to the opponent's active character.",
+                "related": "Chevreuse"
+            },
+            "secondaryexplosiveshells": {
+                "name": "Secondary Explosive Shells",
+                "type": "Combat Status",
+                "description": "After a character switch takes place on this side of the field: Deal 1 Pyro DMG to the character switched to. \n\nUsage(s): 2",
+                "related": "Chevreuse"
             },
         },
     
