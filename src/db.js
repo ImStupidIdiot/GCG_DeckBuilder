@@ -178,6 +178,60 @@ import Char_Sort_Hover from './images/Char_Sort_Hover.png'
 import Action_Sort_Hover from './images/Action_Sort_Hover.png'
 import Joyous_Celebration from './images/Joyous_Celebration.png'
 import Chevreuse_Icon from './images/Chevreuse_Icon.png'
+import Navia_Icon from './images/Navia_Icon.png'
+import FrostOperative_Icon from './images/FrostOperative_Icon.png'
+import Freminet_Icon from './images/Freminet_Icon.png'
+import Xianyun_Icon from './images/Xianyun_Icon.png'
+import HydroHilichurlRogue_Icon from './images/HydroHilichurlRogue_Icon.png'
+import Chiori_Icon from './images/Chiori_Icon.png'
+import AbyssLectorVioletLightning_Icon from './images/AbyssLectorVioletLightning_Icon.png'
+import EremiteFloralRingDancer_Icon from './images/EremiteFloralRingDancer_Icon.png'
+import Rosaria_Icon from './images/Rosaria_Icon.png'
+import Sigewinne_Icon from './images/Sigewinne_Icon.png'
+import GoldenWolflord_Icon from './images/GoldenWolflord_Icon.png'
+import Mualani_Icon from './images/Mualani_Icon.png'
+import Clorinde_Icon from './images/Clorinde_Icon.png'
+import Arlecchino_Icon from './images/Arlecchino_Icon.png'
+import Kinich_Icon from './images/Kinich_Icon.png'
+import Kachina_Icon from './images/Kachina_Icon.png'
+import Emilie_Icon from './images/Emilie_Icon.png'
+import Sethos_Icon from './images/Sethos_Icon.png'
+import Xilonen_Icon from './images/Xilonen_Icon.png'
+import Citlali_Icon from './images/Citlali_Icon.png'
+import Mavuika_Icon from './images/Mavuika_Icon.png'
+import Chasca_Icon from './images/Chasca_Icon.png'
+import LanYan_Icon from './images/LanYan_Icon.png'
+import ShikanoinHeizou_Icon from './images/ShikanoinHeizou_Icon.png'
+import GluttonousYumkasaurMountainKing_Icon from './images/GluttonousYumkasaurMountainKing_Icon.png'
+import Iansan_Icon from './images/Iansan_Icon.png'
+import YumemizukiMizuki_Icon from './images/YumemizukiMizuki_Icon.png'
+import LordOfErodedPrimalFire_Icon from './images/LordOfErodedPrimalFire_Icon.png'
+import Varesa_Icon from './images/Varesa_Icon.png'
+import Ifa_Icon from './images/Ifa_Icon.png'
+import HydroTulpa_Icon from './images/HydroTulpa_Icon.png'
+import Escoffier_Icon from './images/Escoffier_Icon.png'
+import Gaming_Icon from './images/Gaming_Icon.png'
+import BlackSerpentKnightRockbreakerAx_Icon from './images/BlackSerpentKnightRockbreakerAx_Icon.png'
+import Skirk_Icon from './images/Skirk_Icon.png'
+import Ororon_Icon from './images/Ororon_Icon.png'
+import ConsecratedHornedCrocodile_Icon from './images/ConsecratedHornedCrocodile_Icon.png'
+import Mika_Icon from './images/Mika_Icon.png'
+import Ineffa_Icon from './images/Ineffa_Icon.png'
+import GoldflameQucusaurTyrant_Icon from './images/GoldflameQucusaurTyrant_Icon.png'
+import Dahlia_Icon from './images/Dahlia_Icon.png'
+import Aino_Icon from './images/Aino_Icon.png'
+import ConsecratedFangedBeast_Icon from './images/ConsecratedFangedBeast_Icon.png'
+import Flins_Icon from './images/Flins_Icon.png'
+import Lauma_Icon from './images/Lauma_Icon.png'
+import ExperimentalFieldGenerator_Icon from './images/ExperimentalFieldGenerator_Icon.png'
+import Nefer_Icon from './images/Nefer_Icon.png'
+import WaywardHermeticSpiritspeaker_Icon from './images/WaywardHermeticSpiritspeaker_Icon.png'
+import BlackSerpentKnightWindcutter_Icon from './images/BlackSerpentKnightWindcutter_Icon.png'
+import Durin_Icon from './images/Durin_Icon.png'
+import Jahoda_Icon from './images/Jahoda_Icon.png'
+import HydroHypostasis_Icon from './images/HydroHypostasis_Icon.png'
+import Columbina_Icon from './images/Columbina_Icon.png'
+import Illuga_Icon from './images/Illuga_Icon.png'
 
 if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
 
@@ -371,6 +425,112 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '9S',
                 'keyword': 'catalyst',
             },
+
+            'freminet': {
+                'name': "Freminet",
+                'na': "Flowing Eddies \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
+                'skill': "Pressurized Floe \n3 Cryo \nDeals 2 Cryo DMG. If this character has not yet gained Pers Timer, they will gain Pers Timer.",
+                'burst': "Shadowhunter's Ambush \n3 Cryo, 2 Energy \nDeals 4 Cryo DMG. Attaches Subnautical Hunter Mode to this character.",
+                'hi_res_image': '/cards/gcg_1112_hd.webp',
+                'card': '/cards/gcg_1112.webp',
+                'card_selected': '/cards/gcg_1112_golden.webp',
+                'icon': Freminet_Icon,
+                'element': 'cryo',
+                'region': 'fatui',
+                'related': "Pers Timer, Subnautical Hunter Mode",
+                'flavor': "Alone under the cold light of stars.",
+                'id': 'BB',
+                'keyword': 'claymore',
+            },
+
+            'rosaria': {
+                'name': "Rosaria",
+                'na': "Spear of the Church \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
+                'skill': "Ravaging Confession \n3 Cryo \nDeals 1 Cryo DMG, creates 1 stack of Scope Out Soft Spots. (When the Scope Out Soft Spots effect is triggered, creates Strike Where It Hurts.)",
+                'burst': "Rites of Termination \n3 Cryo, 2 Energy \nDeals 1 Cryo DMG, creates 2 stacks of Scope Out Soft Spots, and summons Evercold Frostlance.",
+                'hi_res_image': '/cards/gcg_1113_hd.webp',
+                'card': '/cards/gcg_1113.webp',
+                'card_selected': '/cards/gcg_1113_golden.webp',
+                'icon': Rosaria_Icon,
+                'element': 'cryo',
+                'region': 'mondstadt',
+                'related': "Scope Out Soft Spots, Strike Where It Hurts, Evercold Frostlance",
+                'flavor': "\"Light creates shadow, but shadow will not be controlled by light.\"",
+                'id': 'C0',
+                'keyword': 'polearm',
+            },
+
+            'citlali': {
+                'name': "Citlali",
+                'na': "Shadow-Stealing Spirit Vessel \n2 Black, 1 Cryo \nDeals 1 Cryo DMG.",
+                'skill': "Dawnfrost Darkstar \n3 Cryo \nDeals 1 Cryo DMG. \n\nEnters Nightsoul's Blessing, gains 1 Nightsoul point, and creates 1 point of Opal Shield and Itzpapa. (This skill cannot be used after the character enters Nightsoul's Blessing)",
+                'burst': "Edict of Entwined Splendor \n3 Cryo, 2 Energy \nDeals 2 Cryo DMG, deals 1 Piercing DMG to all opposing characters on standby, and, if possible, gains 2 Nightsoul points.",
+                'special': "Songs of Profound Mystery \n(Passive) \nAfter you Select or deal DMG with an Elemental Reaction: If possible, gain 1 Nightsoul point. (Once per Round)",
+                'hi_res_image': '/cards/gcg_1114_hd.webp',
+                'card': '/cards/gcg_1114.webp',
+                'card_selected': '/cards/gcg_1114_golden.webp',
+                'icon': Citlali_Icon,
+                'element': 'cryo',
+                'region': 'natlan',
+                'related': "Nightsoul's Blessing, Opal Shield, Itzpapa",
+                'flavor': "The vivid night-wind flows, obsidian reflects the heart.",
+                'id': 'D9',
+                'keyword': 'catalyst',
+            },
+
+            'escoffier': {
+                'name': "Escoffier",
+                'na': "Kitchen Skills \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
+                'skill': "Low-Temperature Cooking \n3 Cryo \nDeals 1 Cryo DMG, summons Cooking Mek: Cold Storage Mode.",
+                'burst': "Scoring Cuts \n3 Cryo, 2 Energy \nDeals 1 Cryo DMG, heals all your characters for 2 HP.",
+                'special': "Constant Off-the-Cuff Cookery \n(Passive) \nWhen battle begins, create 1 All-Spectrum Multi-Use Cooking Mek.",
+                'hi_res_image': '/cards/gcg_1115_hd.webp',
+                'card': '/cards/gcg_1115.webp',
+                'card_selected': '/cards/gcg_1115_golden.webp',
+                'icon': Escoffier_Icon,
+                'element': 'cryo',
+                'region': 'fontaine',
+                'related': "Cooking Mek: Cold Storage Mode, All-Spectrum Multi-Use Cooking Mek",
+                'flavor': "Frosting and bake, the best taste to make.",
+                'id': 'ET',
+                'keyword': 'polearm',
+            },
+
+            'skirk': {
+                'name': "Skirk",
+                'na': "Havoc: Sunder \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
+                'skill': "Havoc: Warp \n2 Cryo \nGains 2 Serpent's Subtlety, then creates 1 Mutual Weapons Mentorship and adds it to your Hand. (Once per Round)",
+                'burst': "Havoc: Ruin \n3 Cryo, 2 Serpent's Subtlety \nConsumes all Serpent's Subtlety, deals Cryo DMG equal to the Serpent's Subtlety consumed, and deals 2 Piercing DMG to characters on standby. If 7 Serpent's Subtlety are consumed, deal 3 Piercing DMG to characters on standby instead.",
+                'special': "Reason Beyond Reason \n(Passive) \nSkirk is unable to gain Energy but can now accumulate up to 7 points of Serpent's Subtlety. \n\nAfter you trigger Frozen, Cryo Swirl, Superconduct, or Cryo Crystallize reactions: Create 1 Void Rift in your hand. (3 times per Round)",
+                'hi_res_image': '/cards/gcg_1116_hd.webp',
+                'card': '/cards/gcg_1116.webp',
+                'card_selected': '/cards/gcg_1116_golden.webp',
+                'icon': Skirk_Icon,
+                'element': 'cryo',
+                'region': 'cosmic calamity',
+                'related': "Mutual Weapons Mentorship, Void Rift",
+                'flavor': "The stars fade to black.",
+                'id': 'F4',
+                'keyword': 'sword',
+            },
+
+            'mika': {
+                'name': "Mika",
+                'na': "Spear of Favonius - Arrow's Passage \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
+                'skill': "Starfrost Swirl \n3 Cryo \nDeals 2 Cryo DMG and creates Soulwind.",
+                'burst': "Skyfeather Song \n3 Cryo, 2 Energy \nHeals all your characters for 1 HP, creates Eagleplume Experience and Eagleplume Encomium.",
+                'special': "Suppressive Barrage \n(Passive) \nAfter this character uses a Skill: +1 to the next instance of Physical DMG you deal. (Twice per Round)",
+                'hi_res_image': '/cards/gcg_1117_hd.webp',
+                'card': '/cards/gcg_1117.webp',
+                'card_selected': '/cards/gcg_1117_golden.webp',
+                'icon': Mika_Icon,
+                'element': 'cryo',
+                'region': 'mondstadt',
+                'related': "Soulwind, Eagleplume Experience, Eagleplume Encomium",
+                'flavor': "With a feather plume as gold as maize, uncharted borders are depicted as clear as day.",
+                'id': 'FF',
+                'keyword': 'polearm',
+            },
     
             "barbara": {
                 "name": "Barbara",
@@ -562,6 +722,97 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "Perpetual muse of chansons and rondeaux.",
                 'id': '9T',
                 'keyword': 'sword',
+            },
+
+            'sigewinne': {
+                'name': "Sigewinne",
+                'na': "Targeted Treatment \n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+                'skill': "Rebound Hydrotherapy \n3 Hydro \nCreate 1 Large Bolstering Bubblebalm and insert as the third card from the top of your deck. This character gains 3 stacks of Bond of Life. (After the Large Bolstering Bubblebalm effect is triggered, create a Medium Bolstering Bubblebalm and place in your opponent's deck. After the Medium Bolstering Bubblebalm effect is triggered, create a Small Bolstering Bubblebalm and place in your deck.)",
+                'burst': "Super Saturated Syringing \n3 Hydro, 2 Energy \nDeals 2 Hydro DMG, then performs \"Prepare Skill\" for Medical Intervention of Pure Intention.",
+                'special': "Medical Intervention of Pure Intention \nDeals 2 Hydro DMG. \n",
+                'special2': "Detailed Diagnosis, Thorough Treatment \n(Passive) \nWhen you switch to this character: If your side has Sourcewater Droplet, -1 to their Usage(s), and this character gains 1 Energy.",
+                'hi_res_image': '/cards/gcg_1213_hd.webp',
+                'card': '/cards/gcg_1213.webp',
+                'card_selected': '/cards/gcg_1213_golden.webp',
+                'icon': Sigewinne_Icon,
+                'element': 'hydro',
+                'region': 'fontaine',
+                'related': "Large Bolstering Bubblebalm, Bond of Life, Medium Bolstering Bubblebalm, Small Bolstering Bubblebalm, Sourcewater Droplet",
+                'flavor': "\"Pure spirit, heed my wish.\"",
+                'id': 'C1',
+                'keyword': 'bow',
+            },
+
+            'mualani': {
+                'name': "Mualani",
+                'na': "Cooling Treatment \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.",
+                'skill': "Surfshark Wavebreaker \n2 Hydro \nAttach Bitey Shark to self, then enter Nightsoul's Blessing and gain 2 \"Nightsoul points.\" (This skill cannot be used after the character enters Nightsoul's Blessing) \n\n(Characters with Bitey Shark attached can use the Technique: Sharky Surfboard)",
+                'burst': "Boomsharka-laka \n3 Hydro, 2 Energy \nDeals 2 Hydro DMG, summons Shark Missile.",
+                'hi_res_image': '/cards/gcg_1214_hd.webp',
+                'card': '/cards/gcg_1214.webp',
+                'card_selected': '/cards/gcg_1214_golden.webp',
+                'icon': Mualani_Icon,
+                'element': 'hydro',
+                'region': 'natlan',
+                'related': "Bitey Shark, Nightsoul's Blessing, Shark Missile",
+                'flavor': "Swellrider of Perennial Springs",
+                'id': 'CC',
+                'keyword': 'catalyst',
+            },
+
+            'dahlia': {
+                'name': "Dahlia",
+                'na': "Favonius Bladework - Ritual \n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+                'skill': "Immersive Ordinance \n3 Hydro \nDeals 2 Hydro DMG and creates Sacramental Shower.",
+                'burst': "Radiant Psalter \n3 Hydro, 2 Energy \nDeals 2 Hydro DMG, creates 2 stacks of Shield and 2 stacks of Favonian Favor.",
+                'hi_res_image': '/cards/gcg_1215_hd.webp',
+                'card': '/cards/gcg_1215.webp',
+                'card_selected': '/cards/gcg_1215_golden.webp',
+                'icon': Dahlia_Icon,
+                'element': 'hydro',
+                'region': 'mondstadt',
+                'related': "Sacramental Shower, Shield, Favonian Favor",
+                'flavor': "Let hymns of praise cast the winds as my ode.",
+                'id': 'FU',
+                'keyword': 'sword',
+            },
+
+            'aino': {
+                'name': "Aino",
+                'na': "Bish-Bash-Bosh Repair \n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+                'skill': "Musecatcher \n3 Hydro \nDeal 2 Hydro DMG with 1 stack of Agile Switch created. If you have a card with Empowerment in your Hand, deal 3 Hydro DMG instead.",
+                'burst': "Precision Hydronic Cooler \n3 Hydro, 2 Energy \nDeals 2 Hydro DMG and summons Cool Your Jets Ducky.",
+                'special': "Modular Efficiency Protocol \n(Passive) \nWhen Empowerment is attached to your card: If there is Cool Your Jets Ducky on your side, it gains 1 Usage, otherwise, gains 1 Energy. (Once per Round)",
+                'hi_res_image': '/cards/gcg_1216_hd.webp',
+                'card': '/cards/gcg_1216.webp',
+                'card_selected': '/cards/gcg_1216_golden.webp',
+                'icon': Aino_Icon,
+                'element': 'hydro',
+                'region': 'nodkrai',
+                'related': "Agile Switch, Cool Your Jets Ducky",
+                'flavor': "Dreams spring to life with a clink-clank-clatter.",
+                'id': 'FV',
+                'keyword': 'claymore',
+            },
+
+            'columbina': {
+                'name': "Columbina",
+                'na': "Moondew Cascade \n2 Black, 1 Hydro \nDeals 1 Hydro DMG. \n\nDuring this match, after opposing characters have been affected by a total of 3 instances of Lunar Reactions, if there is a card with Cost Reduction attached to it in your Hand, place 1 random card in your Hand with Cost Reduction attached to it on top of your deck, then deal 1 Dendro DMG. (Once per Round)",
+                'skill': "Eternal Tides \n3 Hydro \nDeals 1 Hydro DMG and creates Gravity Ripple.",
+                'burst': "Moonlit Melancholy \n3 Hydro, 3 Energy \nDeals 3 Hydro DMG and creates Lunar Domain.",
+                'special': "Moondew Cascade \n \n",
+                'special2': "Moonsign Benediction: Moonlight, Lent Unto You \n(Passive) \nDuring this match, when the opponent is affected by the Electro-Charged Reaction/Bloom Reaction/Hydro Crystallize Reaction, the reaction will be converted to the Lunar-Charged/Lunar-Bloom/Lunar-Crystallize Reaction. \n\nWhen the opponent is affected by the Lunar-Charged/Lunar-Bloom/Lunar-Crystallize Reaction: Deals 1 Electro DMG/Dendro DMG/Geo DMG. (Once per Round)",
+                'special3': "Moonsign Benediction: Moonlight, Lent Unto You \n(Passive) \n",
+                'hi_res_image': '/cards/gcg_1217_hd.webp',
+                'card': '/cards/gcg_1217.webp',
+                'card_selected': '/cards/gcg_1217_golden.webp',
+                'icon': Columbina_Icon,
+                'element': 'hydro',
+                'region': 'nodkrai',
+                'related': "Gravity Ripple, Lunar Domain",
+                'flavor': "Moonlit Dove, Where Lies Your Cove?",
+                'id': 'H8',
+                'keyword': 'catalyst',
             },
     
             "diluc": {
@@ -787,6 +1038,79 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': 'AZ',
                 'keyword': 'polearm',
             },
+
+            'arlecchino': {
+                'name': "Arlecchino",
+                'na': "Invitation to a Beheading \n2 Black, 1 Pyro \nDeal 2 Physical DMG. If possible, consume up to 3 stacks of the target's Bond of Life and increase DMG by the same amount.",
+                'skill': "All Is Ash \n3 Pyro \nCreate 3 stacks of Blood-Debt Directive on the opponent's side of the field and deal 2 Pyro DMG.",
+                'burst': "Balemoon Rising \n3 Pyro, 3 Energy \nDeal 4 Pyro DMG. Remove all of your stacks of Bond of Life and heal yourself for 1 HP per stack.",
+                'special': "The Balemoon Alone May Know \n(Passive) \nCharacters won't receive healing from sources other than Balemoon Rising. \n\nWhen Bond of Life is attached to self: Physical DMG dealt by characters is converted to Pyro DMG.",
+                'hi_res_image': '/cards/gcg_1314_hd.webp',
+                'card': '/cards/gcg_1314.webp',
+                'card_selected': '/cards/gcg_1314_golden.webp',
+                'icon': Arlecchino_Icon,
+                'element': 'pyro',
+                'region': 'fatui',
+                'related': "Bond of Life, Blood-Debt Directive",
+                'flavor': "Solitary Balemoon in a Sky of Fading Stars.",
+                'id': 'CM',
+                'keyword': 'polearm',
+            },
+
+            'mavuika': {
+                'name': "Mavuika",
+                'na': "Flames Weave Life \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+                'skill': "The Named Moment \n3 Pyro \nEnters Nightsoul's Blessing and gains 2 \"Nightsoul points.\" Select 1 card from 3 Flamestrider cards to add to your Hand.",
+                'burst': "Hour of Burning Skies \n4 Pyro, 3 Fighting Spirit \nThis character enters Nightsoul's Blessing, gains 1 Nightsoul point, and consumes all of their Fighting Spirit. They then deal Pyro DMG to the opponent's active character equal to the Fighting Spirit consumed. \n\nIf 6 points of Fighting Spirit are consumed, attach Crucible of Death and Life to this character.",
+                'special': "Flamestrider: Full Throttle \nAt the start of the Action Phase: Create 2 Omni Dice. \n",
+                'special2': "Fighting Spirit \n(Passive) \nThis character cannot gain Energy. \n\nEach time your characters consume Nightsoul points or use Normal Attacks, gain 1 Fighting Spirit. \n\nWhen this character uses an Elemental Skill or Elemental Burst, attach All-Fire Armaments: Ring of Searing Radiance.",
+                'hi_res_image': '/cards/gcg_1315_hd.webp',
+                'card': '/cards/gcg_1315.webp',
+                'card_selected': '/cards/gcg_1315_golden.webp',
+                'icon': Mavuika_Icon,
+                'element': 'pyro',
+                'region': 'natlan',
+                'related': "Nightsoul's Blessing, Crucible of Death and Life, All-Fire Armaments: Ring of Searing Radiance",
+                'flavor': "The brightest, most splendid, most resplendent flame reborn.",
+                'id': 'DA',
+                'keyword': 'claymore',
+            },
+
+            'gaming': {
+                'name': "Gaming",
+                'na': "Stellar Rend \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+                'skill': "Bestial Ascent \n3 Pyro \nDeals 1 Pyro DMG. Attaches Wushou Arts to self and switches to your next character.",
+                'burst': "Suanni's Gilded Dance \n3 Pyro, 3 Energy \nDeals 2 Pyro DMG. Attaches Suanni: Man Chai to self.",
+                'special': "Charmed Cloudstrider \nDeals 2 Pyro DMG. \n",
+                'hi_res_image': '/cards/gcg_1316_hd.webp',
+                'card': '/cards/gcg_1316.webp',
+                'card_selected': '/cards/gcg_1316_golden.webp',
+                'icon': Gaming_Icon,
+                'element': 'pyro',
+                'region': 'liyue',
+                'related': "Wushou Arts, Suanni: Man Chai",
+                'flavor': "\"Stalwart strider.\"",
+                'id': 'EU',
+                'keyword': 'claymore',
+            },
+
+            'durin': {
+                'name': "Durin",
+                'na': "Radiant Wingslash \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+                'skill': "Binary Form: Convergence and Division \n3 Pyro \nDeals 3 Pyro DMG. This character gains Essential Transmutation.",
+                'burst': "Principle of Purity: As the Light Shifts \n3 Pyro, 2 Energy \nDeals 1 Pyro DMG and create Confirmation of Purity.",
+                'special': "Light Manifest of the Divine Calculus \n(Passive) \nAfter this character uses a Normal Attack: Switch their Elemental Burst to Principle of Darkness: As the Stars Smolder. \n\nAfter this character uses an Elemental Skill: Switch their Elemental Burst to Principle of Purity: As the Light Shifts.",
+                'hi_res_image': '/cards/gcg_1317_hd.webp',
+                'card': '/cards/gcg_1317.webp',
+                'card_selected': '/cards/gcg_1317_golden.webp',
+                'icon': Durin_Icon,
+                'element': 'pyro',
+                'region': 'mondstadt',
+                'related': "Essential Transmutation, Confirmation of Purity",
+                'flavor': "Born from ink, he soars among the stars.",
+                'id': 'GW',
+                'keyword': 'sword',
+            },
     
             "fischl": {
                 "name": "Fischl",
@@ -977,6 +1301,136 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '9O',
                 "keyword": "sword"
             },
+
+            'clorinde': {
+                'name': "Clorinde",
+                'na': "Oath of Hunting Shadows \n2 Black, 1 Electro \nDeals 1 Physical DMG. If this character has Night Vigil attached, this Skill costs 1 less Unaligned Element.",
+                'skill': "Hunter's Vigil \n2 Electro \nAttach Night Vigil to self, then remove all of your Bond of Life. Based on the number of stacks removed, deal Electro DMG and heal yourself. (DMG and healing are capped at 4 points)",
+                'burst': "Last Lightfall \n3 Electro, 2 Energy \nDeals 3 Electro DMG, and attaches 4 stacks of Bond of Life to self.",
+                'hi_res_image': '/cards/gcg_1412_hd.webp',
+                'card': '/cards/gcg_1412.webp',
+                'card_selected': '/cards/gcg_1412_golden.webp',
+                'icon': Clorinde_Icon,
+                'element': 'electro',
+                'region': 'fontaine',
+                'related': "Night Vigil, Bond of Life",
+                'flavor': "Vanquisher of Phantoms, Vigil of the Long Night",
+                'id': 'CD',
+                'keyword': 'sword',
+            },
+
+            'sethos': {
+                'name': "Sethos",
+                'na': "Royal Reed Archery \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
+                'skill': "Ancient Rite: The Thundering Sands \n2 Electro \nThe opposing active character gains Electro Application, and you switch to your next character. Attach Thunder Convergence to self.",
+                'burst': "Secret Rite: Twilight Shadowpiercer \n3 Electro, 4 Energy \nDeals 3 Electro DMG. Attaches Twilight Meditation to self.",
+                'special': "Black Kite's Enigma \n(Passive) \nCharacter's own Normal Attacks will not generate Energy. \n\nAfter performing a Normal Attack: If possible, consume all Energy and deal Piercing DMG equal to the amount consumed +1 to the enemy with the lowest HP.",
+                'hi_res_image': '/cards/gcg_1413_hd.webp',
+                'card': '/cards/gcg_1413.webp',
+                'card_selected': '/cards/gcg_1413_golden.webp',
+                'icon': Sethos_Icon,
+                'element': 'electro',
+                'region': 'sumeru',
+                'related': "Thunder Convergence, Twilight Meditation",
+                'flavor': "A visitor from the sea of sand, profound in providence.",
+                'id': 'D1',
+                'keyword': 'bow',
+            },
+
+            'iansan': {
+                'name': "Iansan",
+                'na': "Weighted Spike \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
+                'skill': "Thunderbolt Rush \n3 Electro \nDeals 2 Electro DMG, enters Nightsoul's Blessing, gains 1 Nightsoul point, and creates 1 stack of Agile Switch.",
+                'burst': "The Three Principles of Power \n3 Electro, 2 Energy \nDeals 2 Electro DMG, enters Nightsoul's Blessing, gains 1 Nightsoul point, and creates Kinetic Energy Scale.",
+                'special': "Caloric Balancing Plan \n(Passive) \nWhile this character is in Nightsoul's Blessing, after your character performs Prepare Skill or switches 2 times, if their Nightsoul points are 2, then heal the most damaged character on your side for 1 HP. Otherwise, gain 1 Nightsoul point. (3 times per Round)",
+                'special2': "Caloric Balancing Plan \n(Passive) \nWhile this character is in Nightsoul's Blessing, after your character performs Prepare Skill or switches 2 times, if their Nightsoul points are 2, then heal the most damaged character on your side for 1 HP. Otherwise, gain 1 Nightsoul point. (3 times per Round)",
+                'hi_res_image': '/cards/gcg_1414_hd.webp',
+                'card': '/cards/gcg_1414.webp',
+                'card_selected': '/cards/gcg_1414_golden.webp',
+                'icon': Iansan_Icon,
+                'element': 'electro',
+                'region': 'natlan',
+                'related': "Nightsoul's Blessing, Agile Switch, Kinetic Energy Scale",
+                'flavor': "Early to bed, early to rise. Avoid anything high in sugar or sodium.",
+                'id': 'E2',
+                'keyword': 'polearm',
+            },
+
+            'varesa': {
+                'name': "Varesa",
+                'na': "By the Horns \n2 Black, 1 Electro \nDeals 1 Electro DMG. When the Skill used this time is Plunging Attack: Deal +1 DMG. This character enters Nightsoul's Blessing, and gains 1 Nightsoul point.",
+                'skill': "Riding the Night-Rainbow \n3 Electro \nDeals 2 Electro DMG, applies Sudden Onrush to self, enters Nightsoul's Blessing, gains 1 Nightsoul point, then switches to the next character.",
+                'burst': "Guardian Vent! \n3 Electro, 3 Energy \nDeals 3 Electro DMG, applies Apex Drive to self.",
+                'special': "Guardian Vent: Volcano Kablam \nDeals 3 Electro DMG. This Skill is considered a Plunging Attack. \n",
+                'special2': "Tag-Team Triple Jump! \n(Passive) \nAfter Varesa uses a Skill: If she has 2 Nightsoul points, she consumes 2 Nightsoul points and applies Apex Drive to herself.",
+                'hi_res_image': '/cards/gcg_1415_hd.webp',
+                'card': '/cards/gcg_1415.webp',
+                'card_selected': '/cards/gcg_1415_golden.webp',
+                'icon': Varesa_Icon,
+                'element': 'electro',
+                'region': 'natlan',
+                'related': "Nightsoul's Blessing, Sudden Onrush, Apex Drive",
+                'flavor': "Steadfast in defense, unshakeable in offense.",
+                'id': 'EH',
+                'keyword': 'catalyst',
+            },
+
+            'ororon': {
+                'name': "Ororon",
+                'na': "Spiritvessel Snapshot \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
+                'skill': "Night's Sling \n3 Electro \nDeals 2 Electro DMG and creates a Spirit Orb.",
+                'burst': "Dark Voices Echo \n3 Electro, 2 Energy \nDeals 2 Electro DMG and summons Supersonic Oculus.",
+                'special': "Nightshade Synesthesia \n(Passive) \nAfter you trigger Electro-Charged or Lunar-Charged: If possible, consume 2 Nightsoul points to deal 1 Electro DMG. \n\nAfter you deal Hydro DMG or Electro DMG from a source other than this skill, enter Nightsoul's Blessing and gain 1 Nightsoul point. (Once per Round)",
+                'special2': "Nightshade Synesthesia \n(Passive) \nAfter you trigger Electro-Charged or Lunar-Charged: If possible, consume 2 Nightsoul points to deal 1 Electro DMG. \n\nAfter you deal Hydro DMG or Electro DMG from a source other than this skill, enter Nightsoul's Blessing and gain 1 Nightsoul point. (Once per Round)",
+                'hi_res_image': '/cards/gcg_1416_hd.webp',
+                'card': '/cards/gcg_1416.webp',
+                'card_selected': '/cards/gcg_1416_golden.webp',
+                'icon': Ororon_Icon,
+                'element': 'electro',
+                'region': 'natlan',
+                'related': "Spirit Orb, Supersonic Oculus, Nightsoul's Blessing",
+                'flavor': "Enigmatic Shadowwalker",
+                'id': 'F5',
+                'keyword': 'bow',
+            },
+
+            'ineffa': {
+                'name': "Ineffa",
+                'na': "Cyclonic Duster \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
+                'skill': "Cleaning Mode: Carrier Frequency \n3 Electro \nGenerates 2 Shield points, summons Birgitta.",
+                'burst': "Supreme Instruction: Cyclonic Exterminator \n3 Electro, 2 Energy \nDeals 4 Electro DMG and summons Birgitta.",
+                'special': "Moonsign Benediction: Assemblage Hub \n(Passive) \nDuring this game, when your opponent is affected by Electro-Charged reaction(s), it will be converted into the Lunar-Charged reaction. \n\nWhen this character's on the field, and the opponent's Action Card is attached with Electric Shock: Also attach the Untunable state.",
+                'special2': "Moonsign Benediction: Assemblage Hub \n(Passive) \nDuring this game, when your opponent is affected by Electro-Charged reaction(s), it will be converted into the Lunar-Charged reaction. \n\nWhen this character's on the field, and the opponent's Action Card is attached with Electric Shock: Also attach the Untunable state.",
+                'hi_res_image': '/cards/gcg_1417_hd.webp',
+                'card': '/cards/gcg_1417.webp',
+                'card_selected': '/cards/gcg_1417_golden.webp',
+                'icon': Ineffa_Icon,
+                'element': 'electro',
+                'region': 'nodkrai',
+                'related': "Shield, Birgitta",
+                'flavor': "White iron forged the body, crimson heart cast the soul.",
+                'id': 'FG',
+                'keyword': 'polearm',
+            },
+
+            'flins': {
+                'name': "Flins",
+                'na': "Pocztowy Demonspear \n2 Black, 1 Electro \nDeals 2 Physical DMG.",
+                'skill': "Ancient Rite: Arcane Light \n2 Electro \nThe first time this Skill is used each Round, deal 1 Electro DMG and attach Manifest Flame to this character. When this Skill is used again, consume 2 Energy and this character prepares: Thunderous Symphony.",
+                'burst': "Ancient Ritual: Cometh the Night \n4 Electro, 4 Energy \nDeals 6 Electro DMG, deals 2 Piercing DMG to all opposing characters on standby.",
+                'special': "Thunderous Symphony \nDeal 2 Electro DMG. If there is Thundercloud on your side, deal +2 DMG. \n",
+                'special2': "Moonsign Benediction: Old World Secrets \n(Passive) \nDuring this game, when your opponent is affected by   Electro-Charged reaction(s), the reaction will be converted to the Lunar-Charged reaction. \n\nWhen this character is on the field, and Electric Shock is attached to the opponent's Action Card: Deal 1 Piercing DMG to the opposing character with the highest HP.",
+                'hi_res_image': '/cards/gcg_1418_hd.webp',
+                'card': '/cards/gcg_1418.webp',
+                'card_selected': '/cards/gcg_1418_golden.webp',
+                'icon': Flins_Icon,
+                'element': 'electro',
+                'region': 'nodkrai',
+                'related': "Manifest Flame, Thundercloud",
+                'flavor': "The graven light leads into fathomless night.",
+                'id': 'G8',
+                'keyword': 'polearm',
+            },
     
             "sucrose": {
                 "name": "Sucrose",
@@ -1133,6 +1587,130 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'keyword': 'bow',
             },
 
+            'xianyun': {
+                'name': "Xianyun",
+                'na': "Word of Wind and Flower \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.",
+                'skill': "White Clouds at Dawn \n3 Anemo \nDeals 1 Anemo DMG. Creates Skyladder. This character gains Driftcloud Wave.",
+                'burst': "Stars Gather at Dusk \n3 Anemo, 2 Energy \nDeals 1 Anemo DMG. Heals all allied characters for 1 HP. Creates 1 Starwicker in your Hand. \n\n(Characters with Starwicker equipped can use the Technique: Adeptal Assistance)",
+                'hi_res_image': '/cards/gcg_1510_hd.webp',
+                'card': '/cards/gcg_1510.webp',
+                'card_selected': '/cards/gcg_1510_golden.webp',
+                'icon': Xianyun_Icon,
+                'element': 'anemo',
+                'region': 'liyue',
+                'related': "Skyladder, Driftcloud Wave, Starwicker",
+                'flavor': "Chivalrous shadow, shrouded in cloud.",
+                'id': 'BC',
+                'keyword': 'catalyst',
+            },
+
+            'chasca': {
+                'name': "Chasca",
+                'na': "Phantom Feather Flurry \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
+                'skill': "Spirit Reins, Shadow Hunt \n3 Anemo \nDeal 1 Anemo DMG and draw 1 card. \n\nAttach Soulsniper: Ritual Staff to this character, who then enters Nightsoul's Blessing and gains 2 Nightsoul points. (This skill cannot be used after the character enters Nightsoul's Blessing) (Characters with Soulsniper: Ritual Staff attached can use the Technique: Multitarget Fire) \n\nThe next 2 times you switch Characters: Draw 1 card.",
+                'burst': "Soul Reaper's Fatal Round \n3 Anemo, 2 Energy \nDeals 1 Anemo DMG, deals 1 Piercing DMG to all opposing characters on standby. Draw 3 cards.",
+                'special': "Shadowhunt Shell \n(Passive) \nAt the start of each match, add 6 random Shadowhunt Shell to your Deck.",
+                'hi_res_image': '/cards/gcg_1511_hd.webp',
+                'card': '/cards/gcg_1511.webp',
+                'card_selected': '/cards/gcg_1511_golden.webp',
+                'icon': Chasca_Icon,
+                'element': 'anemo',
+                'region': 'natlan',
+                'related': "Soulsniper: Ritual Staff, Nightsoul's Blessing, Shadowhunt Shell",
+                'flavor': "Grace and power resound, feathered wings skybound.",
+                'id': 'DB',
+                'keyword': 'bow',
+            },
+
+            'lanyan': {
+                'name': "Lan Yan",
+                'na': "Black Pheasant Strides on Water \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.",
+                'skill': "Swallow-Wisp Pinion Dance \n3 Anemo \nCreate 2 stacks of Swallow-Wisp Shield, gain 1 stack of Efficient Switch, and deal 1 Anemo DMG. If this skill triggers Swirl, create 1 additional stack of Swallow-Wisp Shield.",
+                'burst': "Lustrous Moonrise \n3 Anemo, 2 Energy \nDeals 3 Anemo DMG, creates 2 stacks of Swallow-Wisp Shield.",
+                'hi_res_image': '/cards/gcg_1512_hd.webp',
+                'card': '/cards/gcg_1512.webp',
+                'card_selected': '/cards/gcg_1512_golden.webp',
+                'icon': LanYan_Icon,
+                'element': 'anemo',
+                'region': 'liyue',
+                'related': "Swallow-Wisp Shield, Efficient Switch",
+                'flavor': "The brilliant swallow bears branches of joy to fill the home.",
+                'id': 'DO',
+                'keyword': 'catalyst',
+            },
+
+            'shikanoinheizou': {
+                'name': "Shikanoin Heizou",
+                'na': "Fudou Style Martial Arts \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.",
+                'skill': "Heartstopper Strike \n3 Anemo \nPrepare Skill: Heartstopper Strike: Charge",
+                'burst': "Windmuster Kick \n3 Anemo, 2 Energy \nDeals 4 Anemo DMG. If this Skill triggers Anemo-Related Reactions, attach a Windmuster Iris of the corresponding element to the opponent's active character.",
+                'special': "Heartstopper Strike: Charge \nDeals 4 Anemo DMG. \n",
+                'special2': "Paradoxical Practice \n(Passive) \nAfter you trigger Anemo-Related Reactions: Attach 1 stack of Declension to self.",
+                'hi_res_image': '/cards/gcg_1513_hd.webp',
+                'card': '/cards/gcg_1513.webp',
+                'card_selected': '/cards/gcg_1513_golden.webp',
+                'icon': ShikanoinHeizou_Icon,
+                'element': 'anemo',
+                'region': 'inazuma',
+                'related': "Declension",
+                'flavor': "The heavenly robes, though seamlessly sewn, still fear the winds that with coldness are blown.",
+                'id': 'DP',
+                'keyword': 'catalyst',
+            },
+
+            'yumemizukimizuki': {
+                'name': "Yumemizuki Mizuki",
+                'na': "Pure Heart, Pure Dreams \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.",
+                'skill': "Aisa Utamakura Pilgrimage \n3 Anemo \nDeals 2 Anemo DMG. Attaches Dreamdrifter to self.",
+                'burst': "Anraku Secret Spring Therapy \n3 Anemo, 2 Energy \nDeals 3 Anemo DMG, creates 1 Yumemi Style Special Snacks and places it on top of your deck, and summons Mini Baku.",
+                'hi_res_image': '/cards/gcg_1514_hd.webp',
+                'card': '/cards/gcg_1514.webp',
+                'card_selected': '/cards/gcg_1514_golden.webp',
+                'icon': YumemizukiMizuki_Icon,
+                'element': 'anemo',
+                'region': 'inazuma',
+                'related': "Dreamdrifter, Yumemi Style Special Snacks, Mini Baku",
+                'flavor': "Clouds of doubt depart, moonlight amidst dreams unveiled, to grace dreamers' hearts.",
+                'id': 'E3',
+                'keyword': 'catalyst',
+            },
+
+            'ifa': {
+                'name': "Ifa",
+                'na': "Rite of Dispelling Winds \n2 Black, 1 Anemo \nDeals 1 Anemo DMG.",
+                'skill': "Airborne Disease Prevention \n3 Anemo \nDeals 2 Anemo DMG, enters Nightsoul's Blessing, gains 2 Nightsoul points, and applies Cacucu to self. (This skill cannot be used after the character enters Nightsoul's Blessing.) \n\n(Characters with Cacucu attached can use the Technique: Supporting Fire)",
+                'burst': "Compound Sedation Field \n3 Anemo, 2 Energy \nDeals 2 Anemo DMG, heals the character on your team who has taken the most DMG for 2 HP. If this Skill triggers Anemo-Related Reactions, attach a Sedation Mark of the corresponding element to the opponent's active character.",
+                'hi_res_image': '/cards/gcg_1515_hd.webp',
+                'card': '/cards/gcg_1515.webp',
+                'card_selected': '/cards/gcg_1515_golden.webp',
+                'icon': Ifa_Icon,
+                'element': 'anemo',
+                'region': 'natlan',
+                'related': "Nightsoul's Blessing, Cacucu",
+                'flavor': "Rescue rapid as a raid.",
+                'id': 'EI',
+                'keyword': 'catalyst',
+            },
+
+            'jahoda': {
+                'name': "Jahoda",
+                'na': "Strike While the Arrow's Hot \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
+                'skill': "Savvy Strategy: Splitting the Spoils \n3 Anemo \nDeals 2 Anemo DMG, creates 1 stack of Agile Switch, and switch to your next character. If you do not have Purr-loined Treasure Flask of any element in your Hand, create 1 Purr-loined Treasure Flask in your Hand. Otherwise, grant Cost Reduction to all Purr-loined Treasure Flask in your Hand.",
+                'burst': "Hidden Aces: Seven Tools of the Hunter \n3 Anemo, 2 Energy \nDeals 3 Anemo DMG and creates Purrsonal Coordinated Assistance Robots.",
+                'special': "Moonsign Benediction: Rooftop Dash \n(Passive) \nWhen battle begins, create 1 Purr-loined Treasure Flask in your Hand. \n\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach Cost Reduction to all Purr-loined Treasure Flask in your Hand. (Twice per Round)",
+                'special2': "Moonsign Benediction: Rooftop Dash \n(Passive) \nWhen battle begins, create 1 Purr-loined Treasure Flask in your Hand. \n\nAfter you trigger a Lunar Reaction or Swirl Reaction, attach Cost Reduction to all Purr-loined Treasure Flask in your Hand. (Twice per Round)",
+                'hi_res_image': '/cards/gcg_1516_hd.webp',
+                'card': '/cards/gcg_1516.webp',
+                'card_selected': '/cards/gcg_1516_golden.webp',
+                'icon': Jahoda_Icon,
+                'element': 'anemo',
+                'region': 'nodkrai',
+                'related': "Agile Switch, Purr-loined Treasure Flask, Purrsonal Coordinated Assistance Robots",
+                'flavor': "Persistent thought brings light to even the deepest secrets.",
+                'id': 'GX',
+                'keyword': 'bow',
+            },
+
             "ningguang": {
                 "name": "Ningguang",
                 'na': 'Sparkling Scatter \n2 Black, 1 Geo \nDeals 1 Geo DMG.',
@@ -1251,6 +1829,94 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'related': "General's War Banner, General's Glory",
                 'flavor': "Elegance on the stage, in decorous harmony.",
                 'id': '9V',
+                'keyword': 'polearm',
+            },
+
+            'navia': {
+                'name': "Navia",
+                'na': "Blunt Refusal \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+                'skill': "Ceremonial Crystalshot \n3 Geo \nDeals 3 Geo DMG, attaches Geo Infusion to this character. Discard up to 5 Crystal Shrapnel from your Hand. Each card you Discard causes this to deal +1 DMG, and you draw 1 card.",
+                'burst': "As the Sunlit Sky's Singing Salute \n3 Geo, 2 Energy \nDeals 1 Geo DMG, deals 1 Piercing DMG to all opposing characters on standby. Summons 1 Rosula Dorata Salute and creates 1 Crystal Shrapnel card before adding it to your Hand.",
+                'special': "Mutual Assistance Network \n(Passive) \nAfter an opponent's character takes Crystallize reaction DMG: Create 3 Crystal Shrapnel and randomly place them into your deck.",
+                'hi_res_image': '/cards/gcg_1608_hd.webp',
+                'card': '/cards/gcg_1608.webp',
+                'card_selected': '/cards/gcg_1608_golden.webp',
+                'icon': Navia_Icon,
+                'element': 'geo',
+                'region': 'fontaine',
+                'related': "Geo Infusion, Crystal Shrapnel, Rosula Dorata Salute",
+                'flavor': "\"The Soaring Yellow Rose.\"",
+                'id': 'B0',
+                'keyword': 'claymore',
+            },
+
+            'chiori': {
+                'name': "Chiori",
+                'na': "Weaving Blade \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+                'skill': "Fluttering Hasode \n3 Geo \nSelect 1 Summon from 3 Chiori's Automaton Dolls.",
+                'burst': "Hiyoku: Twin Blades \n3 Geo, 2 Energy \nDeals 5 Geo DMG.",
+                'hi_res_image': '/cards/gcg_1609_hd.webp',
+                'card': '/cards/gcg_1609.webp',
+                'card_selected': '/cards/gcg_1609_golden.webp',
+                'icon': Chiori_Icon,
+                'element': 'geo',
+                'region': 'inazuma',
+                'related': "Chiori's Automaton Dolls",
+                'flavor': "Couturiere of Countless Colors",
+                'id': 'BO',
+                'keyword': 'sword',
+            },
+
+            'kachina': {
+                'name': "Kachina",
+                'na': "Cragbiter \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+                'skill': "Go, Go Turbo Twirly! \n2 Geo \nAttach Turbo Twirly to self, then enter Nightsoul's Blessing and gain 2 \"Nightsoul points.\" (This skill cannot be used after the character enters Nightsoul's Blessing) \n\n(Characters with Turbo Twirly attached can use the Technique: Twirly Twirly Bam Bam)",
+                'burst': "Time to Get Serious! \n3 Geo, 3 Energy \nDeal 3 Geo DMG and create 1 Turbo Drill Field.",
+                'hi_res_image': '/cards/gcg_1610_hd.webp',
+                'card': '/cards/gcg_1610.webp',
+                'card_selected': '/cards/gcg_1610_golden.webp',
+                'icon': Kachina_Icon,
+                'element': 'geo',
+                'region': 'natlan',
+                'related': "Turbo Twirly, Nightsoul's Blessing, Turbo Drill Field",
+                'flavor': "Wrought of tears and mettle.",
+                'id': 'CT',
+                'keyword': 'polearm',
+            },
+
+            'xilonen': {
+                'name': "Xilonen",
+                'na': "Ehecatl's Roar \n2 Black, 1 Geo \nDeals 2 Physical DMG. If Nightsoul's Blessing is attached to self, then regain 1 Nightsoul point.",
+                'skill': "Yohual's Scratch \n2 Geo \nAttach Combat Blading Gear to this character, then enter Nightsoul's Blessing and gain 1 Nightsoul point. (This skill cannot be used after the character enters Nightsoul's Blessing) \n\n(Characters with Combat Blading Gear attached can use the Technique: High-Speed Leap)",
+                'burst': "Ocelotlicue Point! \n3 Geo, 2 Energy \nDeals 2 Geo DMG. Draw 1 card and heal the most damaged character on your side for 1 HP. Draw 1 additional card for each stack of Source Sample: Geo, and heal 1 additional HP for each stack of Source Sample of another Element.",
+                'special': "Source Sample \n(Passive) \nWhen the battle begins, create 3 stacks of Source Sample: Geo. When you have Pyro, Hydro, Cryo, or Electro characters on your side, then convert 1 stack of Source Sample: Geo to a Source Sample of the corresponding Element.",
+                'hi_res_image': '/cards/gcg_1611_hd.webp',
+                'card': '/cards/gcg_1611.webp',
+                'card_selected': '/cards/gcg_1611_golden.webp',
+                'icon': Xilonen_Icon,
+                'element': 'geo',
+                'region': 'natlan',
+                'related': "Nightsoul's Blessing, Combat Blading Gear, Source Sample: Geo",
+                'flavor': "The peaks resound, their golden veins gleaming.",
+                'id': 'D2',
+                'keyword': 'sword',
+            },
+
+            'illuga': {
+                'name': "Illuga",
+                'na': "Oathkeeper's Spear \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+                'skill': "Dawnbearing Songbird \n3 Geo \nDeals 3 Geo DMG, creates 1 Aedon to your Hand.",
+                'burst': "Shadowless Reflection \n3 Geo, 2 Energy \nDeals 3 Geo DMG and creates Nightingale's Song with 3 Usage(s).",
+                'special': "Moonsign Benediction: Unwithering in Winter \n(Passive) \nWhen a card whose name was not in your initial deck is added to your Hand, apply Cost Reduction to it. (Once per Round)",
+                'hi_res_image': '/cards/gcg_1612_hd.webp',
+                'card': '/cards/gcg_1612.webp',
+                'card_selected': '/cards/gcg_1612_golden.webp',
+                'icon': Illuga_Icon,
+                'element': 'geo',
+                'region': 'nodkrai',
+                'related': "Aedon, Nightingale's Song",
+                'flavor': "Shining Through Nightmares, Herald of the Day.",
+                'id': 'H9',
                 'keyword': 'polearm',
             },
     
@@ -1390,6 +2056,78 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '9W',
                 'keyword': 'claymore',
             },
+
+            'kinich': {
+                'name': "Kinich",
+                'na': "Nightsun Style \n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Canopy Hunter: Riding High \n3 Dendro \nSelect one of your characters, attach Grapple Link to self, and enter the Nightsoul's Blessing state. Deal 1 Dendro DMG, then switch position with the selected character.",
+                'burst': "Hail to the Almighty Dragonlord \n3 Dendro, 2 Energy \nDeals 1 Dendro DMG, summons Almighty Dragonlord, Ajaw.",
+                'hi_res_image': '/cards/gcg_1709_hd.webp',
+                'card': '/cards/gcg_1709.webp',
+                'card_selected': '/cards/gcg_1709_golden.webp',
+                'icon': Kinich_Icon,
+                'element': 'dendro',
+                'region': 'natlan',
+                'related': "Grapple Link, Nightsoul's Blessing, Almighty Dragonlord (Ajaw)",
+                'flavor': "Fulfiller of Commissions, Flame Bearer of the Canopy.",
+                'id': 'CN',
+                'keyword': 'claymore',
+            },
+
+            'emilie': {
+                'name': "Emilie",
+                'na': "Shadow-Hunting Spear (Custom) \n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Fragrance Extraction \n3 Dendro \nSummons 1 Lumidouce Case: Level 1.",
+                'burst': "Aromatic Explication \n3 Dendro, 2 Energy \nDeals 1 Dendro DMG, summons Lumidouce Case: Level 3.",
+                'special': "Lingering Fragrance \n(Passive) \nWhen your Burning Flame enters play: After the next time either side uses a Skill, trigger 1 instance of Burning Flame's End of Round effect. (Twice per Round)",
+                'hi_res_image': '/cards/gcg_1710_hd.webp',
+                'card': '/cards/gcg_1710.webp',
+                'card_selected': '/cards/gcg_1710_golden.webp',
+                'icon': Emilie_Icon,
+                'element': 'dendro',
+                'region': 'fontaine',
+                'related': "Lumidouce Case: Level 1, Lumidouce Case: Level 3, Burning Flame",
+                'flavor': "Like fragrance fading, like mist dissipating.",
+                'id': 'CU',
+                'keyword': 'polearm',
+            },
+
+            'lauma': {
+                'name': "Lauma",
+                'na': "Peregrination of Linnunrata \n2 Black, 1 Dendro \nDeals 1 Dendro DMG.",
+                'skill': "Runo: Dawnless Rest of Karsikko \n3 Dendro \nDeal 1 Dendro DMG, as well as generate Frostgrove Sanctuary. If you have a card in your Hand with Cost Reduction, remove Cost Reduction from a random card and instead generate a Frostgrove Sanctuary that deals 2 DMG.",
+                'burst': "Runo: All Hearts Become the Beating Moon \n3 Dendro, 2 Energy \nApply Cost Reduction to 3 random cards with Current Elemental Dice Cost greater than 0 in your Hand. Generate 3 stacks of Pale Hymn.",
+                'special': "Moonsign Benediction: Nature's Chorus \n(Passive) \nDuring this game, when your opponent is affected by  Bloom reaction(s), the reaction will be converted to the Lunar-Bloom reaction. \n\nWhen the opponent is affected by Lunar-Bloom reaction: Apply Cost Reduction to 1 random card in your Deck.",
+                'hi_res_image': '/cards/gcg_1711_hd.webp',
+                'card': '/cards/gcg_1711.webp',
+                'card_selected': '/cards/gcg_1711_golden.webp',
+                'icon': Lauma_Icon,
+                'element': 'dendro',
+                'region': 'nodkrai',
+                'related': "Frostgrove Sanctuary, Pale Hymn",
+                'flavor': "The mirrored moon fractures in the water.",
+                'id': 'G9',
+                'keyword': 'catalyst',
+            },
+
+            'nefer': {
+                'name': "Nefer",
+                'na': "Striking Serpent \n2 Black, 1 Dendro \nDeals 1 Dendro DMG.",
+                'skill': "Senet Strategy: Dance of a Thousand Nights \n3 Dendro \nDeal 1 Dendro DMG. Attach 1 stack of RES to self. Before your next action, grant Cost Reduction to up to 3 highest-cost Seeds of Deceit in your Hand.",
+                'burst': "Sacred Vow: True Eye's Phantasm \n3 Dendro, 2 Energy \nDeal 4 Dendro DMG. Deal +1 DMG for each Seeds of Deceit in your Hand (max +2)",
+                'special': "Phantasm Performance \nDeals 4 Dendro DMG. \n",
+                'special2': "Moonsign Benediction: Dusklit Eaves \n(Passive) \nDuring this game, when your opponent is affected by  Bloom reaction(s), the reaction will be converted to the Lunar-Bloom reaction. \n\nWhen your Hand contains fewer than 3 Seeds of Deceit and the opponent is affected by the Lunar-Bloom reaction: Create 1 Seeds of Deceit in your Hand. (Twice per Round)",
+                'hi_res_image': '/cards/gcg_1712_hd.webp',
+                'card': '/cards/gcg_1712.webp',
+                'card_selected': '/cards/gcg_1712_golden.webp',
+                'icon': Nefer_Icon,
+                'element': 'dendro',
+                'region': 'sumeru',
+                'related': "RES, Seeds of Deceit",
+                'flavor': "Seeking hidden secrets, to know all hearts.",
+                'id': 'GK',
+                'keyword': 'catalyst',
+            },
     
             'cryocicinmage': {
                 'name': "Fatui Cryo Cicin Mage",
@@ -1441,6 +2179,42 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'related': 'Overwhelming Ice, Piercing Iceridge, Cryocrystal Core',
                 'flavor': "Code name: Daleth. A high-purity Cryo entity.\nIt doesn't seem all that good at ball sports...",
                 'id': '8X',
+                'keyword': '',
+            },
+
+            'frostoperative': {
+                'name': "Frost Operative",
+                'na': "Swift Point \n2 Black, 1 Cryo \nDeals 2 Physical DMG.",
+                'skill': "Frosty Interjection \n3 Cryo \nDeals 3 Cryo DMG.",
+                'burst': "Thorny Onslaught \n3 Cryo, 2 Energy \nDeals 5 Cryo DMG. Attaches Onslaught Stance to this character.",
+                'special': "Blood-Bonded Shadow \n(Passive) \nAfter this character uses a Skill: Attach Bond of Life to the opponent's active character with Usage(s) equal to (this Skill's finalized DMG total -2). (Max 5 stacks)",
+                'hi_res_image': '/cards/gcg_2104_hd.webp',
+                'card': '/cards/gcg_2104.webp',
+                'card_selected': '/cards/gcg_2104_golden.webp',
+                'icon': FrostOperative_Icon,
+                'element': 'cryo',
+                'region': 'fatui',
+                'related': "Onslaught Stance, Bond of Life",
+                'flavor': "Selected while still children, they can only become an \"Operative\" after many long years of training and teaching, after countless rounds have winnowed the field.",
+                'id': 'B1',
+                'keyword': '',
+            },
+
+            'waywardhermeticspiritspeaker': {
+                'name': "Wayward Hermetic Spiritspeaker",
+                'na': "Spiritspeaking: Frost Star \n2 Black, 1 Cryo \nDeals 1 Cryo DMG.",
+                'skill': "Radiance in Flux \n3 Cryo \nDeals 1 Cryo DMG, places 1 Radiant Hues third from the top of your deck. If this is one of the first 4 times this skill is being used this game, then Select 1 of 3 random Radiant Hues enhancement effects.",
+                'burst': "Chilling Illustration \n3 Cryo, 2 Energy \nDeals 4 Cryo DMG, and adds 1 Radiant Hues to your Hand.",
+                'special': "Iridescent Silhouette \n(Passive) \nWhen battle begins, create 3 Radiant Hues and place them evenly into your deck.",
+                'hi_res_image': '/cards/gcg_2105_hd.webp',
+                'card': '/cards/gcg_2105.webp',
+                'card_selected': '/cards/gcg_2105_golden.webp',
+                'icon': WaywardHermeticSpiritspeaker_Icon,
+                'element': 'cryo',
+                'region': 'monster',
+                'related': "Radiant Hues",
+                'flavor': "A priestess of the Masters of the Night-Wind who has lived apart from her tribe, honing her abilities in utter solitude. It is said that her Spiritspeaking powers surpass those of ordinary priests and shamans, a result of having had the protection of the Masters of the Night-Wind's Wayob bestowed upon her.",
+                'id': 'GL',
                 'keyword': '',
             },
     
@@ -1514,6 +2288,78 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "id": '9X',
                 "keyword": ""        
             },
+
+            'hydrohilichurlrogue': {
+                'name': "Hydro Hilichurl Rogue",
+                'na': "Whirling Scythe \n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+                'skill': "Slash of Surging Tides \n3 Hydro \nDeals 3 Hydro DMG. \n\nIf an opposing character has Frozen or Mist Bubble Prison attached, this character gains 1 Energy. (Once per Round)",
+                'burst': "Bubblefloat Blitz \n3 Hydro, 2 Energy \nDeals 4 Hydro DMG. Creates 1 Mist Bubble Slime in your Hand. \n\n(Characters with Mist Bubble Slime equipped can use the Technique: Bubble Battle Tactics)",
+                'hi_res_image': '/cards/gcg_2205_hd.webp',
+                'card': '/cards/gcg_2205.webp',
+                'card_selected': '/cards/gcg_2205_golden.webp',
+                'icon': HydroHilichurlRogue_Icon,
+                'element': 'hydro',
+                'region': 'monster',
+                'related': "Frozen, Mist Bubble Prison, Mist Bubble Slime",
+                'flavor': "Hilichurl wanderers unaffiliated with any specific tribe. They can often be found roving the wilds as if in voluntary exile.",
+                'id': 'BD',
+                'keyword': '',
+            },
+
+            'hydrotulpa': {
+                'name': "Hydro Tulpa",
+                'na': "Savage Swell \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.",
+                'skill': "Storm Surge \n3 Hydro \nDeals 2 Hydro DMG, and randomly triggers the End Phase effect for 1 of your Summons. If this character's HP is not lower than 2, they will receive 1 Piercing DMG.",
+                'burst': "Thundering Tide \n3 Hydro, 3 Energy \nDeals 4 Hydro DMG, triggers the End Phase effect for all of your Summons.",
+                'special': "Branching Flow \n(Passive) \nWhen this character's HP is not lower than 3, and your Summon apart from Half-Tulpa leaves play: This character receives 2 Piercing DMG and summons 1 independent Half-Tulpa. (Once per Round)",
+                'hi_res_image': '/cards/gcg_2206_hd.webp',
+                'card': '/cards/gcg_2206.webp',
+                'card_selected': '/cards/gcg_2206_golden.webp',
+                'icon': HydroTulpa_Icon,
+                'element': 'hydro',
+                'region': 'monster',
+                'related': "Half-Tulpa",
+                'flavor': "A human-shaped monster formed from the agglomeration of countless drops of water.",
+                'id': 'EJ',
+                'keyword': '',
+            },
+
+            'consecratedhornedcrocodile': {
+                'name': "Consecrated Horned Crocodile",
+                'na': "Fang Bite \n2 Black, 1 Hydro \nDeals 2 Physical DMG.",
+                'skill': "Saw-Toothed Surge \n3 Hydro \nDeals 3 Hydro DMG, puts up to 1 card with the highest Current Elemental Dice Cost in your Hand at the bottom of your deck, then creates 1 Bonecruncher's Energy Block and adds it to your Hand.",
+                'burst': "Reptilian Rage \n3 Hydro, 2 Energy \nDeals 4 Hydro DMG, then Discards up to 3 Bonecruncher's Energy Block cards. For each of those cards Discarded, heal the character on your team that has taken the most damage for 1 HP and increase their Max HP by 1.",
+                'special': "Consecrated Senses \n(Passive) \nAfter you play or Discard a Bonecruncher's Energy Block card, heal the character on your team that has taken the most damage for 1 HP.",
+                'hi_res_image': '/cards/gcg_2207_hd.webp',
+                'card': '/cards/gcg_2207.webp',
+                'card_selected': '/cards/gcg_2207_golden.webp',
+                'icon': ConsecratedHornedCrocodile_Icon,
+                'element': 'hydro',
+                'region': 'monster',
+                'related': "Bonecruncher's Energy Block",
+                'flavor': "A reptile that has mutated after feeding from greater lifeforms, controlling the ever-changing flow of water.",
+                'id': 'F6',
+                'keyword': '',
+            },
+
+            'hydrohypostasis': {
+                'name': "Hydro Hypostasis",
+                'na': "Droplet Diffusion \n2 Black, 1 Hydro \nDeals 1 Hydro DMG.",
+                'skill': "Surging Tides \n3 Hydro \nDeals 2 Hydro DMG, then performs \"Prepare Skill\" for Overflow.",
+                'burst': "Calamitous Tides \n3 Hydro, 2 Energy \nDeals 3 Hydro DMG and summons Water Droplet.",
+                'special': "Overflow \nDeals 1 Hydro DMG. \n",
+                'special2': "Hydro Crystal Core \n(Passive) \nWhen the battle begins, this character starts with Hydro Crystal Core attached. If Water Droplet is on the field when Hydro Crystal Core is consumed: Reattach Hydro Crystal Core, and decreases the Usage(s) of Water Droplet by 1.",
+                'hi_res_image': '/cards/gcg_2208_hd.webp',
+                'card': '/cards/gcg_2208.webp',
+                'card_selected': '/cards/gcg_2208_golden.webp',
+                'icon': HydroHypostasis_Icon,
+                'element': 'hydro',
+                'region': 'monster',
+                'related': "Water Droplet, Hydro Crystal Core",
+                'flavor': "Code Name: He. A high-purity Hydro entity. They have strong rejection properties, and will mercilessly expel any that test them.",
+                'id': 'GY',
+                'keyword': '',
+            },
     
             "pyroagent": {
                 "name": "Fatui Pyro Agent",
@@ -1584,6 +2430,41 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'related': 'Armored Crab Carapace',
                 'flavor': "One of the two sovereigns who once stood at the apex of the aberrant species of the Fontemer. An Armored Crab that has avoided predation, and has constantly partook in hunting and eating. Its imperial title is made half in awe, and half in jest.",
                 'id': '9R',
+                'keyword': '',
+            },
+
+            'lordoferodedprimalfire': {
+                'name': "Lord of Eroded Primal Fire",
+                'na': "Void Claw Strike \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+                'skill': "Eroded Flaming Feathers \n3 Pyro \nDeal 3 Pyro DMG and Discard the top 1 card from your deck.",
+                'burst': "Severing Primal Fire \n3 Pyro, 2 Energy \nDeals 1 Pyro DMG, and deals 1 Piercing DMG to all the opponent's off-field characters. Both sides Discard the top 3 cards from their decks. Attaches 1 stack of Resentment to self.",
+                'hi_res_image': '/cards/gcg_2305_hd.webp',
+                'card': '/cards/gcg_2305.webp',
+                'card_selected': '/cards/gcg_2305_golden.webp',
+                'icon': LordOfErodedPrimalFire_Icon,
+                'element': 'pyro',
+                'region': 'monster',
+                'related': "Resentment",
+                'flavor': "A monster of the void, known as both the Reaper of the Abyss and \"Gosoythoth.\" It is able to corrupt memories contained within the Ley Lines, congealing them into tangible forces of catastrophic portent.",
+                'id': 'E4',
+                'keyword': '',
+            },
+
+            'goldflamequcusaurtyrant': {
+                'name': "Goldflame Qucusaur Tyrant",
+                'na': "Wingcleave \n2 Black, 1 Pyro \nDeals 2 Physical DMG.",
+                'skill': "Rising Scorchwind \n3 Pyro \nDeals 1 Pyro DMG, and attaches 2 stacks of Flying Swirl to self.",
+                'burst': "Goldflame Detonation \n3 Pyro, 2 Energy \nDeals 3 Pyro DMG, and deals 1 Piercing DMG to all opponent's off-field characters. Attaches 1 stack of Goldflame State to self.",
+                'special': "Ancient Bloodline \n(Passive) \nAt the start of even-numbered Action Phases, attach 1 stack of Goldflame State to self.",
+                'hi_res_image': '/cards/gcg_2306_hd.webp',
+                'card': '/cards/gcg_2306.webp',
+                'card_selected': '/cards/gcg_2306_golden.webp',
+                'icon': GoldflameQucusaurTyrant_Icon,
+                'element': 'pyro',
+                'region': 'monster',
+                'related': "Flying Swirl, Goldflame State",
+                'flavor': "A Qucusaurus whose body has attained a supernatural form due to enduring forces that the bodies of modern Saurians cannot control.",
+                'id': 'FH',
                 'keyword': '',
             },
 
@@ -1678,6 +2559,24 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '9Y',
                 'keyword': '',
             },
+
+            'abysslectorvioletlightning': {
+                'name': "Abyss Lector: Violet Lightning",
+                'na': "Den of Thunder \n2 Black, 1 Electro \nDeals 1 Electro DMG.",
+                'skill': "Shock of the Enigmatic Abyss \n3 Electro \nDeals 3 Electro DMG. \n\nIf the target is already affected by Electro, steal 1 Energy from them. (If this character's Energy is already full, then the stolen Energy will be given to the next character who does not have full Energy)",
+                'burst': "Wild Thunderburst \n3 Electro, 2 Energy \nDeals 3 Electro DMG. \n\nIf the target has no more than 1 Energy, deals +2 DMG.",
+                'special': "Electric Rebirth \n(Passive) \nWhen the battle begins, this character gains Electric Rebirth.",
+                'hi_res_image': '/cards/gcg_2406_hd.webp',
+                'card': '/cards/gcg_2406.webp',
+                'card_selected': '/cards/gcg_2406_golden.webp',
+                'icon': AbyssLectorVioletLightning_Icon,
+                'element': 'electro',
+                'region': 'monster',
+                'related': "Electric Rebirth",
+                'flavor': "Praise be unto the Abyss, the Wisdom of Corrosion.",
+                'id': 'BP',
+                'keyword': '',
+            },
     
             "maguu": {
                 "name": 'Maguu Kenki',
@@ -1734,6 +2633,26 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '9Z',
                 'keyword': '',
             },
+
+            'blackserpentknightwindcutter': {
+                'name': "Black Serpent Knight: Windcutter",
+                'na': "Half-Sword Technique \n2 Black, 1 Anemo \nDeals 2 Physical DMG.",
+                'skill': "Rising Slash \n3 Anemo \nDeal 3 Anemo DMG and draw 1 card.",
+                'burst': "Guard Stance \n3 Anemo, 2 Energy \nPrepare Skill: Reckless Stance, then Prepare Skill: Gale Pursuit.",
+                'special': "Reckless Stance \nDeal 3 Anemo DMG. Discard 1 card with the highest Current Elemental Dice Cost in your Hand. Prepare Skill: Gale Pursuit. \n",
+                'special2': "Gale Pursuit \nDeal 3 Anemo DMG. Discard 1 card with the highest Current Elemental Dice Cost in your Hand. \n",
+                'special3': "Vanguard Momentum \n(Passive) \nWhen you trigger a Swirl reaction, or when the opponent loses their Shield, DMG Negation, or Combat Status, draw 1 card. (Twice per Round)",
+                'hi_res_image': '/cards/gcg_2504_hd.webp',
+                'card': '/cards/gcg_2504.webp',
+                'card_selected': '/cards/gcg_2504_golden.webp',
+                'icon': BlackSerpentKnightWindcutter_Icon,
+                'element': 'anemo',
+                'region': 'monster',
+                'related': "",
+                'flavor': "\"A guard of some standing in the court. The Twilight Sword was once one of their number.\"",
+                'id': 'GM',
+                'keyword': '',
+            },
     
             "stonehidelawachurl": {
                 "name": "Stonehide Lawachurl",
@@ -1770,6 +2689,60 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': '7Z',
                 'keyword': '',
             },
+
+            'goldenwolflord': {
+                'name': "Golden Wolflord",
+                'na': "Wolflord's Strike \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+                'skill': "Howling Riftcall \n3 Geo \nDeals 2 Geo DMG, attaches 2 stacks of Golden Corrosion to target character, and summons Rifthound Skull.",
+                'burst': "Golden Cankerbind \n3 Geo, 2 Energy \nDeals 3 Geo DMG, deals 1 Piercing DMG to all opposing characters on standby, then attaches Golden Corrosion to all opposing characters.",
+                'hi_res_image': '/cards/gcg_2603_hd.webp',
+                'card': '/cards/gcg_2603.webp',
+                'card_selected': '/cards/gcg_2603_golden.webp',
+                'icon': GoldenWolflord_Icon,
+                'element': 'geo',
+                'region': 'monster',
+                'related': "Golden Corrosion, Rifthound Skull",
+                'flavor': "A twisted beast from another world. This creature is the ruler of the Riftwolves, and wields the power to command them to dissolve space itself.",
+                'id': 'C2',
+                'keyword': '',
+            },
+
+            'blackserpentknightrockbreakerax': {
+                'name': "Black Serpent Knight: Rockbreaker Ax",
+                'na': "Supreme Strike \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+                'skill': "Axe and Aegis \n3 Geo \nDeals 3 Geo DMG.",
+                'burst': "Stone Stance \n3 Geo, 2 Energy \nPerform Geo Application on self and prepares the Skill Greataxe Strike, then prepares the Skill Master's Strike.",
+                'special': "Greataxe Strike \nDeals 3 Geo DMG and prepares the Skill Master's Strike. \n",
+                'special2': "Master's Strike \nDeals 3 Geo DMG. \n",
+                'special3': "Attacking Momentum \n(Passive) \nIf the opponent has Damage Negation or Shield Status on their side of the field, or they have Damage Negation or Shield Combat Status, attach 1 stack of Might of Stone to self after your character uses a Skill.",
+                'hi_res_image': '/cards/gcg_2604_hd.webp',
+                'card': '/cards/gcg_2604.webp',
+                'card_selected': '/cards/gcg_2604_golden.webp',
+                'icon': BlackSerpentKnightRockbreakerAx_Icon,
+                'element': 'geo',
+                'region': 'monster',
+                'related': "Might of Stone",
+                'flavor': "A guard of some standing in the court, sundering the foes of the nation's rulers using a sword art known as \"Truthseeker.\"",
+                'id': 'EV',
+                'keyword': '',
+            },
+
+            'experimentalfieldgenerator': {
+                'name': "Experimental Field Generator",
+                'na': "Gravity Application: Crush \n2 Black, 1 Geo \nDeals 2 Physical DMG.",
+                'skill': "Gravity Application: Point Null \n3 Geo \nDeal 2 Geo DMG and generate 2 stacks of Efficient Switch.",
+                'burst': "Gravity Application: Field Reduction \n3 Geo, 2 Energy \nDeal 3 Geo DMG, as well as generate Low Gravity Background and Shock Blast. During this Round, all your characters on standby use 1 less Unaligned Element when using their next Normal Attack.",
+                'hi_res_image': '/cards/gcg_2605_hd.webp',
+                'card': '/cards/gcg_2605.webp',
+                'card_selected': '/cards/gcg_2605_golden.webp',
+                'icon': ExperimentalFieldGenerator_Icon,
+                'element': 'geo',
+                'region': 'monster',
+                'related': "Efficient Switch, Low Gravity Background, Shock Blast",
+                'flavor': "A product of the Fontaine Research Institute of Kinetic Energy Engineering that has gone out of control due to an accident. It has the ability to \"counteract\" the effects of gravity.",
+                'id': 'GA',
+                'keyword': '',
+            },
     
             "terrorshroom": {
                 "name": "Jadeplume Terrorshroom",
@@ -1803,6 +2776,63 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'related': 'Awaken My Kindred, Oasis Nourishment, Proliferated Organism, Reignited Heart of Oasis',
                 "flavor": "Apep found itself swallowed alone amidst the scenery of the catastrophe. All the people, gods, dragons, beasts, birds, and fish. All memories, wisdom, words, and hatred were ground into colorless dust, and the last of the moonlight burned away into a rain of pale fire, falling on the barren land.\n...\nApep once deemed the bottom of the sea of sand to be its grave, not the palace of a dispossessed king. The poison of \"wisdom\" would soon free Apep from the hatred and anger festering within it over countless moons. Apep had grown weary of the colorless apocalypse. Then, finally, the young god and the golden Traveler let it recall once again, even though the verdant land it once ruled had been reduced to this gilded wasteland, even though Apep and its many offspring had grown twisted and wretched to secure their continued survival therein, Apep still treasured the sight and scenes of the oasis sparkling in its heart.",
                 "id": 'A0'        
+            },
+
+            'eremitefloralringdancer': {
+                'name': "Eremite Floral Ring-Dancer",
+                'na': "Floral-Ring Caress \n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Spiraling Whirl \n3 Dendro \nDeals 3 Dendro DMG, creates 1 stack of Spirit-Serpent's Blessing.",
+                'burst': "Spirit of Omen's Awakening: Dendro Spirit-Serpent \n3 Dendro, 2 Energy \nDeals 4 Dendro DMG. Once each Match, add 1 Spirit of Omen: Dendro Spirit-Serpent card to your Hand. \n\n(Characters with Spirit of Omen: Dendro Spirit-Serpent equipped can use the Technique: Viny Razorscale)",
+                'special': "Spirit of Omen's Power \n(Passive) \nAfter this character takes DMG: If this character has no more than 7 HP, they gain 1 Energy. (Once per Round)",
+                'hi_res_image': '/cards/gcg_2703_hd.webp',
+                'card': '/cards/gcg_2703.webp',
+                'card_selected': '/cards/gcg_2703_golden.webp',
+                'icon': EremiteFloralRingDancer_Icon,
+                'element': 'dendro',
+                'region': 'the eremites',
+                'related': "Spirit-Serpent's Blessing, Spirit of Omen: Dendro Spirit-Serpent",
+                'flavor': "\"The children of the desert have a rich tradition of song and dance. Originally used to praise and serve the gods, the crafts were later adapted for battle and the seduction of kings.\"",
+                'id': 'BQ',
+                'keyword': '',
+            },
+
+            'gluttonousyumkasaurmountainking': {
+                'name': "Gluttonous Yumkasaur Mountain King",
+                'na': "Crushing Tail Attack \n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Flying Fruit \n3 Dendro \nDeal 2 Dendro DMG and draw 1 Food Card.",
+                'burst': "Flamegranate Conflagration \n3 Dendro, 2 Energy \nDeals 5 Pyro DMG.",
+                'special': "Gluttonous Rex \n(Passive) \nCannot be satiated. \n\nAfter you play a Food Card: Randomly attach 1 stack of Well Fed and Strong or Well Fed and Sturdy, or gain 1 additional Max HP. (Twice per Round)",
+                'special2': "Gluttonous Rex \n(Passive) \nCannot be satiated. \n\nAfter you play a Food Card: Randomly attach 1 stack of Well Fed and Strong or Well Fed and Sturdy, or gain 1 additional Max HP. (Twice per Round)",
+                'hi_res_image': '/cards/gcg_2704_hd.webp',
+                'card': '/cards/gcg_2704.webp',
+                'card_selected': '/cards/gcg_2704_golden.webp',
+                'icon': GluttonousYumkasaurMountainKing_Icon,
+                'element': 'dendro',
+                'region': 'monster',
+                'related': "Well Fed and Strong, Well Fed and Sturdy",
+                'flavor': "A mighty Yumkasaurus that has survived since ancient times and seen countless battles.",
+                'id': 'DQ',
+                'keyword': '',
+            },
+
+            'consecratedfangedbeast': {
+                'name': "Consecrated Fanged Beast",
+                'na': "Claw Slash \n2 Black, 1 Dendro \nDeals 2 Physical DMG.",
+                'skill': "Siphon Wave \n3 Dendro \nDeals 2 Dendro DMG and draws 1 Bonecruncher's Energy Block.",
+                'burst': "Sprawling Blighted Vines \n3 Dendro, 2 Energy \nDeal 4 Dendro DMG. If there are Bonecruncher's Energy Block in your Hand, Discard 1 and prepare Skill: Sprouts of the Blighted Rot.",
+                'special': "Sprouts of the Blighted Rot \nDeals 2 Dendro DMG. \n",
+                'special2': "Hunger from the Remains \n(Passive) \nWhen battle begins, create 2 Bonecruncher's Energy Block and place them at the bottom of your Deck. You can play 1 extra Bonecruncher's Energy Block each Round.",
+                'special3': "Hunger From the Remains \n(Passive) \nWhen battle begins, create 2 Bonecruncher's Energy Block and place them at the bottom of your Deck. You can play 1 extra Bonecruncher's Energy Block each Round.",
+                'hi_res_image': '/cards/gcg_2705_hd.webp',
+                'card': '/cards/gcg_2705.webp',
+                'card_selected': '/cards/gcg_2705_golden.webp',
+                'icon': ConsecratedFangedBeast_Icon,
+                'element': 'dendro',
+                'region': 'monster',
+                'related': "Bonecruncher's Energy Block",
+                'flavor': "A predator that has mutated after feeding from greater lifeforms. It now wields the power of frenzied vines.",
+                'id': 'FW',
+                'keyword': '',
             },
         },
     
@@ -1950,6 +2980,84 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'wrio',
                 'id': 'A5',
             },
+
+            "momentofwakingandresolve": {
+                'name': "Moment of Waking and Resolve",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_211121_hd.webp',
+                'image': '/cards/gcg_211121.webp',
+                'golden_image': '/cards/gcg_211121_golden.webp',
+                'cost': '3 Cryo',
+                'description': "Combat Action: When your active character is Freminet, equip this card. \n\nAfter Freminet equips this card, immediately use Pressurized Floe once. \n\nAfter your Freminet, who has this card equipped, uses a Skill: Draw 1 card. (Twice per Round) \n\n(You must have Freminet in your deck to add this card to your deck.)",
+                'flavor': "\"Going under.\"",
+                'required': "freminet",
+                'id': 'BE',
+            },
+
+            "divineretribution": {
+                'name': "Divine Retribution",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_211131_hd.webp',
+                'image': '/cards/gcg_211131.webp',
+                'golden_image': '/cards/gcg_211131_golden.webp',
+                'cost': '3 Cryo',
+                'description': "Combat Action: When your active character is Rosaria, equip this card. \n\nAfter Rosaria equips this card, immediately use Ravaging Confession once. \n\nWhen your Rosaria, who has this card equipped, is on the field: Uses Ravaging Confession, or after you generate Strike Where It Hurts, create 1 Changing Shifts card in your Hand. (Once per Round) \n\n(You must have Rosaria in your deck to add this card to your deck.)",
+                'flavor': "\"Lights out...\"",
+                'required': "rosaria",
+                'id': 'C3',
+            },
+
+            "mamaloacosfrigidrain": {
+                'name': "Mamaloaco's Frigid Rain",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_211141_hd.webp',
+                'image': '/cards/gcg_211141.webp',
+                'golden_image': '/cards/gcg_211141_golden.webp',
+                'cost': '2 Cryo',
+                'description': "After your opponent takes DMG from Frozen or Melt: +1 to your next 2 instances of Hydro DMG and Pyro DMG dealt, and Citlali gains 1 Nightsoul point. (Once per Round) \n\n(You must have Citlali in your deck to add this card to your deck)",
+                'flavor': "\"Citlalin, Itzpapa, get 'em!\"",
+                'required': "citlali",
+                'id': 'DC',
+            },
+
+            "teapartiesburstingwithcolor": {
+                'name': "Tea Parties Bursting With Color",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_211151_hd.webp',
+                'image': '/cards/gcg_211151.webp',
+                'golden_image': '/cards/gcg_211151_golden.webp',
+                'cost': '4 Cryo',
+                'description': "Combat Action: When your active character is Escoffier, equip this card. \n\nAfter Escoffier equips this card, immediately use Low-Temperature Cooking once. \n\nWhen your other character uses a Normal Attack: Triggers your Cooking Mek: Cold Storage Mode's End Phase effect. (Its Usages will not decrease, once per Round) \n\n(You must have Escoffier in your deck to add this card to your deck.)",
+                'flavor': "The pinnacle of excellence!",
+                'required': "escoffier",
+                'id': 'EW',
+            },
+
+            "fartofall": {
+                'name': "Far to Fall",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_211161_hd.webp',
+                'image': '/cards/gcg_211161.webp',
+                'golden_image': '/cards/gcg_211161_golden.webp',
+                'cost': '1 Cryo',
+                'description': "Fast Action: Equip this to your Skirk. \n\nWhen your Skirk has this card equipped and is on the field, when you play or Discard Void Rift: Deal 1 Cryo DMG to the opponent's active character. (Once per Round) \n\n(You must have Skirk in your deck to add this card to your deck.)",
+                'flavor': "\"Another star goes out.\"",
+                'required': "skirk",
+                'id': 'F7',
+            },
+
+            "companionscounsel": {
+                'name': "Companion's Counsel",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_211171_hd.webp',
+                'image': '/cards/gcg_211171.webp',
+                'golden_image': '/cards/gcg_211171_golden.webp',
+                'cost': '3 Cryo',
+                'description': "Combat Action: When your active character is Mika, equip this card. \n\nAfter Mika equips this card, immediately use Starfrost Swirl once. \n\nWhen your Mika, who has this card equipped, is on the field, triggering Soulwind will cause the next Normal Attack by that character this turn to deal Physical DMG +2 DMG.  \n\n(You must have Mika in your deck to add this card to your deck.)",
+                'flavor': "\"Let's keep going, team!\"",
+                'required': "mika",
+                'id': 'FI',
+            },
     
             "gloriousseason": {
                 "name": "Glorious Season",
@@ -1988,6 +3096,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "flavor": "“Hey! You should be playing that card!”\n“…Well, alright then, do what you want.”",
                 "required": "mona",
                 "id": '0X'
+            },
+
+            "genesisofstarsigns": {
+                'name': "Genesis of Starsigns",
+                'tags': ['modify', 'talent', 'hexerei', 'slowly'],
+                'hi_res_image': '/cards/gcg_212032_hd.webp',
+                'image': '/cards/gcg_212032.webp',
+                'golden_image': '/cards/gcg_212032_golden.webp',
+                'cost': '1 Black 1 Hydro',
+                'description': "Combat Action: When your active character is Mona, equip this card. \n\nAfter Mona equips this card, your next Vaporize Reaction deals +2 DMG and immediately use Ripple of Fate once. \n\nWhen Mona uses a Normal Attack, spend 1 fewer Unaligned Element. After the Normal Attack, your next Vaporize Reaction deals +2 DMG. \n\n(You must have Mona in your deck to add this card to your deck.)",
+                'flavor': "If the fortune teller in the story truly takes on an apprentice in the future, surely she wouldn't test her in such bizarre, nonsensical ways... Right? Yes, presumably not.",
+                'required': "mona",
+                'id': 'H2',
             },
 
             "abyssalmayhemhydrosprout": {
@@ -2093,6 +3214,71 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'furina',
                 'id': 'A6',
             },
+
+            "requiresappropriaterest": {
+                'name': "Requires Appropriate Rest",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_212131_hd.webp',
+                'image': '/cards/gcg_212131.webp',
+                'golden_image': '/cards/gcg_212131_golden.webp',
+                'cost': '3 Hydro',
+                'description': "Combat Action: When your active character is Sigewinne, equip this card. \n\nAfter Sigewinne equips this card, immediately use Rebound Hydrotherapy once. \n\nAfter your Sigewinne, who has this card equipped, uses Rebound Hydrotherapy: Your next 2 instances of Elemental Skill or Summon DMG deal +1 DMG. \n\n(You must have Sigewinne in your deck to add this card to your deck.)",
+                'flavor': "\"Don't be nervous! Just relax.\"",
+                'required': "sigewinne",
+                'id': 'C4',
+            },
+
+            "nightrealmsgiftcrestsandtroughs": {
+                'name': "Night Realm's Gift: Crests and Troughs",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_212141_hd.webp',
+                'image': '/cards/gcg_212141.webp',
+                'golden_image': '/cards/gcg_212141_golden.webp',
+                'cost': '1 Hydro',
+                'description': "When Mualani, who has this card equipped, switches to be the \"Active Character\": Trigger the \"End Phase\" effect of a random \"Summon\" on your side. (Once per Round) \n\n(You must have Mualani in your deck to add this card to your deck.)",
+                'flavor': "\"Catch an epic wave! Woosh~!\"",
+                'required': "mualani",
+                'id': 'CE',
+            },
+
+            "youshallgooutwithjoy": {
+                'name': "You Shall Go Out With Joy",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_212151_hd.webp',
+                'image': '/cards/gcg_212151.webp',
+                'golden_image': '/cards/gcg_212151_golden.webp',
+                'cost': '3 Hydro 2 Energy',
+                'description': "Combat Action: When your active character is Dahlia, equip this card. \n\nAfter Dahlia equips this card, immediately use Radiant Psalter once. \n\nWhen your Dahlia, who has this card equipped, is on the field, and your character is defeated: If you have Favonian Favor on the field, consume all Favonian Favor to grant the character Immunity to Defeat, and heal them to 2 HP. \n\n(You must have Dahlia in your deck to add this card to your deck.)",
+                'flavor': "\"May the Archon protect you!\"",
+                'required': "dahlia",
+                'id': 'FX',
+            },
+
+            "theburdenofcreativegenius": {
+                'name': "The Burden of Creative Genius",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_212161_hd.webp',
+                'image': '/cards/gcg_212161.webp',
+                'golden_image': '/cards/gcg_212161_golden.webp',
+                'cost': '3 Hydro 2 Energy',
+                'description': "Combat Action: When your active character is Aino, equip this card. \n\nAfter Aino equips this card, immediately use Precision Hydronic Cooler once. \n\nWhen your Aino, who has this card equipped, is on the field, and you trigger an Electro-Charged, Lunar-Charged, Bloom, Lunar-Bloom, Hydro Crystallize, or Lunar-Crystallize reaction: Deal +2 DMG for this instance and attach Empowerment to the 1 card with the highest Current Elemental Dice Cost from your Hand. (Once per Round) \n\n(You must have Aino in your deck to add this card to your deck.)",
+                'flavor': "\"Look, a rainbow!\"",
+                'required': "aino",
+                'id': 'FY',
+            },
+
+            "radianceoverblossomsandpeaks": {
+                'name': "Radiance Over Blossoms and Peaks",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_212171_hd.webp',
+                'image': '/cards/gcg_212171.webp',
+                'golden_image': '/cards/gcg_212171_golden.webp',
+                'cost': '3 Hydro',
+                'description': "Combat Action: When your active character is Columbina, equip this card. \n\nAfter Columbina equips this card, immediately use Eternal Tides once. \n\nWhile your Columbina with this card equipped is on the field, after the opponent is affected by Lunar-Charged: One of your characters without maximum Energy gains 1 Energy. \n\nAfter the opponent is affected by Lunar-Bloom: Your active character takes 1 less DMG the next time they take DMG. \n\nAfter the opponent is affected by Lunar-Crystallize: Automatically play the Moondrift Harmony with the highest Current Elemental Dice Cost from your Hand for free. (Twice per Round) \n\n(You must have Columbina in your deck to add this card to your deck.)",
+                'flavor': "\"A moonlit night for all.\"",
+                'required': "columbina",
+                'id': 'HA',
+            },
             
             "flowingflame": {
                 "name": "Flowing Flame",
@@ -2170,6 +3356,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "flavor": "Let out a good laugh when you draw this card!",
                 "required": "klee",
                 "id": '45'     
+            },
+
+            "sparkbornemagic": {
+                'name': "Sparkborne Magic",
+                'tags': ['modify', 'talent', 'hexerei'],
+                'hi_res_image': '/cards/gcg_213062_hd.webp',
+                'image': '/cards/gcg_213062.webp',
+                'golden_image': '/cards/gcg_213062_golden.webp',
+                'cost': '1 Pyro',
+                'description': "Fast Action: Equip this to your Klee. \n\nAttach Explosive Spark to Klee. \n\nWhen the attached character uses a Charged Attack: Deals 2 Pyro DMG. (Twice per Round) \n\n(You must have Klee in your deck to add this card to your deck.)",
+                'flavor': "\"And just like that, the cutest little Dodo-Sorcerer passed her qualification exam with the help of her friends. Now she's a real, full-fledged Dodo-Sorcerer! Congratulations!\"\n\"Wait, weren't we supposed to be writing commentary? What does any of this have to do with the little witch!?\"",
+                'required': "klee",
+                'id': 'H3',
             },
     
             "sanguinerouge": {
@@ -2250,6 +3449,71 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'xinyan',
                 'id': 'A7',
             },
+
+            "vanguardscoordinatedtactics": {
+                'name': "Vanguard's Coordinated Tactics",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_213131_hd.webp',
+                'image': '/cards/gcg_213131.webp',
+                'golden_image': '/cards/gcg_213131_golden.webp',
+                'cost': '2 Pyro',
+                'description': "You can only play this card if your party consists of only Pyro and Electro characters: Equip this card to Chevreuse. \n\nWhen Chevreuse, who has this card equipped, is in play, and after opposing characters take Overloaded reaction DMG: Your next 2 instances of Pyro DMG or Electro DMG dealt +1. (Including Pyro DMG or Electro DMG dealt through Swirl reactions) \n\n(You must have Chevreuse in your deck to add this card to your deck)",
+                'flavor': "\"The Special Security and Surveillance Patrol deals with a whole host of heinous crimes and dangerous criminals. As such, the methods we employ to enforce the law can be a bit on the... harsher side.\"",
+                'required': "chevreuse",
+                'id': 'B2',
+            },
+
+            "allreprisalsandarrearsminetobear": {
+                'name': "All Reprisals and Arrears, Mine to Bear",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_213141_hd.webp',
+                'image': '/cards/gcg_213141.webp',
+                'golden_image': '/cards/gcg_213141_golden.webp',
+                'cost': '1 Pyro',
+                'description': "Combat Action: When your active character is Arlecchino, play this card on them. Attach 3 stacks of Bond of Life to Arlecchino. \n\nWhen your Arlecchino, who has this card equipped, takes DMG: If Arlecchino has Bond of Life attached, consume 1 stack of Bond of Life and negate 1 DMG. \n\n(You must have Arlecchino in your deck to add this card to your deck.)",
+                'flavor': "\"Everlasting as the moon.\"",
+                'required': "arlecchino",
+                'id': 'CO',
+            },
+
+            "humanitysnameunfettered": {
+                'name': "\"Humanity's Name\" Unfettered",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_213151_hd.webp',
+                'image': '/cards/gcg_213151.webp',
+                'golden_image': '/cards/gcg_213151_golden.webp',
+                'cost': '1 Pyro',
+                'description': "Select 1 card from 3 Flamestrider cards to add to your Hand. \n\nAfter you play a Technique card: If possible, Mavuika recovers 1 Nightsoul point. (Once per Round) \n\n(You must have Mavuika in your deck to add this card to your deck)",
+                'flavor': "\"Light of the blazing sun!\"",
+                'required': "mavuika",
+                'id': 'DD',
+            },
+
+            "bringerofblessing": {
+                'name': "Bringer of Blessing",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_213161_hd.webp',
+                'image': '/cards/gcg_213161.webp',
+                'golden_image': '/cards/gcg_213161_golden.webp',
+                'cost': '3 Pyro 3 Energy',
+                'description': "Combat Action: When your active character is Gaming, equip this card. \n\nAfter Gaming equips this card, immediately use Suanni's Gilded Dance once. \n\nWhen the attached character uses a Plunging Attack: Deals an additional +1 DMG. \n\nWhen the attached character uses an Elemental Skill: Heal the attached character for 2 HP. (Once per Round) \n\n(You must have Gaming in your deck to add this card to your deck.)",
+                'flavor': "\"Hop to it, Man Chai!\"",
+                'required': "gaming",
+                'id': 'EX',
+            },
+
+            "adamahsredemption": {
+                'name': "Adamah's Redemption",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_213171_hd.webp',
+                'image': '/cards/gcg_213171.webp',
+                'golden_image': '/cards/gcg_213171_golden.webp',
+                'cost': '4 Pyro 2 Energy',
+                'description': "Combat Action: When your active character is Durin, equip this card. \n\nAfter Durin equips this card, immediately use Principle of Purity: As the Light Shifts or Principle of Darkness: As the Stars Smolder once based on the character's current Elemental Burst. \n\nWhen the character to which this is attached uses Principle of Purity: As the Light Shifts: Your next 4 instances of DMG gain +1. \n\nWhen the character to which this is attached uses Principle of Darkness: As the Stars Smolder: Your Durin and Denial of Darkness deal +2 DMG. \n\n(You must have Durin in your deck to add this card to your deck.)",
+                'flavor': "\"A turning point in fate.\"",
+                'required': "durin",
+                'id': 'GZ',
+            },
             
             "stellarpredator": {
                 "name": "Stellar Predator",
@@ -2263,6 +3527,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "required": "fischl",
                 "id": '12'        
             },
+
+            "phantasmalnocturne": {
+                'name': "Phantasmal Nocturne",
+                'tags': ['modify', 'talent', 'hexerei'],
+                'hi_res_image': '/cards/gcg_214012_hd.webp',
+                'image': '/cards/gcg_214012.webp',
+                'golden_image': '/cards/gcg_214012_golden.webp',
+                'cost': '2 Electro',
+                'description': "Fast Action: Equip this to your Fischl. \n\nSummon Oz. \n\nWhile Oz is on the field, your Electro-Related Reactions deals +1 DMG. (3 times per Round) \n\n(You must have Fischl in your deck to add this card to your deck.)",
+                'flavor': "\"Still, while every question is unexpected, some are definitely more unexpected than others. For instance, one little witch might be asked to use the primordial light to create her own material world. Meanwhile, another might be told to grant a 'soul' to a being that only exists in the imagination.\"",
+                'required': "fischl",
+                'id': 'H4',
+            },
             
             "awakening": {
                 "name": "Awakening",
@@ -2275,6 +3552,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "flavor": "The hunt is about to begin.",
                 "required": "razor",
                 "id": '13'        
+            },
+
+            "surgeoflightning": {
+                'name': "Surge of Lightning",
+                'tags': ['modify', 'talent', 'hexerei', 'slowly'],
+                'hi_res_image': '/cards/gcg_214022_hd.webp',
+                'image': '/cards/gcg_214022.webp',
+                'golden_image': '/cards/gcg_214022_golden.webp',
+                'cost': '2 Electro',
+                'description': "Combat Action: When your active character is Razor, equip this card. \n\nIf your Razor does not have The Wolf Within attached, attach The Wolf Within with 1 Duration. \n\nWhile your Razor has The Wolf Within attached with this card equipped, DMG dealt by your The Wolf Within is increased by 1. \n\n(You must have Razor in your deck to add this card to your deck.)",
+                'flavor': "\"Through the long years, the immortal witch has lost more than she can ever count. This is no exaggeration, for nothing in this world, once lost, can truly be found again. In distant worlds, even children raised together by wolves would one day bare their fangs at each other. But at least here in this world, the wolves' child may still find the warmth of home.\"",
+                'required': "razor",
+                'id': 'HB',
             },
             
             "thunderingpenance": {
@@ -2393,6 +3683,97 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'kuki',
                 'id': 'A1'
             },
+
+            "darkshatteringflame": {
+                'name': "Dark-Shattering Flame",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_214121_hd.webp',
+                'image': '/cards/gcg_214121.webp',
+                'golden_image': '/cards/gcg_214121_golden.webp',
+                'cost': '2 Electro',
+                'description': "Combat Action: When your active character is Clorinde, equip this card. \n\nAfter Clorinde equips this card, immediately use Hunter's Vigil once. \n\nAfter your characters trigger Electro-Related Reactions, +1 to the next instance of DMG Clorinde deals this Round. (Up to 3 stacks, +3 DMG total) \n\n(You must have Clorinde in your deck to add this card to your deck.)",
+                'flavor': "\"Where evil lurks, shoot on sight!\"",
+                'required': "clorinde",
+                'id': 'CF',
+            },
+
+            "pylonofthesojourningsuntemple": {
+                'name': "Pylon of the Sojourning Sun Temple",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_214131_hd.webp',
+                'image': '/cards/gcg_214131.webp',
+                'golden_image': '/cards/gcg_214131_golden.webp',
+                'cost': '1 Electro',
+                'description': "Your Sethos gains 1 Energy. \n\nAfter your Sethos loses Energy due to Black Kite's Enigma, gain 1 Energy. (Once per Round) \n\n(You must have Sethos in your deck to add this card to your deck.)",
+                'flavor': "\"Glory to Al-Ahmar!\"",
+                'required': "sethos",
+                'id': 'D3',
+            },
+
+            "teachingsofthecollectiveofplenty": {
+                'name': "Teachings of the Collective of Plenty",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_214141_hd.webp',
+                'image': '/cards/gcg_214141.webp',
+                'golden_image': '/cards/gcg_214141_golden.webp',
+                'cost': '3 Electro 2 Energy',
+                'description': "Combat Action: When your active character is Iansan, equip this card. \n\nAfter Iansan equips this card, immediately use The Three Principles of Power once. \n\nWhen your Iansan, who has this card equipped, creates a Kinetic Energy Scale, its starting Usage(s) +1. \n\n(You must have Iansan in your deck to add this card to your deck.)",
+                'flavor': "\"On my mark!\"",
+                'required': "iansan",
+                'id': 'E5',
+            },
+
+            "aheroofjusticestriumph": {
+                'name': "A Hero of Justice's Triumph",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_214151_hd.webp',
+                'image': '/cards/gcg_214151.webp',
+                'golden_image': '/cards/gcg_214151_golden.webp',
+                'cost': '1 Electro',
+                'description': "Fast Action: Equip this to your Varesa. \n\nAfter Varesa triggers Tag-Team Triple Jump!: Gain 1 Energy. \n\nElemental Bursts from Varesa, who has this card equipped, deal +1 DMG. \n\n(You must have Varesa in your deck to add this card to your deck.)",
+                'flavor': "\"Ultimate flying kick!\"",
+                'required': "varesa",
+                'id': 'EK',
+            },
+
+            "trailsamidsttheforestfog": {
+                'name': "Trails Amidst the Forest Fog",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_214161_hd.webp',
+                'image': '/cards/gcg_214161.webp',
+                'golden_image': '/cards/gcg_214161_golden.webp',
+                'cost': '1 Electro',
+                'description': "Fast Action: Equip this to your Ororon. \n\nThe first Electro-Charged reaction you trigger each Round deals +1 Piercing DMG. \n\n(You must have Ororon in your deck to add this card to your deck.)",
+                'flavor': "\"Go, you're free now.\"",
+                'required': "ororon",
+                'id': 'F8',
+            },
+
+            "rectifyingprocessor": {
+                'name': "Rectifying Processor",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_214171_hd.webp',
+                'image': '/cards/gcg_214171.webp',
+                'golden_image': '/cards/gcg_214171_golden.webp',
+                'cost': '1 Electro',
+                'description': "Fast Action: Equip this to your Ineffa. \n\nApply Electric Shock to 1 random card in your opponent's Hand, then repeat once. \n\nAfter you trigger a Lunar-Charged reaction: Apply Cost Increase to 1 random card in your opponent's Hand. \n\n(You must have Ineffa in your deck to add this card to your deck.)",
+                'flavor': "\"Ultimatum protocol.\"",
+                'required': "ineffa",
+                'id': 'FJ',
+            },
+
+            "parttheveilofsnow": {
+                'name': "Part the Veil of Snow",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_214181_hd.webp',
+                'image': '/cards/gcg_214181.webp',
+                'golden_image': '/cards/gcg_214181_golden.webp',
+                'cost': '1 Electro',
+                'description': "Fast Action: Equip this to your Flins. \n\nFlins gains 1 Energy. \n\nAfter you trigger a Lunar-Charged reaction: Flins gains 1 Energy. (Once per Round) \n\n(You must have Flins in your deck to add this card to your deck)",
+                'flavor': "\"The long sleep beckons.\"",
+                'required': "flins",
+                'id': 'GB',
+            },
             
             "chaoticentropy": {
                 "name": "Chaotic Entropy",
@@ -2405,6 +3786,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "flavor": "The wild winds gather — and amidst the chaos, victory.",
                 "required": "sucrose",
                 "id": '15'        
+            },
+
+            "sevenfoldtransmutation": {
+                'name': "Sevenfold Transmutation",
+                'tags': ['modify', 'talent', 'hexerei'],
+                'hi_res_image': '/cards/gcg_215012_hd.webp',
+                'image': '/cards/gcg_215012.webp',
+                'golden_image': '/cards/gcg_215012_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Fast Action: Equip this to your Sucrose. \n\nSummon Large Wind Spirit. \n\nWhile Large Wind Spirit is on the field, characters on your side with  Talent attached deal +1 DMG. \n\n(You must have Sucrose in your deck to add this card to your deck.)",
+                'flavor': "\"Reproducibility is the cornerstone of any experiment. That's why the 'Mimic Demon King' mentioned in the third volume of the original work is, honestly... rather unsound. A single experiment can't prove that the swarm intelligence of the mold falls below standard expectations, and the rules about changes after inhaling the spore dust were never clearly defined. I must have been completely out of my mind at the time. Please, don't follow my example...\"",
+                'required': "sucrose",
+                'id': 'HC',
             },
             
             "landsofdandelion": {
@@ -2431,6 +3825,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "flavor": '"Watch your step."',
                 'required': 'venti',
                 'id': '51'
+            },
+
+            "temporalwindseulogy": {
+                'name': "Temporal Wind's Eulogy",
+                'tags': ['modify', 'talent', 'hexerei'],
+                'hi_res_image': '/cards/gcg_215032_hd.webp',
+                'image': '/cards/gcg_215032.webp',
+                'golden_image': '/cards/gcg_215032_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Fast Action: Equip this to your Venti. \n\nSummon Stormeye. \n\nAfter you summon Stormeye, the attached character's Physical DMG is converted to Anemo DMG for their next two Normal Attacks during this Round, and these attacks cost 2 fewer Unaligned Element. \n\n(You must have Venti in your deck to add this card to your deck.)",
+                'flavor': "\"Therefore, the so-called 'Unrevealed' can mean only two things: a future not anchored by the stars, or one deliberately obscured by those with ill intentions. The latter is truly infuriating. I do hope the little witch in the story never becomes someone like that.\"",
+                'required': "venti",
+                'id': 'H5',
             },
     
             "conquerorofevilguardianyaksha": {
@@ -2510,6 +3917,97 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'faruzan',
                 'id': 'A2'
             },
+
+            "theycallhercloudretainer": {
+                'name': "They Call Her Cloud Retainer",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_215101_hd.webp',
+                'image': '/cards/gcg_215101.webp',
+                'golden_image': '/cards/gcg_215101_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Combat Action: When your active character is Xianyun, equip this card. \n\nAfter Xianyun equips this card, immediately use White Clouds at Dawn once. \n\nWhen you switch characters, this card gains 1 Storm Pinion stack. (Max 2 stacks gained per Round) \n\nWhen your Xianyun, who has this card equipped, uses Word of Wind and Flower, consume all Storm Pinion stacks. Each consumed stack increases DMG dealt by 1. \n\n(You must have Xianyun in your deck to add this card to your deck.)",
+                'flavor': "\"Stray clouds, converge.\"",
+                'required': "xianyun",
+                'id': 'BF',
+            },
+
+            "bullettrick": {
+                'name': "Bullet Trick",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_215111_hd.webp',
+                'image': '/cards/gcg_215111.webp',
+                'golden_image': '/cards/gcg_215111_golden.webp',
+                'cost': '1 Anemo',
+                'description': "Fast Action: When your Chasca is on the field, play this card on them. Add 1 Shadowhunt Shell to your Hand. \n\n(You must have Chasca in your deck to add this card to your deck)",
+                'flavor': "\"Fire in the hole!\"",
+                'required': "chasca",
+                'id': 'DE',
+            },
+
+            "dancevestmentsbillowlikerainbowjade": {
+                'name': "Dance Vestments Billow Like Rainbow Jade",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_215121_hd.webp',
+                'image': '/cards/gcg_215121.webp',
+                'golden_image': '/cards/gcg_215121_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Combat Action: When your active character is Lan Yan, equip this card. \n\nAfter Lan Yan equips this card, immediately use Swallow-Wisp Pinion Dance once. \n\nWhen Lan Yan, who has this card equipped, is on the field and your character uses a Normal Attack: Gain 1 stack of Swallow-Wisp Shield. (Once per Round) \n\n(You must have Lan Yan in your deck to add this card to your deck.)",
+                'flavor': "\"Ills, be gone!\"",
+                'required': "lanyan",
+                'id': 'DR',
+            },
+
+            "curiouscasefiles": {
+                'name': "Curious Casefiles",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_215131_hd.webp',
+                'image': '/cards/gcg_215131.webp',
+                'golden_image': '/cards/gcg_215131_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Combat Action: When your active character is Shikanoin Heizou, equip this card. \n\nAfter Shikanoin Heizou equips this card, immediately use Heartstopper Strike once. \n\nThe DMG increased by Declension is further increased by 1. \n\n(You must have Shikanoin Heizou in your deck to add this card to your deck.)",
+                'flavor': "\"Can't fool me!\"",
+                'required': "shikanoinheizou",
+                'id': 'DS',
+            },
+
+            "yourechoimeetindreams": {
+                'name': "Your Echo I Meet in Dreams",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_215141_hd.webp',
+                'image': '/cards/gcg_215141.webp',
+                'golden_image': '/cards/gcg_215141_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Combat Action: When your active character is Yumemizuki Mizuki, equip this card. \n\nAfter Yumemizuki Mizuki equips this card, immediately use Aisa Utamakura Pilgrimage once. \n\nIf Yumemizuki Mizuki is the active character, you deal +1 Cryo DMG, Hydro DMG, Pyro DMG, and Electro DMG. (Includes DMG from Swirl Reactions of any element that you trigger. Twice per Round.) \n\n(You must have Yumemizuki Mizuki in your deck to add this card to your deck.)",
+                'flavor': "\"Cast your worries to the wind.\"",
+                'required': "yumemizukimizuki",
+                'id': 'E6',
+            },
+
+            "tacticalwarmcompressbandaging": {
+                'name': "Tactical Warm Compress Bandaging",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_215151_hd.webp',
+                'image': '/cards/gcg_215151.webp',
+                'golden_image': '/cards/gcg_215151_golden.webp',
+                'cost': '1 Anemo',
+                'description': "Fast Action: Equip this to your Ifa to heal the character on your team who has taken the most DMG for 1 HP. \n\nWhen your Ifa, who has this card equipped, is on the field and you trigger Anemo-Related Reactions, Electro-Charged, or Lunar-Charged, heal the character on your team who has taken the most DMG for 1 HP. (Twice per Round) \n\n(You must have Ifa in your deck to add this card to your deck.)",
+                'flavor': "\"Mind your step!\"",
+                'required': "ifa",
+                'id': 'EL',
+            },
+
+            "backstreetguile": {
+                'name': "Backstreet Guile",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_215161_hd.webp',
+                'image': '/cards/gcg_215161.webp',
+                'golden_image': '/cards/gcg_215161_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Combat Action: When your active character is Jahoda, equip this card. \n\nAfter Jahoda equips this card, immediately use Savvy Strategy: Splitting the Spoils once. \n\nWhen Jahoda switches to the active character, if the number of cards in your opponent's Hand is greater than or equal to yours, randomly copy 2 cards from their Hand. (Once per Round) \n\n(You must have Jahoda in your deck to add this card to your deck.)",
+                'flavor': "\"Finders keepers!\"",
+                'required': "jahoda",
+                'id': 'H0',
+            },
             
             "strategicreserve": {
                 "name": "Strategic Reserve",
@@ -2562,6 +4060,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'albedo',
                 'id': '6U'
             },
+
+            "bookofblindinglight": {
+                'name': "Book of Blinding Light",
+                'tags': ['modify', 'talent', 'hexerei'],
+                'hi_res_image': '/cards/gcg_216042_hd.webp',
+                'image': '/cards/gcg_216042.webp',
+                'golden_image': '/cards/gcg_216042_golden.webp',
+                'cost': '2 Geo',
+                'description': "Fast Action: Equip this to your Albedo. \n\nSummon Solar Isotoma. \n\nWhen you summon Solar Isotoma, create 2 stacks of Silver Isotoma, and generate 1 random basic Elemental Die. \n\n(You must have Albedo in your deck to add this card to your deck.)",
+                'flavor': "\"Alice asked me to set you a task in the form of a story annotation, but I'm no storyteller, and I can't remember what that strange tale was about. Your performance has already far exceeded my expectations, and unlike Barbeloth, I have no odd hobby of teasing my apprentices. So, keep up the good work. I'm looking forward to seeing what kind of 'homework' you'll bring me next time we meet.\"",
+                'required': "albedo",
+                'id': 'HD',
+            },
     
             "aratakiichiban": {
                 "name": "Arataki Ichiban",
@@ -2600,6 +4111,71 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"Strike as one!\"",
                 'required': 'yunjin',
                 'id': 'A8',
+            },
+
+            "undiscloseddistributionchannels": {
+                'name': "Undisclosed Distribution Channels",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_216081_hd.webp',
+                'image': '/cards/gcg_216081.webp',
+                'golden_image': '/cards/gcg_216081_golden.webp',
+                'cost': '3 Geo',
+                'description': "Combat Action: When your active character is Navia, equip this card. \n\nAfter Navia equips this card, immediately use Ceremonial Crystalshot once. \n\nAfter your Navia, who has this card equipped, uses a Skill: Draw 2 Crystal Shrapnel cards. (Once per Round) \n\n(You must have Navia in your deck to add this card to your deck.)",
+                'flavor': "\"Where'd that come from!?\"",
+                'required': "navia",
+                'id': 'B3',
+            },
+
+            "infivecolorsdyed": {
+                'name': "In Five Colors Dyed",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_216091_hd.webp',
+                'image': '/cards/gcg_216091.webp',
+                'golden_image': '/cards/gcg_216091_golden.webp',
+                'cost': '4 Geo',
+                'description': "Combat Action: When your active character is Chiori, equip this card. \n\nAfter Chiori equips this card, immediately use Fluttering Hasode once. \n\nWhen your Chiori, who has this equipped, uses Fluttering Hasode: Summon 1 additional Tranquilly Taking Ten Tamoto, and Select 1 of 4 Chiori's Automaton Dolls before also summoning it. \n\n(You must have Chiori in your deck to add this card to your deck.)",
+                'flavor': "\"Scraps of color, scatter!\"",
+                'required': "chiori",
+                'id': 'BR',
+            },
+
+            "nightrealmsgiftheartofunity": {
+                'name': "Night Realm's Gift: Heart of Unity",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_216101_hd.webp',
+                'image': '/cards/gcg_216101.webp',
+                'golden_image': '/cards/gcg_216101_golden.webp',
+                'cost': '1 Geo',
+                'description': "When Turbo Twirly or Turbo Twirly: Let It Rip is triggered, draw 1 card. (Once per Round) \n\n(You must have Kachina in your deck to add this card to your deck.)",
+                'flavor': "\"Clear the area!\"",
+                'required': "kachina",
+                'id': 'CV',
+            },
+
+            "touroftepeilhuitl": {
+                'name': "Tour of Tepeilhuitl",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_216111_hd.webp',
+                'image': '/cards/gcg_216111.webp',
+                'golden_image': '/cards/gcg_216111_golden.webp',
+                'cost': '2 Geo',
+                'description': "Combat Action: When your active character is Xilonen, equip this card. \n\nAfter Xilonen equips this card, immediately use Yohual's Scratch once. \n\nWhen your Xilonen, who has this card equipped, is on the field: When you switch to Xilonen or switch from Xilonen to another character, if the target is in the Nightsoul's Blessing state, regain 1 Nightsoul point. (Twice per Round) \n\n(You must have Xilonen in your deck to add this card to your deck.)",
+                'flavor': "\"Let the mountain's veins boil!\"",
+                'required': "xilonen",
+                'id': 'D4',
+            },
+
+            "elkwithfangedantlers": {
+                'name': "Elk With Fanged Antlers",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_216121_hd.webp',
+                'image': '/cards/gcg_216121.webp',
+                'golden_image': '/cards/gcg_216121_golden.webp',
+                'cost': '1 Geo',
+                'description': "Fast Action: When your active character is Illuga, equip this card. \n\nCreate 1 stack of Nightingale's Song. \n\nWhile your Illuga with this card equipped is on the field: For every 2 stacks of Nightingale's Song consumed, create 1 Aedon to your Hand. \n\n(You must have Illuga in your deck to add this card to your deck.)",
+                'flavor': "\"Behold the dawn!\"",
+                'required': "illuga",
+                'id': 'HE',
             },
             
             "floralsidewinder": {
@@ -2705,6 +4281,58 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'required': 'kaveh',
                 'id': 'A9',
             },
+
+            "nightrealmsgiftrepaidinfull": {
+                'name': "Night Realm's Gift: Repaid in Full",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_217091_hd.webp',
+                'image': '/cards/gcg_217091.webp',
+                'golden_image': '/cards/gcg_217091_golden.webp',
+                'cost': '1 Dendro',
+                'description': "When your Kinich, who has this equipped, switches to become your active character or uses Canopy Hunter: Riding High: If you have the same amount or fewer cards in your Hand than your opponent, steal 1 card from their Hand with the highest Current Elemental Dice Cost, after which your opponent draws 1 card. (Once per Round) \n\n(You must have Kinich in your deck to add this card to your deck.)",
+                'flavor': "\"For the Lord of the Night.\"",
+                'required': "kinich",
+                'id': 'CP',
+            },
+
+            "marcottesillage": {
+                'name': "Marcotte Sillage",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_217101_hd.webp',
+                'image': '/cards/gcg_217101.webp',
+                'golden_image': '/cards/gcg_217101_golden.webp',
+                'cost': '2 Dendro',
+                'description': "The character to which this is attached has their Physical DMG dealt converted to Dendro DMG. \n\nAfter Emilie, who has this card equipped, uses her Normal Attack: Your highest level Lumidouce Case can immediately take action 1 time. (Once per Round) \n\n(You must have Emilie in your deck to add this card to your deck.)",
+                'flavor': "\"A little ambience.\"",
+                'required': "emilie",
+                'id': 'CW',
+            },
+
+            "olipsweavemesongsandpsalms": {
+                'name': "\"O Lips, Weave Me Songs and Psalms\"",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_217111_hd.webp',
+                'image': '/cards/gcg_217111.webp',
+                'golden_image': '/cards/gcg_217111_golden.webp',
+                'cost': '3 Dendro',
+                'description': "Combat Action: When your active character is Lauma, equip this card. \n\nAfter Lauma equips this card, immediately use Runo: Dawnless Rest of Karsikko once. \n\nAfter you trigger Bloom or Lunar-Bloom: Heal your most injured character for 2 HP. (Once per Round) \n\n(You must have Lauma in your deck to add this card to your deck.)",
+                'flavor': "\"With one heart, we pray.\"",
+                'required': "lauma",
+                'id': 'GC',
+            },
+
+            "victoryflowsfromtheturningoftides": {
+                'name': "Victory Flows from the Turning of Tides",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_217121_hd.webp',
+                'image': '/cards/gcg_217121.webp',
+                'golden_image': '/cards/gcg_217121_golden.webp',
+                'cost': '3 Dendro',
+                'description': "Fast Action: Equip this to your Nefer. \n\nCreate 3 Seeds of Deceit, place them evenly into your deck, and grant Cost Reduction to all Seeds of Deceit cards in your Hand and deck. \n\nAfter your Nefer deals DMG with Phantasm Performance: Draw 1 card, and grant Cost Reduction to all Seeds of Deceit cards in your Hand and deck. (Twice per Round) \n\n(You must have Nefer in your deck to add this card to your deck.)",
+                'flavor': "\"The mystery unravels.\"",
+                'required': "nefer",
+                'id': 'GN',
+            },
     
             "cicinscoldglare": {
                 "name": "Cicin's Cold Glare",
@@ -2743,6 +4371,32 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "Despite its highly stable form and almost machine-like movements, it must still meticulously defend its weak spot...",
                 "required": "cryohypo",
                 'id': '91',
+            },
+
+            "rimeflowrapier": {
+                'name': "Rimeflow Rapier",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_221041_hd.webp',
+                'image': '/cards/gcg_221041.webp',
+                'golden_image': '/cards/gcg_221041_golden.webp',
+                'cost': '3 Cryo',
+                'description': "Combat Action: Equip this card when your active character is Frost Operative \n\nAfter equipping this card, immediately use Frosty Interjection once. \n\nAfter your Frost Operative, who has this card equipped, triggers Blood-Bonded Shadow: Causes the Bond of Life stacks the opponent's active character has to double. \n\n(You must have Frost Operative in your deck to add this card to your deck.)",
+                'flavor': "\"Forgive my prior inconsideration.\"",
+                'required': "frostoperative",
+                'id': 'B4',
+            },
+
+            "flowofforms": {
+                'name': "Flow of Forms",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_221051_hd.webp',
+                'image': '/cards/gcg_221051.webp',
+                'golden_image': '/cards/gcg_221051_golden.webp',
+                'cost': '1 Cryo',
+                'description': "Fast Action: Equip this to your Wayward Hermetic Spiritspeaker. \n\nCreate 1 Radiant Hues and add it to your Hand. \n\nAfter you play Radiant Hues, create 2 stacks of Shield. (Once per Round) (You must have Wayward Hermetic Spiritspeaker in your deck to add this card to your deck)",
+                'flavor': "\"Night and day, in a place of exile far from worldly clamor, a hermit contemplates an ever-changing flow of forms and the metaphors they contain. Any warrior with the courage to step up and accept her challenge will face the colorful trials she has woven.\"",
+                'required': "waywardhermeticspiritspeaker",
+                'id': 'GO',
             },
             
             "streamingsurge": {
@@ -2796,6 +4450,58 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "required": "narwhal",
                 "id": 'AA'        
             },
+
+            "featherweightfoam": {
+                'name': "Featherweight Foam",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_222051_hd.webp',
+                'image': '/cards/gcg_222051.webp',
+                'golden_image': '/cards/gcg_222051_golden.webp',
+                'cost': '3 Hydro',
+                'description': "Combat Action: When your active character is Hydro Hilichurl Rogue, equip this card. \n\nAfter Hydro Hilichurl Rogue equips this card, immediately use Slash of Surging Tides once. \n\nWhen your Hydro Hilichurl Rogue, who has this card equipped, is on the field, spend 1 fewer Elemental Die when using a Technique. (Once per Round) \n\n(You must have Hydro Hilichurl Rogue in your deck to add this card to your deck.)",
+                'flavor': "\"Slimo movo!\"",
+                'required': "hydrohilichurlrogue",
+                'id': 'BG',
+            },
+
+            "flowconvergence": {
+                'name': "Flow Convergence",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_222061_hd.webp',
+                'image': '/cards/gcg_222061.webp',
+                'golden_image': '/cards/gcg_222061_golden.webp',
+                'cost': '2 Hydro',
+                'description': "Fast Action: Equip this to your Hydro Tulpa to attach Elemental Lifeform: Hydro to them. (This character is always affected by Hydro and is immune to Hydro DMG. Duration (Rounds): 2) \n\nWhen your Hydro Tulpa, who has this card equipped, is on the field, after you declare the end of your round, if the attached character's HP is not less than 3, they will receive 2 Piercing DMG and summon 1 independent Half-Tulpa. \n\n(You must have Hydro Tulpa in your deck to add this card to your deck.)",
+                'flavor': "\"Countless wills dissolved in the water, which, like the universe, was full of souls that wished to be born.\"",
+                'required': "hydrotulpa",
+                'id': 'EM',
+            },
+
+            "deathlyoverflow": {
+                'name': "Deathly Overflow",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_222071_hd.webp',
+                'image': '/cards/gcg_222071.webp',
+                'golden_image': '/cards/gcg_222071_golden.webp',
+                'cost': '1 Hydro',
+                'description': "Fast Action: Equip to your Consecrated Horned Crocodile. \n\nWhen played: Create 1 Bonecruncher's Energy Block and add it to your Hand. \n\nWhen your Consecrated Horned Crocodile, who has this card equipped, is on the field and after you use Bonecruncher's Energy Block, heal the character on your team who has taken the most DMG for 1 HP. \n\n(You must have Consecrated Horned Crocodile in your deck to add this card to your deck.)",
+                'flavor': "\"To devour, to merge, to seek yet another immortal carcass — the Consecrated Beasts enact this evolution in ceaseless repetition. Little do they know that the end of this cycle may never come...\"",
+                'required': "consecratedhornedcrocodile",
+                'id': 'F9',
+            },
+
+            "treacheroustorrent": {
+                'name': "Treacherous Torrent",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_222081_hd.webp',
+                'image': '/cards/gcg_222081.webp',
+                'golden_image': '/cards/gcg_222081_golden.webp',
+                'cost': '1 Hydro',
+                'description': "Fast Action: Equip this to your Hydro Hypostasis. \n\nAfter your Hydro Hypostasis or Water Droplet deals DMG, heal your Monster with the lowest HP for 1 HP. (3 times per Round) \n\n(You must have Hydro Hypostasis in your deck to add this card to your deck.)",
+                'flavor': "Beneath the stealthily swelling waters, a catastrophic wave silently builds its strength...",
+                'required': "hydrohypostasis",
+                'id': 'H1',
+            },
             
             "paidinfull": {
                 "name": "Paid in Full",
@@ -2848,6 +4554,32 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"Imagine this world: All of humanity has been purged from Teyvat, and the ever-growing Emperor of Fire and Iron eventually wears the Palais Mermonia upon its body like a luxurious coat of white stone.\"",
                 "required": "crab",
                 'id': 'A4',
+            },
+
+            "undyingfury": {
+                'name': "Undying Fury",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_223051_hd.webp',
+                'image': '/cards/gcg_223051.webp',
+                'golden_image': '/cards/gcg_223051_golden.webp',
+                'cost': '1 Pyro',
+                'description': "Fast Action: Equip this to your Lord of Eroded Primal Fire. \n\nWhen your opponent plays a card whose name was not in the initial deck at the start of this match: The character to which this is attached gains 1 Energy and +1 to the next instance of DMG. (Once per Round) \n\n(You must have Lord of Eroded Primal Fire in your deck to add this card to your deck.)",
+                'flavor': "\"Trapped perpetually in the final day of its existence by this pitch-black gospel, its boundless fury has consumed all reason. Now, what remains is its unrelenting lust for battle, burning on without end.\"",
+                'required': "lordoferodedprimalfire",
+                'id': 'E7',
+            },
+
+            "flamelordsblessing": {
+                'name': "Flamelord's Blessing",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_223061_hd.webp',
+                'image': '/cards/gcg_223061.webp',
+                'golden_image': '/cards/gcg_223061_golden.webp',
+                'cost': '3 Pyro 2 Energy',
+                'description': "Combat Action: When your active character is Goldflame Qucusaur Tyrant, equip this card. \n\nAfter Goldflame Qucusaur Tyrant equips this card, immediately use Goldflame Detonation once. \n\nWhen you trigger Goldflame State, also Discard 1 random card from your Hand. The DMG dealt by Goldflame State is increased by the Current Elemental Dice Cost of the card you Discarded from your Hand. \n\n(You must have Goldflame Qucusaur Tyrant in your deck to add this card to your deck.)",
+                'flavor': "\"However, judging from his current title of 'Tyrant,' that story did not have a happy ending...\"",
+                'required': "goldflamequcusaurtyrant",
+                'id': 'FK',
             },
     
             "absorbingprism": {
@@ -2915,6 +4647,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "required": "consecratedscorpion",
                 'id': 'AB',
             },
+
+            "chainlightningcascade": {
+                'name': "Chain Lightning Cascade",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_224061_hd.webp',
+                'image': '/cards/gcg_224061.webp',
+                'golden_image': '/cards/gcg_224061_golden.webp',
+                'cost': '1 Electro',
+                'description': "When played: If Abyss Lector: Violet Lightning, who has this card equipped, has already triggered Electric Rebirth, cause the opponent's active character to lose 1 Energy. \n\nWhen Abyss Lector: Violet Lightning, who has this card equipped, triggers Electric Rebirth or is defeated: Discard this card, and cause the opponent's active character to lose 1 Energy. \n\n(You must have Abyss Lector: Violet Lightning in your deck to add this card to your deck.)",
+                'flavor': "\"Their violent lightning strikes the hearts of unbelievers with dark wisdom, warped by the shadowy depths of an eternal night, its violet glow proclaiming the existence of a great power that corrodes human intellect.\"",
+                'required': "abysslectorvioletlightning",
+                'id': 'BS',
+            },
             
             "transcendentautomaton": {
                 "name": "Transcendent Automaton",
@@ -2954,6 +4699,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "required": "consecratedserpent",
                 'id': 'AC',
             },
+
+            "oncethelonewindthatkeptthedarkcalamityatbay": {
+                'name': "\"Once, the Lone Wind That Kept the Dark Calamity at Bay...\"",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_225041_hd.webp',
+                'image': '/cards/gcg_225041.webp',
+                'golden_image': '/cards/gcg_225041_golden.webp',
+                'cost': '3 Anemo',
+                'description': "Combat Action: When your active character is Black Serpent Knight: Windcutter, equip this card. \n\nAfter Black Serpent Knight: Windcutter equips this card, immediately use Rising Slash once. \n\nAt the start of the Action Phase: If your opponent has at least 7 cards in their Hand, attach 1 stack of RES to their active character. If you have at least 7 cards in your Hand, attach 2 stacks of RES to your active character. \n\n(You must have Black Serpent Knight: Windcutter in your deck to add this card to your deck)",
+                'flavor': "\"When a kingdom's glory has all but faded, warriors who still hold honor in their hearts often find themselves led, by different roads, to the same choice...\"",
+                'required': "blackserpentknightwindcutter",
+                'id': 'GP',
+            },
             
             "stonehidereforged": {
                 "name": "Stonehide Reforged",
@@ -2980,6 +4738,45 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "required": "azhdaha",
                 'id': '8A',
             },
+
+            "beastlycorrosion": {
+                'name': "Beastly Corrosion",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_226031_hd.webp',
+                'image': '/cards/gcg_226031.webp',
+                'golden_image': '/cards/gcg_226031_golden.webp',
+                'cost': '4 Geo',
+                'description': "Combat Action: When your active character is Golden Wolflord, equip this card. \n\nAfter Golden Wolflord equips this card, immediately use Howling Riftcall. \n\nWhen there is Golden Wolflord on the field who has this card equipped, your opponent's Golden Corrosion can stack up to 5 times. This will affect them even if they are on the field. \n\n(You must have Golden Wolflord in your deck to add this card to your deck.)",
+                'flavor': "\"The Wolflord has no name, for it was but one of \"Gold\"'s unintentional creations, and that is precisely why it is obsessed with invading worlds that do not belong to it and making a name for itself.\"",
+                'required': "goldenwolflord",
+                'id': 'C5',
+            },
+
+            "oncestoodagainstthetideofdarkwaterslikebedrock": {
+                'name': "\"Once Stood Against the Tide of Dark Waters Like Bedrock...\"",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_226041_hd.webp',
+                'image': '/cards/gcg_226041.webp',
+                'golden_image': '/cards/gcg_226041_golden.webp',
+                'cost': '1 Geo',
+                'description': "Combat Action: When your active character is Black Serpent Knight: Rockbreaker Ax, equip this card. \n\nWhen this card is played or the Action Phase begins: Black Serpent Knight: Rockbreaker AxPerform Geo Application. \n\n(You must have Black Serpent Knight: Rockbreaker Ax in your deck to add this card to your deck.)",
+                'flavor': "\"And in the realm's darkest hour, those who had to protect their homeland had little room to be fussy anyway.\"",
+                'required': "blackserpentknightrockbreakerax",
+                'id': 'EY',
+            },
+
+            "gravityfield": {
+                'name': "Gravity Field",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_226051_hd.webp',
+                'image': '/cards/gcg_226051.webp',
+                'golden_image': '/cards/gcg_226051_golden.webp',
+                'cost': '1 Geo',
+                'description': "Fast Action: Equip this to your Experimental Field Generator. \n\nAfter either side declares the end of their Round: That side switches to the next character. \n\nYour character's Plunging Attack deals +1 DMG. (Twice per Round) \n\n(You must have Experimental Field Generator in your deck to add this card to your deck.)",
+                'flavor': "According to the original design intentions, this was the first step in a plan to turn Fontaine into a city in the sky, so never again would the people have to worry about the waves that once swept over the land. Even if all seven nations were to be swallowed by the deeps, the elegant Court of Fontaine would float above it all, just like Celestia. Even the secrets of the universe would no longer seem so distant.",
+                'required': "experimentalfieldgenerator",
+                'id': 'GD',
+            },
                     
             "proliferatingspores": {
                 "name": "Proliferating Spores",
@@ -3005,6 +4802,45 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "Apep once walked through an ocean of fragrant grass, gigantic trees, and unimaginably long vines like a fish with its many offspring swimming through the sea. Finally, the grass, trees, and vines withered and turned to dust, while countless beings as minute as grains of gravel built a fragile kingdom upon Apep's land.\nApep and its offspring made the sea of sand rage like boiling water and swept houses down as if they were falling leaves. Until the day when the new Lord of Sand reconciled with the king who lost their homeland, the dunes under the sun belonged to humanity, while the dragon's oasis remained in the hearts of the dragons.\nApep shared the knowledge of evolution with its many offspring, because spreading knowledge ensures dissemination while the stagnation of hoarded wisdom courted only decay. Till the day the promise between it and the Lord of Sand was finally attained, with ultimate wisdom claimed. Henceforth, it reaped only sights of oblivion, of an endless calamity...",
                 "required": "apep",
                 'id': 'AD',
+            },
+
+            "spiritserpentsswirl": {
+                'name': "Spirit Serpent's Swirl",
+                'tags': ['modify', 'talent', 'slowly'],
+                'hi_res_image': '/cards/gcg_227031_hd.webp',
+                'image': '/cards/gcg_227031.webp',
+                'golden_image': '/cards/gcg_227031_golden.webp',
+                'cost': '3 Dendro',
+                'description': "Combat Action: When your active character is Eremite Floral Ring-Dancer, equip this card. \n\nAfter Eremite Floral Ring-Dancer equips this card, immediately use Spiraling Whirl once. \n\nWhen your Eremite Floral Ring-Dancer, who has this card equipped, is on the field, when you switch your active character to one with Spirit of Omen: Dendro Spirit-Serpent equipped: Deal 1 Dendro DMG. (Once per Round) \n\n(You must have Eremite Floral Ring-Dancer in your deck to add this card to your deck.)",
+                'flavor': "\"...Even though all such gods and kings have now faded into the flowing sands, the memory of dance yet persists in the desert-dwellers' veins.\"",
+                'required': "eremitefloralringdancer",
+                'id': 'BT',
+            },
+
+            "thealldevourer": {
+                'name': "The All-Devourer",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_227041_hd.webp',
+                'image': '/cards/gcg_227041.webp',
+                'golden_image': '/cards/gcg_227041_golden.webp',
+                'cost': '1 Dendro',
+                'description': "Fast Action: Equip this to your Gluttonous Yumkasaur Mountain King. Your opponent draws 1 card, then you steal 1 card from your opponent's Hand with the highest Current Elemental Dice Cost. \n\nWhen you play a card whose name was not in the initial deck at the start of the match: Trigger Gluttonous Rex once. (Once per Round) \n\n(You must have Gluttonous Yumkasaur Mountain King in your deck to add this card to your deck.)",
+                'flavor': "\"Some tribe members believe that it has its current body shape because it has a unique physique, like the Qucusaur Tyrant... Though in fact, this is simply because it's lived for so long, and eaten way, WAY too much.\"",
+                'required': "gluttonousyumkasaurmountainking",
+                'id': 'DT',
+            },
+
+            "witheredreedseclipsethesun": {
+                'name': "Withered Reeds Eclipse the Sun",
+                'tags': ['modify', 'talent'],
+                'hi_res_image': '/cards/gcg_227051_hd.webp',
+                'image': '/cards/gcg_227051.webp',
+                'golden_image': '/cards/gcg_227051_golden.webp',
+                'cost': '1 Dendro',
+                'description': "Fast Action: Equip this to your Consecrated Fanged Beast. \n\nAfter you play or Discard Bonecruncher's Energy Block: Draw 1 card. (Once per Round) \n\n(You must have Consecrated Fanged Beast in your deck to add this card to your deck.)",
+                'flavor': "\"Human beings' baits and the remains of immortal beings are essentially deliberate or unintentional traps. The price of coveting the gift of the strongest is much more painful than being locked in a cage.\"",
+                'required': "consecratedfangedbeast",
+                'id': 'FZ',
             },
             
             "magicguide": {
@@ -3114,6 +4950,42 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"The overseer made of precision machinery rumbles as it observes the monetary flow of the tiny nation,\nTirelessly recording the movement of every amount of money, the savings and spending of all,\nThe changes in value, and the number of times each piece of currency is circulated over a specific period.\"",
                 'id': 'AG',
             },
+
+            "flowingpurity": {
+                'name': "Flowing Purity",
+                'tags': ['modify', 'weapon', 'weapon_catalyst'],
+                'hi_res_image': '/cards/gcg_311110_hd.webp',
+                'image': '/cards/gcg_311110.webp',
+                'golden_image': '/cards/gcg_311110_golden.webp',
+                'cost': '1 White',
+                'description': "When played and when the Round ends: The character gains 1 Bond of Life stack. \n\nBefore both sides choose their actions: If the character to which this is attached does not have Bond of Life attached, then generate 1 random basic Elemental Die, and the character will deal +1 DMG the next time they deal DMG. (Once per Round) \n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"...This heart of mine, which beats as though it were ensconced in a vessel of flesh and blood, has already been stained with the same sin on this journey. This heart of mine, so tortured by the pain of regret — where could it ever hope to find peace?\"",
+                'id': 'C6',
+            },
+
+            "everlastingmoonglow": {
+                'name': "Everlasting Moonglow",
+                'tags': ['modify', 'weapon', 'weapon_catalyst'],
+                'hi_res_image': '/cards/gcg_311111_hd.webp',
+                'image': '/cards/gcg_311111.webp',
+                'golden_image': '/cards/gcg_311111_golden.webp',
+                'cost': '2 White',
+                'description': "When the character to which this is attached has at least 11 HP: DMG +2. (Once per Round) \n\nWhen played: The character to which this is attached gains 1 Max HP. \n\n(Only Catalyst characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"Even if the storm clouds should gather, and even if the violet lightning's ferocity be perilous and unpredictable.\nThe silver moon of Watatsumi shall still pierce through the clouds and scatter forth its light.\"",
+                'id': 'EN',
+            },
+
+            "starcallerswatch": {
+                'name': "Starcaller's Watch",
+                'tags': ['modify', 'weapon', 'weapon_catalyst'],
+                'hi_res_image': '/cards/gcg_311112_hd.webp',
+                'image': '/cards/gcg_311112.webp',
+                'golden_image': '/cards/gcg_311112_golden.webp',
+                'cost': '1 White',
+                'description': "The first time each round you play a card whose name was not in your initial deck: That card costs 1 fewer Elemental Die. The attached character deals +1 DMG the next time they deal DMG. (Can stack up to 2 stacks) \n\n(Only Catalyst Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"I shall watch over you always, O hero solely mine, bound to your shoulder always, like a silken string...\"\n\"Until our souls are entwined eternally in profoundest peace, where even death shall not do us part.\"",
+                'id': 'FA',
+            },
             
             "ravenbow": {
                 "name": "Raven Bow",
@@ -3198,6 +5070,30 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "flavor": '"...The fish that once shot forth like an arrow across a huge lake on the plateau,\nThat would stretch out as straight as a spear, cruising back and forth between the sacred sites,\nWould see its stream seep into the sand, its lake shrink into a puddle,\nTill at last, it wound up curled in a little plash, at the mercy of passing pilgrims."',
                 'id': 'AH'
             },
+
+            "aquasimulacra": {
+                'name': "Aqua Simulacra",
+                'tags': ['modify', 'weapon', 'weapon_bow'],
+                'hi_res_image': '/cards/gcg_311208_hd.webp',
+                'image': '/cards/gcg_311208.webp',
+                'golden_image': '/cards/gcg_311208_golden.webp',
+                'cost': '2 White',
+                'description': "When the character to which this is attached has at least 11 HP: DMG +2. \n\nWhen played: The character to which this is attached gains 1 Max HP. \n\n(Only Bow characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"It is in defense of the purity of the source that water's gentleness can also become as blade and bow.\nConspiracy and coded language are interwoven with ease under the pale blue full moon — this is the wisdom of water's shape.\"",
+                'id': 'EG',
+            },
+
+            "snarehook": {
+                'name': "Snare Hook",
+                'tags': ['modify', 'weapon', 'weapon_bow'],
+                'hi_res_image': '/cards/gcg_311209_hd.webp',
+                'image': '/cards/gcg_311209.webp',
+                'golden_image': '/cards/gcg_311209_golden.webp',
+                'cost': '2 Black',
+                'description': "The character deals +2 DMG with their Elemental Burst. \n\nWhen you trigger an Elemental Reaction: Gain 1 stack of Phantom Flash. When Phantom Flash is at 2 or more stacks, consume 2 stacks of Phantom Flash to grant the attached character 1 Energy. \n\n(Only Bow characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"There are few truly inescapable traps in this world, for even the densest web can be threaded with a needle.\nGlimmers of hope can be found between the hooks and cages of even a trap set to kill.\nJust as no one can fully lock away their heart, even the most cautious defenses must eventually falter.\"",
+                'id': 'G0',
+            },
             
             "whiteirongreatsword": {
                 "name": "White Iron Greatsword",
@@ -3281,6 +5177,42 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "The character deals +1 DMG. \n\nWhen played: When the character to which this is attached next uses a Normal Attack during this Round: Create 2 Elemental Dice of this character's Elemental Type. \n\n(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)",
                 'flavor': "\"...Then the current changed and the moon's reflection was scattered. Much has changed, and yet, much will now remain unchanged forevermore.\nBut even if you, like me, have never met a king, you would still get the impression that Tiger was a noble and powerful king of the forest.\"",
                 'id': 'AI',
+            },
+
+            "ultimateoverlordsmegamagicsword": {
+                'name': "\"Ultimate Overlord's Mega Magic Sword\"",
+                'tags': ['modify', 'weapon', 'weapon_claymore'],
+                'hi_res_image': '/cards/gcg_311308_hd.webp',
+                'image': '/cards/gcg_311308.webp',
+                'golden_image': '/cards/gcg_311308_golden.webp',
+                'cost': '2 White',
+                'description': "This card will record the number of Action Cards with different names you have played in this match whose names are not in your original deck for said match, with each type granting 1 Support. \n\nIf this card's Support value is at least 2/4/9, then the Character will deal +1/2/3 DMG. \n\n(Only Claymore Characters can equip this. A character can only equip 1 Weapon.)",
+                'flavor': "\"... Uh, what? A cheap cardboard claymore? No, no, no, this is... Well, it's... the Ultimate Overlord's Mega Magic Sword, once used to triumph over the Crab Emperor!\"\nAfter some discussion, the Melusines reached a consensus. This, the mightiest sword in Merusea Village, that had shone so illustriously in the shadowed mists of the past, should be given to an unparalleled hero, as a memorial to their friendship.",
+                'id': 'B5',
+            },
+
+            "portablepowersaw": {
+                'name': "Portable Power Saw",
+                'tags': ['modify', 'weapon', 'weapon_claymore', 'damage reduction'],
+                'hi_res_image': '/cards/gcg_311309_hd.webp',
+                'image': '/cards/gcg_311309.webp',
+                'golden_image': '/cards/gcg_311309_golden.webp',
+                'cost': '2 White',
+                'description': "When the character to which this is attached takes DMG: If possible, Discard 1 card from your Hand with the highest Current Elemental Dice Cost to negate 1 DMG, and then gain 1 Stoic's Symbol point. (Once per Round) \n\nWhen the character deals DMG: If there are Stoic's Symbol points already, consume all points and increase DMG dealt this instance by 1, then draw 1 card for each point consumed. \n\n(Only Claymore Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"A chainsaw favored by workers of the past to cut through keels and pipes... Grab the handle tightly with both hands, and even hard steel shall split before you.\"",
+                'id': 'BU',
+            },
+
+            "flameforgedinsight": {
+                'name': "Flame-Forged Insight",
+                'tags': ['modify', 'weapon', 'weapon_claymore'],
+                'hi_res_image': '/cards/gcg_311310_hd.webp',
+                'image': '/cards/gcg_311310.webp',
+                'golden_image': '/cards/gcg_311310_golden.webp',
+                'cost': '2 Black',
+                'description': "The character deals +2 DMG with their Elemental Burst. \n\nWhen you trigger an Elemental Reaction: Gain 1 stack of Mind in Bloom. When Mind in Bloom is at 2 or more stacks, consume 2 stacks of Mind in Bloom to grant the attached character 1 Energy. \n\n(Only Claymore characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"Let the memories of the past accompany you on your journey, in place of forebears who now lack the strength to...\"\n\"The past flows through the blood into each new generation, like an unquenchable fire passed down through rituals that never cease to burn.\"",
+                'id': 'FB',
             },
             
             "whitetassel": {
@@ -3378,6 +5310,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"That is how the world ought to operate, and how righteousness should be.\"\n\"But when it comes to \"how things ought to be,\" it is always fiendishly difficult to get ideal results.\"",
                 'id': 'AE',
             },
+
+            "prospectorsdrill": {
+                'name': "Prospector's Drill",
+                'tags': ['modify', 'weapon', 'weapon_pole', 'damage reduction'],
+                'hi_res_image': '/cards/gcg_311409_hd.webp',
+                'image': '/cards/gcg_311409.webp',
+                'golden_image': '/cards/gcg_311409_golden.webp',
+                'cost': '2 White',
+                'description': "When the character to which this is attached takes DMG: If possible, Discard 1 card from your Hand with the highest Current Elemental Dice Cost to negate 1 damage, and then gain 1 Solidarity point. (Once per Round) \n\nWhen a character deals DMG: If there are Solidarity points already, consume all points and increase DMG dealt this instance by 1, then draw 1 card for each point consumed. \n\n(Only Polearm Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"The tool's piercing and cutting power were unmatched.\nSince it could pierce through even rocks like a hot knife through butter,\nit made quick work out of penetrating through even softer materials.\"",
+                'id': 'B6',
+            },
             
             "travelershandysword": {
                 "name": "Traveler’s Handy Sword",
@@ -3473,6 +5417,18 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "After your characters take DMG or are healed: This card gains 1 Lakelight point. \n\nWhen this character uses a Normal Attack: If you have already accumulated 12 Lakelight points, consume 12 points, and this Skill costs 2 less Unaligned Element, deals +1 DMG, and heals the equipping character for 1 HP (once per Round). \n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
                 'flavor': "\"...On a morning clear as the light reflected on the lake, the Mistress of Many Waters was moved by that pained plea.\nAnd so the kindly goddess granted her wish and gave her blessing to the journey ahead.\nFor the Mistress of Many Waters knew that a fair judgment was the greatest leniency one could give a selfless soul.\nAnd perhaps that is why that noble verdict dyed fate in its colors.\"",
                 'id': 'AJ',
+            },
+
+            "thedockhandsassistant": {
+                'name': "The Dockhand's Assistant",
+                'tags': ['modify', 'weapon', 'weapon_sword', 'damage reduction'],
+                'hi_res_image': '/cards/gcg_311509_hd.webp',
+                'image': '/cards/gcg_311509.webp',
+                'golden_image': '/cards/gcg_311509_golden.webp',
+                'cost': '2 White',
+                'description': "When the character to which this is attached takes DMG: If possible, Discard 1 card from your Hand with the highest Current Elemental Dice Cost to negate 1 damage, and then gain 1 Solidarity point. (Once per Round) \n\nWhen the character deals DMG: If there are Solidarity points already, consume all points and increase DMG dealt this instance by 1, then draw 1 card for each point consumed. \n\n(Only Sword Characters can equip this. A character can equip a maximum of 1 Weapon)",
+                'flavor': "\"Although such blades were not owned by their wielders, those who depended on them saw them as extensions of their limbs, and so they often inscribed their names onto the hilts and blades to avoid losing them. The name inscribed on this blade belongs to one of Poisson's former mayors.\"",
+                'id': 'DF',
             },
             
             "adventurersbandana": {
@@ -3807,6 +5763,210 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"But 'eternity' is ultimately a lie. Intoxication and love could only grind memories down to broken dreams.\"",
                 'id': 'AM',
             },
+
+            "gladiatorstriumphus": {
+                'name': "Gladiator's Triumphus",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312029_hd.webp',
+                'image': '/cards/gcg_312029.webp',
+                'golden_image': '/cards/gcg_312029_golden.webp',
+                'cost': '0 White',
+                'description': "When the character uses a Normal Attack: Spend 1 fewer Elemental Die if you have no more than 2 cards in your Hand. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"Only in moments of victory could the slave have a taste of what it felt like to be a master. But the cost of this vain aspiration was for the faint glow of freedom to be shrouded by darkness.\nOn the day of his triumph, the gladiator finally caught a glimpse of the world outside his cell. He was a step closer to freedom.\"",
+                'id': 'B7',
+            },
+
+            "conductorstophat": {
+                'name': "Conductor's Top Hat",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312030_hd.webp',
+                'image': '/cards/gcg_312030.webp',
+                'golden_image': '/cards/gcg_312030_golden.webp',
+                'cost': '1 White',
+                'description': "After you switch to the character to which this is attached: Discard the card with the highest Current Elemental Dice Cost in your Hand and change 2 Elemental Dice into Omni Element, and spend 1 fewer Elemental Die the next time the character uses a Skill or plays a Talent. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"The members then turned the notes into words and recorded their journey in a book.\nThis book, The Widsith as they called it, was still held tightly in the conductor's hands even after his death.\"",
+                'id': 'BV',
+            },
+
+            "maidensfadingbeauty": {
+                'name': "Maiden's Fading Beauty",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312031_hd.webp',
+                'image': '/cards/gcg_312031.webp',
+                'golden_image': '/cards/gcg_312031_golden.webp',
+                'cost': '1 White',
+                'description': "After the character to which this is attached receives healing from a source other than an Artifact: Heal the most damaged character on your side for 1 HP (Can be triggered up to twice per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"...As time passed, fewer and fewer courters visited her with flowers. What did it matter? For her, time had already stopped long ago on that fateful day.\"",
+                'id': 'C7',
+            },
+
+            "demonwarriorsfeathermask": {
+                'name': "Demon-Warrior's Feather Mask",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312032_hd.webp',
+                'image': '/cards/gcg_312032.webp',
+                'golden_image': '/cards/gcg_312032_golden.webp',
+                'cost': '1 White',
+                'description': "After the character to which this is attached uses a Technique: Gain 1 Energy. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"...Nonetheless, someone had to shoulder the responsibility, and the strong naturally should bear a greater burden.\nIt was only after witnessing true war that he first felt the weight of destiny.\"",
+                'id': 'CG',
+            },
+
+            "crownofthesaints": {
+                'name': "Crown of the Saints",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312033_hd.webp',
+                'image': '/cards/gcg_312033.webp',
+                'golden_image': '/cards/gcg_312033_golden.webp',
+                'cost': '1 White',
+                'description': "After the character to which this is attached consumes Nightsoul points: The character's next Skill or Technique deals +1 DMG. (Twice per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"Under the sun's radiance did the tribes make a pact of armistice, and thus did the sacred ones of the night realm lay their arguments aside and offer him the crown.\"",
+                'id': 'DG',
+            },
+
+            "scrolloftheheroofcindercity": {
+                'name': "Scroll of the Hero of Cinder City",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312034_hd.webp',
+                'image': '/cards/gcg_312034.webp',
+                'golden_image': '/cards/gcg_312034_golden.webp',
+                'cost': '3 Black',
+                'description': "After the character to which this is attached consumes Nightsoul points: One of your characters without maximum Energy gains 1 Energy. Repeats once. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"The gates of hell are stained red by the flowing blood of the brave. Let me offer my blood, and leave the key to those gates with my child.\"",
+                'id': 'DH',
+            },
+
+            "crownlesscrown": {
+                'name': "Crownless Crown",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312035_hd.webp',
+                'image': '/cards/gcg_312035.webp',
+                'golden_image': '/cards/gcg_312035_golden.webp',
+                'cost': '0 White',
+                'description': "After you trigger Burning: The opponent's current active character will receive +1 DMG the next time they take DMG. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"And with those things bearing his name, she walked into the dark night, never to return.\"",
+                'id': 'DU',
+            },
+
+            "whimsicaldanceofthewithered": {
+                'name': "Whimsical Dance of the Withered",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312036_hd.webp',
+                'image': '/cards/gcg_312036.webp',
+                'golden_image': '/cards/gcg_312036_golden.webp',
+                'cost': '0 White',
+                'description': "After the character to which this is attached uses a Skill: Both sides' active characters gain 1 stack of Bond of Life. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"In the end, all dreams shall merge into one, bringing ultimate salvation to all the people of the world.\"",
+                'id': 'DV',
+            },
+
+            "royalmasque": {
+                'name': "Royal Masque",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312037_hd.webp',
+                'image': '/cards/gcg_312037.webp',
+                'golden_image': '/cards/gcg_312037_golden.webp',
+                'cost': '0 White',
+                'description': "After the character to which this is attached uses an Elemental Burst: Your next character deals +1 DMG during this Round. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"In that golden age, the nobles shared with the people their knowledge and profits.\nBut the later nobles were seduced by power. Their banquets were exclusively for their own pleasure.\"",
+                'id': 'E8',
+            },
+
+            "unfinishedreverie": {
+                'name': "Unfinished Reverie",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312038_hd.webp',
+                'image': '/cards/gcg_312038.webp',
+                'golden_image': '/cards/gcg_312038_golden.webp',
+                'cost': '2 White',
+                'description': "Your Burning Flame and Burning reactions deal +1 DMG. (Twice per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"Do not break faith with the eyes of those still willing to gaze upon the burning flames.\"",
+                'id': 'E9',
+            },
+
+            "fragmentofharmonicwhimsy": {
+                'name': "Fragment of Harmonic Whimsy",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312039_hd.webp',
+                'image': '/cards/gcg_312039.webp',
+                'golden_image': '/cards/gcg_312039_golden.webp',
+                'cost': '2 White',
+                'description': "After the character to which this is attached uses a Skill: All your characters gain 1 stack of Bond of Life, and you consume 1 fewer Elemental Dice the next time your character uses a Skill. (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"If I truly did have a chance to choose, then I would be able to change the unchangeable end of which you spoke.\"",
+                'id': 'EA',
+            },
+
+            "felldragonsmonocle": {
+                'name': "Fell Dragon's Monocle",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312040_hd.webp',
+                'image': '/cards/gcg_312040.webp',
+                'golden_image': '/cards/gcg_312040_golden.webp',
+                'cost': '1 White',
+                'description': "After the character to which this is attached uses an Elemental Skill: Adventure: Once (Once per Round) \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"I will surely return to save all souls. Ten years, even a hundred years may pass, but I shall be reborn as a new universe.\"",
+                'id': 'EO',
+            },
+
+            "noblesseoblige": {
+                'name': "Noblesse Oblige",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312041_hd.webp',
+                'image': '/cards/gcg_312041.webp',
+                'golden_image': '/cards/gcg_312041_golden.webp',
+                'cost': '3 Black',
+                'description': "When played: The character to which this is attached gains 1 Energy. \n\nAfter the character to which this is attached uses an Elemental Burst: Your characters deal +1 DMG the next 3 times they deal DMG. \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"They were noble not only in lineage, but also in their commitment to virtues and principles.\nThe longevity of the nobles was cut short by their endless self-indulgence. Ostentation gave way to devolution.\"",
+                'id': 'EP',
+            },
+
+            "nymphsdream": {
+                'name': "Nymph's Dream",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312043_hd.webp',
+                'image': '/cards/gcg_312043.webp',
+                'golden_image': '/cards/gcg_312043_golden.webp',
+                'cost': '2 White',
+                'description': "When the attached character uses a Skill: Starts an Adventure. (Twice per Round) \n\nIf you have completed an Adventure, the attached character deals +1 DMG. \n\n(A character can equip a maximum of 1  Artifact)",
+                'flavor': "\"And just as how some people treasure withered flowers, some still reminisce endlessly over the afternoon adventures that have yet to continue...\"",
+                'id': 'EZ',
+            },
+
+            "dyedtassel": {
+                'name': "Dyed Tassel",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312044_hd.webp',
+                'image': '/cards/gcg_312044.webp',
+                'golden_image': '/cards/gcg_312044_golden.webp',
+                'cost': '2 Black',
+                'description': "When the character to which this is attached uses a Charged Attack: Deals +1 DMG. (Once per Round) \n\nAfter the attached character uses a Plunging Attack: Create 1 stack of Efficient Switch. (Once per Round) \n\n(A character can equip a maximum of 1  Artifact)",
+                'flavor': "\"That ghostly blue wildfire of which ancient legends spoke would burn brightly anew on fresh fields of battle...\"",
+                'id': 'FC',
+            },
+
+            "gladiatorsfinale": {
+                'name': "Gladiator's Finale",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312045_hd.webp',
+                'image': '/cards/gcg_312045.webp',
+                'golden_image': '/cards/gcg_312045_golden.webp',
+                'cost': '2 Black',
+                'description': "The character to which this is attached deals +1 Physical DMG. \n\nWhen the character to which this is attached is your only character still not defeated: Their Normal Attack costs 1 fewer Unaligned Element and deals +1 DMG. (Twice per Round) \n\n(A character can equip a maximum of 1  Artifact)",
+                'flavor': "\"The gladiator's healing wounds were covered with invisible feathers.\nHe eventually set off on a journey, finally as free as a bird. His destination was the place where flowers bloom and birds soar.\"",
+                'id': 'GE',
+            },
+
+            "recollectionofdayspast": {
+                'name': "Recollection of Days Past",
+                'tags': ['modify', 'artifact'],
+                'hi_res_image': '/cards/gcg_312046_hd.webp',
+                'image': '/cards/gcg_312046.webp',
+                'golden_image': '/cards/gcg_312046_golden.webp',
+                'cost': '1 White',
+                'description': "After your character receives healing from a source other than an Artifact: This card gains 1 stack of Yearning (max 4). At the start of the round, for every 2 stacks of Yearning, heal the attached character for 1 HP. \n\n(A character can equip a maximum of 1 Artifact)",
+                'flavor': "\"No matter what price I must pay, I will save you from those freezing fetters, your eternal chains. And when we finally enjoy the embrace of the Queen of All Waters once more, we shall take leave of trouble and sorrow.\"",
+                'id': 'HF',
+            },
             
             "brokenrimesecho": {
                 "name": "Broken Rime’s Echo",
@@ -3974,6 +6134,126 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "description": "When a character uses a Skill or equips a Talent: Spend 1 less Dendro Die. (Once per Round)\n\nRoll Phase: 2 of the starting Elemental Dice you roll are always guaranteed to be Dendro Dice.\n\n(A character can equip a maximum of 1 Artifact)",
                 "flavor": "“For all those who follow nature must pass through the maze of the forest and reach that endless plain.”",
                 "id": '2H'        
+            },
+
+            "xenochromatichuntersray": {
+                'name': "Xenochromatic Hunter's Ray",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313001_hd.webp',
+                'image': '/cards/gcg_313001.webp',
+                'golden_image': '/cards/gcg_313001_golden.webp',
+                'cost': '0 White',
+                'description': "Technique: Fontemer Water Blades \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "Among the Fontemer Aberrants, there are certain strange \"Xenochromatic\" lifeforms. It is said that these are not actually living creatures, but rather spirits from the ocean that have neither taken physical form nor swallowed bait. They are said to bestow blessings upon those accepted by the Fontemer as well as those that are able to control it.\nThe Xenochromatic Hunter's Ray's Ability allows the wielder to release Fontemer Water Blades that are long and sharp.",
+                'id': 'BH',
+            },
+
+            "yumkasaurus": {
+                'name': "Yumkasaurus",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313002_hd.webp',
+                'image': '/cards/gcg_313002.webp',
+                'golden_image': '/cards/gcg_313002_golden.webp',
+                'cost': '1 White',
+                'description': "Technique: Artful Grapple \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "Yumkasaurs are extremely skilled at latching onto heavy objects, then pulling themselves forward to move with great rapidity. They're also a great way to retrieve items from afar...",
+                'id': 'BI',
+            },
+
+            "koholasaurus": {
+                'name': "Koholasaurus",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313003_hd.webp',
+                'image': '/cards/gcg_313003.webp',
+                'golden_image': '/cards/gcg_313003_golden.webp',
+                'cost': '2 White',
+                'description': "Technique: Spiritway \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "Only the Koholasaurs — and some adults from the People of the Springs who have mastered a variety of different skills — are able to use the Spiritways with unfettered facility, swiftly traversing these pathways of constantly flowing phlogiston...",
+                'id': 'BJ',
+            },
+
+            "tepetlisaurus": {
+                'name': "Tepetlisaurus",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313004_hd.webp',
+                'image': '/cards/gcg_313004.webp',
+                'golden_image': '/cards/gcg_313004_golden.webp',
+                'cost': '2 White',
+                'description': "Technique: Burrowing Assault \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "\"Tepetlisaurs are skilled diggers, and as they tunnel through the earth, they occasionally uncover buried treasures...\"",
+                'id': 'BW',
+            },
+
+            "iktomisaurus": {
+                'name': "Iktomisaurus",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313005_hd.webp',
+                'image': '/cards/gcg_313005.webp',
+                'golden_image': '/cards/gcg_313005_golden.webp',
+                'cost': '2 White',
+                'description': "Technique: Spiritual Support \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "\"According to legend, their ancestors did not have a physical form, and instead could drift like spirits between reality and the spiritual realm...\"",
+                'id': 'C8',
+            },
+
+            "qucusaurus": {
+                'name': "Qucusaurus",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313006_hd.webp',
+                'image': '/cards/gcg_313006.webp',
+                'golden_image': '/cards/gcg_313006_golden.webp',
+                'cost': '1 White',
+                'description': "When played: Attach Target to the opposing active character. \n\nWhen an opposing character with Target attached switches to become the active character: You gain 1 stack of Efficient Switch and Agile Switch, and then cancel all Target attached to opposing characters. \n\nTechnique: Swift Glide \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "It is said that the ancestors of the Qucusaurs were the closest in form to the mighty winged dragons, and that they could soar through the sky like clouds.",
+                'id': 'CH',
+            },
+
+            "waverider": {
+                'name': "Waverider",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313007_hd.webp',
+                'image': '/cards/gcg_313007.webp',
+                'golden_image': '/cards/gcg_313007_golden.webp',
+                'cost': '5 White',
+                'description': "When played: Grants the character to which this is attached 2 Shield points. \n\nWhen the character to which this is attached is switched out: This card gains Usage(s) +1.  \n\nTechnique: Waverider: Swiftstrike Cannon \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "A mysterious waterborne vehicle equipped with a magical weapon. With its deck beneath your feet, there is no waterway you cannot effortlessly traverse.",
+                'id': 'CX',
+            },
+
+            "tatankasaurus": {
+                'name': "Tatankasaurus",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313008_hd.webp',
+                'image': '/cards/gcg_313008.webp',
+                'golden_image': '/cards/gcg_313008_golden.webp',
+                'cost': '4 Black',
+                'description': "Technique: Spirited State \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "To a charging Tatankasaurus, solid Pulverite is no more imposing an obstacle than gently wafting steam, while the surfaces of water and liquid Phlogiston alike are as stable and supportive as a road.",
+                'id': 'D5',
+            },
+
+            "rawrrawr": {
+                'name': "Rawr! Rawr!",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313009_hd.webp',
+                'image': '/cards/gcg_313009.webp',
+                'golden_image': '/cards/gcg_313009_golden.webp',
+                'cost': '2 White',
+                'description': "When this card is played: Create Yikes!. (When you play a Technique card: If you've played a total of 6 Technique cards this match, your active character gains 3 Shield, and deals 3 Physical DMG) \n\nTechnique: Rawr! Rawr! \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "\"Get ready to meet your best travel companion in Natlan! Ahem, make that second best...\"",
+                'id': 'DI',
+            },
+
+            "blubberbeast": {
+                'name': "Blubberbeast",
+                'tags': ['modify', 'technique'],
+                'hi_res_image': '/cards/gcg_313010_hd.webp',
+                'image': '/cards/gcg_313010.webp',
+                'golden_image': '/cards/gcg_313010_golden.webp',
+                'cost': '1 White',
+                'description': "Technique: Sonar Waves \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                'flavor': "\"A type of mammal that resides in the watery regions of Fontaine. It communicates with its companions through melodious sounds.\"",
+                'id': 'G1',
             },
             
             "liyueharborwharf": {
@@ -4226,6 +6506,198 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "After you Discard or use 1 card for Tune: This card gains 1 Experimental Progress point. When you reach 3, 6, and 9 points, you will gain 1 Omni Die. After that, if Experimental Progress is at least 9, discard this card.",
                 'flavor': "...When excess intelligence and passion came together, research brought about results in a manner that surpassed everyone's expectations. Now, however, there remains no one to applaud that achievement.\nWhen an ideal is destroyed, its most important responsibility is to hold its peace...",      
                 'id': 'AR',
+            },
+
+            "stadiumofthesacredflame": {
+                'name': "Stadium of the Sacred Flame",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321022_hd.webp',
+                'image': '/cards/gcg_321022.webp',
+                'golden_image': '/cards/gcg_321022_golden.webp',
+                'cost': '2 White',
+                'description': "After you use a Skill or Technique: This card gains 1 Contending Fire. \n\nWhen your Contending Fire reaches 2: Create 1 random basic Elemental Die. \n\nWhen it reaches 4: Heal your active character for 2 HP. \n\nWhen it reaches 6: Discard this card, your current active character deals +1 DMG for 2 Rounds.",
+                'flavor': "\"Seize victory and glory for Natlan!\"",
+                'id': 'BK',
+            },
+
+            "stagetepetl": {
+                'name': "Stage Tepetl",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321023_hd.webp',
+                'image': '/cards/gcg_321023.webp',
+                'golden_image': '/cards/gcg_321023_golden.webp',
+                'cost': '0 White',
+                'description': "After you play a card whose name was not in the initial deck at the start of the match: This card gains 1 Attention point. \n\nAfter the opponent plays a card whose name was not in the initial deck at the start of the match: This card loses 1 Attention point. \n\nWhen the Action Phase begins: If this card has at least 3 points of Attention, then generate 1 random basic Elemental Die; and if this card has at least 1 point of Attention, convert 1 Elemental Die to an Omni Element.",
+                'flavor': "\"Get up on stage, and dance, dance, dance! Become a member of the Drillbit Dance! Show us your courage and resolve, and you can also become a legend of the stage!\"",
+                'id': 'BX',
+            },
+
+            "scionsofthecanopy": {
+                'name': "\"Scions of the Canopy\"",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321024_hd.webp',
+                'image': '/cards/gcg_321024.webp',
+                'golden_image': '/cards/gcg_321024_golden.webp',
+                'cost': '0 White',
+                'description': "When you play a card this match whose Name did not exist in your initial deck: If that card's Current Elemental Dice Cost is not less than this card's Daredevil Count, then generate 1 random basic Elemental Die, and +1 to this card's Daredevil Count.",
+                'flavor': "\"Legend has it that the warriors of the Scions of the Canopy, along with one hundred Yumkasaurs, spent a hundred days and a hundred ropes moving the 'Obsidian Totem Pole,' the symbol of their faith, to its current location.\"",
+                'id': 'C9',
+            },
+
+            "peopleofthesprings": {
+                'name': "\"People of the Springs\"",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321025_hd.webp',
+                'image': '/cards/gcg_321025.webp',
+                'golden_image': '/cards/gcg_321025_golden.webp',
+                'cost': '2 White',
+                'description': "When your Summon enters play: its Usage(s) +1. \n\nUsage(s): 3",
+                'flavor': "Natlan's best vacation destination, and a happy home for the Koholasaurus and hot spring enthusiasts!",
+                'id': 'CI',
+            },
+
+            "flowerfeatherclan": {
+                'name': "\"Flower-Feather Clan\"",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321026_hd.webp',
+                'image': '/cards/gcg_321026.webp',
+                'golden_image': '/cards/gcg_321026_golden.webp',
+                'cost': '0 White',
+                'description': "After you Discard 2 cards: Your next off-field character gains 1 stack of \"The next time this character switches to become your active character, recover 1 Elemental Die of the corresponding color.\" (Can stack. Triggers 1 stack each time.)",
+                'flavor': "A tribe of Qucusaur Riders — swift and aloof — who venerate the Wayob who dictate the flow of heat and scorching winds...\nEvery day, members of the tribe fly with the Qucusaurs, patrolling their territory from the air.",
+                'id': 'CQ',
+            },
+
+            "mastersofthenightwind": {
+                'name': "\"Masters of the Night-Wind\"",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321027_hd.webp',
+                'image': '/cards/gcg_321027.webp',
+                'golden_image': '/cards/gcg_321027_golden.webp',
+                'cost': '0 White',
+                'description': "This card begins with 4 Spiritspeaking. \n\nAfter you Select: Spiritspeaking -1. \n\nAt the start of the Action Phase: If Spiritspeaking is 0, this card is removed, and you can Select 1 of 3 random 2-cost Support Cards to be created.",
+                'flavor': "A tribe renowned for its mastery of the arcane arts. It is said that in their domain, one can listen to the echoes of the silent kingdom of the night.",
+                'id': 'CY',
+            },
+
+            "collectiveofplenty": {
+                'name': "\"Collective of Plenty\"",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321028_hd.webp',
+                'image': '/cards/gcg_321028.webp',
+                'golden_image': '/cards/gcg_321028_golden.webp',
+                'cost': '3 Black',
+                'description': "When your character prepares a Skill: This character gains 3 Workout. \n\nAfter your character switches to become the active character: This character gains 2 Workout. \n\n(When Workout stacks reach 3, heal the corresponding character for 1 HP. When Workout stacks reach 5, the corresponding character deals +1 DMG)",
+                'flavor': "A tribe that prizes strength and muscular physiques, it's said that nearly every member regularly works out.",
+                'id': 'D6',
+            },
+
+            "calligraphytavern": {
+                'name': "Calligraphy Tavern",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321029_hd.webp',
+                'image': '/cards/gcg_321029.webp',
+                'golden_image': '/cards/gcg_321029_golden.webp',
+                'cost': '2 Black',
+                'description': "When played: Randomly create 1 Origami Flying Squirrel, Pop-Up Paper Frog, or Origami Hamster, and add it to your Hand. \n\nWhen you declare the end of your Round: Randomly trigger 1 of your Simulanka Summon's \"End Phase\" effects. \n\nUsage(s): 3",
+                'flavor': "\"Well, if you're offering... Paimon will take a glass of Bulle Fruit Tonic! ...Um, but hold the Tonic, hehe!\"",
+                'id': 'DW',
+            },
+
+            "constellationmetropole": {
+                'name': "Constellation Metropole",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321030_hd.webp',
+                'image': '/cards/gcg_321030.webp',
+                'golden_image': '/cards/gcg_321030_golden.webp',
+                'cost': '2 White',
+                'description': "When played: Create 1 Toy Guard and add it to your Hand. \n\nAfter your character uses an Elemental Skill: Spend 1 fewer Elemental Die the next time Toy Guard is played. (Cannot stack) \n\nAfter your character uses an Elemental Burst: The next Toy Guard you play gains +1 to its number of effects. (Cannot stack)",
+                'flavor': "\"The heroes gazed upon the skies of gray, and in carriages bright they went their way.\"",
+                'id': 'DX',
+            },
+
+            "adventurersguild": {
+                'name': "Adventurers' Guild",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321031_hd.webp',
+                'image': '/cards/gcg_321031.webp',
+                'golden_image': '/cards/gcg_321031_golden.webp',
+                'cost': '2 White',
+                'description': "End Phase: Adventure: Once. \n\nUsage(s): 3",
+                'flavor': "They boldly venture \"up to the stars, down to the abyss,\" or so their motto would have you believe. In truth, they take on jobs ranging from finding kittens to exploring domains. Well, you cannot afford to gaze at the stars or the abyss without an honest job.",
+                'id': 'EQ',
+            },
+
+            "silvermoonhall": {
+                'name': "Silvermoon Hall",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321035_hd.webp',
+                'image': '/cards/gcg_321035.webp',
+                'golden_image': '/cards/gcg_321035_golden.webp',
+                'cost': '0 White',
+                'description': "When Cost Reduction or Empowerment is attached to your card: +1 stack. \n\nAt the start of the Action Phase, if the stack of this card reaches 3: Remove 3 stacks and generate 1 random basic Elemental Die.",
+                'flavor': "And still the moonlight flows as ever.",
+                'id': 'FL',
+            },
+
+            "tidesealstone": {
+                'name': "Tideseal Stone",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321036_hd.webp',
+                'image': '/cards/gcg_321036.webp',
+                'golden_image': '/cards/gcg_321036_golden.webp',
+                'cost': '0 White',
+                'description': "When Action Phase begins: Attach Cost Increase and Untunable to 1 random card in the opponent's Hand. \n\nUsage(s): 2",
+                'flavor': "\"The night sky has been devoured by deathly silence. We knead blood and bone for fuel, and so proclaim: The Long Night flows dark and deep. With these lanterns we wield, no specter shall stir from their sleep. By the lunar spirits, this pact is sealed.\"",
+                'id': 'FM',
+            },
+
+            "frostmoonenclave": {
+                'name': "Frostmoon Enclave",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321037_hd.webp',
+                'image': '/cards/gcg_321037.webp',
+                'golden_image': '/cards/gcg_321037_golden.webp',
+                'cost': '4 White',
+                'description': "When played: Draw 2 cards, heal the character on your side who has taken the most DMG for 2 HP. \n\nEnd Phase: Attach Cost Reduction to 2 random cards in your Hand. \n\nUsage(s): 2.",
+                'flavor': "Here, the Frostmoon Scions gather, listening to the teachings of moonlight.",
+                'id': 'FN',
+            },
+
+            "nashatown": {
+                'name': "Nasha Town",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321038_hd.webp',
+                'image': '/cards/gcg_321038.webp',
+                'golden_image': '/cards/gcg_321038_golden.webp',
+                'cost': '1 White',
+                'description': "End Phase: Attach Empowerment to 2 random cards in your Hand with a Current Elemental Dice Cost of 2 or more. \n\nUsage(s): 2 \n\nWhen this card is discarded: If this card has 0 Usages, deal 2 Physical DMG.",
+                'flavor': "This town sits like a ship run aground on the world's edge — a place where drifters gather to scavenge fragments of elysium from the wreckage of history and fabricated pasts.",
+                'id': 'FO',
+            },
+
+            "kuuvahkiexperimentaldesignbureau": {
+                'name': "Kuuvahki Experimental Design Bureau",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321039_hd.webp',
+                'image': '/cards/gcg_321039.webp',
+                'golden_image': '/cards/gcg_321039_golden.webp',
+                'cost': '2 White',
+                'description': "End Phase: Attach Empowerment to 2 random cards in your deck. \n\nUsage(s): 2 \n\nWhen this card is discarded while on the field: Draw 2 cards with Empowerment attached, and attach 1 stack of Battle Plan to your active character.",
+                'flavor': "This leviathan forged of white iron and black steel hungrily devours all in its sight – energy, blood, and tears alike. Yet what it seeks is not plunder, but power enough to withstand the looming calamity.",
+                'id': 'FP',
+            },
+
+            "nightmareomen": {
+                'name': "Nightmare Omen",
+                'tags': ['assist', 'place'],
+                'hi_res_image': '/cards/gcg_321041_hd.webp',
+                'image': '/cards/gcg_321041.webp',
+                'golden_image': '/cards/gcg_321041_golden.webp',
+                'cost': '0 White',
+                'description': "When played or when the Action Phase begins: Grants Cost Increase to the card with the highest Current Elemental Dice Cost in opponent's Hand, and grant Cost Increase to the top card of your deck.",
+                'flavor': "\"A colossal, lidless eye it was, its gaze unflinching, piercing through the clouds, the mist, the land, and the mountains alike. It was a vision both omniscient and omnipresent.\"",
+                'id': 'GQ',
             },
             
             "paimon": {
@@ -4535,6 +7007,102 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"Hello! Hello!\"",
                 'id': 'AS',
             },
+
+            "serene": {
+                'name': "Serene",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322027_hd.webp',
+                'image': '/cards/gcg_322027.webp',
+                'golden_image': '/cards/gcg_322027_golden.webp',
+                'cost': '2 Black',
+                'description': "Triggers automatically once per Round: 1 random Melusine Support is added to your Hand. \n\nUsage(s): 3",
+                'flavor': "\"We're going to solve everyone's troubles today, too!\"",
+                'id': 'B8',
+            },
+
+            "atea": {
+                'name': "Atea",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322028_hd.webp',
+                'image': '/cards/gcg_322028.webp',
+                'golden_image': '/cards/gcg_322028_golden.webp',
+                'cost': '1 White',
+                'description': "When you use a Technique: Spend 1 fewer Elemental Die. (Once per Round)",
+                'flavor': "A tribal warrior known as the \"Candlekeeper,\" the pride of the People of the Springs.",
+                'id': 'BL',
+            },
+
+            "forestblessing": {
+                'name': "Forest Blessing",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322029_hd.webp',
+                'image': '/cards/gcg_322029.webp',
+                'golden_image': '/cards/gcg_322029_golden.webp',
+                'cost': '2 Black',
+                'description': "When played and after your character triggers an Elemental Reaction: Randomly create 1 Origami Flying Squirrel, Pop-Up Paper Frog, or Origami Hamster and add it to your Hand.",
+                'flavor': "\"I bestow upon you the blessings of the forest, and offer you a home in this land...\"",
+                'id': 'DY',
+            },
+
+            "giftofthegoddessofprophecy": {
+                'name': "Gift of the Goddess of Prophecy",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322030_hd.webp',
+                'image': '/cards/gcg_322030.webp',
+                'golden_image': '/cards/gcg_322030_golden.webp',
+                'cost': '2 Black',
+                'description': "When played: Create 2 Toy Guard and add them to your Hand, then create another 2 Toy Guard and randomly place them into your deck. \n\nAfter you play Simulanka Summon, add 1 to its number of effects. \n\nUsage(s): 2",
+                'flavor': "\"When that time comes, I shall dance, and return the tracks beneath my people's feet back to the stars in the sky...\"",
+                'id': 'DZ',
+            },
+
+            "seymour": {
+                'name': "Seymour",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322031_hd.webp',
+                'image': '/cards/gcg_322031.webp',
+                'golden_image': '/cards/gcg_322031_golden.webp',
+                'cost': '1 White',
+                'description': "When played: Copy 1 card from the top of your opponent's deck and add it to your Hand. \n\nWhen you play a card whose name is not in the original deck at the start of the game: Adventure once. (Once per Round, up to twice)",
+                'flavor': "\"Welcome back, milady. You are as gentle, lovely, and radiant as ever.\"",
+                'id': 'F0',
+            },
+
+            "bonaandcocouik": {
+                'name': "Bona and Cocouik",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322032_hd.webp',
+                'image': '/cards/gcg_322032.webp',
+                'golden_image': '/cards/gcg_322032_golden.webp',
+                'cost': '2 Black',
+                'description': "When played: Adventure once. \n\nAfter you use a Technique: Adventure once. (Once per Round)",
+                'flavor': "\"For starters, one needs enough curiosity, a thirst for knowledge, and a sense of responsibility to help others.\nBut most importantly, you need the courage to take that first step! Once you make the decision and start on a journey, you've become an adventurer.\"",
+                'id': 'FD',
+            },
+
+            "lepinepauline": {
+                'name': "Lepine-Pauline",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322033_hd.webp',
+                'image': '/cards/gcg_322033.webp',
+                'golden_image': '/cards/gcg_322033_golden.webp',
+                'cost': '0 White',
+                'description': "When played: Select 1 Investment Plan.",
+                'flavor': "\"I'm begging you! Begging you like the beggiest beggar in all of begdom!\"",
+                'id': 'G2',
+            },
+
+            "netochka": {
+                'name': "Netochka",
+                'tags': ['assist', 'companion'],
+                'hi_res_image': '/cards/gcg_322034_hd.webp',
+                'image': '/cards/gcg_322034.webp',
+                'golden_image': '/cards/gcg_322034_golden.webp',
+                'cost': '1 White',
+                'description': "When you trigger a Lunar-Charged, Lunar-Bloom, or Lunar-Crystallize reaction: Attach Battle Plan to your active character. (Once per Round)",
+                'flavor': "\"Just as the oppressive, greedy governor here stole treasures from the Frostmoon Scions all those years ago, the Fatui now have seized things that don't belong to them.\nI must retrieve the Proof of the Cognoscenti from them and find Reed Miller's Great Treasure, so that his name, now forgotten, will be held in esteem once more throughout the world!\"",
+                'id': 'GF',
+            },
             
             "parametrictransformer": {
                 "name": "Parametric Transformer",
@@ -4632,6 +7200,114 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'id': 'AT',
             },
 
+            "elementaltransfigurationsuperconductblessing": {
+                'name': "Elemental Transfiguration: Superconduct Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331004_hd.webp',
+                'image': '/cards/gcg_331004.webp',
+                'golden_image': '/cards/gcg_331004_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration: Cryo Electro \n\nRoll Phase: Always roll 2 Cryo Dice and 2 Electro Dice. \n\nAfter you trigger Superconduct reaction(s): Discard this card, then choose either Superconduct Blessing: Deep Freeze or Superconduct Blessing: Electric Surge and add it to your Hand.",
+                'flavor': "The thunder borrows the might of ice, piercing clouds and splitting rocks.",
+                'id': 'FQ',
+            },
+
+            "elementaltransfigurationvaporizeblessing": {
+                'name': "Elemental Transfiguration: Vaporize Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331005_hd.webp',
+                'image': '/cards/gcg_331005.webp',
+                'golden_image': '/cards/gcg_331005_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration: Hydro Pyro \n\nRoll Phase: Always roll 2 Hydro Dice and 2 Pyro Dice. \n\nAfter you trigger Vaporize reaction(s): Discard this card, then choose either Vaporize Blessing: Wild Waves or Vaporize Blessing: Searing Burn and add it to your Hand.",
+                'flavor': "When water and fire meet in concord, no venture shall fail.",
+                'id': 'FR',
+            },
+
+            "elementaltransfigurationbloomblessing": {
+                'name': "Elemental Transfiguration: Bloom Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331006_hd.webp',
+                'image': '/cards/gcg_331006.webp',
+                'golden_image': '/cards/gcg_331006_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration: Hydro Dendro \n\nRoll Phase: Always roll 2 Hydro Dice and 2 Dendro Dice. \n\nAfter you trigger Bloom or Lunar-Bloom reaction(s): Discard this card, then choose either Bloom Blessing: Amrita or Bloom Blessing: Overgrow and add it to your Hand.",
+                'flavor': "Nurtured by rain and soil, life thrives in endless bloom.",
+                'id': 'G3',
+            },
+
+            "elementaltransfigurationlavablessing": {
+                'name': "Elemental Transfiguration: Lava Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331007_hd.webp',
+                'image': '/cards/gcg_331007.webp',
+                'golden_image': '/cards/gcg_331007_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration: Pyro Geo \n\nRoll Phase: Always roll 2 Pyro Dice and 2 Geo Dice. \n\nAfter you trigger a Pyro Crystallize reaction: Discard this card, then choose either Lava Blessing: Turnfire or Lava Blessing: Remelting and add it to your Hand.",
+                'flavor': "Forged of fire and stone, might stands unyielding and eternal.",
+                'id': 'G4',
+            },
+
+            "elementaltransfigurationrimegrassblessing": {
+                'name': "Elemental Transfiguration: Rimegrass Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331008_hd.webp',
+                'image': '/cards/gcg_331008.webp',
+                'golden_image': '/cards/gcg_331008_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration: Cryo Dendro \n\nRoll Phase: Always roll 2 Cryo Dice and 2 Dendro Dice. \n\nBefore you choose an action, if there is an opposing character affected by both Cryo and Dendro: Discard this card, then choose either Rimegrass Blessing: Thorn Frost or Rimegrass Blessing: Cold Vine and add it to your Hand.",
+                'flavor': "As rime seals the land and the grasses fall still, all sounds are hushed.",
+                'id': 'GG',
+            },
+
+            "elementaltransfigurationstormgaleblessing": {
+                'name': "Elemental Transfiguration: Stormgale Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331009_hd.webp',
+                'image': '/cards/gcg_331009.webp',
+                'golden_image': '/cards/gcg_331009_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration: Electro Anemo \n\nRoll Phase: Always roll 2 Electro Dice and 2 Anemo Dice. \n\nAfter you trigger an Electro Swirl reaction: Discard this card, then choose either Stormgale Blessing: Swift Bolt or Stormgale Blessing: Wind Force and add it to your Hand.",
+                'flavor': "Wind and thunder surge, swift and unrelenting.",
+                'id': 'GH',
+            },
+
+            "elementaltransfigurationaquabreezeblessing": {
+                'name': "Elemental Transfiguration: Aquabreeze Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331010_hd.webp',
+                'image': '/cards/gcg_331010.webp',
+                'golden_image': '/cards/gcg_331010_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration: Hydro Anemo \n\nRoll Phase: Always roll 2 Hydro Dice and 2 Anemo Dice. \n\nAfter you trigger a Swirl (Hydro) reaction: Discard this card, then choose either Aquabreeze Blessing: Waterburst or Aquabreeze Blessing: Vortex and add it to your Hand.",
+                'flavor': "Winds rage, waves surge, and the sea rises to meet the sky.",
+                'id': 'GR',
+            },
+
+            "elementaltransfigurationthunderbloomblessing": {
+                'name': "Elemental Transfiguration: Thunderbloom Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331011_hd.webp',
+                'image': '/cards/gcg_331011.webp',
+                'golden_image': '/cards/gcg_331011_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration:ElectroDendro \n\nRoll Phase: Always roll 2 Electro Dice and 2 Dendro Dice. \n\nAfter you trigger a Catalyze reaction: Discard this card, then choose either Thunderbloom Blessing: Shatterbolt or Thunderbloom Blessing: Nexus and add it to your Hand.",
+                'flavor': "Thunder cracks, and creeping vines burst forth.",
+                'id': 'GS',
+            },
+
+            "elementaltransfigurationoverloadblessing": {
+                'name': "Elemental Transfiguration: Overload Blessing",
+                'tags': ['assist', 'elemental transfiguration'],
+                'hi_res_image': '/cards/gcg_331012_hd.webp',
+                'image': '/cards/gcg_331012.webp',
+                'golden_image': '/cards/gcg_331012_golden.webp',
+                'cost': '2 White',
+                'description': "Elemental Transfiguration:ElectroPyro \n\nRoll Phase: Always roll 2 Electro Dice and 2 Pyro Dice. \n\nAfter you trigger a Overloaded reaction: Discard this card, then choose either Overloaded: Pursuing Fire or Overloaded: Thunderstrike and add it to your Hand.",
+                'flavor': "\"Lightning and fire bite as one, bursting forth in dazzling light.\"",
+                'id': 'HG',
+            },
+
             "ancientcourtyardMAX1": {
                 "name": "Ancient Courtyard",
                 "tags": ['event', 'arcane legend'],
@@ -4726,6 +7402,78 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "The opposing active character loses 1 Energy. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
                 'flavor': "Victorious were we who fought to be free... Thus did the dream of eternal prosperity fall with this mighty capital...",
                 'id': 'AU',
+            },
+
+            "edictofabsolutionMAX1": {
+                'name': "Edict of Absolution",
+                'tags': ['event', 'arcane legend'],
+                'hi_res_image': '/cards/gcg_330009_hd.webp',
+                'image': '/cards/gcg_330009.webp',
+                'golden_image': '/cards/gcg_330009_golden.webp',
+                'cost': '1 White',
+                'description': "Heal the target character for 2 HP. \n\nThe target character is immune to Frozen, Stun, Petrification, and other effects that prevent the use of Skills. Also, if this character is the active character, they will not be switched out due to effects. This effect persists for 2 Rounds. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                'flavor': "\"Every last Fontainian is guilty, with judgment and doom certain to one day fall upon them — this is neither metaphor nor rhetoric.\"",
+                'id': 'BN',
+            },
+
+            "pilgrimageofthereturnofthesacredflameMAX1": {
+                'name': "Pilgrimage of the Return of the Sacred Flame",
+                'tags': ['event', 'arcane legend'],
+                'hi_res_image': '/cards/gcg_330010_hd.webp',
+                'image': '/cards/gcg_330010.webp',
+                'golden_image': '/cards/gcg_330010_golden.webp',
+                'cost': '0 White',
+                'description': "Generates Flames of War on both sides. +1 Fighting Spirit to the Flames of War on your side. (Each Flames of War tallies the damage dealt by its side to the other as \"Fighting Spirit.\" At the start of each Round's Action Phase, the side with more \"Fighting Spirit\" will clear their \"Fighting Spirit,\" causing their currently active character to deal +1 DMG in this Round.) \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                'flavor': "\"Every participant, whether they win or lose, contributes to the defense of our nation. That's what makes it such an honor to take part.\"",
+                'id': 'CJ',
+            },
+
+            "fightfordeathMAX1": {
+                'name': "Fight for Death",
+                'tags': ['event', 'arcane legend'],
+                'hi_res_image': '/cards/gcg_330011_hd.webp',
+                'image': '/cards/gcg_330011.webp',
+                'golden_image': '/cards/gcg_330011_golden.webp',
+                'cost': '1 White',
+                'description': "Draw 1 card. \n\nFor every character on your side of the field that is defeated: All your remaining characters gain +2 Max HP. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                'flavor': "\"No hero should have to wander alone.\"",
+                'id': 'DJ',
+            },
+
+            "lostlegaciesinthesandMAX1": {
+                'name': "Lost Legacies in the Sand",
+                'tags': ['event', 'arcane legend'],
+                'hi_res_image': '/cards/gcg_330012_hd.webp',
+                'image': '/cards/gcg_330012.webp',
+                'golden_image': '/cards/gcg_330012_golden.webp',
+                'cost': '0 White',
+                'description': "Select one of the following: \n\nPlace 1 card with the highest Current Elemental Dice Cost from your opponent's Hand at the bottom of their deck. \n\nOr \n\nPlace all cards from your Hand at the bottom of your deck and then draw the same number of cards plus 1. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                'flavor': "\"Children of the desert, cling no longer to past grievances. But hold tight to the memory of this act of benevolence...\"",
+                'id': 'F1',
+            },
+
+            "theothersideofthefrostmoonMAX1": {
+                'name': "The Other Side of the Frostmoon",
+                'tags': ['event', 'arcane legend'],
+                'hi_res_image': '/cards/gcg_330013_hd.webp',
+                'image': '/cards/gcg_330013.webp',
+                'golden_image': '/cards/gcg_330013_golden.webp',
+                'cost': '0 White',
+                'description': "When played, and at the start of each Action Phase: Attach Cost Reduction to 1 random card in your Hand. \n\n(Only one \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                'flavor': "\"We are all tainted by sin... How could we ever hope to behold the moonlight in its purest form?\"",
+                'id': 'GI',
+            },
+
+            "returnofthethreemoonsMAX1": {
+                'name': "Return of the Three Moons",
+                'tags': ['event', 'arcane legend'],
+                'hi_res_image': '/cards/gcg_330014_hd.webp',
+                'image': '/cards/gcg_330014.webp',
+                'golden_image': '/cards/gcg_330014_golden.webp',
+                'cost': '3 White',
+                'description': "Discard the 3 cards with the highest Current Elemental Dice Cost in your Hand. \n\nAt the start of your next Round, heal all your characters on the field for 3. \n\nAt the start of the Round after that, add the 3 Discarded cards to your Hand and give each of them 3 stacks of Cost Reduction. \n\n(Only one  \"Arcane Legend\" card can be played per match. This card will be in your starting hand.)",
+                'flavor': "\"I turn my body into moonlight, and pour it over Nod-Krai...\"\n\"My soul, I leave here... To inform my future friends...\"\n\"Lastly... I will hide the Trilune authority within the Frost Moon...\"\n\"And when my body, soul, and authority are reunited...\"\n\"Finally...\"",
+                'id': 'HH',
             },
             
             "elementalresonancewovenice": {
@@ -4910,6 +7658,19 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "id": '3F'        
             },
 
+            "moonsignascendantgleam": {
+                'name': "Moonsign: Ascendant Gleam",
+                'tags': ['event', 'resonance'],
+                'hi_res_image': '/cards/gcg_331721_hd.webp',
+                'image': '/cards/gcg_331721.webp',
+                'golden_image': '/cards/gcg_331721_golden.webp',
+                'cost': '0 White',
+                'description': "Attach Cost Reduction to 1 random card in your Hand and the top card in your Deck. \n\n(You must have at least 2 Nod-Krai characters in your deck to add this card to your Deck.)",
+                'flavor': "\"Come night or day, may the moonlight connect us.\"",
+                'required': "2nodkrai",
+                'id': 'G5',
+            },
+
             "windandfreedom": {
                 "name": "Wind and Freedom",
                 "tags": ['event'],
@@ -4973,6 +7734,32 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "required": '2fontaine',
                 "flavor": '"That dancing circle embodied everything about the universe. Life has always been the end, while it is wisdom that shall be the means."',
                 'id': 'AX'
+            },
+
+            "fireandwar": {
+                'name': "Fire and War",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_331806_hd.webp',
+                'image': '/cards/gcg_331806.webp',
+                'golden_image': '/cards/gcg_331806_golden.webp',
+                'cost': '1 White',
+                'description': "Select one of your characters and attach an Ode of Resurrection with 1 \"Reignite\" to them. (When this character is defeated during this Round, consume Elemental Dice equal to the value of \"Reignite,\" grant this character Immunity to Defeat, heal this character to 1 HP, and then gain \"Reignite\" +1.) \n\n(You must have at least 2 Natlan characters in your deck to add this card to your deck)",
+                'flavor': "\"We are the inheritors of memory and legend. Those who grew alongside sun and wind. Those who forged our own destiny and future. That is Natlan's fire, the lifeblood of our nation.\"",
+                'required': "2natlan",
+                'id': 'DL',
+            },
+
+            "moonandhomeland": {
+                'name': "Moon and Homeland",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_331807_hd.webp',
+                'image': '/cards/gcg_331807.webp',
+                'golden_image': '/cards/gcg_331807_golden.webp',
+                'cost': '0 White',
+                'description': "After you play the next card in this Round: At the start of the next Round, create 1 card that has been played and add it to your Hand. \n\n(You must have at least 2  Nod-Krai characters in your deck to add this card to your deck)",
+                'flavor': "\"My moon, my beloved song,\nabandon me not in this dark night.\nMy little doves, bring from that golden city\nthe song of my homeland.\"",
+                'required': "2nodkrai",
+                'id': 'G6',
             },
             
             "thebestesttravelcompanion": {
@@ -5363,6 +8150,354 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'flavor': "\"Would you like to see a magic trick? Now then, count down with me — three... two... one!\"",
                 'id': 'AY',
             },
+
+            "idratherlosemoneymyself": {
+                'name': "\"I'd Rather Lose Money Myself...\"",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332036_hd.webp',
+                'image': '/cards/gcg_332036.webp',
+                'golden_image': '/cards/gcg_332036_golden.webp',
+                'cost': '0 White',
+                'description': "Each time your opponent gains 1 Elemental Die during this Round: If you have not declared the end of your Round, you will create 1 Omni Element. Otherwise, create 1 Shield. \n\nUsage(s): 3",
+                'flavor': "\"...than see that rascal make some!\"",
+                'id': 'B9',
+            },
+
+            "tada": {
+                'name': "Tada!",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332037_hd.webp',
+                'image': '/cards/gcg_332037.webp',
+                'golden_image': '/cards/gcg_332037_golden.webp',
+                'cost': '0 White',
+                'description': "Deal 1 Physical DMG to your active character. Draw 1 card during the End Phase of this Round.",
+                'flavor': "\"Surprise.\"",
+                'id': 'BA',
+            },
+
+            "sauriandiningbuddies": {
+                'name': "Saurian Dining Buddies",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332039_hd.webp',
+                'image': '/cards/gcg_332039.webp',
+                'golden_image': '/cards/gcg_332039_golden.webp',
+                'cost': '0 White',
+                'description': "Select 1 Technique equipped to your characters and increase its Usage(s) by 1.",
+                'flavor': "\"...Last but not least: Get 'em some good grub! The way to a Saurian's heart is through the stomach, after all!\"",
+                'id': 'BM',
+            },
+
+            "eremiteteatime": {
+                'name': "Eremite Teatime",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332040_hd.webp',
+                'image': '/cards/gcg_332040.webp',
+                'golden_image': '/cards/gcg_332040_golden.webp',
+                'cost': '2 White',
+                'description': "If you have multiple characters of the same Elemental Type, then Select 1 Location card from 3 to add to your Hand; \n\nIf you have multiple characters that use the same type of weapon, then Select 1 Item card from 3 to add to your Hand; \n\nIf you have characters that belong to the same faction, then Select 1 Food card from 3 to add to your Hand.",
+                'flavor': "\"Join the Eremites and Embrace a Wonderful New Life!\"",
+                'id': 'BY',
+            },
+
+            "ultimatesurfingbuddy": {
+                'name': "Ultimate Surfing Buddy!",
+                'tags': ['event', 'slowly'],
+                'hi_res_image': '/cards/gcg_332041_hd.webp',
+                'image': '/cards/gcg_332041.webp',
+                'golden_image': '/cards/gcg_332041_golden.webp',
+                'cost': '0 White',
+                'description': "Combat Action: Can only be played when there are at least a total of 2 Summons on the field (Both sides' Summons count) Randomly triggers an End Phase effect of one of your and the opponent's Summons each.",
+                'flavor': "\"Just find yourself a good swell, pick up a suitable surfboard, and you too can experience the joys of surfing whenever you want!\"",
+                'id': 'CA',
+            },
+
+            "abundantphlogiston": {
+                'name': "Abundant Phlogiston",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332042_hd.webp',
+                'image': '/cards/gcg_332042.webp',
+                'golden_image': '/cards/gcg_332042_golden.webp',
+                'cost': '0 White',
+                'description': "After the next time your character uses Nightsoul points this Round: This character will regain 1 Nightsoul point.",
+                'flavor': "A special high-temperature thermal energy that can be found throughout Natlan. It comes in all shapes and sizes, and has many wondrous uses...\nAfter Nightsoul points are fully depleted, warriors will switch to consuming Phlogiston to maintain their Nightsoul's Blessing.",
+                'id': 'CK',
+            },
+
+            "littletepetlisaurtreasurehunteratlarge": {
+                'name': "Little Tepetlisaur — Treasure Hunter at Large",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332043_hd.webp',
+                'image': '/cards/gcg_332043.webp',
+                'golden_image': '/cards/gcg_332043_golden.webp',
+                'cost': '1 White',
+                'description': "Add 2 Abundant Phlogiston cards to both your and your opponent's Decks, after which both of you draw 2 cards.",
+                'flavor': "\"Shiny stones that gleam like gold!\"",
+                'id': 'CR',
+            },
+
+            "inthenameoftheextreme": {
+                'name': "In the Name of the Extreme",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332044_hd.webp',
+                'image': '/cards/gcg_332044.webp',
+                'golden_image': '/cards/gcg_332044_golden.webp',
+                'cost': '4 White',
+                'description': "Exchange Hands with your opponent, then the player with fewer cards in their Hand draws until they have the same number of cards as the other player.",
+                'flavor': "\"Relax your body and embrace the storm! Together with your companions, chase the tailwinds of extremity.\"",
+                'id': 'CZ',
+            },
+
+            "artofsleepymeditation": {
+                'name': "Art of Sleepy Meditation",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332045_hd.webp',
+                'image': '/cards/gcg_332045.webp',
+                'golden_image': '/cards/gcg_332045_golden.webp',
+                'cost': '1 White',
+                'description': "Select 1 from 3 random Technique Cards. \n\nSpend 2 fewer Elemental Dice the next time you play a card that was not in your initial deck at the start of the match.",
+                'flavor': "\"What is the nature of meditation... Hey! Whatever it is, it sure as heck isn't sleeping!\"",
+                'id': 'D7',
+            },
+
+            "flyingsquadattack": {
+                'name': "Flying Squad, Attack!",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332046_hd.webp',
+                'image': '/cards/gcg_332046.webp',
+                'golden_image': '/cards/gcg_332046_golden.webp',
+                'cost': '3 Black',
+                'description': "Randomly Discard up to 2 cards from your hand with the highest Current Elemental Dice Cost, then draw cards until there are 4 cards in your Hand. \n\nAfter you Discard this card from your Hand: Draw 1 card.",
+                'flavor': "\"Back when the Flower-Feather Clan was responsible for patrolling and defending all of Natlan, the flying squad was the best of the best — the fiercest warriors in the nation.\"",
+                'id': 'DK',
+            },
+
+            "fruitsoftraining": {
+                'name': "Fruits of Training",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332048_hd.webp',
+                'image': '/cards/gcg_332048.webp',
+                'golden_image': '/cards/gcg_332048_golden.webp',
+                'cost': '0 White',
+                'description': "Select one of your characters. When your other characters prepare a Skill: Your selected character's next Elemental Skill will cost 1 fewer Elemental Die. (Can be triggered up to 2 times, cannot stack)",
+                'flavor': "\"I keep telling them it's down to the training... Why doesn't anybody listen?\"",
+                'id': 'DM',
+            },
+
+            "harvesttime": {
+                'name': "Harvest Time",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332049_hd.webp',
+                'image': '/cards/gcg_332049.webp',
+                'golden_image': '/cards/gcg_332049_golden.webp',
+                'cost': '1 White',
+                'description': "Select 1 out of 3 Food Cards. \n\nEnd Phase: Create 1 Harvest Time and randomly place it into your deck.",
+                'flavor': "\"Very good. Exactly like that. Keep it up.\"",
+                'id': 'E0',
+            },
+
+            "awesomebro": {
+                'name': "Awesome, Bro",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332050_hd.webp',
+                'image': '/cards/gcg_332050.webp',
+                'golden_image': '/cards/gcg_332050_golden.webp',
+                'cost': '1 White',
+                'description': "Draw 1  Technique card. The next time you play a  Technique card, create 1 Omni Element.",
+                'flavor': "\"Alright, come here, sit still, open up, and say 'ah'!\"",
+                'id': 'E1',
+            },
+
+            "felldragonsawakening": {
+                'name': "Fell Dragon's Awakening",
+                'tags': ['event', 'simulanka'],
+                'hi_res_image': '/cards/gcg_332051_hd.webp',
+                'image': '/cards/gcg_332051.webp',
+                'golden_image': '/cards/gcg_332051_golden.webp',
+                'cost': '2 White',
+                'description': "Summon Fell Dragon. \n\nDuring this match, for each card you discard from the Support Zone, Fell Dragon gains 1 Usage. For each card you discard from the Summon Zone, Fell Dragon gains 1 Effect. (Can stack. Max 4 stacks.) \n\n(Fell Dragon: End Phase: Deal 1 Piercing DMG. \n\nUsage(s): 1)",
+                'flavor': "\"It came down from the skies in an ominous black mist and ravaged our homeland...\"",
+                'id': 'EB',
+            },
+
+            "narrationfootnotes": {
+                'name': "Narration Footnotes",
+                'tags': ['event', 'simulanka'],
+                'hi_res_image': '/cards/gcg_332052_hd.webp',
+                'image': '/cards/gcg_332052.webp',
+                'golden_image': '/cards/gcg_332052_golden.webp',
+                'cost': '0 White',
+                'description': "Both sides summon 1 Toy Guard. \n\n(Toy Guard: End Phase: Deal 1 Physical DMG. \n\nUsage(s): 2)",
+                'flavor': "\"Suspect, try and look more serious. Heroes, more natural please, happy smiles! ...But no smiling from the victim or their friends and family, thank you. No, no, don't get up! Stay on the ground, we need to capture the crime scene as-is!\"",
+                'id': 'EC',
+            },
+
+            "brokensea": {
+                'name': "Broken Sea",
+                'tags': ['event', 'simulanka'],
+                'hi_res_image': '/cards/gcg_332053_hd.webp',
+                'image': '/cards/gcg_332053.webp',
+                'golden_image': '/cards/gcg_332053_golden.webp',
+                'cost': '1 White',
+                'description': "Select a card from your Support Zone and discard it. Then all of your Simulanka Summons gain +1 Usage and +1 Effect.",
+                'flavor': "\"We surge through different bushes and shrubs like a gust of wind, like rivers passing through another lake... We encounter different things, and we, too, become different people.\"",
+                'id': 'ED',
+            },
+
+            "ablessingfromm": {
+                'name': "\"A Blessing From 'M'\"",
+                'tags': ['event', 'simulanka'],
+                'hi_res_image': '/cards/gcg_332054_hd.webp',
+                'image': '/cards/gcg_332054.webp',
+                'golden_image': '/cards/gcg_332054_golden.webp',
+                'cost': '0 White',
+                'description': "Select a summon on your side to discard, convert its Usage(s) into up to 2 basic Elemental Dice of different types. If its usage count is no less than 3, then heal the most damaged character on your side for 2 HP.",
+                'flavor': "\"Go forth and witness this world, my child... Make sure to be nice to everyone...\nYou'll meet good friends one day, I'm sure of it... That is my wish for your future.\"",
+                'id': 'EE',
+            },
+
+            "revelrousbeats": {
+                'name': "\"Revelrous Beats\"",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332055_hd.webp',
+                'image': '/cards/gcg_332055.webp',
+                'golden_image': '/cards/gcg_332055_golden.webp',
+                'cost': '2 Black',
+                'description': "Draw 2 cards. If you have more than 1 Weapon or Artifact card in your hand, create 1 Omni Element for each.",
+                'flavor': "\"Come on! Follow the beat!\"",
+                'id': 'EF',
+            },
+
+            "anancientsacrificeofsacredbrocade": {
+                'name': "An Ancient Sacrifice of Sacred Brocade",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332056_hd.webp',
+                'image': '/cards/gcg_332056.webp',
+                'golden_image': '/cards/gcg_332056_golden.webp',
+                'cost': '1 White',
+                'description': "Adventure: Once. If your Adventure Experience is not less than 4, change to deal 1 Physical DMG to your Active Character, and Adventure: Twice.",
+                'flavor': "\"Have you noticed them, seen them? The children who wash their little feet in the streams, fishermen laughing beneath the light of the rainbow's arc, the moonlight trysts of lovebirds, their figures painted silver... Humans, too, are creatures of this land. Just how different is their innocence from ours?\"",
+                'id': 'ER',
+            },
+
+            "thenarzissenkreuzadventure": {
+                'name': "The Narzissenkreuz Adventure",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332057_hd.webp',
+                'image': '/cards/gcg_332057.webp',
+                'golden_image': '/cards/gcg_332057_golden.webp',
+                'cost': '1 White',
+                'description': "If you have multiple characters of the same Elemental Type, then heal your most damaged character for 1 HP. \n\nIf you have multiple characters that use the same type of weapon, then draw 1 card. \n\nIf you have characters that belong to the same faction, then Adventure once.",
+                'flavor': "\"Before you arrived, I had a dream. I dreamed that I was a small, brave Oceanid, and we set out to save the Princess...\"",
+                'id': 'F2',
+            },
+
+            "plantosavetheworld": {
+                'name': "Plan to Save the World",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332058_hd.webp',
+                'image': '/cards/gcg_332058.webp',
+                'golden_image': '/cards/gcg_332058_golden.webp',
+                'cost': '2 White',
+                'description': "At the End Phase of the next Round, each side's active character's HP is set to 5.",
+                'flavor': "\"I refuse. The world is not as weak as you think.\"",
+                'id': 'F3',
+            },
+
+            "anadventurethroughthemorningmist": {
+                'name': "\"An Adventure Through the Morning Mist\"",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332059_hd.webp',
+                'image': '/cards/gcg_332059.webp',
+                'golden_image': '/cards/gcg_332059_golden.webp',
+                'cost': '0 White',
+                'description': "Put at most 2 cards with the lowest Current Elemental Dice Cost in your Hand at the bottom of your deck, then draw the same number of cards. \n\nAfter this card is Discarded: Adventure once.",
+                'flavor': "\"...I won't let you get it! Because we're going to stop your plan, right here!\"",
+                'id': 'FE',
+            },
+
+            "geniussupgradetechnique": {
+                'name': "Genius's Upgrade Technique",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332060_hd.webp',
+                'image': '/cards/gcg_332060.webp',
+                'golden_image': '/cards/gcg_332060_golden.webp',
+                'cost': '0 White',
+                'description': "Generate 1 random Item Card. Grant Empowerment to the 2 cards with the highest Current Elemental Dice Cost in your Hand.",
+                'flavor': "\"Alright, upgrade complete! Time to treat myself to a tasty snack.\"",
+                'id': 'FS',
+            },
+
+            "clinkclanklegion": {
+                'name': "Clink Clank Legion",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332061_hd.webp',
+                'image': '/cards/gcg_332061.webp',
+                'golden_image': '/cards/gcg_332061_golden.webp',
+                'cost': '1 White',
+                'description': "Create 3 random cards with an original Elemental Dice cost of 3 and add them to your Hand. \n\nIf this card has Empowerment attached, attach Empowerment to the 3 cards in your Hand with the highest Current Elemental Dice Cost.",
+                'flavor': "\"Clink Clank Legion, move out!\"",
+                'id': 'FT',
+            },
+
+            "cleaningtime": {
+                'name': "Cleaning Time",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332062_hd.webp',
+                'image': '/cards/gcg_332062.webp',
+                'golden_image': '/cards/gcg_332062_golden.webp',
+                'cost': '0 White',
+                'description': "For each type of effect status applied to your Hand, create 1 random basic Elemental Die. (Max 2)",
+                'flavor': "\"Cleanup sequence in progress... Based on data from past incidents, please avoid dropping small items such as: Mora, screws, gears, minerals, toys, gummies, snacks, hairbands, socks, and slippers.\"",
+                'id': 'G7',
+            },
+
+            "lilfungisfuntasticfiesta": {
+                'name': "Lil' Fungi's Fun-Tastic Fiesta",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332063_hd.webp',
+                'image': '/cards/gcg_332063.webp',
+                'golden_image': '/cards/gcg_332063_golden.webp',
+                'cost': '5 White',
+                'description': "Increase DMG dealt by your targeted Monster characters by 1. (Cannot stack) \n\n While this card is in your Hand, whenever your Monster characters use Skills: Grants Cost Reduction to this card. \n\nWhen this card is Discarded: A random one of your Monster characters gains +1 Max HP. \n\n(Can only be added to your deck if it contains at least 2 Monster characters)",
+                'flavor': "\"Lil' Fungi, Loads of Fun!\"",
+                'id': 'GT',
+            },
+
+            "thepowerofresearch": {
+                'name': "The Power of Research",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332064_hd.webp',
+                'image': '/cards/gcg_332064.webp',
+                'golden_image': '/cards/gcg_332064_golden.webp',
+                'cost': '1 White',
+                'description': "The next 3 times you play a card with a Current Elemental Dice Cost of 3 or more, create 1 random basic Elemental Die.",
+                'flavor': "\"Science, of course! That's the only way!\"",
+                'id': 'GU',
+            },
+
+            "witchshomework": {
+                'name': "Witch's Homework",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332065_hd.webp',
+                'image': '/cards/gcg_332065.webp',
+                'golden_image': '/cards/gcg_332065_golden.webp',
+                'cost': '1 White',
+                'description': "Draw 1  Talent card. If your deck initially contains at least 3  Talent cards, grant Cost Reduction to a random  Talent card with the highest Current Elemental Dice Cost in your Hand.",
+                'flavor': "\"Rather than a scenario where we jump in and save the day out of nowhere, it makes more sense to lay the groundwork over time...\"",
+                'id': 'H6',
+            },
+
+            "feastinginasharedtoast": {
+                'name': "Feasting in a Shared Toast",
+                'tags': ['event'],
+                'hi_res_image': '/cards/gcg_332066_hd.webp',
+                'image': '/cards/gcg_332066.webp',
+                'golden_image': '/cards/gcg_332066_golden.webp',
+                'cost': '0 White',
+                'description': "When the next Round begins: Both sides draw 2 cards and gain 2 random Elemental Dice.",
+                'flavor': "Always the last one, as usual! Grab a seat, we've been waiting ages for you!",
+                'id': 'H7',
+            },
             
             "jueyunguoba": {
                 "name": "Jueyun Guoba",
@@ -5541,6 +8676,126 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 'description': "Heal the target character for 1 HP. The next 3 times this character takes DMG, they will also heal 1 HP afterward. \n\n(A character can consume at most 1 Food per Round)",
                 'flavor': "Small, multicolored little pastries. Their crispy outer shell packages a sweet, soft center, each refined to perfection.\nThere is a saying in Fontaine that \"a dessert spread without macarons is like having the many waters bereft of their source.\"",
                 'id': 'AW',
+            },
+
+            "sauruscrackers": {
+                'name': "Saurus Crackers",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333016_hd.webp',
+                'image': '/cards/gcg_333016.webp',
+                'golden_image': '/cards/gcg_333016_golden.webp',
+                'cost': '0 White',
+                'description': "During this Round, the target character will use 1 fewer Elemental Die the next time they use a Technique. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "Crackers shaped like little Saurians. Light, crispy, sweet, and fragrant, with adorable patterns on top to boot — how could the people of Natlan not be won over by such delectable snacks?",
+                'id': 'BZ',
+            },
+
+            "glitteringgemstones": {
+                'name': "Glittering Gemstones",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333017_hd.webp',
+                'image': '/cards/gcg_333017.webp',
+                'golden_image': '/cards/gcg_333017_golden.webp',
+                'cost': '1 White',
+                'description': "The target character gains 1 additional Max HP. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "Multicolored biscuits. The sour and sweet jam gives off the clear luster of crystalline form, adding a shine to the crunchy treats. Such radiance! Such tastiness! What could this be but equal even to the most precious jewels?",
+                'id': 'CB',
+            },
+
+            "puffpops": {
+                'name': "Puff Pops",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333018_hd.webp',
+                'image': '/cards/gcg_333018.webp',
+                'golden_image': '/cards/gcg_333018_golden.webp',
+                'cost': '1 White',
+                'description': "The next 3 times a card whose name was not in your initial deck is added to your Hand, heal your target character for 1 HP. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "A snack with lots of different flavors. If you close your eyes, you won't be able to guess what flavor you'll get next, and eating them is sure to increase your heart rate. The \"pop\" part of the name comes from the sound of Grainfruit kernels bursting open under high temperatures.",
+                'id': 'CL',
+            },
+
+            "hotspringoclock": {
+                'name': "Hot Spring O'Clock",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333019_hd.webp',
+                'image': '/cards/gcg_333019.webp',
+                'golden_image': '/cards/gcg_333019_golden.webp',
+                'cost': '1 White',
+                'description': "Heal the target for HP equal to the number of your summons on the field. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "A pizza made using Grainfruit. Grainfruit is scattered across the crust before a thick layer of cheese is poured on top, and the whole thing is delivered into the oven. The final touch is to then draw a little Koholasaurus picture on it. Eat it while it's hot — the warmth will remind you of a serene time spent enjoying a soothing soak in a hot spring.",
+                'id': 'CS',
+            },
+
+            "mystiquesoup": {
+                'name': "Mystique Soup",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333020_hd.webp',
+                'image': '/cards/gcg_333020.webp',
+                'golden_image': '/cards/gcg_333020_golden.webp',
+                'cost': '1 White',
+                'description': "Select 1 of 3 random effects to be performed on the target character. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "A drink made from Grainfruit. Originally invented as a type of medicine by a certain shaman of the Masters of the Night-Wind, the recipe has been altered with the passage of time and is now a common drink at social gatherings.",
+                'id': 'D0',
+            },
+
+            "singyourheartout": {
+                'name': "Sing Your Heart Out",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333027_hd.webp',
+                'image': '/cards/gcg_333027.webp',
+                'golden_image': '/cards/gcg_333027_golden.webp',
+                'cost': '3 Black',
+                'description': "All of your characters gain Satiated. Draw 2 cards and use 1 fewer Elemental Die for the next 2 character switches. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "A cool-flavored throat lozenge. Said to be the Flower-Feather Clan's secret weapon for soothing their throats and protecting their vocal cords — so eat one and go sing your heart out! Just make sure you don't go overboard, as too much sugar can leave your throat feeling hoarse.",
+                'id': 'D8',
+            },
+
+            "harvestsboon": {
+                'name': "Harvest's Boon",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333028_hd.webp',
+                'image': '/cards/gcg_333028.webp',
+                'golden_image': '/cards/gcg_333028_golden.webp',
+                'cost': '1 White',
+                'description': "Heal the target character for 1 HP. For the target character's next 2 instances of Prepare Skill: Heal self for 1 HP. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "A rich and comforting meal held together by the humble Grainfruit. Minced meat is stir-fried and placed in a baking pan with larger chunks of meat and eggs. The whole thing is then covered with a layer of mashed Grainfruit and baked until a tantalizing golden brown. This hearty dish can often be found on the tables of the Collective of Plenty during harvest festivals.",
+                'id': 'DN',
+            },
+
+            "chenyubrew": {
+                'name': "Chenyu Brew",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333029_hd.webp',
+                'image': '/cards/gcg_333029.webp',
+                'golden_image': '/cards/gcg_333029_golden.webp',
+                'cost': '0 White',
+                'description': "Choose one of your characters. The next 2 times you Adventure, or during the End Phase, heal the target character for 1 HP. \n\n(A character can consume at most 1 Food per Round.)",
+                'flavor': "Your initial sip brings forth flavor on an elegant light breeze, the sweet fragrances of Chenyu Vale alighting upon your lips and tongue. Hark — is that the sweet tinkling of the mountain springs singing in your ear?",
+                'id': 'ES',
+            },
+
+            "roulettespecial": {
+                'name': "Roulette Special",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333030_hd.webp',
+                'image': '/cards/gcg_333030.webp',
+                'golden_image': '/cards/gcg_333030_golden.webp',
+                'cost': '4 White',
+                'description': "The target character gains 4 random buffs from the following effects: \n\nHeal the target character for 2 HP. \n\nThe target character gains +1 Max HP. \n\nThe next Skill the target character uses costs 1 less Elemental Die. \n\nThe target character deals +1 DMG the next time they do damage. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "Colorful drinks. It might be more accurate to call this a table game than nourishment of any sort, one where the rules are to drink whatever drink the pointer falls on.",
+                'id': 'GJ',
+            },
+
+            "lakkaberrypie": {
+                'name': "Lakkaberry Pie",
+                'tags': ['event', 'food'],
+                'hi_res_image': '/cards/gcg_333031_hd.webp',
+                'image': '/cards/gcg_333031.webp',
+                'golden_image': '/cards/gcg_333031_golden.webp',
+                'cost': '4 White',
+                'description': "During this Round, the target character will use 2 fewer Elemental Dice the next 2 times they use Skills. \n\n(A character can consume at most 1 Food per Round)",
+                'flavor': "A sweet treat from the borderlands. Once made using nothing but Lakkaberries, the recipe was later enhanced by adding Midsommar Berries to the mix. The two fruits complement each other perfectly, giving this sweet pie a rich, enticing flavor. The original name, however, remains unchanged.",
+                'id': 'GV',
             },
         },
     
@@ -6504,6 +9759,634 @@ if (!(window.location.hash.substring(1).includes("FCyyUCaTqdmauwye29RQ"))) {
                 "type": "Combat Status",
                 "description": "After a character switch takes place on this side of the field: Deal 1 Pyro DMG to the character switched to. \n\nUsage(s): 2",
                 "related": "Chevreuse"
+            },
+            "geoinfusion": {
+                "name": "Geo Infusion",
+                "type": "Status",
+                "description": "The character to which this is attached has their Physical DMG dealt converted to Geo DMG. \n\nDuration (Rounds): 2",
+                "related": "Navia"
+            },
+            "crystalshrapnel": {
+                "name": "Crystal Shrapnel",
+                "type": "Event",
+                "cost": "1 White",
+                "description": "Deal 1 Physical DMG to the opponent's active character and draw 1 card.",
+                "related": "Navia"
+            },
+            "rosuladoratasalute": {
+                "name": "Rosula Dorata Salute",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Geo DMG, draw 1 Crystal Shrapnel card. \n\nUsage(s): 2",
+                "related": "Navia"
+            },
+            "onslaughtstance": {
+                "name": "Onslaught Stance",
+                "type": "Status",
+                "description": "End Phase: Deals 1 Piercing DMG to all opposing characters affected by Bond of Life. \n\nDuration (Rounds): 2",
+                "related": "Frost Operative"
+            },
+            "bondoflife": {
+                "name": "Bond of Life",
+                "type": "Status",
+                "description": "When the character to which this is attached is healed: This effect will be consumed once for every Usage(s) it has to negate 1 HP of healing received. (Cannot negate revives or healing caused by redistribution of HP) \n\nUsage(s): 1 (Can stack, no stack limit).",
+                "related": "Frost Operative"
+            },
+            "perstimer": {
+                "name": "Pers Timer",
+                "type": "Status",
+                "description": "For every 1 card you draw: This card will gain 1 Pressure Level. \n\nWhen the character to which this is attached uses Pressurized Floe: If Pressure Level is at least 2, cancel this effect, and the Skill costs 1 fewer Elemental Die. If, after the Skill is finalized, the Pressure Level is at least 4, deal 3 additional Physical DMG.",
+                "related": "Freminet"
+            },
+            "subnauticalhuntermode": {
+                "name": "Subnautical Hunter Mode",
+                "type": "Status",
+                "description": "After you draw 3 cards: Grants 1 Shield point to defend the character to which this is attached. (Can stack. Max 2 points.) \n\nAfter the character to which this is attached uses a Normal Attack or Elemental Skill: Place up to 2 cards with the highest Current Elemental Dice Cost in your Hand at the bottom of your deck, then draw the same number of cards. \n\nDuration (Rounds): 2",
+                "related": "Freminet"
+            },
+            "skyladder": {
+                "name": "Skyladder",
+                "type": "Combat Status",
+                "description": "When you perform \"Switch Character\": Spend 1 fewer Elemental Die. \n\nUsage(s): 1 (Can stack. Max 2 stacks.)",
+                "related": "Xianyun"
+            },
+            "driftcloudwave": {
+                "name": "Driftcloud Wave",
+                "type": "Status",
+                "description": "When you switch to the character to which this is attached: Deal 1 Anemo DMG. \n\nUsage(s): 1 (Can stack. Max 2 stacks.)",
+                "related": "Xianyun"
+            },
+            "starwicker": {
+                "name": "Starwicker",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Technique: Adeptal Assistance \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                "related": "Xianyun"
+            },
+            "frozen": {
+                "name": "Frozen",
+                "type": "Status",
+                "description": "Character cannot use Skills. (Lasts until the end of this Round) \n\nWhen this character receives Pyro DMG or Physical DMG, removes this effect and increases DMG taken by 2.",
+                "related": "Hydro Hilichurl Rogue"
+            },
+            "mistbubbleprison": {
+                "name": "Mist Bubble Prison",
+                "type": "Status",
+                "description": "Character cannot use Skills. (Lasts until the end of this Round)",
+                "related": "Hydro Hilichurl Rogue"
+            },
+            "mistbubbleslime": {
+                "name": "Mist Bubble Slime",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Technique: Bubble Battle Tactics \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                "related": "Hydro Hilichurl Rogue"
+            },
+            "chiorisautomatondolls": {
+                "name": "Chiori's Automaton Dolls",
+                "type": "Summon",
+                "description": "Varied humanoid automatons of Chiori's that can not only attack autonomously but also provide varied buffs.",
+                "related": "Chiori"
+            },
+            "electricrebirth": {
+                "name": "Electric Rebirth",
+                "type": "Status",
+                "description": "When the character to which this is attached would be defeated: Remove this effect, ensure the character gains Immunity to Defeat, and heals them to 4 HP. After this effect is triggered, this character deals +1 Electro DMG.",
+                "related": "Abyss Lector: Violet Lightning"
+            },
+            "spiritserpentsblessing": {
+                "name": "Spirit-Serpent's Blessing",
+                "type": "Combat Status",
+                "description": "When your Spirit of Omen: Dendro Spirit-Serpent uses Technique: The DMG dealt by this Technique +1, and does not consume Usage(s) of Spirit of Omen: Dendro Spirit-Serpent. \n\nUsage(s): 1 (Can stack, no limit)",
+                "related": "Eremite Floral Ring-Dancer"
+            },
+            "spiritofomendendrospiritserpent": {
+                "name": "Spirit of Omen: Dendro Spirit-Serpent",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Technique: Viny Razorscale \n\nUsage(s): 2 \n\n(A character can only equip 1 Technique at a time)",
+                "related": "Eremite Floral Ring-Dancer"
+            },
+            "scopeoutsoftspots": {
+                "name": "Scope Out Soft Spots",
+                "type": "Combat Status",
+                "description": "After your characters use a Skill: For each stack of this effect, there is a 10% chance of creating Strike Where It Hurts. If Strike Where It Hurts is created, the number of stacks of this effect is halved. (Rounded down)",
+                "related": "Rosaria"
+            },
+            "strikewhereithurts": {
+                "name": "Strike Where It Hurts",
+                "type": "Combat Status",
+                "description": "When dealing Skill DMG: Remove this status and double the DMG dealt for this instance.",
+                "related": "Rosaria"
+            },
+            "evercoldfrostlance": {
+                "name": "Evercold Frostlance",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Cryo DMG, create 2 stacks of Scope Out Soft Spots \n\nUsage(s): 2",
+                "related": "Rosaria"
+            },
+            "largebolsteringbubblebalm": {
+                "name": "Large Bolstering Bubblebalm",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "When this card is drawn: Heal your active character for 3 HP. Create 1 Medium Bolstering Bubblebalm and insert it as the second card from the top of your opponent's deck.",
+                "related": "Sigewinne"
+            },
+            "mediumbolsteringbubblebalm": {
+                "name": "Medium Bolstering Bubblebalm",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "When this card is drawn: Deals 2 Hydro DMG to the active character on the side of the field this card is on. Create 1 Small Bolstering Bubblebalm and place it at the top of your opponent's deck.",
+                "related": "Sigewinne"
+            },
+            "smallbolsteringbubblebalm": {
+                "name": "Small Bolstering Bubblebalm",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "When this card is drawn: Heal all your characters for 1 HP. Create Sourcewater Droplet.",
+                "related": "Sigewinne"
+            },
+            "goldencorrosion": {
+                "name": "Golden Corrosion",
+                "type": "Status",
+                "description": "End Phase: If the character to which this is attached is on standby, then that character will take 1 Piercing DMG for every Usage(s) that this effect has. \n\nUsage(s): 1 (Can stack. Max 3 stacks.)",
+                "related": "Golden Wolflord"
+            },
+            "rifthoundskull": {
+                "name": "Rifthound Skull",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Geo DMG. Attach Golden Corrosion to target character. \n\nUsage(s): 2",
+                "related": "Golden Wolflord"
+            },
+            "biteyshark": {
+                "name": "Bitey Shark",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "After either side switches characters, and Mualani is the active character: Spend 1 Nightsoul point to apply Bite Target to the opposing active character. \n\nTechnique: Sharky Surfboard \n\nWhen the character to which this is attached has 0 Nightsoul points, discard this card. When this card is discarded, the character to which this is attached has their Nightsoul's Blessing end.",
+                "related": "Mualani"
+            },
+            "nightsoulsblessing": {
+                "name": "Nightsoul's Blessing",
+                "type": "Status",
+                "description": "The character to which this is attached accumulates \"Nightsoul points.\" (Max 2 points)",
+                "related": "Mualani"
+            },
+            "sharkmissile": {
+                "name": "Shark Missile",
+                "type": "Summon",
+                "description": "End Phase: Deal 2 Hydro DMG. \n\nUsage(s): 2 (Can stack, no stack limit)",
+                "related": "Mualani"
+            },
+            "nightvigil": {
+                "name": "Night Vigil",
+                "type": "Status",
+                "description": "When a character receives healing apart from Hunter's Vigil, it is replaced by an equivalent amount of Bond of Life. \n\nAfter the character to which this is attached uses a Normal Attack: The Physical DMG dealt is converted to Electro DMG, and said character gains 2 stacks of Bond of Life. \n\nDuration (Rounds): 1",
+                "related": "Clorinde"
+            },
+            "blooddebtdirective": {
+                "name": "Blood-Debt Directive",
+                "type": "Combat Status",
+                "description": "After your character receives DMG: Attach 2 stacks of Bond of Life to the character who took DMG and the opponent's Arlecchino. \n\nUsage(s): 3",
+                "related": "Arlecchino"
+            },
+            "grapplelink": {
+                "name": "Grapple Link",
+                "type": "Status",
+                "description": "After the opposing side takes Burning DMG, or your other characters use a Technique: The character to which this is attached gains 1 Nightsoul point. \n\nWhen Nightsoul points are at 2: Attach Grapple Prepare to the character to which this is attached, then consume 2 Nightsoul points. (After Grapple Prepare is attached, before your characters select their actions, if the attached character is the active character: Deal 3 Dendro DMG to the nearest opponent) \n\nDuration (Rounds): 2",
+                "related": "Kinich"
+            },
+            "almightydragonlordajaw": {
+                "name": "Almighty Dragonlord (Ajaw)",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Dendro DMG, then deal 1 Dendro DMG to your opponent's next character. \n\nUsage(s): 2",
+                "related": "Kinich"
+            },
+            "turbotwirly": {
+                "name": "Turbo Twirly",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "When the character to which this is attached is switched out: Consume 1 Nightsoul point, and summon 1 Turbo Twirly: Let It Rip. \n\nTechnique: Twirly Twirly Bam Bam \n\n(A character can only equip 1 Technique at a time) \n\nWhen the attached character has 0 Nightsoul points, discard this card. When this card is discarded, the attached character's Nightsoul's Blessing ends.",
+                "related": "Kachina"
+            },
+            "turbodrillfield": {
+                "name": "Turbo Drill Field",
+                "type": "Combat Status",
+                "description": "Your Turbo Twirly deals Geo DMG +1, and deals Piercing DMG +1. \n\nUsage(s): 3",
+                "related": "Kachina"
+            },
+            "lumidoucecaselevel1": {
+                "name": "Lumidouce Case: Level 1",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Dendro DMG. \n\nAfter you deal Burning reaction DMG: This card levels up to become Lumidouce Case: Level 2. \n\nUsage(s): 3 (Can stack. Max 6 stacks.)",
+                "related": "Emilie"
+            },
+            "lumidoucecaselevel3": {
+                "name": "Lumidouce Case: Level 3",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Dendro DMG to all opponents. \n\nUsage(s): 1",
+                "related": "Emilie"
+            },
+            "burningflame": {
+                "name": "Burning Flame",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Pyro DMG. \n\nUsage(s): 1 (Can stack. Max 2 stacks.)",
+                "related": "Emilie"
+            },
+            "thunderconvergence": {
+                "name": "Thunder Convergence",
+                "type": "Status",
+                "description": "After your characters trigger Electro-Related Reactions: The character to which this is attached gains 1 Energy. \n\nUsage(s): 1",
+                "related": "Sethos"
+            },
+            "twilightmeditation": {
+                "name": "Twilight Meditation",
+                "type": "Status",
+                "description": "When the character to which this is attached used a Normal Attack: Physical DMG dealt is converted to Electro DMG, DMG +1, Unaligned Element cost -1, and deal 1 Piercing DMG to the opposing character with the lowest HP. \n\nDuration (Rounds): 2",
+                "related": "Sethos"
+            },
+            "combatbladinggear": {
+                "name": "Combat Blading Gear",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "The character to which this is attached has their Physical DMG dealt converted to Geo DMG. \n\nTechnique: High-Speed Leap \n\nWhen the attached character has 0 Nightsoul points, discard this card. When this card is discarded, the attached character's Nightsoul's Blessing ends.",
+                "related": "Xilonen"
+            },
+            "sourcesamplegeo": {
+                "name": "Source Sample: Geo",
+                "type": "Status",
+                "description": "When the Round begins: If the character to which this is attached has 2 Nightsoul points, create 1 Take Extra Geo DMG on the opponent's side of the field. After activating all Source Samples, consume 2 Nightsoul points.",
+                "related": "Xilonen"
+            },
+            "opalshield": {
+                "name": "Opal Shield",
+                "type": "Combat Status",
+                "description": "Grants 1 Shield point to your active character. (Can stack)",
+                "related": "Citlali"
+            },
+            "itzpapa": {
+                "name": "Itzpapa",
+                "type": "Combat Status",
+                "description": "After your characters take DMG: Deduct 1 Nightsoul point from Citlali and create 1 stack of Opal Shield. \n\nWhen Citlali gains Nightsoul points and her Nightsoul points reach 2, prioritize dealing 1 Cryo DMG to the opponent's active character. \n\nDuration (Rounds): 2",
+                "related": "Citlali"
+            },
+            "crucibleofdeathandlife": {
+                "name": "Crucible of Death and Life",
+                "type": "Status",
+                "description": "All your characters' Skills no longer consume Nightsoul points. \n\nAll your characters' Normal Attacks deal +1 DMG. \n\nUsage(s): 2",
+                "related": "Mavuika"
+            },
+            "allfirearmamentsringofsearingradiance": {
+                "name": "All-Fire Armaments: Ring of Searing Radiance",
+                "type": "Combat Status",
+                "description": "After another of your characters uses a Normal Attack or Technique: Mavuika consumes 1 Nightsoul point and deals 1 Pyro DMG. (Destroys self after Mavuika exits Nightsoul's Blessing.)",
+                "related": "Mavuika"
+            },
+            "soulsniperritualstaff": {
+                "name": "Soulsniper: Ritual Staff",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Technique: Multitarget Fire. \n\nWhen this card is discarded, the Nightsoul's Blessing of the character to which this is attached ends. \n\n(A character can only equip 1 Technique at a time)",
+                "related": "Chasca"
+            },
+            "shadowhuntshell": {
+                "name": "Shadowhunt Shell",
+                "type": "Event",
+                "cost": "3 Anemo",
+                "description": "When this card is added to your Hand: If your active character is Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element. \n\nWhen this card is played or you Discard it from your Hand: Prioritize dealing 1 Anemo DMG to the opponent's active character, then randomly add 1 Shadowhunt Shell to your deck.",
+                "related": "Chasca"
+            },
+            "swallowwispshield": {
+                "name": "Swallow-Wisp Shield",
+                "type": "Combat Status",
+                "description": "Grants 1 Shield point to your active character. (Can stack, no stack limit)",
+                "related": "Lan Yan"
+            },
+            "efficientswitch": {
+                "name": "Efficient Switch",
+                "type": "Combat Status",
+                "description": "The next time you perform \"Switch Character\": Spend 1 fewer Elemental Die. (Can stack, no stack limit)",
+                "related": "Lan Yan"
+            },
+            "declension": {
+                "name": "Declension",
+                "type": "Status",
+                "description": "If this state has 2 stacks, then consume 2 stacks of this state, and the next Heartstopper Strike this character performs will be considered a Fast Action, while DMG for this Heartstopper Strike: Charge will be increased by 1. (Can stack, no limit)",
+                "related": "Shikanoin Heizou"
+            },
+            "wellfedandstrong": {
+                "name": "Well Fed and Strong",
+                "type": "Status",
+                "description": "Each stack causes this character to deal +1 DMG the next time they deal DMG. (Can stack, no stack limit, max 2 stacks each time)",
+                "related": "Gluttonous Yumkasaur Mountain King"
+            },
+            "wellfedandsturdy": {
+                "name": "Well Fed and Sturdy",
+                "type": "Status",
+                "description": "Next time you take damage: -1 DMG. (Can stack. No stack limit)",
+                "related": "Gluttonous Yumkasaur Mountain King"
+            },
+            "agileswitch": {
+                "name": "Agile Switch",
+                "type": "Combat Status",
+                "description": "The next time you perform \"Switch Character\": This switch will be considered a Fast Action instead of a Combat Action. (Can stack, no stack limit)",
+                "related": "Iansan"
+            },
+            "kineticenergyscale": {
+                "name": "Kinetic Energy Scale",
+                "type": "Combat Status",
+                "description": "When your character deals DMG: Deal +2 DMG for this instance. If Iansan is in Nightsoul's Blessing, Usage(s) is not consumed, but consume 1 of Iansan's Nightsoul points instead. \n\nUsage(s): 2",
+                "related": "Iansan"
+            },
+            "dreamdrifter": {
+                "name": "Dreamdrifter",
+                "type": "Status",
+                "description": "When you declare the end of your Round: Replace the active character with the character to which this is attached, and deal 1 Anemo DMG. \n\nUsage(s): 1",
+                "related": "Yumemizuki Mizuki"
+            },
+            "yumemistylespecialsnacks": {
+                "name": "Yumemi Style Special Snacks",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "When this card enters your Hand: If your active character's HP is above 5, deal 1 Anemo DMG. Otherwise, heal them for 2 HP. After this effect is applied, draw 1 card and then discard this card.",
+                "related": "Yumemizuki Mizuki"
+            },
+            "minibaku": {
+                "name": "Mini Baku",
+                "type": "Summon",
+                "description": "End Phase: Create 1 Yumemi Style Special Snacks and place it at the top of your deck. \n\nUsage(s): 3",
+                "related": "Yumemizuki Mizuki"
+            },
+            "resentment": {
+                "name": "Resentment",
+                "type": "Status",
+                "description": "Each stack causes the character to which this is attached to deal +1 DMG and +1 Elemental Burst Piercing DMG. (Can stack, no stack limit)",
+                "related": "Lord of Eroded Primal Fire"
+            },
+            "suddenonrush": {
+                "name": "Sudden Onrush",
+                "type": "Status",
+                "description": "Before your next action, switch the character to which this is attached to be the active character.",
+                "related": "Varesa"
+            },
+            "apexdrive": {
+                "name": "Apex Drive",
+                "type": "Status",
+                "description": "After Varesa is switched in to be the Active Character: Prepare Skill: Guardian Vent: Volcano Kablam. \n\nUsage(s): 1",
+                "related": "Varesa"
+            },
+            "cacucu": {
+                "name": "Cacucu",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Technique: Supporting Fire \n\nWhen the character to which this is attached has 0 Nightsoul points, discard this card. When this card is discarded, the attached character's Nightsoul's Blessing ends.",
+                "related": "Ifa"
+            },
+            "halftulpa": {
+                "name": "Half-Tulpa",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Hydro DMG. \n\nWhen this card is discarded: Heal all your Hydro Tulpa for 2 HP. \n\nUsage(s): 2",
+                "related": "Hydro Tulpa"
+            },
+            "cookingmekcoldstoragemode": {
+                "name": "Cooking Mek: Cold Storage Mode",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Cryo DMG. \n\nUsage(s): 2",
+                "related": "Escoffier"
+            },
+            "allspectrummultiusecookingmek": {
+                "name": "All-Spectrum Multi-Use Cooking Mek",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Upon triggering Cryo-Related Reactions by any side: Randomly create 1 Gilded Hall, Autumn Frost, Wave-Kissed Sands, or Verdant Gift and add it to your Hand. \n\nUsage(s): 2",
+                "related": "Escoffier"
+            },
+            "wushouarts": {
+                "name": "Wushou Arts",
+                "type": "Status",
+                "description": "Before your character chooses their action, if the character to which this is attached is your active character, use the Skill: Charmed Cloudstrider.",
+                "related": "Gaming"
+            },
+            "suannimanchai": {
+                "name": "Suanni: Man Chai",
+                "type": "Status",
+                "description": "The attached character's Elemental Skill spends 1 fewer Elemental Die and deals +1 DMG. \n\nWhen the attached character uses an Elemental Skill: If their current HP is 5 or higher, they don't spend Usage(s). Instead, they take 1 Piercing DMG. \n\nUsage(s): 2",
+                "related": "Gaming"
+            },
+            "mightofstone": {
+                "name": "Might of Stone",
+                "type": "Status",
+                "description": "The character to which this is attached deals +1 DMG. If the opposing character is under a shield or damage reduction effect, deal +3 DMG instead. \n\nUsage(s): 1 (Can stack, no stack limit)",
+                "related": "Black Serpent Knight: Rockbreaker Ax"
+            },
+            "mutualweaponsmentorship": {
+                "name": "Mutual Weapons Mentorship",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "This card attaches Seven-Phase Flash to your Skirk. \n\nAt the start of the Round or after your side performs a switch: Discard this card and gain 1 Serpent's Subtlety.",
+                "related": "Skirk"
+            },
+            "voidrift": {
+                "name": "Void Rift",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Combat Action: If there is a card with a Current Elemental Dice Cost of 3 in your Hand, Discard 1 card with a Current Elemental Dice Cost of 3 from your Hand. Allied Skirk then gains 2 Serpent's Subtlety.",
+                "related": "Skirk"
+            },
+            "spiritorb": {
+                "name": "Spirit Orb",
+                "type": "Combat Status",
+                "description": "When the Action Phase begins: Deals 1 Electro DMG. \n\nUsage(s): 1",
+                "related": "Ororon"
+            },
+            "supersonicoculus": {
+                "name": "Supersonic Oculus",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Electro DMG. \n\nWhen your active character takes DMG: Reduce DMG taken by 1, then this card's Usage(s) -1. (Once per Round) \n\nUsage(s): 3",
+                "related": "Ororon"
+            },
+            "bonecrunchersenergyblock": {
+                "name": "Bonecruncher's Energy Block",
+                "type": "Event",
+                "cost": "0 White",
+                "description": "Randomly Discard 1 card from your Hand with the highest Current Elemental Dice Cost and create 1 Elemental Die of your active character's Element. (Only 1 such card can be played per Round)",
+                "related": "Consecrated Horned Crocodile"
+            },
+            "soulwind": {
+                "name": "Soulwind",
+                "type": "Combat Status",
+                "description": "After an allied character uses Normal Attack: The next time this character uses Normal Attack this turn costs 2 fewer Unaligned Element. \n\nUsage(s): 1",
+                "related": "Mika"
+            },
+            "eagleplumeexperience": {
+                "name": "Eagleplume Experience",
+                "type": "Combat Status",
+                "description": "When your character uses a Normal Attack, spend 1 less Elemental Die. \n\nUsage(s): 2",
+                "related": "Mika"
+            },
+            "eagleplumeencomium": {
+                "name": "Eagleplume Encomium",
+                "type": "Combat Status",
+                "description": "After your character uses a Normal Attack: Heal self for 1 HP. \n\nUsage(s): 2",
+                "related": "Mika"
+            },
+            "shield": {
+                "name": "Shield",
+                "type": "Combat Status",
+                "description": "Grants 1 Shield point to your active character. (Can stack, no stack limit)",
+                "related": "Ineffa"
+            },
+            "birgitta": {
+                "name": "Birgitta",
+                "type": "Summon",
+                "description": "End Phase: Deal 1 Electro DMG. \n\nUsage(s): 2",
+                "related": "Ineffa"
+            },
+            "flyingswirl": {
+                "name": "Flying Swirl",
+                "type": "Status",
+                "description": "Next time you take damage: -1 DMG. \n\nUsage(s): 1 (Can stack. No stack limit)",
+                "related": "Goldflame Qucusaur Tyrant"
+            },
+            "goldflamestate": {
+                "name": "Goldflame State",
+                "type": "Status",
+                "description": "End Phase: If the character to which this is attached is your active character, deal 1 Pyro DMG, and deal 1 Piercing DMG to all opposing characters on standby. \n\nUsage(s): 1 (Can stack, no stack limit)",
+                "related": "Goldflame Qucusaur Tyrant"
+            },
+            "sacramentalshower": {
+                "name": "Sacramental Shower",
+                "type": "Combat Status",
+                "description": "After your opponent switches characters: Deal 1 Hydro DMG to the opponent's active character. \n\nAfter you switch characters: Create 1 random basic Elemental Die. \n\nUsage(s): 1",
+                "related": "Dahlia"
+            },
+            "favonianfavor": {
+                "name": "Favonian Favor",
+                "type": "Combat Status",
+                "description": "After your character receives DMG: Generate 1 Shield. \n\nUsage(s): 2",
+                "related": "Dahlia"
+            },
+            "coolyourjetsducky": {
+                "name": "Cool Your Jets Ducky",
+                "type": "Summon",
+                "description": "End Phase: Deal 2 Hydro DMG. \n\nUsage(s): 2",
+                "related": "Aino"
+            },
+            "manifestflame": {
+                "name": "Manifest Flame",
+                "type": "Status",
+                "description": "During this Round, the attached character's Physical DMG is converted to Electro DMG. The character's Normal Attack deals +1 DMG. \n\nDuration (Rounds): 1",
+                "related": "Flins"
+            },
+            "thundercloud": {
+                "name": "Thundercloud",
+                "type": "Summon",
+                "description": "End Phase: Deal 2 Electro DMG. \n\nUsage(s)(s): 1 (Can stack, no stack limit) \n\nWhen this card enters the field, or its usages increase: Apply Electric Shock to 1 random card in your opponent's Hand.",
+                "related": "Flins"
+            },
+            "frostgrovesanctuary": {
+                "name": "Frostgrove Sanctuary",
+                "type": "Combat Status",
+                "description": "End Phase: Deal 1 Dendro DMG. \n\nUsage(s): 2",
+                "related": "Lauma"
+            },
+            "palehymn": {
+                "name": "Pale Hymn",
+                "type": "Combat Status",
+                "description": "Your Lunar-Bloom reactions deal +1 DMG. \n\nUsage(s): 3",
+                "related": "Lauma"
+            },
+            "lowgravitybackground": {
+                "name": "Low Gravity Background",
+                "type": "Combat Status",
+                "description": "After either side uses a Skill: Attaches Evasion to this character and switches to the next character. \n\nDuration (Rounds): 2",
+                "related": "Experimental Field Generator"
+            },
+            "shockblast": {
+                "name": "Shock Blast",
+                "type": "Combat Status",
+                "description": "End Phase: Deal 1 Piercing DMG to all opposing characters who have not been afflicted by Evasion. \n\nDuration (Rounds): 2",
+                "related": "Experimental Field Generator"
+            },
+            "res": {
+                "name": "RES",
+                "type": "Status",
+                "description": "When the character to which this is attached takes DMG: Decrease DMG taken by 1. (Can stack, no stack limit)",
+                "related": "Nefer"
+            },
+            "seedsofdeceit": {
+                "name": "Seeds of Deceit",
+                "type": "Event",
+                "cost": "5 Dendro",
+                "description": "Combat Action: Can be used when Nefer is the active character. \n\nNefer uses the Skill: Phantasm Performance.",
+                "related": "Nefer"
+            },
+            "radianthues": {
+                "name": "Radiant Hues",
+                "type": "Event",
+                "cost": "2 Cryo",
+                "description": "Combat Action: Create 2 stacks of Shield.",
+                "related": "Wayward Hermetic Spiritspeaker"
+            },
+            "essentialtransmutation": {
+                "name": "Essential Transmutation",
+                "type": "Status",
+                "description": "When the attached character uses a Normal Attack: Deals 1 Pyro DMG. \n\nWhen the attached character uses an Elemental Skill: Generate 1 stack of Efficient Switch.",
+                "related": "Durin"
+            },
+            "confirmationofpurity": {
+                "name": "Confirmation of Purity",
+                "type": "Combat Status",
+                "description": "After your character uses a Skill: Deal 1 Pyro DMG. \n\nUsage(s): 4",
+                "related": "Durin"
+            },
+            "purrloinedtreasureflask": {
+                "name": "Purr-loined Treasure Flask",
+                "type": "Event",
+                "cost": "4 White",
+                "description": "When Jahoda switches to become the active character: If the opponent's active character is affected by Pyro/Hydro/Electro/Cryo, convert this card to the corresponding element. \n\nCombat Action: Deal 2 Anemo DMG to the opponent's active character. Then, deal 1 Anemo DMG once again.",
+                "related": "Jahoda"
+            },
+            "purrsonalcoordinatedassistancerobots": {
+                "name": "Purrsonal Coordinated Assistance Robots",
+                "type": "Combat Status",
+                "description": "End Phase: Deals 1 Anemo DMG if your active character is Dendro or Geo; otherwise, deals 1 DMG of that character's Elemental Type. Heal the character on your team that has taken the most damage for 2 HP. \n\nUsage(s): 2",
+                "related": "Jahoda"
+            },
+            "waterdroplet": {
+                "name": "Water Droplet",
+                "type": "Summon",
+                "description": "End Phase: If your Hydro Hypostasis does not have Hydro Crystal Core attached, attach Hydro Crystal Core to this character. Otherwise, deal 2 Hydro DMG. \n\nUsage(s): 2",
+                "related": "Hydro Hypostasis"
+            },
+            "hydrocrystalcore": {
+                "name": "Hydro Crystal Core",
+                "type": "Status",
+                "description": "When the character to which this is attached would be defeated: Remove this effect, ensure the character will not be defeated, and heal them to 1 HP.",
+                "related": "Hydro Hypostasis"
+            },
+            "gravityripple": {
+                "name": "Gravity Ripple",
+                "type": "Combat Status",
+                "description": "End Phase: Deal 1 Hydro DMG. \n\nUsage(s): 2",
+                "related": "Columbina"
+            },
+            "lunardomain": {
+                "name": "Lunar Domain",
+                "type": "Combat Status",
+                "description": "When the opponent is affected by Lunar-Charged: Also apply Electric Shock to 3 random cards in the opponent's Hand, increase DMG dealt by your Lunar-Charged by 2, and set the DMG dealt by your Thundercloud to 3. \n\nWhen the opponent is affected by Lunar-Bloom: Apply Cost Reduction to a random card in your Hand 3 times instead. \n\nWhen the opponent is affected by Lunar-Crystallize: The number of Moondrift Harmony generated is changed to 3. \n\nUsage(s): 3",
+                "related": "Columbina"
+            },
+            "aedon": {
+                "name": "Aedon",
+                "type": "Event",
+                "cost": "2 White",
+                "description": "Combat Action: Select 1 opposing character and deal 1 Geo DMG to them.",
+                "related": "Illuga"
+            },
+            "nightingalessong": {
+                "name": "Nightingale's Song",
+                "type": "Combat Status",
+                "description": "Enemy target takes +1 Geo DMG. \n\nUsage(s): 1 (Can stack, no stack limit) \n\nAfter you bring forth a Summon, this card gains 1 Usage.",
+                "related": "Illuga"
             },
         },
     
