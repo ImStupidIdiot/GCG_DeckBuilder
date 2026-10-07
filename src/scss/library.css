@@ -419,3 +419,36 @@
     width: 280px;
     border-radius: 5px;
 }
+
+/* card detail boxes on narrow screens: keep the art and text inside the box */
+@media (max-width: 1000px) {
+    .infoBoxImage {
+        max-width: 100%;
+        max-height: 400px;
+        width: auto;
+        height: auto;
+    }
+    .infoBoxScroll,
+    .charinfoBoxScroll {
+        height: 330px;
+    }
+}
+
+/* phones: the box itself fits the screen */
+@media (max-width: 700px) {
+    .infoBox {
+        width: 94vw;
+        height: 80vh;
+        border-radius: 25px;
+    }
+    .infoBoxImage {
+        max-height: 70vh;
+    }
+    .infoBoxScroll,
+    .charinfoBoxScroll {
+        height: calc(80vh - 110px);
+    }
+    .infoBoxName {
+        font-size: 20px;
+    }
+}
