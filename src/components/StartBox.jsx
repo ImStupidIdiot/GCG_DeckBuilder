@@ -38,19 +38,13 @@ class StartBox extends Component {
                 <Col xs={10} className="startBoxCol"> 
                 <div className = "startBox">
                 <br></br><br></br><br></br>
-                <strong className="startBoxTextBold">Helpful Links:</strong> <a className="startBoxText" href="https://cards.keqingmains.com/" target="_blank">KQM Deck Guides (!!!)</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1J2ZvmK2T_mJR6BtPdXiSSnq1d2xesl_A3oA235ZvMLI/edit?usp=sharing" target="_blank">Google Sheet Simulator</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1GMau1t-g8cDDpQLnSfgAuDt9qh5V1BoRIkTjkXy92MQ/edit?usp=sharing" target="_blank">Deck List Storage / Fancifier</a>, <a className="startBoxText" href="https://docs.google.com/spreadsheets/d/1gopvNuL5-dVYI-qKvArf84JNFoLdFl1FeSXlU9_alL0/edit?usp=sharing" target="_blank">Changelog (no longer in use)</a>
+                <strong className="startBoxTextBold">GCG Deck Builder</strong>: build and share decks for Genius Invokation TCG, with every card up to version 7.1.
                 <br/><br/>
-                Welcome to the GCG Deck Builder! There's lots of placeholders right now but it should be fully functional. Symbol in top left currently toggles between character and action cards. Click outside this window to close it.
+                Click the symbol in the top left to switch between character and action cards. Click a card to add it to your deck, or hover over it and click the info button to see its details.
                 <br/><br/>
-                This does not currently work on Mobile. On Desktop, I'd recommend zooming out to 75%.
+                Export Deck gives you a code you can paste into the game, and Import Deck accepts codes copied from the game.
                 <br/><br/>
-                DM me on Discord (@StupidIdiot#9003) if you'd like to contribute art to replace a placeholder or find any bugs/typos. 
-                <br/><br/>
-                Head over to the Genius Invokation TCG Discord server (discord.gg/GITCG) if you'd like to particpate in tournaments, fight against others in ranked matches, or just talk about the TCG! 
-                <br/><br/>
-                I'm also live sometimes at <a className="startBoxText" href="https://twitch.tv/robotwizhs" target="_blank">twitch.tv/robotwizhs</a>. I'll definitely be streaming some Genius Invocation TCG up until and through the 3.3 patch. 
-                <br/><br/>
-                Todo list: mobile display... surely I'll get around to it one day...
+                Click anywhere to close this window.
                 <br/><br/>
                 </div>
                 </Col>
